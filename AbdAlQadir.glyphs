@@ -1,8 +1,6 @@
 {
+.appVersion = "1300";
 copyright = "Copyright © 2020 by Khaled Hosny. All rights reserved.";
-designer = "Khaled Hosny";
-designerURL = "https://github.com/alif-type";
-familyName = "Abd AlQadir";
 customParameters = (
 {
 name = glyphOrder;
@@ -190,50 +188,200 @@ empty
 },
 {
 name = license;
-value = "This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>";
+value = "This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\012\012This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.\012\012You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>";
 },
 {
 name = licenseURL;
 value = "https://www.gnu.org/licenses/agpl-3.0.html";
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Disable Last Change";
+value = 1;
 }
 );
+date = "2020-03-08 19:59:20 +0000";
+designer = "Khaled Hosny";
+designerURL = "https://github.com/alif-type";
+familyName = "Abd AlQadir";
 featurePrefixes = (
 {
-code = "#> languagesystem\012languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem arab dflt;\012#< languagesystem\012\012lookup AboveHah {\012  sub behDotless-ar.init by behDotless-ar.init.hah;\012  sub lam-ar.init by lam-ar.init.hah;\012  sub hah-ar.medi by hah-ar.init;\012  sub hah-ar.fina by hah-ar.3;\012} AboveHah;\012\012@Dots = [dotabove dotbelow twodotsabove twodotsbelow threedotsabove];\012\012\012\012\012";
+code = "#> languagesystem
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem arab dflt;
+#< languagesystem
+
+lookup AboveHah {
+  sub behDotless-ar.init by behDotless-ar.init.hah;
+  sub lam-ar.init by lam-ar.init.hah;
+  sub hah-ar.medi by hah-ar.init;
+  sub hah-ar.fina by hah-ar.3;
+} AboveHah;
+
+@Dots = [dotabove dotbelow twodotsabove twodotsbelow threedotsabove];
+
+
+
+
+";
 name = Languagesystems;
 }
 );
 features = (
 {
-code = "  sub alefHamzaabove-ar by alef-ar;\012  sub alefHamzabelow-ar by alef-ar;\012  sub alefMadda-ar      by alef-ar;\012  sub yehHamzaabove-ar by alefMaksura-ar;\012  sub wawHamzaabove-ar  by waw-ar;\012\012  sub beh-ar   by behDotless-ar dotbelow;\012  sub teh-ar   by behDotless-ar twodotsabove;\012  sub theh-ar  by behDotless-ar threedotsabove;\012  sub jeem-ar  by hah-ar dotbelow;\012  sub khah-ar  by hah-ar dotabove;\012  sub thal-ar  by dal-ar dotabove;\012  sub zain-ar  by reh-ar dotabove;\012  sub sheen-ar by seen-ar threedotsabove;\012  sub dad-ar   by sad-ar dotabove;\012  sub zah-ar   by tah-ar dotabove;\012  sub ghain-ar by ain-ar dotabove;\012  sub feh-ar   by fehDotless-ar dotabove;\012  sub qaf-ar   by qafDotless-ar twodotsabove;\012  sub noon-ar  by noonghunna-ar dotabove;\012  sub yeh-ar   by alefMaksura-ar twodotsbelow;";
+code = "  sub alefHamzaabove-ar by alef-ar;
+  sub alefHamzabelow-ar by alef-ar;
+  sub alefMadda-ar      by alef-ar;
+  sub yehHamzaabove-ar by alefMaksura-ar;
+  sub wawHamzaabove-ar  by waw-ar;
+
+  sub beh-ar   by behDotless-ar dotbelow;
+  sub teh-ar   by behDotless-ar twodotsabove;
+  sub theh-ar  by behDotless-ar threedotsabove;
+  sub jeem-ar  by hah-ar dotbelow;
+  sub khah-ar  by hah-ar dotabove;
+  sub thal-ar  by dal-ar dotabove;
+  sub zain-ar  by reh-ar dotabove;
+  sub sheen-ar by seen-ar threedotsabove;
+  sub dad-ar   by sad-ar dotabove;
+  sub zah-ar   by tah-ar dotabove;
+  sub ghain-ar by ain-ar dotabove;
+  sub feh-ar   by fehDotless-ar dotabove;
+  sub qaf-ar   by qafDotless-ar twodotsabove;
+  sub noon-ar  by noonghunna-ar dotabove;
+  sub yeh-ar   by alefMaksura-ar twodotsbelow;";
 name = ccmp;
 },
 {
-code = "#> feature\012  sub alef-ar from [alef-ar.1 alef-ar.2 alef-ar.3];\012  sub alefMaksura-ar from [alefMaksura-ar.1 alefMaksura-ar.2];\012  sub alefMaksura-ar.fina from [alefMaksura-ar.fina.1 alefMaksura-ar.fina.2];\012  sub behDotless-ar.high from [behDotless-ar.high.1];\012  sub fehDotless-ar from [fehDotless-ar.1 fehDotless-ar.2 fehDotless-ar.3];\012  sub fehDotless-ar.fina from [fehDotless-ar.fina.1 fehDotless-ar.fina.2 fehDotless-ar.fina.3];\012  sub fehDotless-ar.init from [fehDotless-ar.init.1];\012  sub hah-ar from [hah-ar.1 hah-ar.2 hah-ar.3];\012  sub hah-ar.init from [hah-ar.init.1 hah-ar.init.2];\012  sub heh-ar from [heh-ar.1 heh-ar.2];\012  sub heh-ar.fina from [heh-ar.fina.1 heh-ar.fina.2];\012  sub heh-ar.init from [heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7];\012  sub heh-ar.medi from [heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7];\012  sub kaf-ar from [kaf-ar.1 kaf-ar.2];\012  sub kaf-ar.fina from [kaf-ar.fina.1 kaf-ar.fina.2];\012  sub kaf-ar.init from [kaf-ar.init.1 kaf-ar.init.2];\012  sub kaf-ar.medi from [kaf-ar.medi.1 kaf-ar.medi.2];\012  sub lam_alef-ar from [lam_alef-ar.1];\012  sub lam_alef-ar.fina from [lam_alef-ar.fina.1];\012  sub meem-ar from [meem-ar.1 meem-ar.2];\012  sub meem-ar.fina from [meem-ar.fina.1 meem-ar.fina.2];\012  sub meem-ar.medi from [meem-ar.medi.1];\012  sub reh-ar from [reh-ar.1];\012  sub reh-ar.fina from [reh-ar.fina.1];\012  sub sad-ar from [sad-ar.1];\012  sub sad-ar.fina from [sad-ar.fina.1];\012  sub seen-ar from [seen-ar.1 seen-ar.2 seen-ar.3 seen-ar.4 seen-ar.5 seen-ar.6];\012  sub seen-ar.fina from [seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5];\012  sub seen-ar.init from [seen-ar.init.1 seen-ar.init.2 seen-ar.init.3 seen-ar.init.4 seen-ar.init.5 seen-ar.init.6];\012  sub seen-ar.medi from [seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6];\012  sub waw-ar from [waw-ar.1];\012  sub waw-ar.fina from [waw-ar.fina.1];\012#< feature";
+code = "#> feature
+  sub alef-ar from [alef-ar.1 alef-ar.2 alef-ar.3];
+  sub alefMaksura-ar from [alefMaksura-ar.1 alefMaksura-ar.2];
+  sub alefMaksura-ar.fina from [alefMaksura-ar.fina.1 alefMaksura-ar.fina.2];
+  sub behDotless-ar.high from [behDotless-ar.high.1];
+  sub fehDotless-ar from [fehDotless-ar.1 fehDotless-ar.2 fehDotless-ar.3];
+  sub fehDotless-ar.fina from [fehDotless-ar.fina.1 fehDotless-ar.fina.2 fehDotless-ar.fina.3];
+  sub fehDotless-ar.init from [fehDotless-ar.init.1];
+  sub hah-ar from [hah-ar.1 hah-ar.2 hah-ar.3];
+  sub hah-ar.init from [hah-ar.init.1 hah-ar.init.2];
+  sub heh-ar from [heh-ar.1 heh-ar.2];
+  sub heh-ar.fina from [heh-ar.fina.1 heh-ar.fina.2];
+  sub heh-ar.init from [heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7];
+  sub heh-ar.medi from [heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7];
+  sub kaf-ar from [kaf-ar.1 kaf-ar.2];
+  sub kaf-ar.fina from [kaf-ar.fina.1 kaf-ar.fina.2];
+  sub kaf-ar.init from [kaf-ar.init.1 kaf-ar.init.2];
+  sub kaf-ar.medi from [kaf-ar.medi.1 kaf-ar.medi.2];
+  sub lam_alef-ar from [lam_alef-ar.1];
+  sub lam_alef-ar.fina from [lam_alef-ar.fina.1];
+  sub meem-ar from [meem-ar.1 meem-ar.2];
+  sub meem-ar.fina from [meem-ar.fina.1 meem-ar.fina.2];
+  sub meem-ar.medi from [meem-ar.medi.1];
+  sub reh-ar from [reh-ar.1];
+  sub reh-ar.fina from [reh-ar.fina.1];
+  sub sad-ar from [sad-ar.1];
+  sub sad-ar.fina from [sad-ar.fina.1];
+  sub seen-ar from [seen-ar.1 seen-ar.2 seen-ar.3 seen-ar.4 seen-ar.5 seen-ar.6];
+  sub seen-ar.fina from [seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5];
+  sub seen-ar.init from [seen-ar.init.1 seen-ar.init.2 seen-ar.init.3 seen-ar.init.4 seen-ar.init.5 seen-ar.init.6];
+  sub seen-ar.medi from [seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6];
+  sub waw-ar from [waw-ar.1];
+  sub waw-ar.fina from [waw-ar.fina.1];
+#< feature";
 name = salt;
 },
 {
-code = "#> feature\012#< feature\012\012  sub tehMarbuta-ar by heh-ar twodotsabove;\012  sub yeh-farsi     by alefMaksura-ar;";
+code = "#> feature
+#< feature
+
+  sub tehMarbuta-ar by heh-ar twodotsabove;
+  sub yeh-farsi     by alefMaksura-ar;";
 name = isol;
 },
 {
-code = "#> feature\012  sub ain-ar by ain-ar.init;\012  sub behDotless-ar by behDotless-ar.init;\012  sub fehDotless-ar by fehDotless-ar.init;\012  sub hah-ar by hah-ar.init;\012  sub heh-ar by heh-ar.init;\012  sub kaf-ar by kaf-ar.init;\012  sub lam-ar by lam-ar.init;\012  sub meem-ar by meem-ar.init;\012  sub sad-ar by sad-ar.init;\012  sub seen-ar by seen-ar.init;\012  sub tah-ar by tah-ar.init;\012#< feature\012\012  sub qafDotless-ar  by fehDotless-ar.init twodotsabove;\012  sub noonghunna-ar  by behDotless-ar.init dotabove;\012  sub alefMaksura-ar by behDotless-ar.init;\012  sub yeh-farsi      by behDotless-ar.init twodotsbelow;";
+code = "#> feature
+  sub ain-ar by ain-ar.init;
+  sub behDotless-ar by behDotless-ar.init;
+  sub fehDotless-ar by fehDotless-ar.init;
+  sub hah-ar by hah-ar.init;
+  sub heh-ar by heh-ar.init;
+  sub kaf-ar by kaf-ar.init;
+  sub lam-ar by lam-ar.init;
+  sub meem-ar by meem-ar.init;
+  sub sad-ar by sad-ar.init;
+  sub seen-ar by seen-ar.init;
+  sub tah-ar by tah-ar.init;
+#< feature
+
+  sub qafDotless-ar  by fehDotless-ar.init twodotsabove;
+  sub noonghunna-ar  by behDotless-ar.init dotabove;
+  sub alefMaksura-ar by behDotless-ar.init;
+  sub yeh-farsi      by behDotless-ar.init twodotsbelow;";
 name = init;
 },
 {
-code = "#> feature\012  sub ain-ar by ain-ar.medi;\012  sub behDotless-ar by behDotless-ar.medi;\012  sub fehDotless-ar by fehDotless-ar.medi;\012  sub hah-ar by hah-ar.medi;\012  sub heh-ar by heh-ar.medi;\012  sub kaf-ar by kaf-ar.medi;\012  sub lam-ar by lam-ar.medi;\012  sub meem-ar by meem-ar.medi;\012  sub sad-ar by sad-ar.medi;\012  sub seen-ar by seen-ar.medi;\012  sub tah-ar by tah-ar.medi;\012#< feature\012\012  sub qafDotless-ar  by fehDotless-ar.medi twodotsabove;\012  sub noonghunna-ar  by behDotless-ar.medi dotabove;\012  sub alefMaksura-ar by behDotless-ar.medi;\012  sub yeh-farsi      by behDotless-ar.medi twodotsbelow;";
+code = "#> feature
+  sub ain-ar by ain-ar.medi;
+  sub behDotless-ar by behDotless-ar.medi;
+  sub fehDotless-ar by fehDotless-ar.medi;
+  sub hah-ar by hah-ar.medi;
+  sub heh-ar by heh-ar.medi;
+  sub kaf-ar by kaf-ar.medi;
+  sub lam-ar by lam-ar.medi;
+  sub meem-ar by meem-ar.medi;
+  sub sad-ar by sad-ar.medi;
+  sub seen-ar by seen-ar.medi;
+  sub tah-ar by tah-ar.medi;
+#< feature
+
+  sub qafDotless-ar  by fehDotless-ar.medi twodotsabove;
+  sub noonghunna-ar  by behDotless-ar.medi dotabove;
+  sub alefMaksura-ar by behDotless-ar.medi;
+  sub yeh-farsi      by behDotless-ar.medi twodotsbelow;";
 name = medi;
 },
 {
-code = "#> feature\012  sub ain-ar by ain-ar.fina;\012  sub alef-ar by alef-ar.fina;\012  sub alefMaksura-ar by alefMaksura-ar.fina;\012  sub behDotless-ar by behDotless-ar.fina;\012  sub dal-ar by dal-ar.fina;\012  sub fehDotless-ar by fehDotless-ar.fina;\012  sub hah-ar by hah-ar.fina;\012  sub heh-ar by heh-ar.fina;\012  sub kaf-ar by kaf-ar.fina;\012  sub lam-ar by lam-ar.fina;\012  sub meem-ar by meem-ar.fina;\012  sub noonghunna-ar by noonghunna-ar.fina;\012  sub qafDotless-ar by qafDotless-ar.fina;\012  sub reh-ar by reh-ar.fina;\012  sub sad-ar by sad-ar.fina;\012  sub seen-ar by seen-ar.fina;\012  sub tah-ar by tah-ar.fina;\012  sub waw-ar by waw-ar.fina;\012#< feature\012\012  sub tehMarbuta-ar by heh-ar.fina twodotsabove;\012  sub yeh-farsi     by alefMaksura-ar.fina;";
+code = "#> feature
+  sub ain-ar by ain-ar.fina;
+  sub alef-ar by alef-ar.fina;
+  sub alefMaksura-ar by alefMaksura-ar.fina;
+  sub behDotless-ar by behDotless-ar.fina;
+  sub dal-ar by dal-ar.fina;
+  sub fehDotless-ar by fehDotless-ar.fina;
+  sub hah-ar by hah-ar.fina;
+  sub heh-ar by heh-ar.fina;
+  sub kaf-ar by kaf-ar.fina;
+  sub lam-ar by lam-ar.fina;
+  sub meem-ar by meem-ar.fina;
+  sub noonghunna-ar by noonghunna-ar.fina;
+  sub qafDotless-ar by qafDotless-ar.fina;
+  sub reh-ar by reh-ar.fina;
+  sub sad-ar by sad-ar.fina;
+  sub seen-ar by seen-ar.fina;
+  sub tah-ar by tah-ar.fina;
+  sub waw-ar by waw-ar.fina;
+#< feature
+
+  sub tehMarbuta-ar by heh-ar.fina twodotsabove;
+  sub yeh-farsi     by alefMaksura-ar.fina;";
 name = fina;
 },
 {
-code = "  sub [behDotless-ar.init behDotless-ar.medi] behDotless-ar.medi' [behDotless-ar.medi behDotless-ar.fina] by behDotless-ar.high;\012  sub [seen-ar.init seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3] behDotless-ar.medi' by behDotless-ar.high;\012  sub [behDotless-ar.init behDotless-ar.medi] seen-ar.medi' by seen-ar.medi.3;\012  sub seen-ar.medi' behDotless-ar.medi by seen-ar.medi.3;\012  sub [behDotless-ar.init behDotless-ar.medi] seen-ar.fina' by seen-ar.fina.3;\012  sub behDotless-ar.init behDotless-ar.medi' noonghunna-ar.fina by behDotless-ar.high;\012\012  sub [behDotless-ar.init lam-ar.init]' lookup AboveHah\012      [hah-ar.medi hah-ar.fina]' lookup AboveHah;\012\012  sub lam-ar.init alef-ar.fina by lam_alef-ar;\012  sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;";
+code = "  sub [behDotless-ar.init behDotless-ar.medi] behDotless-ar.medi' [behDotless-ar.medi behDotless-ar.fina] by behDotless-ar.high;
+  sub [seen-ar.init seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3] behDotless-ar.medi' by behDotless-ar.high;
+  sub [behDotless-ar.init behDotless-ar.medi] seen-ar.medi' by seen-ar.medi.3;
+  sub seen-ar.medi' behDotless-ar.medi by seen-ar.medi.3;
+  sub [behDotless-ar.init behDotless-ar.medi] seen-ar.fina' by seen-ar.fina.3;
+  sub behDotless-ar.init behDotless-ar.medi' noonghunna-ar.fina by behDotless-ar.high;
+
+  sub [behDotless-ar.init lam-ar.init]' lookup AboveHah
+      [hah-ar.medi hah-ar.fina]' lookup AboveHah;
+
+  sub lam-ar.init alef-ar.fina by lam_alef-ar;
+  sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;";
 name = rclt;
 },
 {
@@ -241,18 +389,25 @@ code = "  sub @Dots by empty; ";
 name = ss01;
 },
 {
-code = "#> feature\012#< feature\012\012  pos [hah-ar.init hah-ar.init.1 hah-ar.init.2] [meem-ar.medi meem-ar.medi.1 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 qafDotless-ar.fina] <-20 0 -20 0>;";
+code = "#> feature
+#< feature
+
+  pos [hah-ar.init hah-ar.init.1 hah-ar.init.2] [meem-ar.medi meem-ar.medi.1 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 qafDotless-ar.fina] <-20 0 -20 0>;";
 name = kern;
 },
 {
-code = " lookupflag RightToLeft;\012  pos cursive [behDotless-ar.init.hah lam-ar.init.hah] <anchor NULL> <anchor -20 0>;\012  pos cursive hah-ar.3 <anchor 180 110> <anchor NULL>;\012  pos cursive [hah-ar.init hah-ar.init.1 hah-ar.init.2] <anchor 90  110> <anchor NULL>;\012\012  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 228 0> hah-ar.3;\012  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> [hah-ar.init hah-ar.init.1 hah-ar.init.2];";
+code = " lookupflag RightToLeft;
+  pos cursive [behDotless-ar.init.hah lam-ar.init.hah] <anchor NULL> <anchor -20 0>;
+  pos cursive hah-ar.3 <anchor 180 110> <anchor NULL>;
+  pos cursive [hah-ar.init hah-ar.init.1 hah-ar.init.2] <anchor 90  110> <anchor NULL>;
+
+  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 228 0> hah-ar.3;
+  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> [hah-ar.init hah-ar.init.1 hah-ar.init.2];";
 name = curs;
 }
 );
 fontMaster = (
 {
-alignmentZones = (
-);
 ascender = 600;
 capHeight = 560;
 customParameters = (
@@ -326,23 +481,20 @@ value = 600;
 }
 );
 descender = -250;
-horizontalStems = (
-8,
-70
-);
 guideLines = (
 {
 position = "{0, 319}";
 }
+);
+horizontalStems = (
+8,
+70
 );
 id = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 verticalStems = (
 80,
 140
 );
-weight = Regular;
-widthValue = 100;
-weightValue = 100;
 xHeight = 230;
 }
 );
@@ -416,9 +568,21 @@ width = 330;
 },
 {
 glyphname = NULL;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 600;
+}
+);
 },
 {
 glyphname = CR;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 600;
+}
+);
 },
 {
 glyphname = space;
@@ -442,7 +606,6 @@ unicode = 0621;
 },
 {
 glyphname = "alef-ar";
-widthMetricsKey = "=80+80+40";
 layers = (
 {
 hints = (
@@ -482,11 +645,11 @@ nodes = (
 width = 200;
 }
 );
+widthMetricsKey = "=80+80+40";
 unicode = 0627;
 },
 {
 glyphname = "alef-ar.1";
-widthMetricsKey = "=80+160+40";
 layers = (
 {
 hints = (
@@ -526,10 +689,10 @@ nodes = (
 width = 280;
 }
 );
+widthMetricsKey = "=80+160+40";
 },
 {
 glyphname = "alef-ar.2";
-widthMetricsKey = "=80+240+40";
 layers = (
 {
 hints = (
@@ -569,10 +732,10 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=80+240+40";
 },
 {
 glyphname = "alef-ar.3";
-widthMetricsKey = "=80+40";
 layers = (
 {
 hints = (
@@ -610,10 +773,10 @@ nodes = (
 width = 120;
 }
 );
+widthMetricsKey = "=80+40";
 },
 {
 glyphname = "alef-ar.fina";
-widthMetricsKey = "=80+40";
 layers = (
 {
 hints = (
@@ -650,20 +813,20 @@ nodes = (
 width = 120;
 }
 );
+widthMetricsKey = "=80+40";
 },
 {
 glyphname = "behDotless-ar";
-widthMetricsKey = "=560+40";
 layers = (
 {
 anchors = (
 {
-name = top;
-position = "{280, 300}";
-},
-{
 name = bottom;
 position = "{280, -75}";
+},
+{
+name = top;
+position = "{280, 300}";
 }
 );
 hints = (
@@ -700,22 +863,22 @@ nodes = (
 width = 600;
 }
 );
+widthMetricsKey = "=560+40";
 unicode = 066E;
 },
 {
 glyphname = "behDotless-ar.fina";
-widthMetricsKey = "=560+40";
 layers = (
 {
 components = (
 {
-name = "behDotless-ar";
 alignment = -1;
+name = "behDotless-ar";
 },
 {
+alignment = -1;
 name = "behDotless-ar.medi";
 transform = "{1, 0, 0, 1, 480, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -733,20 +896,20 @@ layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 600;
 }
 );
+widthMetricsKey = "=560+40";
 },
 {
 glyphname = "behDotless-ar.init";
-widthMetricsKey = "=80+40";
 layers = (
 {
 anchors = (
 {
-name = top;
-position = "{30, 300}";
-},
-{
 name = bottom;
 position = "{30, -75}";
+},
+{
+name = top;
+position = "{30, 300}";
 }
 );
 hints = (
@@ -780,6 +943,7 @@ nodes = (
 width = 120;
 }
 );
+widthMetricsKey = "=80+40";
 },
 {
 glyphname = "behDotless-ar.init.hah";
@@ -787,12 +951,12 @@ layers = (
 {
 anchors = (
 {
-name = top;
-position = "{30, 235}";
-},
-{
 name = bottom;
 position = "{30, -75}";
+},
+{
+name = top;
+position = "{30, 235}";
 }
 );
 hints = (
@@ -830,13 +994,12 @@ width = 80;
 },
 {
 glyphname = "behDotless-ar.medi";
-widthMetricsKey = "=80+40";
 layers = (
 {
 components = (
 {
-name = "behDotless-ar.init";
 alignment = -1;
+name = "behDotless-ar.init";
 }
 );
 hints = (
@@ -868,16 +1031,16 @@ nodes = (
 width = 120;
 }
 );
+widthMetricsKey = "=80+40";
 },
 {
 glyphname = "behDotless-ar.high";
-widthMetricsKey = "=80+40";
 layers = (
 {
 components = (
 {
-name = "behDotless-ar.medi";
 alignment = -1;
+name = "behDotless-ar.medi";
 }
 );
 hints = (
@@ -906,16 +1069,16 @@ nodes = (
 width = 120;
 }
 );
+widthMetricsKey = "=80+40";
 },
 {
 glyphname = "behDotless-ar.high.1";
-widthMetricsKey = "=80+40";
 layers = (
 {
 components = (
 {
-name = "behDotless-ar.medi";
 alignment = -1;
+name = "behDotless-ar.medi";
 }
 );
 hints = (
@@ -944,10 +1107,10 @@ nodes = (
 width = 120;
 }
 );
+widthMetricsKey = "=80+40";
 },
 {
 glyphname = "hah-ar";
-widthMetricsKey = "=7.5*80+40";
 layers = (
 {
 anchors = (
@@ -958,9 +1121,9 @@ position = "{300, -185}";
 );
 components = (
 {
+alignment = -1;
 name = "hah-ar.init";
 transform = "{1, 0, 0, 1, 240, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -1013,11 +1176,11 @@ nodes = (
 width = 640;
 }
 );
+widthMetricsKey = "=7.5*80+40";
 unicode = 062D;
 },
 {
 glyphname = "hah-ar.1";
-widthMetricsKey = "=7.75*80+40";
 layers = (
 {
 anchors = (
@@ -1028,9 +1191,9 @@ position = "{310, -185}";
 );
 components = (
 {
+alignment = -1;
 name = "hah-ar.init.1";
 transform = "{1, 0, 0, 1, 240, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -1087,10 +1250,10 @@ nodes = (
 width = 660;
 }
 );
+widthMetricsKey = "=7.75*80+40";
 },
 {
 glyphname = "hah-ar.2";
-widthMetricsKey = "=8*80+40";
 layers = (
 {
 anchors = (
@@ -1101,9 +1264,9 @@ position = "{320, -185}";
 );
 components = (
 {
+alignment = -1;
 name = "hah-ar.init.2";
 transform = "{1, 0, 0, 1, 240, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -1160,6 +1323,7 @@ nodes = (
 width = 680;
 }
 );
+widthMetricsKey = "=8*80+40";
 },
 {
 glyphname = "hah-ar.3";
@@ -1239,7 +1403,6 @@ width = 490;
 },
 {
 glyphname = "hah-ar.fina";
-widthMetricsKey = "=291+80";
 layers = (
 {
 hints = (
@@ -1307,12 +1470,13 @@ nodes = (
 width = 371;
 }
 );
+widthMetricsKey = "=291+80";
 },
 {
 glyphname = "hah-ar.init";
-widthMetricsKey = "=4.5*80+40";
 layers = (
 {
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
 name = Background;
 paths = (
@@ -1331,12 +1495,12 @@ width = 400;
 {
 anchors = (
 {
-name = top;
-position = "{170, 285}";
-},
-{
 name = bottom;
 position = "{170, -70}";
+},
+{
+name = top;
+position = "{170, 285}";
 }
 );
 hints = (
@@ -1377,17 +1541,18 @@ width = 400;
 }
 );
 leftKerningGroup = "hah-ar.init";
+widthMetricsKey = "=4.5*80+40";
 rightKerningGroup = "meem-ar.medi";
 },
 {
 glyphname = "hah-ar.init.1";
-widthMetricsKey = "=4.75*80+40";
 layers = (
 {
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 components = (
 {
-name = "hah-ar.init";
 alignment = -1;
+name = "hah-ar.init";
 }
 );
 layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
@@ -1397,18 +1562,18 @@ width = 400;
 {
 anchors = (
 {
-name = top;
-position = "{180, 285}";
-},
-{
 name = bottom;
 position = "{180, -75}";
+},
+{
+name = top;
+position = "{180, 285}";
 }
 );
 components = (
 {
-name = "hah-ar.init";
 alignment = -1;
+name = "hah-ar.init";
 }
 );
 hints = (
@@ -1438,26 +1603,26 @@ nodes = (
 width = 420;
 }
 );
+widthMetricsKey = "=4.75*80+40";
 },
 {
 glyphname = "hah-ar.init.2";
-widthMetricsKey = "=5*80+40";
 layers = (
 {
 anchors = (
 {
-name = top;
-position = "{190, 285}";
-},
-{
 name = bottom;
 position = "{190, -75}";
+},
+{
+name = top;
+position = "{190, 285}";
 }
 );
 components = (
 {
-name = "hah-ar.init";
 alignment = -1;
+name = "hah-ar.init";
 }
 );
 hints = (
@@ -1487,6 +1652,7 @@ nodes = (
 width = 440;
 }
 );
+widthMetricsKey = "=5*80+40";
 },
 {
 glyphname = "hah-ar.medi";
@@ -1494,12 +1660,12 @@ layers = (
 {
 anchors = (
 {
-name = top;
-position = "{116, 305}";
-},
-{
 name = bottom;
 position = "{116, -235}";
+},
+{
+name = top;
+position = "{116, 305}";
 }
 );
 hints = (
@@ -1545,7 +1711,6 @@ width = 191;
 },
 {
 glyphname = "dal-ar";
-widthMetricsKey = "=7*80+40";
 layers = (
 {
 anchors = (
@@ -1598,17 +1763,17 @@ nodes = (
 width = 600;
 }
 );
+widthMetricsKey = "=7*80+40";
 unicode = 062F;
 },
 {
 glyphname = "dal-ar.fina";
-widthMetricsKey = "=7*80+40";
 layers = (
 {
 components = (
 {
-name = "dal-ar";
 alignment = -1;
+name = "dal-ar";
 }
 );
 hints = (
@@ -1642,6 +1807,7 @@ nodes = (
 width = 600;
 }
 );
+widthMetricsKey = "=7*80+40";
 },
 {
 glyphname = "reh-ar";
@@ -1742,13 +1908,12 @@ width = 312;
 },
 {
 glyphname = "reh-ar.fina";
-widthMetricsKey = "=4.5*80-77";
 layers = (
 {
 components = (
 {
-name = "reh-ar";
 alignment = -1;
+name = "reh-ar";
 }
 );
 hints = (
@@ -1783,16 +1948,16 @@ nodes = (
 width = 283;
 }
 );
+widthMetricsKey = "=4.5*80-77";
 },
 {
 glyphname = "reh-ar.fina.1";
-widthMetricsKey = "=4.5*80-77";
 layers = (
 {
 components = (
 {
-name = "reh-ar.1";
 alignment = -1;
+name = "reh-ar.1";
 }
 );
 hints = (
@@ -1827,6 +1992,7 @@ nodes = (
 width = 283;
 }
 );
+widthMetricsKey = "=4.5*80-77";
 },
 {
 glyphname = "seen-ar";
@@ -1834,14 +2000,14 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "behDotless-ar.init";
 transform = "{1, 0, 0, 1, 390, 0}";
-alignment = -1;
 },
 {
+alignment = -1;
 name = "behDotless-ar.medi";
 transform = "{1, 0, 0, 1, 270, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -1907,13 +2073,12 @@ unicode = 0633;
 },
 {
 glyphname = "seen-ar.1";
-widthMetricsKey = "=280+(80*3)+(40*2)-50-40";
 layers = (
 {
 components = (
 {
-name = "seen-ar";
 alignment = -1;
+name = "seen-ar";
 }
 );
 hints = (
@@ -1973,16 +2138,16 @@ nodes = (
 width = 510;
 }
 );
+widthMetricsKey = "=280+(80*3)+(40*2)-50-40";
 },
 {
 glyphname = "seen-ar.2";
-widthMetricsKey = "=280+(80*3)+(40*2)-90";
 layers = (
 {
 components = (
 {
-name = "seen-ar";
 alignment = -1;
+name = "seen-ar";
 }
 );
 hints = (
@@ -2042,22 +2207,22 @@ nodes = (
 width = 510;
 }
 );
+widthMetricsKey = "=280+(80*3)+(40*2)-90";
 },
 {
 glyphname = "seen-ar.3";
-widthMetricsKey = "=280+(80*3)+(40*2)-50-40";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = "behDotless-ar.medi";
 transform = "{1, 0, 0, 1, 270, 0}";
-alignment = -1;
 },
 {
+alignment = -1;
 name = "behDotless-ar.init";
 transform = "{1, 0, 0, 1, 390, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -2141,16 +2306,16 @@ nodes = (
 width = 510;
 }
 );
+widthMetricsKey = "=280+(80*3)+(40*2)-50-40";
 },
 {
 glyphname = "seen-ar.4";
-widthMetricsKey = "=280+(80*3)+(40*2)-90";
 layers = (
 {
 components = (
 {
-name = "seen-ar.3";
 alignment = -1;
+name = "seen-ar.3";
 }
 );
 hints = (
@@ -2210,16 +2375,16 @@ nodes = (
 width = 510;
 }
 );
+widthMetricsKey = "=280+(80*3)+(40*2)-90";
 },
 {
 glyphname = "seen-ar.5";
-widthMetricsKey = "=280+(80*3)+(40*2)-90";
 layers = (
 {
 components = (
 {
-name = "seen-ar.3";
 alignment = -1;
+name = "seen-ar.3";
 }
 );
 hints = (
@@ -2279,10 +2444,10 @@ nodes = (
 width = 510;
 }
 );
+widthMetricsKey = "=280+(80*3)+(40*2)-90";
 },
 {
 glyphname = "seen-ar.6";
-widthMetricsKey = "=(80*3)+(40*2)+131";
 layers = (
 {
 anchors = (
@@ -2374,16 +2539,16 @@ nodes = (
 width = 451;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+131";
 },
 {
 glyphname = "seen-ar.fina";
-widthMetricsKey = "=280+(80*3)+(40*2)-50-40";
 layers = (
 {
 components = (
 {
-name = "seen-ar";
 alignment = -1;
+name = "seen-ar";
 }
 );
 hints = (
@@ -2428,16 +2593,16 @@ nodes = (
 width = 510;
 }
 );
+widthMetricsKey = "=280+(80*3)+(40*2)-50-40";
 },
 {
 glyphname = "seen-ar.fina.1";
-widthMetricsKey = "=280+(80*3)+(40*2)-50-40";
 layers = (
 {
 components = (
 {
-name = "seen-ar.1";
 alignment = -1;
+name = "seen-ar.1";
 }
 );
 hints = (
@@ -2482,16 +2647,16 @@ nodes = (
 width = 510;
 }
 );
+widthMetricsKey = "=280+(80*3)+(40*2)-50-40";
 },
 {
 glyphname = "seen-ar.fina.2";
-widthMetricsKey = "=280+(80*3)+(40*2)-50-40";
 layers = (
 {
 components = (
 {
-name = "seen-ar.2";
 alignment = -1;
+name = "seen-ar.2";
 }
 );
 hints = (
@@ -2536,16 +2701,16 @@ nodes = (
 width = 510;
 }
 );
+widthMetricsKey = "=280+(80*3)+(40*2)-50-40";
 },
 {
 glyphname = "seen-ar.fina.3";
-widthMetricsKey = "=280+(80*3)+(40*3)-130";
 layers = (
 {
 components = (
 {
-name = "seen-ar.3";
 alignment = -1;
+name = "seen-ar.3";
 }
 );
 hints = (
@@ -2590,16 +2755,16 @@ nodes = (
 width = 510;
 }
 );
+widthMetricsKey = "=280+(80*3)+(40*3)-130";
 },
 {
 glyphname = "seen-ar.fina.4";
-widthMetricsKey = "=280+(80*3)+(40*3)-130";
 layers = (
 {
 components = (
 {
-name = "seen-ar.4";
 alignment = -1;
+name = "seen-ar.4";
 }
 );
 hints = (
@@ -2644,16 +2809,16 @@ nodes = (
 width = 510;
 }
 );
+widthMetricsKey = "=280+(80*3)+(40*3)-130";
 },
 {
 glyphname = "seen-ar.fina.5";
-widthMetricsKey = "=280+(80*3)+(40*3)-130";
 layers = (
 {
 components = (
 {
-name = "seen-ar.5";
 alignment = -1;
+name = "seen-ar.5";
 }
 );
 hints = (
@@ -2698,26 +2863,26 @@ nodes = (
 width = 510;
 }
 );
+widthMetricsKey = "=280+(80*3)+(40*3)-130";
 },
 {
 glyphname = "seen-ar.init";
-widthMetricsKey = "=(80*3)+(40*2)+40";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = "behDotless-ar.init";
 transform = "{1, 0, 0, 1, 240, 0}";
-alignment = -1;
 },
 {
+alignment = -1;
 name = "behDotless-ar.medi";
 transform = "{1, 0, 0, 1, 120, 0}";
-alignment = -1;
 },
 {
-name = "behDotless-ar.medi";
 alignment = -1;
+name = "behDotless-ar.medi";
 }
 );
 hints = (
@@ -2743,16 +2908,16 @@ layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 360;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+40";
 },
 {
 glyphname = "seen-ar.init.1";
-widthMetricsKey = "=(80*3)+(40*2)+40";
 layers = (
 {
 components = (
 {
-name = "seen-ar.init";
 alignment = -1;
+name = "seen-ar.init";
 }
 );
 hints = (
@@ -2807,16 +2972,16 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+40";
 },
 {
 glyphname = "seen-ar.init.2";
-widthMetricsKey = "=(80*3)+(40*2)+40";
 layers = (
 {
 components = (
 {
-name = "seen-ar.init";
 alignment = -1;
+name = "seen-ar.init";
 }
 );
 hints = (
@@ -2871,22 +3036,22 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+40";
 },
 {
 glyphname = "seen-ar.init.3";
-widthMetricsKey = "=(80*3)+(40*2)+40";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = "behDotless-ar.init";
 transform = "{1, 0, 0, 1, 240, 0}";
-alignment = -1;
 },
 {
+alignment = -1;
 name = "behDotless-ar.medi";
 transform = "{1, 0, 0, 1, 120, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -2962,16 +3127,16 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+40";
 },
 {
 glyphname = "seen-ar.init.4";
-widthMetricsKey = "=(80*3)+(40*2)+40";
 layers = (
 {
 components = (
 {
-name = "seen-ar.init.3";
 alignment = -1;
+name = "seen-ar.init.3";
 }
 );
 hints = (
@@ -3026,16 +3191,16 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+40";
 },
 {
 glyphname = "seen-ar.init.5";
-widthMetricsKey = "=(80*3)+(40*2)+40";
 layers = (
 {
 components = (
 {
-name = "seen-ar.init.3";
 alignment = -1;
+name = "seen-ar.init.3";
 }
 );
 hints = (
@@ -3090,10 +3255,10 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+40";
 },
 {
 glyphname = "seen-ar.init.6";
-widthMetricsKey = "=(80*3)+(40*2)+21";
 layers = (
 {
 hints = (
@@ -3152,16 +3317,16 @@ nodes = (
 width = 341;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+21";
 },
 {
 glyphname = "seen-ar.medi";
-widthMetricsKey = "=(80*3)+(40*2)+40";
 layers = (
 {
 components = (
 {
-name = "seen-ar.init";
 alignment = -1;
+name = "seen-ar.init";
 }
 );
 hints = (
@@ -3201,16 +3366,16 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+40";
 },
 {
 glyphname = "seen-ar.medi.1";
-widthMetricsKey = "=(80*3)+(40*2)+40";
 layers = (
 {
 components = (
 {
-name = "seen-ar.init.1";
 alignment = -1;
+name = "seen-ar.init.1";
 }
 );
 hints = (
@@ -3250,16 +3415,16 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+40";
 },
 {
 glyphname = "seen-ar.medi.2";
-widthMetricsKey = "=(80*3)+(40*2)+40";
 layers = (
 {
 components = (
 {
-name = "seen-ar.init.2";
 alignment = -1;
+name = "seen-ar.init.2";
 }
 );
 hints = (
@@ -3299,16 +3464,16 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+40";
 },
 {
 glyphname = "seen-ar.medi.3";
-widthMetricsKey = "=(80*3)+(40*2)+40";
 layers = (
 {
 components = (
 {
-name = "seen-ar.init.3";
 alignment = -1;
+name = "seen-ar.init.3";
 }
 );
 hints = (
@@ -3348,16 +3513,16 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+40";
 },
 {
 glyphname = "seen-ar.medi.4";
-widthMetricsKey = "=(80*3)+(40*2)+40";
 layers = (
 {
 components = (
 {
-name = "seen-ar.init.4";
 alignment = -1;
+name = "seen-ar.init.4";
 }
 );
 hints = (
@@ -3397,16 +3562,16 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+40";
 },
 {
 glyphname = "seen-ar.medi.5";
-widthMetricsKey = "=(80*3)+(40*2)+40";
 layers = (
 {
 components = (
 {
-name = "seen-ar.init.5";
 alignment = -1;
+name = "seen-ar.init.5";
 }
 );
 hints = (
@@ -3446,10 +3611,10 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+40";
 },
 {
 glyphname = "seen-ar.medi.6";
-widthMetricsKey = "=(80*3)+(40*2)+51";
 layers = (
 {
 anchors = (
@@ -3504,6 +3669,7 @@ nodes = (
 width = 371;
 }
 );
+widthMetricsKey = "=(80*3)+(40*2)+51";
 },
 {
 glyphname = "sad-ar";
@@ -3672,8 +3838,8 @@ layers = (
 {
 components = (
 {
-name = "sad-ar";
 alignment = -1;
+name = "sad-ar";
 }
 );
 hints = (
@@ -3719,8 +3885,8 @@ layers = (
 {
 components = (
 {
-name = "sad-ar.1";
 alignment = -1;
+name = "sad-ar.1";
 }
 );
 hints = (
@@ -3828,8 +3994,8 @@ layers = (
 {
 components = (
 {
-name = "sad-ar.init";
 alignment = -1;
+name = "sad-ar.init";
 }
 );
 hints = (
@@ -3933,8 +4099,8 @@ layers = (
 {
 components = (
 {
-name = "tah-ar";
 alignment = -1;
+name = "tah-ar";
 }
 );
 hints = (
@@ -4037,8 +4203,8 @@ layers = (
 {
 components = (
 {
-name = "tah-ar.init";
 alignment = -1;
+name = "tah-ar.init";
 }
 );
 hints = (
@@ -4075,13 +4241,13 @@ width = 670;
 },
 {
 glyphname = "ain-ar";
-widthMetricsKey = "=(8*80)+40";
 layers = (
 {
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 components = (
 {
-name = "ain-ar.init";
 alignment = -1;
+name = "ain-ar.init";
 }
 );
 layerId = "abf4b10a-26e5-432c-8593-bf37389dfdfd";
@@ -4131,36 +4297,42 @@ nodes = (
 );
 },
 {
+closed = 1;
 nodes = (
 "640 150 LINE",
 "220 150 LINE"
 );
 },
 {
+closed = 1;
 nodes = (
 "560 0 LINE",
 "560 270 LINE"
 );
 },
 {
+closed = 1;
 nodes = (
 "480 0 LINE",
 "480 270 LINE"
 );
 },
 {
+closed = 1;
 nodes = (
 "400 0 LINE",
 "400 270 LINE"
 );
 },
 {
+closed = 1;
 nodes = (
 "375.732 69.972 LINE",
 "319.376 126.328 LINE"
 );
 },
 {
+closed = 1;
 nodes = (
 "319 126 LINE",
 "500 230 LINE"
@@ -4172,9 +4344,9 @@ width = 680;
 {
 components = (
 {
+alignment = -1;
 name = "ain-ar.init";
 transform = "{1, 0, 0, 1, 350, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -4227,6 +4399,7 @@ nodes = (
 width = 680;
 }
 );
+widthMetricsKey = "=(8*80)+40";
 unicode = 0639;
 },
 {
@@ -4429,13 +4602,13 @@ width = 242;
 },
 {
 glyphname = "fehDotless-ar";
-widthMetricsKey = "=7*80+40";
 layers = (
 {
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 components = (
 {
-name = "fehDotless-ar.init";
 alignment = -1;
+name = "fehDotless-ar.init";
 }
 );
 layerId = "abf4b10a-26e5-432c-8593-bf37389dfdfd";
@@ -4502,9 +4675,9 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = "fehDotless-ar.init";
 transform = "{1, 0, 0, 1, 360, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -4563,18 +4736,18 @@ nodes = (
 width = 600;
 }
 );
+widthMetricsKey = "=7*80+40";
 unicode = 06A1;
 },
 {
 glyphname = "fehDotless-ar.1";
-widthMetricsKey = "=7*80+40";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = "fehDotless-ar.init.1";
 transform = "{1, 0, 0, 1, 360, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -4629,17 +4802,17 @@ nodes = (
 width = 600;
 }
 );
+widthMetricsKey = "=7*80+40";
 },
 {
 glyphname = "fehDotless-ar.2";
-widthMetricsKey = "=7.5*80+40";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = "fehDotless-ar.init";
 transform = "{1, 0, 0, 1, 400, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -4694,17 +4867,17 @@ nodes = (
 width = 640;
 }
 );
+widthMetricsKey = "=7.5*80+40";
 },
 {
 glyphname = "fehDotless-ar.3";
-widthMetricsKey = "=7.5*80+40";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = "fehDotless-ar.init.1";
 transform = "{1, 0, 0, 1, 400, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -4759,16 +4932,16 @@ nodes = (
 width = 640;
 }
 );
+widthMetricsKey = "=7.5*80+40";
 },
 {
 glyphname = "fehDotless-ar.fina";
-widthMetricsKey = "=7*80+40";
 layers = (
 {
 components = (
 {
-name = "fehDotless-ar";
 alignment = -1;
+name = "fehDotless-ar";
 }
 );
 hints = (
@@ -4824,16 +4997,16 @@ nodes = (
 width = 600;
 }
 );
+widthMetricsKey = "=7*80+40";
 },
 {
 glyphname = "fehDotless-ar.fina.1";
-widthMetricsKey = "=7*80+40";
 layers = (
 {
 components = (
 {
-name = "fehDotless-ar.1";
 alignment = -1;
+name = "fehDotless-ar.1";
 }
 );
 hints = (
@@ -4885,16 +5058,16 @@ nodes = (
 width = 600;
 }
 );
+widthMetricsKey = "=7*80+40";
 },
 {
 glyphname = "fehDotless-ar.fina.2";
-widthMetricsKey = "=7.5*80+40";
 layers = (
 {
 components = (
 {
-name = "fehDotless-ar.2";
 alignment = -1;
+name = "fehDotless-ar.2";
 }
 );
 hints = (
@@ -4946,16 +5119,16 @@ nodes = (
 width = 640;
 }
 );
+widthMetricsKey = "=7.5*80+40";
 },
 {
 glyphname = "fehDotless-ar.fina.3";
-widthMetricsKey = "=7.5*80+40";
 layers = (
 {
 components = (
 {
-name = "fehDotless-ar.3";
 alignment = -1;
+name = "fehDotless-ar.3";
 }
 );
 hints = (
@@ -5007,6 +5180,7 @@ nodes = (
 width = 640;
 }
 );
+widthMetricsKey = "=7.5*80+40";
 },
 {
 glyphname = "fehDotless-ar.init";
@@ -5190,6 +5364,7 @@ width = 223;
 glyphname = "fehDotless-ar.medi";
 layers = (
 {
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 layerId = "abf4b10a-26e5-432c-8593-bf37389dfdfd";
 name = Regular.1;
 paths = (
@@ -5407,8 +5582,8 @@ layers = (
 {
 components = (
 {
-name = "qafDotless-ar";
 alignment = -1;
+name = "qafDotless-ar";
 }
 );
 hints = (
@@ -5623,8 +5798,8 @@ layers = (
 {
 components = (
 {
-name = "kaf-ar";
 alignment = -1;
+name = "kaf-ar";
 }
 );
 hints = (
@@ -5665,8 +5840,8 @@ layers = (
 {
 components = (
 {
-name = "kaf-ar.1";
 alignment = -1;
+name = "kaf-ar.1";
 }
 );
 hints = (
@@ -5712,8 +5887,8 @@ layers = (
 {
 components = (
 {
-name = "kaf-ar.2";
 alignment = -1;
+name = "kaf-ar.2";
 }
 );
 hints = (
@@ -5922,8 +6097,8 @@ layers = (
 {
 components = (
 {
-name = "kaf-ar.init";
 alignment = -1;
+name = "kaf-ar.init";
 }
 );
 hints = (
@@ -5964,8 +6139,8 @@ layers = (
 {
 components = (
 {
-name = "kaf-ar.init.2";
 alignment = -1;
+name = "kaf-ar.init.2";
 }
 );
 hints = (
@@ -6007,8 +6182,8 @@ layers = (
 {
 components = (
 {
-name = "kaf-ar.init";
 alignment = -1;
+name = "kaf-ar.init";
 }
 );
 hints = (
@@ -6089,8 +6264,8 @@ layers = (
 {
 components = (
 {
-name = "lam-ar";
 alignment = -1;
+name = "lam-ar";
 }
 );
 hints = (
@@ -6207,8 +6382,8 @@ layers = (
 {
 components = (
 {
-name = "lam-ar.init";
 alignment = -1;
+name = "lam-ar.init";
 }
 );
 hints = (
@@ -6475,8 +6650,8 @@ layers = (
 {
 components = (
 {
-name = "meem-ar";
 alignment = -1;
+name = "meem-ar";
 }
 );
 hints = (
@@ -6521,8 +6696,8 @@ layers = (
 {
 components = (
 {
-name = "meem-ar.1";
 alignment = -1;
+name = "meem-ar.1";
 }
 );
 hints = (
@@ -6567,9 +6742,9 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "meem-ar.2";
 transform = "{1, 0, 0, 1, -2, 0}";
-alignment = -1;
 }
 );
 hints = (
@@ -6696,8 +6871,8 @@ layers = (
 {
 components = (
 {
-name = "meem-ar.init";
 alignment = -1;
+name = "meem-ar.init";
 }
 );
 hints = (
@@ -6883,8 +7058,8 @@ layers = (
 {
 components = (
 {
-name = "noonghunna-ar";
 alignment = -1;
+name = "noonghunna-ar";
 }
 );
 hints = (
@@ -7187,8 +7362,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar";
 alignment = -1;
+name = "heh-ar";
 }
 );
 hints = (
@@ -7247,8 +7422,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.1";
 alignment = -1;
+name = "heh-ar.1";
 }
 );
 hints = (
@@ -7311,8 +7486,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.2";
 alignment = -1;
+name = "heh-ar.2";
 }
 );
 hints = (
@@ -7489,8 +7664,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.init";
 alignment = -1;
+name = "heh-ar.init";
 }
 );
 hints = (
@@ -7689,8 +7864,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.init.2";
 alignment = -1;
+name = "heh-ar.init.2";
 }
 );
 hints = (
@@ -7849,8 +8024,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.init.4";
 alignment = -1;
+name = "heh-ar.init.4";
 }
 );
 hints = (
@@ -8013,8 +8188,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.init.6";
 alignment = -1;
+name = "heh-ar.init.6";
 }
 );
 hints = (
@@ -8064,8 +8239,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.init";
 alignment = -1;
+name = "heh-ar.init";
 }
 );
 hints = (
@@ -8115,8 +8290,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.init.1";
 alignment = -1;
+name = "heh-ar.init.1";
 }
 );
 hints = (
@@ -8166,8 +8341,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.init.2";
 alignment = -1;
+name = "heh-ar.init.2";
 }
 );
 hints = (
@@ -8217,8 +8392,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.init.3";
 alignment = -1;
+name = "heh-ar.init.3";
 }
 );
 hints = (
@@ -8268,8 +8443,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.init.4";
 alignment = -1;
+name = "heh-ar.init.4";
 }
 );
 hints = (
@@ -8319,8 +8494,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.init.7";
 alignment = -1;
+name = "heh-ar.init.7";
 }
 );
 hints = (
@@ -8370,8 +8545,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.init.6";
 alignment = -1;
+name = "heh-ar.init.6";
 }
 );
 hints = (
@@ -8421,8 +8596,8 @@ layers = (
 {
 components = (
 {
-name = "heh-ar.init.7";
 alignment = -1;
+name = "heh-ar.init.7";
 }
 );
 hints = (
@@ -8669,8 +8844,8 @@ layers = (
 {
 components = (
 {
-name = "waw-ar";
 alignment = -1;
+name = "waw-ar";
 }
 );
 hints = (
@@ -8720,8 +8895,8 @@ layers = (
 {
 components = (
 {
-name = "waw-ar.1";
 alignment = -1;
+name = "waw-ar.1";
 }
 );
 hints = (
@@ -8771,12 +8946,12 @@ layers = (
 {
 anchors = (
 {
-name = top;
-position = "{120, 228}";
-},
-{
 name = bottom;
 position = "{120, -295}";
+},
+{
+name = top;
+position = "{120, 228}";
 }
 );
 guideLines = (
@@ -8873,12 +9048,12 @@ layers = (
 {
 anchors = (
 {
-name = top;
-position = "{120, 228}";
-},
-{
 name = bottom;
 position = "{120, -325}";
+},
+{
+name = top;
+position = "{120, 228}";
 }
 );
 guideLines = (
@@ -8972,6 +9147,7 @@ width = 280;
 glyphname = "alefMaksura-ar.2";
 layers = (
 {
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 layerId = "7972d09c-237a-46de-ab28-006878a197a7";
 name = "New Layer";
 paths = (
@@ -9017,12 +9193,12 @@ width = 280;
 {
 anchors = (
 {
-name = top;
-position = "{101, 228}";
-},
-{
 name = bottom;
 position = "{322, -185}";
+},
+{
+name = top;
+position = "{101, 228}";
 }
 );
 guideLines = (
@@ -9103,12 +9279,12 @@ layers = (
 {
 anchors = (
 {
-name = top;
-position = "{120, 228}";
-},
-{
 name = bottom;
 position = "{120, -295}";
+},
+{
+name = top;
+position = "{120, 228}";
 }
 );
 guideLines = (
@@ -9201,12 +9377,12 @@ layers = (
 {
 anchors = (
 {
-name = top;
-position = "{120, 228}";
-},
-{
 name = bottom;
 position = "{120, -325}";
+},
+{
+name = top;
+position = "{120, 228}";
 }
 );
 guideLines = (
@@ -9297,6 +9473,7 @@ width = 240;
 glyphname = "alefMaksura-ar.fina.2";
 layers = (
 {
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 layerId = "7972d09c-237a-46de-ab28-006878a197a7";
 name = "New Layer";
 paths = (
@@ -9342,12 +9519,12 @@ width = 280;
 {
 anchors = (
 {
-name = top;
-position = "{101, 228}";
-},
-{
 name = bottom;
 position = "{322, -185}";
+},
+{
+name = top;
+position = "{101, 228}";
 }
 );
 guideLines = (
@@ -9424,9 +9601,9 @@ width = 240;
 },
 {
 glyphname = "lam_alef-ar";
-widthMetricsKey = "=4*80+40";
 layers = (
 {
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 hints = (
 {
 place = "{150, 80}";
@@ -9542,11 +9719,13 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=4*80+40";
 },
 {
 glyphname = "lam_alef-ar.1";
 layers = (
 {
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 hints = (
 {
 place = "{150, 80}";
@@ -9672,13 +9851,13 @@ width = 255;
 },
 {
 glyphname = "lam_alef-ar.fina";
-widthMetricsKey = "=4*80+40";
 layers = (
 {
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 components = (
 {
-name = "lam_alef-ar";
 alignment = -1;
+name = "lam_alef-ar";
 }
 );
 hints = (
@@ -9755,8 +9934,8 @@ width = 360;
 {
 components = (
 {
-name = "lam_alef-ar";
 alignment = -1;
+name = "lam_alef-ar";
 }
 );
 hints = (
@@ -9781,19 +9960,21 @@ nodes = (
 width = 360;
 }
 );
+widthMetricsKey = "=4*80+40";
 },
 {
 glyphname = "lam_alef-ar.fina.1";
 layers = (
 {
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 components = (
 {
-name = "lam_alef-ar";
 alignment = -1;
+name = "lam_alef-ar";
 },
 {
-name = "lam_alef-ar.1";
 alignment = -1;
+name = "lam_alef-ar.1";
 }
 );
 hints = (
@@ -9871,8 +10052,8 @@ width = 360;
 {
 components = (
 {
-name = "lam_alef-ar.1";
 alignment = -1;
+name = "lam_alef-ar.1";
 }
 );
 hints = (
@@ -9908,7 +10089,7 @@ width = 255;
 );
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "alefMadda-ar";
 layers = (
 {
@@ -9919,7 +10100,7 @@ width = 1000;
 unicode = 0622;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "alefHamzaabove-ar";
 layers = (
 {
@@ -9930,7 +10111,7 @@ width = 1000;
 unicode = 0623;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "alefHamzabelow-ar";
 layers = (
 {
@@ -9941,7 +10122,7 @@ width = 1000;
 unicode = 0625;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "wawHamzaabove-ar";
 layers = (
 {
@@ -9952,7 +10133,7 @@ width = 1000;
 unicode = 0624;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "beh-ar";
 layers = (
 {
@@ -9963,7 +10144,7 @@ width = 1000;
 unicode = 0628;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "teh-ar";
 layers = (
 {
@@ -9974,7 +10155,7 @@ width = 1000;
 unicode = 062A;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "theh-ar";
 layers = (
 {
@@ -9985,7 +10166,7 @@ width = 1000;
 unicode = 062B;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "jeem-ar";
 layers = (
 {
@@ -9996,7 +10177,7 @@ width = 1000;
 unicode = 062C;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "khah-ar";
 layers = (
 {
@@ -10007,7 +10188,7 @@ width = 1000;
 unicode = 062E;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "thal-ar";
 layers = (
 {
@@ -10018,7 +10199,7 @@ width = 1000;
 unicode = 0630;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "zain-ar";
 layers = (
 {
@@ -10029,7 +10210,7 @@ width = 1000;
 unicode = 0632;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "sheen-ar";
 layers = (
 {
@@ -10040,7 +10221,7 @@ width = 1000;
 unicode = 0634;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "dad-ar";
 layers = (
 {
@@ -10051,7 +10232,7 @@ width = 1000;
 unicode = 0636;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "zah-ar";
 layers = (
 {
@@ -10062,7 +10243,7 @@ width = 1000;
 unicode = 0638;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "ghain-ar";
 layers = (
 {
@@ -10073,7 +10254,7 @@ width = 1000;
 unicode = 063A;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "feh-ar";
 layers = (
 {
@@ -10084,7 +10265,7 @@ width = 1000;
 unicode = 0641;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "qaf-ar";
 layers = (
 {
@@ -10095,14 +10276,14 @@ width = 1000;
 unicode = 0642;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "yehHamzaabove-ar";
 layers = (
 {
 components = (
 {
-name = "yeh-ar";
 alignment = -1;
+name = "yeh-ar";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -10112,7 +10293,7 @@ width = 1000;
 unicode = 0626;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "noon-ar";
 layers = (
 {
@@ -10123,7 +10304,7 @@ width = 1000;
 unicode = 0646;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "tehMarbuta-ar";
 layers = (
 {
@@ -10134,7 +10315,7 @@ width = 1000;
 unicode = 0629;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "yeh-ar";
 layers = (
 {
@@ -10145,7 +10326,7 @@ width = 1000;
 unicode = 064A;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = "yeh-farsi";
 layers = (
 {
@@ -10156,7 +10337,7 @@ width = 1000;
 unicode = 06CC;
 },
 {
-color = (255, 153, 153, 255);
+color = (255,153,153,255);
 glyphname = uni0671;
 layers = (
 {
@@ -10167,7 +10348,7 @@ width = 217;
 unicode = 0671;
 },
 {
-color = (154, 153, 255, 255);
+color = (154,153,255,255);
 glyphname = dotabove;
 layers = (
 {
@@ -10194,7 +10375,7 @@ width = 80;
 );
 },
 {
-color = (154, 153, 255, 255);
+color = (154,153,255,255);
 glyphname = dotbelow;
 layers = (
 {
@@ -10206,9 +10387,9 @@ position = "{40, 40}";
 );
 components = (
 {
+alignment = -1;
 name = dotabove;
 transform = "{1, 0, 0, 1, 0.123, 0}";
-alignment = -1;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -10218,7 +10399,7 @@ width = 80;
 unicode = 0323;
 },
 {
-color = (154, 153, 255, 255);
+color = (154,153,255,255);
 glyphname = twodotsabove;
 layers = (
 {
@@ -10230,14 +10411,14 @@ position = "{70, -40}";
 );
 components = (
 {
+alignment = -1;
 name = dotabove;
 transform = "{1, 0, 0, 1, 0.123, 0}";
-alignment = -1;
 },
 {
+alignment = -1;
 name = dotabove;
 transform = "{1, 0, 0, 1, 60.123, 0}";
-alignment = -1;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -10246,7 +10427,7 @@ width = 140;
 );
 },
 {
-color = (154, 153, 255, 255);
+color = (154,153,255,255);
 glyphname = twodotsbelow;
 layers = (
 {
@@ -10258,8 +10439,8 @@ position = "{70, 40}";
 );
 components = (
 {
-name = twodotsabove;
 alignment = -1;
+name = twodotsabove;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -10268,7 +10449,7 @@ width = 140;
 );
 },
 {
-color = (154, 153, 255, 255);
+color = (154,153,255,255);
 glyphname = threedotsabove;
 layers = (
 {
@@ -10280,19 +10461,19 @@ position = "{100, -40}";
 );
 components = (
 {
+alignment = -1;
 name = dotabove;
 transform = "{1, 0, 0, 1, 0.123, 0}";
-alignment = -1;
 },
 {
+alignment = -1;
 name = dotabove;
 transform = "{1, 0, 0, 1, 60.123, 0}";
-alignment = -1;
 },
 {
+alignment = -1;
 name = dotabove;
 transform = "{1, 0, 0, 1, 120.123, 0}";
-alignment = -1;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -10301,17 +10482,17 @@ width = 200;
 );
 },
 {
-color = (154, 153, 255, 255);
+color = (154,153,255,255);
 glyphname = empty;
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _bottom;
 position = "{0, 0}";
 },
 {
-name = _bottom;
+name = _top;
 position = "{0, 0}";
 }
 );
@@ -10321,19 +10502,15 @@ width = 0;
 );
 }
 );
-kerning = {
-"67aa4fb0-543e-4232-8202-ade6a11e0795" = {
-}
-}
 manufacturer = "Alif Type";
 manufacturerURL = "https://github.com/alif-type";
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
 "67aa4fb0-543e-4232-8202-ade6a11e0795" = {
-}
-}
-}
+};
+};
+};
 versionMajor = 1;
 versionMinor = 0;
 }
