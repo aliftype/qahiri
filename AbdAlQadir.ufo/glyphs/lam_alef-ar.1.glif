@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alef-ar.1" format="2">
+  <advance width="255"/>
+  <outline>
+    <contour>
+      <point x="80" y="560" type="line"/>
+      <point x="0" y="540" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="175" y="0" type="line"/>
+      <point x="175" y="70" type="line"/>
+      <point x="80" y="70" type="line"/>
+    </contour>
+    <contour>
+      <point x="-212.842" y="460.029" type="line"/>
+      <point x="-242.414" y="382.699" type="line"/>
+      <point x="125.733" y="116.696" type="line" smooth="yes"/>
+      <point x="130.375" y="113.342"/>
+      <point x="135" y="107.547"/>
+      <point x="135" y="100.151" type="curve" smooth="yes"/>
+      <point x="135" y="0" type="line"/>
+      <point x="215" y="0" type="line"/>
+      <point x="215" y="100.334" type="line" smooth="yes"/>
+      <point x="215" y="129"/>
+      <point x="201.818" y="160.419"/>
+      <point x="172.44" y="181.646" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="150"/>
+  <guideline angle="0" x="0" y="110"/>
+  <guideline angle="90" x="215" y="0"/>
+  <guideline angle="90" x="135" y="0"/>
+  <guideline angle="0" x="0" y="460"/>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="._.2312103170240">
+      <hstem pos="0" width="70" />
+      <vstem pos="0" width="80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

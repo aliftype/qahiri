@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonghunna-ar.fina" format="2">
+  <advance width="260"/>
+  <outline>
+    <component base="noonghunna-ar"/>
+    <contour>
+      <point x="260.113" y="70" type="line"/>
+      <point x="160.113" y="70" type="line"/>
+      <point x="160.113" y="0" type="line"/>
+      <point x="260.113" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-250" width="70" />
+      <hstem pos="0" width="70" />
+      <vstem pos="150" width="80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

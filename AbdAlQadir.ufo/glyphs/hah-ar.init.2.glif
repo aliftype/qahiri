@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hah-ar.init.2" format="2">
+  <advance width="440"/>
+  <anchor x="190" y="284.841" name="top"/>
+  <anchor x="190" y="-75" name="bottom"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <contour>
+      <point x="400" y="70" type="line"/>
+      <point x="300" y="70" type="line"/>
+      <point x="300" y="0" type="line"/>
+      <point x="359" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="70" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="meem-ar" format="2">
+  <advance width="439.981"/>
+  <unicode hex="0645"/>
+  <outline>
+    <contour>
+      <point x="279.981" y="90" type="curve" smooth="yes"/>
+      <point x="279.981" y="101.038"/>
+      <point x="288.942" y="110"/>
+      <point x="299.981" y="110" type="curve" smooth="yes"/>
+      <point x="311.019" y="110"/>
+      <point x="319.981" y="101.038"/>
+      <point x="319.981" y="90" type="curve" smooth="yes"/>
+      <point x="319.981" y="78.9617"/>
+      <point x="311.019" y="70"/>
+      <point x="299.981" y="70" type="curve" smooth="yes"/>
+      <point x="288.942" y="70"/>
+      <point x="279.981" y="78.9617"/>
+    </contour>
+    <contour>
+      <point x="199.981" y="90" type="curve" smooth="yes"/>
+      <point x="199.981" y="30"/>
+      <point x="244.789" y="0"/>
+      <point x="299.981" y="0" type="curve" smooth="yes"/>
+      <point x="365" y="0"/>
+      <point x="399.981" y="30"/>
+      <point x="399.981" y="90" type="curve" smooth="yes"/>
+      <point x="399.981" y="139.672"/>
+      <point x="355.172" y="180"/>
+      <point x="299.981" y="180" type="curve" smooth="yes"/>
+      <point x="244.789" y="180"/>
+      <point x="199.981" y="140"/>
+    </contour>
+    <contour>
+      <point x="300" y="70" type="line"/>
+      <point x="100" y="70" type="line"/>
+      <point x="79.8474" y="70"/>
+      <point x="63.1837" y="75.4737"/>
+      <point x="52" y="90" type="curve"/>
+      <point x="0" y="0" type="line"/>
+      <point x="300" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="70" />
+      <hstem pos="110" width="70" />
+      <vstem pos="199.980515" width="80" />
+      <vstem pos="320" width="80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

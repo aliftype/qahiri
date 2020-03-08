@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fehDotless-ar.fina.2" format="2">
+  <advance width="640"/>
+  <outline>
+    <component base="fehDotless-ar.2"/>
+    <contour>
+      <point x="640" y="70" type="line"/>
+      <point x="540" y="70" type="line"/>
+      <point x="540" y="0" type="line"/>
+      <point x="640" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem3 stem3List="0,70,110,70,220,70" />
+      <vstem pos="400" width="80" />
+      <vstem pos="532.019531" width="80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

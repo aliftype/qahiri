@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="meem-ar.fina.2" format="2">
+  <advance width="276.113"/>
+  <outline>
+    <component base="meem-ar.2" xOffset="-2"/>
+    <contour>
+      <point x="276" y="70" type="line"/>
+      <point x="216" y="70" type="line"/>
+      <point x="216" y="0" type="line"/>
+      <point x="276" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-40" width="70" />
+      <hstem pos="70" width="70" />
+      <vstem pos="38" width="80" />
+      <vstem pos="158" width="80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

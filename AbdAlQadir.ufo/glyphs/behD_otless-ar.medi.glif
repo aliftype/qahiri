@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behDotless-ar.medi" format="2">
+  <advance width="120"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <contour>
+      <point x="80" y="110" type="line" smooth="yes"/>
+      <point x="80" y="88"/>
+      <point x="98" y="70"/>
+      <point x="120" y="70" type="curve"/>
+      <point x="120" y="0" type="line"/>
+      <point x="40" y="0" type="line"/>
+      <point x="40" y="110" type="line"/>
+    </contour>
+  </outline>
+</glyph>

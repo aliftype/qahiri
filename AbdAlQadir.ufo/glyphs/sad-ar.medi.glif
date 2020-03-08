@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sad-ar.medi" format="2">
+  <advance width="670"/>
+  <outline>
+    <component base="sad-ar.init"/>
+    <contour>
+      <point x="670" y="70" type="line"/>
+      <point x="570" y="70" type="line"/>
+      <point x="570" y="0" type="line"/>
+      <point x="670" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

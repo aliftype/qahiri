@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behDotless-ar" format="2">
+  <advance width="600"/>
+  <unicode hex="066E"/>
+  <anchor x="280" y="300" name="top"/>
+  <anchor x="280" y="-75" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="480" y="210" type="line"/>
+      <point x="480" y="70" type="line"/>
+      <point x="100" y="70" type="line" smooth="yes"/>
+      <point x="79.8442" y="70"/>
+      <point x="63.1837" y="75.4737"/>
+      <point x="52" y="90" type="curve"/>
+      <point x="0" y="0" type="line"/>
+      <point x="539" y="0" type="line"/>
+      <point x="545" y="0"/>
+      <point x="560" y="0"/>
+      <point x="560" y="11" type="curve"/>
+      <point x="560" y="230" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="._.2312045307920">
+      <hstem pos="0" width="70" />
+      <vstem pos="480" width="80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="heh-ar.medi.3" format="2">
+  <advance width="239.981"/>
+  <outline>
+    <component base="heh-ar.init.3"/>
+    <contour>
+      <point x="240" y="70" type="line"/>
+      <point x="80" y="70" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="240" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ain-ar.medi" format="2">
+  <advance width="242"/>
+  <anchor x="111" y="345" name="top"/>
+  <outline>
+    <contour>
+      <point x="242" y="70" type="line"/>
+      <point x="-20" y="70" type="line"/>
+      <point x="-20" y="0" type="line"/>
+      <point x="242" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="158.999" type="line"/>
+      <point x="128.991" y="30.0072" type="line"/>
+      <point x="209.005" y="30.0067" type="line"/>
+      <point x="225.567" y="46.5686" type="line"/>
+      <point x="42.4264" y="229.709" type="line"/>
+    </contour>
+    <contour>
+      <point x="122" y="250" type="line"/>
+      <point x="122" y="11" type="line"/>
+      <point x="202" y="11" type="line"/>
+      <point x="202" y="270" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="70" />
+      <vstem pos="122" width="80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hah-ar.fina" format="2">
+  <advance width="371"/>
+  <outline>
+    <contour>
+      <point x="363.812" y="-207" type="curve"/>
+      <point x="314.66" y="-215.466"/>
+      <point x="280.392" y="-219.119"/>
+      <point x="253.995" y="-219.119" type="curve" smooth="yes"/>
+      <point x="171.187" y="-219.119"/>
+      <point x="79.8118" y="-183.171"/>
+      <point x="79.8118" y="-92.8285" type="curve" smooth="yes"/>
+      <point x="79.8118" y="-26"/>
+      <point x="129.812" y="0"/>
+      <point x="169.971" y="0" type="curve"/>
+      <point x="154.592" y="70" type="line"/>
+      <point x="149.891" y="70" type="line"/>
+      <point x="53.7998" y="70"/>
+      <point x="0.0126934" y="-7.99749"/>
+      <point x="0.0126934" y="-90.1944" type="curve" smooth="yes"/>
+      <point x="0.0126934" y="-194.003"/>
+      <point x="85.8018" y="-250.094"/>
+      <point x="198.61" y="-250.094" type="curve" smooth="yes"/>
+      <point x="241.812" y="-250.094"/>
+      <point x="288.362" y="-241.609"/>
+    </contour>
+    <contour>
+      <point x="371.049" y="70" type="line"/>
+      <point x="150.049" y="70" type="line"/>
+      <point x="150.049" y="0" type="line"/>
+      <point x="371.049" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="179.094" y="230" type="line"/>
+      <point x="119.812" y="172.679" type="line"/>
+      <point x="311.408" y="-159.846" type="line"/>
+      <point x="370.69" y="-102.526" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-250.093597" width="30.974396" />
+      <hstem pos="0" width="70" />
+      <vstem pos="0.0127" width="79.799098" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

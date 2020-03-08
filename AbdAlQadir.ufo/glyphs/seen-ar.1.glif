@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seen-ar.1" format="2">
+  <advance width="510"/>
+  <outline>
+    <component base="seen-ar"/>
+    <contour>
+      <point x="390" y="230" type="line"/>
+      <point x="470" y="250" type="line"/>
+      <point x="470" y="200" type="line"/>
+      <point x="390" y="180" type="line"/>
+    </contour>
+    <contour>
+      <point x="270" y="230" type="line"/>
+      <point x="350" y="250" type="line"/>
+      <point x="350" y="200" type="line"/>
+      <point x="270" y="180" type="line"/>
+    </contour>
+    <contour>
+      <point x="150" y="230" type="line"/>
+      <point x="230" y="250" type="line"/>
+      <point x="230" y="200" type="line"/>
+      <point x="150" y="180" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="._.2312023408976">
+      <hstem pos="-250" width="70" />
+      <hstem pos="0" width="70" />
+      <vstem3 stem3List="150,80,270,80,390,80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

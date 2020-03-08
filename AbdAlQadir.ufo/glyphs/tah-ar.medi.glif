@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tah-ar.medi" format="2">
+  <advance width="670.237"/>
+  <outline>
+    <component base="tah-ar.init"/>
+    <contour>
+      <point x="670" y="70" type="line"/>
+      <point x="570" y="70" type="line"/>
+      <point x="570" y="0" type="line"/>
+      <point x="670" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="70" />
+      <hstem pos="110" width="70" />
+      <vstem pos="0" width="80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>
