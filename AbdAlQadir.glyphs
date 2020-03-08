@@ -212,18 +212,13 @@ code = "  sub @Dots by empty; ";
 name = ss01;
 },
 {
-code = "pos [hah-ar.init hah-ar.init.1 hah-ar.init.2] [meem-ar.medi meem-ar.medi.1 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 qafDotless-ar.fina] <-20 0 -20 0>;";
-name = kern;
-},
-{
-code = " lookupflag RightToLeft;
-  pos cursive [behDotless-ar.init.hah lam-ar.init.hah] <anchor NULL> <anchor -20 0>;
-  pos cursive hah-ar.3 <anchor 180 110> <anchor NULL>;
-  pos cursive [hah-ar.init hah-ar.init.1 hah-ar.init.2] <anchor 90  110> <anchor NULL>;
+code = "# Automatic Code End
+lookupflag IgnoreMarks;
+  pos [hah-ar.init hah-ar.init.1 hah-ar.init.2] [meem-ar.medi meem-ar.medi.1 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 qafDotless-ar.fina] <-20 0 -20 0>;
 
   pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 228 0> hah-ar.3;
   pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> [hah-ar.init hah-ar.init.1 hah-ar.init.2];";
-name = curs;
+name = kern;
 },
 {
 code = "";
@@ -725,11 +720,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{30, -75}";
+position = "{50, -75}";
 },
 {
 name = top;
-position = "{30, 300}";
+position = "{50, 300}";
 }
 );
 hints = (
@@ -771,7 +766,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{30, -75}";
+position = "{100, -145}";
+},
+{
+name = exit;
+position = "{-19, -2}";
 },
 {
 name = top;
@@ -1072,6 +1071,12 @@ width = 680;
 glyphname = "hah-ar.3";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{180, 110}";
+}
+);
 hints = (
 {
 place = "{0, 80}";
@@ -1306,6 +1311,10 @@ name = bottom;
 position = "{170, -70}";
 },
 {
+name = entry;
+position = "{90, 110}";
+},
+{
 name = top;
 position = "{170, 285}";
 }
@@ -1366,16 +1375,6 @@ name = Background;
 width = 400;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{180, -75}";
-},
-{
-name = top;
-position = "{180, 285}";
-}
-);
 components = (
 {
 alignment = -1;
@@ -1414,16 +1413,6 @@ width = 420;
 glyphname = "hah-ar.init.2";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{190, -75}";
-},
-{
-name = top;
-position = "{190, 285}";
-}
-);
 components = (
 {
 alignment = -1;
@@ -5970,6 +5959,12 @@ width = 120;
 glyphname = "lam-ar.init.hah";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{-20, -2}";
+}
+);
 hints = (
 {
 place = "{0, 80}";
@@ -6601,7 +6596,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{90, 215}";
+position = "{110, 85}";
 }
 );
 components = (
@@ -9820,6 +9815,29 @@ paths = (
 {
 closed = 1;
 nodes = (
+"-3 -29 LINE",
+"44 50 LINE",
+"61 40 LINE",
+"14 -39 LINE"
+);
+}
+);
+width = 80;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{40, -40}";
+}
+);
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+layerId = "EE17D735-ABCF-480D-8CC3-543DD761DBD5";
+name = "Mar 9 20, 00:16";
+paths = (
+{
+closed = 1;
+nodes = (
 "0 -25.213 LINE",
 "65.612 40.399 LINE",
 "79.754 26.257 LINE",
@@ -9827,6 +9845,7 @@ nodes = (
 );
 }
 );
+visible = 1;
 width = 80;
 }
 );
