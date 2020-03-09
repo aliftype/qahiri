@@ -54,7 +54,12 @@ code = "lookup AboveHah {
   sub lam-ar.init by lam-ar.init.hah;
   sub hah-ar.medi by hah-ar.init;
   sub hah-ar.fina by hah-ar.3;
-} AboveHah;";
+} AboveHah;
+
+lookup lellah {
+  sub lam-ar.init by lam-ar.init.lellah;
+  sub lam-ar.medi by lam-ar.medi.lellah;
+} lellah;";
 name = Lookups;
 }
 );
@@ -209,6 +214,11 @@ code = "#> feature
   sub yeh-ar        by alefMaksura-ar.fina;
   sub yeh-farsi     by alefMaksura-ar.fina;";
 name = fina;
+},
+{
+code = "lookupflag IgnoreMarks;
+  sub alef-ar lam-ar.init' lookup lellah lam-ar.medi' lookup lellah heh-ar.fina;";
+name = calt;
 },
 {
 code = "lookupflag IgnoreMarks;
@@ -6108,6 +6118,59 @@ width = 120;
 widthMetricsKey = "=lam-ar.init";
 },
 {
+glyphname = "lam-ar.medi.lellah";
+layers = (
+{
+components = (
+{
+name = _elbow;
+transform = "{1, 0, 0, 1, 40, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = "{0, 70}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+place = "{0, 80}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{0, 70}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{0, 70}";
+type = Stem;
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"42 0 LINE",
+"65 0 OFFCURVE",
+"80 15 OFFCURVE",
+"80 40 CURVE SMOOTH",
+"80 500 LINE",
+"0 480 LINE",
+"0 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 120;
+}
+);
+},
+{
 glyphname = "lam-ar.init";
 layers = (
 {
@@ -6183,6 +6246,53 @@ nodes = (
 }
 );
 width = 80;
+}
+);
+},
+{
+glyphname = "lam-ar.init.lellah";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = "{0, 70}";
+type = Stem;
+},
+{
+origin = "{0, 6}";
+place = "{0, 80}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{0, 70}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{0, 70}";
+type = Stem;
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"42 0 LINE",
+"65 0 OFFCURVE",
+"80 15 OFFCURVE",
+"80 40 CURVE SMOOTH",
+"80 530 LINE",
+"0 510 LINE",
+"0 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 120;
 }
 );
 },
