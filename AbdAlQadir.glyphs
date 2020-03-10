@@ -1,12 +1,5 @@
 {
 .appVersion = "1300";
-DisplayStrings = (
-"/zero-ar/one-ar/two-ar/two-ar.1/three-ar/three-ar.1/four-ar/four-ar.1/four-ar.2/five-ar/six-ar/six-ar.1/seven-ar/seven-ar.1/eight-ar/eight-ar.1/nine-ar",
-"/two-ar",
-"/four-ar",
-"/six-ar",
-"/lam_alef-ar/lam_alef-ar.2/lam_alef-ar.3/lam_alef-ar.4/lam_alef-ar.5/lam_alef-ar.1/space"
-);
 classes = (
 {
 code = "dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar";
@@ -4743,7 +4736,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{151, 345}";
+position = "{143, 305}";
 }
 );
 components = (
@@ -4808,7 +4801,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{111, 345}";
+position = "{81, 305}";
 }
 );
 hints = (
@@ -13262,23 +13255,23 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{47, 0}";
+position = "{29, 0}";
 }
 );
 components = (
 {
 alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 30, 0}";
+transform = "{1, 0, 0, 1, 12, 0}";
 },
 {
 alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 0, 50}";
+transform = "{1, 0, 0, 1, 0, 57}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 94;
+width = 76;
 }
 );
 },
