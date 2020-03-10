@@ -257,9 +257,18 @@ name = kern;
 },
 {
 code = "# Automatic Code End
-@DotBelow = [dotbelow-ar dotbelow-ar.alt1 twodotshorizontalbelow-ar twodotshorizontalbelow-ar.alt1];
-lookupflag UseMarkFilteringSet @DotBelow;
-  pos [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1] behDotless-ar.init @DotBelow' <0 -100 0 0>;";
+lookup DotsBelow {
+ @DotsBelow = [dotbelow-ar dotbelow-ar.alt1 twodotshorizontalbelow-ar twodotshorizontalbelow-ar.alt1];
+ lookupflag UseMarkFilteringSet @DotsBelow;
+  pos [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1] behDotless-ar.init @DotsBelow' <0 -100 0 0>;
+  pos behDotless-ar.init @DotsBelow' <-40 0 0 0> alef-ar.fina;
+} DotsBelow;
+
+lookup DotAvove {
+ @DotAbove = [dotabove-ar dotabove-ar.alt1];
+ lookupflag UseMarkFilteringSet @DotAbove;
+  pos behDotless-ar.init.hah [hah-ar.init hah-ar.3] @DotAbove' <-240 120 0 0>;
+} DotAvove;";
 name = mark;
 },
 {
@@ -1003,7 +1012,7 @@ name = "behDotless-ar";
 },
 {
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 234, 200}";
+transform = "{1, 0, 0, 1, 225, 200}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1023,7 +1032,7 @@ name = "behDotless-ar";
 },
 {
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 203, 200}";
+transform = "{1, 0, 0, 1, 202, 200}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1221,7 +1230,7 @@ position = "{180, 110}";
 },
 {
 name = top;
-position = "{289, 163}";
+position = "{359, 163}";
 }
 );
 components = (
@@ -3611,7 +3620,7 @@ name = "seen-ar";
 },
 {
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 156, 300}";
+transform = "{1, 0, 0, 1, 155, 300}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -6249,7 +6258,7 @@ name = "qafDotless-ar";
 },
 {
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 50, 255}";
+transform = "{1, 0, 0, 1, 41, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -6985,7 +6994,6 @@ place = "{0, 70}";
 type = Stem;
 },
 {
-origin = "{0, 6}";
 place = "{0, 80}";
 type = Stem;
 },
@@ -7111,7 +7119,6 @@ place = "{0, 70}";
 type = Stem;
 },
 {
-origin = "{0, 6}";
 place = "{0, 80}";
 type = Stem;
 },
@@ -9311,7 +9318,7 @@ name = "heh-ar";
 },
 {
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 54, 235}";
+transform = "{1, 0, 0, 1, 45, 235}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -12395,7 +12402,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{46, 0}";
+position = "{55, 0}";
 }
 );
 components = (
@@ -12406,11 +12413,11 @@ name = "dotabove-ar";
 {
 alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 60, 0}";
+transform = "{1, 0, 0, 1, 46, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 124;
+width = 110;
 }
 );
 },
@@ -12447,7 +12454,7 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{79, 89}";
+position = "{55, 89}";
 }
 );
 components = (
@@ -12457,7 +12464,7 @@ name = "twodotshorizontalabove-ar";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 124;
+width = 110;
 }
 );
 },
@@ -12489,28 +12496,21 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{77, 0}";
+position = "{78, 0}";
 }
 );
 components = (
 {
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 0.123, 0}";
+name = "twodotshorizontalabove-ar";
 },
 {
 alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 60.123, 0}";
-},
-{
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 120.123, 0}";
+transform = "{1, 0, 0, 1, 92, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 184;
+width = 156;
 }
 );
 },
