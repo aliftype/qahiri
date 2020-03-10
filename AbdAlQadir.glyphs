@@ -8,10 +8,6 @@ name = Dots;
 {
 code = "dotabove-ar.alt1 dotbelow-ar.alt1 twodotshorizontalabove-ar.alt1 twodotshorizontalbelow-ar.alt1 threedotsupabove-ar.alt1";
 name = Dots.alt1;
-},
-{
-code = "dotbelow-ar dotbelow-ar.alt1 twodotshorizontalbelow-ar twodotshorizontalbelow-ar.alt1";
-name = DotBelow;
 }
 );
 copyright = "Copyright © 2020 by Khaled Hosny. All rights reserved.";
@@ -59,7 +55,45 @@ code = "lookup AboveHah {
 lookup lellah {
   sub lam-ar.init by lam-ar.init.lellah;
   sub lam-ar.medi by lam-ar.medi.lellah;
-} lellah;";
+} lellah;
+
+lookup Alternates {
+  sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
+  sub ain-ar.init             from [ain-ar.init ain-ar.init.1];
+  sub alef-ar                 from [alef-ar alef-ar.1 alef-ar.2 alef-ar.3];
+  sub alefMaksura-ar          from [alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4 alefMaksura-ar.5 alefMaksura-ar.6];
+  sub alefMaksura-ar.fina     from [alefMaksura-ar.fina alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
+  sub behDotless-ar.medi.high from [behDotless-ar.medi.high behDotless-ar.medi.high.1];
+  sub fehDotless-ar           from [fehDotless-ar fehDotless-ar.1 fehDotless-ar.2 fehDotless-ar.3];
+  sub fehDotless-ar.fina      from [fehDotless-ar.fina fehDotless-ar.fina.1 fehDotless-ar.fina.2 fehDotless-ar.fina.3];
+  sub fehDotless-ar.init      from [fehDotless-ar.init fehDotless-ar.init.1];
+  sub fehDotless-ar.medi      from [fehDotless-ar.medi fehDotless-ar.medi.1];
+  sub hah-ar                  from [hah-ar hah-ar.1 hah-ar.2 hah-ar.3 hah-ar.4 hah-ar.5];
+  sub hah-ar.init             from [hah-ar.init hah-ar.init.1 hah-ar.init.2];
+  sub heh-ar                  from [heh-ar heh-ar.1 heh-ar.2];
+  sub heh-ar.fina             from [heh-ar.fina heh-ar.fina.1 heh-ar.fina.2];
+  sub heh-ar.init             from [heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7];
+  sub heh-ar.medi             from [heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7];
+  sub kaf-ar                  from [kaf-ar kaf-ar.1 kaf-ar.2];
+  sub kaf-ar.fina             from [kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2];
+  sub kaf-ar.init             from [kaf-ar.init kaf-ar.init.1 kaf-ar.init.2];
+  sub kaf-ar.medi             from [kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2];
+  sub lam_alef-ar             from [lam_alef-ar lam_alef-ar.1];
+  sub lam_alef-ar.fina        from [lam_alef-ar.fina lam_alef-ar.fina.1];
+  sub meem-ar                 from [meem-ar meem-ar.1 meem-ar.2];
+  sub meem-ar.fina            from [meem-ar.fina meem-ar.fina.1 meem-ar.fina.2];
+  sub meem-ar.medi            from [meem-ar.medi meem-ar.medi.1];
+  sub reh-ar                  from [reh-ar reh-ar.1];
+  sub reh-ar.fina             from [reh-ar.fina reh-ar.fina.1];
+  sub sad-ar                  from [sad-ar sad-ar.1];
+  sub sad-ar.fina             from [sad-ar.fina sad-ar.fina.1];
+  sub seen-ar                 from [seen-ar seen-ar.1 seen-ar.2 seen-ar.3 seen-ar.4 seen-ar.5 seen-ar.6];
+  sub seen-ar.fina            from [seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5];
+  sub seen-ar.init            from [seen-ar.init seen-ar.init.1 seen-ar.init.2 seen-ar.init.3 seen-ar.init.4 seen-ar.init.5 seen-ar.init.6];
+  sub seen-ar.medi            from [seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6];
+  sub waw-ar                  from [waw-ar waw-ar.1];
+  sub waw-ar.fina             from [waw-ar.fina waw-ar.fina.1];
+} Alternates;";
 name = Lookups;
 }
 );
@@ -103,41 +137,7 @@ code = "  sub alefHamzaabove-ar by alef-ar hamzaabove-ar;
 name = ccmp;
 },
 {
-code = "  sub ain-ar from [ain-ar.1 ain-ar.2 ain-ar.3];
-  sub ain-ar.init from [ain-ar.init.1];
-  sub alef-ar from [alef-ar.1 alef-ar.2 alef-ar.3];
-  sub alefMaksura-ar from [alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4 alefMaksura-ar.5 alefMaksura-ar.6];
-  sub alefMaksura-ar.fina from [alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
-  sub behDotless-ar.medi.high from [behDotless-ar.medi.high.1];
-  sub fehDotless-ar from [fehDotless-ar.1 fehDotless-ar.2 fehDotless-ar.3];
-  sub fehDotless-ar.fina from [fehDotless-ar.fina.1 fehDotless-ar.fina.2 fehDotless-ar.fina.3];
-  sub fehDotless-ar.init from [fehDotless-ar.init.1];
-  sub fehDotless-ar.medi from [fehDotless-ar.medi.1];
-  sub hah-ar from [hah-ar.1 hah-ar.2 hah-ar.3 hah-ar.4 hah-ar.5];
-  sub hah-ar.init from [hah-ar.init.1 hah-ar.init.2];
-  sub heh-ar from [heh-ar.1 heh-ar.2];
-  sub heh-ar.fina from [heh-ar.fina.1 heh-ar.fina.2];
-  sub heh-ar.init from [heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7];
-  sub heh-ar.medi from [heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7];
-  sub kaf-ar from [kaf-ar.1 kaf-ar.2];
-  sub kaf-ar.fina from [kaf-ar.fina.1 kaf-ar.fina.2];
-  sub kaf-ar.init from [kaf-ar.init.1 kaf-ar.init.2];
-  sub kaf-ar.medi from [kaf-ar.medi.1 kaf-ar.medi.2];
-  sub lam_alef-ar from [lam_alef-ar.1];
-  sub lam_alef-ar.fina from [lam_alef-ar.fina.1];
-  sub meem-ar from [meem-ar.1 meem-ar.2];
-  sub meem-ar.fina from [meem-ar.fina.1 meem-ar.fina.2];
-  sub meem-ar.medi from [meem-ar.medi.1];
-  sub reh-ar from [reh-ar.1];
-  sub reh-ar.fina from [reh-ar.fina.1];
-  sub sad-ar from [sad-ar.1];
-  sub sad-ar.fina from [sad-ar.fina.1];
-  sub seen-ar from [seen-ar.1 seen-ar.2 seen-ar.3 seen-ar.4 seen-ar.5 seen-ar.6];
-  sub seen-ar.fina from [seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5];
-  sub seen-ar.init from [seen-ar.init.1 seen-ar.init.2 seen-ar.init.3 seen-ar.init.4 seen-ar.init.5 seen-ar.init.6];
-  sub seen-ar.medi from [seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6];
-  sub waw-ar from [waw-ar.1];
-  sub waw-ar.fina from [waw-ar.fina.1];";
+code = "lookup Alternates;";
 name = salt;
 },
 {
@@ -257,9 +257,16 @@ name = kern;
 },
 {
 code = "# Automatic Code End
- lookupflag UseMarkFilteringSet @DotBelow;
+@DotBelow = [dotbelow-ar dotbelow-ar.alt1 twodotshorizontalbelow-ar twodotshorizontalbelow-ar.alt1];
+lookupflag UseMarkFilteringSet @DotBelow;
   pos [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1] behDotless-ar.init @DotBelow' <0 -100 0 0>;";
 name = mark;
+},
+{
+code = "@TwoDotsAbove = [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1];
+lookupflag UseMarkFilteringSet @TwoDotsAbove;
+  sub [heh-ar.fina.2 heh-ar.2] [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1]' by [twodotsverticalabove-ar twodotsverticalabove-ar.alt1];";
+name = dist;
 }
 );
 fontMaster = (
@@ -330,22 +337,37 @@ paths = (
 {
 closed = 1;
 nodes = (
-"207 0 LINE",
-"236 50 LINE",
-"179 50 LINE SMOOTH",
-"104 50 OFFCURVE",
-"136 153 OFFCURVE",
-"204 101 CURVE",
-"208 107 LINE",
-"154 195 OFFCURVE",
-"54 124 OFFCURVE",
-"96 50 CURVE",
+"226 0 LINE",
+"256 50 LINE",
+"165 50 LINE SMOOTH",
+"150 50 OFFCURVE",
+"141 62 OFFCURVE",
+"141 76 CURVE SMOOTH",
+"141 91 OFFCURVE",
+"153 107 OFFCURVE",
+"179 107 CURVE SMOOTH",
+"189 107 OFFCURVE",
+"200 105 OFFCURVE",
+"213 100 CURVE",
+"203 132 OFFCURVE",
+"178 150 OFFCURVE",
+"153 150 CURVE SMOOTH",
+"69 150 OFFCURVE",
+"59 19 OFFCURVE",
+"141 0 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
 "69 50 LINE",
-"40 0 LINE"
+"40 0 LINE",
+"157 0 LINE",
+"186 50 LINE"
 );
 }
 );
-width = 276;
+width = 296;
 }
 );
 unicode = 0621;
@@ -511,9 +533,19 @@ width = 360;
 glyphname = "alef-ar.3";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{62, -20}";
+},
+{
+name = top;
+position = "{82, 574}";
+}
+);
 hints = (
 {
-place = "{0, 80}";
+place = "{40, 80}";
 type = Stem;
 },
 {
@@ -528,18 +560,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-30 10 OFFCURVE",
-"-10 0 OFFCURVE",
-"11.962 0 CURVE SMOOTH",
-"50 0 OFFCURVE",
-"80 30 OFFCURVE",
-"80 80 CURVE SMOOTH",
-"80 560 LINE",
-"0 540 LINE",
-"0 70 LINE SMOOTH",
-"0 40 OFFCURVE",
-"-13 20 OFFCURVE",
-"-40 20 CURVE"
+"10 10 OFFCURVE",
+"30 0 OFFCURVE",
+"52 0 CURVE SMOOTH",
+"90 0 OFFCURVE",
+"120 30 OFFCURVE",
+"120 80 CURVE SMOOTH",
+"120 560 LINE",
+"40 540 LINE",
+"40 70 LINE SMOOTH",
+"40 40 OFFCURVE",
+"27 20 OFFCURVE",
+"0 20 CURVE"
 );
 }
 );
@@ -607,7 +639,7 @@ name = "alef-ar";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 61, 474}";
+transform = "{1, 0, 0, 1, 84, 474}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -627,7 +659,7 @@ name = "alef-ar";
 },
 {
 name = "hamzabelow-ar";
-transform = "{1, 0, 0, 1, 9, -105}";
+transform = "{1, 0, 0, 1, 5, -107}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -715,14 +747,20 @@ unicode = 066E;
 glyphname = "behDotless-ar.fina";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{280, -75}";
+}
+);
 components = (
 {
 alignment = -1;
-name = "behDotless-ar";
-},
-{
 name = _elbow;
 transform = "{1, 0, 0, 1, 520, 0}";
+},
+{
+name = "behDotless-ar";
 }
 );
 hints = (
@@ -843,11 +881,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{50, -75}";
+position = "{44, -75}";
 },
 {
 name = top;
-position = "{50, 300}";
+position = "{44, 300}";
 }
 );
 hints = (
@@ -944,7 +982,7 @@ name = "behDotless-ar";
 },
 {
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 233, -125}";
+transform = "{1, 0, 0, 1, 233, -164}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -964,7 +1002,7 @@ name = "behDotless-ar";
 },
 {
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 234, 240}";
+transform = "{1, 0, 0, 1, 234, 200}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -984,7 +1022,7 @@ name = "behDotless-ar";
 },
 {
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 203, 240}";
+transform = "{1, 0, 0, 1, 203, 200}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1004,7 +1042,7 @@ name = "hah-ar";
 },
 {
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 253, -195}";
+transform = "{1, 0, 0, 1, 253, -234}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1530,7 +1568,7 @@ position = "{90, 110}";
 },
 {
 name = top;
-position = "{199, 163}";
+position = "{269, 163}";
 }
 );
 hints = (
@@ -1672,7 +1710,7 @@ name = "hah-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 422, 202}";
+transform = "{1, 0, 0, 1, 492, 163}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1782,7 +1820,7 @@ name = "dal-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 263, 294}";
+transform = "{1, 0, 0, 1, 263, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1987,7 +2025,7 @@ name = "reh-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 100, 254}";
+transform = "{1, 0, 0, 1, 100, 215}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2000,6 +2038,12 @@ unicode = 0632;
 glyphname = "seen-ar";
 layers = (
 {
+anchors = (
+{
+name = top;
+position = "{233, 300}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2059,6 +2103,12 @@ unicode = 0633;
 glyphname = "seen-ar.1";
 layers = (
 {
+anchors = (
+{
+name = top;
+position = "{233, 320}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2129,6 +2179,12 @@ rightKerningGroup = bowel;
 glyphname = "seen-ar.2";
 layers = (
 {
+anchors = (
+{
+name = top;
+position = "{233, 340}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2199,6 +2255,12 @@ rightKerningGroup = bowel;
 glyphname = "seen-ar.3";
 layers = (
 {
+anchors = (
+{
+name = top;
+position = "{233, 310}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2278,6 +2340,12 @@ rightKerningGroup = bowel;
 glyphname = "seen-ar.4";
 layers = (
 {
+anchors = (
+{
+name = top;
+position = "{233, 320}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2348,6 +2416,12 @@ rightKerningGroup = bowel;
 glyphname = "seen-ar.5";
 layers = (
 {
+anchors = (
+{
+name = top;
+position = "{233, 340}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2421,7 +2495,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{171, 252}";
+position = "{180, 202}";
 }
 );
 components = (
@@ -2999,7 +3073,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{176, 215}";
+position = "{148, 215}";
 }
 );
 hints = (
@@ -3107,7 +3181,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{160, 280}";
+position = "{160, 300}";
 }
 );
 components = (
@@ -3177,7 +3251,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{160, 280}";
+position = "{160, 300}";
 }
 );
 components = (
@@ -3247,7 +3321,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{160, 280}";
+position = "{160, 290}";
 }
 );
 components = (
@@ -3325,7 +3399,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{160, 280}";
+position = "{160, 300}";
 }
 );
 components = (
@@ -3395,7 +3469,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{160, 280}";
+position = "{160, 320}";
 }
 );
 components = (
@@ -3465,7 +3539,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{96, 215}";
+position = "{150, 215}";
 }
 );
 hints = (
@@ -3536,7 +3610,7 @@ name = "seen-ar";
 },
 {
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 163, 340}";
+transform = "{1, 0, 0, 1, 156, 300}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -3842,7 +3916,7 @@ name = "sad-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 363, 294}";
+transform = "{1, 0, 0, 1, 363, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4037,7 +4111,7 @@ name = "tah-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 373, 294}";
+transform = "{1, 0, 0, 1, 373, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -5037,7 +5111,7 @@ name = "ain-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 382, 269}";
+transform = "{1, 0, 0, 1, 382, 230}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -5057,11 +5131,11 @@ name = "fehDotless-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 430, 374}";
+transform = "{1, 0, 0, 1, 430, 335}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 600;
+width = 613;
 }
 );
 unicode = 0641;
@@ -5189,7 +5263,7 @@ type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 600;
+width = 613;
 }
 );
 unicode = 06A1;
@@ -5309,7 +5383,7 @@ nodes = (
 );
 }
 );
-width = 640;
+width = 653;
 }
 );
 },
@@ -5431,16 +5505,17 @@ paths = (
 {
 closed = 1;
 nodes = (
-"600 0 LINE",
-"600 70 LINE",
-"500 70 LINE",
-"500 0 LINE"
+"613 0 LINE",
+"613 70 LINE",
+"513 70 LINE",
+"513 0 LINE"
 );
 }
 );
-width = 600;
+width = 613;
 }
 );
+widthMetricsKey = "=fehDotless-ar";
 },
 {
 glyphname = "fehDotless-ar.fina.1";
@@ -5501,6 +5576,7 @@ nodes = (
 width = 600;
 }
 );
+widthMetricsKey = "fehDotless-ar.1";
 },
 {
 glyphname = "fehDotless-ar.fina.2";
@@ -5551,16 +5627,17 @@ paths = (
 {
 closed = 1;
 nodes = (
-"640 0 LINE",
-"640 70 LINE",
+"653 0 LINE",
+"653 70 LINE",
 "540 70 LINE",
 "540 0 LINE"
 );
 }
 );
-width = 640;
+width = 653;
 }
 );
+widthMetricsKey = "fehDotless-ar.2";
 },
 {
 glyphname = "fehDotless-ar.fina.3";
@@ -5621,6 +5698,7 @@ nodes = (
 width = 640;
 }
 );
+widthMetricsKey = "fehDotless-ar.3";
 },
 {
 glyphname = "fehDotless-ar.medi";
@@ -5813,17 +5891,20 @@ width = 242;
 {
 components = (
 {
-name = "fehDotless-ar.init.1";
-transform = "{1, 0, 0, 1, 80, 0}";
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 160, 0}";
 },
 {
-name = "kashida-ar";
+alignment = -1;
+name = "fehDotless-ar.init.1";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 303;
+width = 240;
 }
 );
+widthMetricsKey = "=fehDotless-ar.init.1";
 },
 {
 glyphname = "fehDotless-ar.init";
@@ -5909,7 +5990,7 @@ nodes = (
 );
 }
 );
-width = 223;
+width = 253;
 }
 );
 },
@@ -5999,7 +6080,7 @@ nodes = (
 );
 }
 );
-width = 223;
+width = 240;
 }
 );
 },
@@ -6144,8 +6225,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"249 0 LINE",
-"249 70 LINE",
+"256 0 LINE",
+"256 70 LINE",
 "100 70 LINE",
 "100 0 LINE"
 );
@@ -6167,7 +6248,7 @@ name = "qafDotless-ar";
 },
 {
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 50, 295}";
+transform = "{1, 0, 0, 1, 50, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -7656,7 +7737,7 @@ name = "noonghunna-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 63, 244}";
+transform = "{1, 0, 0, 1, 63, 205}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -9227,7 +9308,7 @@ name = "heh-ar";
 },
 {
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 54, 275}";
+transform = "{1, 0, 0, 1, 54, 235}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -9545,7 +9626,7 @@ name = "waw-ar";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 47, 230}";
+transform = "{1, 0, 0, 1, 70, 230}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -11120,7 +11201,7 @@ name = "alefMaksura-ar";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 8, 198}";
+transform = "{1, 0, 0, 1, 31, 198}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -11791,7 +11872,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{17, -39}";
+position = "{17, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -11799,10 +11880,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"0 -29 LINE",
-"47 50 LINE",
-"64 40 LINE",
-"17 -39 LINE"
+"0 10 LINE",
+"47 89 LINE",
+"64 79 LINE",
+"17 0 LINE"
 );
 }
 );
@@ -11841,7 +11922,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{29, -10}";
+position = "{29, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -11849,18 +11930,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"45 -9 OFFCURVE",
-"58 4 OFFCURVE",
-"58 20 CURVE SMOOTH",
-"58 36 OFFCURVE",
-"45 49 OFFCURVE",
-"29 49 CURVE SMOOTH",
-"13 49 OFFCURVE",
-"0 36 OFFCURVE",
-"0 20 CURVE SMOOTH",
-"0 4 OFFCURVE",
-"13 -9 OFFCURVE",
-"29 -9 CURVE SMOOTH"
+"45 0 OFFCURVE",
+"58 13 OFFCURVE",
+"58 29 CURVE SMOOTH",
+"58 45 OFFCURVE",
+"45 58 OFFCURVE",
+"29 58 CURVE SMOOTH",
+"13 58 OFFCURVE",
+"0 45 OFFCURVE",
+"0 29 CURVE SMOOTH",
+"0 13 OFFCURVE",
+"13 0 OFFCURVE",
+"29 0 CURVE SMOOTH"
 );
 }
 );
@@ -11898,7 +11979,7 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{47, 50}";
+position = "{47, 89}";
 }
 );
 components = (
@@ -11919,7 +12000,7 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{29, 50}";
+position = "{29, 58}";
 }
 );
 components = (
@@ -11934,13 +12015,66 @@ width = 58;
 );
 },
 {
+glyphname = "twodotsverticalabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{47, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 30, 0}";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 0, 50}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 94;
+}
+);
+},
+{
+glyphname = "twodotsverticalabove-ar.alt1";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{29, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "dotabove-ar.alt1";
+},
+{
+alignment = -1;
+name = "dotabove-ar.alt1";
+transform = "{1, 0, 0, 1, 0, 80}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 58;
+}
+);
+},
+{
 glyphname = "twodotshorizontalabove-ar";
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{46, -40}";
+position = "{46, 0}";
 }
 );
 components = (
@@ -11966,7 +12100,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{70, -10}";
+position = "{70, 0}";
 }
 );
 components = (
@@ -11992,7 +12126,7 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{77, 40}";
+position = "{79, 89}";
 }
 );
 components = (
@@ -12013,7 +12147,7 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{70, 50}";
+position = "{70, 58}";
 }
 );
 components = (
@@ -12034,7 +12168,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{77, -40}";
+position = "{77, 0}";
 }
 );
 components = (
@@ -12066,7 +12200,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{68, -40}";
+position = "{68, 0}";
 }
 );
 components = (
@@ -12092,17 +12226,18 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{82, 0}";
+position = "{59, 0}";
 }
 );
 components = (
 {
+alignment = -1;
 name = "hamza-ar";
-transform = "{0.5787, 0, 0, 0.5787, 0, 0}";
+transform = "{0.5787, 0, 0, 0.5787, -23, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 160;
+width = 125;
 }
 );
 unicode = 0654;
@@ -12114,17 +12249,18 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{61, 85}";
+position = "{65, 87}";
 }
 );
 components = (
 {
+alignment = -1;
 name = "hamza-ar";
-transform = "{0.5787, 0, 0, 0.5787, 0, 0}";
+transform = "{0.5787, 0, 0, 0.5787, -23, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 160;
+width = 125;
 }
 );
 unicode = 0655;
