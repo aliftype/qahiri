@@ -6659,7 +6659,7 @@ name = "kaf-ar.init.2";
 },
 {
 name = "kashida-ar";
-transform = "{1, 0, 0, 1, 520, 0}";
+transform = "{1, 0, 0, 1, 500, 0}";
 }
 );
 hints = (
@@ -6675,10 +6675,11 @@ type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 600;
+width = 580;
 }
 );
 leftKerningGroup = waw;
+widthMetricsKey = "=kaf-ar.init.2";
 },
 {
 glyphname = "kaf-ar.init";
@@ -6816,6 +6817,7 @@ layers = (
 components = (
 {
 name = _dal;
+transform = "{1, 0, 0, 1, -20, 0}";
 }
 );
 hints = (
@@ -6835,25 +6837,25 @@ paths = (
 {
 closed = 1;
 nodes = (
-"146 180 LINE",
-"80 180 LINE",
-"107 250 LINE",
-"104 250 LINE",
-"24 110 LINE",
-"146 110 LINE"
+"122 180 LINE",
+"56 180 LINE",
+"83 250 LINE",
+"80 250 LINE",
+"0 110 LINE",
+"122 110 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"54 0 LINE",
-"54 70 LINE",
+"50 0 LINE",
+"50 70 LINE",
 "-20 70 LINE",
 "-20 0 LINE"
 );
 }
 );
-width = 600;
+width = 580;
 }
 );
 },
