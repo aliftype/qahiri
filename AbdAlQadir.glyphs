@@ -55,45 +55,7 @@ code = "lookup AboveHah {
 lookup lellah {
   sub lam-ar.init by lam-ar.init.lellah;
   sub lam-ar.medi by lam-ar.medi.lellah;
-} lellah;
-
-lookup Alternates {
-  sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
-  sub ain-ar.init             from [ain-ar.init ain-ar.init.1];
-  sub alef-ar                 from [alef-ar.1 alef-ar alef-ar.2 alef-ar.3];
-  sub alefMaksura-ar          from [alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4 alefMaksura-ar.5 alefMaksura-ar.6];
-  sub alefMaksura-ar.fina     from [alefMaksura-ar.fina alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
-  sub behDotless-ar.medi.high from [behDotless-ar.medi.high behDotless-ar.medi.high.1];
-  sub fehDotless-ar           from [fehDotless-ar fehDotless-ar.1 fehDotless-ar.2 fehDotless-ar.3];
-  sub fehDotless-ar.fina      from [fehDotless-ar.fina fehDotless-ar.fina.1 fehDotless-ar.fina.2 fehDotless-ar.fina.3];
-  sub fehDotless-ar.init      from [fehDotless-ar.init fehDotless-ar.init.1];
-  sub fehDotless-ar.medi      from [fehDotless-ar.medi fehDotless-ar.medi.1];
-  sub hah-ar                  from [hah-ar hah-ar.1 hah-ar.2 hah-ar.3 hah-ar.4 hah-ar.5];
-  sub hah-ar.init             from [hah-ar.init hah-ar.init.1 hah-ar.init.2];
-  sub heh-ar                  from [heh-ar heh-ar.1 heh-ar.2];
-  sub heh-ar.fina             from [heh-ar.fina heh-ar.fina.1 heh-ar.fina.2];
-  sub heh-ar.init             from [heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7];
-  sub heh-ar.medi             from [heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7];
-  sub kaf-ar                  from [kaf-ar kaf-ar.1 kaf-ar.2];
-  sub kaf-ar.fina             from [kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2];
-  sub kaf-ar.init             from [kaf-ar.init kaf-ar.init.1 kaf-ar.init.2];
-  sub kaf-ar.medi             from [kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2];
-  sub lam_alef-ar             from [lam_alef-ar lam_alef-ar.1 lam_alef-ar.2 lam_alef-ar.3 lam_alef-ar.4 lam_alef-ar.5];
-  sub lam_alef-ar.fina        from [lam_alef-ar.fina lam_alef-ar.fina.1 lam_alef-ar.fina.2 lam_alef-ar.fina.3 lam_alef-ar.fina.4 lam_alef-ar.fina.5];
-  sub meem-ar                 from [meem-ar meem-ar.1 meem-ar.2];
-  sub meem-ar.fina            from [meem-ar.fina meem-ar.fina.1 meem-ar.fina.2];
-  sub meem-ar.medi            from [meem-ar.medi meem-ar.medi.1];
-  sub reh-ar                  from [reh-ar reh-ar.1];
-  sub reh-ar.fina             from [reh-ar.fina reh-ar.fina.1];
-  sub sad-ar                  from [sad-ar sad-ar.1];
-  sub sad-ar.fina             from [sad-ar.fina sad-ar.fina.1];
-  sub seen-ar                 from [seen-ar seen-ar.1 seen-ar.2 seen-ar.3 seen-ar.4 seen-ar.5 seen-ar.6];
-  sub seen-ar.fina            from [seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5];
-  sub seen-ar.init            from [seen-ar.init seen-ar.init.1 seen-ar.init.2 seen-ar.init.3 seen-ar.init.4 seen-ar.init.5 seen-ar.init.6];
-  sub seen-ar.medi            from [seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6];
-  sub waw-ar                  from [waw-ar waw-ar.1];
-  sub waw-ar.fina             from [waw-ar.fina waw-ar.fina.1];
-} Alternates;";
+} lellah;";
 name = Lookups;
 }
 );
@@ -117,7 +79,8 @@ name = aalt;
 code = "  sub alefHamzaabove-ar by alef-ar hamzaabove-ar;
   sub alefHamzabelow-ar by alef-ar hamzabelow-ar;
   sub alefMadda-ar      by alef-ar;
-  sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar;
+  sub alefWasla-ar      by alef-ar;
+  sub yehHamzaabove-ar  by alefMaksura-ar hamzaabove-ar;
   sub wawHamzaabove-ar  by waw-ar hamzaabove-ar;
 
   sub beh-ar   by behDotless-ar dotbelow-ar;
@@ -135,10 +98,6 @@ code = "  sub alefHamzaabove-ar by alef-ar hamzaabove-ar;
   sub qaf-ar   by qafDotless-ar twodotshorizontalabove-ar;
   sub noon-ar  by noonghunna-ar dotabove-ar;";
 name = ccmp;
-},
-{
-code = "lookup Alternates;";
-name = salt;
 },
 {
 code = "  sub tehMarbuta-ar by heh-ar twodotshorizontalabove-ar;
@@ -245,6 +204,48 @@ name = ss01;
 {
 code = "  sub @Dots by @Dots.alt1; ";
 name = ss02;
+},
+{
+code = "lookup Alternates {
+  sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
+  sub ain-ar.init             from [ain-ar.init ain-ar.init.1];
+  sub alef-ar                 from [alef-ar.1 alef-ar alef-ar.2 alef-ar.3];
+  sub alefMaksura-ar          from [alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4 alefMaksura-ar.5 alefMaksura-ar.6];
+  sub alefMaksura-ar.fina     from [alefMaksura-ar.fina alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
+  sub behDotless-ar.medi.high from [behDotless-ar.medi.high behDotless-ar.medi.high.1];
+  sub fehDotless-ar           from [fehDotless-ar fehDotless-ar.1 fehDotless-ar.2 fehDotless-ar.3];
+  sub fehDotless-ar.fina      from [fehDotless-ar.fina fehDotless-ar.fina.1 fehDotless-ar.fina.2 fehDotless-ar.fina.3];
+  sub fehDotless-ar.init      from [fehDotless-ar.init fehDotless-ar.init.1];
+  sub fehDotless-ar.medi      from [fehDotless-ar.medi fehDotless-ar.medi.1];
+  sub hah-ar                  from [hah-ar hah-ar.1 hah-ar.2 hah-ar.3 hah-ar.4 hah-ar.5];
+  sub hah-ar.init             from [hah-ar.init hah-ar.init.1 hah-ar.init.2];
+  sub heh-ar                  from [heh-ar heh-ar.1 heh-ar.2];
+  sub heh-ar.fina             from [heh-ar.fina heh-ar.fina.1 heh-ar.fina.2];
+  sub heh-ar.init             from [heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7];
+  sub heh-ar.medi             from [heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7];
+  sub kaf-ar                  from [kaf-ar kaf-ar.1 kaf-ar.2];
+  sub kaf-ar.fina             from [kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2];
+  sub kaf-ar.init             from [kaf-ar.init kaf-ar.init.1 kaf-ar.init.2];
+  sub kaf-ar.medi             from [kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2];
+  sub lam_alef-ar             from [lam_alef-ar lam_alef-ar.1 lam_alef-ar.2 lam_alef-ar.3 lam_alef-ar.4 lam_alef-ar.5];
+  sub lam_alef-ar.fina        from [lam_alef-ar.fina lam_alef-ar.fina.1 lam_alef-ar.fina.2 lam_alef-ar.fina.3 lam_alef-ar.fina.4 lam_alef-ar.fina.5];
+  sub meem-ar                 from [meem-ar meem-ar.1 meem-ar.2];
+  sub meem-ar.fina            from [meem-ar.fina meem-ar.fina.1 meem-ar.fina.2];
+  sub meem-ar.medi            from [meem-ar.medi meem-ar.medi.1];
+  sub reh-ar                  from [reh-ar reh-ar.1];
+  sub reh-ar.fina             from [reh-ar.fina reh-ar.fina.1];
+  sub sad-ar                  from [sad-ar sad-ar.1];
+  sub sad-ar.fina             from [sad-ar.fina sad-ar.fina.1];
+  sub seen-ar                 from [seen-ar seen-ar.1 seen-ar.2 seen-ar.3 seen-ar.4 seen-ar.5 seen-ar.6];
+  sub seen-ar.fina            from [seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5];
+  sub seen-ar.init            from [seen-ar.init seen-ar.init.1 seen-ar.init.2 seen-ar.init.3 seen-ar.init.4 seen-ar.init.5 seen-ar.init.6];
+  sub seen-ar.medi            from [seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6];
+  sub waw-ar                  from [waw-ar waw-ar.1];
+  sub waw-ar.fina             from [waw-ar.fina waw-ar.fina.1];
+} Alternates;
+
+lookup Alternates;";
+name = salt;
 },
 {
 code = "# Automatic Code End
@@ -686,7 +687,7 @@ unicode = 0622;
 },
 {
 color = (255,153,153,255);
-glyphname = uni0671;
+glyphname = "alefWasla-ar";
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
