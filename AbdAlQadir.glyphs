@@ -4964,40 +4964,12 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{145, 230}";
-}
-);
-guideLines = (
-{
-position = "{366, 210}";
-},
-{
-angle = 90;
-position = "{290, 210}";
-},
-{
-position = "{367, 140}";
-},
-{
-angle = 90;
-position = "{210, 210}";
-},
-{
-angle = 90;
-position = "{130, 210}";
-},
-{
-angle = 90;
-position = "{50, 210}";
-},
-{
-angle = 90;
-position = "{230, 210}";
+position = "{95, 230}";
 }
 );
 hints = (
 {
-place = "{4, 63}";
+place = "{0, 80}";
 type = Stem;
 },
 {
@@ -5011,37 +4983,37 @@ paths = (
 {
 closed = 1;
 nodes = (
-"249 0 LINE",
-"290 70 LINE",
-"163 70 LINE SMOOTH",
-"142 70 OFFCURVE",
-"130 87 OFFCURVE",
-"130 106 CURVE SMOOTH",
-"130 127 OFFCURVE",
+"199 0 LINE",
+"240 70 LINE",
+"113 70 LINE SMOOTH",
+"92 70 OFFCURVE",
+"80 87 OFFCURVE",
+"80 106 CURVE SMOOTH",
+"80 127 OFFCURVE",
+"96 150 OFFCURVE",
+"133 150 CURVE SMOOTH",
 "146 150 OFFCURVE",
-"183 150 CURVE SMOOTH",
-"196 150 OFFCURVE",
-"212 147 OFFCURVE",
-"230 140 CURVE",
-"216 185 OFFCURVE",
-"181 210 OFFCURVE",
-"146 210 CURVE SMOOTH",
-"28 210 OFFCURVE",
-"14 26 OFFCURVE",
-"130 0 CURVE"
+"162 147 OFFCURVE",
+"180 140 CURVE",
+"166 185 OFFCURVE",
+"131 210 OFFCURVE",
+"96 210 CURVE SMOOTH",
+"-22 210 OFFCURVE",
+"-36 26 OFFCURVE",
+"80 0 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"242 0 LINE",
-"242 70 LINE",
+"193 0 LINE",
+"193 70 LINE",
 "-20 70 LINE",
 "-20 0 LINE"
 );
 }
 );
-width = 330;
+width = 280;
 },
 {
 anchors = (
