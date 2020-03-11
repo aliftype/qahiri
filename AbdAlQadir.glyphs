@@ -242,6 +242,12 @@ code = "lookup Alternates {
   sub seen-ar.medi            from [seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6];
   sub waw-ar                  from [waw-ar waw-ar.1];
   sub waw-ar.fina             from [waw-ar.fina waw-ar.fina.1];
+  sub two-ar                  from [two-ar two-ar.1];
+  sub three-ar                from [three-ar three-ar.1];
+  sub four-ar                 from [four-ar four-ar.1 four-ar.2];
+  sub six-ar                  from [six-ar six-ar.1];
+  sub seven-ar                from [seven-ar seven-ar.1];
+  sub eight-ar                from [eight-ar eight-ar.1];
 } Alternates;
 
 lookup Alternates;";
