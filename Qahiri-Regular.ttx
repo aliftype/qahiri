@@ -245,12 +245,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0x1d6fb52"/>
+    <checkSumAdjustment value="0x58f591ee"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Thu Mar 12 22:57:27 2020"/>
-    <modified value="Thu Mar 12 22:57:27 2020"/>
+    <created value="Thu Mar 12 23:34:47 2020"/>
+    <modified value="Thu Mar 12 23:34:47 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -4751,6 +4751,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="hahar.4"/>
             <Glyph value="hahar.5"/>
             <Glyph value="hahar.fina"/>
+            <Glyph value="hahar.medi"/>
             <Glyph value="rehar"/>
             <Glyph value="rehar.1"/>
             <Glyph value="rehar.fina"/>
@@ -4781,7 +4782,7 @@ You should have received a copy of the GNU Affero General Public License along w
           </Coverage>
           <ValueFormat1 value="5"/>
           <ValueFormat2 value="0"/>
-          <!-- PairSetCount=35 -->
+          <!-- PairSetCount=36 -->
           <PairSet index="0">
             <!-- PairValueCount=1 -->
             <PairValueRecord index="0">
@@ -4951,26 +4952,10 @@ You should have received a copy of the GNU Affero General Public License along w
             </PairValueRecord>
           </PairSet>
           <PairSet index="8">
-            <!-- PairValueCount=5 -->
+            <!-- PairValueCount=1 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="alefMaksuraar.2"/>
-              <Value1 XPlacement="260" XAdvance="260"/>
-            </PairValueRecord>
-            <PairValueRecord index="1">
-              <SecondGlyph value="alefMaksuraar.3"/>
-              <Value1 XPlacement="405" XAdvance="405"/>
-            </PairValueRecord>
-            <PairValueRecord index="2">
-              <SecondGlyph value="alefMaksuraar.4"/>
-              <Value1 XPlacement="560" XAdvance="560"/>
-            </PairValueRecord>
-            <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksuraar.5"/>
-              <Value1 XPlacement="190" XAdvance="190"/>
-            </PairValueRecord>
-            <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksuraar.6"/>
-              <Value1 XPlacement="560" XAdvance="560"/>
+              <SecondGlyph value="alefMaksuraar.fina.5"/>
+              <Value1 XPlacement="0" XAdvance="0"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="9">
@@ -5046,23 +5031,23 @@ You should have received a copy of the GNU Affero General Public License along w
             <!-- PairValueCount=5 -->
             <PairValueRecord index="0">
               <SecondGlyph value="alefMaksuraar.2"/>
-              <Value1 XPlacement="240" XAdvance="240"/>
+              <Value1 XPlacement="260" XAdvance="260"/>
             </PairValueRecord>
             <PairValueRecord index="1">
               <SecondGlyph value="alefMaksuraar.3"/>
-              <Value1 XPlacement="385" XAdvance="385"/>
+              <Value1 XPlacement="405" XAdvance="405"/>
             </PairValueRecord>
             <PairValueRecord index="2">
               <SecondGlyph value="alefMaksuraar.4"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
+              <Value1 XPlacement="560" XAdvance="560"/>
             </PairValueRecord>
             <PairValueRecord index="3">
               <SecondGlyph value="alefMaksuraar.5"/>
-              <Value1 XPlacement="170" XAdvance="170"/>
+              <Value1 XPlacement="190" XAdvance="190"/>
             </PairValueRecord>
             <PairValueRecord index="4">
               <SecondGlyph value="alefMaksuraar.6"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
+              <Value1 XPlacement="560" XAdvance="560"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="13">
@@ -5158,6 +5143,29 @@ You should have received a copy of the GNU Affero General Public License along w
             </PairValueRecord>
           </PairSet>
           <PairSet index="17">
+            <!-- PairValueCount=5 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="alefMaksuraar.2"/>
+              <Value1 XPlacement="240" XAdvance="240"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="alefMaksuraar.3"/>
+              <Value1 XPlacement="385" XAdvance="385"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="alefMaksuraar.4"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="alefMaksuraar.5"/>
+              <Value1 XPlacement="170" XAdvance="170"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="alefMaksuraar.6"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="18">
             <!-- PairValueCount=12 -->
             <PairValueRecord index="0">
               <SecondGlyph value="behDotlessar.fina.1"/>
@@ -5208,7 +5216,7 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-100" XAdvance="-100"/>
             </PairValueRecord>
           </PairSet>
-          <PairSet index="18">
+          <PairSet index="19">
             <!-- PairValueCount=4 -->
             <PairValueRecord index="0">
               <SecondGlyph value="hahar.fina"/>
@@ -5225,29 +5233,6 @@ You should have received a copy of the GNU Affero General Public License along w
             <PairValueRecord index="3">
               <SecondGlyph value="lam_alefar.fina.1"/>
               <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-          </PairSet>
-          <PairSet index="19">
-            <!-- PairValueCount=5 -->
-            <PairValueRecord index="0">
-              <SecondGlyph value="alefMaksuraar.2"/>
-              <Value1 XPlacement="220" XAdvance="220"/>
-            </PairValueRecord>
-            <PairValueRecord index="1">
-              <SecondGlyph value="alefMaksuraar.3"/>
-              <Value1 XPlacement="365" XAdvance="365"/>
-            </PairValueRecord>
-            <PairValueRecord index="2">
-              <SecondGlyph value="alefMaksuraar.4"/>
-              <Value1 XPlacement="520" XAdvance="520"/>
-            </PairValueRecord>
-            <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksuraar.5"/>
-              <Value1 XPlacement="150" XAdvance="150"/>
-            </PairValueRecord>
-            <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksuraar.6"/>
-              <Value1 XPlacement="520" XAdvance="520"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="20">
@@ -5277,23 +5262,23 @@ You should have received a copy of the GNU Affero General Public License along w
             <!-- PairValueCount=5 -->
             <PairValueRecord index="0">
               <SecondGlyph value="alefMaksuraar.2"/>
-              <Value1 XPlacement="240" XAdvance="240"/>
+              <Value1 XPlacement="220" XAdvance="220"/>
             </PairValueRecord>
             <PairValueRecord index="1">
               <SecondGlyph value="alefMaksuraar.3"/>
-              <Value1 XPlacement="385" XAdvance="385"/>
+              <Value1 XPlacement="365" XAdvance="365"/>
             </PairValueRecord>
             <PairValueRecord index="2">
               <SecondGlyph value="alefMaksuraar.4"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
+              <Value1 XPlacement="520" XAdvance="520"/>
             </PairValueRecord>
             <PairValueRecord index="3">
               <SecondGlyph value="alefMaksuraar.5"/>
-              <Value1 XPlacement="170" XAdvance="170"/>
+              <Value1 XPlacement="150" XAdvance="150"/>
             </PairValueRecord>
             <PairValueRecord index="4">
               <SecondGlyph value="alefMaksuraar.6"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
+              <Value1 XPlacement="520" XAdvance="520"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="22">
@@ -5595,6 +5580,29 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="540" XAdvance="540"/>
             </PairValueRecord>
           </PairSet>
+          <PairSet index="35">
+            <!-- PairValueCount=5 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="alefMaksuraar.2"/>
+              <Value1 XPlacement="240" XAdvance="240"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="alefMaksuraar.3"/>
+              <Value1 XPlacement="385" XAdvance="385"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="alefMaksuraar.4"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="alefMaksuraar.5"/>
+              <Value1 XPlacement="170" XAdvance="170"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="alefMaksuraar.6"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+          </PairSet>
         </PairPos>
         <PairPos index="1" Format="2">
           <Coverage Format="2">
@@ -5637,6 +5645,8 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="kafar.fina"/>
             <Glyph value="kafar.fina.1"/>
             <Glyph value="kafar.fina.2"/>
+            <Glyph value="kafar.medi"/>
+            <Glyph value="kafar.init"/>
             <Glyph value="lamar"/>
             <Glyph value="lamar.fina"/>
             <Glyph value="meemar"/>
@@ -5684,6 +5694,8 @@ You should have received a copy of the GNU Affero General Public License along w
             <ClassDef glyph="kafar.fina" class="1"/>
             <ClassDef glyph="kafar.fina.1" class="1"/>
             <ClassDef glyph="kafar.fina.2" class="1"/>
+            <ClassDef glyph="kafar.init" class="15"/>
+            <ClassDef glyph="kafar.medi" class="16"/>
             <ClassDef glyph="meemar" class="1"/>
             <ClassDef glyph="meemar.1" class="1"/>
             <ClassDef glyph="meemar.2" class="1"/>
@@ -5712,21 +5724,21 @@ You should have received a copy of the GNU Affero General Public License along w
             <ClassDef glyph="alefMaksuraar.4" class="5"/>
             <ClassDef glyph="alefMaksuraar.5" class="6"/>
             <ClassDef glyph="alefMaksuraar.6" class="7"/>
-            <ClassDef glyph="alefMaksuraar.fina" class="42"/>
-            <ClassDef glyph="alefMaksuraar.fina.0" class="42"/>
-            <ClassDef glyph="alefMaksuraar.fina.1" class="42"/>
-            <ClassDef glyph="alefMaksuraar.fina.2" class="42"/>
-            <ClassDef glyph="alefMaksuraar.fina.3" class="42"/>
-            <ClassDef glyph="alefMaksuraar.fina.4" class="42"/>
-            <ClassDef glyph="alefMaksuraar.fina.5" class="42"/>
-            <ClassDef glyph="alefMaksuraar.fina.6" class="42"/>
-            <ClassDef glyph="alefMaksuraar.fina.tooth" class="42"/>
+            <ClassDef glyph="alefMaksuraar.fina" class="41"/>
+            <ClassDef glyph="alefMaksuraar.fina.0" class="41"/>
+            <ClassDef glyph="alefMaksuraar.fina.1" class="41"/>
+            <ClassDef glyph="alefMaksuraar.fina.2" class="41"/>
+            <ClassDef glyph="alefMaksuraar.fina.3" class="41"/>
+            <ClassDef glyph="alefMaksuraar.fina.4" class="41"/>
+            <ClassDef glyph="alefMaksuraar.fina.5" class="41"/>
+            <ClassDef glyph="alefMaksuraar.fina.6" class="41"/>
+            <ClassDef glyph="alefMaksuraar.fina.tooth" class="41"/>
             <ClassDef glyph="alefar" class="18"/>
             <ClassDef glyph="alefar.1" class="19"/>
             <ClassDef glyph="alefar.2" class="20"/>
             <ClassDef glyph="behDotlessar.fina.1" class="43"/>
             <ClassDef glyph="behDotlessar.medi.1" class="40"/>
-            <ClassDef glyph="dalar.fina" class="41"/>
+            <ClassDef glyph="dalar.fina" class="42"/>
             <ClassDef glyph="fehDotlessar" class="21"/>
             <ClassDef glyph="fehDotlessar.2" class="22"/>
             <ClassDef glyph="fehDotlessar.init" class="23"/>
@@ -5739,16 +5751,16 @@ You should have received a copy of the GNU Affero General Public License along w
             <ClassDef glyph="hahar.init" class="11"/>
             <ClassDef glyph="hahar.init.1" class="30"/>
             <ClassDef glyph="hahar.init.2" class="31"/>
-            <ClassDef glyph="hahar.medi" class="41"/>
+            <ClassDef glyph="hahar.medi" class="42"/>
             <ClassDef glyph="hehar" class="32"/>
             <ClassDef glyph="hehar.1" class="33"/>
             <ClassDef glyph="hehar.2" class="34"/>
-            <ClassDef glyph="kafar.fina" class="41"/>
-            <ClassDef glyph="kafar.fina.1" class="41"/>
-            <ClassDef glyph="kafar.fina.2" class="41"/>
-            <ClassDef glyph="kafar.medi" class="41"/>
-            <ClassDef glyph="kafar.medi.1" class="41"/>
-            <ClassDef glyph="kafar.medi.2" class="41"/>
+            <ClassDef glyph="kafar.fina" class="42"/>
+            <ClassDef glyph="kafar.fina.1" class="42"/>
+            <ClassDef glyph="kafar.fina.2" class="42"/>
+            <ClassDef glyph="kafar.medi" class="42"/>
+            <ClassDef glyph="kafar.medi.1" class="42"/>
+            <ClassDef glyph="kafar.medi.2" class="42"/>
             <ClassDef glyph="lam_alefar" class="49"/>
             <ClassDef glyph="lam_alefar.2" class="50"/>
             <ClassDef glyph="lam_alefar.3" class="51"/>
@@ -5763,32 +5775,32 @@ You should have received a copy of the GNU Affero General Public License along w
             <ClassDef glyph="meemar" class="35"/>
             <ClassDef glyph="meemar.1" class="36"/>
             <ClassDef glyph="meemar.2" class="37"/>
-            <ClassDef glyph="meemar.fina" class="41"/>
-            <ClassDef glyph="meemar.fina.1" class="41"/>
-            <ClassDef glyph="meemar.fina.2" class="41"/>
+            <ClassDef glyph="meemar.fina" class="42"/>
+            <ClassDef glyph="meemar.fina.1" class="42"/>
+            <ClassDef glyph="meemar.fina.2" class="42"/>
             <ClassDef glyph="meemar.init" class="38"/>
             <ClassDef glyph="meemar.medi" class="11"/>
-            <ClassDef glyph="meemar.medi.1" class="41"/>
+            <ClassDef glyph="meemar.medi.1" class="42"/>
             <ClassDef glyph="noonghunnaar" class="9"/>
-            <ClassDef glyph="noonghunnaar.fina" class="41"/>
+            <ClassDef glyph="noonghunnaar.fina" class="42"/>
             <ClassDef glyph="qafDotlessar" class="10"/>
-            <ClassDef glyph="qafDotlessar.fina" class="41"/>
+            <ClassDef glyph="qafDotlessar.fina" class="42"/>
             <ClassDef glyph="rehar" class="54"/>
             <ClassDef glyph="rehar.1" class="55"/>
             <ClassDef glyph="rehar.fina" class="39"/>
             <ClassDef glyph="rehar.fina.1" class="39"/>
-            <ClassDef glyph="sadar.fina" class="41"/>
-            <ClassDef glyph="sadar.fina.1" class="41"/>
-            <ClassDef glyph="sadar.medi" class="41"/>
+            <ClassDef glyph="sadar.fina" class="42"/>
+            <ClassDef glyph="sadar.fina.1" class="42"/>
+            <ClassDef glyph="sadar.medi" class="42"/>
             <ClassDef glyph="seenar.medi.6" class="40"/>
-            <ClassDef glyph="tahar.fina" class="41"/>
-            <ClassDef glyph="tahar.medi" class="41"/>
+            <ClassDef glyph="tahar.fina" class="42"/>
+            <ClassDef glyph="tahar.medi" class="42"/>
             <ClassDef glyph="wawar" class="56"/>
             <ClassDef glyph="wawar.1" class="57"/>
-            <ClassDef glyph="wawar.fina" class="41"/>
-            <ClassDef glyph="wawar.fina.1" class="41"/>
+            <ClassDef glyph="wawar.fina" class="42"/>
+            <ClassDef glyph="wawar.fina.1" class="42"/>
           </ClassDef2>
-          <!-- Class1Count=15 -->
+          <!-- Class1Count=17 -->
           <!-- Class2Count=58 -->
           <Class1Record index="0">
             <Class2Record index="0">
@@ -6443,7 +6455,7 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-20" XAdvance="-20"/>
             </Class2Record>
             <Class2Record index="41">
-              <Value1 XPlacement="0" XAdvance="0"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </Class2Record>
             <Class2Record index="42">
               <Value1 XPlacement="0" XAdvance="0"/>
@@ -6619,10 +6631,10 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="0" XAdvance="0"/>
             </Class2Record>
             <Class2Record index="41">
-              <Value1 XPlacement="-15" XAdvance="-15"/>
+              <Value1 XPlacement="-10" XAdvance="-10"/>
             </Class2Record>
             <Class2Record index="42">
-              <Value1 XPlacement="-10" XAdvance="-10"/>
+              <Value1 XPlacement="-15" XAdvance="-15"/>
             </Class2Record>
             <Class2Record index="43">
               <Value1 XPlacement="-10" XAdvance="-10"/>
@@ -7147,10 +7159,10 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="0" XAdvance="0"/>
             </Class2Record>
             <Class2Record index="41">
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </Class2Record>
             <Class2Record index="42">
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </Class2Record>
             <Class2Record index="43">
               <Value1 XPlacement="0" XAdvance="0"/>
@@ -7323,7 +7335,7 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-30" XAdvance="-30"/>
             </Class2Record>
             <Class2Record index="41">
-              <Value1 XPlacement="0" XAdvance="0"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
             </Class2Record>
             <Class2Record index="42">
               <Value1 XPlacement="0" XAdvance="0"/>
@@ -7499,7 +7511,7 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-30" XAdvance="-30"/>
             </Class2Record>
             <Class2Record index="41">
-              <Value1 XPlacement="0" XAdvance="0"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
             </Class2Record>
             <Class2Record index="42">
               <Value1 XPlacement="0" XAdvance="0"/>
@@ -7675,10 +7687,10 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-20" XAdvance="-20"/>
             </Class2Record>
             <Class2Record index="41">
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
             </Class2Record>
             <Class2Record index="42">
-              <Value1 XPlacement="-50" XAdvance="-50"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </Class2Record>
             <Class2Record index="43">
               <Value1 XPlacement="0" XAdvance="0"/>
@@ -7851,7 +7863,7 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-30" XAdvance="-30"/>
             </Class2Record>
             <Class2Record index="41">
-              <Value1 XPlacement="0" XAdvance="0"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
             </Class2Record>
             <Class2Record index="42">
               <Value1 XPlacement="0" XAdvance="0"/>
@@ -8027,7 +8039,7 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-20" XAdvance="-20"/>
             </Class2Record>
             <Class2Record index="41">
-              <Value1 XPlacement="0" XAdvance="0"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </Class2Record>
             <Class2Record index="42">
               <Value1 XPlacement="0" XAdvance="0"/>
@@ -8203,7 +8215,7 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-20" XAdvance="-20"/>
             </Class2Record>
             <Class2Record index="41">
-              <Value1 XPlacement="0" XAdvance="0"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </Class2Record>
             <Class2Record index="42">
               <Value1 XPlacement="0" XAdvance="0"/>
@@ -8379,7 +8391,359 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-30" XAdvance="-30"/>
             </Class2Record>
             <Class2Record index="41">
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </Class2Record>
+            <Class2Record index="42">
               <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="43">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="44">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="45">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="46">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="47">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="48">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="49">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="50">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="51">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="52">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="53">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="54">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="55">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="56">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="57">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="15">
+            <Class2Record index="0">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="7">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="8">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="9">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="10">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="11">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="12">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="13">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="14">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="15">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="16">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="17">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="18">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="19">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="20">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="21">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="22">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="23">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="24">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="25">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="26">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="27">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="28">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="29">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="30">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="31">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="32">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="33">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="34">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="35">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="36">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="37">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="38">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="39">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="40">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="41">
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </Class2Record>
+            <Class2Record index="42">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="43">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="44">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="45">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="46">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="47">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="48">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="49">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="50">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="51">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="52">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="53">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="54">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="55">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="56">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="57">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+          </Class1Record>
+          <Class1Record index="16">
+            <Class2Record index="0">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="7">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="8">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="9">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="10">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="11">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="12">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="13">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="14">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="15">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="16">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="17">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="18">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="19">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="20">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="21">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="22">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="23">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="24">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="25">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="26">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="27">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="28">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="29">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="30">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="31">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="32">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="33">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="34">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="35">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="36">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="37">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="38">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="39">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="40">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="41">
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </Class2Record>
             <Class2Record index="42">
               <Value1 XPlacement="0" XAdvance="0"/>
