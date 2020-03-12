@@ -1,7 +1,7 @@
 {
 .appVersion = "1300";
 DisplayStrings = (
-"/alef-ar/lam-ar/kaf-ar.medi.1/waw-ar/fehDotless-ar.init.1/alefMaksura-ar.fina.0/space/alef-ar/lam-ar.init/fehDotless-ar.medi.1/alef-ar/heh-ar.init.7/reh-ar.fina.1/alefMaksura-ar.4"
+"/alef-ar/lam-ar/kaf-ar.medi.2/waw-ar/fehDotless-ar.init.1/alefMaksura-ar.fina.0/space/alef-ar/lam-ar.init/fehDotless-ar.medi.1/alef-ar/heh-ar.init.7/reh-ar.fina.1/alefMaksura-ar.4"
 );
 classes = (
 {
@@ -6870,8 +6870,8 @@ closed = 1;
 nodes = (
 "280 0 LINE",
 "280 70 LINE",
-"180 70 LINE",
-"180 0 LINE"
+"130 70 LINE",
+"130 0 LINE"
 );
 }
 );
@@ -6898,8 +6898,8 @@ closed = 1;
 nodes = (
 "270 0 LINE",
 "270 70 LINE",
-"170 70 LINE",
-"170 0 LINE"
+"130 70 LINE",
+"130 0 LINE"
 );
 }
 );

@@ -245,12 +245,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0x58f591ee"/>
+    <checkSumAdjustment value="0xea20d96c"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Thu Mar 12 23:34:47 2020"/>
-    <modified value="Thu Mar 12 23:34:47 2020"/>
+    <created value="Thu Mar 12 23:46:21 2020"/>
+    <modified value="Thu Mar 12 23:46:21 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -4237,8 +4237,8 @@ You should have received a copy of the GNU Affero General Public License along w
           56 -15 -38 33 -50 hhcurveto
           -55 -45 -40 -50 -50 45 -40 55 hvcurveto
           hintmask 11110100
-          10 10 1 3 10 hvcurveto
-          2 -7 0 -8 -7 vvcurveto
+          31 hlineto
+          1 -6 0 -6 -6 vvcurveto
           -7 0 -8 -2 -7 vhcurveto
           -110 hlineto
           -22 -16 7 13 -10 hvcurveto
@@ -4249,9 +4249,12 @@ You should have received a copy of the GNU Affero General Public License along w
           7 vlineto
           hintmask 11110010
           37 hlineto
+          -170 90 rmoveto
+          11 9 9 11 vhcurveto
           hintmask 11111000
-          -150 70 rmoveto
-          -11 -9 9 11 11 9 9 11 11 9 -9 -11 -11 -9 -9 -11 hvcurveto
+          11 9 -9 -11 -11 -9 -9 -11 hvcurveto
+          hintmask 11110010
+          -11 -9 9 11 hvcurveto
           endchar
         </CharString>
         <CharString name="wawar.fina.1">
@@ -4259,15 +4262,15 @@ You should have received a copy of the GNU Affero General Public License along w
           30 80 40 80 vstem
           270 70 rmoveto
           -40 20 hlineto
-          50 -45 40 -55 -55 -45 -40 -50 -50 45 -40 55 7 7 1 1 6 vhcurveto
-          -42 -100 vlineto
+          50 -45 40 -55 -55 -45 -40 -50 -50 45 -40 55 vhcurveto
+          20 -40 -100 hlineto
           -22 -16 7 13 -10 hvcurveto
           -52 -90 rlineto
           242 hlineto
           23 15 15 25 hvcurveto
           70 40 vlineto
-          -140 70 rmoveto
-          -11 -9 9 11 11 9 9 11 11 9 -9 -11 -11 -9 -9 -11 hvcurveto
+          -160 90 rmoveto
+          11 9 9 11 11 9 -9 -11 -11 -9 -9 -11 -11 -9 9 11 vhcurveto
           endchar
         </CharString>
         <CharString name="yehHamzaabovear">
