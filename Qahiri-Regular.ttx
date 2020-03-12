@@ -245,12 +245,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0xabc83699"/>
+    <checkSumAdjustment value="0x45fae8ae"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Thu Mar 12 22:05:39 2020"/>
-    <modified value="Thu Mar 12 22:05:39 2020"/>
+    <created value="Thu Mar 12 22:36:10 2020"/>
+    <modified value="Thu Mar 12 22:36:10 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -2085,37 +2085,37 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hehar.init.6">
-          -57 0 70 hstemhm
-          -20 220 -202 202 -80 80 hintmask 10010000
-          120 220 rmoveto
-          hintmask 10100000
-          -74 -48 -40 -63 -19 4 -16 6 -12 hvcurveto
-          hintmask 11000000
-          -28 -70 hlineto
-          hintmask 10010000
+          -57 0 70 160 -20 hstemhm
+          -20 220 -200 200 -80 80 hintmask 11001000
+          120 230 rmoveto
+          hintmask 11010000
+          -74 -46 -40 -63 -23 6 -20 6 -14 hvcurveto
+          hintmask 11100000
+          -32 -70 hlineto
+          hintmask 11001000
           199 hlineto
           6 15 0 11 hvcurveto
-          244 vlineto
-          -35 -20 -20 0 -40 hhcurveto
-          -30 -60 rmoveto
-          30 -34 -40 -10 rlineto
-          40 -2 rmoveto
-          -9 -44 -31 34 rlineto
+          254 vlineto
+          -28 -16 -24 -7 -40 hhcurveto
+          -100 vmoveto
+          -40 -10 9 40 rlineto
+          31 -50 rmoveto
+          -9 -40 -31 30 rlineto
           endchar
         </CharString>
         <CharString name="hehar.init.7">
-          -57 0 70 hstem
+          -57 0 70 160 -20 hstem
           120 80 vstem
-          120 270 rmoveto
+          120 280 rmoveto
           -50 vlineto
-          -74 -48 -40 -63 -19 4 -16 6 -12 hvcurveto
-          -28 -70 199 hlineto
+          -74 -46 -40 -63 -23 6 -20 6 -14 hvcurveto
+          -32 -70 199 hlineto
           6 15 0 11 hvcurveto
-          279 vlineto
-          -110 -130 rmoveto
-          30 -34 -40 -10 rlineto
-          40 -2 rmoveto
-          -9 -44 -31 34 rlineto
+          289 vlineto
+          -80 -170 rmoveto
+          -40 -10 9 40 rlineto
+          31 -50 rmoveto
+          -9 -40 -31 30 rlineto
           endchar
         </CharString>
         <CharString name="hehar.medi">
@@ -2209,54 +2209,56 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hehar.medi.5">
-          -57 0 70 hstem
-          120 80 vstem
+          -57 0 70 36 8 36 70 hstem
+          -2 82 40 80 vstem
           200 70 rmoveto
           220 vlineto
           -80 -20 rlineto
           -50 vlineto
-          -74 -48 -40 -63 -19 4 -16 6 -12 hvcurveto
+          -65 -57 -32 -72 -19 4 -15 6 -12 hvcurveto
           -28 -70 199 hlineto
           61 70 hlineto
-          -150 90 rmoveto
-          30 -34 -40 -10 rlineto
-          40 -2 rmoveto
-          -9 -44 -31 34 rlineto
+          -120 80 rmoveto
+          -20 -2 -17 -16 -21 hhcurveto
+          20 2 17 16 21 hhcurveto
+          -80 vmoveto
+          -21 -17 16 20 -2 hvcurveto
+          21 17 -16 -20 2 hvcurveto
           endchar
         </CharString>
         <CharString name="hehar.medi.6">
-          -57 0 70 hstemhm
-          -20 220 -202 202 -80 80 hintmask 10010000
+          -57 0 70 160 -20 hstemhm
+          -20 220 -200 200 -80 80 hintmask 11001000
           200 70 rmoveto
-          185 vlineto
-          -35 -20 -20 0 -40 hhcurveto
-          hintmask 10100000
-          -74 -48 -40 -63 -19 4 -16 6 -12 hvcurveto
-          hintmask 11000000
-          -28 -70 hlineto
-          hintmask 10010000
+          195 vlineto
+          -28 -16 -24 -7 -40 hhcurveto
+          hintmask 11010000
+          -74 -46 -40 -63 -23 6 -20 6 -14 hvcurveto
+          hintmask 11100000
+          -32 -70 hlineto
+          hintmask 11001000
           199 hlineto
           61 70 hlineto
-          -150 90 rmoveto
-          30 -34 -40 -10 rlineto
-          40 -2 rmoveto
-          -9 -44 -31 34 rlineto
+          -120 60 rmoveto
+          -40 -10 9 40 rlineto
+          31 -50 rmoveto
+          -9 -40 -31 30 rlineto
           endchar
         </CharString>
         <CharString name="hehar.medi.7">
-          -57 0 70 hstem
+          -57 0 70 160 -20 hstem
           120 80 vstem
           200 70 rmoveto
-          220 vlineto
+          230 vlineto
           -80 -20 rlineto
           -50 vlineto
-          -74 -48 -40 -63 -19 4 -16 6 -12 hvcurveto
-          -28 -70 199 hlineto
+          -74 -46 -40 -63 -23 6 -20 6 -14 hvcurveto
+          -32 -70 199 hlineto
           61 70 hlineto
-          -150 90 rmoveto
-          30 -34 -40 -10 rlineto
-          40 -2 rmoveto
-          -9 -44 -31 34 rlineto
+          -120 60 rmoveto
+          -40 -10 9 40 rlineto
+          31 -50 rmoveto
+          -9 -40 -31 30 rlineto
           endchar
         </CharString>
         <CharString name="jeemar">
