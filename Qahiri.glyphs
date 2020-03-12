@@ -364,13 +364,6 @@ glyphs = (
 glyphname = "hamza-ar";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 50}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -425,17 +418,6 @@ name = top;
 position = "{173, 474}";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 48}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -476,17 +458,6 @@ position = "{70, -20}";
 {
 name = top;
 position = "{143, 474}";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 43}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -530,17 +501,6 @@ name = top;
 position = "{163, 474}";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 37}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -580,18 +540,6 @@ position = "{62, -20}";
 {
 name = top;
 position = "{82, 574}";
-}
-);
-hints = (
-{
-place = "{40, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -634,17 +582,6 @@ position = "{0, 0}";
 {
 name = top;
 position = "{40, 569}";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -757,17 +694,6 @@ name = "behDotless-ar.init";
 transform = "{1, 0, 0, 1, 480, 0}";
 }
 );
-hints = (
-{
-place = "{480, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -806,17 +732,6 @@ transform = "{1, 0, 0, 1, 520, 0}";
 name = "behDotless-ar";
 }
 );
-hints = (
-{
-place = "{480, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 600;
 }
@@ -841,14 +756,6 @@ position = "{280, 200}";
 components = (
 {
 name = _tail;
-}
-);
-hints = (
-{
-horizontal = 1;
-origin = "{0, 3}";
-target = "{0, 2}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -895,17 +802,6 @@ name = _elbow;
 transform = "{1, 0, 0, 1, 40, 0}";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 120;
 }
@@ -920,13 +816,6 @@ anchors = (
 {
 name = top;
 position = "{36, 215}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -969,17 +858,6 @@ name = _vextender;
 transform = "{1, 0, 0, 1, 0, 200}";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 120;
 }
@@ -998,17 +876,6 @@ name = "behDotless-ar.medi";
 {
 name = _vextender;
 transform = "{1, 0, 0, 1, 0, 190}";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1033,25 +900,6 @@ position = "{0, 0}";
 {
 name = top;
 position = "{44, 300}";
-}
-);
-hints = (
-{
-horizontal = 1;
-origin = "{0, 2}";
-target = "{0, 5}";
-type = Stem;
-},
-{
-horizontal = 1;
-origin = "{0, 0}";
-target = down;
-type = TopGhost;
-},
-{
-origin = "{0, 2}";
-target = "{0, 8}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1088,17 +936,6 @@ position = "{44, -35}";
 {
 name = top;
 position = "{44, 300}";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1138,17 +975,6 @@ position = "{-19, -2}";
 {
 name = top;
 position = "{30, 235}";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 25}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1274,27 +1100,6 @@ alignment = -1;
 name = _tail2;
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 640;
 }
@@ -1308,22 +1113,6 @@ layers = (
 components = (
 {
 name = "hah-ar";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1358,22 +1147,6 @@ layers = (
 components = (
 {
 name = "hah-ar";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1422,22 +1195,6 @@ position = "{359, 163}";
 components = (
 {
 name = _tail3;
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 31}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1490,41 +1247,6 @@ transform = "{1, 0, 0, 1, 207, 0}";
 name = "alefMaksura-ar.fina.2";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -1558,41 +1280,6 @@ transform = "{1, 0, 0, 1, 207, 0}";
 },
 {
 name = "alefMaksura-ar.fina.2";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1639,22 +1326,6 @@ components = (
 name = _tail3;
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 31}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -1697,13 +1368,6 @@ position = "{116, 305}";
 components = (
 {
 name = "kashida-ar";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1767,13 +1431,6 @@ name = top;
 position = "{269, 163}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -1829,18 +1486,6 @@ alignment = -1;
 name = "hah-ar.init";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -1865,18 +1510,6 @@ components = (
 {
 alignment = -1;
 name = "hah-ar.init";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1924,22 +1557,6 @@ components = (
 name = _dal;
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-place = "{476, 84}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -1968,22 +1585,6 @@ components = (
 {
 alignment = -1;
 name = "dal-ar";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-place = "{476, 84}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2035,18 +1636,6 @@ name = top;
 position = "{117, 215}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 140}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -2082,18 +1671,6 @@ anchors = (
 {
 name = top;
 position = "{117, 180}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 105}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2132,23 +1709,6 @@ alignment = -1;
 name = "reh-ar";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 140}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -2174,23 +1734,6 @@ components = (
 {
 alignment = -1;
 name = "reh-ar.1";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 105}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2264,30 +1807,6 @@ name = _vextender;
 transform = "{1, 0, 0, 1, 70, 160}";
 }
 );
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{270, 80}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 430;
 }
@@ -2309,30 +1828,6 @@ components = (
 {
 alignment = -1;
 name = "seen-ar";
-}
-);
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{270, 80}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2385,30 +1880,6 @@ components = (
 {
 alignment = -1;
 name = "seen-ar";
-}
-);
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{270, 80}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2477,34 +1948,6 @@ name = _bowel;
 transform = "{1, 0, 0, 1, -80, 0}";
 }
 );
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{270, 80}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -2546,30 +1989,6 @@ components = (
 {
 alignment = -1;
 name = "seen-ar.3";
-}
-);
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{270, 80}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2624,30 +2043,6 @@ alignment = -1;
 name = "seen-ar.3";
 }
 );
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{270, 80}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -2697,26 +2092,6 @@ position = "{180, 202}";
 components = (
 {
 name = "noonghunna-ar.fina";
-}
-);
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{331, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2772,30 +2147,6 @@ name = _elbow;
 transform = "{1, 0, 0, 1, 350, 0}";
 }
 );
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{270, 80}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 430;
 }
@@ -2815,30 +2166,6 @@ name = "seen-ar.1";
 {
 name = _elbow;
 transform = "{1, 0, 0, 1, 350, 0}";
-}
-);
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{270, 80}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2862,30 +2189,6 @@ name = _elbow;
 transform = "{1, 0, 0, 1, 350, 0}";
 }
 );
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{270, 80}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 430;
 }
@@ -2905,30 +2208,6 @@ name = "seen-ar.3";
 {
 name = _elbow;
 transform = "{1, 0, 0, 1, 350, 0}";
-}
-);
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{270, 80}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2952,30 +2231,6 @@ name = _elbow;
 transform = "{1, 0, 0, 1, 350, 0}";
 }
 );
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{270, 80}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 430;
 }
@@ -2995,30 +2250,6 @@ name = "seen-ar.5";
 {
 name = _elbow;
 transform = "{1, 0, 0, 1, 350, 0}";
-}
-);
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-place = "{270, 80}";
-type = Stem;
-},
-{
-place = "{390, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -3042,25 +2273,6 @@ name = _elbow;
 transform = "{1, 0, 0, 1, 280, 0}";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{240, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 360;
 }
@@ -3079,25 +2291,6 @@ name = "seen-ar.init.1";
 {
 name = _elbow;
 transform = "{1, 0, 0, 1, 280, 0}";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{240, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -3120,25 +2313,6 @@ name = _elbow;
 transform = "{1, 0, 0, 1, 280, 0}";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{240, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 360;
 }
@@ -3157,25 +2331,6 @@ name = "seen-ar.init.3";
 {
 name = _elbow;
 transform = "{1, 0, 0, 1, 280, 0}";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{240, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -3198,25 +2353,6 @@ name = _elbow;
 transform = "{1, 0, 0, 1, 280, 0}";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{240, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 360;
 }
@@ -3235,25 +2371,6 @@ name = "seen-ar.init.5";
 {
 name = _elbow;
 transform = "{1, 0, 0, 1, 280, 0}";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{240, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -3288,13 +2405,6 @@ alignment = -1;
 name = "behDotless-ar.medi.1";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 370;
 }
@@ -3327,25 +2437,6 @@ alignment = -1;
 name = "behDotless-ar.medi";
 }
 );
-hints = (
-{
-place = "{240, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 360;
 }
@@ -3365,25 +2456,6 @@ components = (
 {
 alignment = -1;
 name = "seen-ar.init";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{240, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -3435,25 +2507,6 @@ components = (
 {
 alignment = -1;
 name = "seen-ar.init";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{240, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -3520,29 +2573,6 @@ transform = "{1, 0, 0, 1, 40, 0}";
 name = _behShort;
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{240, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{240, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -3583,25 +2613,6 @@ components = (
 {
 alignment = -1;
 name = "seen-ar.init.3";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{240, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -3653,25 +2664,6 @@ components = (
 {
 alignment = -1;
 name = "seen-ar.init.3";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{240, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -3726,17 +2718,6 @@ name = "behDotless-ar.medi.1";
 {
 name = "behDotless-ar.medi.1";
 transform = "{1, 0, 0, 1, 110, 0}";
-}
-);
-hints = (
-{
-place = "{220, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -3794,27 +2775,6 @@ name = _sad;
 transform = "{1, 0, 0, 1, 83, 0}";
 }
 );
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -3864,27 +2824,6 @@ name = _sad;
 transform = "{1, 0, 0, 1, 83, 0}";
 }
 );
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 740;
 }
@@ -3904,27 +2843,6 @@ name = "sad-ar";
 {
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 660, 0}";
-}
-);
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -3949,27 +2867,6 @@ name = "kashida-ar";
 transform = "{1, 0, 0, 1, 660, 0}";
 }
 );
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 740;
 }
@@ -3992,22 +2889,6 @@ name = "kashida-ar";
 transform = "{1, 0, 0, 1, 590, 0}";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 670;
 }
@@ -4023,22 +2904,6 @@ components = (
 {
 name = _sad;
 transform = "{1, 0, 0, 1, 13, 0}";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4096,22 +2961,6 @@ name = _sad;
 transform = "{1, 0, 0, 1, 93, 0}";
 }
 );
-hints = (
-{
-place = "{80, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -4152,22 +3001,6 @@ name = "kashida-ar";
 transform = "{1, 0, 0, 1, 670, 0}";
 }
 );
-hints = (
-{
-place = "{80, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 750;
 }
@@ -4188,22 +3021,6 @@ name = "kashida-ar";
 transform = "{1, 0, 0, 1, 590, 0}";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 670;
 }
@@ -4218,22 +3035,6 @@ components = (
 {
 name = _sad;
 transform = "{1, 0, 0, 1, 13, 0}";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4395,27 +3196,6 @@ alignment = -1;
 name = _tail2;
 }
 );
-hints = (
-{
-place = "{354, 63}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -4555,23 +3335,6 @@ transform = "{1, 0, 0, 1, 199, 0}";
 name = "alefMaksura-ar.fina.2";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 529;
 }
@@ -4688,23 +3451,6 @@ transform = "{1, 0, 0, 1, 199, 0}";
 },
 {
 name = "alefMaksura-ar.fina.5";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4826,27 +3572,6 @@ components = (
 name = _tail3;
 }
 );
-hints = (
-{
-place = "{354, 63}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -4890,21 +3615,6 @@ position = "{143, 305}";
 components = (
 {
 name = _tail3;
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{184, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4952,17 +3662,6 @@ name = top;
 position = "{81, 305}";
 }
 );
-hints = (
-{
-place = "{122, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -5008,17 +3707,6 @@ name = top;
 position = "{49, 230}";
 }
 );
-hints = (
-{
-place = "{4, 63}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -5055,17 +3743,6 @@ position = "{135, 305}";
 }
 );
 associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-hints = (
-{
-place = "{4, 63}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "CF9F8CC6-D0D9-41C9-A8B8-9A53E322F711";
 name = "Mar 9 20, 16:04";
 paths = (
@@ -5106,17 +3783,6 @@ anchors = (
 {
 name = top;
 position = "{95, 230}";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -5190,17 +3856,6 @@ position = "{50, 210}";
 {
 angle = 90;
 position = "{230, 210}";
-}
-);
-hints = (
-{
-place = "{4, 63}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "F7344B96-69D7-4772-B92B-16315C87848D";
@@ -5349,44 +4004,6 @@ alignment = -1;
 name = _tail;
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{220, 70}";
-type = Stem;
-},
-{
-place = "{360, 80}";
-type = Stem;
-},
-{
-place = "{492, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{360, 80}";
-type = Stem;
-},
-{
-place = "{492, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 613;
 }
@@ -5408,40 +4025,6 @@ alignment = -1;
 name = _tail;
 }
 );
-hints = (
-{
-place = "{480, 80}";
-type = Stem;
-},
-{
-place = "{360, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{220, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{360, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 600;
 }
@@ -5460,40 +4043,6 @@ transform = "{1, 0, 0, 1, 400, 0}";
 {
 alignment = -1;
 name = _tail;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{220, 70}";
-type = Stem;
-},
-{
-place = "{400, 80}";
-type = Stem;
-},
-{
-place = "{532, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{532, 80}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -5527,40 +4076,6 @@ alignment = -1;
 name = _tail;
 }
 );
-hints = (
-{
-place = "{400, 80}";
-type = Stem;
-},
-{
-place = "{520, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{220, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{400, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -5585,44 +4100,6 @@ components = (
 {
 alignment = -1;
 name = "fehDotless-ar";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{220, 70}";
-type = Stem;
-},
-{
-place = "{360, 80}";
-type = Stem;
-},
-{
-place = "{492, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{360, 80}";
-type = Stem;
-},
-{
-place = "{492, 80}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -5652,40 +4129,6 @@ alignment = -1;
 name = "fehDotless-ar.1";
 }
 );
-hints = (
-{
-place = "{480, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{220, 70}";
-type = Stem;
-},
-{
-place = "{360, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{360, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -5711,40 +4154,6 @@ components = (
 {
 alignment = -1;
 name = "fehDotless-ar.2";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{220, 70}";
-type = Stem;
-},
-{
-place = "{400, 80}";
-type = Stem;
-},
-{
-place = "{532, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{532, 80}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -5774,40 +4183,6 @@ alignment = -1;
 name = "fehDotless-ar.3";
 }
 );
-hints = (
-{
-place = "{520, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{220, 70}";
-type = Stem;
-},
-{
-place = "{400, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{400, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -5833,26 +4208,6 @@ anchors = (
 {
 name = top;
 position = "{101, 355}";
-}
-);
-hints = (
-{
-place = "{126, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{240, 70}";
-type = Stem;
-},
-{
-place = "{0, 73}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -5907,26 +4262,6 @@ position = "{101, 375}";
 }
 );
 associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-hints = (
-{
-place = "{126, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{240, 70}";
-type = Stem;
-},
-{
-place = "{0, 73}";
-type = Stem;
-}
-);
 layerId = "388FE02E-045B-46C0-BFA3-7E7C5E94DC12";
 name = "Mar 9 20, 18:01";
 paths = (
@@ -6041,31 +4376,6 @@ name = top;
 position = "{87, 335}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{220, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{132, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -6127,31 +4437,6 @@ anchors = (
 {
 name = top;
 position = "{90, 365}";
-}
-);
-hints = (
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{220, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -6217,28 +4502,6 @@ anchors = (
 {
 name = top;
 position = "{96, 255}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-140, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -6323,28 +4586,6 @@ alignment = -1;
 name = "qafDotless-ar";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-140, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -6390,22 +4631,6 @@ components = (
 {
 name = _dal;
 transform = "{1, 0, 0, 1, 40, 0}";
-}
-);
-hints = (
-{
-place = "{111, 79}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -6464,22 +4689,6 @@ name = _dal;
 transform = "{1, 0, 0, 1, 40, 0}";
 }
 );
-hints = (
-{
-place = "{40, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -6525,18 +4734,6 @@ name = _dal;
 transform = "{1, 0, 0, 1, 40, 0}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -6575,22 +4772,6 @@ alignment = -1;
 name = "kaf-ar";
 }
 );
-hints = (
-{
-place = "{111, 79}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -6617,27 +4798,6 @@ components = (
 {
 alignment = -1;
 name = "kaf-ar.1";
-}
-);
-hints = (
-{
-place = "{40, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -6672,23 +4832,6 @@ name = "kashida-ar";
 transform = "{1, 0, 0, 1, 560, 0}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 640;
 }
@@ -6708,22 +4851,6 @@ name = "kaf-ar.init";
 {
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 498, 0}";
-}
-);
-hints = (
-{
-place = "{49, 79}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -6746,27 +4873,6 @@ name = "kashida-ar";
 transform = "{1, 0, 0, 1, 520, 0}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 600;
 }
@@ -6787,18 +4893,6 @@ name = "kashida-ar";
 transform = "{1, 0, 0, 1, 500, 0}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 580;
 }
@@ -6814,22 +4908,6 @@ components = (
 {
 name = _dal;
 transform = "{1, 0, 0, 1, -22, 0}";
-}
-);
-hints = (
-{
-place = "{49, 79}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -6885,22 +4963,6 @@ components = (
 name = _dal;
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -6945,18 +5007,6 @@ name = _dal;
 transform = "{1, 0, 0, 1, -20, 0}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -6988,17 +5038,6 @@ width = 580;
 glyphname = "lam-ar";
 layers = (
 {
-hints = (
-{
-place = "{70, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7039,22 +5078,6 @@ name = _elbow;
 transform = "{1, 0, 0, 1, 110, 0}";
 }
 );
-hints = (
-{
-place = "{70, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 190;
 }
@@ -7076,17 +5099,6 @@ name = _elbow;
 transform = "{1, 0, 0, 1, 40, 0}";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 120;
 }
@@ -7101,27 +5113,6 @@ components = (
 {
 name = _elbow;
 transform = "{1, 0, 0, 1, 40, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -7149,17 +5140,6 @@ width = 120;
 glyphname = "lam-ar.init";
 layers = (
 {
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7191,17 +5171,6 @@ name = exit;
 position = "{-20, -2}";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 25}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7228,27 +5197,6 @@ width = 80;
 glyphname = "lam-ar.init.lellah";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7274,26 +5222,6 @@ width = 120;
 glyphname = "meem-ar";
 layers = (
 {
-hints = (
-{
-place = "{200, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-place = "{320, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7353,26 +5281,6 @@ unicode = 0645;
 glyphname = "meem-ar.1";
 layers = (
 {
-hints = (
-{
-place = "{40, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{160, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7429,26 +5337,6 @@ rightKerningGroup = dal;
 glyphname = "meem-ar.2";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-40, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{70, 70}";
-type = Stem;
-},
-{
-place = "{38, 80}";
-type = Stem;
-},
-{
-place = "{158, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7511,26 +5399,6 @@ alignment = -1;
 name = "meem-ar";
 }
 );
-hints = (
-{
-place = "{200, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-place = "{320, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7557,26 +5425,6 @@ components = (
 {
 alignment = -1;
 name = "meem-ar.1";
-}
-);
-hints = (
-{
-place = "{40, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{160, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -7608,26 +5456,6 @@ name = "meem-ar.2";
 transform = "{1, 0, 0, 1, -2, 0}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-40, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{70, 70}";
-type = Stem;
-},
-{
-place = "{36, 80}";
-type = Stem;
-},
-{
-place = "{156, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7656,26 +5484,6 @@ alignment = -1;
 name = "meem-ar.init";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7698,26 +5506,6 @@ rightKerningGroup = "meem-ar.medi";
 glyphname = "meem-ar.medi.1";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-40, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{70, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7782,26 +5570,6 @@ leftKerningGroup = waw;
 glyphname = "meem-ar.init";
 layers = (
 {
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7888,17 +5656,6 @@ name = _bowelShort;
 transform = "{1, 0, 0, 1, -80, 0}";
 }
 );
-hints = (
-{
-place = "{70, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7928,22 +5685,6 @@ alignment = -1;
 name = "noonghunna-ar";
 }
 );
-hints = (
-{
-place = "{70, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7970,26 +5711,6 @@ anchors = (
 {
 name = top;
 position = "{100, 235}";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -8059,26 +5780,6 @@ components = (
 name = "heh-ar";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -8110,26 +5811,6 @@ components = (
 name = "heh-ar.1";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -8154,31 +5835,6 @@ components = (
 {
 alignment = -1;
 name = "heh-ar";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -8216,35 +5872,6 @@ alignment = -1;
 name = "heh-ar.1";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -8278,26 +5905,6 @@ components = (
 {
 alignment = -1;
 name = "heh-ar.2";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -8335,31 +5942,6 @@ alignment = -1;
 name = "heh-ar.init";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -8384,31 +5966,6 @@ components = (
 {
 alignment = -1;
 name = "heh-ar.init.1";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -8437,31 +5994,6 @@ alignment = -1;
 name = "heh-ar.init.2";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{170, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 20}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -8486,31 +6018,6 @@ components = (
 {
 alignment = -1;
 name = "heh-ar.init.3";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{170, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 20}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -8539,31 +6046,6 @@ alignment = -1;
 name = "heh-ar.init.4";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{106, 8}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{150, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -8588,31 +6070,6 @@ components = (
 {
 alignment = -1;
 name = "heh-ar.init.7";
-}
-);
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{106, 8}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{150, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -8641,31 +6098,6 @@ alignment = -1;
 name = "heh-ar.init.6";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{150, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{106, 8}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -8692,31 +6124,6 @@ alignment = -1;
 name = "heh-ar.init.7";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{106, 8}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{150, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -8737,31 +6144,6 @@ width = 240;
 glyphname = "heh-ar.init";
 layers = (
 {
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -8867,31 +6249,6 @@ alignment = -1;
 name = "heh-ar.init";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -8913,31 +6270,6 @@ rightKerningGroup = heh.init;
 glyphname = "heh-ar.init.2";
 layers = (
 {
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{170, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 20}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -9068,31 +6400,6 @@ alignment = -1;
 name = "heh-ar.init.2";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{170, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 20}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -9113,31 +6420,6 @@ width = 240;
 glyphname = "heh-ar.init.4";
 layers = (
 {
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{106, 8}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{150, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -9228,31 +6510,6 @@ alignment = -1;
 name = "heh-ar.init.4";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{150, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{106, 8}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -9273,31 +6530,6 @@ width = 240;
 glyphname = "heh-ar.init.6";
 layers = (
 {
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{150, 70}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{106, 8}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -9382,31 +6614,6 @@ alignment = -1;
 name = "heh-ar.init.6";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{106, 8}";
-type = Stem;
-},
-{
-place = "{120, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{150, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -9451,32 +6658,6 @@ anchors = (
 {
 name = top;
 position = "{129, 230}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-place = "{30, 80}";
-type = Stem;
-},
-{
-origin = "{0, 24}";
-target = "{0, 6}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -9560,31 +6741,6 @@ anchors = (
 {
 name = top;
 position = "{129, 230}";
-}
-);
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-},
-{
-place = "{30, 80}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -9701,23 +6857,6 @@ alignment = -1;
 name = "waw-ar";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -9744,23 +6883,6 @@ components = (
 {
 alignment = -1;
 name = "waw-ar.1";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{110, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -9824,22 +6946,6 @@ position = "{-33, -110}";
 },
 {
 position = "{-33, 70}";
-}
-);
-hints = (
-{
-place = "{160, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-220, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -9928,22 +7034,6 @@ position = "{-33, -110}";
 position = "{-33, 70}";
 }
 );
-hints = (
-{
-place = "{160, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -10029,18 +7119,6 @@ position = "{-33, -110}";
 position = "{-33, 70}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -10113,18 +7191,6 @@ position = "{-33, -110}";
 },
 {
 position = "{-33, 70}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -10201,18 +7267,6 @@ position = "{-33, -110}";
 position = "{-33, 70}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -10285,18 +7339,6 @@ position = "{-33, -110}";
 },
 {
 position = "{-33, 70}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -10375,18 +7417,6 @@ position = "{-33, -110}";
 position = "{-33, 70}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -10462,22 +7492,6 @@ position = "{-33, -110}";
 },
 {
 position = "{-33, 70}";
-}
-);
-hints = (
-{
-place = "{160, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-220, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -10578,22 +7592,6 @@ position = "{-33, -110}";
 position = "{-33, 70}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-place = "{160, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -10680,18 +7678,6 @@ position = "{-33, 70}";
 position = "{-33, -110}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -10765,18 +7751,6 @@ position = "{-33, 70}";
 },
 {
 position = "{-33, -110}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -10854,18 +7828,6 @@ position = "{-33, 70}";
 position = "{-33, -110}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -10934,18 +7896,6 @@ position = "{0, 70}";
 },
 {
 position = "{0, -110}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
 }
 );
 layerId = "E43493D8-6AC9-41F0-9706-E72D315EB2F6";
@@ -11029,18 +7979,6 @@ angle = 90;
 position = "{355, 132}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -11115,18 +8053,6 @@ position = "{0, -110}";
 {
 angle = 90;
 position = "{388, 132}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
 }
 );
 layerId = "93EC7BB6-EB3B-4966-8C50-56D3E1F433A2";
@@ -11208,18 +8134,6 @@ position = "{-33, 70}";
 position = "{-33, -110}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -11293,18 +8207,6 @@ position = "{0, 70}";
 position = "{0, -110}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-110, 70}";
-type = Stem;
-}
-);
 layerId = "E43493D8-6AC9-41F0-9706-E72D315EB2F6";
 name = "Mar 9 20, 21:08";
 paths = (
@@ -11367,30 +8269,6 @@ position = "{120, -250}";
 {
 name = entry;
 position = "{0, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-origin = "{0, 13}";
-target = "{0, 14}";
-type = Stem;
-},
-{
-horizontal = 1;
-origin = "{0, 7}";
-target = "{1, 5}";
-type = Stem;
-},
-{
-origin = "{0, 13}";
-target = "{1, 11}";
-type = Stem;
-},
-{
-origin = "{0, 12}";
-target = "{0, 3}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -11516,26 +8394,6 @@ glyphname = "lam_alef-ar";
 layers = (
 {
 associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-place = "{55, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 43}";
-type = Stem;
-}
-);
 layerId = "abf4b10a-26e5-432c-8593-bf37389dfdfd";
 name = Regular.1;
 paths = (
@@ -11610,13 +8468,6 @@ name = top_2;
 position = "{-10, 540}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -11664,13 +8515,6 @@ alignment = -1;
 name = "lam_alef-ar";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -11692,26 +8536,6 @@ glyphname = "lam_alef-ar.1";
 layers = (
 {
 associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-hints = (
-{
-place = "{150, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{-250, 70}";
-type = Stem;
-},
-{
-place = "{55, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 43}";
-type = Stem;
-}
-);
 layerId = "abf4b10a-26e5-432c-8593-bf37389dfdfd";
 widthMetricsKey = "=4*80+40";
 name = Regular.1;
@@ -11791,17 +8615,6 @@ position = "{135, 0}";
 position = "{0, 460}";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -11847,22 +8660,6 @@ alignment = -1;
 name = "lam_alef-ar.1";
 }
 );
-hints = (
-{
-place = "{0, 80}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -11887,13 +8684,6 @@ components = (
 {
 alignment = -1;
 name = "lam_alef-ar.2";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -11923,13 +8713,6 @@ alignment = -1;
 name = "lam_alef-ar.3";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -11957,13 +8740,6 @@ alignment = -1;
 name = "lam_alef-ar.4";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -11989,13 +8765,6 @@ components = (
 {
 alignment = -1;
 name = "lam_alef-ar.5";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -12047,13 +8816,6 @@ position = "{-142, 210}";
 },
 {
 position = "{-142, 60}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -12116,13 +8878,6 @@ position = "{-142, 210}";
 position = "{-142, 60}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -12181,13 +8936,6 @@ position = "{-102, 210}";
 },
 {
 position = "{-102, 60}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -12256,13 +9004,6 @@ position = "{-102, 210}";
 position = "{-102, 60}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
-}
-);
 layerId = "C46413DF-93AE-4F9A-9C2C-42A8FE2320D2";
 name = "Mar 10 20, 07:19";
 paths = (
@@ -12323,13 +9064,6 @@ position = "{-102, 210}";
 },
 {
 position = "{-102, 60}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 70}";
-type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -13283,26 +10017,6 @@ unicode = 0669;
 glyphname = .notdef;
 layers = (
 {
-hints = (
-{
-place = "{40, 40}";
-type = Stem;
-},
-{
-place = "{250, 40}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{0, 40}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{410, 40}";
-type = Stem;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -14119,9 +10833,9 @@ kerning = {
 "ain-ar.3" = -40;
 "ain-ar.init" = -40;
 "ain-ar.init.1" = -40;
-"alef-ar.2" = -20;
-"alef-ar.1" = -20;
 "alef-ar" = -20;
+"alef-ar.1" = -20;
+"alef-ar.2" = -20;
 "alefMaksura-ar" = -30;
 "alefMaksura-ar.1" = -30;
 "alefMaksura-ar.2" = -30;
