@@ -35,6 +35,10 @@ value = 1;
 {
 name = "Don't use Production Names";
 value = 1;
+},
+{
+name = "Disable Subroutines";
+value = 1;
 }
 );
 date = "2020-03-12 02:20:50 +0000";
