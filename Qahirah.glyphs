@@ -9663,16 +9663,15 @@ components = (
 {
 alignment = -1;
 name = "waw-ar";
-transform = "{1, 0, 0, 1, 0, 110}";
+transform = "{1, 0, 0, 1, 50, 110}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 270;
+width = 320;
 }
 );
-leftMetricsKey = "=waw-ar";
-widthMetricsKey = "=waw-ar";
-rightKerningGroup = waw;
+rightKerningGroup = dal;
+rightMetricsKey = "=waw-ar";
 },
 {
 glyphname = "waw-ar.3";
@@ -9682,16 +9681,15 @@ components = (
 {
 alignment = -1;
 name = "waw-ar.1";
-transform = "{1, 0, 0, 1, 0, 110}";
+transform = "{1, 0, 0, 1, 50, 110}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 270;
+width = 307;
 }
 );
-leftMetricsKey = "=waw-ar.1";
-widthMetricsKey = "=waw-ar.1";
-rightKerningGroup = waw;
+rightKerningGroup = dal;
+rightMetricsKey = "=waw-ar.2";
 },
 {
 glyphname = "waw-ar.fina";
