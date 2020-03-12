@@ -253,7 +253,7 @@ code = "lookup Alternates {
   sub seen-ar.fina            from [seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5];
   sub seen-ar.init            from [seen-ar.init seen-ar.init.1 seen-ar.init.2 seen-ar.init.3 seen-ar.init.4 seen-ar.init.5 seen-ar.init.6];
   sub seen-ar.medi            from [seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6];
-  sub waw-ar                  from [waw-ar waw-ar.1];
+  sub waw-ar                  from [waw-ar waw-ar.1 waw-ar.2 waw-ar.3];
   sub waw-ar.fina             from [waw-ar.fina waw-ar.fina.1];
   sub two-ar                  from [two-ar two-ar.1];
   sub three-ar                from [three-ar three-ar.1];
@@ -9593,6 +9593,44 @@ nodes = (
 width = 270;
 }
 );
+rightKerningGroup = waw;
+},
+{
+glyphname = "waw-ar.2";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "waw-ar";
+transform = "{1, 0, 0, 1, 0, 110}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 270;
+}
+);
+leftMetricsKey = "=waw-ar";
+widthMetricsKey = "=waw-ar";
+rightKerningGroup = waw;
+},
+{
+glyphname = "waw-ar.3";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "waw-ar.1";
+transform = "{1, 0, 0, 1, 0, 110}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 270;
+}
+);
+leftMetricsKey = "=waw-ar.1";
+widthMetricsKey = "=waw-ar.1";
 rightKerningGroup = waw;
 },
 {
