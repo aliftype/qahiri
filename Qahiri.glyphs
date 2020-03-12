@@ -219,7 +219,7 @@ name = ss02;
 code = "lookup Alternates {
   sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
   sub ain-ar.init             from [ain-ar.init ain-ar.init.1];
-  sub alef-ar                 from [alef-ar.1 alef-ar alef-ar.2 alef-ar.3];
+  sub alef-ar                 from [alef-ar.1 alef-ar.2 alef-ar alef-ar.3];
   sub alefMaksura-ar          from [alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4 alefMaksura-ar.5 alefMaksura-ar.6];
   sub alefMaksura-ar.fina     from [alefMaksura-ar.fina.tooth.1 alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
   # Dummy entry for the app to show alternates.
@@ -422,7 +422,7 @@ position = "{70, -20}";
 },
 {
 name = top;
-position = "{163, 474}";
+position = "{173, 474}";
 }
 );
 hints = (
@@ -432,7 +432,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-place = "{0, 37}";
+place = "{0, 48}";
 type = Stem;
 }
 );
@@ -443,23 +443,23 @@ closed = 1;
 nodes = (
 "80 560 LINE",
 "0 540 LINE",
-"0 100 LINE",
-"0 34.354 OFFCURVE",
-"51.765 0.186 OFFCURVE",
-"113.096 0.186 CURVE SMOOTH",
-"155.47 0.186 OFFCURVE",
-"202.409 16.495 OFFCURVE",
-"240 50 CURVE",
-"216.041 42.014 OFFCURVE",
-"189.428 37.162 OFFCURVE",
-"164.895 37.162 CURVE SMOOTH",
-"118.775 37.162 OFFCURVE",
-"80 54.307 OFFCURVE",
-"80 100 CURVE"
+"0 140 LINE",
+"0 44.849 OFFCURVE",
+"75.822 0.245 OFFCURVE",
+"157.661 0.245 CURVE SMOOTH",
+"217.736 0.245 OFFCURVE",
+"281.054 24.281 OFFCURVE",
+"320 70 CURVE",
+"292.196 58.314 OFFCURVE",
+"247.829 48.414 OFFCURVE",
+"204.762 48.414 CURVE SMOOTH",
+"140.954 48.414 OFFCURVE",
+"80 70.146 OFFCURVE",
+"80 140 CURVE"
 );
 }
 );
-width = 280;
+width = 360;
 }
 );
 unicode = 0627;
@@ -527,7 +527,7 @@ position = "{70, -20}";
 },
 {
 name = top;
-position = "{173, 474}";
+position = "{163, 474}";
 }
 );
 hints = (
@@ -537,7 +537,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-place = "{0, 48}";
+place = "{0, 37}";
 type = Stem;
 }
 );
@@ -548,23 +548,23 @@ closed = 1;
 nodes = (
 "80 560 LINE",
 "0 540 LINE",
-"0 140 LINE",
-"0 44.849 OFFCURVE",
-"75.822 0.245 OFFCURVE",
-"157.661 0.245 CURVE SMOOTH",
-"217.736 0.245 OFFCURVE",
-"281.054 24.281 OFFCURVE",
-"320 70 CURVE",
-"292.196 58.314 OFFCURVE",
-"247.829 48.414 OFFCURVE",
-"204.762 48.414 CURVE SMOOTH",
-"140.954 48.414 OFFCURVE",
-"80 70.146 OFFCURVE",
-"80 140 CURVE"
+"0 100 LINE",
+"0 34.354 OFFCURVE",
+"51.765 0.186 OFFCURVE",
+"113.096 0.186 CURVE SMOOTH",
+"155.47 0.186 OFFCURVE",
+"202.409 16.495 OFFCURVE",
+"240 50 CURVE",
+"216.041 42.014 OFFCURVE",
+"189.428 37.162 OFFCURVE",
+"164.895 37.162 CURVE SMOOTH",
+"118.775 37.162 OFFCURVE",
+"80 54.307 OFFCURVE",
+"80 100 CURVE"
 );
 }
 );
-width = 360;
+width = 280;
 }
 );
 },
@@ -14119,9 +14119,9 @@ kerning = {
 "ain-ar.3" = -40;
 "ain-ar.init" = -40;
 "ain-ar.init.1" = -40;
-"alef-ar" = -20;
-"alef-ar.1" = -20;
 "alef-ar.2" = -20;
+"alef-ar.1" = -20;
+"alef-ar" = -20;
 "alefMaksura-ar" = -30;
 "alefMaksura-ar.1" = -30;
 "alefMaksura-ar.2" = -30;
