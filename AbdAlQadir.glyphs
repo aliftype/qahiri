@@ -8,6 +8,10 @@ name = Dots;
 {
 code = "dotabove-ar.alt1 dotbelow-ar.alt1 twodotshorizontalabove-ar.alt1 twodotshorizontalbelow-ar.alt1 threedotsupabove-ar.alt1";
 name = Dots.alt1;
+},
+{
+code = "dotbelow-ar dotbelow-ar.alt1 twodotshorizontalbelow-ar twodotshorizontalbelow-ar.alt1";
+name = DotsBelow;
 }
 );
 copyright = "Copyright © 2020 by Khaled Hosny. All rights reserved.";
@@ -55,7 +59,13 @@ code = "lookup AboveHah {
 lookup lellah {
   sub lam-ar.init by lam-ar.init.lellah;
   sub lam-ar.medi by lam-ar.medi.lellah;
-} lellah;";
+} lellah;
+
+lookup ToothYeh {
+ sub alefMaksura-ar.fina by alefMaksura-ar.fina.tooth;
+ sub lam-ar.medi         by alef-ar.fina;
+ sub behDotless-ar.medi  by behDotless-ar.medi.yeh;
+} ToothYeh;";
 name = Lookups;
 }
 );
@@ -211,7 +221,10 @@ code = "lookup Alternates {
   sub ain-ar.init             from [ain-ar.init ain-ar.init.1];
   sub alef-ar                 from [alef-ar.1 alef-ar alef-ar.2 alef-ar.3];
   sub alefMaksura-ar          from [alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4 alefMaksura-ar.5 alefMaksura-ar.6];
-  sub alefMaksura-ar.fina     from [alefMaksura-ar.fina alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
+  sub alefMaksura-ar.fina     from [alefMaksura-ar.fina.tooth.1 alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
+  # Dummy entry for the app to show alternates.
+  sub alefMaksura-ar.fina.tooth from [alefMaksura-ar.fina alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6 alefMaksura-ar.fina.tooth]; 
+  sub behDotless-ar.medi      from [behDotless-ar.medi behDotless-ar.medi.1];
   sub behDotless-ar.medi.high from [behDotless-ar.medi.high behDotless-ar.medi.high.1];
   sub fehDotless-ar           from [fehDotless-ar fehDotless-ar.1 fehDotless-ar.2 fehDotless-ar.3];
   sub fehDotless-ar.fina      from [fehDotless-ar.fina fehDotless-ar.fina.1 fehDotless-ar.fina.2 fehDotless-ar.fina.3];
@@ -255,21 +268,27 @@ name = salt;
 },
 {
 code = "# Automatic Code End
-lookupflag IgnoreMarks;
+lookup Kern {
+ lookupflag IgnoreMarks;
   pos [hah-ar.init hah-ar.init.1 hah-ar.init.2] [meem-ar.medi meem-ar.medi.1 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 qafDotless-ar.fina] <-20 0 -20 0>;
 
   pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 228 0> hah-ar.3;
-  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> [hah-ar.init hah-ar.init.1 hah-ar.init.2];";
+  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> [hah-ar.init hah-ar.init.1 hah-ar.init.2];
+} Kern;
+
+lookup BehToothYeh {
+ lookupflag IgnoreMarks;
+  pos behDotless-ar.init' <0 0 100 0> [behDotless-ar.medi.yeh alef-ar.fina] alefMaksura-ar.fina.tooth;
+} BehToothYeh;";
 name = kern;
 },
 {
 code = "# Automatic Code End
-lookup DotsBelow {
- @DotsBelow = [dotbelow-ar dotbelow-ar.alt1 twodotshorizontalbelow-ar twodotshorizontalbelow-ar.alt1];
+lookup DotsBelowReh {
  lookupflag UseMarkFilteringSet @DotsBelow;
   pos [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1] behDotless-ar.init @DotsBelow' <0 -100 0 0>;
   pos behDotless-ar.init @DotsBelow' <-40 0 0 0> alef-ar.fina;
-} DotsBelow;
+} DotsBelowReh;
 
 lookup DotAvove {
  @DotAbove = [dotabove-ar dotabove-ar.alt1];
@@ -279,9 +298,16 @@ lookup DotAvove {
 name = mark;
 },
 {
-code = "@TwoDotsAbove = [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1];
-lookupflag UseMarkFilteringSet @TwoDotsAbove;
-  sub [heh-ar.fina.2 heh-ar.2] [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1]' by [twodotsverticalabove-ar twodotsverticalabove-ar.alt1];";
+code = "lookup HehDots {
+ @TwoDotsAbove = [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1];
+ lookupflag UseMarkFilteringSet @TwoDotsAbove;
+  sub [heh-ar.fina.2 heh-ar.2] [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1]' by [twodotsverticalabove-ar twodotsverticalabove-ar.alt1];
+} HehDots;
+
+lookup YehTooth {
+ lookupflag UseMarkFilteringSet @DotsBelow;
+  sub [behDotless-ar.medi lam-ar.medi]' lookup ToothYeh alefMaksura-ar.fina' lookup ToothYeh;
+} YehTooth;";
 name = dist;
 }
 );
@@ -601,6 +627,10 @@ name = bottom;
 position = "{44, -20}";
 },
 {
+name = exit;
+position = "{0, 0}";
+},
+{
 name = top;
 position = "{40, 569}";
 }
@@ -709,7 +739,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{280, -75}";
+position = "{280, -35}";
 },
 {
 name = top;
@@ -762,7 +792,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{280, -75}";
+position = "{280, -35}";
 }
 );
 components = (
@@ -823,6 +853,47 @@ width = 120;
 }
 );
 widthMetricsKey = "=behDotless-ar.init";
+},
+{
+glyphname = "behDotless-ar.medi.1";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{36, 215}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = "{0, 70}";
+type = Stem;
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"140.4 40 LINE",
+"40.414 140.038 LINE",
+"-17.3 40 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"150 0 LINE",
+"150 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 150;
+}
+);
 },
 {
 glyphname = "behDotless-ar.medi.high";
@@ -887,13 +958,72 @@ width = 120;
 widthMetricsKey = "=behDotless-ar.init";
 },
 {
+glyphname = "behDotless-ar.medi.yeh";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{44, -35}";
+},
+{
+name = exit;
+position = "{0, 0}";
+},
+{
+name = top;
+position = "{44, 300}";
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{0, 5}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = down;
+type = TopGhost;
+},
+{
+origin = "{0, 2}";
+target = "{0, 8}";
+type = Stem;
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"80 230 LINE",
+"0 210 LINE",
+"0 0 LINE",
+"120 0 LINE",
+"120 70 LINE",
+"90 70 LINE",
+"83 70 OFFCURVE",
+"80 73 OFFCURVE",
+"80 80 CURVE"
+);
+}
+);
+width = 120;
+}
+);
+widthMetricsKey = "=behDotless-ar.init";
+},
+{
 glyphname = "behDotless-ar.init";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{44, -75}";
+position = "{44, -35}";
 },
 {
 name = top;
@@ -994,7 +1124,7 @@ name = "behDotless-ar";
 },
 {
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 233, -164}";
+transform = "{1, 0, 0, 1, 233, -124}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1165,12 +1295,6 @@ width = 660;
 glyphname = "hah-ar.2";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{320, -185}";
-}
-);
 components = (
 {
 name = "hah-ar";
@@ -1294,7 +1418,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{320, -185}";
+position = "{320, -145}";
 }
 );
 components = (
@@ -1364,7 +1488,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{320, -185}";
+position = "{320, -145}";
 }
 );
 components = (
@@ -1443,7 +1567,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{236, -235}";
+position = "{186, -65}";
 },
 {
 name = top;
@@ -1503,7 +1627,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{116, -235}";
+position = "{66, -85}";
 },
 {
 name = top;
@@ -1572,7 +1696,7 @@ width = 400;
 anchors = (
 {
 name = bottom;
-position = "{170, -70}";
+position = "{170, -35}";
 },
 {
 name = entry;
@@ -3088,6 +3212,22 @@ name = top;
 position = "{148, 215}";
 }
 );
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.medi.1";
+transform = "{1, 0, 0, 1, 110, 0}";
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi.1";
+transform = "{1, 0, 0, 1, 220, 0}";
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi.1";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -3096,42 +3236,7 @@ type = Stem;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"371 0 LINE",
-"371 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"140.4 40 LINE",
-"40.414 140.038 LINE",
-"-17.3 40 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"250.9 40 LINE",
-"150.914 140.038 LINE",
-"93.2 40 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"361.2 40 LINE",
-"261.214 140.038 LINE",
-"203.5 40 LINE"
-);
-}
-);
-width = 371;
+width = 370;
 }
 );
 leftKerningGroup = waw;
@@ -3551,12 +3656,21 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{150, 215}";
+position = "{148, 215}";
+}
+);
+components = (
+{
+name = "behDotless-ar.medi.1";
+},
+{
+name = "behDotless-ar.medi.1";
+transform = "{1, 0, 0, 1, 110, 0}";
 }
 );
 hints = (
 {
-place = "{221, 80}";
+place = "{220, 80}";
 type = Stem;
 },
 {
@@ -3570,44 +3684,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"271 0 LINE",
-"271 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"140.4 40 LINE",
-"40.414 140.038 LINE",
-"-17.3 40 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"250.9 40 LINE",
-"150.914 140.038 LINE",
-"93.2 40 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"280 0 LINE SMOOTH",
-"286 0 OFFCURVE",
-"301 0 OFFCURVE",
-"301 11 CURVE SMOOTH",
-"301 177.417 LINE",
-"221 157.417 LINE",
-"221 70 LINE",
-"201 70 LINE",
-"201 0 LINE"
+"279 0 LINE SMOOTH",
+"285 0 OFFCURVE",
+"300 0 OFFCURVE",
+"300 11 CURVE SMOOTH",
+"300 177 LINE",
+"220 157 LINE",
+"220 70 LINE",
+"200 70 LINE",
+"200 0 LINE"
 );
 }
 );
-width = 341;
+width = 340;
 }
 );
 },
@@ -11151,6 +11240,104 @@ nodes = (
 );
 visible = 1;
 width = 240;
+}
+);
+leftKerningGroup = yeh;
+},
+{
+glyphname = "alefMaksura-ar.fina.tooth";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{120, -250}";
+},
+{
+name = entry;
+position = "{0, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{0, 13}";
+target = "{0, 14}";
+type = Stem;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{1, 5}";
+type = Stem;
+},
+{
+origin = "{0, 13}";
+target = "{1, 11}";
+type = Stem;
+},
+{
+origin = "{0, 12}";
+target = "{0, 3}";
+type = Stem;
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"259 -220 LINE SMOOTH",
+"265 -220 OFFCURVE",
+"280 -220 OFFCURVE",
+"280 -199 CURVE",
+"280 -60 OFFCURVE",
+"210 -40 OFFCURVE",
+"166 -40 CURVE SMOOTH",
+"90 -40 LINE",
+"90 -110 LINE",
+"156 -110 LINE SMOOTH",
+"178 -110 OFFCURVE",
+"196 -128 OFFCURVE",
+"196 -150 CURVE",
+"0 -150 LINE",
+"-40 -220 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"80 50 LINE",
+"0 50 LINE",
+"0 -70 LINE",
+"0 -95 OFFCURVE",
+"15 -110 OFFCURVE",
+"38 -110 CURVE",
+"120 -110 LINE",
+"120 -40 LINE",
+"90 -40 LINE",
+"83 -40 OFFCURVE",
+"80 -37 OFFCURVE",
+"80 -30 CURVE"
+);
+}
+);
+width = 280;
+}
+);
+leftKerningGroup = yeh;
+},
+{
+glyphname = "alefMaksura-ar.fina.tooth.1";
+layers = (
+{
+components = (
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 207;
 }
 );
 leftKerningGroup = yeh;
