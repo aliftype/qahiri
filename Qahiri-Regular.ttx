@@ -245,12 +245,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0x45fae8ae"/>
+    <checkSumAdjustment value="0x1d6fb52"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Thu Mar 12 22:36:10 2020"/>
-    <modified value="Thu Mar 12 22:36:10 2020"/>
+    <created value="Thu Mar 12 22:57:27 2020"/>
+    <modified value="Thu Mar 12 22:57:27 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -1175,7 +1175,7 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefar.3">
-          -177 0 20 540 -20 hstem
+          -137 0 20 540 -20 hstem
           40 80 vstem
           20 vmoveto
           -10 10 20 -10 22 hhcurveto
@@ -4740,7 +4740,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <Lookup index="2">
         <LookupType value="2"/>
         <LookupFlag value="9"/><!-- rightToLeft ignoreMarks -->
-        <!-- SubTableCount=2 -->
+        <!-- SubTableCount=3 -->
         <PairPos index="0" Format="1">
           <Coverage Format="2">
             <Glyph value="alefar.fina"/>
@@ -8431,6 +8431,185 @@ You should have received a copy of the GNU Affero General Public License along w
             </Class2Record>
           </Class1Record>
         </PairPos>
+        <PairPos index="2" Format="2">
+          <Coverage Format="1">
+            <Glyph value="lam_alefar.1"/>
+            <Glyph value="lam_alefar.fina.1"/>
+          </Coverage>
+          <ValueFormat1 value="5"/>
+          <ValueFormat2 value="0"/>
+          <ClassDef1 Format="2">
+          </ClassDef1>
+          <ClassDef2 Format="2">
+            <ClassDef glyph="alefar.1" class="1"/>
+            <ClassDef glyph="alefar.2" class="2"/>
+            <ClassDef glyph="alefar.3" class="3"/>
+            <ClassDef glyph="fehDotlessar" class="4"/>
+            <ClassDef glyph="fehDotlessar.1" class="5"/>
+            <ClassDef glyph="fehDotlessar.2" class="6"/>
+            <ClassDef glyph="fehDotlessar.3" class="7"/>
+            <ClassDef glyph="fehDotlessar.init" class="8"/>
+            <ClassDef glyph="fehDotlessar.init.1" class="9"/>
+            <ClassDef glyph="hehar.1" class="10"/>
+            <ClassDef glyph="hehar.2" class="11"/>
+            <ClassDef glyph="hehar.init.1" class="12"/>
+            <ClassDef glyph="hehar.init.2" class="13"/>
+            <ClassDef glyph="hehar.init.3" class="14"/>
+            <ClassDef glyph="hehar.init.4" class="15"/>
+            <ClassDef glyph="hehar.init.5" class="16"/>
+            <ClassDef glyph="hehar.init.6" class="17"/>
+            <ClassDef glyph="hehar.init.7" class="18"/>
+            <ClassDef glyph="lam_alefar" class="22"/>
+            <ClassDef glyph="lam_alefar.1" class="23"/>
+            <ClassDef glyph="lam_alefar.2" class="24"/>
+            <ClassDef glyph="lam_alefar.3" class="25"/>
+            <ClassDef glyph="lam_alefar.4" class="26"/>
+            <ClassDef glyph="lam_alefar.5" class="27"/>
+            <ClassDef glyph="lamar" class="19"/>
+            <ClassDef glyph="lamar.init" class="20"/>
+            <ClassDef glyph="lamar.init.lellah" class="21"/>
+            <ClassDef glyph="qafDotlessar" class="28"/>
+            <ClassDef glyph="seenar.1" class="29"/>
+            <ClassDef glyph="seenar.2" class="30"/>
+            <ClassDef glyph="seenar.3" class="31"/>
+            <ClassDef glyph="seenar.4" class="32"/>
+            <ClassDef glyph="seenar.5" class="33"/>
+            <ClassDef glyph="seenar.init.1" class="34"/>
+            <ClassDef glyph="seenar.init.2" class="35"/>
+            <ClassDef glyph="seenar.init.3" class="36"/>
+            <ClassDef glyph="seenar.init.4" class="37"/>
+            <ClassDef glyph="seenar.init.5" class="38"/>
+            <ClassDef glyph="wawar.2" class="39"/>
+            <ClassDef glyph="wawar.3" class="40"/>
+          </ClassDef2>
+          <!-- Class1Count=1 -->
+          <!-- Class2Count=41 -->
+          <Class1Record index="0">
+            <Class2Record index="0">
+              <Value1 XPlacement="0" XAdvance="0"/>
+            </Class2Record>
+            <Class2Record index="1">
+              <Value1 XPlacement="160" XAdvance="160"/>
+            </Class2Record>
+            <Class2Record index="2">
+              <Value1 XPlacement="80" XAdvance="80"/>
+            </Class2Record>
+            <Class2Record index="3">
+              <Value1 XPlacement="240" XAdvance="240"/>
+            </Class2Record>
+            <Class2Record index="4">
+              <Value1 XPlacement="20" XAdvance="20"/>
+            </Class2Record>
+            <Class2Record index="5">
+              <Value1 XPlacement="30" XAdvance="30"/>
+            </Class2Record>
+            <Class2Record index="6">
+              <Value1 XPlacement="20" XAdvance="20"/>
+            </Class2Record>
+            <Class2Record index="7">
+              <Value1 XPlacement="30" XAdvance="30"/>
+            </Class2Record>
+            <Class2Record index="8">
+              <Value1 XPlacement="20" XAdvance="20"/>
+            </Class2Record>
+            <Class2Record index="9">
+              <Value1 XPlacement="30" XAdvance="30"/>
+            </Class2Record>
+            <Class2Record index="10">
+              <Value1 XPlacement="140" XAdvance="140"/>
+            </Class2Record>
+            <Class2Record index="11">
+              <Value1 XPlacement="240" XAdvance="240"/>
+            </Class2Record>
+            <Class2Record index="12">
+              <Value1 XPlacement="30" XAdvance="30"/>
+            </Class2Record>
+            <Class2Record index="13">
+              <Value1 XPlacement="60" XAdvance="60"/>
+            </Class2Record>
+            <Class2Record index="14">
+              <Value1 XPlacement="110" XAdvance="110"/>
+            </Class2Record>
+            <Class2Record index="15">
+              <Value1 XPlacement="40" XAdvance="40"/>
+            </Class2Record>
+            <Class2Record index="16">
+              <Value1 XPlacement="90" XAdvance="90"/>
+            </Class2Record>
+            <Class2Record index="17">
+              <Value1 XPlacement="50" XAdvance="50"/>
+            </Class2Record>
+            <Class2Record index="18">
+              <Value1 XPlacement="100" XAdvance="100"/>
+            </Class2Record>
+            <Class2Record index="19">
+              <Value1 XPlacement="240" XAdvance="240"/>
+            </Class2Record>
+            <Class2Record index="20">
+              <Value1 XPlacement="240" XAdvance="240"/>
+            </Class2Record>
+            <Class2Record index="21">
+              <Value1 XPlacement="240" XAdvance="240"/>
+            </Class2Record>
+            <Class2Record index="22">
+              <Value1 XPlacement="220" XAdvance="220"/>
+            </Class2Record>
+            <Class2Record index="23">
+              <Value1 XPlacement="90" XAdvance="90"/>
+            </Class2Record>
+            <Class2Record index="24">
+              <Value1 XPlacement="200" XAdvance="200"/>
+            </Class2Record>
+            <Class2Record index="25">
+              <Value1 XPlacement="200" XAdvance="200"/>
+            </Class2Record>
+            <Class2Record index="26">
+              <Value1 XPlacement="160" XAdvance="160"/>
+            </Class2Record>
+            <Class2Record index="27">
+              <Value1 XPlacement="160" XAdvance="160"/>
+            </Class2Record>
+            <Class2Record index="28">
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </Class2Record>
+            <Class2Record index="29">
+              <Value1 XPlacement="30" XAdvance="30"/>
+            </Class2Record>
+            <Class2Record index="30">
+              <Value1 XPlacement="60" XAdvance="60"/>
+            </Class2Record>
+            <Class2Record index="31">
+              <Value1 XPlacement="60" XAdvance="60"/>
+            </Class2Record>
+            <Class2Record index="32">
+              <Value1 XPlacement="90" XAdvance="90"/>
+            </Class2Record>
+            <Class2Record index="33">
+              <Value1 XPlacement="120" XAdvance="120"/>
+            </Class2Record>
+            <Class2Record index="34">
+              <Value1 XPlacement="30" XAdvance="30"/>
+            </Class2Record>
+            <Class2Record index="35">
+              <Value1 XPlacement="60" XAdvance="60"/>
+            </Class2Record>
+            <Class2Record index="36">
+              <Value1 XPlacement="60" XAdvance="60"/>
+            </Class2Record>
+            <Class2Record index="37">
+              <Value1 XPlacement="90" XAdvance="90"/>
+            </Class2Record>
+            <Class2Record index="38">
+              <Value1 XPlacement="120" XAdvance="120"/>
+            </Class2Record>
+            <Class2Record index="39">
+              <Value1 XPlacement="30" XAdvance="30"/>
+            </Class2Record>
+            <Class2Record index="40">
+              <Value1 XPlacement="40" XAdvance="40"/>
+            </Class2Record>
+          </Class1Record>
+        </PairPos>
       </Lookup>
       <Lookup index="3">
         <LookupType value="3"/>
@@ -11629,7 +11808,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="alefar" width="360" lsb="0"/>
     <mtx name="alefar.1" width="200" lsb="0"/>
     <mtx name="alefar.2" width="280" lsb="0"/>
-    <mtx name="alefar.3" width="120" lsb="0"/>
+    <mtx name="alefar.3" width="160" lsb="0"/>
     <mtx name="alefar.fina" width="120" lsb="0"/>
     <mtx name="behDotlessar" width="600" lsb="0"/>
     <mtx name="behDotlessar.fina" width="600" lsb="0"/>

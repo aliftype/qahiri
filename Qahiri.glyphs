@@ -569,7 +569,7 @@ nodes = (
 );
 }
 );
-width = 120;
+width = 160;
 }
 );
 },
@@ -8655,6 +8655,7 @@ nodes = (
 width = 255;
 }
 );
+rightKerningGroup = lam_alef.1;
 },
 {
 glyphname = "lam_alef-ar.fina.1";
@@ -8681,6 +8682,7 @@ nodes = (
 width = 255;
 }
 );
+rightKerningGroup = lam_alef.1;
 },
 {
 glyphname = "lam_alef-ar.fina.2";
@@ -10871,6 +10873,48 @@ kerning = {
 };
 "@MMK_L_heh.init" = {
 "@MMK_R_reh.fina" = 40;
+};
+"@MMK_L_lam_alef.1" = {
+"alef-ar.1" = 160;
+"alef-ar.2" = 80;
+"alef-ar.3" = 240;
+"fehDotless-ar" = 20;
+"fehDotless-ar.1" = 30;
+"fehDotless-ar.2" = 20;
+"fehDotless-ar.3" = 30;
+"fehDotless-ar.init" = 20;
+"fehDotless-ar.init.1" = 30;
+"heh-ar.1" = 140;
+"heh-ar.2" = 240;
+"heh-ar.init.1" = 30;
+"heh-ar.init.2" = 60;
+"heh-ar.init.3" = 110;
+"heh-ar.init.4" = 40;
+"heh-ar.init.5" = 90;
+"heh-ar.init.6" = 50;
+"heh-ar.init.7" = 100;
+"lam-ar" = 240;
+"lam-ar.init" = 240;
+"lam-ar.init.lellah" = 240;
+"lam_alef-ar" = 220;
+"lam_alef-ar.1" = 90;
+"lam_alef-ar.2" = 200;
+"lam_alef-ar.3" = 200;
+"lam_alef-ar.4" = 160;
+"lam_alef-ar.5" = 160;
+"qafDotless-ar" = -50;
+"seen-ar.1" = 30;
+"seen-ar.2" = 60;
+"seen-ar.3" = 60;
+"seen-ar.4" = 90;
+"seen-ar.5" = 120;
+"seen-ar.init.1" = 30;
+"seen-ar.init.2" = 60;
+"seen-ar.init.3" = 60;
+"seen-ar.init.4" = 90;
+"seen-ar.init.5" = 120;
+"waw-ar.2" = 30;
+"waw-ar.3" = 40;
 };
 "@MMK_L_meem-ar.medi" = {
 "@MMK_R_pyramid" = -20;
