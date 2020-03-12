@@ -4850,14 +4850,16 @@ name = "kaf-ar.init";
 },
 {
 name = "kashida-ar";
-transform = "{1, 0, 0, 1, 498, 0}";
+transform = "{1, 0, 0, 1, 520, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 578;
+width = 600;
 }
 );
 leftKerningGroup = waw;
+leftMetricsKey = "=kaf-ar.init";
+widthMetricsKey = "=kaf-ar.init";
 },
 {
 glyphname = "kaf-ar.medi.1";
@@ -4907,7 +4909,6 @@ layers = (
 components = (
 {
 name = _dal;
-transform = "{1, 0, 0, 1, -22, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4915,42 +4916,36 @@ paths = (
 {
 closed = 1;
 nodes = (
-"54 0 LINE",
-"54 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
+"51 126 LINE",
+"142 247 OFFCURVE",
+"166 400 OFFCURVE",
+"140 560 CURVE",
+"60 480 LINE",
+"85 355 OFFCURVE",
+"74 221 OFFCURVE",
+"22 110 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"29 126 LINE",
-"92 210 OFFCURVE",
-"127 316 OFFCURVE",
-"127 443 CURVE SMOOTH",
-"127 480 OFFCURVE",
-"124 519 OFFCURVE",
-"118 560 CURVE",
-"38 480 LINE",
-"45 440 OFFCURVE",
-"49 398 OFFCURVE",
-"49 355 CURVE SMOOTH",
-"49 272 OFFCURVE",
-"34 187 OFFCURVE",
-"0 110 CURVE"
+"76 0 LINE",
+"76 70 LINE",
+"-18 70 LINE",
+"-18 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"113 180 LINE",
-"41 180 LINE",
-"0 110 LINE",
-"114 110 LINE"
+"135 180 LINE",
+"63 180 LINE",
+"22 110 LINE",
+"136 110 LINE"
 );
 }
 );
-width = 578;
+width = 600;
 }
 );
 },
