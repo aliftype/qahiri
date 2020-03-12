@@ -245,12 +245,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0x608f99e6"/>
+    <checkSumAdjustment value="0xa92267c9"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Thu Mar 12 21:55:19 2020"/>
-    <modified value="Thu Mar 12 21:55:19 2020"/>
+    <created value="Thu Mar 12 22:01:19 2020"/>
+    <modified value="Thu Mar 12 22:01:19 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -611,8 +611,8 @@ You should have received a copy of the GNU Affero General Public License along w
             -9 -11 return
           </CharString>
           <CharString index="3">
-            -55 -4 callgsubr
-            61 -32 callsubr
+            -55 -5 callsubr
+            61 -32 callgsubr
             vstem
             149 -40 rmoveto
             -32 -12 3 -106 callgsubr
@@ -621,7 +621,7 @@ You should have received a copy of the GNU Affero General Public License along w
           </CharString>
           <CharString index="4">
             -106 callsubr
-            99 -43 callgsubr
+            99 -44 callsubr
             return
           </CharString>
           <CharString index="5">
@@ -631,8 +631,8 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="6">
-            -50 34 callgsubr
-            67 64 -21 70 83 24 callsubr
+            -50 34 callsubr
+            67 64 -21 70 83 25 callgsubr
             159 -43 -103 callgsubr
           </CharString>
           <CharString index="7">
@@ -657,14 +657,14 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="11">
-            -9 -5 5 4 -4 hvcurveto
-            -64 64 rlineto
+            52 -52 rlineto
+            -10 10 9 -5 12 hhcurveto
             return
           </CharString>
           <CharString index="12">
-            -96 callgsubr
-            67 70 -31 hlineto
             -96 callsubr
+            67 70 -31 hlineto
+            -96 callgsubr
             return
           </CharString>
           <CharString index="13">
@@ -689,7 +689,7 @@ You should have received a copy of the GNU Affero General Public License along w
             -53 hlineto
             -8 -5 7 8 -36 callsubr
             hvcurveto
-            -64 callgsubr
+            -65 callsubr
             return
           </CharString>
           <CharString index="18">
@@ -702,12 +702,12 @@ You should have received a copy of the GNU Affero General Public License along w
           </CharString>
           <CharString index="20">
             -92 callgsubr
-            -212 -53 callgsubr
+            -212 -53 callsubr
             return
           </CharString>
           <CharString index="21">
             -74 callgsubr
-            -52 callgsubr
+            -52 callsubr
             return
           </CharString>
           <CharString index="22">
@@ -720,8 +720,9 @@ You should have received a copy of the GNU Affero General Public License along w
             -110 -100 callgsubr
           </CharString>
           <CharString index="24">
-            hmoveto
-            -97 callsubr
+            -20 callgsubr
+            hvcurveto
+            -77 callsubr
             return
           </CharString>
           <CharString index="25">
@@ -730,15 +731,16 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="26">
-            rmoveto
-            -51 hlineto
-            hintmask 11111100
-            88 97 rlineto
-            14 15 7 21 27 29 callgsubr
-            11 10 1 1 9 vhcurveto
-            -130 -142 -25 callsubr
-            hintmask 11111100
-            -42 140 -104 callgsubr
+            232 26 callsubr
+            0 83 77 -20 30 callsubr
+            161 62 hintmask 11011100
+            -4 callsubr
+            308 -29 callgsubr
+            -49 hlineto
+            -96 callgsubr
+            hintmask 10111100
+            -80 callsubr
+            return
           </CharString>
           <CharString index="27">
             -88 callgsubr
@@ -792,7 +794,7 @@ You should have received a copy of the GNU Affero General Public License along w
           </CharString>
           <CharString index="37">
             rmoveto
-            13 callgsubr
+            11 callsubr
             -100 callsubr
             -72 callsubr
             -390 -90 callgsubr
@@ -801,7 +803,7 @@ You should have received a copy of the GNU Affero General Public License along w
           </CharString>
           <CharString index="38">
             -63 callsubr
-            -100 6 callsubr
+            -100 4 callsubr
             -97 callgsubr
             160 -85 callsubr
           </CharString>
@@ -820,11 +822,13 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="42">
-            63 0 70 160 -20 -47 callsubr
+            18 -6 -14 11 -14 hhcurveto
+            -32 -14 -32 -26 8 hvcurveto
+            -11 hlineto
             return
           </CharString>
           <CharString index="43">
-            -110 70 40 44 callsubr
+            -110 70 40 45 callgsubr
             hintmask 11010000
             return
           </CharString>
@@ -844,7 +848,7 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="47">
-            -380 6 callsubr
+            -380 4 callsubr
             539 hlineto
             -57 callsubr
             11 hvcurveto
@@ -867,7 +871,7 @@ You should have received a copy of the GNU Affero General Public License along w
             6 15 0 return
           </CharString>
           <CharString index="51">
-            67 43 44 callsubr
+            67 43 45 callgsubr
             85 80 hintmask 11101100
             57 67 rmoveto
             -95 callsubr
@@ -876,35 +880,35 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="52">
-            0 29 33 25 hstem
-            0 125 vstem
-            125 29 -73 callgsubr
-            endchar
+            -106 callsubr
+            529 vlineto
+            -92 callsubr
           </CharString>
           <CharString index="53">
-            -12 callsubr
+            -11 callgsubr
             endchar
           </CharString>
           <CharString index="54">
             hlineto
-            27 70 rlineto
-            -3 hlineto
-            27 callsubr
+            -50 -40 -40 -50 -50 40 -40 50 hvcurveto
             return
           </CharString>
           <CharString index="55">
-            -55 -79 callsubr
+            hstem
+            -51 callgsubr
+            vstem
             return
           </CharString>
           <CharString index="56">
-            70 80 40 80 40 80 return
+            160 -99 callsubr
+            return
           </CharString>
           <CharString index="57">
             70 vlineto
             -58 callgsubr
           </CharString>
           <CharString index="58">
-            68 68 5 callgsubr
+            68 68 6 callsubr
             -20 -26 -20 26 rlineto
             return
           </CharString>
@@ -915,28 +919,27 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="60">
-            hstem
-            -24 callsubr
-            vstem
+            -180 -100 callsubr
             return
           </CharString>
           <CharString index="61">
             -92 callgsubr
             -93 hlineto
-            -96 callsubr
+            -96 callgsubr
             hintmask 10110000
             -80 callsubr
             return
           </CharString>
           <CharString index="62">
             hlineto
-            -96 -54 -78 -82 -13 callgsubr
+            -96 -54 -78 -82 -14 callsubr
             hvcurveto
             -8 -49 -35 -4 -26 hhcurveto
             return
           </CharString>
           <CharString index="63">
-            -55 -46 callgsubr
+            vlineto
+            -18 callsubr
             return
           </CharString>
           <CharString index="64">
@@ -952,23 +955,24 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="66">
-            1 6 0 7 7 15 callgsubr
+            1 6 0 7 7 13 callgsubr
             return
           </CharString>
           <CharString index="67">
-            -44 callsubr
+            -43 callgsubr
             -60 45 -30 55 return
           </CharString>
           <CharString index="68">
-            -33 callsubr
-            0 80 return
+            40 -12 callgsubr
+            vstem
+            return
           </CharString>
           <CharString index="69">
             50 -45 40 -55 return
           </CharString>
           <CharString index="70">
             hlineto
-            10 callsubr
+            10 callgsubr
             hintmask 01011000
             -38 callsubr
             vhcurveto
@@ -987,15 +991,15 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="74">
-            0 70 160 -20 hstem
+            380 -23 callsubr
             return
           </CharString>
           <CharString index="75">
-            -21 70 83 hstem
-            0 42 return
+            -57 callsubr
+            21 139 return
           </CharString>
           <CharString index="76">
-            -4 callgsubr
+            -5 callsubr
             40 return
           </CharString>
           <CharString index="77">
@@ -1011,12 +1015,12 @@ You should have received a copy of the GNU Affero General Public License along w
           </CharString>
           <CharString index="79">
             103 0 70 490 -20 hstem
-            80 27 callgsubr
+            80 27 callsubr
             return
           </CharString>
           <CharString index="80">
-            -69 callgsubr
-            380 -20 hstem
+            rmoveto
+            -61 callsubr
             return
           </CharString>
           <CharString index="81">
@@ -1045,7 +1049,7 @@ You should have received a copy of the GNU Affero General Public License along w
             140 -70 return
           </CharString>
           <CharString index="86">
-            -57 0 -6 callgsubr
+            -57 0 -6 callsubr
             return
           </CharString>
           <CharString index="87">
@@ -1054,8 +1058,9 @@ You should have received a copy of the GNU Affero General Public License along w
             endchar
           </CharString>
           <CharString index="88">
-            316 6 callgsubr
-            52 81 vstem
+            -436 -33 callsubr
+            -470 -40 vlineto
+            7 callsubr
             return
           </CharString>
           <CharString index="89">
@@ -1065,29 +1070,31 @@ You should have received a copy of the GNU Affero General Public License along w
           <CharString index="90">
             0 58 hstem
             0 58 vstem
-            3 callsubr
+            3 callgsubr
             endchar
           </CharString>
           <CharString index="91">
             -250 70 return
           </CharString>
           <CharString index="92">
-            hlineto
-            -67 callgsubr
+            vvcurveto
+            325 -99 callsubr
+            -305 vlineto
             return
           </CharString>
           <CharString index="93">
-            -71 callgsubr
-            -436 return
+            -104 86 -56 113 43 46 8 35 76 return
           </CharString>
           <CharString index="94">
-            70 hstem
-            0 80 40 80 return
+            26 callgsubr
+            80 return
           </CharString>
           <CharString index="95">
-            -140 -60 callsubr
-            219 vlineto
-            return
+            -92 66 rlineto
+            312 -99 callsubr
+            -234 vlineto
+            -213 154 -29 -77 242 -175 rlineto
+            -208 return
           </CharString>
           <CharString index="96">
             61 70 hlineto
@@ -1097,135 +1104,117 @@ You should have received a copy of the GNU Affero General Public License along w
             65 35 30 60 return
           </CharString>
           <CharString index="98">
-            -127 hlineto
-            -21 -12 17 19 21 16 23 37 13 16 -3 -7 18 hvcurveto
-            45 -14 -35 25 -35 hhcurveto
-            return
-          </CharString>
-          <CharString index="99">
-            -53 callgsubr
+            -53 callsubr
             445 -62 callsubr
             -476 55 callsubr
             return
           </CharString>
+          <CharString index="99">
+            rcurveline
+            -40 callgsubr
+            -40 -70 rlineto
+            -3 callsubr
+            36 return
+          </CharString>
           <CharString index="100">
-            45 callsubr
-            350 rmoveto
-            -210 return
+            -83 -91 36 90 67 50 26 40 hvcurveto
+            return
           </CharString>
           <CharString index="101">
-            -44 callsubr
-            -34 callgsubr
+            70 -39 callsubr
             return
           </CharString>
           <CharString index="102">
-            vlineto
-            25 -13 16 -35 return
+            -110 70 return
           </CharString>
           <CharString index="103">
-            -74 callgsubr
-            30 -20 hstemhm
-            -51 callsubr
-            hintmask 11011110
+            57 67 rmoveto
+            -96 callsubr
             return
           </CharString>
           <CharString index="104">
-            35 callsubr
-            -44 callsubr
-            return
+            339 hlineto
+            -57 callsubr
+            21 return
           </CharString>
           <CharString index="105">
-            70 rmoveto
-            hintmask 01011000
-            -41 callsubr
-            vhcurveto
-            hintmask 10110100
-            return
+            -47 21 -21 189 32 callgsubr
+            -91 -70 91 -70 return
           </CharString>
           <CharString index="106">
-            7 callgsubr
-            hintmask 11011100
-            -30 callsubr
-          </CharString>
-          <CharString index="107">
             vlineto
             -1 -7 -6 0 -7 hhcurveto
             30 callgsubr
             return
           </CharString>
+          <CharString index="107">
+            28 callsubr
+            -66 callgsubr
+          </CharString>
           <CharString index="108">
-            26 callgsubr
-            40 70 hstem
-            return
+            9 11 11 9 return
           </CharString>
           <CharString index="109">
-            200 70 rmoveto
+            23 -23 hvcurveto
             return
           </CharString>
           <CharString index="110">
-            29 -83 callsubr
+            rmoveto
+            -76 callsubr
             return
           </CharString>
           <CharString index="111">
-            11 callgsubr
-            29 callsubr
-            return
-          </CharString>
-          <CharString index="112">
-            hlineto
-            24 13 37 65 11 callgsubr
-            return
-          </CharString>
-          <CharString index="113">
             vlineto
             -78 callsubr
             return
           </CharString>
+          <CharString index="112">
+            33 callsubr
+            360 80 return
+          </CharString>
+          <CharString index="113">
+            rlineto
+            350 -99 callsubr
+            -330 vlineto
+            return
+          </CharString>
           <CharString index="114">
-            3 3 callgsubr
+            -40 -70 rlineto
             return
           </CharString>
           <CharString index="115">
-            63 0 70 160 -20 30 -20 hstemhm
-            -24 callsubr
-            hintmask 10111100
+            -57 0 70 40 20 32 callsubr
             return
           </CharString>
           <CharString index="116">
-            0 89 hstem
-            0 64 vstem
-            17 hmoveto
-            -61 callsubr
-            endchar
-          </CharString>
-          <CharString index="117">
-            -10 callsubr
-            hvcurveto
+            vlineto
+            -35 -20 -20 0 -40 hhcurveto
             return
           </CharString>
+          <CharString index="117">
+            77 -19 111 -93 return
+          </CharString>
           <CharString index="118">
-            15 -31 callsubr
-            140 -119 -21 hstemhm
-            213 84 hintmask 10110000
+            -140 -100 callsubr
+            52 callgsubr
             return
           </CharString>
           <CharString index="119">
-            -14 26 callgsubr
+            -14 26 callsubr
             hstem
             213 70 vstem
             283 1 rmoveto
             69 return
           </CharString>
           <CharString index="120">
-            26 callgsubr
-            hstem
-            0 80 vstem
-            return
+            57 callsubr
+            350 rmoveto
+            -210 return
           </CharString>
           <CharString index="121">
-            hlineto
-            45 callgsubr
-            -31 31 return
+            hhcurveto
+            -40 callsubr
+            return
           </CharString>
           <CharString index="122">
             -11 -9 9 11 return
@@ -1235,29 +1224,31 @@ You should have received a copy of the GNU Affero General Public License along w
             endchar
           </CharString>
           <CharString index="124">
-            42 callgsubr
-            111 78 327 return
-          </CharString>
-          <CharString index="125">
-            -217 0 25 25 callsubr
+            -217 0 25 24 callsubr
             57 43 30 40 hvcurveto
             return
           </CharString>
+          <CharString index="125">
+            42 callgsubr
+            111 78 327 return
+          </CharString>
           <CharString index="126">
-            143 52 callgsubr
-            200 80 40 80 return
+            356 33 callsubr
+            400 80 52 81 vstem
+            return
           </CharString>
           <CharString index="127">
-            42 callsubr
-            73 77 326 return
+            453 -27 callgsubr
+            80 80 466 return
           </CharString>
           <CharString index="128">
             42 callgsubr
             40 80 396 return
           </CharString>
           <CharString index="129">
-            -73 callsubr
-            -160 return
+            -27 1 callgsubr
+            30 27 callsubr
+            return
           </CharString>
           <CharString index="130">
             0 70 490 -20 hstem
@@ -1265,23 +1256,20 @@ You should have received a copy of the GNU Affero General Public License along w
           </CharString>
           <CharString index="131">
             hstem
-            57 callsubr
-            vstem
-            return
-          </CharString>
-          <CharString index="132">
-            hstem
             0 80 vstem
             -20 hmoveto
             return
           </CharString>
-          <CharString index="133">
-            -20 hstem
-            0 80 vstem
+          <CharString index="132">
+            -35 -20 -40 0 -40 hhcurveto
             return
           </CharString>
+          <CharString index="133">
+            -31 callsubr
+            70 return
+          </CharString>
           <CharString index="134">
-            -80 -140 rlineto
+            80 16 callgsubr
             return
           </CharString>
           <CharString index="135">
@@ -1290,21 +1278,21 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="136">
-            -56 32 callgsubr
+            -60 -57 169 -293 -33 -55 -43 -55 -53 -60 rlinecurve
             return
           </CharString>
           <CharString index="137">
-            180 70 return
+            hstemhm
+            0 42 return
           </CharString>
           <CharString index="138">
-            35 callgsubr
-            70 70 vstem
-            140 350 rmoveto
+            -79 callsubr
+            -20 callgsubr
             return
           </CharString>
           <CharString index="139">
-            -39 callgsubr
-            2 callsubr
+            -39 callsubr
+            2 callgsubr
             return
           </CharString>
           <CharString index="140">
@@ -1313,41 +1301,40 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="141">
-            0 70 hstem
-            -20 return
+            -220 70 40 return
           </CharString>
           <CharString index="142">
             180 rmoveto
             return
           </CharString>
           <CharString index="143">
-            13 callsubr
-            100 hmoveto
-            return
+            416 -82 callsubr
+            -476 -70 return
           </CharString>
           <CharString index="144">
-            67 64 -21 70 83 return
+            -40 -70 38 callsubr
+            return
           </CharString>
           <CharString index="145">
             40 -40 rlineto
             return
           </CharString>
           <CharString index="146">
+            -65 -57 -32 -72 -19 4 -15 6 -12 hvcurveto
+            return
+          </CharString>
+          <CharString index="147">
             240 vlineto
             hintmask 10111100
             210 vlineto
             endchar
           </CharString>
-          <CharString index="147">
-            334 -71 callsubr
-            return
-          </CharString>
           <CharString index="148">
-            557 -71 callgsubr
-            return
+            -27 callgsubr
+            0 80 return
           </CharString>
           <CharString index="149">
-            303 -27 callsubr
+            303 -27 callgsubr
             return
           </CharString>
           <CharString index="150">
@@ -1356,23 +1343,19 @@ You should have received a copy of the GNU Affero General Public License along w
             endchar
           </CharString>
           <CharString index="151">
-            70 0 83 31 callgsubr
+            -32 -22 7 callgsubr
             return
           </CharString>
           <CharString index="152">
-            70 vstem
-            210 return
-          </CharString>
-          <CharString index="153">
             130 vlineto
             return
           </CharString>
+          <CharString index="153">
+            0 70 70 70 70 70 hstemhm
+            0 70 return
+          </CharString>
           <CharString index="154">
-            hlineto
-            -57 callsubr
-            11 hvcurveto
-            219 vlineto
-            return
+            65 109 39 134 12 120 return
           </CharString>
           <CharString index="155">
             -4 -23 -10 -18 -24 -14 rrcurveto
@@ -1380,31 +1363,29 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="156">
-            -62 callsubr
-            endchar
+            -70 70 -40 -70 -70 70 -40 -70 return
           </CharString>
           <CharString index="157">
-            -107 -16 callsubr
-            hstem
-            70 80 vstem
+            0 70 -70 180 -70 70 hstemhm
             return
           </CharString>
           <CharString index="158">
-            0 70 170 -20 hstem
-            0 80 return
-          </CharString>
-          <CharString index="159">
-            -70 70 -40 -70 -70 70 -40 -70 return
-          </CharString>
-          <CharString index="160">
-            -3 callsubr
+            -3 callgsubr
             hvcurveto
             return
           </CharString>
-          <CharString index="161">
-            -177 0 70 hstem
-            0 80 vstem
+          <CharString index="159">
+            414 -82 callsubr
             return
+          </CharString>
+          <CharString index="160">
+            0 70 170 -20 hstem
+            0 80 return
+          </CharString>
+          <CharString index="161">
+            vlineto
+            -19 0 -26 -20 vhcurveto
+            endchar
           </CharString>
           <CharString index="162">
             hlineto
@@ -1416,7 +1397,8 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="164">
-            0 42 85 80 return
+            70 vstem
+            210 return
           </CharString>
           <CharString index="165">
             hstem
@@ -1429,9 +1411,9 @@ You should have received a copy of the GNU Affero General Public License along w
             return
           </CharString>
           <CharString index="167">
-            vlineto
-            29 -13 31 -30 22 vhcurveto
-            -92 return
+            49 21 -21 hstem
+            0 306 vstem
+            return
           </CharString>
         </Subrs>
       </Private>
@@ -1456,38 +1438,38 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="ainar">
-          383 26 callgsubr
+          383 26 callsubr
           160 -20 hstem
           0 80 274 62 vstem
           100 hmoveto
           499 -29 callgsubr
-          -286 -8 callsubr
+          -286 -9 callsubr
           11 9 9 11 hvcurveto
           endchar
         </CharString>
         <CharString name="ainar.1">
-          -80 callgsubr
+          -81 callsubr
           260 -62 callsubr
-          -273 -1 callsubr
+          -273 -1 callgsubr
         </CharString>
         <CharString name="ainar.2">
-          -80 callgsubr
+          -81 callsubr
           45 hlineto
           31 101 47 23 54 hvcurveto
-          -203 -1 callsubr
+          -203 -1 callgsubr
         </CharString>
         <CharString name="ainar.3">
           33 -250 31 219 70 80 60 hstemhm
           0 80 -30 80 hintmask 11010000
           254 -219 rmoveto
-          -5 callgsubr
+          -7 callsubr
           79 -62 callsubr
           hintmask 11101000
-          -9 callsubr
+          -8 callgsubr
           -88 -30 -102 -63 38 hvcurveto
           hintmask 11010000
           -43 -29 -23 -52 -54 vvcurveto
-          -13 callgsubr
+          -14 callsubr
           vhcurveto
           -8 -49 -35 -4 -26 hhcurveto
           endchar
@@ -1496,7 +1478,7 @@ You should have received a copy of the GNU Affero General Public License along w
           7 -250 31 219 70 160 -20 hstem
           0 80 104 80 vstem
           254 -219 rmoveto
-          -5 callgsubr
+          -7 callsubr
           134 70 -40 200 -23 callsubr
           -100 vlineto
           -80 80 -42 -71 89 -89 rlineto
@@ -1519,13 +1501,13 @@ You should have received a copy of the GNU Affero General Public License along w
           -17 0 70 80 60 hstem
           0 80 vstem
           240 70 rmoveto
-          -9 callsubr
+          -8 callgsubr
           -77 -33 -78 -62 19 hvcurveto
           -25 -70 219 hlineto
           endchar
         </CharString>
         <CharString name="ainar.medi">
-          -55 -33 callsubr
+          -55 -31 callgsubr
           122 80 vstem
           203 70 rmoveto
           -1 1 rlineto
@@ -1551,7 +1533,7 @@ You should have received a copy of the GNU Affero General Public License along w
           hintmask 11111000
           -36 callsubr
           vhcurveto
-          -64 callgsubr
+          -65 callsubr
           -17 -29 rlineto
           108 hlineto
           17 29 rlineto
@@ -1565,24 +1547,24 @@ You should have received a copy of the GNU Affero General Public License along w
         </CharString>
         <CharString name="alefMaksuraar.1">
           -50 -16 callsubr
-          70 67 64 -21 70 83 24 callsubr
+          70 67 64 -21 70 83 25 callgsubr
           159 -43 -102 callsubr
           -70 -91 callsubr
-          126 -5 callsubr
+          126 -5 callgsubr
           vhcurveto
           endchar
         </CharString>
         <CharString name="alefMaksuraar.2">
           -104 callsubr
-          260 49 callsubr
+          260 49 callgsubr
         </CharString>
         <CharString name="alefMaksuraar.3">
           -104 callsubr
-          405 49 callsubr
+          405 49 callgsubr
         </CharString>
         <CharString name="alefMaksuraar.4">
           -104 callsubr
-          560 49 callsubr
+          560 49 callgsubr
         </CharString>
         <CharString name="alefMaksuraar.5">
           -104 callsubr
@@ -1607,8 +1589,8 @@ You should have received a copy of the GNU Affero General Public License along w
           -90 -16 callsubr
           70 -56 callsubr
           -70 -91 callsubr
-          126 -5 callsubr
-          56 callgsubr
+          126 -5 callgsubr
+          55 callgsubr
           vhcurveto
           -31 31 rlineto
           hintmask 11101100
@@ -1617,43 +1599,43 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="alefMaksuraar.fina.2">
           -90 -64 callsubr
           159 -40 rmoveto
-          45 callgsubr
+          44 callsubr
           hintmask 10110000
           -84 callgsubr
           hintmask 11010000
           -95 callsubr
           hintmask 10110000
           -80 callsubr
-          260 49 callsubr
+          260 49 callgsubr
         </CharString>
         <CharString name="alefMaksuraar.fina.3">
           -90 -64 callsubr
           159 -40 rmoveto
-          45 callgsubr
+          44 callsubr
           hintmask 10110000
           -84 callgsubr
           hintmask 11010000
           -95 callsubr
           hintmask 10110000
           -80 callsubr
-          405 49 callsubr
+          405 49 callgsubr
         </CharString>
         <CharString name="alefMaksuraar.fina.4">
           -90 -64 callsubr
           159 -40 rmoveto
-          45 callgsubr
+          44 callsubr
           hintmask 10110000
           -84 callgsubr
           hintmask 11010000
           -95 callsubr
           hintmask 10110000
           -80 callsubr
-          560 49 callsubr
+          560 49 callgsubr
         </CharString>
         <CharString name="alefMaksuraar.fina.5">
           -90 -64 callsubr
           159 -40 rmoveto
-          45 callgsubr
+          44 callsubr
           hintmask 10110000
           -84 callgsubr
           hintmask 11010000
@@ -1667,7 +1649,7 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="alefMaksuraar.fina.6">
           -90 -64 callsubr
           159 -40 rmoveto
-          45 callgsubr
+          44 callsubr
           hintmask 10110000
           -84 callgsubr
           hintmask 11010000
@@ -1680,12 +1662,12 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefMaksuraar.fina.tooth">
-          -17 34 callgsubr
+          -17 34 callsubr
           70 hstem
           0 80 116 84 vstem
           166 -40 rmoveto
           -76 hlineto
-          57 callgsubr
+          56 callgsubr
           80 -80 -120 vlineto
           -25 15 -15 23 vhcurveto
           118 -72 callgsubr
@@ -1695,7 +1677,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -80 endchar
         </CharString>
         <CharString name="alefar">
-          63 0 48 512 -12 callgsubr
+          63 0 48 512 -13 callsubr
           140 rmoveto
           420 -99 callsubr
           -400 vlineto
@@ -1705,11 +1687,11 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefar.1">
-          -97 0 43 517 -12 callgsubr
+          -97 0 43 517 -13 callsubr
           80 -30 callgsubr
         </CharString>
         <CharString name="alefar.2">
-          -17 0 37 523 -12 callgsubr
+          -17 0 37 523 -13 callsubr
           100 rmoveto
           460 -99 callsubr
           -440 vlineto
@@ -1737,7 +1719,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -500 vlineto
           -25 15 -15 23 vhcurveto
           82 70 -30 hlineto
-          57 callgsubr
+          56 callgsubr
           endchar
         </CharString>
         <CharString name="behDotlessar">
@@ -1748,8 +1730,8 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="behDotlessar.fina">
           -44 callgsubr
           560 -9 callgsubr
-          51 callgsubr
-          -380 6 callsubr
+          52 callgsubr
+          -380 4 callsubr
           539 hlineto
           -11 callsubr
           -66 callgsubr
@@ -1763,45 +1745,45 @@ You should have received a copy of the GNU Affero General Public License along w
           600 16 callsubr
         </CharString>
         <CharString name="behDotlessar.init">
-          -177 -39 callsubr
+          -177 -39 callgsubr
           vstem
           -20 hmoveto
-          79 47 callsubr
+          79 48 callgsubr
           -80 -20 rlineto
           -140 -20 vlineto
           endchar
         </CharString>
         <CharString name="behDotlessar.init.hah">
-          18 callsubr
+          17 callsubr
           90 -99 callsubr
-          -70 55 callgsubr
+          -70 54 callsubr
         </CharString>
         <CharString name="behDotlessar.medi">
-          -177 -39 callsubr
+          -177 -39 callgsubr
           vstem
           80 -9 callgsubr
-          51 callgsubr
+          52 callgsubr
           -20 -70 79 vlineto
           -11 callsubr
           -66 callgsubr
         </CharString>
         <CharString name="behDotlessar.medi.1">
-          -147 34 callsubr
+          -147 35 callgsubr
           170 vstem
           110 70 rmoveto
-          -70 70 8 callgsubr
+          -70 70 7 callsubr
           -20 -70 170 16 callsubr
         </CharString>
         <CharString name="behDotlessar.medi.high">
-          54 callsubr
+          51 callgsubr
           80 -9 callgsubr
-          -51 callgsubr
+          -51 callsubr
           -180 -20 -70 79 vlineto
           -11 callsubr
           -66 callgsubr
         </CharString>
         <CharString name="behDotlessar.medi.high.1">
-          -177 51 callsubr
+          -177 53 callsubr
           vstem
           80 -9 callgsubr
           150 -99 callsubr
@@ -1810,28 +1792,28 @@ You should have received a copy of the GNU Affero General Public License along w
           -66 callgsubr
         </CharString>
         <CharString name="behDotlessar.medi.yeh">
-          -177 -39 callsubr
+          -177 -39 callgsubr
           vstem
           80 80 rmoveto
           150 -99 callsubr
           -210 120 70 -30 vlineto
-          57 callgsubr
+          56 callgsubr
           endchar
         </CharString>
         <CharString name="behar">
           -44 callgsubr
           480 210 rmoveto
-          -12 callsubr
+          -11 callgsubr
           -327 -344 43 callsubr
         </CharString>
         <CharString name="dadar">
-          -18 callgsubr
+          -19 callgsubr
           84 vstem
-          427 40 callsubr
+          427 40 callgsubr
           206 -75 rmoveto
           -436 hlineto
-          -80 80 38 callgsubr
-          -330 -54 callgsubr
+          -80 80 37 callsubr
+          -330 -55 callsubr
         </CharString>
         <CharString name="dalar">
           303 -69 callgsubr
@@ -1843,32 +1825,32 @@ You should have received a copy of the GNU Affero General Public License along w
           303 -69 callgsubr
           hstemhm
           0 600 44 callgsubr
-          41 callsubr
-          -326 -53 callsubr
+          41 callgsubr
+          -326 -53 callgsubr
           hintmask 11010000
           372 -82 callsubr
           -436 58 callgsubr
           600 16 callsubr
         </CharString>
         <CharString name="dotabovear">
-          9 callsubr
+          9 callgsubr
         </CharString>
         <CharString name="dotabovear.alt1">
           -17 callsubr
         </CharString>
         <CharString name="dotbelowar">
-          9 callsubr
+          9 callgsubr
         </CharString>
         <CharString name="dotbelowar.alt1">
           -17 callsubr
         </CharString>
         <CharString name="eightar">
-          -47 21 -21 280 35 callgsubr
-          70 -7 callsubr
+          -47 21 -21 280 34 callgsubr
+          70 13 callsubr
           -350 70 280 70 -280 16 callsubr
         </CharString>
         <CharString name="eightar.1">
-          60 callgsubr
+          60 callsubr
           306 23 rmoveto
           -120 327 rlineto
           -66 hlineto
@@ -1879,37 +1861,37 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="fehDotlessar">
-          -19 callsubr
+          -18 callgsubr
           461 290 -75 callsubr
         </CharString>
         <CharString name="fehDotlessar.1">
-          303 6 callgsubr
+          303 5 callsubr
           40 80 vstem
           460 -34 callsubr
           -60 callsubr
           189 -85 callsubr
         </CharString>
         <CharString name="fehDotlessar.2">
-          19 callgsubr
+          19 callsubr
           501 290 rmoveto
           -56 -94 callgsubr
           -430 -74 callsubr
           576 -68 callgsubr
         </CharString>
         <CharString name="fehDotlessar.3">
-          18 callgsubr
+          19 callgsubr
           500 -34 callsubr
-          -420 6 callsubr
+          -420 4 callsubr
           579 hlineto
           -57 callsubr
           11 hvcurveto
           189 -85 callsubr
         </CharString>
         <CharString name="fehDotlessar.fina">
-          -19 callsubr
+          -18 callgsubr
           572 70 rmoveto
           1 10 0 10 12 vvcurveto
-          4 callsubr
+          4 callgsubr
           vhcurveto
           -77 callsubr
           -390 -74 callsubr
@@ -1917,22 +1899,22 @@ You should have received a copy of the GNU Affero General Public License along w
           -153 -42 callgsubr
         </CharString>
         <CharString name="fehDotlessar.fina.1">
-          303 6 callgsubr
+          303 5 callsubr
           40 80 vstem
           560 70 rmoveto
-          46 callsubr
+          45 callsubr
           -38 callsubr
           -79 callgsubr
           vhcurveto
-          -42 -380 6 callsubr
+          -42 -380 4 callsubr
           539 hlineto
           -16 callgsubr
         </CharString>
         <CharString name="fehDotlessar.fina.2">
-          19 callgsubr
+          19 callsubr
           612 70 rmoveto
           1 10 0 10 12 vvcurveto
-          4 callsubr
+          4 callgsubr
           vhcurveto
           -77 callsubr
           -430 -74 callsubr
@@ -1940,13 +1922,13 @@ You should have received a copy of the GNU Affero General Public License along w
           -153 -42 callgsubr
         </CharString>
         <CharString name="fehDotlessar.fina.3">
-          18 callgsubr
+          19 callgsubr
           600 70 rmoveto
-          46 callsubr
+          45 callsubr
           -38 callsubr
           -79 callgsubr
           vhcurveto
-          -42 -420 6 callsubr
+          -42 -420 4 callsubr
           579 hlineto
           -16 callgsubr
         </CharString>
@@ -1960,7 +1942,7 @@ You should have received a copy of the GNU Affero General Public License along w
           120 -42 callgsubr
         </CharString>
         <CharString name="fehDotlessar.init.1">
-          -57 0 70 40 -6 callgsubr
+          -57 0 70 40 -6 callsubr
           100 -34 callsubr
           -140 -70 199 vlineto
           -57 callsubr
@@ -1968,24 +1950,23 @@ You should have received a copy of the GNU Affero General Public License along w
           189 -85 callsubr
         </CharString>
         <CharString name="fehDotlessar.medi">
-          -49 0 70 140 70 hstem
-          -1 74 53 80 vstem
+          -49 0 70 170 70 hstem
+          -1 78 49 80 vstem
           206 70 rmoveto
-          107 vlineto
-          57 -46 46 -57 -57 -47 -46 -57 -28 14 -27 20 -18 vhcurveto
-          37 -34 rlineto
-          -90 -70 268 70 hlineto
-          -148 140 rmoveto
-          14 12 -12 -14 hvcurveto
-          -69 vlineto
-          -47 49 rlineto
-          -5 5 -1 7 8 vvcurveto
-          14 12 12 15 vhcurveto
+          137 vlineto
+          57 -46 46 -57 -57 -47 -46 -57 -28 15 -26 19 -19 vhcurveto
+          62 -64 rlineto
+          -115 -70 268 70 hlineto
+          -171 144 rmoveto
+          14 8 12 15 14 12 -12 -14 vhcurveto
+          -61 vlineto
+          -40 41 rlineto
+          -5 5 -4 7 8 vvcurveto
           endchar
         </CharString>
         <CharString name="fehDotlessar.medi.1">
           -57 0 70 40 70 32 callsubr
-          46 callsubr
+          45 callsubr
           -38 callsubr
           -79 callgsubr
           vhcurveto
@@ -1993,26 +1974,26 @@ You should have received a copy of the GNU Affero General Public License along w
           -16 callgsubr
         </CharString>
         <CharString name="fehar">
-          -19 callsubr
+          -18 callgsubr
           494 414 -71 callsubr
           14 -45 -75 callsubr
         </CharString>
         <CharString name="fivear">
-          -47 0 70 210 35 callgsubr
-          70 -7 callsubr
+          -47 0 70 210 34 callgsubr
+          70 13 callsubr
           -350 210 hlineto
           -140 70 rmoveto
           210 70 -210 vlineto
           endchar
         </CharString>
         <CharString name="fourar">
-          53 47 callgsubr
+          53 46 callsubr
           50 70 -70 190 hintmask 00000000
           hintmask 11110100
           310 280 rmoveto
           70 vlineto
           hintmask 11111000
-          41 callgsubr
+          43 callgsubr
           hlineto
           hintmask 11110100
           310 70 -240 70 240 70 hlineto
@@ -2020,15 +2001,15 @@ You should have received a copy of the GNU Affero General Public License along w
           -120 16 callsubr
         </CharString>
         <CharString name="fourar.1">
-          53 21 -21 140 70 70 35 callgsubr
+          53 21 -21 140 70 70 34 callgsubr
           50 70 vstem
           310 280 rmoveto
-          70 41 callgsubr
+          70 43 callgsubr
           70 140 240 70 -120 70 vlineto
           endchar
         </CharString>
         <CharString name="fourar.2">
-          -47 47 callgsubr
+          -47 46 callsubr
           -70 210 hintmask 00000000
           hintmask 11101000
           210 280 rmoveto
@@ -2042,7 +2023,7 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="ghainar">
-          383 26 callgsubr
+          383 26 callsubr
           160 -20 30 -20 hstemhm
           0 80 274 62 hintmask 11011100
           446 309 -71 callsubr
@@ -2053,7 +2034,7 @@ You should have received a copy of the GNU Affero General Public License along w
           hintmask 11101100
           39 65 31 20 9 vhcurveto
           -57 callgsubr
-          -286 -8 callsubr
+          -286 -9 callsubr
           hvcurveto
           hintmask 11011100
           11 9 9 11 vhcurveto
@@ -2064,20 +2045,20 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hahar.1">
-          363 13 callsubr
+          363 15 callgsubr
           620 70 rmoveto
           -157 -87 callsubr
           425 -62 callsubr
-          -456 -15 callsubr
+          -456 -14 callgsubr
           479 hlineto
           endchar
         </CharString>
         <CharString name="hahar.2">
-          383 36 callsubr
+          383 36 callgsubr
           499 -62 callsubr
           -177 -87 callsubr
           445 -62 callsubr
-          -476 -15 callsubr
+          -476 -14 callgsubr
           endchar
         </CharString>
         <CharString name="hahar.3">
@@ -2091,11 +2072,11 @@ You should have received a copy of the GNU Affero General Public License along w
         </CharString>
         <CharString name="hahar.4">
           310 -64 callsubr
-          -3 callgsubr
+          -4 callsubr
           386 -62 callsubr
           -137 -46 callsubr
           331 -62 callsubr
-          -344 7 callgsubr
+          -344 6 callgsubr
           hintmask 11010000
           -30 callsubr
         </CharString>
@@ -2107,25 +2088,25 @@ You should have received a copy of the GNU Affero General Public License along w
           -364 hlineto
           -32 -22 3 -81 callgsubr
           hintmask 11010000
-          -96 callgsubr
+          -96 callsubr
           406 hlineto
           endchar
         </CharString>
         <CharString name="hahar.fina">
-          74 -250 31 219 70 160 26 callsubr
+          74 -250 31 219 70 160 26 callgsubr
           371 33 callgsubr
           -29 -25 callgsubr
           50 59 callgsubr
         </CharString>
         <CharString name="hahar.init">
-          103 34 callsubr
+          103 35 callgsubr
           380 vstem
           223 70 rmoveto
           -93 callgsubr
-          -82 -70 339 49 callsubr
+          -82 -70 339 49 callgsubr
         </CharString>
         <CharString name="hahar.init.1">
-          123 34 callsubr
+          123 35 callgsubr
           400 vstem
           380 70 rmoveto
           -157 -92 callgsubr
@@ -2133,7 +2114,7 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hahar.init.2">
-          143 34 callsubr
+          143 35 callgsubr
           420 vstem
           400 70 rmoveto
           -177 -92 callgsubr
@@ -2141,13 +2122,13 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hahar.medi">
-          -106 -33 callsubr
+          -106 -31 callgsubr
           -20 271 vstem
           251 33 callgsubr
           -79 -70 120 59 callgsubr
         </CharString>
         <CharString name="hamzaabovear">
-          -55 callsubr
+          -54 callgsubr
         </CharString>
         <CharString name="hamzaar">
           -1 0 50 57 43 hstem
@@ -2163,35 +2144,35 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hamzabelowar">
-          -55 callsubr
+          -54 callgsubr
         </CharString>
         <CharString name="hehar">
           -21 callsubr
           100 180 rmoveto
           30 callgsubr
-          46 callsubr
+          45 callsubr
           -35 -20 -40 -5 -40 hhcurveto
           -84 callsubr
         </CharString>
         <CharString name="hehar.1">
           -21 callsubr
           120 310 rmoveto
-          -129 0 callsubr
+          -129 -1 callsubr
           240 vlineto
           -100 -260 -104 callgsubr
         </CharString>
         <CharString name="hehar.2">
-          -57 43 callgsubr
+          -57 41 callsubr
           40 80 vstem
           120 540 rmoveto
-          -359 0 callsubr
+          -359 -1 callsubr
           470 vlineto
           -100 -490 -104 callgsubr
         </CharString>
         <CharString name="hehar.fina">
           -57 0 70 32 callsubr
           150 vlineto
-          -35 -20 -40 -5 -40 14 callgsubr
+          -35 -20 -40 -5 -40 14 callsubr
           hvcurveto
           140 70 hlineto
           -67 callsubr
@@ -2200,34 +2181,34 @@ You should have received a copy of the GNU Affero General Public License along w
           -57 0 70 32 callsubr
           260 -99 callsubr
           -129 vlineto
-          -1 -7 -6 0 -7 14 callgsubr
+          -1 -7 -6 0 -7 14 callsubr
           hvcurveto
           140 70 hlineto
           -67 callsubr
         </CharString>
         <CharString name="hehar.fina.2">
-          -57 43 callgsubr
+          -57 41 callsubr
           40 80 vstem
-          2 callsubr
+          2 callgsubr
           490 -99 callsubr
           -359 vlineto
-          -1 -7 -6 0 -7 14 callgsubr
+          -1 -7 -6 0 -7 14 callsubr
           hvcurveto
           140 70 hlineto
           -67 callsubr
         </CharString>
         <CharString name="hehar.init">
-          -57 -110 70 40 -6 callgsubr
+          -57 -110 70 40 -6 callsubr
           100 180 rmoveto
           -60 callgsubr
           235 vlineto
-          24 callgsubr
+          25 callsubr
           -20 -90 -43 callsubr
         </CharString>
         <CharString name="hehar.init.1">
-          -57 26 callgsubr
+          -57 26 callsubr
           40 70 51 -20 hstem
-          0 27 callgsubr
+          0 27 callsubr
           120 231 rmoveto
           -51 -20 vlineto
           -60 callgsubr
@@ -2238,7 +2219,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -57 0 70 40 20 40 70 hstemhm
           -20 220 -200 80 40 80 hintmask 11101100
           100 240 rmoveto
-          -44 callsubr
+          -43 callgsubr
           -10 2 -11 4 -9 hvcurveto
           -4 -9 -2 -11 -10 vvcurveto
           -23 callgsubr
@@ -2249,15 +2230,15 @@ You should have received a copy of the GNU Affero General Public License along w
           -57 callsubr
           11 hvcurveto
           264 vlineto
-          24 callgsubr
+          25 callsubr
           -70 vmoveto
           -89 callsubr
         </CharString>
         <CharString name="hehar.init.3">
-          -57 0 70 40 20 -39 callgsubr
+          -57 0 70 40 20 -39 callsubr
           120 290 rmoveto
           -50 -20 vlineto
-          -44 callsubr
+          -43 callgsubr
           -10 2 -11 4 -9 hvcurveto
           -4 -9 -2 -11 -10 vvcurveto
           -23 callgsubr
@@ -2273,14 +2254,14 @@ You should have received a copy of the GNU Affero General Public License along w
           -20 220 -202 82 -82 202 -80 80 hintmask 11101010
           120 220 rmoveto
           hintmask 11100100
-          40 callgsubr
+          39 callsubr
           hintmask 11110000
           -28 -70 hlineto
           hintmask 11101010
           199 hlineto
           -57 callsubr
           11 hvcurveto
-          244 10 callgsubr
+          244 9 callsubr
           -70 vmoveto
           -56 callgsubr
         </CharString>
@@ -2289,7 +2270,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -2 82 16 callgsubr
           120 270 rmoveto
           -50 vlineto
-          40 callgsubr
+          39 callsubr
           -28 -70 199 hlineto
           -57 callsubr
           11 hvcurveto
@@ -2308,7 +2289,7 @@ You should have received a copy of the GNU Affero General Public License along w
           199 hlineto
           -57 callsubr
           11 hvcurveto
-          244 10 callgsubr
+          244 9 callsubr
           -30 -60 -59 callsubr
         </CharString>
         <CharString name="hehar.init.7">
@@ -2324,26 +2305,26 @@ You should have received a copy of the GNU Affero General Public License along w
           -110 -130 -59 callsubr
         </CharString>
         <CharString name="hehar.medi">
-          -57 -110 70 40 -6 callgsubr
+          -57 -110 70 40 -6 callsubr
           240 70 rmoveto
           -40 145 hlineto
-          24 callgsubr
+          25 callsubr
           -75 callgsubr
         </CharString>
         <CharString name="hehar.medi.1">
-          -57 26 callgsubr
+          -57 26 callsubr
           40 70 51 -20 hstem
-          0 27 callgsubr
+          0 27 callsubr
           240 70 rmoveto
           -40 181 -23 callsubr
           -51 -20 vlineto
           -75 callgsubr
         </CharString>
         <CharString name="hehar.medi.2">
-          9 callgsubr
+          8 callsubr
           205 vlineto
-          24 callgsubr
-          -44 callsubr
+          25 callsubr
+          -43 callgsubr
           -10 2 -11 4 -9 hvcurveto
           -4 -9 -2 -11 -10 vvcurveto
           -23 callgsubr
@@ -2353,10 +2334,10 @@ You should have received a copy of the GNU Affero General Public License along w
           -89 callsubr
         </CharString>
         <CharString name="hehar.medi.3">
-          9 callgsubr
+          8 callsubr
           240 -99 callsubr
           -50 -20 vlineto
-          -44 callsubr
+          -43 callgsubr
           -10 2 -11 4 -9 hvcurveto
           -4 -9 -2 -11 -10 vvcurveto
           -23 callgsubr
@@ -2368,10 +2349,10 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="hehar.medi.4">
           -57 0 70 36 8 36 70 hstemhm
           -2 82 -82 202 -80 80 hintmask 11110100
-          2 callsubr
-          185 10 callgsubr
+          2 callgsubr
+          185 9 callsubr
           hintmask 11101000
-          40 callgsubr
+          39 callsubr
           -28 -70 hlineto
           hintmask 11110100
           199 hlineto
@@ -2384,8 +2365,8 @@ You should have received a copy of the GNU Affero General Public License along w
         </CharString>
         <CharString name="hehar.medi.6">
           17 callgsubr
-          2 callsubr
-          185 10 callgsubr
+          2 callgsubr
+          185 9 callsubr
           hintmask 10100000
           -33 callgsubr
           hintmask 11000000
@@ -2401,7 +2382,7 @@ You should have received a copy of the GNU Affero General Public License along w
           153 -224 43 callsubr
         </CharString>
         <CharString name="kafar">
-          17 callsubr
+          18 callsubr
           84 vstem
           486 35 callsubr
           -360 hlineto
@@ -2418,7 +2399,7 @@ You should have received a copy of the GNU Affero General Public License along w
           21 callsubr
           84 vstem
           486 35 callsubr
-          -366 -32 callgsubr
+          -366 -33 callsubr
           -430 436 vlineto
           -21 callgsubr
           579 -7 callgsubr
@@ -2428,13 +2409,13 @@ You should have received a copy of the GNU Affero General Public License along w
           hstem
           516 84 vstem
           486 35 callsubr
-          -366 -53 callsubr
+          -366 -53 callgsubr
           412 hlineto
           -21 callgsubr
           579 -7 callgsubr
         </CharString>
         <CharString name="kafar.fina">
-          17 callsubr
+          18 callsubr
           46 callgsubr
           597 -71 callgsubr
           -360 hlineto
@@ -2451,7 +2432,7 @@ You should have received a copy of the GNU Affero General Public License along w
           21 callsubr
           46 callgsubr
           597 -71 callgsubr
-          -366 -32 callgsubr
+          -366 -33 callsubr
           -430 436 vlineto
           -21 callgsubr
           640 16 callsubr
@@ -2461,27 +2442,27 @@ You should have received a copy of the GNU Affero General Public License along w
           hstemhm
           0 640 44 callgsubr
           597 -71 callgsubr
-          -366 -53 callsubr
+          -366 -53 callgsubr
           hintmask 11010000
           412 hlineto
           -21 callgsubr
           640 16 callsubr
         </CharString>
         <CharString name="kafar.init">
-          20 callsubr
+          23 callgsubr
           84 vstem
           446 35 callsubr
           -360 hlineto
           62 111 14 132 -22 137 -80 -80 rcurveline
           25 -125 -11 -134 -52 -111 rrcurveto
-          53 callgsubr
+          52 callsubr
           -494 -70 557 -7 callgsubr
         </CharString>
         <CharString name="kafar.init.1">
           22 callgsubr
           84 vstem
           446 35 callsubr
-          -366 -32 callgsubr
+          -366 -33 callsubr
           -430 436 vlineto
           -88 callsubr
           -496 -70 559 -7 callgsubr
@@ -2491,25 +2472,25 @@ You should have received a copy of the GNU Affero General Public License along w
           hstem
           456 84 vstem
           426 35 callsubr
-          -370 -53 callsubr
-          36 callgsubr
+          -370 -53 callgsubr
+          36 callsubr
           539 -7 callgsubr
         </CharString>
         <CharString name="kafar.medi">
-          20 callsubr
+          23 callgsubr
           46 callgsubr
-          41 callsubr
+          41 callgsubr
           -360 hlineto
           62 111 14 132 -22 137 -80 -80 rcurveline
           25 -125 -11 -134 -52 -111 rrcurveto
-          53 callgsubr
+          52 callsubr
           -494 -70 618 16 callsubr
         </CharString>
         <CharString name="kafar.medi.1">
           22 callgsubr
           46 callgsubr
-          41 callsubr
-          -366 -32 callgsubr
+          41 callgsubr
+          -366 -33 callsubr
           -430 436 vlineto
           -88 callsubr
           -496 -70 620 16 callsubr
@@ -2519,21 +2500,21 @@ You should have received a copy of the GNU Affero General Public License along w
           hstemhm
           -20 600 44 callgsubr
           537 -71 callgsubr
-          -370 -53 callsubr
+          -370 -53 callgsubr
           hintmask 11010000
-          36 callgsubr
+          36 callsubr
           600 16 callsubr
         </CharString>
         <CharString name="kashidaar">
-          -217 34 callsubr
+          -217 35 callgsubr
           100 vstem
           -20 hmoveto
           100 70 -100 hlineto
           endchar
         </CharString>
         <CharString name="khahar">
-          343 26 callgsubr
-          172 26 callsubr
+          343 26 callsubr
+          172 26 callgsubr
           556 242 -71 callsubr
           -409 -163 rmoveto
           -87 callgsubr
@@ -2545,9 +2526,9 @@ You should have received a copy of the GNU Affero General Public License along w
           hintmask 11100000
           322 560 rmoveto
           -92 -40 -3 -102 -17 -83 -36 -81 rlinecurve
-          -154 266 28 callgsubr
+          -154 266 29 callsubr
           320 hlineto
-          -114 197 49 callgsubr
+          -114 197 47 callsubr
           rlinecurve
           -135 -490 rmoveto
           -81 hlineto
@@ -2558,36 +2539,36 @@ You should have received a copy of the GNU Affero General Public License along w
           -42 23 callsubr
           55 80 vstem
           172 182 rmoveto
-          -11 callgsubr
-          215 100 60 callsubr
+          -12 callsubr
+          215 100 60 callgsubr
           -112 rmoveto
           20 callgsubr
         </CharString>
         <CharString name="lam_alefar.2">
           23 0 60 500 -20 hstem
-          40 27 callgsubr
+          40 27 callsubr
           280 hmoveto
           -108 142 -49 callsubr
           350 -99 callsubr
           -330 vlineto
           68 -68 37 callgsubr
-          30 callsubr
+          31 callgsubr
           rmoveto
-          25 callgsubr
+          24 callgsubr
           40 40 rcurveline
           endchar
         </CharString>
         <CharString name="lam_alefar.3">
           23 0 60 500 -20 hstem
-          40 27 callgsubr
+          40 27 callsubr
           280 hmoveto
           -108 142 -49 callsubr
           320 -99 callsubr
           -300 vlineto
           68 -68 37 callgsubr
-          30 callsubr
+          31 callgsubr
           rmoveto
-          25 callgsubr
+          24 callgsubr
           40 40 rcurveline
           endchar
         </CharString>
@@ -2619,10 +2600,10 @@ You should have received a copy of the GNU Affero General Public License along w
           280 70 rmoveto
           -74 127 rlineto
           hintmask 11010000
-          49 callgsubr
+          47 callsubr
           -92 -40 rcurveline
           -3 -102 -17 -83 -36 -81 -154 266 rcurveline
-          28 callgsubr
+          29 callsubr
           360 70 hlineto
           -254 hmoveto
           18 16 16 18 16 20 31 -54 rcurveline
@@ -2634,7 +2615,7 @@ You should have received a copy of the GNU Affero General Public License along w
           215 70 rmoveto
           30 vlineto
           29 -13 31 -30 22 vhcurveto
-          -11 callgsubr
+          -12 callsubr
           255 70 vlineto
           -175 hmoveto
           20 callgsubr
@@ -2650,7 +2631,7 @@ You should have received a copy of the GNU Affero General Public License along w
           hintmask 01111000
           70 vlineto
           -220 hmoveto
-          40 40 40 -40 25 callgsubr
+          40 40 40 -40 24 callgsubr
           rlinecurve
           endchar
         </CharString>
@@ -2665,7 +2646,7 @@ You should have received a copy of the GNU Affero General Public License along w
           hintmask 01111000
           70 vlineto
           -220 hmoveto
-          40 40 40 -40 25 callgsubr
+          40 40 40 -40 24 callgsubr
           rlinecurve
           endchar
         </CharString>
@@ -2721,12 +2702,12 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lamar.init.hah">
-          18 callsubr
+          17 callsubr
           380 -99 callsubr
-          -360 55 callgsubr
+          -360 54 callsubr
         </CharString>
         <CharString name="lamar.init.lellah">
-          54 callsubr
+          51 callgsubr
           -20 hmoveto
           62 -95 callgsubr
           490 -99 callsubr
@@ -2742,14 +2723,14 @@ You should have received a copy of the GNU Affero General Public License along w
           -66 callgsubr
         </CharString>
         <CharString name="lamar.medi.lellah">
-          54 callsubr
+          51 callgsubr
           80 -9 callgsubr
           390 -99 callsubr
           -410 -20 -70 140 70 vlineto
           -66 callgsubr
         </CharString>
         <CharString name="meemar">
-          19 callsubr
+          18 callgsubr
           hintmask 00000000
           hintmask 01011000
           300 39 callgsubr
@@ -2759,7 +2740,7 @@ You should have received a copy of the GNU Affero General Public License along w
           300 -37 callsubr
         </CharString>
         <CharString name="meemar.1">
-          -17 52 callgsubr
+          -17 50 callsubr
           40 80 40 80 hintmask 00000000
           hintmask 01011000
           140 39 callgsubr
@@ -2774,7 +2755,7 @@ You should have received a copy of the GNU Affero General Public License along w
           48 callsubr
           hintmask 10110000
           -27 17 32 -13 37 hhcurveto
-          10 callsubr
+          10 callgsubr
           hintmask 01110000
           -38 callsubr
           vhcurveto
@@ -2782,32 +2763,32 @@ You should have received a copy of the GNU Affero General Public License along w
           -84 callsubr
         </CharString>
         <CharString name="meemar.fina">
-          19 callsubr
+          18 callgsubr
           -80 120 hintmask 10111000
-          399 -2 callsubr
+          399 -2 callgsubr
           -23 callgsubr
           -102 hlineto
           -101 callgsubr
           440 70 hlineto
-          54 callgsubr
+          50 callgsubr
           vhcurveto
           hintmask 10111000
-          48 callgsubr
+          47 callgsubr
           hintmask 10110100
           15 callsubr
           hvcurveto
           endchar
         </CharString>
         <CharString name="meemar.fina.1">
-          -17 52 callgsubr
+          -17 50 callsubr
           40 80 40 80 -80 120 hintmask 10111000
-          239 -2 callsubr
+          239 -2 callgsubr
           -40 -5 -30 -35 -20 vhcurveto
           280 70 hlineto
-          54 callgsubr
+          50 callgsubr
           vhcurveto
           hintmask 10111000
-          48 callgsubr
+          47 callgsubr
           hintmask 10110100
           15 callsubr
           hvcurveto
@@ -2826,20 +2807,20 @@ You should have received a copy of the GNU Affero General Public License along w
           hintmask 10010000
           -27 17 32 -13 37 hhcurveto
           hintmask 01010000
-          50 callgsubr
+          54 callgsubr
           hintmask 10110000
           -140 30 -104 callgsubr
         </CharString>
         <CharString name="meemar.init">
-          -57 52 callgsubr
+          -57 50 callsubr
           -20 100 -80 80 40 80 hintmask 00000000
           hintmask 01001100
-          100 53 callsubr
+          100 51 callsubr
           hintmask 10101100
           -23 callgsubr
           hintmask 10110100
           -22 -70 -18 callsubr
-          10 callsubr
+          10 callgsubr
           hintmask 01001100
           -38 callsubr
           vhcurveto
@@ -2871,25 +2852,25 @@ You should have received a copy of the GNU Affero General Public License along w
           hintmask 10011000
           -27 16 30 -13 43 hhcurveto
           hintmask 01011000
-          50 callgsubr
+          54 callgsubr
           hintmask 10111000
           -140 30 -104 callgsubr
         </CharString>
         <CharString name="ninear">
-          -47 21 -21 140 70 70 35 callgsubr
-          70 -7 callsubr
+          -47 21 -21 140 70 70 34 callgsubr
+          70 13 callsubr
           -210 140 -140 70 hlineto
           -140 210 rmoveto
           70 70 -70 vlineto
           endchar
         </CharString>
         <CharString name="noonar">
-          50 callsubr
+          53 callgsubr
           127 284 -71 callsubr
           -10 -65 -29 callsubr
         </CharString>
         <CharString name="noonghunnaar">
-          50 callsubr
+          53 callgsubr
           70 140 -29 callsubr
         </CharString>
         <CharString name="noonghunnaar.fina">
@@ -2913,7 +2894,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -1 -24 callgsubr
           hintmask 00000000
           hintmask 11111010
-          142 -70 -81 callsubr
+          142 -70 -80 callgsubr
         </CharString>
         <CharString name="qafDotlessar.fina">
           -41 -24 callgsubr
@@ -2934,10 +2915,10 @@ You should have received a copy of the GNU Affero General Public License along w
           hintmask 11111100
           105 334 -65 callgsubr
           hintmask 11111010
-          55 -335 -81 callsubr
+          55 -335 -80 callgsubr
         </CharString>
         <CharString name="rehar">
-          11 callsubr
+          11 callgsubr
           -63 -110 -35 callgsubr
         </CharString>
         <CharString name="rehar.1">
@@ -2945,7 +2926,7 @@ You should have received a copy of the GNU Affero General Public License along w
           105 hstem
           213 84 vstem
           -63 -110 rmoveto
-          -2 callgsubr
+          -3 callsubr
           139 -68 46 -168 9 hvcurveto
           -60 -105 rlineto
           -40 callgsubr
@@ -2954,24 +2935,24 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="rehar.fina">
           12 callsubr
           -50 vlineto
-          -36 29 -50 20 -66 21 -80 -140 -8 callgsubr
+          -36 29 -50 20 -66 21 -80 -140 -8 callsubr
           -5 29 -9 25 hvcurveto
           endchar
         </CharString>
         <CharString name="rehar.fina.1">
           12 callsubr
           -61 vlineto
-          -38 21 -53 10 -70 4 -60 -105 -8 callgsubr
+          -38 21 -53 10 -70 4 -60 -105 -8 callsubr
           -4 29 -10 25 hvcurveto
           endchar
         </CharString>
         <CharString name="sadar">
-          -18 callgsubr
+          -19 callgsubr
           84 vstem
           586 35 callsubr
           -436 hlineto
-          -80 80 38 callgsubr
-          -330 -54 callgsubr
+          -80 80 37 callsubr
+          -330 -55 callsubr
         </CharString>
         <CharString name="sadar.1">
           443 -38 callgsubr
@@ -2979,14 +2960,14 @@ You should have received a copy of the GNU Affero General Public License along w
           70 80 466 84 vstem
           586 35 callsubr
           -436 70 -23 callsubr
-          -410 -54 callgsubr
+          -410 -55 callsubr
         </CharString>
         <CharString name="sadar.fina">
-          -18 callgsubr
+          -19 callgsubr
           46 callgsubr
-          697 -14 callsubr
+          697 -13 callgsubr
           hlineto
-          -80 80 38 callgsubr
+          -80 80 37 callsubr
           -330 -106 callsubr
           590 -50 callsubr
         </CharString>
@@ -2994,7 +2975,7 @@ You should have received a copy of the GNU Affero General Public License along w
           443 -38 callgsubr
           40 70 50 -20 hstem
           70 80 466 46 callgsubr
-          697 -14 callsubr
+          697 -13 callgsubr
           70 -23 callsubr
           -410 -106 callsubr
           590 -50 callsubr
@@ -3012,7 +2993,7 @@ You should have received a copy of the GNU Affero General Public License along w
           373 -69 callgsubr
           50 -20 hstem
           0 80 466 46 callgsubr
-          627 -14 callsubr
+          627 -13 callgsubr
           70 -23 callsubr
           -160 -20 -70 690 -50 callsubr
         </CharString>
@@ -3031,18 +3012,18 @@ You should have received a copy of the GNU Affero General Public License along w
         </CharString>
         <CharString name="seenar.2">
           -63 callgsubr
-          -52 callgsubr
+          -52 callsubr
           310 250 rmoveto
-          -47 callgsubr
+          -47 callsubr
           -41 callgsubr
-          -51 callgsubr
+          -51 callsubr
           -430 -90 callgsubr
           259 vlineto
           endchar
         </CharString>
         <CharString name="seenar.3">
           -63 callgsubr
-          170 -20 -52 callgsubr
+          170 -20 -52 callsubr
           310 250 rmoveto
           -17 callgsubr
           -370 -90 callgsubr
@@ -3050,7 +3031,7 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seenar.4">
-          -4 callsubr
+          -4 callgsubr
           310 270 rmoveto
           -66 callsubr
           hintmask 11101110
@@ -3086,7 +3067,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -48 callgsubr
           120 vlineto
           -80 -20 rlineto
-          13 callgsubr
+          11 callsubr
           -100 callsubr
           -72 callsubr
           -390 -35 callsubr
@@ -3100,16 +3081,16 @@ You should have received a copy of the GNU Affero General Public License along w
         </CharString>
         <CharString name="seenar.fina.2">
           -63 callgsubr
-          -52 callgsubr
+          -52 callsubr
           56 callsubr
           -41 callgsubr
           -41 callgsubr
-          -51 callgsubr
+          -51 callsubr
           -430 -35 callsubr
         </CharString>
         <CharString name="seenar.fina.3">
           -63 callgsubr
-          170 -20 -52 callgsubr
+          170 -20 -52 callsubr
           56 callsubr
           160 vlineto
           -80 -20 rlineto
@@ -3117,7 +3098,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -370 -35 callsubr
         </CharString>
         <CharString name="seenar.fina.4">
-          -4 callsubr
+          -4 callgsubr
           56 callsubr
           180 -99 callsubr
           -66 callsubr
@@ -3136,13 +3117,13 @@ You should have received a copy of the GNU Affero General Public License along w
           -410 -35 callsubr
         </CharString>
         <CharString name="seenar.init">
-          -65 callsubr
+          -64 callgsubr
           240 210 rmoveto
           -140 vlineto
           -22 -18 18 22 hvcurveto
           120 vlineto
           -80 -20 rlineto
-          13 callgsubr
+          11 callsubr
           -62 callgsubr
           -57 callsubr
           11 hvcurveto
@@ -3150,7 +3131,7 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seenar.init.1">
-          -65 callsubr
+          -64 callgsubr
           240 230 rmoveto
           -160 vlineto
           -22 -18 18 22 hvcurveto
@@ -3164,11 +3145,11 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seenar.init.2">
-          63 0 70 -47 callsubr
+          63 0 70 -47 callgsubr
           240 250 rmoveto
-          -47 callgsubr
+          -47 callsubr
           -41 callgsubr
-          -51 callgsubr
+          -51 callsubr
           -180 -62 callgsubr
           -57 callsubr
           11 hvcurveto
@@ -3176,7 +3157,7 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seenar.init.3">
-          63 0 70 170 -20 -47 callsubr
+          63 0 70 170 -20 -47 callgsubr
           240 250 rmoveto
           -17 callgsubr
           -120 -62 callgsubr
@@ -3186,11 +3167,11 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seenar.init.4">
-          8 callsubr
+          8 callgsubr
           240 270 rmoveto
           -66 callsubr
           hintmask 11011100
-          51 callgsubr
+          52 callgsubr
           -62 callgsubr
           -57 callsubr
           11 hvcurveto
@@ -3198,11 +3179,11 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seenar.init.5">
-          -65 callsubr
+          -64 callgsubr
           240 290 rmoveto
           -220 -100 callsubr
           170 -99 callsubr
-          -190 22 callsubr
+          -190 21 callgsubr
           -62 callgsubr
           -57 callsubr
           11 hvcurveto
@@ -3214,7 +3195,7 @@ You should have received a copy of the GNU Affero General Public License along w
           220 80 vstem
           220 157 rmoveto
           -87 vlineto
-          52 callsubr
+          49 callsubr
           rlineto
           -20 -70 299 hlineto
           -57 callsubr
@@ -3223,7 +3204,7 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seenar.medi">
-          -65 callsubr
+          -64 callgsubr
           320 -9 callgsubr
           120 vlineto
           -80 -20 rlineto
@@ -3231,11 +3212,11 @@ You should have received a copy of the GNU Affero General Public License along w
           -22 -18 18 22 hvcurveto
           120 vlineto
           -80 -20 rlineto
-          13 callgsubr
-          1 callgsubr
+          11 callsubr
+          0 callsubr
         </CharString>
         <CharString name="seenar.medi.1">
-          -65 callsubr
+          -64 callgsubr
           320 -9 callgsubr
           140 -99 callsubr
           -160 vlineto
@@ -3243,59 +3224,59 @@ You should have received a copy of the GNU Affero General Public License along w
           140 vlineto
           -80 -20 rlineto
           12 callgsubr
-          1 callgsubr
+          0 callsubr
         </CharString>
         <CharString name="seenar.medi.2">
-          63 0 70 -47 callsubr
+          63 0 70 -47 callgsubr
           320 -9 callgsubr
           -41 callgsubr
           -41 callgsubr
-          -51 callgsubr
-          -180 1 callgsubr
+          -51 callsubr
+          -180 0 callsubr
         </CharString>
         <CharString name="seenar.medi.3">
-          63 0 70 170 -20 -47 callsubr
+          63 0 70 170 -20 -47 callgsubr
           320 -9 callgsubr
           160 vlineto
           -80 -20 rlineto
           -17 callgsubr
-          -120 1 callgsubr
+          -120 0 callsubr
         </CharString>
         <CharString name="seenar.medi.4">
-          8 callsubr
+          8 callgsubr
           320 -9 callgsubr
           180 -99 callsubr
           -66 callsubr
           hintmask 11011100
-          51 callgsubr
+          52 callgsubr
           28 callsubr
           hintmask 10111100
           -66 callgsubr
         </CharString>
         <CharString name="seenar.medi.5">
-          -65 callsubr
+          -64 callgsubr
           320 -9 callgsubr
           200 -99 callsubr
           -220 -100 callsubr
           170 -99 callsubr
-          -190 22 callsubr
-          1 callgsubr
+          -190 21 callgsubr
+          0 callsubr
         </CharString>
         <CharString name="seenar.medi.6">
-          73 34 callsubr
+          73 35 callgsubr
           390 vstem
           330 70 rmoveto
-          -70 70 -40 -70 52 callsubr
+          -70 70 -40 -70 49 callsubr
           rlineto
           -20 -70 390 16 callsubr
         </CharString>
         <CharString name="sevenar">
-          -47 0 31 callsubr
+          -47 0 32 callgsubr
           -280 -70 280 -70 -350 210 350 vlineto
           endchar
         </CharString>
         <CharString name="sevenar.1">
-          60 callgsubr
+          60 callsubr
           240 350 rmoveto
           -87 -238 -87 238 -66 -23 120 -327 rlineto
           66 hlineto
@@ -3310,58 +3291,58 @@ You should have received a copy of the GNU Affero General Public License along w
           63 -100 -70 callsubr
         </CharString>
         <CharString name="sixar">
-          -1 callgsubr
+          -2 callsubr
           -161 140 -189 70 350 vlineto
           endchar
         </CharString>
         <CharString name="sixar.1">
           -47 21 -21 280 70 hstem
-          140 -7 callsubr
+          140 13 callsubr
           -70 140 -280 16 callsubr
         </CharString>
         <CharString name="space">
           endchar
         </CharString>
         <CharString name="tahar">
-          23 callgsubr
+          20 callsubr
           84 vstem
           596 35 callsubr
-          -19 callgsubr
+          -19 callsubr
           689 hlineto
           -92 callsubr
         </CharString>
         <CharString name="tahar.fina">
-          23 callgsubr
+          20 callsubr
           46 callgsubr
           707 70 rmoveto
           95 -15 -58 15 -38 hhcurveto
-          -19 callgsubr
+          -19 callsubr
           750 70 hlineto
           -58 callgsubr
         </CharString>
         <CharString name="tahar.init">
-          373 43 callgsubr
+          373 41 callsubr
           466 84 vstem
           516 35 callsubr
-          -436 -32 callgsubr
+          -436 -33 callsubr
           -470 -20 -70 629 vlineto
           -92 callsubr
         </CharString>
         <CharString name="tahar.medi">
-          373 43 callgsubr
+          373 41 callsubr
           466 46 callgsubr
-          627 -14 callsubr
-          -32 callgsubr
+          627 -13 callgsubr
+          -33 callsubr
           -470 -20 -70 690 -50 callsubr
         </CharString>
         <CharString name="tehMarbutaar">
           -57 -69 callgsubr
           65 -20 hstem
-          0 27 callgsubr
+          0 27 callsubr
           109 314 -65 callgsubr
           9 -65 rmoveto
           30 callgsubr
-          46 callsubr
+          45 callsubr
           -35 -20 -40 -5 -40 hhcurveto
           -84 callsubr
         </CharString>
@@ -3375,7 +3356,7 @@ You should have received a copy of the GNU Affero General Public License along w
           303 -69 callgsubr
           hstem
           476 84 vstem
-          327 40 callsubr
+          327 40 callgsubr
           166 -75 -45 callgsubr
         </CharString>
         <CharString name="thehar">
@@ -3396,7 +3377,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -22 callsubr
           -350 310 70 -240 vlineto
           hintmask 11011100
-          70 39 callsubr
+          70 40 callsubr
         </CharString>
         <CharString name="threear.1">
           53 21 -21 140 70 -70 210 hstemhm
@@ -3408,7 +3389,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -22 callsubr
           -350 70 vlineto
           hintmask 11011100
-          140 39 callsubr
+          140 40 callsubr
         </CharString>
         <CharString name="threedotsupabovear">
           0 89 hstem
@@ -3427,17 +3408,17 @@ You should have received a copy of the GNU Affero General Public License along w
           -39 -70 rmoveto
           -97 callsubr
           hintmask 10101000
-          82 -83 callsubr
+          82 -83 callgsubr
           endchar
         </CharString>
         <CharString name="twoar">
-          -1 callgsubr
+          -2 callsubr
           -350 70 189 140 161 vlineto
           endchar
         </CharString>
         <CharString name="twoar.1">
           -47 21 -21 280 70 hstem
-          0 -7 callsubr
+          0 13 callsubr
           -350 70 280 140 hlineto
           endchar
         </CharString>
@@ -3456,8 +3437,8 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="twodotsverticalabovear">
           0 146 hstem
           0 76 vstem
-          17 57 -27 callgsubr
-          -35 -136 -27 callgsubr
+          17 57 -27 callsubr
+          -35 -136 -27 callsubr
           endchar
         </CharString>
         <CharString name="twodotsverticalabovear.alt1">
@@ -3472,19 +3453,19 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="wawHamzaabovear">
-          -27 26 callgsubr
+          -27 26 callsubr
           40 70 50 29 33 25 hstem
           30 80 52 81 vstem
           70 230 -36 callgsubr
           146 -168 -98 callgsubr
         </CharString>
         <CharString name="wawar">
-          -27 1 callsubr
+          -27 1 callgsubr
           30 80 52 81 vstem
           233 91 -98 callgsubr
         </CharString>
         <CharString name="wawar.1">
-          21 callgsubr
+          22 callsubr
           130 180 -69 callsubr
         </CharString>
         <CharString name="wawar.2">
@@ -3494,11 +3475,11 @@ You should have received a copy of the GNU Affero General Public License along w
         </CharString>
         <CharString name="wawar.3">
           10 33 callsubr
-          80 27 callgsubr
+          80 27 callsubr
           180 290 -69 callsubr
         </CharString>
         <CharString name="wawar.fina">
-          -17 26 callgsubr
+          -17 26 callsubr
           40 70 hstemhm
           30 80 40 130 -118 81 -81 118 hintmask 00000000
           hintmask 11110010
@@ -3506,10 +3487,10 @@ You should have received a copy of the GNU Affero General Public License along w
           -43 hlineto
           -1 8 -1 7 -2 6 rrcurveto
           56 -15 -38 33 -50 hhcurveto
-          -52 callsubr
+          -52 callgsubr
           hvcurveto
           hintmask 11110100
-          -83 callgsubr
+          -83 callsubr
           -110 -74 callsubr
           243 hlineto
           31 9 14 24 5 hvcurveto
@@ -3521,21 +3502,21 @@ You should have received a copy of the GNU Affero General Public License along w
           -150 70 -104 callgsubr
         </CharString>
         <CharString name="wawar.fina.1">
-          21 callgsubr
+          22 callsubr
           270 70 rmoveto
           -40 20 hlineto
           -38 callsubr
           -79 callgsubr
           vhcurveto
-          -42 -100 6 callsubr
+          -42 -100 4 callsubr
           -97 callgsubr
           70 40 vlineto
           -140 70 -104 callgsubr
         </CharString>
         <CharString name="yehHamzaabovear">
-          -50 34 callgsubr
-          37 callsubr
-          45 29 33 25 24 callsubr
+          -50 34 callsubr
+          38 callgsubr
+          45 29 33 25 25 callgsubr
           -2 198 -36 callgsubr
           144 -270 -103 callgsubr
         </CharString>
@@ -3546,23 +3527,23 @@ You should have received a copy of the GNU Affero General Public License along w
           -101 callsubr
         </CharString>
         <CharString name="zahar">
-          23 callgsubr
+          20 callsubr
           84 vstem
           596 35 callsubr
-          -19 callgsubr
+          -19 callsubr
           689 -68 callsubr
           -159 154 -71 callsubr
           236 -185 rmoveto
           -89 callgsubr
         </CharString>
         <CharString name="zainar">
-          11 callsubr
-          117 215 -27 callgsubr
+          11 callgsubr
+          117 215 -27 callsubr
           -227 -404 -35 callgsubr
         </CharString>
         <CharString name="zeroar">
           -187 140 70 hstem
-          0 45 callsubr
+          0 57 callsubr
           vmoveto
           -70 70 70 vlineto
           endchar
@@ -3579,10 +3560,10 @@ You should have received a copy of the GNU Affero General Public License along w
       </CharString>
       <CharString index="1">
         -81 callgsubr
-        -96 callgsubr
+        -96 callsubr
         16 36 10 80 10 hvcurveto
         -15 -3 -14 -5 -9 hhcurveto
-        -96 callsubr
+        -96 callgsubr
         -88 callgsubr
         return
       </CharString>
@@ -3598,7 +3579,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <CharString index="4">
         -102 callsubr
         -40 -91 callsubr
-        96 -5 callsubr
+        96 -5 callgsubr
         vhcurveto
         endchar
       </CharString>
@@ -3636,8 +3617,8 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="11">
-        52 -52 rlineto
-        -10 10 9 -5 12 hhcurveto
+        -9 -5 5 4 -4 hvcurveto
+        -64 64 rlineto
         return
       </CharString>
       <CharString index="12">
@@ -3646,7 +3627,7 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="13">
-        -45 -40 -50 -50 45 -40 55 -83 callgsubr
+        -45 -40 -50 -50 45 -40 55 -83 callsubr
         return
       </CharString>
       <CharString index="14">
@@ -3681,20 +3662,20 @@ You should have received a copy of the GNU Affero General Public License along w
         459 -62 callsubr
         -137 -87 callsubr
         405 -62 callsubr
-        -436 -15 callsubr
+        -436 -14 callgsubr
         return
       </CharString>
       <CharString index="21">
-        -31 callgsubr
+        -32 callsubr
         -70 20 -44 hvcurveto
         return
       </CharString>
       <CharString index="22">
-        -90 34 callgsubr
+        -90 34 callsubr
         -56 callsubr
         -40 -91 callsubr
-        96 -5 callsubr
-        56 callgsubr
+        96 -5 callgsubr
+        55 callgsubr
         vhcurveto
         -31 31 rlineto
         hintmask 11101100
@@ -3706,38 +3687,36 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="24">
-        -20 callgsubr
-        hvcurveto
-        -77 callsubr
+        hmoveto
+        -97 callsubr
         return
       </CharString>
       <CharString index="25">
         -9 -11 -11 -9 return
       </CharString>
       <CharString index="26">
-        3 callgsubr
+        2 callsubr
         -84 callgsubr
         return
       </CharString>
       <CharString index="27">
-        232 26 callgsubr
-        0 83 77 -20 31 callgsubr
-        161 62 hintmask 11011100
-        -3 callgsubr
-        308 -29 callgsubr
-        -49 hlineto
-        -96 callsubr
-        hintmask 10111100
-        -80 callsubr
-        return
+        rmoveto
+        -51 hlineto
+        hintmask 11111100
+        88 97 rlineto
+        14 15 7 21 27 28 callgsubr
+        11 10 1 1 9 vhcurveto
+        -130 -142 -25 callsubr
+        hintmask 11111100
+        -42 140 -104 callgsubr
       </CharString>
       <CharString index="28">
-        -52 callsubr
+        -52 callgsubr
         7 7 1 1 6 return
       </CharString>
       <CharString index="29">
         41 41 rcurveline
-        13 13 16 18 23 -14 callgsubr
+        13 13 16 18 23 -15 callsubr
         -16 -8 -18 -12 -21 vhcurveto
         -12 21 -8 18 16 vvcurveto
         return
@@ -3754,7 +3733,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <CharString index="32">
         -60 callgsubr
         20 40 vlineto
-        -140 110 4 callgsubr
+        -140 110 3 callsubr
         -150 -100 callgsubr
       </CharString>
       <CharString index="33">
@@ -3780,7 +3759,7 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="37">
-        343 36 callsubr
+        343 36 callgsubr
         -87 callgsubr
         return
       </CharString>
@@ -3788,7 +3767,7 @@ You should have received a copy of the GNU Affero General Public License along w
         0 70 40 70 return
       </CharString>
       <CharString index="39">
-        5 callsubr
+        5 callgsubr
         hvcurveto
         -1 -110 -104 callgsubr
       </CharString>
@@ -3808,9 +3787,7 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="43">
-        18 -6 -14 11 -14 hhcurveto
-        -32 -14 -32 -26 8 hvcurveto
-        -11 hlineto
+        63 0 70 160 -20 -47 callgsubr
         return
       </CharString>
       <CharString index="44">
@@ -3818,21 +3795,21 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="45">
-        -20 -70 79 -43 callgsubr
+        -20 -70 79 -44 callsubr
         -18 callsubr
         return
       </CharString>
       <CharString index="46">
         -57 0 70 hstem
         120 80 vstem
-        2 callsubr
+        2 callgsubr
         220 -99 callsubr
         -50 vlineto
         -33 callgsubr
         -28 -70 -49 callgsubr
       </CharString>
       <CharString index="47">
-        -6 callsubr
+        -6 callgsubr
         hvcurveto
         -52 -70 52 hlineto
         -1 -6 -1 -7 -7 vvcurveto
@@ -3841,7 +3818,7 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="48">
-        -11 -9 2 callgsubr
+        -11 -9 1 callsubr
         9 11 return
       </CharString>
       <CharString index="49">
@@ -3865,30 +3842,30 @@ You should have received a copy of the GNU Affero General Public License along w
       <CharString index="52">
         0 58 hstemhm
         0 58 24 58 hintmask 11000000
-        3 callsubr
+        3 callgsubr
         hintmask 11100000
-        82 -83 callsubr
+        82 -83 callgsubr
         endchar
       </CharString>
       <CharString index="53">
-        -106 callsubr
-        529 vlineto
-        -92 callsubr
+        0 29 33 25 hstem
+        0 125 vstem
+        125 29 -73 callgsubr
+        endchar
       </CharString>
       <CharString index="54">
         hlineto
-        -50 -40 -40 -50 -50 40 -40 50 hvcurveto
+        27 70 rlineto
+        -3 hlineto
+        27 callgsubr
         return
       </CharString>
       <CharString index="55">
-        hstem
-        -51 callsubr
-        vstem
+        -55 -79 callsubr
         return
       </CharString>
       <CharString index="56">
-        160 -99 callsubr
-        return
+        70 80 40 80 40 80 return
       </CharString>
       <CharString index="57">
         480 -99 callsubr
@@ -3908,7 +3885,9 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="60">
-        -180 -100 callsubr
+        hstem
+        -24 callsubr
+        vstem
         return
       </CharString>
       <CharString index="61">
@@ -3916,27 +3895,26 @@ You should have received a copy of the GNU Affero General Public License along w
       </CharString>
       <CharString index="62">
         rmoveto
-        -326 -53 callsubr
+        -326 -53 callgsubr
         372 -82 callsubr
         -436 58 callgsubr
         539 -7 callgsubr
       </CharString>
       <CharString index="63">
-        303 -33 callsubr
+        303 -31 callgsubr
         480 80 vstem
         return
       </CharString>
       <CharString index="64">
-        vlineto
-        -18 callsubr
+        -55 -46 callgsubr
         return
       </CharString>
       <CharString index="65">
         110 -104 callgsubr
       </CharString>
       <CharString index="66">
-        -51 callgsubr
-        -47 callgsubr
+        -51 callsubr
+        -47 callsubr
         return
       </CharString>
       <CharString index="67">
@@ -3945,13 +3923,12 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="68">
-        40 -13 callsubr
-        vstem
-        return
+        -31 callgsubr
+        0 80 return
       </CharString>
       <CharString index="69">
         -16 callsubr
-        30 callsubr
+        31 callgsubr
         return
       </CharString>
       <CharString index="70">
@@ -3966,11 +3943,11 @@ You should have received a copy of the GNU Affero General Public License along w
       </CharString>
       <CharString index="72">
         rmoveto
-        -2 callgsubr
+        -3 callsubr
         hvcurveto
         hintmask 11010000
         139 -69 43 -147 47 vhcurveto
-        27 callsubr
+        27 callgsubr
         -40 callgsubr
         endchar
       </CharString>
@@ -3982,12 +3959,12 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="75">
-        380 -23 callsubr
-        return
+        -21 70 83 hstem
+        0 42 return
       </CharString>
       <CharString index="76">
-        -57 callsubr
-        21 139 return
+        0 70 160 -20 hstem
+        return
       </CharString>
       <CharString index="77">
         rmoveto
@@ -4002,12 +3979,12 @@ You should have received a copy of the GNU Affero General Public License along w
       </CharString>
       <CharString index="79">
         -61 callsubr
-        -1 -79 -27 callgsubr
+        -1 -79 -27 callsubr
         return
       </CharString>
       <CharString index="80">
-        rmoveto
-        -61 callsubr
+        -69 callgsubr
+        380 -20 hstem
         return
       </CharString>
       <CharString index="81">
@@ -4016,7 +3993,7 @@ You should have received a copy of the GNU Affero General Public License along w
       </CharString>
       <CharString index="82">
         -45 callsubr
-        -5 callgsubr
+        -7 callsubr
         return
       </CharString>
       <CharString index="83">
@@ -4043,18 +4020,17 @@ You should have received a copy of the GNU Affero General Public License along w
         10 10 1 3 10 return
       </CharString>
       <CharString index="88">
-        -436 -32 callgsubr
-        -470 -40 vlineto
-        8 callgsubr
-        return
-      </CharString>
-      <CharString index="89">
         443 -38 callgsubr
         40 70 hstem
         70 80 466 return
       </CharString>
+      <CharString index="89">
+        316 5 callsubr
+        52 81 vstem
+        return
+      </CharString>
       <CharString index="90">
-        -47 callgsubr
+        -47 callsubr
         130 -99 callsubr
         -150 -100 callsubr
         100 -99 callsubr
@@ -4065,29 +4041,27 @@ You should have received a copy of the GNU Affero General Public License along w
         -140 -42 callgsubr
       </CharString>
       <CharString index="92">
-        38 callgsubr
+        37 callsubr
         -210 -105 callgsubr
         return
       </CharString>
       <CharString index="93">
-        vvcurveto
-        325 -99 callsubr
-        -305 vlineto
+        hlineto
+        -67 callgsubr
         return
       </CharString>
       <CharString index="94">
-        -104 86 -56 113 43 46 8 35 76 return
+        -71 callgsubr
+        -436 return
       </CharString>
       <CharString index="95">
-        26 callsubr
-        80 return
+        70 hstem
+        0 80 40 80 return
       </CharString>
       <CharString index="96">
-        -92 66 rlineto
-        312 -99 callsubr
-        -234 vlineto
-        -213 154 -29 -77 242 -175 rlineto
-        -208 return
+        -140 -60 callsubr
+        219 vlineto
+        return
       </CharString>
       <CharString index="97">
         -88 callgsubr
@@ -4099,40 +4073,48 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="99">
-        rcurveline
-        -40 callgsubr
-        -40 -70 rlineto
-        -2 callgsubr
-        36 return
+        -127 hlineto
+        -21 -12 17 19 21 16 23 37 13 16 -3 -7 18 hvcurveto
+        45 -14 -35 25 -35 hhcurveto
+        return
       </CharString>
       <CharString index="100">
         -68 callsubr
         endchar
       </CharString>
       <CharString index="101">
-        70 -39 callgsubr
+        -43 callgsubr
+        -34 callgsubr
         return
       </CharString>
       <CharString index="102">
-        -83 -91 36 90 67 50 26 40 hvcurveto
-        return
+        vlineto
+        25 -13 16 -35 return
       </CharString>
       <CharString index="103">
-        -110 70 return
+        -74 callgsubr
+        30 -20 hstemhm
+        -51 callgsubr
+        hintmask 11011110
+        return
       </CharString>
       <CharString index="104">
-        57 67 rmoveto
-        -96 callgsubr
+        35 callsubr
+        -43 callgsubr
         return
       </CharString>
       <CharString index="105">
-        339 hlineto
-        -57 callsubr
-        21 return
+        70 rmoveto
+        hintmask 01011000
+        -41 callsubr
+        vhcurveto
+        hintmask 10110100
+        return
       </CharString>
       <CharString index="106">
-        -47 21 -21 189 31 callsubr
-        -91 -70 91 -70 return
+        6 callgsubr
+        hintmask 11011100
+        -30 callsubr
       </CharString>
       <CharString index="107">
         vstem
@@ -4141,70 +4123,80 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="108">
-        28 callsubr
-        -66 callgsubr
+        26 callsubr
+        40 70 hstem
+        return
       </CharString>
       <CharString index="109">
-        9 11 11 9 return
+        200 70 rmoveto
+        return
       </CharString>
       <CharString index="110">
-        23 -23 hvcurveto
+        29 -83 callgsubr
         return
       </CharString>
       <CharString index="111">
-        rmoveto
-        -76 callsubr
+        10 callsubr
+        29 callgsubr
         return
       </CharString>
       <CharString index="112">
-        rlineto
-        350 -99 callsubr
-        -330 vlineto
+        hlineto
+        24 13 37 65 10 callsubr
         return
       </CharString>
       <CharString index="113">
-        33 callsubr
-        360 80 return
-      </CharString>
-      <CharString index="114">
-        14 callsubr
+        14 callgsubr
         rlineto
         return
       </CharString>
+      <CharString index="114">
+        3 2 callsubr
+        return
+      </CharString>
       <CharString index="115">
-        -40 -70 rlineto
+        63 0 70 160 -20 30 -20 hstemhm
+        -24 callsubr
+        hintmask 10111100
         return
       </CharString>
       <CharString index="116">
-        -57 0 70 40 20 32 callsubr
-        return
+        0 89 hstem
+        0 64 vstem
+        17 hmoveto
+        -61 callsubr
+        endchar
       </CharString>
       <CharString index="117">
-        vlineto
-        -35 -20 -20 0 -40 hhcurveto
+        -10 callsubr
+        hvcurveto
         return
       </CharString>
       <CharString index="118">
-        77 -19 111 -93 return
+        15 -31 callsubr
+        140 -119 -21 hstemhm
+        213 84 hintmask 10110000
+        return
       </CharString>
       <CharString index="119">
-        -160 22 callsubr
+        -160 21 callgsubr
         return
       </CharString>
       <CharString index="120">
-        -140 -100 callsubr
-        51 callgsubr
+        vvcurveto
+        -38 callsubr
+        -43 callgsubr
         return
       </CharString>
       <CharString index="121">
-        hhcurveto
-        -40 callsubr
-        return
+        hlineto
+        44 callsubr
+        -31 31 return
       </CharString>
       <CharString index="122">
-        vvcurveto
-        -38 callsubr
-        -44 callsubr
+        26 callsubr
+        hstem
+        0 80 vstem
         return
       </CharString>
       <CharString index="123">
@@ -4217,13 +4209,12 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="125">
-        343 33 callsubr
-        400 27 callgsubr
-        return
+        143 50 callsubr
+        200 80 40 80 return
       </CharString>
       <CharString index="126">
-        356 33 callsubr
-        400 80 52 81 vstem
+        343 33 callsubr
+        400 27 callsubr
         return
       </CharString>
       <CharString index="127">
@@ -4234,40 +4225,42 @@ You should have received a copy of the GNU Affero General Public License along w
         endchar
       </CharString>
       <CharString index="128">
-        -27 1 callsubr
-        30 27 callgsubr
-        return
+        -73 callsubr
+        -160 return
       </CharString>
       <CharString index="129">
-        303 43 callgsubr
+        303 41 callsubr
         396 return
       </CharString>
       <CharString index="130">
-        453 -27 callsubr
-        80 80 466 return
+        42 callsubr
+        73 77 326 return
       </CharString>
       <CharString index="131">
-        -35 -20 -40 0 -40 hhcurveto
-        return
-      </CharString>
-      <CharString index="132">
         -17 -13 -46 0 -17 13 return
       </CharString>
+      <CharString index="132">
+        hstem
+        57 callgsubr
+        vstem
+        return
+      </CharString>
       <CharString index="133">
-        -31 callsubr
-        70 return
+        -20 hstem
+        0 80 vstem
+        return
       </CharString>
       <CharString index="134">
-        80 16 callgsubr
+        -80 -140 rlineto
         return
       </CharString>
       <CharString index="135">
-        -60 -57 169 -293 -33 -55 -43 -55 -53 -60 rlinecurve
-        return
+        13 callgsubr
+        -60 45 -30 55 return
       </CharString>
       <CharString index="136">
-        15 callgsubr
-        -60 45 -30 55 return
+        -56 31 callsubr
+        return
       </CharString>
       <CharString index="137">
         -55 -45 -40 -50 -26 callgsubr
@@ -4275,12 +4268,12 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="138">
-        hstemhm
-        0 42 return
+        180 70 return
       </CharString>
       <CharString index="139">
-        -79 callsubr
-        -20 callgsubr
+        34 callgsubr
+        70 70 vstem
+        140 350 rmoveto
         return
       </CharString>
       <CharString index="140">
@@ -4290,50 +4283,51 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="141">
-        -220 70 40 return
-      </CharString>
-      <CharString index="142">
         70 58 callsubr
         return
       </CharString>
+      <CharString index="142">
+        0 70 hstem
+        -20 return
+      </CharString>
       <CharString index="143">
-        416 -82 callsubr
-        -476 -70 return
+        15 callgsubr
+        100 hmoveto
+        return
       </CharString>
       <CharString index="144">
         -108 -142 rlineto
         return
       </CharString>
       <CharString index="145">
-        -40 -70 38 callsubr
-        return
+        67 64 -21 70 83 return
       </CharString>
       <CharString index="146">
-        53 callsubr
+        51 callsubr
         hintmask 10111000
         return
       </CharString>
       <CharString index="147">
-        -65 -57 -32 -72 -19 4 -15 6 -12 hvcurveto
+        334 -71 callsubr
         return
       </CharString>
       <CharString index="148">
-        -190 -140 -50 140 -70 -350 return
+        557 -71 callgsubr
+        return
       </CharString>
       <CharString index="149">
-        343 -27 callsubr
+        343 -27 callgsubr
         return
       </CharString>
       <CharString index="150">
-        -27 callsubr
-        0 80 return
+        -190 -140 -50 140 -70 -350 return
       </CharString>
       <CharString index="151">
         -124 124 hintmask 11100000
         return
       </CharString>
       <CharString index="152">
-        -32 -22 7 callsubr
+        70 0 83 30 callsubr
         return
       </CharString>
       <CharString index="153">
@@ -4341,53 +4335,58 @@ You should have received a copy of the GNU Affero General Public License along w
         return
       </CharString>
       <CharString index="154">
-        0 70 70 70 70 70 hstemhm
-        0 70 return
-      </CharString>
-      <CharString index="155">
         -105 callsubr
         hvcurveto
         return
       </CharString>
+      <CharString index="155">
+        hlineto
+        -57 callsubr
+        11 hvcurveto
+        219 vlineto
+        return
+      </CharString>
       <CharString index="156">
-        65 109 39 134 12 120 return
+        -62 callsubr
+        endchar
       </CharString>
       <CharString index="157">
+        -160 20 rmoveto
+        11 9 9 11 return
+      </CharString>
+      <CharString index="158">
+        -177 0 70 hstem
+        0 80 vstem
+        return
+      </CharString>
+      <CharString index="159">
+        -72 callsubr
+        -140 return
+      </CharString>
+      <CharString index="160">
+        -107 -16 callsubr
+        hstem
+        70 80 vstem
+        return
+      </CharString>
+      <CharString index="161">
         43 30 13 27 16 hvcurveto
         51 hlineto
         return
       </CharString>
-      <CharString index="158">
-        -72 callsubr
-        -140 return
-      </CharString>
-      <CharString index="159">
-        0 70 -70 180 -70 70 hstemhm
-        return
-      </CharString>
-      <CharString index="160">
-        414 -82 callsubr
-        return
-      </CharString>
-      <CharString index="161">
-        -160 20 rmoveto
-        11 9 9 11 return
-      </CharString>
       <CharString index="162">
-        vlineto
-        -19 0 -26 -20 vhcurveto
-        endchar
-      </CharString>
-      <CharString index="163">
         -32 -22 6 23 -23 return
       </CharString>
-      <CharString index="164">
+      <CharString index="163">
         -7 -3 3 7 hvcurveto
         return
       </CharString>
+      <CharString index="164">
+        0 42 85 80 return
+      </CharString>
       <CharString index="165">
         hlineto
-        8 callgsubr
+        7 callsubr
         return
       </CharString>
       <CharString index="166">
@@ -4397,9 +4396,9 @@ You should have received a copy of the GNU Affero General Public License along w
         endchar
       </CharString>
       <CharString index="167">
-        49 21 -21 hstem
-        0 306 vstem
-        return
+        vlineto
+        29 -13 31 -30 22 vhcurveto
+        -92 return
       </CharString>
     </GlobalSubrs>
   </CFF>
