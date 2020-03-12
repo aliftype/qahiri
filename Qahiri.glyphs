@@ -221,7 +221,7 @@ code = "lookup Alternates {
   sub ain-ar.init             from [ain-ar.init ain-ar.init.1];
   sub alef-ar                 from [alef-ar.1 alef-ar.2 alef-ar alef-ar.3];
   sub alefMaksura-ar          from [alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4 alefMaksura-ar.5 alefMaksura-ar.6];
-  sub alefMaksura-ar.fina     from [alefMaksura-ar.fina.tooth.1 alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
+  sub alefMaksura-ar.fina     from [alefMaksura-ar.fina.0 alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
   # Dummy entry for the app to show alternates.
   sub alefMaksura-ar.fina.tooth from [alefMaksura-ar.fina alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6 alefMaksura-ar.fina.tooth]; 
   sub behDotless-ar.medi      from [behDotless-ar.medi behDotless-ar.medi.1];
@@ -10539,6 +10539,21 @@ width = 207;
 leftKerningGroup = yeh;
 },
 {
+glyphname = "alefMaksura-ar.fina.0";
+layers = (
+{
+components = (
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 207;
+}
+);
+leftKerningGroup = yeh;
+},
+{
 glyphname = "alefMaksura-ar.fina.1";
 layers = (
 {
@@ -11419,21 +11434,6 @@ nodes = (
 }
 );
 width = 280;
-}
-);
-leftKerningGroup = yeh;
-},
-{
-glyphname = "alefMaksura-ar.fina.tooth.1";
-layers = (
-{
-components = (
-{
-name = "alefMaksura-ar.fina";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 207;
 }
 );
 leftKerningGroup = yeh;
