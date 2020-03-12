@@ -1,12 +1,12 @@
-Qahirah
-=======
+Qahiri
+======
 
-Qahirah is a [Kufic][1] typeface based on modernized and regularized old
+Qahiri is a [Kufic][1] typeface based on the modernized and regularized old
 manuscript Kufic calligraphy style of the late master of Arabic calligraphy
 [Mohammad Abdul Qadir][2].
 
 Following the convention of naming Kufic styles after the cities they appeared
-in, Qahirah is named after the city of Cairo, Egypt (القاهرة).
+in, Qahiri (قاهري) is named after the city of Cairo, Egypt (القاهرة).
 
 
 [1]: https://en.wikipedia.org/wiki/Kufic
