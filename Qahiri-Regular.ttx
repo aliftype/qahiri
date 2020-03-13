@@ -248,12 +248,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0xe1fa803"/>
+    <checkSumAdjustment value="0xec5aece1"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Sat Mar 14 01:01:28 2020"/>
-    <modified value="Sat Mar 14 01:01:28 2020"/>
+    <created value="Sat Mar 14 01:11:41 2020"/>
+    <modified value="Sat Mar 14 01:11:41 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -4727,7 +4727,7 @@ You should have received a copy of the GNU Affero General Public License along w
       </FeatureRecord>
     </FeatureList>
     <LookupList>
-      <!-- LookupCount=12 -->
+      <!-- LookupCount=13 -->
       <Lookup index="0">
         <LookupType value="2"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
@@ -11460,8 +11460,79 @@ You should have received a copy of the GNU Affero General Public License along w
       <Lookup index="6">
         <LookupType value="8"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
-        <!-- SubTableCount=2 -->
+        <!-- SubTableCount=4 -->
         <ChainContextPos index="0" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="behDotlessar.init"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="2">
+            <Glyph value="rehar"/>
+            <Glyph value="rehar.1"/>
+            <Glyph value="rehar.fina"/>
+            <Glyph value="rehar.fina.1"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="dotbelowar"/>
+            <Glyph value="dotbelowar.alt1"/>
+            <Glyph value="twodotshorizontalbelowar"/>
+            <Glyph value="twodotshorizontalbelowar.alt1"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="rehar.fina"/>
+            <Glyph value="rehar.fina.1"/>
+            <Glyph value="lamar.fina"/>
+            <Glyph value="noonghunnaar.fina"/>
+            <Glyph value="hehar.medi"/>
+            <Glyph value="hehar.medi.1"/>
+            <Glyph value="wawar.fina"/>
+            <Glyph value="wawar.fina.1"/>
+            <Glyph value="alefMaksuraar.fina.2"/>
+            <Glyph value="alefMaksuraar.fina.3"/>
+            <Glyph value="alefMaksuraar.fina.4"/>
+            <Glyph value="alefMaksuraar.fina.5"/>
+            <Glyph value="alefMaksuraar.fina.6"/>
+          </LookAheadCoverage>
+          <!-- PosCount=1 -->
+          <PosLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="9"/>
+          </PosLookupRecord>
+        </ChainContextPos>
+        <ChainContextPos index="1" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="behDotlessar.init"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="2">
+            <Glyph value="rehar"/>
+            <Glyph value="rehar.1"/>
+            <Glyph value="rehar.fina"/>
+            <Glyph value="rehar.fina.1"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="dotbelowar"/>
+            <Glyph value="dotbelowar.alt1"/>
+            <Glyph value="twodotshorizontalbelowar"/>
+            <Glyph value="twodotshorizontalbelowar.alt1"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="qafDotlessar.fina"/>
+            <Glyph value="alefMaksuraar.fina"/>
+            <Glyph value="alefMaksuraar.fina.0"/>
+            <Glyph value="alefMaksuraar.fina.1"/>
+          </LookAheadCoverage>
+          <!-- PosCount=1 -->
+          <PosLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="10"/>
+          </PosLookupRecord>
+        </ChainContextPos>
+        <ChainContextPos index="2" Format="3">
           <!-- BacktrackGlyphCount=2 -->
           <BacktrackCoverage index="0" Format="1">
             <Glyph value="behDotlessar.init"/>
@@ -11483,10 +11554,10 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="9"/>
+            <LookupListIndex value="11"/>
           </PosLookupRecord>
         </ChainContextPos>
-        <ChainContextPos index="1" Format="3">
+        <ChainContextPos index="3" Format="3">
           <!-- BacktrackGlyphCount=1 -->
           <BacktrackCoverage index="0" Format="1">
             <Glyph value="behDotlessar.init"/>
@@ -11505,7 +11576,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="10"/>
+            <LookupListIndex value="11"/>
           </PosLookupRecord>
         </ChainContextPos>
         <MarkFilteringSet value="1"/>
@@ -11532,7 +11603,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="11"/>
+            <LookupListIndex value="12"/>
           </PosLookupRecord>
         </ChainContextPos>
         <MarkFilteringSet value="2"/>
@@ -11576,12 +11647,28 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="twodotshorizontalbelowar"/>
             <Glyph value="twodotshorizontalbelowar.alt1"/>
           </Coverage>
-          <ValueFormat value="1"/>
-          <Value XPlacement="-40"/>
+          <ValueFormat value="3"/>
+          <Value XPlacement="40" YPlacement="-100"/>
         </SinglePos>
         <MarkFilteringSet value="1"/>
       </Lookup>
       <Lookup index="11">
+        <LookupType value="1"/>
+        <LookupFlag value="16"/><!-- useMarkFilteringSet -->
+        <!-- SubTableCount=1 -->
+        <SinglePos index="0" Format="1">
+          <Coverage Format="1">
+            <Glyph value="dotbelowar"/>
+            <Glyph value="dotbelowar.alt1"/>
+            <Glyph value="twodotshorizontalbelowar"/>
+            <Glyph value="twodotshorizontalbelowar.alt1"/>
+          </Coverage>
+          <ValueFormat value="1"/>
+          <Value XPlacement="-60"/>
+        </SinglePos>
+        <MarkFilteringSet value="1"/>
+      </Lookup>
+      <Lookup index="12">
         <LookupType value="1"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
