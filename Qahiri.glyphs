@@ -1670,6 +1670,7 @@ nodes = (
 width = 312;
 }
 );
+rightKerningGroup = reh;
 unicode = 0631;
 },
 {
@@ -1707,6 +1708,7 @@ nodes = (
 width = 312;
 }
 );
+rightKerningGroup = reh;
 },
 {
 glyphname = "reh-ar.fina";
@@ -1734,6 +1736,7 @@ width = 283;
 }
 );
 leftKerningGroup = reh.fina;
+rightKerningGroup = reh;
 },
 {
 glyphname = "reh-ar.fina.1";
@@ -1761,6 +1764,7 @@ width = 283;
 }
 );
 leftKerningGroup = reh.fina;
+rightKerningGroup = reh;
 },
 {
 color = 0;
@@ -10985,6 +10989,16 @@ kerning = {
 "lam_alef-ar.fina.3" = -50;
 "lam_alef-ar.fina.4" = -80;
 "lam_alef-ar.fina.5" = -80;
+};
+"@MMK_L_reh" = {
+"alefMaksura-ar" = 63;
+"alefMaksura-ar.1" = 63;
+"lam-ar" = 63;
+"noonghunna-ar" = 63;
+"reh-ar" = 88;
+"reh-ar.1" = 88;
+"waw-ar" = 63;
+"waw-ar.1" = 63;
 };
 "@MMK_L_waw" = {
 "alefMaksura-ar" = 40;
