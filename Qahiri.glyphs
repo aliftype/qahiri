@@ -140,8 +140,8 @@ code = "#> feature
   sub tah-ar by tah-ar.init;
 #< feature
 
-  sub qafDotless-ar  by fehDotless-ar.init twodotshorizontalabove-ar;
-  sub noonghunna-ar  by behDotless-ar.init dotabove-ar;
+  sub qafDotless-ar  by fehDotless-ar.init;
+  sub noonghunna-ar  by behDotless-ar.init;
   sub alefMaksura-ar by behDotless-ar.init;
   sub yeh-ar         by behDotless-ar.init twodotshorizontalbelow-ar;
   sub yeh-farsi      by behDotless-ar.init twodotshorizontalbelow-ar;";
@@ -162,8 +162,8 @@ code = "#> feature
   sub tah-ar by tah-ar.medi;
 #< feature
 
-  sub qafDotless-ar  by fehDotless-ar.medi twodotshorizontalabove-ar;
-  sub noonghunna-ar  by behDotless-ar.medi dotabove-ar;
+  sub qafDotless-ar  by fehDotless-ar.medi;
+  sub noonghunna-ar  by behDotless-ar.medi;
   sub alefMaksura-ar by behDotless-ar.medi;
   sub yeh-ar         by behDotless-ar.medi twodotshorizontalbelow-ar;
   sub yeh-farsi      by behDotless-ar.medi twodotshorizontalbelow-ar;";
