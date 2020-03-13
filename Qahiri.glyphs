@@ -1201,7 +1201,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{260, -70}";
+position = "{200, -70}";
 },
 {
 name = entry;

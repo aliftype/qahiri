@@ -248,12 +248,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0x6e8c779f"/>
+    <checkSumAdjustment value="0xe1fa803"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Fri Mar 13 23:27:42 2020"/>
-    <modified value="Fri Mar 13 23:27:42 2020"/>
+    <created value="Sat Mar 14 01:01:28 2020"/>
+    <modified value="Sat Mar 14 01:01:28 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -9902,7 +9902,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="26">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="260"/>
+                <XCoordinate value="200"/>
                 <YCoordinate value="-70"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
