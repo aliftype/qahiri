@@ -3925,7 +3925,7 @@ name = "fehDotless-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 430, 335}";
+transform = "{1, 0, 0, 1, 410, 335}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4225,7 +4225,7 @@ position = "{127, -35}";
 },
 {
 name = top;
-position = "{101, 355}";
+position = "{81, 355}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4391,11 +4391,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{107, -35}";
+position = "{127, -35}";
 },
 {
 name = top;
-position = "{87, 335}";
+position = "{67, 335}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4458,11 +4458,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{107, -35}";
+position = "{127, -35}";
 },
 {
 name = top;
-position = "{90, 365}";
+position = "{70, 365}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4531,7 +4531,7 @@ name = "fehDotless-ar";
 },
 {
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 420, -124}";
+transform = "{1, 0, 0, 1, 440, -124}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";

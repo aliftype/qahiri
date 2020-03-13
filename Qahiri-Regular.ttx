@@ -248,12 +248,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0xc2a7766c"/>
+    <checkSumAdjustment value="0x9ec32046"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Fri Mar 13 19:37:05 2020"/>
-    <modified value="Fri Mar 13 19:37:05 2020"/>
+    <created value="Fri Mar 13 23:13:24 2020"/>
+    <modified value="Fri Mar 13 23:13:24 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -1443,7 +1443,7 @@ You should have received a copy of the GNU Affero General Public License along w
           24 13 37 65 77 -19 111 -93 hvcurveto
           -1 -110 rmoveto
           -11 -9 9 11 11 9 9 11 11 9 -9 -11 -11 -9 -9 -11 hvcurveto
-          -40 -294 rmoveto
+          -20 -294 rmoveto
           17 -10 47 79 -17 10 rlineto
           endchar
         </CharString>
@@ -1629,9 +1629,9 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="fehar">
           316 0 70 40 70 40 70 hstem
           360 80 52 81 vstem
-          494 414 rmoveto
+          474 414 rmoveto
           -17 10 -47 -79 17 -10 rlineto
-          14 -45 rmoveto
+          34 -45 rmoveto
           -56 -45 -40 -50 -50 45 -40 55 10 10 1 3 10 hvcurveto
           2 -7 0 -8 -7 vvcurveto
           -7 0 -8 -2 -7 vhcurveto
@@ -10430,91 +10430,91 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="90">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="467"/>
+                <XCoordinate value="487"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="447"/>
+                <XCoordinate value="427"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="91">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="467"/>
+                <XCoordinate value="487"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="447"/>
+                <XCoordinate value="427"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="92">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="467"/>
+                <XCoordinate value="487"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="450"/>
+                <XCoordinate value="430"/>
                 <YCoordinate value="365"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="93">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="507"/>
+                <XCoordinate value="527"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="487"/>
+                <XCoordinate value="467"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="94">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="507"/>
+                <XCoordinate value="527"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="490"/>
+                <XCoordinate value="470"/>
                 <YCoordinate value="365"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="95">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="467"/>
+                <XCoordinate value="487"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="447"/>
+                <XCoordinate value="427"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="96">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="467"/>
+                <XCoordinate value="487"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="450"/>
+                <XCoordinate value="430"/>
                 <YCoordinate value="365"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="97">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="507"/>
+                <XCoordinate value="527"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="487"/>
+                <XCoordinate value="467"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="98">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="507"/>
+                <XCoordinate value="527"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="490"/>
+                <XCoordinate value="470"/>
                 <YCoordinate value="365"/>
               </BaseAnchor>
             </BaseRecord>
@@ -10524,47 +10524,47 @@ You should have received a copy of the GNU Affero General Public License along w
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="101"/>
+                <XCoordinate value="81"/>
                 <YCoordinate value="355"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="100">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="107"/>
+                <XCoordinate value="127"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="90"/>
+                <XCoordinate value="70"/>
                 <YCoordinate value="365"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="101">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="107"/>
+                <XCoordinate value="127"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="87"/>
+                <XCoordinate value="67"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="102">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="107"/>
+                <XCoordinate value="127"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="90"/>
+                <XCoordinate value="70"/>
                 <YCoordinate value="365"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="103">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="467"/>
+                <XCoordinate value="487"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="447"/>
+                <XCoordinate value="427"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
