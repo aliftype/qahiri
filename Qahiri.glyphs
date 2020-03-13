@@ -1,7 +1,8 @@
 {
 .appVersion = "1300";
 DisplayStrings = (
-"/alef-ar/lam-ar/kaf-ar.medi.2/waw-ar/fehDotless-ar.init.1/alefMaksura-ar.fina.0/space/alef-ar/lam-ar.init/fehDotless-ar.medi.1/alef-ar/heh-ar.init.7/reh-ar.fina.1/alefMaksura-ar.4"
+"/alef-ar/lam-ar/kaf-ar.medi.2/waw-ar/fehDotless-ar.init.1/alefMaksura-ar.fina.0/space/alef-ar/lam-ar.init/fehDotless-ar.medi.1/alef-ar/heh-ar.init.7/reh-ar.fina.1/alefMaksura-ar.4",
+"/space.alt"
 );
 classes = (
 {
@@ -214,6 +215,10 @@ code = "lookupflag IgnoreMarks;
 
   sub lam-ar.init alef-ar.fina by lam_alef-ar;
   sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;";
+name = rclt;
+},
+{
+code = "  sub space' space by space.alt;";
 name = rclt;
 },
 {
@@ -10078,6 +10083,15 @@ width = 250;
 }
 );
 unicode = 0669;
+},
+{
+glyphname = space.alt;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 40;
+}
+);
 },
 {
 glyphname = .notdef;

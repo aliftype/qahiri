@@ -226,33 +226,34 @@
     <GlyphID id="220" name="eightar"/>
     <GlyphID id="221" name="eightar.1"/>
     <GlyphID id="222" name="ninear"/>
-    <GlyphID id="223" name="dotabovear"/>
-    <GlyphID id="224" name="dotabovear.alt1"/>
-    <GlyphID id="225" name="dotbelowar"/>
-    <GlyphID id="226" name="dotbelowar.alt1"/>
-    <GlyphID id="227" name="twodotsverticalabovear"/>
-    <GlyphID id="228" name="twodotsverticalabovear.alt1"/>
-    <GlyphID id="229" name="twodotshorizontalabovear"/>
-    <GlyphID id="230" name="twodotshorizontalabovear.alt1"/>
-    <GlyphID id="231" name="twodotshorizontalbelowar"/>
-    <GlyphID id="232" name="twodotshorizontalbelowar.alt1"/>
-    <GlyphID id="233" name="threedotsupabovear"/>
-    <GlyphID id="234" name="threedotsupabovear.alt1"/>
-    <GlyphID id="235" name="hamzaabovear"/>
-    <GlyphID id="236" name="hamzabelowar"/>
-    <GlyphID id="237" name="empty"/>
+    <GlyphID id="223" name="space.alt"/>
+    <GlyphID id="224" name="dotabovear"/>
+    <GlyphID id="225" name="dotabovear.alt1"/>
+    <GlyphID id="226" name="dotbelowar"/>
+    <GlyphID id="227" name="dotbelowar.alt1"/>
+    <GlyphID id="228" name="twodotsverticalabovear"/>
+    <GlyphID id="229" name="twodotsverticalabovear.alt1"/>
+    <GlyphID id="230" name="twodotshorizontalabovear"/>
+    <GlyphID id="231" name="twodotshorizontalabovear.alt1"/>
+    <GlyphID id="232" name="twodotshorizontalbelowar"/>
+    <GlyphID id="233" name="twodotshorizontalbelowar.alt1"/>
+    <GlyphID id="234" name="threedotsupabovear"/>
+    <GlyphID id="235" name="threedotsupabovear.alt1"/>
+    <GlyphID id="236" name="hamzaabovear"/>
+    <GlyphID id="237" name="hamzabelowar"/>
+    <GlyphID id="238" name="empty"/>
   </GlyphOrder>
 
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0xe102304c"/>
+    <checkSumAdjustment value="0x707b7d4e"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Fri Mar 13 19:12:58 2020"/>
-    <modified value="Fri Mar 13 19:12:58 2020"/>
+    <created value="Fri Mar 13 19:17:01 2020"/>
+    <modified value="Fri Mar 13 19:17:01 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -281,19 +282,19 @@
     <reserved2 value="0"/>
     <reserved3 value="0"/>
     <metricDataFormat value="0"/>
-    <numberOfHMetrics value="224"/>
+    <numberOfHMetrics value="225"/>
   </hhea>
 
   <maxp>
     <tableVersion value="0x5000"/>
-    <numGlyphs value="238"/>
+    <numGlyphs value="239"/>
   </maxp>
 
   <OS_2>
     <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
          will be recalculated by the compiler -->
     <version value="3"/>
-    <xAvgCharWidth value="369"/>
+    <xAvgCharWidth value="368"/>
     <usWeightClass value="400"/>
     <usWidthClass value="5"/>
     <fsType value="00000000 00001000"/>
@@ -3920,6 +3921,9 @@ You should have received a copy of the GNU Affero General Public License along w
         </CharString>
         <CharString name="space">
           endchar
+        </CharString>
+        <CharString name="space.alt">
+          -257 endchar
         </CharString>
         <CharString name="tahar">
           453 0 70 40 70 380 -20 hstem
@@ -11600,8 +11604,8 @@ You should have received a copy of the GNU Affero General Public License along w
         <FeatureTag value="dist"/>
         <Feature>
           <!-- LookupCount=2 -->
-          <LookupListIndex index="0" value="25"/>
-          <LookupListIndex index="1" value="26"/>
+          <LookupListIndex index="0" value="26"/>
+          <LookupListIndex index="1" value="27"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="3">
@@ -11644,35 +11648,36 @@ You should have received a copy of the GNU Affero General Public License along w
       <FeatureRecord index="7">
         <FeatureTag value="rclt"/>
         <Feature>
-          <!-- LookupCount=2 -->
+          <!-- LookupCount=3 -->
           <LookupListIndex index="0" value="20"/>
           <LookupListIndex index="1" value="21"/>
+          <LookupListIndex index="2" value="22"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="8">
         <FeatureTag value="salt"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="24"/>
+          <LookupListIndex index="0" value="25"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="9">
         <FeatureTag value="ss01"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="22"/>
+          <LookupListIndex index="0" value="23"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="10">
         <FeatureTag value="ss02"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="23"/>
+          <LookupListIndex index="0" value="24"/>
         </Feature>
       </FeatureRecord>
     </FeatureList>
     <LookupList>
-      <!-- LookupCount=29 -->
+      <!-- LookupCount=31 -->
       <Lookup index="0">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
@@ -11946,7 +11951,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="27"/>
+            <LookupListIndex value="28"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="1" Format="3">
@@ -11966,7 +11971,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="27"/>
+            <LookupListIndex value="28"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="2" Format="3">
@@ -11983,7 +11988,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="27"/>
+            <LookupListIndex value="28"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="3" Format="3">
@@ -11999,7 +12004,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="27"/>
+            <LookupListIndex value="28"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="4" Format="3">
@@ -12016,7 +12021,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="27"/>
+            <LookupListIndex value="28"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="5" Format="3">
@@ -12035,7 +12040,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="27"/>
+            <LookupListIndex value="28"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="6" Format="3">
@@ -12075,6 +12080,27 @@ You should have received a copy of the GNU Affero General Public License along w
         </LigatureSubst>
       </Lookup>
       <Lookup index="22">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="space"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="space"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="29"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="23">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -12089,7 +12115,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <Substitution in="twodotshorizontalbelowar" out="empty"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="23">
+      <Lookup index="24">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -12101,7 +12127,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <Substitution in="twodotshorizontalbelowar" out="twodotshorizontalbelowar.alt1"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="24">
+      <Lookup index="25">
         <LookupType value="3"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -12363,7 +12389,7 @@ You should have received a copy of the GNU Affero General Public License along w
           </AlternateSet>
         </AlternateSubst>
       </Lookup>
-      <Lookup index="25">
+      <Lookup index="26">
         <LookupType value="6"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
@@ -12382,12 +12408,12 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="28"/>
+            <LookupListIndex value="30"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <MarkFilteringSet value="0"/>
       </Lookup>
-      <Lookup index="26">
+      <Lookup index="27">
         <LookupType value="6"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
@@ -12414,7 +12440,7 @@ You should have received a copy of the GNU Affero General Public License along w
         </ChainContextSubst>
         <MarkFilteringSet value="1"/>
       </Lookup>
-      <Lookup index="27">
+      <Lookup index="28">
         <LookupType value="1"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
         <!-- SubTableCount=1 -->
@@ -12424,7 +12450,15 @@ You should have received a copy of the GNU Affero General Public License along w
           <Substitution in="seenar.medi" out="seenar.medi.3"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="28">
+      <Lookup index="29">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="1">
+          <Substitution in="space" out="space.alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="30">
         <LookupType value="1"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
@@ -12643,6 +12677,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="sixar" width="250" lsb="0"/>
     <mtx name="sixar.1" width="250" lsb="0"/>
     <mtx name="space" width="0" lsb="0"/>
+    <mtx name="space.alt" width="40" lsb="0"/>
     <mtx name="tahar" width="750" lsb="0"/>
     <mtx name="tahar.fina" width="750" lsb="0"/>
     <mtx name="tahar.init" width="670" lsb="-20"/>
