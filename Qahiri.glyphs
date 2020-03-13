@@ -249,8 +249,8 @@ code = "lookup Alternates {
   sub heh-ar.medi             from [heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7];
   sub kaf-ar                  from [kaf-ar kaf-ar.1 kaf-ar.2];
   sub kaf-ar.fina             from [kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2];
-  sub kaf-ar.init             from [kaf-ar.init kaf-ar.init.1 kaf-ar.init.2];
-  sub kaf-ar.medi             from [kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2];
+  sub kaf-ar.init             from [kaf-ar.init.1 kaf-ar.init.2 kaf-ar.init];
+  sub kaf-ar.medi             from [kaf-ar.medi.1 kaf-ar.medi.2 kaf-ar.medi];
   sub lam_alef-ar             from [lam_alef-ar lam_alef-ar.1 lam_alef-ar.2 lam_alef-ar.3 lam_alef-ar.4 lam_alef-ar.5];
   sub lam_alef-ar.fina        from [lam_alef-ar.fina lam_alef-ar.fina.1 lam_alef-ar.fina.2 lam_alef-ar.fina.3 lam_alef-ar.fina.4 lam_alef-ar.fina.5];
   sub meem-ar                 from [meem-ar meem-ar.1 meem-ar.2];
@@ -4926,11 +4926,11 @@ name = "kaf-ar.init";
 },
 {
 name = "kashida-ar";
-transform = "{1, 0, 0, 1, 520, 0}";
+transform = "{1, 0, 0, 1, 500, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 600;
+width = 580;
 }
 );
 leftKerningGroup = waw;
@@ -4956,6 +4956,8 @@ width = 600;
 }
 );
 leftKerningGroup = waw;
+leftMetricsKey = "=kaf-ar.init.1";
+widthMetricsKey = "=kaf-ar.init.1";
 },
 {
 glyphname = "kaf-ar.medi.2";
@@ -4968,18 +4970,56 @@ name = "kaf-ar.init.2";
 },
 {
 name = "kashida-ar";
-transform = "{1, 0, 0, 1, 500, 0}";
+transform = "{1, 0, 0, 1, 520, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 580;
+width = 600;
 }
 );
 leftKerningGroup = waw;
-widthMetricsKey = "=kaf-ar.init.2";
+leftMetricsKey = "kaf-ar.init.2";
+widthMetricsKey = "kaf-ar.init.2";
 },
 {
 glyphname = "kaf-ar.init";
+layers = (
+{
+components = (
+{
+name = _dal;
+transform = "{1, 0, 0, 1, -20, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"122 180 LINE",
+"56 180 LINE",
+"83 250 LINE",
+"80 250 LINE",
+"0 110 LINE",
+"122 110 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"50 0 LINE",
+"50 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 580;
+}
+);
+},
+{
+glyphname = "kaf-ar.init.1";
 layers = (
 {
 components = (
@@ -5026,7 +5066,7 @@ width = 600;
 );
 },
 {
-glyphname = "kaf-ar.init.1";
+glyphname = "kaf-ar.init.2";
 layers = (
 {
 components = (
@@ -5065,43 +5105,6 @@ nodes = (
 }
 );
 width = 600;
-}
-);
-},
-{
-glyphname = "kaf-ar.init.2";
-layers = (
-{
-components = (
-{
-name = _dal;
-transform = "{1, 0, 0, 1, -20, 0}";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"122 180 LINE",
-"56 180 LINE",
-"83 250 LINE",
-"80 250 LINE",
-"0 110 LINE",
-"122 110 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"50 0 LINE",
-"50 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
-);
-}
-);
-width = 580;
 }
 );
 },
@@ -11281,10 +11284,10 @@ kerning = {
 "@MMK_R_yeh" = -40;
 "alefMaksura-ar.fina.5" = 0;
 };
-"kaf-ar.init" = {
+"kaf-ar.init.1" = {
 "@MMK_R_yeh" = -30;
 };
-"kaf-ar.medi" = {
+"kaf-ar.medi.1" = {
 "@MMK_R_yeh" = -30;
 };
 "qafDotless-ar" = {

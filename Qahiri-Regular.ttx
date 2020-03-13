@@ -248,12 +248,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0x2e977f43"/>
+    <checkSumAdjustment value="0x6e8c779f"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Fri Mar 13 23:18:09 2020"/>
-    <modified value="Fri Mar 13 23:18:09 2020"/>
+    <created value="Fri Mar 13 23:27:42 2020"/>
+    <modified value="Fri Mar 13 23:27:42 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -2421,31 +2421,6 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kafar.init">
-          253 0 70 40 70 380 -20 hstem
-          73 77 326 84 vstem
-          446 180 rmoveto
-          -360 hlineto
-          62 111 14 132 -22 137 -80 -80 rcurveline
-          25 -125 -11 -134 -52 -111 rrcurveto
-          414 hlineto
-          22 18 -18 -22 hvcurveto
-          -494 -70 557 hlineto
-          6 15 0 21 139 -70 20 -44 hvcurveto
-          endchar
-        </CharString>
-        <CharString name="kafar.init.1">
-          253 0 70 40 70 380 -20 hstem
-          0 80 396 84 vstem
-          446 180 rmoveto
-          -366 380 hlineto
-          -80 -20 rlineto
-          -430 436 vlineto
-          22 18 -18 -22 hvcurveto
-          -496 -70 559 hlineto
-          6 15 0 21 139 -70 20 -44 hvcurveto
-          endchar
-        </CharString>
-        <CharString name="kafar.init.2">
           233 0 70 40 70 hstem
           456 84 vstem
           426 180 rmoveto
@@ -2459,32 +2434,32 @@ You should have received a copy of the GNU Affero General Public License along w
           6 15 0 21 139 -70 20 -44 hvcurveto
           endchar
         </CharString>
-        <CharString name="kafar.medi">
+        <CharString name="kafar.init.1">
           253 0 70 40 70 380 -20 hstem
-          73 77 326 124 vstem
-          557 70 rmoveto
-          95 -15 -58 15 -38 hhcurveto
+          73 77 326 84 vstem
+          446 180 rmoveto
           -360 hlineto
           62 111 14 132 -22 137 -80 -80 rcurveline
           25 -125 -11 -134 -52 -111 rrcurveto
           414 hlineto
           22 18 -18 -22 hvcurveto
-          -494 -70 618 70 hlineto
+          -494 -70 557 hlineto
+          6 15 0 21 139 -70 20 -44 hvcurveto
           endchar
         </CharString>
-        <CharString name="kafar.medi.1">
+        <CharString name="kafar.init.2">
           253 0 70 40 70 380 -20 hstem
-          0 80 396 124 vstem
-          557 70 rmoveto
-          95 -15 -58 15 -38 hhcurveto
+          0 80 396 84 vstem
+          446 180 rmoveto
           -366 380 hlineto
           -80 -20 rlineto
           -430 436 vlineto
           22 18 -18 -22 hvcurveto
-          -496 -70 620 70 hlineto
+          -496 -70 559 hlineto
+          6 15 0 21 139 -70 20 -44 hvcurveto
           endchar
         </CharString>
-        <CharString name="kafar.medi.2">
+        <CharString name="kafar.medi">
           233 0 70 40 70 hstemhm
           -20 600 -124 124 hintmask 11100000
           537 70 rmoveto
@@ -2497,6 +2472,31 @@ You should have received a copy of the GNU Affero General Public License along w
           416 hlineto
           22 18 -18 -22 hvcurveto
           -476 -70 600 70 hlineto
+          endchar
+        </CharString>
+        <CharString name="kafar.medi.1">
+          253 0 70 40 70 380 -20 hstem
+          73 77 326 124 vstem
+          557 70 rmoveto
+          95 -15 -58 15 -38 hhcurveto
+          -360 hlineto
+          62 111 14 132 -22 137 -80 -80 rcurveline
+          25 -125 -11 -134 -52 -111 rrcurveto
+          414 hlineto
+          22 18 -18 -22 hvcurveto
+          -494 -70 618 70 hlineto
+          endchar
+        </CharString>
+        <CharString name="kafar.medi.2">
+          253 0 70 40 70 380 -20 hstem
+          0 80 396 124 vstem
+          557 70 rmoveto
+          95 -15 -58 15 -38 hhcurveto
+          -366 380 hlineto
+          -80 -20 rlineto
+          -430 436 vlineto
+          22 18 -18 -22 hvcurveto
+          -496 -70 620 70 hlineto
           endchar
         </CharString>
         <CharString name="kashidaar">
@@ -5727,8 +5727,8 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="kafar.fina"/>
             <Glyph value="kafar.fina.1"/>
             <Glyph value="kafar.fina.2"/>
-            <Glyph value="kafar.medi"/>
-            <Glyph value="kafar.init"/>
+            <Glyph value="kafar.medi.1"/>
+            <Glyph value="kafar.init.1"/>
             <Glyph value="lamar"/>
             <Glyph value="lamar.fina"/>
             <Glyph value="meemar"/>
@@ -5776,8 +5776,8 @@ You should have received a copy of the GNU Affero General Public License along w
             <ClassDef glyph="kafar.fina" class="1"/>
             <ClassDef glyph="kafar.fina.1" class="1"/>
             <ClassDef glyph="kafar.fina.2" class="1"/>
-            <ClassDef glyph="kafar.init" class="16"/>
-            <ClassDef glyph="kafar.medi" class="17"/>
+            <ClassDef glyph="kafar.init.1" class="16"/>
+            <ClassDef glyph="kafar.medi.1" class="17"/>
             <ClassDef glyph="meemar" class="1"/>
             <ClassDef glyph="meemar.1" class="1"/>
             <ClassDef glyph="meemar.2" class="1"/>
@@ -10683,7 +10683,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <BaseRecord index="116">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="280"/>
+                <XCoordinate value="260"/>
                 <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
@@ -10697,14 +10697,14 @@ You should have received a copy of the GNU Affero General Public License along w
             <BaseRecord index="118">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="260"/>
+                <XCoordinate value="280"/>
                 <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="119">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="280"/>
+                <XCoordinate value="260"/>
                 <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
@@ -10718,7 +10718,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <BaseRecord index="121">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="260"/>
+                <XCoordinate value="280"/>
                 <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
@@ -12281,14 +12281,14 @@ You should have received a copy of the GNU Affero General Public License along w
             <Alternate glyph="kafar.fina.2"/>
           </AlternateSet>
           <AlternateSet glyph="kafar.init">
-            <Alternate glyph="kafar.init"/>
             <Alternate glyph="kafar.init.1"/>
             <Alternate glyph="kafar.init.2"/>
+            <Alternate glyph="kafar.init"/>
           </AlternateSet>
           <AlternateSet glyph="kafar.medi">
-            <Alternate glyph="kafar.medi"/>
             <Alternate glyph="kafar.medi.1"/>
             <Alternate glyph="kafar.medi.2"/>
+            <Alternate glyph="kafar.medi"/>
           </AlternateSet>
           <AlternateSet glyph="lam_alefar">
             <Alternate glyph="lam_alefar"/>
@@ -12599,12 +12599,12 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="kafar.fina" width="640" lsb="0"/>
     <mtx name="kafar.fina.1" width="640" lsb="0"/>
     <mtx name="kafar.fina.2" width="640" lsb="0"/>
-    <mtx name="kafar.init" width="600" lsb="-18"/>
-    <mtx name="kafar.init.1" width="600" lsb="-20"/>
-    <mtx name="kafar.init.2" width="580" lsb="-20"/>
-    <mtx name="kafar.medi" width="600" lsb="-18"/>
-    <mtx name="kafar.medi.1" width="600" lsb="-20"/>
-    <mtx name="kafar.medi.2" width="580" lsb="-20"/>
+    <mtx name="kafar.init" width="580" lsb="-20"/>
+    <mtx name="kafar.init.1" width="600" lsb="-18"/>
+    <mtx name="kafar.init.2" width="600" lsb="-20"/>
+    <mtx name="kafar.medi" width="580" lsb="-20"/>
+    <mtx name="kafar.medi.1" width="600" lsb="-18"/>
+    <mtx name="kafar.medi.2" width="600" lsb="-20"/>
     <mtx name="kashidaar" width="80" lsb="-20"/>
     <mtx name="khahar" width="640" lsb="0"/>
     <mtx name="lam_alefar" width="360" lsb="-40"/>
