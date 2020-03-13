@@ -1,9 +1,5 @@
 {
 .appVersion = "1300";
-DisplayStrings = (
-"/alef-ar/lam-ar/kaf-ar.medi.2/waw-ar/fehDotless-ar.init.1/alefMaksura-ar.fina.0/space/alef-ar/lam-ar.init/fehDotless-ar.medi.1/alef-ar/heh-ar.init.7/reh-ar.fina.1/alefMaksura-ar.4",
-"/space.alt"
-);
 classes = (
 {
 code = "dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar";
