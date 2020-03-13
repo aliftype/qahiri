@@ -111,146 +111,148 @@
     <GlyphID id="105" name="fehDotlessar.medi.1"/>
     <GlyphID id="106" name="fehDotlessar.init"/>
     <GlyphID id="107" name="fehDotlessar.init.1"/>
-    <GlyphID id="108" name="qafDotlessar"/>
-    <GlyphID id="109" name="qafDotlessar.fina"/>
-    <GlyphID id="110" name="qafar"/>
-    <GlyphID id="111" name="kafar"/>
-    <GlyphID id="112" name="kafar.1"/>
-    <GlyphID id="113" name="kafar.2"/>
-    <GlyphID id="114" name="kafar.fina"/>
-    <GlyphID id="115" name="kafar.fina.1"/>
-    <GlyphID id="116" name="kafar.fina.2"/>
-    <GlyphID id="117" name="kafar.medi"/>
-    <GlyphID id="118" name="kafar.medi.1"/>
-    <GlyphID id="119" name="kafar.medi.2"/>
-    <GlyphID id="120" name="kafar.init"/>
-    <GlyphID id="121" name="kafar.init.1"/>
-    <GlyphID id="122" name="kafar.init.2"/>
-    <GlyphID id="123" name="lamar"/>
-    <GlyphID id="124" name="lamar.fina"/>
-    <GlyphID id="125" name="lamar.medi"/>
-    <GlyphID id="126" name="lamar.medi.lellah"/>
-    <GlyphID id="127" name="lamar.init"/>
-    <GlyphID id="128" name="lamar.init.hah"/>
-    <GlyphID id="129" name="lamar.init.lellah"/>
-    <GlyphID id="130" name="meemar"/>
-    <GlyphID id="131" name="meemar.1"/>
-    <GlyphID id="132" name="meemar.2"/>
-    <GlyphID id="133" name="meemar.fina"/>
-    <GlyphID id="134" name="meemar.fina.1"/>
-    <GlyphID id="135" name="meemar.fina.2"/>
-    <GlyphID id="136" name="meemar.medi"/>
-    <GlyphID id="137" name="meemar.medi.1"/>
-    <GlyphID id="138" name="meemar.init"/>
-    <GlyphID id="139" name="noonar"/>
-    <GlyphID id="140" name="noonghunnaar"/>
-    <GlyphID id="141" name="noonghunnaar.fina"/>
-    <GlyphID id="142" name="hehar"/>
-    <GlyphID id="143" name="hehar.1"/>
-    <GlyphID id="144" name="hehar.2"/>
-    <GlyphID id="145" name="hehar.fina"/>
-    <GlyphID id="146" name="hehar.fina.1"/>
-    <GlyphID id="147" name="hehar.fina.2"/>
-    <GlyphID id="148" name="hehar.medi"/>
-    <GlyphID id="149" name="hehar.medi.1"/>
-    <GlyphID id="150" name="hehar.medi.2"/>
-    <GlyphID id="151" name="hehar.medi.3"/>
-    <GlyphID id="152" name="hehar.medi.4"/>
-    <GlyphID id="153" name="hehar.medi.5"/>
-    <GlyphID id="154" name="hehar.medi.6"/>
-    <GlyphID id="155" name="hehar.medi.7"/>
-    <GlyphID id="156" name="hehar.init"/>
-    <GlyphID id="157" name="hehar.init.1"/>
-    <GlyphID id="158" name="hehar.init.2"/>
-    <GlyphID id="159" name="hehar.init.3"/>
-    <GlyphID id="160" name="hehar.init.4"/>
-    <GlyphID id="161" name="hehar.init.5"/>
-    <GlyphID id="162" name="hehar.init.6"/>
-    <GlyphID id="163" name="hehar.init.7"/>
-    <GlyphID id="164" name="tehMarbutaar"/>
-    <GlyphID id="165" name="wawar"/>
-    <GlyphID id="166" name="wawar.1"/>
-    <GlyphID id="167" name="wawar.2"/>
-    <GlyphID id="168" name="wawar.3"/>
-    <GlyphID id="169" name="wawar.fina"/>
-    <GlyphID id="170" name="wawar.fina.1"/>
-    <GlyphID id="171" name="wawHamzaabovear"/>
-    <GlyphID id="172" name="alefMaksuraar"/>
-    <GlyphID id="173" name="alefMaksuraar.1"/>
-    <GlyphID id="174" name="alefMaksuraar.2"/>
-    <GlyphID id="175" name="alefMaksuraar.3"/>
-    <GlyphID id="176" name="alefMaksuraar.4"/>
-    <GlyphID id="177" name="alefMaksuraar.5"/>
-    <GlyphID id="178" name="alefMaksuraar.6"/>
-    <GlyphID id="179" name="alefMaksuraar.fina"/>
-    <GlyphID id="180" name="alefMaksuraar.fina.0"/>
-    <GlyphID id="181" name="alefMaksuraar.fina.1"/>
-    <GlyphID id="182" name="alefMaksuraar.fina.2"/>
-    <GlyphID id="183" name="alefMaksuraar.fina.3"/>
-    <GlyphID id="184" name="alefMaksuraar.fina.4"/>
-    <GlyphID id="185" name="alefMaksuraar.fina.5"/>
-    <GlyphID id="186" name="alefMaksuraar.fina.6"/>
-    <GlyphID id="187" name="alefMaksuraar.fina.tooth"/>
-    <GlyphID id="188" name="yehar"/>
-    <GlyphID id="189" name="yehHamzaabovear"/>
-    <GlyphID id="190" name="yehfarsi"/>
-    <GlyphID id="191" name="kashidaar"/>
-    <GlyphID id="192" name="lam_alefar"/>
-    <GlyphID id="193" name="lam_alefar.fina"/>
-    <GlyphID id="194" name="lam_alefar.1"/>
-    <GlyphID id="195" name="lam_alefar.fina.1"/>
-    <GlyphID id="196" name="lam_alefar.fina.2"/>
-    <GlyphID id="197" name="lam_alefar.fina.3"/>
-    <GlyphID id="198" name="lam_alefar.fina.4"/>
-    <GlyphID id="199" name="lam_alefar.fina.5"/>
-    <GlyphID id="200" name="lam_alefar.2"/>
-    <GlyphID id="201" name="lam_alefar.3"/>
-    <GlyphID id="202" name="lam_alefar.4"/>
-    <GlyphID id="203" name="lam_alefar.5"/>
-    <GlyphID id="204" name="zeroar"/>
-    <GlyphID id="205" name="onear"/>
-    <GlyphID id="206" name="twoar"/>
-    <GlyphID id="207" name="twoar.1"/>
-    <GlyphID id="208" name="threear"/>
-    <GlyphID id="209" name="threear.1"/>
-    <GlyphID id="210" name="fourar"/>
-    <GlyphID id="211" name="fourar.1"/>
-    <GlyphID id="212" name="fourar.2"/>
-    <GlyphID id="213" name="fivear"/>
-    <GlyphID id="214" name="sixar"/>
-    <GlyphID id="215" name="sixar.1"/>
-    <GlyphID id="216" name="sevenar"/>
-    <GlyphID id="217" name="sevenar.1"/>
-    <GlyphID id="218" name="eightar"/>
-    <GlyphID id="219" name="eightar.1"/>
-    <GlyphID id="220" name="ninear"/>
-    <GlyphID id="221" name="dotabovear"/>
-    <GlyphID id="222" name="dotabovear.alt1"/>
-    <GlyphID id="223" name="dotbelowar"/>
-    <GlyphID id="224" name="dotbelowar.alt1"/>
-    <GlyphID id="225" name="twodotsverticalabovear"/>
-    <GlyphID id="226" name="twodotsverticalabovear.alt1"/>
-    <GlyphID id="227" name="twodotshorizontalabovear"/>
-    <GlyphID id="228" name="twodotshorizontalabovear.alt1"/>
-    <GlyphID id="229" name="twodotshorizontalbelowar"/>
-    <GlyphID id="230" name="twodotshorizontalbelowar.alt1"/>
-    <GlyphID id="231" name="threedotsupabovear"/>
-    <GlyphID id="232" name="threedotsupabovear.alt1"/>
-    <GlyphID id="233" name="hamzaabovear"/>
-    <GlyphID id="234" name="hamzabelowar"/>
-    <GlyphID id="235" name="empty"/>
+    <GlyphID id="108" name="fehDotbelowar"/>
+    <GlyphID id="109" name="qafDotlessar"/>
+    <GlyphID id="110" name="qafDotlessar.fina"/>
+    <GlyphID id="111" name="qafar"/>
+    <GlyphID id="112" name="qafDotabovear"/>
+    <GlyphID id="113" name="kafar"/>
+    <GlyphID id="114" name="kafar.1"/>
+    <GlyphID id="115" name="kafar.2"/>
+    <GlyphID id="116" name="kafar.fina"/>
+    <GlyphID id="117" name="kafar.fina.1"/>
+    <GlyphID id="118" name="kafar.fina.2"/>
+    <GlyphID id="119" name="kafar.medi"/>
+    <GlyphID id="120" name="kafar.medi.1"/>
+    <GlyphID id="121" name="kafar.medi.2"/>
+    <GlyphID id="122" name="kafar.init"/>
+    <GlyphID id="123" name="kafar.init.1"/>
+    <GlyphID id="124" name="kafar.init.2"/>
+    <GlyphID id="125" name="lamar"/>
+    <GlyphID id="126" name="lamar.fina"/>
+    <GlyphID id="127" name="lamar.medi"/>
+    <GlyphID id="128" name="lamar.medi.lellah"/>
+    <GlyphID id="129" name="lamar.init"/>
+    <GlyphID id="130" name="lamar.init.hah"/>
+    <GlyphID id="131" name="lamar.init.lellah"/>
+    <GlyphID id="132" name="meemar"/>
+    <GlyphID id="133" name="meemar.1"/>
+    <GlyphID id="134" name="meemar.2"/>
+    <GlyphID id="135" name="meemar.fina"/>
+    <GlyphID id="136" name="meemar.fina.1"/>
+    <GlyphID id="137" name="meemar.fina.2"/>
+    <GlyphID id="138" name="meemar.medi"/>
+    <GlyphID id="139" name="meemar.medi.1"/>
+    <GlyphID id="140" name="meemar.init"/>
+    <GlyphID id="141" name="noonar"/>
+    <GlyphID id="142" name="noonghunnaar"/>
+    <GlyphID id="143" name="noonghunnaar.fina"/>
+    <GlyphID id="144" name="hehar"/>
+    <GlyphID id="145" name="hehar.1"/>
+    <GlyphID id="146" name="hehar.2"/>
+    <GlyphID id="147" name="hehar.fina"/>
+    <GlyphID id="148" name="hehar.fina.1"/>
+    <GlyphID id="149" name="hehar.fina.2"/>
+    <GlyphID id="150" name="hehar.medi"/>
+    <GlyphID id="151" name="hehar.medi.1"/>
+    <GlyphID id="152" name="hehar.medi.2"/>
+    <GlyphID id="153" name="hehar.medi.3"/>
+    <GlyphID id="154" name="hehar.medi.4"/>
+    <GlyphID id="155" name="hehar.medi.5"/>
+    <GlyphID id="156" name="hehar.medi.6"/>
+    <GlyphID id="157" name="hehar.medi.7"/>
+    <GlyphID id="158" name="hehar.init"/>
+    <GlyphID id="159" name="hehar.init.1"/>
+    <GlyphID id="160" name="hehar.init.2"/>
+    <GlyphID id="161" name="hehar.init.3"/>
+    <GlyphID id="162" name="hehar.init.4"/>
+    <GlyphID id="163" name="hehar.init.5"/>
+    <GlyphID id="164" name="hehar.init.6"/>
+    <GlyphID id="165" name="hehar.init.7"/>
+    <GlyphID id="166" name="tehMarbutaar"/>
+    <GlyphID id="167" name="wawar"/>
+    <GlyphID id="168" name="wawar.1"/>
+    <GlyphID id="169" name="wawar.2"/>
+    <GlyphID id="170" name="wawar.3"/>
+    <GlyphID id="171" name="wawar.fina"/>
+    <GlyphID id="172" name="wawar.fina.1"/>
+    <GlyphID id="173" name="wawHamzaabovear"/>
+    <GlyphID id="174" name="alefMaksuraar"/>
+    <GlyphID id="175" name="alefMaksuraar.1"/>
+    <GlyphID id="176" name="alefMaksuraar.2"/>
+    <GlyphID id="177" name="alefMaksuraar.3"/>
+    <GlyphID id="178" name="alefMaksuraar.4"/>
+    <GlyphID id="179" name="alefMaksuraar.5"/>
+    <GlyphID id="180" name="alefMaksuraar.6"/>
+    <GlyphID id="181" name="alefMaksuraar.fina"/>
+    <GlyphID id="182" name="alefMaksuraar.fina.0"/>
+    <GlyphID id="183" name="alefMaksuraar.fina.1"/>
+    <GlyphID id="184" name="alefMaksuraar.fina.2"/>
+    <GlyphID id="185" name="alefMaksuraar.fina.3"/>
+    <GlyphID id="186" name="alefMaksuraar.fina.4"/>
+    <GlyphID id="187" name="alefMaksuraar.fina.5"/>
+    <GlyphID id="188" name="alefMaksuraar.fina.6"/>
+    <GlyphID id="189" name="alefMaksuraar.fina.tooth"/>
+    <GlyphID id="190" name="yehar"/>
+    <GlyphID id="191" name="yehHamzaabovear"/>
+    <GlyphID id="192" name="yehfarsi"/>
+    <GlyphID id="193" name="kashidaar"/>
+    <GlyphID id="194" name="lam_alefar"/>
+    <GlyphID id="195" name="lam_alefar.fina"/>
+    <GlyphID id="196" name="lam_alefar.1"/>
+    <GlyphID id="197" name="lam_alefar.fina.1"/>
+    <GlyphID id="198" name="lam_alefar.fina.2"/>
+    <GlyphID id="199" name="lam_alefar.fina.3"/>
+    <GlyphID id="200" name="lam_alefar.fina.4"/>
+    <GlyphID id="201" name="lam_alefar.fina.5"/>
+    <GlyphID id="202" name="lam_alefar.2"/>
+    <GlyphID id="203" name="lam_alefar.3"/>
+    <GlyphID id="204" name="lam_alefar.4"/>
+    <GlyphID id="205" name="lam_alefar.5"/>
+    <GlyphID id="206" name="zeroar"/>
+    <GlyphID id="207" name="onear"/>
+    <GlyphID id="208" name="twoar"/>
+    <GlyphID id="209" name="twoar.1"/>
+    <GlyphID id="210" name="threear"/>
+    <GlyphID id="211" name="threear.1"/>
+    <GlyphID id="212" name="fourar"/>
+    <GlyphID id="213" name="fourar.1"/>
+    <GlyphID id="214" name="fourar.2"/>
+    <GlyphID id="215" name="fivear"/>
+    <GlyphID id="216" name="sixar"/>
+    <GlyphID id="217" name="sixar.1"/>
+    <GlyphID id="218" name="sevenar"/>
+    <GlyphID id="219" name="sevenar.1"/>
+    <GlyphID id="220" name="eightar"/>
+    <GlyphID id="221" name="eightar.1"/>
+    <GlyphID id="222" name="ninear"/>
+    <GlyphID id="223" name="dotabovear"/>
+    <GlyphID id="224" name="dotabovear.alt1"/>
+    <GlyphID id="225" name="dotbelowar"/>
+    <GlyphID id="226" name="dotbelowar.alt1"/>
+    <GlyphID id="227" name="twodotsverticalabovear"/>
+    <GlyphID id="228" name="twodotsverticalabovear.alt1"/>
+    <GlyphID id="229" name="twodotshorizontalabovear"/>
+    <GlyphID id="230" name="twodotshorizontalabovear.alt1"/>
+    <GlyphID id="231" name="twodotshorizontalbelowar"/>
+    <GlyphID id="232" name="twodotshorizontalbelowar.alt1"/>
+    <GlyphID id="233" name="threedotsupabovear"/>
+    <GlyphID id="234" name="threedotsupabovear.alt1"/>
+    <GlyphID id="235" name="hamzaabovear"/>
+    <GlyphID id="236" name="hamzabelowar"/>
+    <GlyphID id="237" name="empty"/>
   </GlyphOrder>
 
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0xea20d96c"/>
+    <checkSumAdjustment value="0xd5b2fd4"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Thu Mar 12 23:46:21 2020"/>
-    <modified value="Thu Mar 12 23:46:21 2020"/>
+    <created value="Fri Mar 13 18:52:58 2020"/>
+    <modified value="Fri Mar 13 18:52:58 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -279,19 +281,19 @@
     <reserved2 value="0"/>
     <reserved3 value="0"/>
     <metricDataFormat value="0"/>
-    <numberOfHMetrics value="222"/>
+    <numberOfHMetrics value="224"/>
   </hhea>
 
   <maxp>
     <tableVersion value="0x5000"/>
-    <numGlyphs value="236"/>
+    <numGlyphs value="238"/>
   </maxp>
 
   <OS_2>
     <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
          will be recalculated by the compiler -->
     <version value="3"/>
-    <xAvgCharWidth value="368"/>
+    <xAvgCharWidth value="369"/>
     <usWeightClass value="400"/>
     <usWidthClass value="5"/>
     <fsType value="00000000 00001000"/>
@@ -486,6 +488,8 @@ You should have received a copy of the GNU Affero General Public License along w
       <map code="0x66f" name="qafDotlessar"/><!-- ARABIC LETTER DOTLESS QAF -->
       <map code="0x671" name="alefWaslaar"/><!-- ARABIC LETTER ALEF WASLA -->
       <map code="0x6a1" name="fehDotlessar"/><!-- ARABIC LETTER DOTLESS FEH -->
+      <map code="0x6a3" name="fehDotbelowar"/><!-- ARABIC LETTER FEH WITH DOT BELOW -->
+      <map code="0x6a7" name="qafDotabovear"/><!-- ARABIC LETTER QAF WITH DOT ABOVE -->
       <map code="0x6ba" name="noonghunnaar"/><!-- ARABIC LETTER NOON GHUNNA -->
       <map code="0x6cc" name="yehfarsi"/><!-- ARABIC LETTER FARSI YEH -->
     </cmap_format_4>
@@ -544,6 +548,8 @@ You should have received a copy of the GNU Affero General Public License along w
       <map code="0x66f" name="qafDotlessar"/><!-- ARABIC LETTER DOTLESS QAF -->
       <map code="0x671" name="alefWaslaar"/><!-- ARABIC LETTER ALEF WASLA -->
       <map code="0x6a1" name="fehDotlessar"/><!-- ARABIC LETTER DOTLESS FEH -->
+      <map code="0x6a3" name="fehDotbelowar"/><!-- ARABIC LETTER FEH WITH DOT BELOW -->
+      <map code="0x6a7" name="qafDotabovear"/><!-- ARABIC LETTER QAF WITH DOT ABOVE -->
       <map code="0x6ba" name="noonghunnaar"/><!-- ARABIC LETTER NOON GHUNNA -->
       <map code="0x6cc" name="yehfarsi"/><!-- ARABIC LETTER FARSI YEH -->
     </cmap_format_4>
@@ -1420,6 +1426,24 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="empty">
+          endchar
+        </CharString>
+        <CharString name="fehDotbelowar">
+          316 0 70 40 70 40 70 hstem
+          360 80 52 81 vstem
+          461 290 rmoveto
+          -56 -45 -40 -50 -50 45 -40 55 10 10 1 3 10 hvcurveto
+          2 -7 0 -8 -7 vvcurveto
+          -7 0 -8 -2 -7 vhcurveto
+          -390 hlineto
+          -22 -16 7 13 -10 hvcurveto
+          -52 -90 rlineto
+          536 hlineto
+          24 13 37 65 77 -19 111 -93 hvcurveto
+          -1 -110 rmoveto
+          -11 -9 9 11 11 9 9 11 11 9 -9 -11 -11 -9 -9 -11 hvcurveto
+          -40 -294 rmoveto
+          17 -10 47 79 -17 10 rlineto
           endchar
         </CharString>
         <CharString name="fehDotlessar">
@@ -3016,6 +3040,31 @@ You should have received a copy of the GNU Affero General Public License along w
           -350 70 350 vlineto
           endchar
         </CharString>
+        <CharString name="qafDotabovear">
+          -1 -250 70 40 70 70 70 40 70 hstemhm
+          0 80 40 80 -28 84 hintmask 11111100
+          143 334 rmoveto
+          -17 10 -47 -79 17 -10 rlineto
+          hintmask 11111010
+          46 -325 rmoveto
+          -51 hlineto
+          hintmask 11111100
+          88 97 rlineto
+          14 15 7 21 27 vvcurveto
+          50 -45 40 -55 -55 -45 -40 -50 -60 45 -30 55 11 10 1 1 9 vhcurveto
+          -130 -142 rlineto
+          hintmask 11111010
+          132 hlineto
+          22 18 -18 -22 hvcurveto
+          -196 hlineto
+          -40 -70 rlineto
+          299 hlineto
+          6 15 0 21 139 -70 20 -44 hvcurveto
+          hintmask 11111100
+          -42 140 rmoveto
+          -11 -9 9 11 11 9 9 11 11 9 -9 -11 -11 -9 -9 -11 hvcurveto
+          endchar
+        </CharString>
         <CharString name="qafDotlessar">
           -1 -250 70 40 70 70 70 40 70 hstemhm
           0 80 40 80 -28 84 hintmask 00000000
@@ -4451,6 +4500,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="dotbelowar" class="3"/>
       <ClassDef glyph="dotbelowar.alt1" class="3"/>
       <ClassDef glyph="empty" class="3"/>
+      <ClassDef glyph="fehDotbelowar" class="1"/>
       <ClassDef glyph="fehDotlessar" class="1"/>
       <ClassDef glyph="fehDotlessar.1" class="1"/>
       <ClassDef glyph="fehDotlessar.2" class="1"/>
@@ -4513,6 +4563,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="noonar" class="1"/>
       <ClassDef glyph="noonghunnaar" class="1"/>
       <ClassDef glyph="noonghunnaar.fina" class="1"/>
+      <ClassDef glyph="qafDotabovear" class="1"/>
       <ClassDef glyph="qafDotlessar" class="1"/>
       <ClassDef glyph="qafDotlessar.fina" class="1"/>
       <ClassDef glyph="qafar" class="1"/>
@@ -5713,7 +5764,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <ClassDef glyph="wawar.fina" class="5"/>
             <ClassDef glyph="wawar.fina.1" class="5"/>
           </ClassDef1>
-          <ClassDef2 Format="1">
+          <ClassDef2 Format="2">
             <ClassDef glyph="ainar" class="12"/>
             <ClassDef glyph="ainar.1" class="13"/>
             <ClassDef glyph="ainar.2" class="14"/>
@@ -9226,9 +9277,11 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="fehDotlessar.medi.1"/>
             <Glyph value="fehDotlessar.init"/>
             <Glyph value="fehDotlessar.init.1"/>
+            <Glyph value="fehDotbelowar"/>
             <Glyph value="qafDotlessar"/>
             <Glyph value="qafDotlessar.fina"/>
             <Glyph value="qafar"/>
+            <Glyph value="qafDotabovear"/>
             <Glyph value="kafar"/>
             <Glyph value="kafar.1"/>
             <Glyph value="kafar.2"/>
@@ -9388,7 +9441,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </MarkRecord>
           </MarkArray>
           <BaseArray>
-            <!-- BaseCount=154 -->
+            <!-- BaseCount=156 -->
             <BaseRecord index="0">
               <BaseAnchor index="0" Format="1">
                 <XCoordinate value="70"/>
@@ -10188,101 +10241,143 @@ You should have received a copy of the GNU Affero General Public License along w
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="90">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="467"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="447"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="91">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="467"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="447"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="92">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="467"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="450"/>
                 <YCoordinate value="365"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="93">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="507"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="487"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="94">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="507"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="490"/>
                 <YCoordinate value="365"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="95">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="467"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="447"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="96">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="467"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="450"/>
                 <YCoordinate value="365"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="97">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="507"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="487"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="98">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="507"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="490"/>
                 <YCoordinate value="365"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="99">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="127"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="101"/>
                 <YCoordinate value="355"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="100">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="107"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="90"/>
                 <YCoordinate value="365"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="101">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="107"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="87"/>
                 <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="102">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="107"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="90"/>
                 <YCoordinate value="365"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="103">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="467"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="96"/>
-                <YCoordinate value="255"/>
+                <XCoordinate value="447"/>
+                <YCoordinate value="335"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="104">
@@ -10302,14 +10397,14 @@ You should have received a copy of the GNU Affero General Public License along w
             <BaseRecord index="106">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="320"/>
+                <XCoordinate value="96"/>
                 <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="107">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="320"/>
+                <XCoordinate value="96"/>
                 <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
@@ -10344,21 +10439,21 @@ You should have received a copy of the GNU Affero General Public License along w
             <BaseRecord index="112">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="280"/>
+                <XCoordinate value="320"/>
                 <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="113">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="280"/>
+                <XCoordinate value="320"/>
                 <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="114">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="260"/>
+                <XCoordinate value="280"/>
                 <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
@@ -10372,29 +10467,29 @@ You should have received a copy of the GNU Affero General Public License along w
             <BaseRecord index="116">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="280"/>
+                <XCoordinate value="260"/>
                 <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="117">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="260"/>
+                <XCoordinate value="280"/>
                 <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="118">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="80"/>
-                <YCoordinate value="205"/>
+                <XCoordinate value="280"/>
+                <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="119">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="80"/>
-                <YCoordinate value="205"/>
+                <XCoordinate value="260"/>
+                <YCoordinate value="255"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="120">
@@ -10407,92 +10502,92 @@ You should have received a copy of the GNU Affero General Public License along w
             <BaseRecord index="121">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="100"/>
-                <YCoordinate value="235"/>
+                <XCoordinate value="80"/>
+                <YCoordinate value="205"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="122">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="100"/>
-                <YCoordinate value="405"/>
+                <XCoordinate value="80"/>
+                <YCoordinate value="205"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="123">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="50"/>
-                <YCoordinate value="318"/>
+                <XCoordinate value="100"/>
+                <YCoordinate value="235"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="124">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="100"/>
-                <YCoordinate value="235"/>
-              </BaseAnchor>
-            </BaseRecord>
-            <BaseRecord index="125">
-              <BaseAnchor index="0" empty="1"/>
-              <BaseAnchor index="1" Format="1">
-                <XCoordinate value="100"/>
                 <YCoordinate value="405"/>
               </BaseAnchor>
             </BaseRecord>
-            <BaseRecord index="126">
+            <BaseRecord index="125">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="50"/>
                 <YCoordinate value="318"/>
               </BaseAnchor>
             </BaseRecord>
-            <BaseRecord index="127">
+            <BaseRecord index="126">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="100"/>
                 <YCoordinate value="235"/>
               </BaseAnchor>
             </BaseRecord>
+            <BaseRecord index="127">
+              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="1" Format="1">
+                <XCoordinate value="100"/>
+                <YCoordinate value="405"/>
+              </BaseAnchor>
+            </BaseRecord>
             <BaseRecord index="128">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="129"/>
-                <YCoordinate value="230"/>
+                <XCoordinate value="50"/>
+                <YCoordinate value="318"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="129">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="129"/>
-                <YCoordinate value="230"/>
+                <XCoordinate value="100"/>
+                <YCoordinate value="235"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="130">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="179"/>
-                <YCoordinate value="340"/>
+                <XCoordinate value="129"/>
+                <YCoordinate value="230"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="131">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="179"/>
-                <YCoordinate value="340"/>
+                <XCoordinate value="129"/>
+                <YCoordinate value="230"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="132">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="129"/>
-                <YCoordinate value="230"/>
+                <XCoordinate value="179"/>
+                <YCoordinate value="340"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="133">
               <BaseAnchor index="0" empty="1"/>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="129"/>
-                <YCoordinate value="230"/>
+                <XCoordinate value="179"/>
+                <YCoordinate value="340"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="134">
@@ -10503,6 +10598,20 @@ You should have received a copy of the GNU Affero General Public License along w
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="135">
+              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="1" Format="1">
+                <XCoordinate value="129"/>
+                <YCoordinate value="230"/>
+              </BaseAnchor>
+            </BaseRecord>
+            <BaseRecord index="136">
+              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="1" Format="1">
+                <XCoordinate value="129"/>
+                <YCoordinate value="230"/>
+              </BaseAnchor>
+            </BaseRecord>
+            <BaseRecord index="137">
               <BaseAnchor index="0" Format="1">
                 <XCoordinate value="87"/>
                 <YCoordinate value="-250"/>
@@ -10512,7 +10621,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 <YCoordinate value="198"/>
               </BaseAnchor>
             </BaseRecord>
-            <BaseRecord index="136">
+            <BaseRecord index="138">
               <BaseAnchor index="0" Format="1">
                 <XCoordinate value="87"/>
                 <YCoordinate value="-280"/>
@@ -10522,29 +10631,9 @@ You should have received a copy of the GNU Affero General Public License along w
                 <YCoordinate value="198"/>
               </BaseAnchor>
             </BaseRecord>
-            <BaseRecord index="137">
-              <BaseAnchor index="0" Format="1">
-                <XCoordinate value="239"/>
-                <YCoordinate value="-135"/>
-              </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
-                <XCoordinate value="57"/>
-                <YCoordinate value="198"/>
-              </BaseAnchor>
-            </BaseRecord>
-            <BaseRecord index="138">
-              <BaseAnchor index="0" Format="1">
-                <XCoordinate value="289"/>
-                <YCoordinate value="-135"/>
-              </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
-                <XCoordinate value="57"/>
-                <YCoordinate value="198"/>
-              </BaseAnchor>
-            </BaseRecord>
             <BaseRecord index="139">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="349"/>
+                <XCoordinate value="239"/>
                 <YCoordinate value="-135"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10554,7 +10643,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="140">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="129"/>
+                <XCoordinate value="289"/>
                 <YCoordinate value="-135"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10564,7 +10653,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="141">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="289"/>
+                <XCoordinate value="349"/>
                 <YCoordinate value="-135"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10574,8 +10663,8 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="142">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="87"/>
-                <YCoordinate value="-250"/>
+                <XCoordinate value="129"/>
+                <YCoordinate value="-135"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="57"/>
@@ -10584,8 +10673,8 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="143">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="87"/>
-                <YCoordinate value="-250"/>
+                <XCoordinate value="289"/>
+                <YCoordinate value="-135"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="57"/>
@@ -10595,7 +10684,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <BaseRecord index="144">
               <BaseAnchor index="0" Format="1">
                 <XCoordinate value="87"/>
-                <YCoordinate value="-280"/>
+                <YCoordinate value="-250"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="57"/>
@@ -10603,6 +10692,26 @@ You should have received a copy of the GNU Affero General Public License along w
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="145">
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="87"/>
+                <YCoordinate value="-250"/>
+              </BaseAnchor>
+              <BaseAnchor index="1" Format="1">
+                <XCoordinate value="57"/>
+                <YCoordinate value="198"/>
+              </BaseAnchor>
+            </BaseRecord>
+            <BaseRecord index="146">
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="87"/>
+                <YCoordinate value="-280"/>
+              </BaseAnchor>
+              <BaseAnchor index="1" Format="1">
+                <XCoordinate value="57"/>
+                <YCoordinate value="198"/>
+              </BaseAnchor>
+            </BaseRecord>
+            <BaseRecord index="147">
               <BaseAnchor index="0" Format="1">
                 <XCoordinate value="239"/>
                 <YCoordinate value="-135"/>
@@ -10612,29 +10721,9 @@ You should have received a copy of the GNU Affero General Public License along w
                 <YCoordinate value="198"/>
               </BaseAnchor>
             </BaseRecord>
-            <BaseRecord index="146">
-              <BaseAnchor index="0" Format="1">
-                <XCoordinate value="289"/>
-                <YCoordinate value="-135"/>
-              </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
-                <XCoordinate value="57"/>
-                <YCoordinate value="198"/>
-              </BaseAnchor>
-            </BaseRecord>
-            <BaseRecord index="147">
-              <BaseAnchor index="0" Format="1">
-                <XCoordinate value="349"/>
-                <YCoordinate value="-135"/>
-              </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
-                <XCoordinate value="57"/>
-                <YCoordinate value="198"/>
-              </BaseAnchor>
-            </BaseRecord>
             <BaseRecord index="148">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="129"/>
+                <XCoordinate value="289"/>
                 <YCoordinate value="-135"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10644,7 +10733,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="149">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="289"/>
+                <XCoordinate value="349"/>
                 <YCoordinate value="-135"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10654,15 +10743,18 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="150">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="120"/>
-                <YCoordinate value="-250"/>
+                <XCoordinate value="129"/>
+                <YCoordinate value="-135"/>
               </BaseAnchor>
-              <BaseAnchor index="1" empty="1"/>
+              <BaseAnchor index="1" Format="1">
+                <XCoordinate value="57"/>
+                <YCoordinate value="198"/>
+              </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="151">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="87"/>
-                <YCoordinate value="-250"/>
+                <XCoordinate value="289"/>
+                <YCoordinate value="-135"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="57"/>
@@ -10671,6 +10763,13 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="152">
               <BaseAnchor index="0" Format="1">
+                <XCoordinate value="120"/>
+                <YCoordinate value="-250"/>
+              </BaseAnchor>
+              <BaseAnchor index="1" empty="1"/>
+            </BaseRecord>
+            <BaseRecord index="153">
+              <BaseAnchor index="0" Format="1">
                 <XCoordinate value="87"/>
                 <YCoordinate value="-250"/>
               </BaseAnchor>
@@ -10679,7 +10778,17 @@ You should have received a copy of the GNU Affero General Public License along w
                 <YCoordinate value="198"/>
               </BaseAnchor>
             </BaseRecord>
-            <BaseRecord index="153">
+            <BaseRecord index="154">
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="87"/>
+                <YCoordinate value="-250"/>
+              </BaseAnchor>
+              <BaseAnchor index="1" Format="1">
+                <XCoordinate value="57"/>
+                <YCoordinate value="198"/>
+              </BaseAnchor>
+            </BaseRecord>
+            <BaseRecord index="155">
               <BaseAnchor index="0" Format="1">
                 <XCoordinate value="87"/>
                 <YCoordinate value="-250"/>
@@ -11435,11 +11544,13 @@ You should have received a copy of the GNU Affero General Public License along w
         <MultipleSubst index="0" Format="1">
           <Substitution in="behar" out="behDotlessar,dotbelowar"/>
           <Substitution in="dadar" out="sadar,dotabovear"/>
+          <Substitution in="fehDotbelowar" out="fehDotlessar,dotbelowar"/>
           <Substitution in="fehar" out="fehDotlessar,dotabovear"/>
           <Substitution in="ghainar" out="ainar,dotabovear"/>
           <Substitution in="jeemar" out="hahar,dotbelowar"/>
           <Substitution in="khahar" out="hahar,dotabovear"/>
           <Substitution in="noonar" out="noonghunnaar,dotabovear"/>
+          <Substitution in="qafDotabovear" out="qafDotlessar,dotabovear"/>
           <Substitution in="qafar" out="qafDotlessar,twodotshorizontalabovear"/>
           <Substitution in="sheenar" out="seenar,threedotsupabovear"/>
           <Substitution in="tehar" out="behDotlessar,twodotshorizontalabovear"/>
@@ -12198,6 +12309,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="eightar" width="250" lsb="0"/>
     <mtx name="eightar.1" width="346" lsb="0"/>
     <mtx name="empty" width="0" lsb="0"/>
+    <mtx name="fehDotbelowar" width="613" lsb="0"/>
     <mtx name="fehDotlessar" width="613" lsb="0"/>
     <mtx name="fehDotlessar.1" width="600" lsb="0"/>
     <mtx name="fehDotlessar.2" width="653" lsb="0"/>
@@ -12300,6 +12412,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="noonghunnaar" width="190" lsb="-130"/>
     <mtx name="noonghunnaar.fina" width="190" lsb="-130"/>
     <mtx name="onear" width="110" lsb="0"/>
+    <mtx name="qafDotabovear" width="296" lsb="-64"/>
     <mtx name="qafDotlessar" width="296" lsb="-64"/>
     <mtx name="qafDotlessar.fina" width="256" lsb="-64"/>
     <mtx name="qafar" width="296" lsb="-64"/>
