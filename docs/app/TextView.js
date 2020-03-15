@@ -25,7 +25,7 @@ class Layout {
     this._text = text.map(c => ({...c}));
 
     this._removeDots = false;
-    this._nocolorDots = false;
+    this._roundDots = false;
 
     this._svg = null;
     this._width = null;
@@ -54,10 +54,10 @@ class Layout {
     this._removeDots = v;
   }
 
-  set nocolorDots(v) {
-    if (v != this._nocolorDots)
-      this._svg = null;
-    this._nocolorDots = v;
+  set roundDots(v) {
+    if (v != this._roundDots)
+      this._svg = this._glyphs = null;
+    this._roundDots = v;
   }
 
   get svg() {
@@ -136,6 +136,9 @@ class Layout {
     let features = [];
     if (this._removeDots)
       features.push("ss01");
+
+    if (this._roundDots)
+      features.push("ss02");
 
     // Shape once without features to get the base glyphs, which we use to get
     // list of glyph alternates.
@@ -262,8 +265,8 @@ export class View {
     let removeDots = document.getElementById("remove-dots").checked;
     this._layout.removeDots = removeDots;
 
-    let nocolorDots = document.getElementById("nocolor-dots").checked;
-    this._layout.nocolorDots = nocolorDots;
+    let roundDots = document.getElementById("round-dots").checked;
+    this._layout.roundDots = roundDots;
 
     this._draw();
   }

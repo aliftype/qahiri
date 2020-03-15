@@ -79,8 +79,8 @@ input[type=checkbox]:checked + label {
   background-color: var(--main-color);
 }
 
-#nocolor-dots + label {
-  background-image: url(assets/images/nocolor-dots.svg);
+#round-dots + label {
+  background-image: url(assets/images/round-dots.svg);
 }
 
 #remove-dots + label {
