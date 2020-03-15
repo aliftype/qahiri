@@ -212,10 +212,6 @@ class Glyph {
     this._features = null;
   }
 
-  get isDot() {
-    let layers = this.font.getGlyphColorLayers(this.index);
-    return layers.length;
-  }
   get layers() {
     let layers = this.font.getGlyphColorLayers(this.index);
     return layers.map(l => {

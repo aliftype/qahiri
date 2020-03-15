@@ -24,7 +24,6 @@ class Layout {
     this._buffer = buffer;
     this._text = text.map(c => ({...c}));
 
-    this._adjustDots = false;
     this._removeDots = false;
     this._nocolorDots = false;
 
@@ -47,12 +46,6 @@ class Layout {
     from = this._text[from];
     to = this._text[to];
     return (from.x + from.ax) + (to.x + to.ax);
-  }
-
-  set adjustDots(v) {
-    if (v != this._adjustDots)
-      this._svg = null;
-    this._adjustDots = v;
   }
 
   set removeDots(v) {
@@ -164,13 +157,9 @@ class Layout {
     glyphs = this._buffer.shape(this._font, this._text, true, features);
 
     let x = 0, y = this.ascender;
-    let maxY = Number.NEGATIVE_INFINITY;
     this._width = 0;
     for (const g of glyphs) {
       let c = this._text[g.cl];
-
-      if (g.dy > 0 && g.isDot)
-        maxY = Math.max(maxY, g.dy);
 
       g.x = x + g.dx;
       g.y = y - g.dy;
@@ -185,7 +174,6 @@ class Layout {
     }
 
     this._glyphs = glyphs;
-    this._dotMaxY = maxY;
   }
 
   _makeSVG() {
@@ -203,27 +191,23 @@ class Layout {
     this._svg.setAttributeNS(ns, "viewBox", `${-this._margin} ${-this._margin} ${this.width} ${this.height}`);
 
     for (const g of this._glyphs) {
-      if (g.layers.length && !(this._nocolorDots && g.isDot))
+      if (g.layers.length)
         for (const l of g.layers)
-          this._svg.appendChild(this._pathElement(l, g.isDot));
+          this._svg.appendChild(this._pathElement(l));
       else
-        this._svg.appendChild(this._pathElement(g, g.isDot));
+        this._svg.appendChild(this._pathElement(g));
     }
 
     let blob = new Blob([this._svg.outerHTML], {type: "image/svg+xml"});
     this._svgURL = window.URL.createObjectURL(blob);
   }
 
-  _pathElement(g, isDot) {
+  _pathElement(g) {
     let x = g.x;
     let y = g.y;
     let fill = g.color && g.color.slice(0, -2);
     // Inkscape does not support RGBA colors, opacity must be set separately.
     let opacity = g.color && parseInt(g.color.slice(-2), 16) / 255;
-
-    if (this._adjustDots &&
-        g.dy > 0 && g.dy < this._dotMaxY && isDot)
-      y += g.dy - this._dotMaxY;
 
     if (!g.index && !fill)
       fill = "red";
@@ -274,9 +258,6 @@ export class View {
 
       this._layout = new Layout(this._font, this._buffer, this._text);
     }
-
-    let adjustDots = document.getElementById("adjust-dots").checked;
-    this._layout.adjustDots = adjustDots;
 
     let removeDots = document.getElementById("remove-dots").checked;
     this._layout.removeDots = removeDots;
