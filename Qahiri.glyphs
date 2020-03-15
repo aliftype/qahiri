@@ -1,5 +1,5 @@
 {
-.appVersion = "1300";
+.appVersion = "1303";
 classes = (
 {
 code = "dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar";
@@ -4716,6 +4716,52 @@ paths = (
 {
 closed = 1;
 nodes = (
+"116 70 LINE",
+"40.4 70 LINE",
+"0 0 LINE",
+"116 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"120 110 LINE",
+"120 560 LINE",
+"40 540 LINE",
+"40 110 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"175 180 LINE",
+"103 180 LINE",
+"103 110 LINE",
+"176 110 LINE"
+);
+}
+);
+width = 640;
+}
+);
+rightKerningGroup = dal;
+unicode = 0643;
+},
+{
+glyphname = "kaf-ar.1";
+layers = (
+{
+components = (
+{
+name = _dal;
+transform = "{1, 0, 0, 1, 40, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
 "91.321 126.053 LINE",
 "153.815 209.554 OFFCURVE",
 "189.211 315.576 OFFCURVE",
@@ -4747,52 +4793,6 @@ nodes = (
 "175 180 LINE",
 "103 180 LINE",
 "62 110 LINE",
-"176 110 LINE"
-);
-}
-);
-width = 640;
-}
-);
-rightKerningGroup = dal;
-unicode = 0643;
-},
-{
-glyphname = "kaf-ar.1";
-layers = (
-{
-components = (
-{
-name = _dal;
-transform = "{1, 0, 0, 1, 40, 0}";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"116 70 LINE",
-"40.4 70 LINE",
-"0 0 LINE",
-"116 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"120 110 LINE",
-"120 560 LINE",
-"40 540 LINE",
-"40 110 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"175 180 LINE",
-"103 180 LINE",
-"103 110 LINE",
 "176 110 LINE"
 );
 }
@@ -4946,28 +4946,6 @@ layers = (
 components = (
 {
 alignment = -1;
-name = "kaf-ar.init.1";
-},
-{
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 520, 0}";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 600;
-}
-);
-leftKerningGroup = waw;
-leftMetricsKey = "=kaf-ar.init.1";
-widthMetricsKey = "=kaf-ar.init.1";
-},
-{
-glyphname = "kaf-ar.medi.2";
-layers = (
-{
-components = (
-{
-alignment = -1;
 name = "kaf-ar.init.2";
 },
 {
@@ -4982,6 +4960,28 @@ width = 600;
 leftKerningGroup = waw;
 leftMetricsKey = "kaf-ar.init.2";
 widthMetricsKey = "kaf-ar.init.2";
+},
+{
+glyphname = "kaf-ar.medi.2";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "kaf-ar.init.1";
+},
+{
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 520, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 600;
+}
+);
+leftKerningGroup = waw;
+leftMetricsKey = "=kaf-ar.init.1";
+widthMetricsKey = "=kaf-ar.init.1";
 },
 {
 glyphname = "kaf-ar.init";
@@ -11289,7 +11289,7 @@ kerning = {
 "kaf-ar.init.1" = {
 "@MMK_R_yeh" = -30;
 };
-"kaf-ar.medi.1" = {
+"kaf-ar.medi.2" = {
 "@MMK_R_yeh" = -30;
 };
 "qafDotless-ar" = {
