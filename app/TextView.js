@@ -347,6 +347,14 @@ export class View {
     link.click();
   }
 
+  clear() {
+    this._text = [];
+    this._cursor = 0;
+    this._invalidate();
+    this.update();
+    this._canvas.focus();
+  }
+
   _keydown(e) {
     if (e.key === "ArrowLeft")
       this._moveCursor(1);

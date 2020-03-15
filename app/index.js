@@ -31,6 +31,7 @@ window.Module = {
       document.getElementById("open").addEventListener("click", e => view.open(e.value));
       document.getElementById("save").addEventListener("click", e => view.save());
       document.getElementById("export").addEventListener("click", e => view.export());
+      document.getElementById("clear").addEventListener("click", e => view.clear());
 
       [].forEach.call(document.getElementsByClassName("opts"), function(el) {
         el.addEventListener("change", e => view.update());
