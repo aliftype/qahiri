@@ -238,7 +238,7 @@ class Layout {
 }
 
 let sample = `
-[{"code":1575,"features":["dlig","cv10"]},{"code":1604,"features":["dlig"]},{"code":1582},{"code":1591,"features":["cv05"]},{"code":32},{"code":1575,"features":[]},{"code":1604,"features":[]},{"code":1603,"features":["cv05"]},{"code":1608,"features":[]},{"code":1601,"features":[]},{"code":1610,"features":["cv06"]},{"code":32},{"code":1575,"features":["dlig","cv01"]},{"code":1604,"features":["dlig"]},{"code":1601,"features":["cv01"]},{"code":1575,"features":[]},{"code":1591,"features":["cv05"]},{"code":1605,"features":[]},{"code":1610,"features":["cv10"]}]
+[{"code":1575,"features":[]},{"code":1604},{"code":1582,"features":["salt=1"]},{"code":1591},{"code":32},{"code":1575,"features":[]},{"code":1604},{"code":1603,"features":[]},{"code":1608,"features":["salt=1"]},{"code":1601,"features":[]},{"code":1610,"features":["salt=6"]},{"code":32},{"code":1575,"features":[]},{"code":1604},{"code":1605,"features":["salt=2"]},{"code":1589,"features":[]},{"code":1581},{"code":1601,"features":["salt=1"]},{"code":1610,"features":["salt=3"]}]
 `;
 
 export class View {
