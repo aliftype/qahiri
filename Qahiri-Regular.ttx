@@ -248,12 +248,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0x614ab579"/>
+    <checkSumAdjustment value="0x7ce4dd5c"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Sun Mar 15 22:57:48 2020"/>
-    <modified value="Sun Mar 15 22:57:48 2020"/>
+    <created value="Sun Mar 15 23:41:16 2020"/>
+    <modified value="Sun Mar 15 23:41:16 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -297,7 +297,7 @@
     <xAvgCharWidth value="367"/>
     <usWeightClass value="400"/>
     <usWidthClass value="5"/>
-    <fsType value="00000000 00001000"/>
+    <fsType value="00000000 00000000"/>
     <ySubscriptXSize value="650"/>
     <ySubscriptYSize value="600"/>
     <ySubscriptXOffset value="0"/>
@@ -325,7 +325,7 @@
     <ulUnicodeRange2 value="00000000 00000000 00000000 00000000"/>
     <ulUnicodeRange3 value="00000000 00000000 00000000 00000000"/>
     <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
-    <achVendID value="UKWN"/>
+    <achVendID value="ALIF"/>
     <fsSelection value="00000000 01000000"/>
     <usFirstCharIndex value="32"/>
     <usLastCharIndex value="1740"/>
@@ -354,7 +354,7 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      1.000;UKWN;Qahiri-Regular
+      1.000;ALIF;Qahiri-Regular
     </namerecord>
     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Qahiri Regular
@@ -370,6 +370,9 @@
     </namerecord>
     <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Khaled Hosny
+    </namerecord>
+    <namerecord nameID="10" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Qahiri is a Kufic typeface based on the modernized and regularized old manuscript Kufic calligraphy style of the late master of Arabic calligraphy Mohammad Abdul Qadir.
     </namerecord>
     <namerecord nameID="11" platformID="1" platEncID="0" langID="0x0" unicode="True">
       https://github.com/alif-type
@@ -387,6 +390,9 @@ You should have received a copy of the GNU Affero General Public License along w
     <namerecord nameID="14" platformID="1" platEncID="0" langID="0x0" unicode="True">
       https://www.gnu.org/licenses/agpl-3.0.html
     </namerecord>
+    <namerecord nameID="19" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      __ ___ ___ ____ _____ __ ____ ____ ______ ___ _____ _____
+    </namerecord>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
       Copyright © 2020 by Khaled Hosny. All rights reserved.
     </namerecord>
@@ -397,7 +403,7 @@ You should have received a copy of the GNU Affero General Public License along w
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      1.000;UKWN;Qahiri-Regular
+      1.000;ALIF;Qahiri-Regular
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Qahiri Regular
@@ -414,6 +420,9 @@ You should have received a copy of the GNU Affero General Public License along w
     <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
       Khaled Hosny
     </namerecord>
+    <namerecord nameID="10" platformID="3" platEncID="1" langID="0x409">
+      Qahiri is a Kufic typeface based on the modernized and regularized old manuscript Kufic calligraphy style of the late master of Arabic calligraphy Mohammad Abdul Qadir.
+    </namerecord>
     <namerecord nameID="11" platformID="3" platEncID="1" langID="0x409">
       https://github.com/alif-type
     </namerecord>
@@ -429,6 +438,9 @@ You should have received a copy of the GNU Affero General Public License along w
     </namerecord>
     <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
       https://www.gnu.org/licenses/agpl-3.0.html
+    </namerecord>
+    <namerecord nameID="19" platformID="3" platEncID="1" langID="0x409">
+      صف خلق خود كمثل الشمس إذ بزغت يحظى الضجيع بها نجلاء معطار
     </namerecord>
   </name>
 
@@ -593,10 +605,10 @@ You should have received a copy of the GNU Affero General Public License along w
         <BlueScale value="0.037"/>
         <BlueShift value="7"/>
         <BlueFuzz value="0"/>
-        <StdHW value="8"/>
+        <StdHW value="70"/>
         <StdVW value="80"/>
-        <StemSnapH value="8 70"/>
-        <StemSnapV value="80 140"/>
+        <StemSnapH value="70"/>
+        <StemSnapV value="80"/>
         <ForceBold value="0"/>
         <LanguageGroup value="0"/>
         <ExpansionFactor value="0.06"/>
@@ -786,8 +798,9 @@ You should have received a copy of the GNU Affero General Public License along w
           -64 -61 22 70 hvcurveto
           420 vlineto
           -80 -20 rlineto
-          -400 vlineto
-          -95 76 -45 82 60 63 24 46 39 vhcurveto
+          -410 vlineto
+          -88 5 74 -42 79 hhcurveto
+          60 63 24 46 39 hvcurveto
           -12 -28 -44 -10 -43 hhcurveto
           endchar
         </CharString>
@@ -798,8 +811,9 @@ You should have received a copy of the GNU Affero General Public License along w
           -64 -61 22 70 hvcurveto
           420 vlineto
           -80 -20 rlineto
-          -400 vlineto
-          -95 76 -45 82 60 63 24 46 39 vhcurveto
+          -410 vlineto
+          -88 5 74 -42 79 hhcurveto
+          60 63 24 46 39 hvcurveto
           -12 -28 -44 -10 -43 hhcurveto
           -128 -126 rmoveto
           -8 -5 7 8 hvcurveto
@@ -816,13 +830,14 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="alefMaddaar">
           13 0 48 512 -20 hstem
           0 80 vstem
-          80 140 rmoveto
+          205 48 rmoveto
+          -64 -61 22 70 hvcurveto
           420 vlineto
           -80 -20 rlineto
-          -400 vlineto
-          -95 76 -45 82 60 63 24 46 39 vhcurveto
+          -410 vlineto
+          -88 5 74 -42 79 hhcurveto
+          60 63 24 46 39 hvcurveto
           -12 -28 -44 -10 -43 hhcurveto
-          -64 -61 22 70 hvcurveto
           endchar
         </CharString>
         <CharString name="alefMaksuraar">
@@ -1154,73 +1169,74 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="alefWaslaar">
           13 0 48 512 -20 hstem
           0 80 vstem
-          80 140 rmoveto
+          205 48 rmoveto
+          -64 -61 22 70 hvcurveto
           420 vlineto
           -80 -20 rlineto
-          -400 vlineto
-          -95 76 -45 82 60 63 24 46 39 vhcurveto
+          -410 vlineto
+          -88 5 74 -42 79 hhcurveto
+          60 63 24 46 39 hvcurveto
           -12 -28 -44 -10 -43 hhcurveto
-          -64 -61 22 70 hvcurveto
           endchar
         </CharString>
         <CharString name="alefar">
           13 0 48 512 -20 hstem
           0 80 vstem
-          80 140 rmoveto
+          205 48 rmoveto
+          -64 -61 22 70 hvcurveto
           420 vlineto
           -80 -20 rlineto
-          -400 vlineto
-          -95 76 -45 82 60 63 24 46 39 vhcurveto
+          -410 vlineto
+          -88 5 74 -42 79 hhcurveto
+          60 63 24 46 39 hvcurveto
           -12 -28 -44 -10 -43 hhcurveto
-          -64 -61 22 70 hvcurveto
           endchar
         </CharString>
         <CharString name="alefar.1">
           -147 0 43 517 -20 hstem
           0 80 vstem
-          80 80 rmoveto
+          127 43 rmoveto
+          -24 -23 11 26 hvcurveto
           480 vlineto
           -80 -20 rlineto
           -460 vlineto
           -50 37 -30 40 30 31 16 34 22 vhcurveto
           -4 -9 -12 -3 -12 hhcurveto
-          -24 -23 11 26 hvcurveto
           endchar
         </CharString>
         <CharString name="alefar.2">
           -67 0 37 523 -20 hstem
           0 80 vstem
-          80 100 rmoveto
+          165 37 rmoveto
+          -46 -39 17 46 hvcurveto
           460 vlineto
           -80 -20 rlineto
           -440 vlineto
           -66 52 -34 61 42 47 16 34 38 vhcurveto
           -8 -24 -27 -5 -24 hhcurveto
-          -46 -39 17 46 hvcurveto
           endchar
         </CharString>
         <CharString name="alefar.3">
           -187 0 20 540 -20 hstem
           40 80 vstem
-          20 vmoveto
+          40 540 rmoveto
+          -470 vlineto
+          -30 -13 -20 -27 vhcurveto
           -10 10 20 -10 22 hhcurveto
           38 30 30 50 hvcurveto
           480 vlineto
-          -80 -20 rlineto
-          -470 vlineto
-          -30 -13 -20 -27 vhcurveto
           endchar
         </CharString>
         <CharString name="alefar.fina">
           -227 0 70 490 -20 hstem
           0 80 vstem
-          80 80 rmoveto
+          90 70 rmoveto
+          -7 -3 3 7 hvcurveto
           480 vlineto
           -80 -20 rlineto
           -500 vlineto
           -25 15 -15 23 vhcurveto
-          82 70 -30 hlineto
-          -7 -3 3 7 hvcurveto
+          82 70 hlineto
           endchar
         </CharString>
         <CharString name="behDotlessar">
@@ -1667,8 +1683,8 @@ You should have received a copy of the GNU Affero General Public License along w
           0 70 70 70 vstem
           210 350 rmoveto
           -210 -350 210 hlineto
-          -140 70 rmoveto
-          210 70 -210 vlineto
+          -70 70 rmoveto
+          -70 210 70 hlineto
           endchar
         </CharString>
         <CharString name="fourar">
@@ -2759,13 +2775,13 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="lamar">
           -157 -250 70 740 -20 hstem
           70 80 vstem
-          -130 -250 rmoveto
+          70 540 rmoveto
+          -720 -100 vlineto
+          -20 -17 5 15 -11 hvcurveto
+          -52 -90 rlineto
           242 hlineto
           23 15 15 25 hvcurveto
           770 vlineto
-          -80 -20 rlineto
-          -720 -100 vlineto
-          -20 -17 5 15 -11 hvcurveto
           endchar
         </CharString>
         <CharString name="lamar.fina">
@@ -2808,12 +2824,10 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="lamar.init.lellah">
           -227 0 70 hstem
           0 80 vstem
-          -20 hmoveto
-          62 hlineto
+          510 vmoveto
+          -440 -20 -70 62 vlineto
           23 15 15 25 hvcurveto
           490 vlineto
-          -80 -20 rlineto
-          -440 -20 vlineto
           endchar
         </CharString>
         <CharString name="lamar.medi">
@@ -2930,9 +2944,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="meemar.fina.2">
-          -71 -40 70 -30 70 0 70 hstemhm
-          156 120 hintmask 01010000
-          276 70 rmoveto
+          -69 -40 70 -30 70 0 70 hstemhm
+          158 120 hintmask 01010000
+          278 70 rmoveto
           -42 hlineto
           hintmask 00110000
           40 -11 -40 30 -47 hhcurveto
@@ -3449,17 +3463,17 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seenar.6">
-          24 -250 70 180 70 hstem
-          70 80 101 80 vstem
-          251 157 rmoveto
+          23 -250 70 180 70 hstem
+          70 80 100 80 vstem
+          250 157 rmoveto
           -87 vlineto
-          -70 70 -41 -70 -70 70 -40 -70 40 -40 rlineto
+          -70 70 -40 -70 -70 70 -40 -70 40 -40 rlineto
           -210 -100 vlineto
           -20 -17 5 15 -11 hvcurveto
           -52 -90 rlineto
           242 hlineto
           23 15 15 25 hvcurveto
-          210 160 vlineto
+          210 159 vlineto
           6 15 0 11 hvcurveto
           166 vlineto
           endchar
@@ -12718,7 +12732,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="meemar.2" width="278" lsb="0"/>
     <mtx name="meemar.fina" width="440" lsb="0"/>
     <mtx name="meemar.fina.1" width="280" lsb="0"/>
-    <mtx name="meemar.fina.2" width="276" lsb="-2"/>
+    <mtx name="meemar.fina.2" width="278" lsb="0"/>
     <mtx name="meemar.init" width="240" lsb="-20"/>
     <mtx name="meemar.medi" width="240" lsb="-20"/>
     <mtx name="meemar.medi.1" width="240" lsb="-20"/>
@@ -12747,7 +12761,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="seenar.3" width="430" lsb="-130"/>
     <mtx name="seenar.4" width="430" lsb="-130"/>
     <mtx name="seenar.5" width="430" lsb="-130"/>
-    <mtx name="seenar.6" width="371" lsb="-130"/>
+    <mtx name="seenar.6" width="370" lsb="-130"/>
     <mtx name="seenar.fina" width="430" lsb="-130"/>
     <mtx name="seenar.fina.1" width="430" lsb="-130"/>
     <mtx name="seenar.fina.2" width="430" lsb="-130"/>
