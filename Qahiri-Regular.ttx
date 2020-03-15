@@ -248,12 +248,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0x7ce4dd5c"/>
+    <checkSumAdjustment value="0x3bceb205"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Sun Mar 15 23:41:16 2020"/>
-    <modified value="Sun Mar 15 23:41:16 2020"/>
+    <created value="Mon Mar 16 02:10:57 2020"/>
+    <modified value="Mon Mar 16 02:10:57 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -441,6 +441,18 @@ You should have received a copy of the GNU Affero General Public License along w
     </namerecord>
     <namerecord nameID="19" platformID="3" platEncID="1" langID="0x409">
       صف خلق خود كمثل الشمس إذ بزغت يحظى الضجيع بها نجلاء معطار
+    </namerecord>
+    <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
+      Dot-less Letter Forms
+    </namerecord>
+    <namerecord nameID="257" platformID="3" platEncID="1" langID="0x409">
+      Rounded Dots
+    </namerecord>
+    <namerecord nameID="256" platformID="3" platEncID="1" langID="0xc01">
+      حروف مهملة (بلا نقاط)
+    </namerecord>
+    <namerecord nameID="257" platformID="3" platEncID="1" langID="0xc01">
+      نقاط مستديرة
     </namerecord>
   </name>
 
@@ -11803,6 +11815,10 @@ You should have received a copy of the GNU Affero General Public License along w
       <FeatureRecord index="9">
         <FeatureTag value="ss01"/>
         <Feature>
+          <FeatureParamsStylisticSet>
+            <Version value="0"/>
+            <UINameID value="256"/>  <!-- Dot-less Letter Forms -->
+          </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
           <LookupListIndex index="0" value="19"/>
         </Feature>
@@ -11810,6 +11826,10 @@ You should have received a copy of the GNU Affero General Public License along w
       <FeatureRecord index="10">
         <FeatureTag value="ss02"/>
         <Feature>
+          <FeatureParamsStylisticSet>
+            <Version value="0"/>
+            <UINameID value="257"/>  <!-- Rounded Dots -->
+          </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
           <LookupListIndex index="0" value="20"/>
         </Feature>
