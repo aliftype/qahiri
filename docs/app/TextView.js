@@ -57,7 +57,7 @@ class Layout {
 
   set removeDots(v) {
     if (v != this._removeDots)
-      this._svg = null;
+      this._svg = this._glyphs = null;
     this._removeDots = v;
   }
 
@@ -140,9 +140,13 @@ class Layout {
     if (this._glyphs !== null)
       return;
 
+    let features = [];
+    if (this._removeDots)
+      features.push("ss01");
+
     // Shape once without features to get the base glyphs, which we use to get
     // list of glyph alternates.
-    let glyphs = this._buffer.shape(this._font, this._text, false);
+    let glyphs = this._buffer.shape(this._font, this._text, false, features);
     for (const g of glyphs) {
       let c = this._text[g.cl];
       // HACK: this assumes when there are multiple glyphs in a cluster, the
@@ -157,7 +161,7 @@ class Layout {
     }
 
     // Now do the real shaping with requested features.
-    glyphs = this._buffer.shape(this._font, this._text, true);
+    glyphs = this._buffer.shape(this._font, this._text, true, features);
 
     let x = 0, y = this.ascender;
     let maxY = Number.NEGATIVE_INFINITY;
@@ -199,9 +203,6 @@ class Layout {
     this._svg.setAttributeNS(ns, "viewBox", `${-this._margin} ${-this._margin} ${this.width} ${this.height}`);
 
     for (const g of this._glyphs) {
-      if (this._removeDots && g.isDot)
-        continue;
-
       if (g.layers.length && !(this._nocolorDots && g.isDot))
         for (const l of g.layers)
           this._svg.appendChild(this._pathElement(l, g.isDot));

@@ -249,7 +249,7 @@ class Glyph {
 export class Buffer {
   constructor() { this.ptr = _hb_buffer_create(); }
 
-  shape(font, text, useFeatures) {
+  shape(font, text, useFeatures, globalFeatures) {
     _hb_buffer_clear_contents(this.ptr);
     _hb_buffer_set_direction(this.ptr, 5/*rtl*/);
     _hb_buffer_set_script(this.ptr, TAG("Arab"));
@@ -265,6 +265,10 @@ export class Buffer {
           features.push(TAG(feature), value, i, i + 1);
         }
       }
+    }
+
+    for (const feature of globalFeatures) {
+      features.push(TAG(feature), 1, 0, -1);
     }
 
     let featuresPtr = new Pointer(new Uint32Array(features).buffer);
