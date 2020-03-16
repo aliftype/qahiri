@@ -1,0 +1,7 @@
+theme: jekyll-theme-minimal
+title: Qahiri
+title_ar: قاهری
+description: A manuscript Kufic typeface
+description_ar: خط كوفی مصحفی
+logo: app/assets/images/icon.svg
+google_analytics: UA-10250277-7

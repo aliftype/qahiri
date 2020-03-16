@@ -1,0 +1,46 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@400;700&display=swap');
+
+body {
+  direction: rtl;
+  font-family: "Mada", sans-serif;
+}
+
+header, footer {
+  float: right;
+}
+
+section {
+  float: left;
+}
+
+.lang-switcher {
+  font-size: 14pt;
+  float: left;
+  rotate: 90deg;
+}
+
+@media print, screen and (max-width: 960px) {
+ header {
+  padding-left: 320px;
+  padding-right: 0px;
+ }
+ header ul {
+  left: 50px;
+  right: 0px;
+ }
+ .lang-switcher {
+   rotate:0deg;
+   margin-bottom: 0px;
+   height: 0px;
+ }
+}
+
+@media print, screen and (max-width: 960px) {
+ header {
+  padding: 0px;
+ }
+}

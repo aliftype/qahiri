@@ -1,6 +1,3 @@
-Qahiri
-======
-
 Qahiri is a [Kufic][1] typeface based on the modernized and regularized old
 manuscript Kufic calligraphy style of the late master of Arabic calligraphy
 [Mohammad Abdul Qadir][2].
@@ -27,7 +24,7 @@ will appear the alternates of the character before the text cursor (the gray
 bar). Clicking on an alternate form will cause it to be used instead of the
 current form:
 
-![Screen shot of the app](images/screenshot.png)
+![Screen shot of the app](assets/images/screenshot.png)
 
 The slider and the input box next to it control the text size.
 
@@ -35,12 +32,12 @@ There are two buttons that control the dots, the ![remove
 dots](app/assets/images/remove-dots.svg) button will remove all the dots, to
 get a dot-less version of the text resembling early Kufic manuscripts.
 
-![Screenshot with no dots](images/screenshot-dotless.png)
+![Screenshot with no dots](assets/images/screenshot-dotless.png)
 
 The ![rounded dots](app/assets/images/round-dots.svg) button, on the other
 hand, replaces the default rectangular dots with more familiar rounded dots.
 
-![Screenshot with rounded dots](images/screenshot-rounded-dots.png)
+![Screenshot with rounded dots](assets/images/screenshot-rounded-dots.png)
 
 The app allows exporting SVG file that can be further modified in any vector
 graphics application. Pressing ![export](app/assets/images/export.svg) button
