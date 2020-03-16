@@ -24,7 +24,7 @@
     <p class="lang-switcher"><a href="./" lang="en-US" hreflang="en-US">English</a></p>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title_ar | default: site.github.repository_name }}</a></h1>
+        <h1>{{ site.title_ar | default: site.github.repository_name }}</h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
