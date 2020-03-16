@@ -1,6 +1,6 @@
 ---
 layout: arabic
-title: قاهري
+title: قاهری
 ---
 
 «قاهری» هو خط حاسوبی [كوفی][1] مبنی على القاعدة الحدیثة لخط كوفی المصاحف التی
@@ -52,7 +52,7 @@ title: قاهري
 
 ضغط زر ![المسح](app/assets/images/clear.svg) سیمسح كل النص المكتوب.ی
 
-[1]: https://ar.wikipedia.org/wiki/خط_كوفی
+[1]: https://ar.wikipedia.org/wiki/خط_كوفي
 [2]: https://ar.wikipedia.org/wiki/محمد_عبد_القادر_عبد_الله_(خطاط)
 [3]: https://github.com/alif-type/qahiri/releases/latest
 [4]: https://alif-type.github.io/qahiri/app/
