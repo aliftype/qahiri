@@ -229,9 +229,6 @@ name = calt;
 code = "lookupflag IgnoreMarks;
   sub [behDotless-ar.init behDotless-ar.medi] behDotless-ar.medi' [behDotless-ar.medi behDotless-ar.fina] by behDotless-ar.medi.high;
   sub [seen-ar.init seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3] behDotless-ar.medi' by behDotless-ar.medi.high;
-  sub [behDotless-ar.init behDotless-ar.medi] seen-ar.medi' by seen-ar.medi.3;
-  sub seen-ar.medi' behDotless-ar.medi by seen-ar.medi.3;
-  sub [behDotless-ar.init behDotless-ar.medi] seen-ar.fina' by seen-ar.fina.3;
   sub behDotless-ar.init behDotless-ar.medi' noonghunna-ar.fina by behDotless-ar.medi.high;
 
   sub [behDotless-ar.init lam-ar.init]' lookup AboveHah
@@ -1836,123 +1833,6 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{233, 300}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "behDotless-ar.init";
-transform = "{1, 0, 0, 1, 310, 0}";
-},
-{
-alignment = -1;
-name = "behDotless-ar.medi";
-transform = "{1, 0, 0, 1, 190, 0}";
-},
-{
-name = _elbow;
-transform = "{1, 0, 0, 1, 110, 0}";
-},
-{
-name = _bowel;
-transform = "{1, 0, 0, 1, -80, 0}";
-},
-{
-name = _vextender;
-transform = "{1, 0, 0, 1, 70, 160}";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 430;
-}
-);
-rightKerningGroup = bowel;
-unicode = 0633;
-},
-{
-glyphname = "seen-ar.1";
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{233, 320}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "seen-ar";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 70, 180}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 190, 180}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 310, 180}";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 430;
-}
-);
-widthMetricsKey = "=seen-ar";
-rightKerningGroup = bowel;
-},
-{
-glyphname = "seen-ar.2";
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{233, 340}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "seen-ar";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 70, 200}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 190, 200}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 310, 200}";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 430;
-}
-);
-widthMetricsKey = "=seen-ar";
-rightKerningGroup = bowel;
-},
-{
-glyphname = "seen-ar.3";
-layers = (
-{
-anchors = (
-{
-name = top;
 position = "{233, 310}";
 }
 );
@@ -1992,9 +1872,10 @@ width = 430;
 );
 widthMetricsKey = "=seen-ar";
 rightKerningGroup = bowel;
+unicode = 0633;
 },
 {
-glyphname = "seen-ar.4";
+glyphname = "seen-ar.1";
 layers = (
 {
 anchors = (
@@ -2021,7 +1902,123 @@ transform = "{1, 0, 0, 1, 310, 220}";
 },
 {
 alignment = -1;
+name = "seen-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 430;
+}
+);
+widthMetricsKey = "=seen-ar";
+rightKerningGroup = bowel;
+},
+{
+glyphname = "seen-ar.2";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{233, 340}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "seen-ar";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 70, 180}";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 190, 210}";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 310, 240}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 430;
+}
+);
+widthMetricsKey = "=seen-ar";
+rightKerningGroup = bowel;
+},
+{
+glyphname = "seen-ar.3";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{233, 300}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.init";
+transform = "{1, 0, 0, 1, 310, 0}";
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+transform = "{1, 0, 0, 1, 190, 0}";
+},
+{
+name = _elbow;
+transform = "{1, 0, 0, 1, 110, 0}";
+},
+{
+name = _bowel;
+transform = "{1, 0, 0, 1, -80, 0}";
+},
+{
+name = _vextender;
+transform = "{1, 0, 0, 1, 70, 160}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 430;
+}
+);
+rightKerningGroup = bowel;
+},
+{
+glyphname = "seen-ar.4";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{233, 320}";
+}
+);
+components = (
+{
+alignment = -1;
 name = "seen-ar.3";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 70, 180}";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 190, 180}";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 310, 180}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2049,17 +2046,17 @@ name = "seen-ar.3";
 {
 alignment = -1;
 name = _vextender;
-transform = "{1, 0, 0, 1, 70, 180}";
+transform = "{1, 0, 0, 1, 70, 200}";
 },
 {
 alignment = -1;
 name = _vextender;
-transform = "{1, 0, 0, 1, 190, 210}";
+transform = "{1, 0, 0, 1, 190, 200}";
 },
 {
 alignment = -1;
 name = _vextender;
-transform = "{1, 0, 0, 1, 310, 240}";
+transform = "{1, 0, 0, 1, 310, 200}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2395,111 +2392,6 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{160, 280}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "behDotless-ar.init";
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = "behDotless-ar.medi";
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = "behDotless-ar.medi";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 360;
-}
-);
-},
-{
-glyphname = "seen-ar.init.1";
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{160, 300}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "seen-ar.init";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 0, 180}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 120, 180}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 240, 180}";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 360;
-}
-);
-widthMetricsKey = "=seen-ar.init";
-},
-{
-glyphname = "seen-ar.init.2";
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{160, 300}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "seen-ar.init";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 0, 200}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 120, 200}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 240, 200}";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 360;
-}
-);
-widthMetricsKey = "=seen-ar.init";
-},
-{
-glyphname = "seen-ar.init.3";
-layers = (
-{
-anchors = (
-{
-name = top;
 position = "{160, 290}";
 }
 );
@@ -2539,7 +2431,7 @@ width = 360;
 widthMetricsKey = "=seen-ar.init";
 },
 {
-glyphname = "seen-ar.init.4";
+glyphname = "seen-ar.init.1";
 layers = (
 {
 anchors = (
@@ -2551,7 +2443,7 @@ position = "{160, 300}";
 components = (
 {
 alignment = -1;
-name = "seen-ar.init.3";
+name = "seen-ar.init";
 },
 {
 alignment = -1;
@@ -2576,7 +2468,7 @@ width = 360;
 widthMetricsKey = "=seen-ar.init";
 },
 {
-glyphname = "seen-ar.init.5";
+glyphname = "seen-ar.init.2";
 layers = (
 {
 anchors = (
@@ -2588,7 +2480,7 @@ position = "{160, 320}";
 components = (
 {
 alignment = -1;
-name = "seen-ar.init.3";
+name = "seen-ar.init";
 },
 {
 alignment = -1;
@@ -2604,6 +2496,111 @@ transform = "{1, 0, 0, 1, 120, 210}";
 alignment = -1;
 name = _vextender;
 transform = "{1, 0, 0, 1, 240, 240}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 360;
+}
+);
+widthMetricsKey = "=seen-ar.init";
+},
+{
+glyphname = "seen-ar.init.3";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{160, 280}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.init";
+transform = "{1, 0, 0, 1, 240, 0}";
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+transform = "{1, 0, 0, 1, 120, 0}";
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 360;
+}
+);
+},
+{
+glyphname = "seen-ar.init.4";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{160, 300}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "seen-ar.init.3";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 0, 180}";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 120, 180}";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 240, 180}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 360;
+}
+);
+widthMetricsKey = "=seen-ar.init";
+},
+{
+glyphname = "seen-ar.init.5";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{160, 300}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "seen-ar.init.3";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 0, 200}";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 120, 200}";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 240, 200}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -2659,7 +2656,7 @@ layers = (
 {
 components = (
 {
-name = "seen-ar";
+name = "seen-ar.3";
 },
 {
 name = "threedotsupabove-ar";
@@ -10648,16 +10645,16 @@ kerning = {
 "lam_alef-ar.4" = 160;
 "lam_alef-ar.5" = 160;
 "qafDotless-ar" = -50;
-"seen-ar.1" = 30;
-"seen-ar.2" = 60;
-"seen-ar.3" = 60;
-"seen-ar.4" = 90;
-"seen-ar.5" = 120;
-"seen-ar.init.1" = 30;
-"seen-ar.init.2" = 60;
-"seen-ar.init.3" = 60;
-"seen-ar.init.4" = 90;
-"seen-ar.init.5" = 120;
+"seen-ar.4" = 30;
+"seen-ar.5" = 60;
+"seen-ar" = 60;
+"seen-ar.1" = 90;
+"seen-ar.2" = 120;
+"seen-ar.init.4" = 30;
+"seen-ar.init.5" = 60;
+"seen-ar.init" = 60;
+"seen-ar.init.1" = 90;
+"seen-ar.init.2" = 120;
 "waw-ar.2" = 30;
 "waw-ar.3" = 40;
 };

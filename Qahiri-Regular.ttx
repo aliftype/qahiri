@@ -249,12 +249,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.00099"/>
-    <checkSumAdjustment value="0x4d73fedb"/>
+    <checkSumAdjustment value="0xfbbea317"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Mon Mar 16 20:48:40 2020"/>
-    <modified value="Mon Mar 16 20:48:40 2020"/>
+    <created value="Mon Mar 16 21:43:45 2020"/>
+    <modified value="Mon Mar 16 21:43:45 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -3298,75 +3298,6 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seenar">
-          83 -250 70 180 70 160 -20 hstem
-          70 80 40 80 40 80 vstem
-          310 210 rmoveto
-          -140 vlineto
-          -22 -18 18 22 hvcurveto
-          120 vlineto
-          -80 -20 rlineto
-          -140 vlineto
-          -22 -18 18 22 hvcurveto
-          120 vlineto
-          -80 -20 rlineto
-          -390 -100 vlineto
-          -20 -17 5 15 -11 hvcurveto
-          -52 -90 rlineto
-          242 hlineto
-          23 15 15 25 hvcurveto
-          210 99 vlineto
-          120 hlineto
-          6 15 0 11 hvcurveto
-          219 vlineto
-          endchar
-        </CharString>
-        <CharString name="seenar.1">
-          83 -250 70 180 70 160 -20 hstem
-          70 80 40 80 40 80 vstem
-          310 230 rmoveto
-          -160 vlineto
-          -22 -18 18 22 hvcurveto
-          140 vlineto
-          -80 -20 rlineto
-          -160 vlineto
-          -22 -18 18 22 hvcurveto
-          140 vlineto
-          -80 -20 rlineto
-          -410 -100 vlineto
-          -20 -17 5 15 -11 hvcurveto
-          -52 -90 rlineto
-          242 hlineto
-          23 15 15 25 hvcurveto
-          210 99 vlineto
-          120 hlineto
-          6 15 0 11 hvcurveto
-          239 vlineto
-          endchar
-        </CharString>
-        <CharString name="seenar.2">
-          83 -250 70 180 70 hstem
-          70 80 40 80 40 80 vstem
-          310 250 rmoveto
-          -180 vlineto
-          -22 -18 18 22 hvcurveto
-          160 vlineto
-          -80 -20 rlineto
-          -180 vlineto
-          -22 -18 18 22 hvcurveto
-          160 vlineto
-          -80 -20 rlineto
-          -430 -100 vlineto
-          -20 -17 5 15 -11 hvcurveto
-          -52 -90 rlineto
-          242 hlineto
-          23 15 15 25 hvcurveto
-          210 99 vlineto
-          120 hlineto
-          6 15 0 11 hvcurveto
-          259 vlineto
-          endchar
-        </CharString>
-        <CharString name="seenar.3">
           83 -250 70 180 70 170 -20 hstem
           70 80 40 80 40 80 vstem
           310 250 rmoveto
@@ -3389,7 +3320,7 @@ You should have received a copy of the GNU Affero General Public License along w
           259 vlineto
           endchar
         </CharString>
-        <CharString name="seenar.4">
+        <CharString name="seenar.1">
           83 -250 70 180 70 160 -20 30 -20 hstemhm
           70 80 40 80 40 80 hintmask 11011110
           310 270 rmoveto
@@ -3413,7 +3344,7 @@ You should have received a copy of the GNU Affero General Public License along w
           279 vlineto
           endchar
         </CharString>
-        <CharString name="seenar.5">
+        <CharString name="seenar.2">
           83 -250 70 180 70 160 -20 hstem
           70 80 40 80 40 80 vstem
           310 290 rmoveto
@@ -3436,6 +3367,75 @@ You should have received a copy of the GNU Affero General Public License along w
           299 vlineto
           endchar
         </CharString>
+        <CharString name="seenar.3">
+          83 -250 70 180 70 160 -20 hstem
+          70 80 40 80 40 80 vstem
+          310 210 rmoveto
+          -140 vlineto
+          -22 -18 18 22 hvcurveto
+          120 vlineto
+          -80 -20 rlineto
+          -140 vlineto
+          -22 -18 18 22 hvcurveto
+          120 vlineto
+          -80 -20 rlineto
+          -390 -100 vlineto
+          -20 -17 5 15 -11 hvcurveto
+          -52 -90 rlineto
+          242 hlineto
+          23 15 15 25 hvcurveto
+          210 99 vlineto
+          120 hlineto
+          6 15 0 11 hvcurveto
+          219 vlineto
+          endchar
+        </CharString>
+        <CharString name="seenar.4">
+          83 -250 70 180 70 160 -20 hstem
+          70 80 40 80 40 80 vstem
+          310 230 rmoveto
+          -160 vlineto
+          -22 -18 18 22 hvcurveto
+          140 vlineto
+          -80 -20 rlineto
+          -160 vlineto
+          -22 -18 18 22 hvcurveto
+          140 vlineto
+          -80 -20 rlineto
+          -410 -100 vlineto
+          -20 -17 5 15 -11 hvcurveto
+          -52 -90 rlineto
+          242 hlineto
+          23 15 15 25 hvcurveto
+          210 99 vlineto
+          120 hlineto
+          6 15 0 11 hvcurveto
+          239 vlineto
+          endchar
+        </CharString>
+        <CharString name="seenar.5">
+          83 -250 70 180 70 hstem
+          70 80 40 80 40 80 vstem
+          310 250 rmoveto
+          -180 vlineto
+          -22 -18 18 22 hvcurveto
+          160 vlineto
+          -80 -20 rlineto
+          -180 vlineto
+          -22 -18 18 22 hvcurveto
+          160 vlineto
+          -80 -20 rlineto
+          -430 -100 vlineto
+          -20 -17 5 15 -11 hvcurveto
+          -52 -90 rlineto
+          242 hlineto
+          23 15 15 25 hvcurveto
+          210 99 vlineto
+          120 hlineto
+          6 15 0 11 hvcurveto
+          259 vlineto
+          endchar
+        </CharString>
         <CharString name="seenar.6">
           23 -250 70 180 70 hstem
           70 80 100 80 vstem
@@ -3453,81 +3453,6 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seenar.fina">
-          83 -250 70 180 70 160 -20 hstem
-          70 80 40 80 40 80 vstem
-          390 110 rmoveto
-          120 vlineto
-          -80 -20 rlineto
-          -140 vlineto
-          -22 -18 18 22 hvcurveto
-          120 vlineto
-          -80 -20 rlineto
-          -140 vlineto
-          -22 -18 18 22 hvcurveto
-          120 vlineto
-          -80 -20 rlineto
-          -390 -100 vlineto
-          -20 -17 5 15 -11 hvcurveto
-          -52 -90 rlineto
-          242 hlineto
-          23 15 15 25 hvcurveto
-          210 99 vlineto
-          120 hlineto
-          61 70 hlineto
-          -22 -18 18 22 hvcurveto
-          endchar
-        </CharString>
-        <CharString name="seenar.fina.1">
-          83 -250 70 180 70 160 -20 hstem
-          70 80 40 80 40 80 vstem
-          390 110 rmoveto
-          140 vlineto
-          -80 -20 rlineto
-          -160 vlineto
-          -22 -18 18 22 hvcurveto
-          140 vlineto
-          -80 -20 rlineto
-          -160 vlineto
-          -22 -18 18 22 hvcurveto
-          140 vlineto
-          -80 -20 rlineto
-          -410 -100 vlineto
-          -20 -17 5 15 -11 hvcurveto
-          -52 -90 rlineto
-          242 hlineto
-          23 15 15 25 hvcurveto
-          210 99 vlineto
-          120 hlineto
-          61 70 hlineto
-          -22 -18 18 22 hvcurveto
-          endchar
-        </CharString>
-        <CharString name="seenar.fina.2">
-          83 -250 70 180 70 hstem
-          70 80 40 80 40 80 vstem
-          390 110 rmoveto
-          160 vlineto
-          -80 -20 rlineto
-          -180 vlineto
-          -22 -18 18 22 hvcurveto
-          160 vlineto
-          -80 -20 rlineto
-          -180 vlineto
-          -22 -18 18 22 hvcurveto
-          160 vlineto
-          -80 -20 rlineto
-          -430 -100 vlineto
-          -20 -17 5 15 -11 hvcurveto
-          -52 -90 rlineto
-          242 hlineto
-          23 15 15 25 hvcurveto
-          210 99 vlineto
-          120 hlineto
-          61 70 hlineto
-          -22 -18 18 22 hvcurveto
-          endchar
-        </CharString>
-        <CharString name="seenar.fina.3">
           83 -250 70 180 70 170 -20 hstem
           70 80 40 80 40 80 vstem
           390 110 rmoveto
@@ -3552,7 +3477,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -22 -18 18 22 hvcurveto
           endchar
         </CharString>
-        <CharString name="seenar.fina.4">
+        <CharString name="seenar.fina.1">
           83 -250 70 180 70 160 -20 30 -20 hstemhm
           70 80 40 80 40 80 hintmask 11011110
           390 110 rmoveto
@@ -3579,7 +3504,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -22 -18 18 22 hvcurveto
           endchar
         </CharString>
-        <CharString name="seenar.fina.5">
+        <CharString name="seenar.fina.2">
           83 -250 70 180 70 160 -20 hstem
           70 80 40 80 40 80 vstem
           390 110 rmoveto
@@ -3604,64 +3529,82 @@ You should have received a copy of the GNU Affero General Public License along w
           -22 -18 18 22 hvcurveto
           endchar
         </CharString>
+        <CharString name="seenar.fina.3">
+          83 -250 70 180 70 160 -20 hstem
+          70 80 40 80 40 80 vstem
+          390 110 rmoveto
+          120 vlineto
+          -80 -20 rlineto
+          -140 vlineto
+          -22 -18 18 22 hvcurveto
+          120 vlineto
+          -80 -20 rlineto
+          -140 vlineto
+          -22 -18 18 22 hvcurveto
+          120 vlineto
+          -80 -20 rlineto
+          -390 -100 vlineto
+          -20 -17 5 15 -11 hvcurveto
+          -52 -90 rlineto
+          242 hlineto
+          23 15 15 25 hvcurveto
+          210 99 vlineto
+          120 hlineto
+          61 70 hlineto
+          -22 -18 18 22 hvcurveto
+          endchar
+        </CharString>
+        <CharString name="seenar.fina.4">
+          83 -250 70 180 70 160 -20 hstem
+          70 80 40 80 40 80 vstem
+          390 110 rmoveto
+          140 vlineto
+          -80 -20 rlineto
+          -160 vlineto
+          -22 -18 18 22 hvcurveto
+          140 vlineto
+          -80 -20 rlineto
+          -160 vlineto
+          -22 -18 18 22 hvcurveto
+          140 vlineto
+          -80 -20 rlineto
+          -410 -100 vlineto
+          -20 -17 5 15 -11 hvcurveto
+          -52 -90 rlineto
+          242 hlineto
+          23 15 15 25 hvcurveto
+          210 99 vlineto
+          120 hlineto
+          61 70 hlineto
+          -22 -18 18 22 hvcurveto
+          endchar
+        </CharString>
+        <CharString name="seenar.fina.5">
+          83 -250 70 180 70 hstem
+          70 80 40 80 40 80 vstem
+          390 110 rmoveto
+          160 vlineto
+          -80 -20 rlineto
+          -180 vlineto
+          -22 -18 18 22 hvcurveto
+          160 vlineto
+          -80 -20 rlineto
+          -180 vlineto
+          -22 -18 18 22 hvcurveto
+          160 vlineto
+          -80 -20 rlineto
+          -430 -100 vlineto
+          -20 -17 5 15 -11 hvcurveto
+          -52 -90 rlineto
+          242 hlineto
+          23 15 15 25 hvcurveto
+          210 99 vlineto
+          120 hlineto
+          61 70 hlineto
+          -22 -18 18 22 hvcurveto
+          endchar
+        </CharString>
         <CharString name="seenar.init">
-          13 0 70 160 -20 hstem
-          0 80 40 80 40 80 vstem
-          240 210 rmoveto
-          -140 vlineto
-          -22 -18 18 22 hvcurveto
-          120 vlineto
-          -80 -20 rlineto
-          -140 vlineto
-          -22 -18 18 22 hvcurveto
-          120 vlineto
-          -80 -20 rlineto
-          -140 -20 -70 79 vlineto
-          120 hlineto
-          120 hlineto
-          6 15 0 11 hvcurveto
-          219 vlineto
-          endchar
-        </CharString>
-        <CharString name="seenar.init.1">
-          13 0 70 160 -20 hstem
-          0 80 40 80 40 80 vstem
-          240 230 rmoveto
-          -160 vlineto
-          -22 -18 18 22 hvcurveto
-          140 vlineto
-          -80 -20 rlineto
-          -160 vlineto
-          -22 -18 18 22 hvcurveto
-          140 vlineto
-          -80 -20 rlineto
-          -160 -20 -70 79 vlineto
-          120 hlineto
-          120 hlineto
-          6 15 0 11 hvcurveto
-          239 vlineto
-          endchar
-        </CharString>
-        <CharString name="seenar.init.2">
-          13 0 70 hstem
-          0 80 40 80 40 80 vstem
-          240 250 rmoveto
-          -180 vlineto
-          -22 -18 18 22 hvcurveto
-          160 vlineto
-          -80 -20 rlineto
-          -180 vlineto
-          -22 -18 18 22 hvcurveto
-          160 vlineto
-          -80 -20 rlineto
-          -180 -20 -70 79 vlineto
-          120 hlineto
-          120 hlineto
-          6 15 0 11 hvcurveto
-          259 vlineto
-          endchar
-        </CharString>
-        <CharString name="seenar.init.3">
           13 0 70 170 -20 hstem
           0 80 40 80 40 80 vstem
           240 250 rmoveto
@@ -3680,7 +3623,7 @@ You should have received a copy of the GNU Affero General Public License along w
           259 vlineto
           endchar
         </CharString>
-        <CharString name="seenar.init.4">
+        <CharString name="seenar.init.1">
           13 0 70 160 -20 30 -20 hstemhm
           0 80 40 80 40 80 hintmask 10111100
           240 270 rmoveto
@@ -3700,7 +3643,7 @@ You should have received a copy of the GNU Affero General Public License along w
           279 vlineto
           endchar
         </CharString>
-        <CharString name="seenar.init.5">
+        <CharString name="seenar.init.2">
           13 0 70 160 -20 hstem
           0 80 40 80 40 80 vstem
           240 290 rmoveto
@@ -3719,6 +3662,63 @@ You should have received a copy of the GNU Affero General Public License along w
           299 vlineto
           endchar
         </CharString>
+        <CharString name="seenar.init.3">
+          13 0 70 160 -20 hstem
+          0 80 40 80 40 80 vstem
+          240 210 rmoveto
+          -140 vlineto
+          -22 -18 18 22 hvcurveto
+          120 vlineto
+          -80 -20 rlineto
+          -140 vlineto
+          -22 -18 18 22 hvcurveto
+          120 vlineto
+          -80 -20 rlineto
+          -140 -20 -70 79 vlineto
+          120 hlineto
+          120 hlineto
+          6 15 0 11 hvcurveto
+          219 vlineto
+          endchar
+        </CharString>
+        <CharString name="seenar.init.4">
+          13 0 70 160 -20 hstem
+          0 80 40 80 40 80 vstem
+          240 230 rmoveto
+          -160 vlineto
+          -22 -18 18 22 hvcurveto
+          140 vlineto
+          -80 -20 rlineto
+          -160 vlineto
+          -22 -18 18 22 hvcurveto
+          140 vlineto
+          -80 -20 rlineto
+          -160 -20 -70 79 vlineto
+          120 hlineto
+          120 hlineto
+          6 15 0 11 hvcurveto
+          239 vlineto
+          endchar
+        </CharString>
+        <CharString name="seenar.init.5">
+          13 0 70 hstem
+          0 80 40 80 40 80 vstem
+          240 250 rmoveto
+          -180 vlineto
+          -22 -18 18 22 hvcurveto
+          160 vlineto
+          -80 -20 rlineto
+          -180 vlineto
+          -22 -18 18 22 hvcurveto
+          160 vlineto
+          -80 -20 rlineto
+          -180 -20 -70 79 vlineto
+          120 hlineto
+          120 hlineto
+          6 15 0 11 hvcurveto
+          259 vlineto
+          endchar
+        </CharString>
         <CharString name="seenar.init.6">
           -7 0 70 hstem
           220 80 vstem
@@ -3731,69 +3731,6 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seenar.medi">
-          13 0 70 160 -20 hstem
-          0 80 40 80 40 80 vstem
-          320 110 rmoveto
-          120 vlineto
-          -80 -20 rlineto
-          -140 vlineto
-          -22 -18 18 22 hvcurveto
-          120 vlineto
-          -80 -20 rlineto
-          -140 vlineto
-          -22 -18 18 22 hvcurveto
-          120 vlineto
-          -80 -20 rlineto
-          -140 -20 -70 79 vlineto
-          120 hlineto
-          120 hlineto
-          61 70 hlineto
-          -22 -18 18 22 hvcurveto
-          endchar
-        </CharString>
-        <CharString name="seenar.medi.1">
-          13 0 70 160 -20 hstem
-          0 80 40 80 40 80 vstem
-          320 110 rmoveto
-          140 vlineto
-          -80 -20 rlineto
-          -160 vlineto
-          -22 -18 18 22 hvcurveto
-          140 vlineto
-          -80 -20 rlineto
-          -160 vlineto
-          -22 -18 18 22 hvcurveto
-          140 vlineto
-          -80 -20 rlineto
-          -160 -20 -70 79 vlineto
-          120 hlineto
-          120 hlineto
-          61 70 hlineto
-          -22 -18 18 22 hvcurveto
-          endchar
-        </CharString>
-        <CharString name="seenar.medi.2">
-          13 0 70 hstem
-          0 80 40 80 40 80 vstem
-          320 110 rmoveto
-          160 vlineto
-          -80 -20 rlineto
-          -180 vlineto
-          -22 -18 18 22 hvcurveto
-          160 vlineto
-          -80 -20 rlineto
-          -180 vlineto
-          -22 -18 18 22 hvcurveto
-          160 vlineto
-          -80 -20 rlineto
-          -180 -20 -70 79 vlineto
-          120 hlineto
-          120 hlineto
-          61 70 hlineto
-          -22 -18 18 22 hvcurveto
-          endchar
-        </CharString>
-        <CharString name="seenar.medi.3">
           13 0 70 170 -20 hstem
           0 80 40 80 40 80 vstem
           320 110 rmoveto
@@ -3814,7 +3751,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -22 -18 18 22 hvcurveto
           endchar
         </CharString>
-        <CharString name="seenar.medi.4">
+        <CharString name="seenar.medi.1">
           13 0 70 160 -20 30 -20 hstemhm
           0 80 40 80 40 80 hintmask 10111100
           320 110 rmoveto
@@ -3837,7 +3774,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -22 -18 18 22 hvcurveto
           endchar
         </CharString>
-        <CharString name="seenar.medi.5">
+        <CharString name="seenar.medi.2">
           13 0 70 160 -20 hstem
           0 80 40 80 40 80 vstem
           320 110 rmoveto
@@ -3852,6 +3789,69 @@ You should have received a copy of the GNU Affero General Public License along w
           140 vlineto
           -80 -20 rlineto
           -160 -20 -70 79 vlineto
+          120 hlineto
+          120 hlineto
+          61 70 hlineto
+          -22 -18 18 22 hvcurveto
+          endchar
+        </CharString>
+        <CharString name="seenar.medi.3">
+          13 0 70 160 -20 hstem
+          0 80 40 80 40 80 vstem
+          320 110 rmoveto
+          120 vlineto
+          -80 -20 rlineto
+          -140 vlineto
+          -22 -18 18 22 hvcurveto
+          120 vlineto
+          -80 -20 rlineto
+          -140 vlineto
+          -22 -18 18 22 hvcurveto
+          120 vlineto
+          -80 -20 rlineto
+          -140 -20 -70 79 vlineto
+          120 hlineto
+          120 hlineto
+          61 70 hlineto
+          -22 -18 18 22 hvcurveto
+          endchar
+        </CharString>
+        <CharString name="seenar.medi.4">
+          13 0 70 160 -20 hstem
+          0 80 40 80 40 80 vstem
+          320 110 rmoveto
+          140 vlineto
+          -80 -20 rlineto
+          -160 vlineto
+          -22 -18 18 22 hvcurveto
+          140 vlineto
+          -80 -20 rlineto
+          -160 vlineto
+          -22 -18 18 22 hvcurveto
+          140 vlineto
+          -80 -20 rlineto
+          -160 -20 -70 79 vlineto
+          120 hlineto
+          120 hlineto
+          61 70 hlineto
+          -22 -18 18 22 hvcurveto
+          endchar
+        </CharString>
+        <CharString name="seenar.medi.5">
+          13 0 70 hstem
+          0 80 40 80 40 80 vstem
+          320 110 rmoveto
+          160 vlineto
+          -80 -20 rlineto
+          -180 vlineto
+          -22 -18 18 22 hvcurveto
+          160 vlineto
+          -80 -20 rlineto
+          -180 vlineto
+          -22 -18 18 22 hvcurveto
+          160 vlineto
+          -80 -20 rlineto
+          -180 -20 -70 79 vlineto
           120 hlineto
           120 hlineto
           61 70 hlineto
@@ -9084,16 +9084,16 @@ You should have received a copy of the GNU Affero General Public License along w
             <ClassDef glyph="lamar.init" class="20"/>
             <ClassDef glyph="lamar.init.lellah" class="21"/>
             <ClassDef glyph="qafDotlessar" class="28"/>
-            <ClassDef glyph="seenar.1" class="29"/>
-            <ClassDef glyph="seenar.2" class="30"/>
-            <ClassDef glyph="seenar.3" class="31"/>
-            <ClassDef glyph="seenar.4" class="32"/>
-            <ClassDef glyph="seenar.5" class="33"/>
-            <ClassDef glyph="seenar.init.1" class="34"/>
-            <ClassDef glyph="seenar.init.2" class="35"/>
-            <ClassDef glyph="seenar.init.3" class="36"/>
-            <ClassDef glyph="seenar.init.4" class="37"/>
-            <ClassDef glyph="seenar.init.5" class="38"/>
+            <ClassDef glyph="seenar" class="31"/>
+            <ClassDef glyph="seenar.1" class="32"/>
+            <ClassDef glyph="seenar.2" class="33"/>
+            <ClassDef glyph="seenar.4" class="29"/>
+            <ClassDef glyph="seenar.5" class="30"/>
+            <ClassDef glyph="seenar.init" class="36"/>
+            <ClassDef glyph="seenar.init.1" class="37"/>
+            <ClassDef glyph="seenar.init.2" class="38"/>
+            <ClassDef glyph="seenar.init.4" class="34"/>
+            <ClassDef glyph="seenar.init.5" class="35"/>
             <ClassDef glyph="wawar.2" class="39"/>
             <ClassDef glyph="wawar.3" class="40"/>
           </ClassDef2>
@@ -10038,17 +10038,17 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="43">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="354"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="233"/>
-                <YCoordinate value="300"/>
+                <YCoordinate value="310"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="44">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="354"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10058,7 +10058,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="45">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="354"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10068,17 +10068,17 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="46">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="354"/>
+                <XCoordinate value="234"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="233"/>
-                <YCoordinate value="310"/>
+                <YCoordinate value="300"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="47">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="354"/>
+                <XCoordinate value="234"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10088,7 +10088,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="48">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="354"/>
+                <XCoordinate value="234"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10105,17 +10105,17 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="50">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="354"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="233"/>
-                <YCoordinate value="300"/>
+                <YCoordinate value="310"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="51">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="354"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10125,7 +10125,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="52">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="354"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10135,17 +10135,17 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="53">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="354"/>
+                <XCoordinate value="234"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="233"/>
-                <YCoordinate value="310"/>
+                <YCoordinate value="300"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="54">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="354"/>
+                <XCoordinate value="234"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10155,7 +10155,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="55">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="354"/>
+                <XCoordinate value="234"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10165,17 +10165,17 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="56">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="164"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="160"/>
-                <YCoordinate value="280"/>
+                <YCoordinate value="290"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="57">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="164"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10185,27 +10185,27 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="58">
               <BaseAnchor index="0" Format="1">
+                <XCoordinate value="164"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
+              <BaseAnchor index="1" Format="1">
+                <XCoordinate value="160"/>
+                <YCoordinate value="320"/>
+              </BaseAnchor>
+            </BaseRecord>
+            <BaseRecord index="59">
+              <BaseAnchor index="0" Format="1">
                 <XCoordinate value="44"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="160"/>
-                <YCoordinate value="300"/>
-              </BaseAnchor>
-            </BaseRecord>
-            <BaseRecord index="59">
-              <BaseAnchor index="0" Format="1">
-                <XCoordinate value="164"/>
-                <YCoordinate value="-35"/>
-              </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
-                <XCoordinate value="160"/>
-                <YCoordinate value="290"/>
+                <YCoordinate value="280"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="60">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="164"/>
+                <XCoordinate value="44"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10215,12 +10215,12 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="61">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="164"/>
+                <XCoordinate value="44"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="160"/>
-                <YCoordinate value="320"/>
+                <YCoordinate value="300"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="62">
@@ -10232,17 +10232,17 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="63">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="164"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="160"/>
-                <YCoordinate value="280"/>
+                <YCoordinate value="290"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="64">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="164"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10252,27 +10252,27 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="65">
               <BaseAnchor index="0" Format="1">
+                <XCoordinate value="164"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
+              <BaseAnchor index="1" Format="1">
+                <XCoordinate value="160"/>
+                <YCoordinate value="320"/>
+              </BaseAnchor>
+            </BaseRecord>
+            <BaseRecord index="66">
+              <BaseAnchor index="0" Format="1">
                 <XCoordinate value="44"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="160"/>
-                <YCoordinate value="300"/>
-              </BaseAnchor>
-            </BaseRecord>
-            <BaseRecord index="66">
-              <BaseAnchor index="0" Format="1">
-                <XCoordinate value="164"/>
-                <YCoordinate value="-35"/>
-              </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
-                <XCoordinate value="160"/>
-                <YCoordinate value="290"/>
+                <YCoordinate value="280"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="67">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="164"/>
+                <XCoordinate value="44"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10282,12 +10282,12 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="68">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="164"/>
+                <XCoordinate value="44"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="160"/>
-                <YCoordinate value="320"/>
+                <YCoordinate value="300"/>
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="69">
@@ -12037,7 +12037,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <Lookup index="16">
         <LookupType value="6"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
-        <!-- SubTableCount=7 -->
+        <!-- SubTableCount=4 -->
         <ChainContextSubst index="0" Format="3">
           <!-- BacktrackGlyphCount=1 -->
           <BacktrackCoverage index="0" Format="1">
@@ -12082,56 +12082,6 @@ You should have received a copy of the GNU Affero General Public License along w
         <ChainContextSubst index="2" Format="3">
           <!-- BacktrackGlyphCount=1 -->
           <BacktrackCoverage index="0" Format="1">
-            <Glyph value="behDotlessar.medi"/>
-            <Glyph value="behDotlessar.init"/>
-          </BacktrackCoverage>
-          <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0" Format="1">
-            <Glyph value="seenar.medi"/>
-          </InputCoverage>
-          <!-- LookAheadGlyphCount=0 -->
-          <!-- SubstCount=1 -->
-          <SubstLookupRecord index="0">
-            <SequenceIndex value="0"/>
-            <LookupListIndex value="24"/>
-          </SubstLookupRecord>
-        </ChainContextSubst>
-        <ChainContextSubst index="3" Format="3">
-          <!-- BacktrackGlyphCount=0 -->
-          <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0" Format="1">
-            <Glyph value="seenar.medi"/>
-          </InputCoverage>
-          <!-- LookAheadGlyphCount=1 -->
-          <LookAheadCoverage index="0" Format="1">
-            <Glyph value="behDotlessar.medi"/>
-          </LookAheadCoverage>
-          <!-- SubstCount=1 -->
-          <SubstLookupRecord index="0">
-            <SequenceIndex value="0"/>
-            <LookupListIndex value="24"/>
-          </SubstLookupRecord>
-        </ChainContextSubst>
-        <ChainContextSubst index="4" Format="3">
-          <!-- BacktrackGlyphCount=1 -->
-          <BacktrackCoverage index="0" Format="1">
-            <Glyph value="behDotlessar.medi"/>
-            <Glyph value="behDotlessar.init"/>
-          </BacktrackCoverage>
-          <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0" Format="1">
-            <Glyph value="seenar.fina"/>
-          </InputCoverage>
-          <!-- LookAheadGlyphCount=0 -->
-          <!-- SubstCount=1 -->
-          <SubstLookupRecord index="0">
-            <SequenceIndex value="0"/>
-            <LookupListIndex value="24"/>
-          </SubstLookupRecord>
-        </ChainContextSubst>
-        <ChainContextSubst index="5" Format="3">
-          <!-- BacktrackGlyphCount=1 -->
-          <BacktrackCoverage index="0" Format="1">
             <Glyph value="behDotlessar.init"/>
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
@@ -12148,7 +12098,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <LookupListIndex value="24"/>
           </SubstLookupRecord>
         </ChainContextSubst>
-        <ChainContextSubst index="6" Format="3">
+        <ChainContextSubst index="3" Format="3">
           <!-- BacktrackGlyphCount=0 -->
           <!-- InputGlyphCount=2 -->
           <InputCoverage index="0" Format="1">
@@ -12575,10 +12525,8 @@ You should have received a copy of the GNU Affero General Public License along w
         <LookupType value="1"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="2">
+        <SingleSubst index="0" Format="1">
           <Substitution in="behDotlessar.medi" out="behDotlessar.medi.high"/>
-          <Substitution in="seenar.fina" out="seenar.fina.3"/>
-          <Substitution in="seenar.medi" out="seenar.medi.3"/>
         </SingleSubst>
       </Lookup>
       <Lookup index="25">
