@@ -56,6 +56,10 @@ value = 1;
 {
 name = "Disable Subroutines";
 value = 1;
+},
+{
+name = "makeOTF Argument";
+value = "-omitMacNames";
 }
 );
 date = "2020-03-15 21:08:10 +0000";

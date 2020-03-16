@@ -248,12 +248,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0x3bceb205"/>
+    <checkSumAdjustment value="0x2c2456ab"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Mon Mar 16 02:10:57 2020"/>
-    <modified value="Mon Mar 16 02:10:57 2020"/>
+    <created value="Mon Mar 16 02:19:17 2020"/>
+    <modified value="Mon Mar 16 02:19:17 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -344,55 +344,6 @@
   </OS_2>
 
   <name>
-    <namerecord nameID="0" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Copyright © 2020 by Khaled Hosny. All rights reserved.
-    </namerecord>
-    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Qahiri
-    </namerecord>
-    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Regular
-    </namerecord>
-    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      1.000;ALIF;Qahiri-Regular
-    </namerecord>
-    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Qahiri Regular
-    </namerecord>
-    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
-    </namerecord>
-    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Qahiri-Regular
-    </namerecord>
-    <namerecord nameID="8" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Alif Type
-    </namerecord>
-    <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Khaled Hosny
-    </namerecord>
-    <namerecord nameID="10" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Qahiri is a Kufic typeface based on the modernized and regularized old manuscript Kufic calligraphy style of the late master of Arabic calligraphy Mohammad Abdul Qadir.
-    </namerecord>
-    <namerecord nameID="11" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      https://github.com/alif-type
-    </namerecord>
-    <namerecord nameID="12" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      https://github.com/alif-type
-    </namerecord>
-    <namerecord nameID="13" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;
-    </namerecord>
-    <namerecord nameID="14" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      https://www.gnu.org/licenses/agpl-3.0.html
-    </namerecord>
-    <namerecord nameID="19" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      __ ___ ___ ____ _____ __ ____ ____ ______ ___ _____ _____
-    </namerecord>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
       Copyright © 2020 by Khaled Hosny. All rights reserved.
     </namerecord>
