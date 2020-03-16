@@ -33,9 +33,14 @@ The slider and the input box next to it control the text size.
 
 There are two buttons that control the dots, the ![remove
 dots](app/assets/images/remove-dots.svg) button will remove all the dots, to
-get a dot-less version of the text resembling early Kufic manuscripts. The
-![rounded dots](app/assets/images/round-dots.svg) button, on the other hand,
-replaces the default rectangular dots with more familiar rounded dots.
+get a dot-less version of the text resembling early Kufic manuscripts.
+
+![Screenshot with no dots](images/screenshot-dotless.png)
+
+The ![rounded dots](app/assets/images/round-dots.svg) button, on the other
+hand, replaces the default rectangular dots with more familiar rounded dots.
+
+![Screenshot with rounded dots](images/screenshot-rounded-dots.png)
 
 The app allows exporting SVG file that can be further modified in any vector
 graphics application. Pressing ![export](app/assets/images/export.svg) button
