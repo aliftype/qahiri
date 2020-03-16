@@ -20,7 +20,7 @@ section {
 .lang-switcher {
   font-size: 14pt;
   float: left;
-  rotate: 90deg;
+  transform: rotate(90deg);
 }
 
 @media print, screen and (max-width: 960px) {
@@ -33,7 +33,7 @@ section {
   right: 0px;
  }
  .lang-switcher {
-   rotate: 0deg;
+   transform: rotate(0deg);
    margin-bottom: -1.5em;
  }
 }
