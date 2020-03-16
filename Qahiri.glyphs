@@ -88,7 +88,7 @@ lookup lellah {
 
 lookup ToothYeh {
  sub alefMaksura-ar.fina by alefMaksura-ar.fina.tooth;
- sub lam-ar.medi         by alef-ar.fina;
+ sub lam-ar.medi         by lam-ar.medi.yeh;
  sub behDotless-ar.medi  by behDotless-ar.medi.yeh;
 } ToothYeh;";
 name = Lookups;
@@ -628,10 +628,6 @@ anchors = (
 {
 name = bottom;
 position = "{44, -20}";
-},
-{
-name = exit;
-position = "{0, 0}";
 },
 {
 name = top;
@@ -5055,6 +5051,37 @@ nodes = (
 width = 120;
 }
 );
+},
+{
+glyphname = "lam-ar.medi.yeh";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{44, -20}";
+},
+{
+name = top;
+position = "{40, 569}";
+}
+);
+components = (
+{
+alignment = -1;
+name = _alef;
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi.yeh";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 120;
+}
+);
+widthMetricsKey = "behDotless-ar.medi.yeh";
+rightMetricsKey = "behDotless-ar.medi.yeh";
 },
 {
 glyphname = "lam-ar.init";
