@@ -249,12 +249,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0x7d2227df"/>
+    <checkSumAdjustment value="0xc0f40b0f"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Mon Mar 16 19:32:39 2020"/>
-    <modified value="Mon Mar 16 19:32:39 2020"/>
+    <created value="Mon Mar 16 20:03:55 2020"/>
+    <modified value="Mon Mar 16 20:03:55 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -341,7 +341,7 @@
     <sCapHeight value="560"/>
     <usDefaultChar value="0"/>
     <usBreakChar value="32"/>
-    <usMaxContext value="3"/>
+    <usMaxContext value="4"/>
   </OS_2>
 
   <name>
@@ -12521,8 +12521,34 @@ You should have received a copy of the GNU Affero General Public License along w
       <Lookup index="23">
         <LookupType value="6"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
-        <!-- SubTableCount=1 -->
+        <!-- SubTableCount=2 -->
         <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=4 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="behDotlessar.medi"/>
+            <Glyph value="behDotlessar.medi.1"/>
+            <Glyph value="behDotlessar.medi.high"/>
+            <Glyph value="behDotlessar.medi.high.1"/>
+            <Glyph value="behDotlessar.init"/>
+          </InputCoverage>
+          <InputCoverage index="1" Format="1">
+            <Glyph value="dotbelowar"/>
+            <Glyph value="dotbelowar.alt1"/>
+            <Glyph value="twodotshorizontalbelowar"/>
+            <Glyph value="twodotshorizontalbelowar.alt1"/>
+          </InputCoverage>
+          <InputCoverage index="2" Format="1">
+            <Glyph value="behDotlessar.medi"/>
+            <Glyph value="lamar.medi"/>
+          </InputCoverage>
+          <InputCoverage index="3" Format="1">
+            <Glyph value="alefMaksuraar.fina"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=0 -->
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
           <!-- BacktrackGlyphCount=0 -->
           <!-- InputGlyphCount=2 -->
           <InputCoverage index="0" Format="1">

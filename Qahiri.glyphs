@@ -342,6 +342,7 @@ code = "lookup HehDots {
 
 lookup YehTooth {
  lookupflag UseMarkFilteringSet @DotsBelow;
+  ignore sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1]' @DotsBelow' [behDotless-ar.medi lam-ar.medi]' alefMaksura-ar.fina';
   sub [behDotless-ar.medi lam-ar.medi]' lookup ToothYeh alefMaksura-ar.fina' lookup ToothYeh;
 } YehTooth;";
 name = dist;
