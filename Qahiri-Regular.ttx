@@ -249,12 +249,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.00099"/>
-    <checkSumAdjustment value="0xfbbea317"/>
+    <checkSumAdjustment value="0x94a769a5"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Mon Mar 16 21:43:45 2020"/>
-    <modified value="Mon Mar 16 21:43:45 2020"/>
+    <created value="Mon Mar 16 22:03:40 2020"/>
+    <modified value="Mon Mar 16 22:03:40 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -4650,7 +4650,7 @@ You should have received a copy of the GNU Affero General Public License along w
     </GlyphClassDef>
     <MarkGlyphSetsDef>
       <MarkSetTableFormat value="1"/>
-      <!-- MarkSetCount=3 -->
+      <!-- MarkSetCount=4 -->
       <Coverage index="0" Format="1">
         <Glyph value="twodotshorizontalabovear"/>
         <Glyph value="twodotshorizontalabovear.alt1"/>
@@ -4662,6 +4662,10 @@ You should have received a copy of the GNU Affero General Public License along w
         <Glyph value="twodotshorizontalbelowar.alt1"/>
       </Coverage>
       <Coverage index="2" Format="1">
+        <Glyph value="twodotshorizontalbelowar"/>
+        <Glyph value="twodotshorizontalbelowar.alt1"/>
+      </Coverage>
+      <Coverage index="3" Format="1">
         <Glyph value="dotabovear"/>
         <Glyph value="dotabovear.alt1"/>
       </Coverage>
@@ -9593,7 +9597,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <MarkRecord index="8">
               <Class value="0"/>
               <MarkAnchor Format="1">
-                <XCoordinate value="55"/>
+                <XCoordinate value="35"/>
                 <YCoordinate value="89"/>
               </MarkAnchor>
             </MarkRecord>
@@ -9764,7 +9768,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="12">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="46"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -9773,7 +9777,10 @@ You should have received a copy of the GNU Affero General Public License along w
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="13">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="73"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="36"/>
                 <YCoordinate value="215"/>
@@ -9781,7 +9788,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="14">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="46"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -9791,7 +9798,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="15">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="46"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -9801,7 +9808,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="16">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="46"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -9811,7 +9818,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="17">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="46"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10038,7 +10045,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="43">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="354"/>
+                <XCoordinate value="356"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10048,7 +10055,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="44">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="354"/>
+                <XCoordinate value="356"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10058,7 +10065,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="45">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="354"/>
+                <XCoordinate value="356"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10068,7 +10075,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="46">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="236"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10078,7 +10085,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="47">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="236"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10088,7 +10095,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="48">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="236"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10097,7 +10104,10 @@ You should have received a copy of the GNU Affero General Public License along w
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="49">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="213"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="180"/>
                 <YCoordinate value="202"/>
@@ -10105,7 +10115,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="50">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="354"/>
+                <XCoordinate value="356"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10115,7 +10125,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="51">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="354"/>
+                <XCoordinate value="356"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10125,7 +10135,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="52">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="354"/>
+                <XCoordinate value="356"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10135,7 +10145,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="53">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="236"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10145,7 +10155,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="54">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="236"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10155,7 +10165,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="55">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="236"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10165,7 +10175,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="56">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="164"/>
+                <XCoordinate value="166"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10175,7 +10185,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="57">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="164"/>
+                <XCoordinate value="166"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10185,7 +10195,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="58">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="164"/>
+                <XCoordinate value="166"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10195,7 +10205,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="59">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="46"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10205,7 +10215,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="60">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="46"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10215,7 +10225,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="61">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="46"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10224,7 +10234,10 @@ You should have received a copy of the GNU Affero General Public License along w
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="62">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="73"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="148"/>
                 <YCoordinate value="215"/>
@@ -10232,7 +10245,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="63">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="164"/>
+                <XCoordinate value="166"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10242,7 +10255,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="64">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="164"/>
+                <XCoordinate value="166"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10252,7 +10265,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="65">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="164"/>
+                <XCoordinate value="166"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10262,7 +10275,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="66">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="46"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10272,7 +10285,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="67">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="46"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10282,7 +10295,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="68">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="44"/>
+                <XCoordinate value="46"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -10291,7 +10304,10 @@ You should have received a copy of the GNU Affero General Public License along w
               </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="69">
-              <BaseAnchor index="0" empty="1"/>
+              <BaseAnchor index="0" Format="1">
+                <XCoordinate value="183"/>
+                <YCoordinate value="-35"/>
+              </BaseAnchor>
               <BaseAnchor index="1" Format="1">
                 <XCoordinate value="148"/>
                 <YCoordinate value="215"/>
@@ -10299,7 +10315,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="70">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="234"/>
+                <XCoordinate value="236"/>
                 <YCoordinate value="-35"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -11129,7 +11145,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <MarkRecord index="8">
               <Class value="1"/>
               <MarkAnchor Format="1">
-                <XCoordinate value="55"/>
+                <XCoordinate value="35"/>
                 <YCoordinate value="89"/>
               </MarkAnchor>
             </MarkRecord>
@@ -11474,8 +11490,6 @@ You should have received a copy of the GNU Affero General Public License along w
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
           <InputCoverage index="0" Format="1">
-            <Glyph value="dotbelowar"/>
-            <Glyph value="dotbelowar.alt1"/>
             <Glyph value="twodotshorizontalbelowar"/>
             <Glyph value="twodotshorizontalbelowar.alt1"/>
           </InputCoverage>
@@ -11514,8 +11528,6 @@ You should have received a copy of the GNU Affero General Public License along w
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
           <InputCoverage index="0" Format="1">
-            <Glyph value="dotbelowar"/>
-            <Glyph value="dotbelowar.alt1"/>
             <Glyph value="twodotshorizontalbelowar"/>
             <Glyph value="twodotshorizontalbelowar.alt1"/>
           </InputCoverage>
@@ -11545,8 +11557,6 @@ You should have received a copy of the GNU Affero General Public License along w
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
           <InputCoverage index="0" Format="1">
-            <Glyph value="dotbelowar"/>
-            <Glyph value="dotbelowar.alt1"/>
             <Glyph value="twodotshorizontalbelowar"/>
             <Glyph value="twodotshorizontalbelowar.alt1"/>
           </InputCoverage>
@@ -11564,8 +11574,6 @@ You should have received a copy of the GNU Affero General Public License along w
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
           <InputCoverage index="0" Format="1">
-            <Glyph value="dotbelowar"/>
-            <Glyph value="dotbelowar.alt1"/>
             <Glyph value="twodotshorizontalbelowar"/>
             <Glyph value="twodotshorizontalbelowar.alt1"/>
           </InputCoverage>
@@ -11579,7 +11587,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <LookupListIndex value="11"/>
           </PosLookupRecord>
         </ChainContextPos>
-        <MarkFilteringSet value="1"/>
+        <MarkFilteringSet value="2"/>
       </Lookup>
       <Lookup index="7">
         <LookupType value="8"/>
@@ -11606,7 +11614,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <LookupListIndex value="12"/>
           </PosLookupRecord>
         </ChainContextPos>
-        <MarkFilteringSet value="2"/>
+        <MarkFilteringSet value="3"/>
       </Lookup>
       <Lookup index="8">
         <LookupType value="1"/>
@@ -11626,15 +11634,13 @@ You should have received a copy of the GNU Affero General Public License along w
         <!-- SubTableCount=1 -->
         <SinglePos index="0" Format="1">
           <Coverage Format="1">
-            <Glyph value="dotbelowar"/>
-            <Glyph value="dotbelowar.alt1"/>
             <Glyph value="twodotshorizontalbelowar"/>
             <Glyph value="twodotshorizontalbelowar.alt1"/>
           </Coverage>
           <ValueFormat value="2"/>
           <Value YPlacement="-100"/>
         </SinglePos>
-        <MarkFilteringSet value="1"/>
+        <MarkFilteringSet value="2"/>
       </Lookup>
       <Lookup index="10">
         <LookupType value="1"/>
@@ -11642,15 +11648,13 @@ You should have received a copy of the GNU Affero General Public License along w
         <!-- SubTableCount=1 -->
         <SinglePos index="0" Format="1">
           <Coverage Format="1">
-            <Glyph value="dotbelowar"/>
-            <Glyph value="dotbelowar.alt1"/>
             <Glyph value="twodotshorizontalbelowar"/>
             <Glyph value="twodotshorizontalbelowar.alt1"/>
           </Coverage>
           <ValueFormat value="3"/>
           <Value XPlacement="40" YPlacement="-100"/>
         </SinglePos>
-        <MarkFilteringSet value="1"/>
+        <MarkFilteringSet value="2"/>
       </Lookup>
       <Lookup index="11">
         <LookupType value="1"/>
@@ -11658,15 +11662,13 @@ You should have received a copy of the GNU Affero General Public License along w
         <!-- SubTableCount=1 -->
         <SinglePos index="0" Format="1">
           <Coverage Format="1">
-            <Glyph value="dotbelowar"/>
-            <Glyph value="dotbelowar.alt1"/>
             <Glyph value="twodotshorizontalbelowar"/>
             <Glyph value="twodotshorizontalbelowar.alt1"/>
           </Coverage>
           <ValueFormat value="1"/>
           <Value XPlacement="-60"/>
         </SinglePos>
-        <MarkFilteringSet value="1"/>
+        <MarkFilteringSet value="2"/>
       </Lookup>
       <Lookup index="12">
         <LookupType value="1"/>
@@ -11680,7 +11682,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <ValueFormat value="3"/>
           <Value XPlacement="-240" YPlacement="120"/>
         </SinglePos>
-        <MarkFilteringSet value="2"/>
+        <MarkFilteringSet value="3"/>
       </Lookup>
     </LookupList>
   </GPOS>
