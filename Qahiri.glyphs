@@ -326,11 +326,12 @@ name = kern;
 },
 {
 code = "# Automatic Code End
+@RehWaw = [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1 waw-ar waw-ar.1 waw-ar.2 waw-ar.3 waw-ar.fina waw-ar.fina.1];
 lookup DotsBelowReh {
  lookupflag UseMarkFilteringSet @TwoDotsBelow;
-  pos [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1] behDotless-ar.init @TwoDotsBelow' <0 -100 0 0> [reh-ar.fina reh-ar.fina.1 lam-ar.fina noonghunna-ar.fina heh-ar.medi heh-ar.medi.1 waw-ar.fina waw-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
-  pos [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1] behDotless-ar.init @TwoDotsBelow' <40 -100 0 0> [qafDotless-ar.fina alefMaksura-ar.fina alefMaksura-ar.fina.0 alefMaksura-ar.fina.1];
-  pos [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1] behDotless-ar.init @TwoDotsBelow' <-60 0 0 0>;
+  pos @RehWaw behDotless-ar.init @TwoDotsBelow' <0 -100 0 0> [reh-ar.fina reh-ar.fina.1 lam-ar.fina noonghunna-ar.fina heh-ar.medi heh-ar.medi.1 waw-ar.fina waw-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
+  pos @RehWaw behDotless-ar.init @TwoDotsBelow' <40 -100 0 0> [qafDotless-ar.fina alefMaksura-ar.fina alefMaksura-ar.fina.0 alefMaksura-ar.fina.1];
+  pos @RehWaw behDotless-ar.init @TwoDotsBelow' <-60 0 0 0>;
   pos behDotless-ar.init @TwoDotsBelow' <-60 0 0 0> alef-ar.fina;
 } DotsBelowReh;
 

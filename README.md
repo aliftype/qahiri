@@ -5,11 +5,6 @@ manuscript Kufic calligraphy style of the late master of Arabic calligraphy
 Following the convention of naming Kufic styles after the cities they appeared
 in, Qahiri (قاهری) is named after the city of Cairo, Egypt (القاهرة).
 
-Download
---------
-
-The latest version of the font can be downloaded from the [releases][3] page.
-
 The app
 -------
 
@@ -50,6 +45,17 @@ the app using the ![open](app/assets/images/open.svg) button.
 Pressing the ![clear](app/assets/images/clear.svg) button will delete all the
 text.
 
+Font features
+-------------
+
+The font tries to remain faithful to the rules laid out by Mohammad Abdul
+Qadir, and one aspect of that is spacing. The space between letters, connected
+or not, as well as between words is always about half the thickness of vertical
+stems. There is distinction between inter-word and inter-letter spacing.
+Inserting more than one space character will increase the inter-word spacing.
+
+Issues
+------
 
 [1]: https://en.wikipedia.org/wiki/Kufic
 [2]: https://ar.wikipedia.org/wiki/محمد_عبد_القادر_عبد_الله_(خطاط)

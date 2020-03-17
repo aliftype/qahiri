@@ -249,12 +249,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.002"/>
-    <checkSumAdjustment value="0x8f761c21"/>
+    <checkSumAdjustment value="0xca30a8bf"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Tue Mar 17 06:09:51 2020"/>
-    <modified value="Tue Mar 17 06:09:51 2020"/>
+    <created value="Tue Mar 17 20:30:11 2020"/>
+    <modified value="Tue Mar 17 20:30:11 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -11487,6 +11487,12 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="rehar.1"/>
             <Glyph value="rehar.fina"/>
             <Glyph value="rehar.fina.1"/>
+            <Glyph value="wawar"/>
+            <Glyph value="wawar.1"/>
+            <Glyph value="wawar.2"/>
+            <Glyph value="wawar.3"/>
+            <Glyph value="wawar.fina"/>
+            <Glyph value="wawar.fina.1"/>
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
           <InputCoverage index="0" Format="1">
@@ -11525,6 +11531,12 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="rehar.1"/>
             <Glyph value="rehar.fina"/>
             <Glyph value="rehar.fina.1"/>
+            <Glyph value="wawar"/>
+            <Glyph value="wawar.1"/>
+            <Glyph value="wawar.2"/>
+            <Glyph value="wawar.3"/>
+            <Glyph value="wawar.fina"/>
+            <Glyph value="wawar.fina.1"/>
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
           <InputCoverage index="0" Format="1">
@@ -11554,6 +11566,12 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="rehar.1"/>
             <Glyph value="rehar.fina"/>
             <Glyph value="rehar.fina.1"/>
+            <Glyph value="wawar"/>
+            <Glyph value="wawar.1"/>
+            <Glyph value="wawar.2"/>
+            <Glyph value="wawar.3"/>
+            <Glyph value="wawar.fina"/>
+            <Glyph value="wawar.fina.1"/>
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
           <InputCoverage index="0" Format="1">
