@@ -73,7 +73,7 @@ value = (
 );
 }
 );
-date = "2020-03-15 21:08:10 +0000";
+date = "2020-03-17 04:09:41 +0000";
 designer = "Khaled Hosny";
 designerURL = "https://github.com/alif-type";
 familyName = Qahiri;
@@ -11013,5 +11013,5 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }

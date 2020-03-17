@@ -248,13 +248,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="1.00099"/>
-    <checkSumAdjustment value="0x94a769a5"/>
+    <fontRevision value="1.002"/>
+    <checkSumAdjustment value="0x8f761c21"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Mon Mar 16 22:03:40 2020"/>
-    <modified value="Mon Mar 16 22:03:40 2020"/>
+    <created value="Tue Mar 17 06:09:51 2020"/>
+    <modified value="Tue Mar 17 06:09:51 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -355,13 +355,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      1.001;ALIF;Qahiri-Regular
+      1.002;ALIF;Qahiri-Regular
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Qahiri Regular
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 1.001;hotconv 1.0.109;makeotfexe 2.5.65596
+      Version 1.002;hotconv 1.0.109;makeotfexe 2.5.65596
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       Qahiri-Regular
@@ -548,7 +548,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <major value="1"/>
     <minor value="0"/>
     <CFFFont name="Qahiri-Regular">
-      <version value="001.001"/>
+      <version value="001.002"/>
       <Notice value="Copyright \(c\) 2020 by Khaled Hosny. All rights reserved."/>
       <FullName value="Qahiri Regular"/>
       <Weight value="Regular"/>
