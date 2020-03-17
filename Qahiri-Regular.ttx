@@ -249,12 +249,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.002"/>
-    <checkSumAdjustment value="0xd64c8b9"/>
+    <checkSumAdjustment value="0x5d4ca63b"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Wed Mar 18 01:33:56 2020"/>
-    <modified value="Wed Mar 18 01:33:56 2020"/>
+    <created value="Wed Mar 18 01:38:03 2020"/>
+    <modified value="Wed Mar 18 01:38:03 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -9461,7 +9461,6 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="threedotsupabovear.alt1"/>
             <Glyph value="hamzaabovear"/>
             <Glyph value="hamzabelowar"/>
-            <Glyph value="empty"/>
           </MarkCoverage>
           <BaseCoverage Format="2">
             <Glyph value="alefar"/>
@@ -9626,7 +9625,7 @@ You should have received a copy of the GNU Affero General Public License along w
           </BaseCoverage>
           <!-- ClassCount=2 -->
           <MarkArray>
-            <!-- MarkCount=15 -->
+            <!-- MarkCount=14 -->
             <MarkRecord index="0">
               <Class value="1"/>
               <MarkAnchor Format="1">
@@ -9723,13 +9722,6 @@ You should have received a copy of the GNU Affero General Public License along w
               <MarkAnchor Format="1">
                 <XCoordinate value="65"/>
                 <YCoordinate value="87"/>
-              </MarkAnchor>
-            </MarkRecord>
-            <MarkRecord index="14">
-              <Class value="1"/>
-              <MarkAnchor Format="1">
-                <XCoordinate value="0"/>
-                <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
           </MarkArray>
@@ -11156,7 +11148,6 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="threedotsupabovear.alt1"/>
             <Glyph value="hamzaabovear"/>
             <Glyph value="hamzabelowar"/>
-            <Glyph value="empty"/>
           </MarkCoverage>
           <LigatureCoverage Format="2">
             <Glyph value="lam_alefar"/>
@@ -11174,7 +11165,7 @@ You should have received a copy of the GNU Affero General Public License along w
           </LigatureCoverage>
           <!-- ClassCount=2 -->
           <MarkArray>
-            <!-- MarkCount=15 -->
+            <!-- MarkCount=14 -->
             <MarkRecord index="0">
               <Class value="0"/>
               <MarkAnchor Format="1">
@@ -11271,13 +11262,6 @@ You should have received a copy of the GNU Affero General Public License along w
               <MarkAnchor Format="1">
                 <XCoordinate value="65"/>
                 <YCoordinate value="87"/>
-              </MarkAnchor>
-            </MarkRecord>
-            <MarkRecord index="14">
-              <Class value="0"/>
-              <MarkAnchor Format="1">
-                <XCoordinate value="0"/>
-                <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
           </MarkArray>

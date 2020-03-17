@@ -10175,16 +10175,6 @@ unicode = 0655;
 glyphname = empty;
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{0, 0}";
-},
-{
-name = _top;
-position = "{0, 0}";
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 0;
 }
