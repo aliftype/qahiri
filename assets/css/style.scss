@@ -51,6 +51,10 @@ p {
   height: 34px;
 }
 
+section img {
+ vertical-align: text-bottom;
+}
+
 @media print, screen and (max-width: 960px) {
  header {
   padding-inline-end: 320px;
