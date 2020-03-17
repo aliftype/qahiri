@@ -4,20 +4,48 @@
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@400;700&display=swap');
 
-body {
+body:lang(ar) {
+  direction: rtl;
   font-family: "Mada", sans-serif;
+}
+
+header, footer {
+  float: inline-start;
+}
+
+section {
+  float: inline-end;
 }
 
 .lang-switcher {
   font-size: 16pt;
-  float: right;
+  float: inline-end;
   transform: rotate(-90deg);
 }
 
+.lang-switcher:lang(ar) {
+  font-size: 14pt;
+}
+
+.lang-switcher:dir(rtl) {
+  transform: rotate(90deg);
+}
+
 @media print, screen and (max-width: 960px) {
-  .lang-switcher {
-    transform: rotate(0deg);
-  }
+ header {
+  padding-inline-end: 320px;
+  padding-inline-start: 0px;
+ }
+ .lang-switcher {
+   transform: rotate(0deg);
+   margin-bottom: -1.5em;
+ }
+}
+
+@media print, screen and (max-width: 720px) {
+ header {
+  padding: 0px;
+ }
 }
 
 p {
@@ -30,7 +58,7 @@ p {
   background: #f4f4f4;
   border-radius: 5px;
   border: 1px solid #e0e0e0;
-  width: 270px;
+  width: 100%;
 }
 
 .downloads a {
