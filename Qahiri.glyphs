@@ -8330,7 +8330,7 @@ name = bottom_2;
 position = "{60, 0}";
 },
 {
-name = caret;
+name = caret_1;
 position = "{174, 0}";
 },
 {
@@ -8450,7 +8450,7 @@ name = bottom_2;
 position = "{64, 0}";
 },
 {
-name = caret;
+name = caret_1;
 position = "{0, 0}";
 },
 {
@@ -8638,22 +8638,6 @@ layers = (
 {
 anchors = (
 {
-name = bottom_1;
-position = "{220, 0}";
-},
-{
-name = bottom_2;
-position = "{64, 0}";
-},
-{
-name = caret;
-position = "{140, 0}";
-},
-{
-name = top_1;
-position = "{201, 570}";
-},
-{
 name = top_2;
 position = "{80, 570}";
 }
@@ -8698,7 +8682,7 @@ name = bottom_2;
 position = "{64, 0}";
 },
 {
-name = caret;
+name = caret_1;
 position = "{140, 0}";
 },
 {
@@ -8749,22 +8733,6 @@ glyphname = "lam_alef-ar.4";
 layers = (
 {
 anchors = (
-{
-name = bottom_1;
-position = "{260, 0}";
-},
-{
-name = bottom_2;
-position = "{104, 0}";
-},
-{
-name = caret;
-position = "{180, 0}";
-},
-{
-name = top_1;
-position = "{241, 570}";
-},
 {
 name = top_2;
 position = "{120, 570}";
@@ -8865,7 +8833,7 @@ name = bottom_2;
 position = "{104, 0}";
 },
 {
-name = caret;
+name = caret_1;
 position = "{180, 0}";
 },
 {
@@ -10654,16 +10622,16 @@ kerning = {
 "lam_alef-ar.4" = 160;
 "lam_alef-ar.5" = 160;
 "qafDotless-ar" = -50;
-"seen-ar.4" = 30;
-"seen-ar.5" = 60;
 "seen-ar" = 60;
 "seen-ar.1" = 90;
 "seen-ar.2" = 120;
-"seen-ar.init.4" = 30;
-"seen-ar.init.5" = 60;
+"seen-ar.4" = 30;
+"seen-ar.5" = 60;
 "seen-ar.init" = 60;
 "seen-ar.init.1" = 90;
 "seen-ar.init.2" = 120;
+"seen-ar.init.4" = 30;
+"seen-ar.init.5" = 60;
 "waw-ar.2" = 30;
 "waw-ar.3" = 40;
 };

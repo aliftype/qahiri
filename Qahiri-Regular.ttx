@@ -249,12 +249,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.002"/>
-    <checkSumAdjustment value="0xca30a8bf"/>
+    <checkSumAdjustment value="0xd64c8b9"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Tue Mar 17 20:30:11 2020"/>
-    <modified value="Tue Mar 17 20:30:11 2020"/>
+    <created value="Wed Mar 18 01:33:56 2020"/>
+    <modified value="Wed Mar 18 01:33:56 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
@@ -4648,6 +4648,95 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="zahar" class="1"/>
       <ClassDef glyph="zainar" class="1"/>
     </GlyphClassDef>
+    <LigCaretList>
+      <Coverage Format="2">
+        <Glyph value="lam_alefar"/>
+        <Glyph value="lam_alefar.fina"/>
+        <Glyph value="lam_alefar.1"/>
+        <Glyph value="lam_alefar.fina.1"/>
+        <Glyph value="lam_alefar.fina.2"/>
+        <Glyph value="lam_alefar.fina.3"/>
+        <Glyph value="lam_alefar.fina.4"/>
+        <Glyph value="lam_alefar.fina.5"/>
+        <Glyph value="lam_alefar.2"/>
+        <Glyph value="lam_alefar.3"/>
+        <Glyph value="lam_alefar.4"/>
+        <Glyph value="lam_alefar.5"/>
+      </Coverage>
+      <!-- LigGlyphCount=12 -->
+      <LigGlyph index="0">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="174"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="1">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="174"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="2">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="0"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="3">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="0"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="4">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="140"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="5">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="140"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="6">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="180"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="7">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="180"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="8">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="140"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="9">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="140"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="10">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="180"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="11">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="180"/>
+        </CaretValue>
+      </LigGlyph>
+    </LigCaretList>
     <MarkGlyphSetsDef>
       <MarkSetTableFormat value="1"/>
       <!-- MarkSetCount=4 -->
@@ -9088,16 +9177,16 @@ You should have received a copy of the GNU Affero General Public License along w
             <ClassDef glyph="lamar.init" class="20"/>
             <ClassDef glyph="lamar.init.lellah" class="21"/>
             <ClassDef glyph="qafDotlessar" class="28"/>
-            <ClassDef glyph="seenar" class="31"/>
-            <ClassDef glyph="seenar.1" class="32"/>
-            <ClassDef glyph="seenar.2" class="33"/>
-            <ClassDef glyph="seenar.4" class="29"/>
-            <ClassDef glyph="seenar.5" class="30"/>
-            <ClassDef glyph="seenar.init" class="36"/>
-            <ClassDef glyph="seenar.init.1" class="37"/>
-            <ClassDef glyph="seenar.init.2" class="38"/>
-            <ClassDef glyph="seenar.init.4" class="34"/>
-            <ClassDef glyph="seenar.init.5" class="35"/>
+            <ClassDef glyph="seenar" class="29"/>
+            <ClassDef glyph="seenar.1" class="30"/>
+            <ClassDef glyph="seenar.2" class="31"/>
+            <ClassDef glyph="seenar.4" class="32"/>
+            <ClassDef glyph="seenar.5" class="33"/>
+            <ClassDef glyph="seenar.init" class="34"/>
+            <ClassDef glyph="seenar.init.1" class="35"/>
+            <ClassDef glyph="seenar.init.2" class="36"/>
+            <ClassDef glyph="seenar.init.4" class="37"/>
+            <ClassDef glyph="seenar.init.5" class="38"/>
             <ClassDef glyph="wawar.2" class="39"/>
             <ClassDef glyph="wawar.3" class="40"/>
           </ClassDef2>
@@ -9192,34 +9281,34 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-50" XAdvance="-50"/>
             </Class2Record>
             <Class2Record index="29">
-              <Value1 XPlacement="30" XAdvance="30"/>
+              <Value1 XPlacement="60" XAdvance="60"/>
             </Class2Record>
             <Class2Record index="30">
-              <Value1 XPlacement="60" XAdvance="60"/>
+              <Value1 XPlacement="90" XAdvance="90"/>
             </Class2Record>
             <Class2Record index="31">
-              <Value1 XPlacement="60" XAdvance="60"/>
+              <Value1 XPlacement="120" XAdvance="120"/>
             </Class2Record>
             <Class2Record index="32">
-              <Value1 XPlacement="90" XAdvance="90"/>
-            </Class2Record>
-            <Class2Record index="33">
-              <Value1 XPlacement="120" XAdvance="120"/>
-            </Class2Record>
-            <Class2Record index="34">
               <Value1 XPlacement="30" XAdvance="30"/>
             </Class2Record>
+            <Class2Record index="33">
+              <Value1 XPlacement="60" XAdvance="60"/>
+            </Class2Record>
+            <Class2Record index="34">
+              <Value1 XPlacement="60" XAdvance="60"/>
+            </Class2Record>
             <Class2Record index="35">
-              <Value1 XPlacement="60" XAdvance="60"/>
-            </Class2Record>
-            <Class2Record index="36">
-              <Value1 XPlacement="60" XAdvance="60"/>
-            </Class2Record>
-            <Class2Record index="37">
               <Value1 XPlacement="90" XAdvance="90"/>
             </Class2Record>
-            <Class2Record index="38">
+            <Class2Record index="36">
               <Value1 XPlacement="120" XAdvance="120"/>
+            </Class2Record>
+            <Class2Record index="37">
+              <Value1 XPlacement="30" XAdvance="30"/>
+            </Class2Record>
+            <Class2Record index="38">
+              <Value1 XPlacement="60" XAdvance="60"/>
             </Class2Record>
             <Class2Record index="39">
               <Value1 XPlacement="30" XAdvance="30"/>
