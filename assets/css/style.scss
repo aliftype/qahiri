@@ -18,34 +18,14 @@ section {
 }
 
 .lang-switcher {
-  font-size: 16pt;
-  float: inline-end;
-  transform: rotate(-90deg);
-}
-
-.lang-switcher:lang(ar) {
   font-size: 14pt;
-}
-
-.lang-switcher:dir(rtl) {
+  float: inline-end;
   transform: rotate(90deg);
 }
 
-@media print, screen and (max-width: 960px) {
- header {
-  padding-inline-end: 320px;
-  padding-inline-start: 0px;
- }
- .lang-switcher {
-   transform: rotate(0deg);
-   margin-bottom: -1.5em;
- }
-}
-
-@media print, screen and (max-width: 720px) {
- header {
-  padding: 0px;
- }
+.lang-switcher:lang(ar) {
+  font-size: 16pt;
+  transform: rotate(-90deg);
 }
 
 p {
@@ -69,4 +49,27 @@ p {
   text-align: center;
   padding-top: 12px;
   height: 34px;
+}
+
+@media print, screen and (max-width: 960px) {
+ header {
+  padding-inline-end: 320px;
+  padding-inline-start: 0px;
+ }
+ .lang-switcher, .lang-switcher:lang(ar) {
+   transform: rotate(0deg);
+   margin-bottom: -1.5em;
+ }
+}
+
+@media print, screen and (max-width: 720px) {
+ header {
+  padding: 0px;
+ }
+}
+
+@media print, screen and (max-width: 480px) {
+ p {
+  text-align: start;
+ }
 }
