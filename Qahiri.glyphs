@@ -71,6 +71,12 @@ value = (
 0,
 13
 );
+},
+{
+name = codePageRanges;
+value = (
+1256
+);
 }
 );
 date = "2020-03-17 04:09:41 +0000";
