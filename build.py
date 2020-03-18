@@ -378,16 +378,16 @@ def build(instance, opts):
         vals = privateDict["BlueValues"] if pos == 0 or size >= 0 else privateDict["OtherBlues"]
         vals.extend(sorted((pos, pos + size)))
 
-    fb.setupCFF(names["psName"],
-        {
-            "FullName": names["fullName"],
-            "Notice": names["copyright"].replace("©", "\(c\)"),
-            "version": f"{version:07.03f}",
-            "Weight": instance.name,
-        }, charStrings, privateDict)
+    fontInfo = {
+        "FullName": names["fullName"],
+        "Notice": names["copyright"].replace("©", "\(c\)"),
+        "version": f"{version:07.03f}",
+        "Weight": instance.name,
+    }
+    fb.setupCFF(names["psName"], fontInfo, charStrings, privateDict)
 
     metrics = {}
-    for name, width in advanceWidths.items():
+    for i, (name, width) in enumerate(advanceWidths.items()):
         bounds = charStrings[name].calcBounds(None) or [0]
         metrics[name] = (width, bounds[0])
     fb.setupHorizontalMetrics(metrics)
@@ -410,7 +410,21 @@ def build(instance, opts):
 
     fb.addOpenTypeFeatures(fea)
 
-    return fb.font
+    cidinfo = f"""
+FontName	({names["psName"]})
+FamilyName	({names["familyName"]})
+Weight	({fontInfo["Weight"]})
+version	({fontInfo["version"]})
+Notice	({fontInfo["Notice"]})
+Registry	Adobe
+Ordering	Identity
+Supplement	0
+"""
+
+    cidmap = f"mergefonts {instance.fontName}\n" \
+            + "\n".join([f"{i} {n.replace('-','')}" for i, n in enumerate(glyphOrder)])
+
+    return fb.font, cidinfo, cidmap
 
 
 def propogateAnchors(layer):
@@ -461,12 +475,19 @@ def main():
     parser.add_argument("glyphs", help="input Glyphs source file")
     parser.add_argument("conf",   help="config file")
     parser.add_argument("otf",    help="output OTF file")
+    parser.add_argument("cidinfo",help="output CID info file")
+    parser.add_argument("cidmap", help="output CID map file")
     args = parser.parse_args()
 
     font = GSFont(args.glyphs)
     prepare(font)
     instance = font.instances[0] # XXX
-    otf = build(instance, args)
+    otf, cidinfo, cidmap = build(instance, args)
+
+    with open(args.cidinfo, "w") as fp:
+        fp.write(cidinfo)
+    with open(args.cidmap, "w") as fp:
+        fp.write(cidmap)
     otf = rename(otf)
     otf.save(args.otf)
 

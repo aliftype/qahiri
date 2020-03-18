@@ -30,7 +30,7 @@ all: Qahiri-Regular.otf Qahiri-Regular.ttx
 $(BUILDDIR)/%.unhinted.otf: Qahiri.glyphs _config.yml
 	$(info $(space) BUILD  $(*F))
 	mkdir -p $(BUILDDIR)
-	python build.py $+ $@
+	python build.py $+ $@ $(BUILDDIR)/$(*F).cidinfo $(BUILDDIR)/$(*F).cidmap
 
 $(BUILDDIR)/%.unhinted.cff: $(BUILDDIR)/%.unhinted.otf
 	$(info $(space) CFF    $(*F))
@@ -40,7 +40,11 @@ $(BUILDDIR)/%.hinted.cff: $(BUILDDIR)/%.unhinted.cff
 	$(info $(space) HINT   $(*F))
 	psautohint $< -o $@
 
-$(BUILDDIR)/%.cff: $(BUILDDIR)/%.hinted.cff
+$(BUILDDIR)/%.hinted.cid: $(BUILDDIR)/%.hinted.cff
+	$(info $(space) CID    $(*F))
+	mergefonts -cid $(BUILDDIR)/$(*F).cidinfo $@ $(BUILDDIR)/$(*F).cidmap $< 2>/dev/null
+
+$(BUILDDIR)/%.cff: $(BUILDDIR)/%.hinted.cid
 	$(info $(space) SUBR   $(*F))
 	tx -cff +S +b $< $@
 
