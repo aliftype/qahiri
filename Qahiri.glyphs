@@ -10967,6 +10967,6 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 };
-versionMajor = 1;
-versionMinor = 2;
+versionMajor = 0;
+versionMinor = 0;
 }

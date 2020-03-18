@@ -332,7 +332,9 @@ def build(instance, opts):
     glyphOrder.insert(0, ".notdef")
     glyphOrder.insert(1, "space")
 
-    version = float(f"{font.versionMajor}.{font.versionMinor:03}")
+    with open(opts.conf) as fp:
+        conf = yaml.safe_load(fp)
+        version = conf["version"]
 
     vendor = font.customParameters["vendorID"]
     names = {
@@ -457,6 +459,7 @@ def rename(otf):
 def main():
     parser = argparse.ArgumentParser(description="Build Rana Kufi.")
     parser.add_argument("glyphs", help="input Glyphs source file")
+    parser.add_argument("conf",   help="config file")
     parser.add_argument("otf",    help="output OTF file")
     args = parser.parse_args()
 

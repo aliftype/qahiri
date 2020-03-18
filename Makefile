@@ -30,7 +30,7 @@ all: Qahiri-Regular.otf Qahiri-Regular.ttx
 $(BUILDDIR)/%.unhinted.otf: Qahiri.glyphs _config.yml
 	$(info $(space) BUILD  $(*F))
 	mkdir -p $(BUILDDIR)
-	python build.py $< $@
+	python build.py $+ $@
 
 $(BUILDDIR)/%.unhinted.cff: $(BUILDDIR)/%.unhinted.otf
 	$(info $(space) CFF    $(*F))
