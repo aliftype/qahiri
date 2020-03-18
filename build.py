@@ -422,7 +422,7 @@ Supplement	0
 """
 
     cidmap = f"mergefonts {instance.fontName}\n" \
-            + "\n".join([f"{i} {n.replace('-','')}" for i, n in enumerate(glyphOrder)])
+            + "\n".join([f"{i} {n}" for i, n in enumerate(glyphOrder)])
 
     return fb.font, cidinfo, cidmap
 
@@ -455,21 +455,6 @@ def prepare(font):
             propogateAnchors(layer)
 
 
-def rename(otf):
-    import tempfile
-    with tempfile.TemporaryFile() as fp:
-        otf.save(fp)
-        otf = TTFont(fp, recalcTimestamp=False)
-        otf.setGlyphOrder([n.replace("-", "") for n in otf.getGlyphOrder()])
-        cff = otf["CFF "].cff.topDictIndex[0]
-        charStrings = cff.CharStrings.charStrings
-        cff.CharStrings.charStrings = {
-            n.replace("-", ""): v for n, v in charStrings.items()
-        }
-        cff.charset = [n.replace("-", "") for n in cff.charset]
-    return otf
-
-
 def main():
     parser = argparse.ArgumentParser(description="Build Rana Kufi.")
     parser.add_argument("glyphs", help="input Glyphs source file")
@@ -488,7 +473,6 @@ def main():
         fp.write(cidinfo)
     with open(args.cidmap, "w") as fp:
         fp.write(cidmap)
-    otf = rename(otf)
     otf.save(args.otf)
 
 main()
