@@ -5,4 +5,4 @@ description: A manuscript Kufic typeface
 description_ar: خط كوفی مصحفی
 logo: app/assets/images/icon.svg
 google_analytics: UA-10250277-7
-version: 1.002 # Increment only when tagging release, download link uses it.
+version: 1.003 # Increment only when tagging release, download link uses it.
