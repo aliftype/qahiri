@@ -17,6 +17,8 @@ MAKEFLAGS := -sr
 SHELL = bash
 
 BUILDDIR = build
+CONFIG = _config.yml
+VERSION = $(shell python version.py $(CONFIG))
 
 .SECONDARY:
 .ONESHELL:
@@ -27,10 +29,10 @@ space +=
 
 all: Qahiri-Regular.otf Qahiri-Regular.ttx
 
-$(BUILDDIR)/%.unhinted.otf: Qahiri.glyphs _config.yml
+$(BUILDDIR)/%.unhinted.otf: Qahiri.glyphs $(CONFIG)
 	$(info $(space) BUILD  $(*F))
 	mkdir -p $(BUILDDIR)
-	python build.py $+ $@ $(BUILDDIR)/$(*F).cidinfo $(BUILDDIR)/$(*F).cidmap
+	python build.py $< ${VERSION} $@ $(BUILDDIR)/$(*F).cidinfo $(BUILDDIR)/$(*F).cidmap
 
 $(BUILDDIR)/%.unhinted.cff: $(BUILDDIR)/%.unhinted.otf
 	$(info $(space) CFF    $(*F))

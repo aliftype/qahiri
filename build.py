@@ -14,7 +14,6 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import argparse
-import yaml
 
 from fontTools.designspaceLib import DesignSpaceDocument
 from fontTools.fontBuilder import FontBuilder
@@ -332,10 +331,7 @@ def build(instance, opts):
     glyphOrder.insert(0, ".notdef")
     glyphOrder.insert(1, "space")
 
-    with open(opts.conf) as fp:
-        conf = yaml.safe_load(fp)
-        version = conf["version"]
-
+    version = float(opts.version)
     vendor = font.customParameters["vendorID"]
     names = {
         "copyright": font.copyright,
@@ -458,7 +454,7 @@ def prepare(font):
 def main():
     parser = argparse.ArgumentParser(description="Build Rana Kufi.")
     parser.add_argument("glyphs", help="input Glyphs source file")
-    parser.add_argument("conf",   help="config file")
+    parser.add_argument("version",help="font version")
     parser.add_argument("otf",    help="output OTF file")
     parser.add_argument("cidinfo",help="output CID info file")
     parser.add_argument("cidmap", help="output CID map file")
