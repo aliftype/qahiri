@@ -1,5 +1,5 @@
 afdko==3.2.0
-fonttools==4.4.2
+fonttools[ufo,lxml]==4.4.2
 glyphsLib==5.1.7
 psautohint==2.0.0
 skia-pathops==0.3.0
