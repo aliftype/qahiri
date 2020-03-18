@@ -1,8 +1,8 @@
-theme: jekyll-theme-minimal
+version: 1.004 # Increment only when tagging release, download link uses it.
 title: Qahiri
 title_ar: قاهری
 description: A manuscript Kufic typeface
 description_ar: خط كوفی مصحفی
 logo: app/assets/images/icon.svg
+theme: jekyll-theme-minimal
 google_analytics: UA-10250277-7
-version: 1.004 # Increment only when tagging release, download link uses it.
