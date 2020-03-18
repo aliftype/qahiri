@@ -56,3 +56,8 @@ $(BUILDDIR)/%.cff: $(BUILDDIR)/%.hinted.cid
 %.ttx: $(BUILDDIR)/%.unhinted.otf
 	$(info $(space) TTX    $(*F))
 	ttx -q -o $@ $<
+
+dist:
+	mkdir Qahiri-$(VERSION)
+	cp Qahiri-Regular.otf README.txt README-Arabic.txt Qahiri-$(VERSION)
+	zip -r Qahiri-$(VERSION).zip Qahiri-$(VERSION)
