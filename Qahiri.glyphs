@@ -10960,7 +10960,7 @@ kerning = {
 };
 manufacturer = "Alif Type";
 manufacturerURL = "https://github.com/alif-type";
-unitsPerEm = 1000;
+unitsPerEm = 750;
 userData = {
 GSDimensionPlugin.Dimensions = {
 "67aa4fb0-543e-4232-8202-ade6a11e0795" = {
