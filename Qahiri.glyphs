@@ -3831,7 +3831,7 @@ name = "fehDotless-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 410, 335}";
+transform = "{1, 0, 0, 1, 443, 335}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4273,7 +4273,7 @@ position = "{127, -35}";
 },
 {
 name = top;
-position = "{67, 335}";
+position = "{100, 335}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4340,7 +4340,7 @@ position = "{127, -35}";
 },
 {
 name = top;
-position = "{70, 365}";
+position = "{100, 335}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4425,7 +4425,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{96, 255}";
+position = "{100, 235}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4538,7 +4538,7 @@ name = "qafDotless-ar";
 },
 {
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 41, 255}";
+transform = "{1, 0, 0, 1, 45, 235}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -4558,7 +4558,7 @@ name = "qafDotless-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 79, 255}";
+transform = "{1, 0, 0, 1, 83, 235}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
