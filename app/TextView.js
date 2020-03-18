@@ -114,7 +114,7 @@ class Layout {
       svg.setAttribute("xmlns", ns);
       svg.setAttributeNS(ns, "version", '1.1');
       svg.setAttributeNS(ns, "width", extents.width);
-      svg.setAttributeNS(ns, "height", this.height);
+      svg.setAttributeNS(ns, "height", this.ascender - this.descender);
 
       let x = -extents.x_bearing, y = this.ascender;
       let path = document.createElementNS(ns, "path");
