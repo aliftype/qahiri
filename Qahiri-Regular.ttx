@@ -249,12 +249,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.002"/>
-    <checkSumAdjustment value="0x5d4ca63b"/>
+    <checkSumAdjustment value="0x2f1a581b"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Wed Mar 18 01:38:03 2020"/>
-    <modified value="Wed Mar 18 01:38:03 2020"/>
+    <created value="Wed Mar 18 02:06:53 2020"/>
+    <modified value="Wed Mar 18 02:06:53 2020"/>
     <xMin value="-242"/>
     <yMin value="-250"/>
     <xMax value="750"/>
