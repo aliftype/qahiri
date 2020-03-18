@@ -249,7 +249,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.002"/>
-    <checkSumAdjustment value="0x7325021b"/>
+    <checkSumAdjustment value="0xddfa6131"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
@@ -401,10 +401,10 @@ You should have received a copy of the GNU Affero General Public License along w
       Rounded Dots
     </namerecord>
     <namerecord nameID="256" platformID="3" platEncID="1" langID="0xc01">
-      2d314841 4547454429 (284427 46422737)
+      حروف مهملة (بلا نقاط)
     </namerecord>
     <namerecord nameID="257" platformID="3" platEncID="1" langID="0xc01">
-      46422737 45332a2f4a3129
+      نقاط مستديرة
     </namerecord>
   </name>
 

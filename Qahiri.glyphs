@@ -255,12 +255,12 @@ name = rclt;
 {
 code = "  sub [@Dots hamzaabove-ar hamzabelow-ar hamza-ar] by empty;";
 name = ss01;
-notes = "featureNames {\012   name \"Dot-less Letter Forms\";\012   name 3 1 0x0C01 \"\\062d\\0631\\0648\\0641 \\0645\\0647\\0645\\0644\\0629 (\\0628\\0644\\0627 \\0646\\0642\\0627\\0637)\"; # حروف مهملة (بلا نقاط)\012};";
+notes = "featureNames {\012   name \"Dot-less Letter Forms\";\012   name 3 1 0x0C01 \"حروف مهملة (بلا نقاط)\";\012};";
 },
 {
 code = "  sub @Dots by @Dots.alt1; ";
 name = ss02;
-notes = "featureNames {\012   name \"Rounded Dots\";\012   name 3 1 0x0C01 \"\\0646\\0642\\0627\\0637 \\0645\\0633\\062a\\062f\\064a\\0631\\0629\"; # نقاط مستديرة\012};";
+notes = "featureNames {\012   name \"Rounded Dots\";\012   name 3 1 0x0C01 \"نقاط مستديرة\";\012};";
 },
 {
 code = "lookup Alternates {

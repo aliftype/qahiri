@@ -158,7 +158,7 @@ feature rclt {
 feature ss01 {
 featureNames {
    name "Dot-less Letter Forms";
-   name 3 1 0x0C01 "2d314841 4547454429 (284427 46422737)"; # حروف مهملة (بلا نقاط)
+   name 3 1 0x0C01 "حروف مهملة (بلا نقاط)";
 };
   sub [@Dots hamzaabove-ar hamzabelow-ar hamza-ar] by empty;
 } ss01;
@@ -166,7 +166,7 @@ featureNames {
 feature ss02 {
 featureNames {
    name "Rounded Dots";
-   name 3 1 0x0C01 "46422737 45332a2f4a3129"; # نقاط مستديرة
+   name 3 1 0x0C01 "نقاط مستديرة";
 };
   sub @Dots by @Dots.alt1; 
 } ss02;
