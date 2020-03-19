@@ -10,21 +10,30 @@ body:lang(ar) {
 }
 
 header, footer {
-  float: inline-start;
+  float: left;
 }
 
 section {
-  float: inline-end;
+  float: right;
+}
+
+header:lang(ar), footer:lang(ar) {
+  float: right;
+}
+
+section:lang(ar) {
+  float: left;
 }
 
 .lang-switcher {
   font-size: 14pt;
-  float: inline-end;
+  float: left;
   transform: rotate(90deg);
 }
 
 .lang-switcher:lang(ar) {
   font-size: 16pt;
+  float: right;
   transform: rotate(-90deg);
 }
 
