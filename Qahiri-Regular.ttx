@@ -249,7 +249,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.005"/>
-    <checkSumAdjustment value="0x84e572ca"/>
+    <checkSumAdjustment value="0x74956544"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -11571,12 +11571,22 @@ You should have received a copy of the GNU Affero General Public License along w
           <Coverage Format="1">
             <Glyph value="behDotless-ar.medi.yeh"/>
             <Glyph value="behDotless-ar.init.hah"/>
+            <Glyph value="jeem-ar"/>
+            <Glyph value="hah-ar"/>
+            <Glyph value="hah-ar.1"/>
+            <Glyph value="hah-ar.2"/>
             <Glyph value="hah-ar.3"/>
+            <Glyph value="hah-ar.4"/>
+            <Glyph value="hah-ar.5"/>
             <Glyph value="hah-ar.init"/>
+            <Glyph value="hah-ar.init.1"/>
+            <Glyph value="hah-ar.init.2"/>
+            <Glyph value="khah-ar"/>
+            <Glyph value="lam-ar.medi.yeh"/>
             <Glyph value="lam-ar.init.hah"/>
             <Glyph value="alefMaksura-ar.fina.tooth"/>
           </Coverage>
-          <!-- EntryExitCount=6 -->
+          <!-- EntryExitCount=16 -->
           <EntryExitRecord index="0">
             <ExitAnchor Format="1">
               <XCoordinate value="0"/>
@@ -11591,23 +11601,83 @@ You should have received a copy of the GNU Affero General Public License along w
           </EntryExitRecord>
           <EntryExitRecord index="2">
             <EntryAnchor Format="1">
-              <XCoordinate value="180"/>
+              <XCoordinate value="330"/>
               <YCoordinate value="110"/>
             </EntryAnchor>
           </EntryExitRecord>
           <EntryExitRecord index="3">
             <EntryAnchor Format="1">
-              <XCoordinate value="90"/>
+              <XCoordinate value="330"/>
               <YCoordinate value="110"/>
             </EntryAnchor>
           </EntryExitRecord>
           <EntryExitRecord index="4">
+            <EntryAnchor Format="1">
+              <XCoordinate value="330"/>
+              <YCoordinate value="110"/>
+            </EntryAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="5">
+            <EntryAnchor Format="1">
+              <XCoordinate value="330"/>
+              <YCoordinate value="110"/>
+            </EntryAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="6">
+            <EntryAnchor Format="1">
+              <XCoordinate value="180"/>
+              <YCoordinate value="110"/>
+            </EntryAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="7">
+            <EntryAnchor Format="1">
+              <XCoordinate value="297"/>
+              <YCoordinate value="110"/>
+            </EntryAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="8">
+            <EntryAnchor Format="1">
+              <XCoordinate value="297"/>
+              <YCoordinate value="110"/>
+            </EntryAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="9">
+            <EntryAnchor Format="1">
+              <XCoordinate value="90"/>
+              <YCoordinate value="110"/>
+            </EntryAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="10">
+            <EntryAnchor Format="1">
+              <XCoordinate value="90"/>
+              <YCoordinate value="110"/>
+            </EntryAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="11">
+            <EntryAnchor Format="1">
+              <XCoordinate value="90"/>
+              <YCoordinate value="110"/>
+            </EntryAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="12">
+            <EntryAnchor Format="1">
+              <XCoordinate value="330"/>
+              <YCoordinate value="110"/>
+            </EntryAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="13">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="14">
             <ExitAnchor Format="1">
               <XCoordinate value="-20"/>
               <YCoordinate value="-2"/>
             </ExitAnchor>
           </EntryExitRecord>
-          <EntryExitRecord index="5">
+          <EntryExitRecord index="15">
             <EntryAnchor Format="1">
               <XCoordinate value="0"/>
               <YCoordinate value="0"/>
