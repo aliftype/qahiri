@@ -72,6 +72,10 @@ The font is built using some advanced OpenType techniques that are not equally
 supported by software, and this might result in the font being broken in
 certain applications.
 
+The application does not currently work well on small screens, and also needs a
+physical keyboard as on-screen keyboard on mobile devices does not trigger due
+to the way it is built.
+
 
 [1]: https://en.wikipedia.org/wiki/Kufic
 [2]: https://ar.wikipedia.org/wiki/محمد_عبد_القادر_عبد_الله_(خطاط)
