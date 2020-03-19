@@ -76,6 +76,10 @@ The application does not currently work well on small screens, and also needs a
 physical keyboard as on-screen keyboard on mobile devices does not trigger due
 to the way it is built.
 
+Performance of the application is also far from being optimal, so pasting large
+amounts of text should be avoided. Also it does not support multiple line, it
+works with one line at a time.
+
 
 [1]: https://en.wikipedia.org/wiki/Kufic
 [2]: https://ar.wikipedia.org/wiki/محمد_عبد_القادر_عبد_الله_(خطاط)
