@@ -37,17 +37,22 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </script>
   </head>
   <body>
-    <div class="menu">
-      <button class="button" title="افتح" id="open"><img src="assets/images/open.svg" height="20px"></button>
-      <button class="button" title="احفظ" id="save"><img src="assets/images/save.svg" height="20px"></button>
-      <button class="button" title="صدّر" id="export"><img src="assets/images/export.svg" height="20px"></button>
-      <button class="button" title="امسح" id="clear"><img src="assets/images/clear.svg" height="20px"></button>
-    </div>
-    <div class="controls">
-      <input type="checkbox" class="opts" id="round-dots"><label for="round-dots" title="نقاط مستديرة"></label>
-      <input type="checkbox" class="opts" id="remove-dots"><label for="remove-dots" title="لا نقاط"></label>
-      <input type="range"  id="font-size"        min="10" max="500" value="100" title="حجم الخط">
-      <input type="number" id="font-size-number" min="10" max="500" value="100" title="حجم الخط">
+    <div class="toolbar">
+      <div class="menu">
+        <button class="button" title="افتح" id="open"><img src="assets/images/open.svg" height="20px"></button>
+        <button class="button" title="احفظ" id="save"><img src="assets/images/save.svg" height="20px"></button>
+        <button class="button" title="صدّر" id="export"><img src="assets/images/export.svg" height="20px"></button>
+        <button class="button" title="امسح" id="clear"><img src="assets/images/clear.svg" height="20px"></button>
+      </div>
+      <div class="links">
+        <button class="link" title="صفحة المشروع"><a href="../arabic"><img src="assets/images/icon.svg" height="20px"></a></button>
+      </div>
+      <div class="controls">
+        <input type="checkbox" class="opts" id="round-dots"><label for="round-dots" title="نقاط مستديرة"></label>
+        <input type="checkbox" class="opts" id="remove-dots"><label for="remove-dots" title="لا نقاط"></label>
+        <input type="range"  id="font-size"        min="10" max="500" value="100" title="حجم الخط">
+        <input type="number" id="font-size-number" min="10" max="500" value="100" title="حجم الخط">
+      </div>
     </div>
     <div><canvas tabindex="0" id="canvas"></canvas></div>
     <div id="alternates"></div>

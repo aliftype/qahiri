@@ -36,15 +36,20 @@ canvas {
   outline: none;
 }
 
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+} 
+
 .menu {
-  float: right;
+  text-align: right;
 }
 
 .controls {
-  float: left;
+  text-align: left;
 }
 
-.button {
+.button, .link {
   background-color: var(--main-color);
   border: none;
   display: inline-block;
