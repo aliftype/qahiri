@@ -249,7 +249,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.005"/>
-    <checkSumAdjustment value="0x74956544"/>
+    <checkSumAdjustment value="0xc739b648"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -5269,18 +5269,18 @@ You should have received a copy of the GNU Affero General Public License along w
         <Glyph value="twodotshorizontalbelow-ar.alt1"/>
       </Coverage>
       <Coverage index="1" Format="1">
-        <Glyph value="dotabove-ar"/>
-        <Glyph value="dotabove-ar.alt1"/>
-      </Coverage>
-      <Coverage index="2" Format="1">
-        <Glyph value="twodotshorizontalabove-ar"/>
-        <Glyph value="twodotshorizontalabove-ar.alt1"/>
-      </Coverage>
-      <Coverage index="3" Format="1">
         <Glyph value="dotbelow-ar"/>
         <Glyph value="dotbelow-ar.alt1"/>
         <Glyph value="twodotshorizontalbelow-ar"/>
         <Glyph value="twodotshorizontalbelow-ar.alt1"/>
+      </Coverage>
+      <Coverage index="2" Format="1">
+        <Glyph value="dotabove-ar"/>
+        <Glyph value="dotabove-ar.alt1"/>
+      </Coverage>
+      <Coverage index="3" Format="1">
+        <Glyph value="twodotshorizontalabove-ar"/>
+        <Glyph value="twodotshorizontalabove-ar.alt1"/>
       </Coverage>
     </MarkGlyphSetsDef>
   </GDEF>
@@ -5337,16 +5337,17 @@ You should have received a copy of the GNU Affero General Public License along w
       <FeatureRecord index="2">
         <FeatureTag value="mark"/>
         <Feature>
-          <!-- LookupCount=4 -->
+          <!-- LookupCount=5 -->
           <LookupListIndex index="0" value="5"/>
           <LookupListIndex index="1" value="6"/>
           <LookupListIndex index="2" value="7"/>
           <LookupListIndex index="3" value="11"/>
+          <LookupListIndex index="4" value="13"/>
         </Feature>
       </FeatureRecord>
     </FeatureList>
     <LookupList>
-      <!-- LookupCount=13 -->
+      <!-- LookupCount=15 -->
       <Lookup index="0">
         <LookupType value="2"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
@@ -13778,7 +13779,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <Lookup index="7">
         <LookupType value="8"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
-        <!-- SubTableCount=4 -->
+        <!-- SubTableCount=3 -->
         <ChainContextPos index="0" Format="3">
           <!-- BacktrackGlyphCount=2 -->
           <BacktrackCoverage index="0" Format="1">
@@ -13887,26 +13888,6 @@ You should have received a copy of the GNU Affero General Public License along w
             <LookupListIndex value="10"/>
           </PosLookupRecord>
         </ChainContextPos>
-        <ChainContextPos index="3" Format="3">
-          <!-- BacktrackGlyphCount=1 -->
-          <BacktrackCoverage index="0" Format="1">
-            <Glyph value="behDotless-ar.init"/>
-          </BacktrackCoverage>
-          <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0" Format="1">
-            <Glyph value="twodotshorizontalbelow-ar"/>
-            <Glyph value="twodotshorizontalbelow-ar.alt1"/>
-          </InputCoverage>
-          <!-- LookAheadGlyphCount=1 -->
-          <LookAheadCoverage index="0" Format="1">
-            <Glyph value="alef-ar.fina"/>
-          </LookAheadCoverage>
-          <!-- PosCount=1 -->
-          <PosLookupRecord index="0">
-            <SequenceIndex value="0"/>
-            <LookupListIndex value="10"/>
-          </PosLookupRecord>
-        </ChainContextPos>
         <MarkFilteringSet value="0"/>
       </Lookup>
       <Lookup index="8">
@@ -13956,6 +13937,95 @@ You should have received a copy of the GNU Affero General Public License along w
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
         <ChainContextPos index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="behDotless-ar.init"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="dotbelow-ar"/>
+            <Glyph value="dotbelow-ar.alt1"/>
+            <Glyph value="twodotshorizontalbelow-ar"/>
+            <Glyph value="twodotshorizontalbelow-ar.alt1"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="alef-ar.fina"/>
+            <Glyph value="behDotless-ar.fina"/>
+            <Glyph value="behDotless-ar.fina.1"/>
+            <Glyph value="dal-ar.fina"/>
+            <Glyph value="seen-ar.fina"/>
+            <Glyph value="seen-ar.fina.1"/>
+            <Glyph value="seen-ar.fina.2"/>
+            <Glyph value="seen-ar.fina.3"/>
+            <Glyph value="seen-ar.fina.4"/>
+            <Glyph value="seen-ar.fina.5"/>
+            <Glyph value="seen-ar.medi"/>
+            <Glyph value="seen-ar.medi.1"/>
+            <Glyph value="seen-ar.medi.2"/>
+            <Glyph value="seen-ar.medi.3"/>
+            <Glyph value="seen-ar.medi.4"/>
+            <Glyph value="seen-ar.medi.5"/>
+            <Glyph value="sad-ar.fina"/>
+            <Glyph value="sad-ar.fina.1"/>
+            <Glyph value="sad-ar.medi"/>
+            <Glyph value="tah-ar"/>
+            <Glyph value="tah-ar.fina"/>
+            <Glyph value="tah-ar.medi"/>
+            <Glyph value="ain-ar.fina"/>
+            <Glyph value="ain-ar.medi"/>
+            <Glyph value="kaf-ar.fina"/>
+            <Glyph value="kaf-ar.fina.1"/>
+            <Glyph value="kaf-ar.fina.2"/>
+            <Glyph value="kaf-ar.medi"/>
+            <Glyph value="kaf-ar.medi.1"/>
+            <Glyph value="kaf-ar.medi.2"/>
+            <Glyph value="meem-ar.fina"/>
+            <Glyph value="meem-ar.fina.1"/>
+            <Glyph value="meem-ar.fina.2"/>
+            <Glyph value="meem-ar.medi"/>
+            <Glyph value="meem-ar.medi.1"/>
+            <Glyph value="heh-ar.fina"/>
+            <Glyph value="heh-ar.fina.1"/>
+            <Glyph value="heh-ar.fina.2"/>
+            <Glyph value="heh-ar.medi"/>
+            <Glyph value="heh-ar.medi.1"/>
+            <Glyph value="heh-ar.medi.2"/>
+            <Glyph value="heh-ar.medi.3"/>
+            <Glyph value="heh-ar.medi.4"/>
+            <Glyph value="heh-ar.medi.5"/>
+            <Glyph value="heh-ar.medi.6"/>
+            <Glyph value="heh-ar.medi.7"/>
+          </LookAheadCoverage>
+          <!-- PosCount=1 -->
+          <PosLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="12"/>
+          </PosLookupRecord>
+        </ChainContextPos>
+        <MarkFilteringSet value="1"/>
+      </Lookup>
+      <Lookup index="12">
+        <LookupType value="1"/>
+        <LookupFlag value="16"/><!-- useMarkFilteringSet -->
+        <!-- SubTableCount=1 -->
+        <SinglePos index="0" Format="1">
+          <Coverage Format="1">
+            <Glyph value="dotbelow-ar"/>
+            <Glyph value="dotbelow-ar.alt1"/>
+            <Glyph value="twodotshorizontalbelow-ar"/>
+            <Glyph value="twodotshorizontalbelow-ar.alt1"/>
+          </Coverage>
+          <ValueFormat value="1"/>
+          <Value XPlacement="-60"/>
+        </SinglePos>
+        <MarkFilteringSet value="1"/>
+      </Lookup>
+      <Lookup index="13">
+        <LookupType value="8"/>
+        <LookupFlag value="16"/><!-- useMarkFilteringSet -->
+        <!-- SubTableCount=1 -->
+        <ChainContextPos index="0" Format="3">
           <!-- BacktrackGlyphCount=2 -->
           <BacktrackCoverage index="0" Format="1">
             <Glyph value="hah-ar.3"/>
@@ -13973,12 +14043,12 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="12"/>
+            <LookupListIndex value="14"/>
           </PosLookupRecord>
         </ChainContextPos>
-        <MarkFilteringSet value="1"/>
+        <MarkFilteringSet value="2"/>
       </Lookup>
-      <Lookup index="12">
+      <Lookup index="14">
         <LookupType value="1"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
@@ -13990,7 +14060,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <ValueFormat value="3"/>
           <Value XPlacement="-240" YPlacement="120"/>
         </SinglePos>
-        <MarkFilteringSet value="1"/>
+        <MarkFilteringSet value="2"/>
       </Lookup>
     </LookupList>
   </GPOS>
@@ -14773,7 +14843,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <LookupListIndex value="20"/>
           </SubstLookupRecord>
         </ChainContextSubst>
-        <MarkFilteringSet value="2"/>
+        <MarkFilteringSet value="3"/>
       </Lookup>
       <Lookup index="20">
         <LookupType value="1"/>
@@ -14783,7 +14853,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <Substitution in="twodotshorizontalabove-ar" out="twodotsverticalabove-ar"/>
           <Substitution in="twodotshorizontalabove-ar.alt1" out="twodotsverticalabove-ar.alt1"/>
         </SingleSubst>
-        <MarkFilteringSet value="2"/>
+        <MarkFilteringSet value="3"/>
       </Lookup>
       <Lookup index="21">
         <LookupType value="6"/>
@@ -14836,7 +14906,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <LookupListIndex value="2"/>
           </SubstLookupRecord>
         </ChainContextSubst>
-        <MarkFilteringSet value="3"/>
+        <MarkFilteringSet value="1"/>
       </Lookup>
     </LookupList>
   </GSUB>

@@ -901,8 +901,12 @@ lookup DotsBelowReh {
   pos @RehWaw behDotless-ar.init @TwoDotsBelow' <0 -100 0 0> [reh-ar.fina reh-ar.fina.1 lam-ar.fina noonghunna-ar.fina heh-ar.medi heh-ar.medi.1 waw-ar.fina waw-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
   pos @RehWaw behDotless-ar.init @TwoDotsBelow' <40 -100 0 0> [qafDotless-ar.fina alefMaksura-ar.fina alefMaksura-ar.fina.0 alefMaksura-ar.fina.1];
   pos @RehWaw behDotless-ar.init @TwoDotsBelow' <-60 0 0 0>;
-  pos behDotless-ar.init @TwoDotsBelow' <-60 0 0 0> alef-ar.fina;
 } DotsBelowReh;
+
+lookup DotsBelowBeforeWide {
+ lookupflag UseMarkFilteringSet @DotsBelow;
+  pos behDotless-ar.init @DotsBelow' <-60 0 0 0> [alef-ar.fina behDotless-ar.fina behDotless-ar.fina.1 dal-ar.fina seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5 seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 sad-ar.fina sad-ar.fina.1 sad-ar.medi tah-ar tah-ar.fina tah-ar.medi ain-ar.fina ain-ar.medi kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi meem-ar.medi.1 heh-ar.fina heh-ar.fina.1 heh-ar.fina.2 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7];
+} DotsBelowBeforeWide;
 
 lookup DotAvove {
  @DotAbove = [dotabove-ar dotabove-ar.alt1];
