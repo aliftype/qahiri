@@ -4,6 +4,10 @@
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@400;700&display=swap');
 
+body {
+  font-family: "Noto Sans", "Mada", sans-serif;
+}
+
 body:lang(ar) {
   direction: rtl;
   font-family: "Mada", sans-serif;
