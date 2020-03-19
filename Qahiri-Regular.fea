@@ -3,7 +3,7 @@
 @DotsBelow = [dotbelow-ar dotbelow-ar.alt1 twodotshorizontalbelow-ar twodotshorizontalbelow-ar.alt1];
 @TwoDotsBelow = [ twodotshorizontalbelow-ar twodotshorizontalbelow-ar.alt1];
 languagesystem DFLT dflt;
-
+languagesystem arab dflt;
 lookup AboveHah {
   sub behDotless-ar.init by behDotless-ar.init.hah;
   sub lam-ar.init by lam-ar.init.hah;

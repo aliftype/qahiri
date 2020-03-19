@@ -85,9 +85,8 @@ designerURL = "https://github.com/alif-type";
 familyName = Qahiri;
 featurePrefixes = (
 {
-automatic = 1;
 code = "languagesystem DFLT dflt;
-";
+languagesystem arab dflt;";
 name = Languagesystems;
 },
 {
