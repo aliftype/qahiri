@@ -24,8 +24,7 @@ VERSION = $(shell python version.py $(CONFIG))
 .ONESHELL:
 .PHONY: all
 
-space :=
-space +=
+space := $() $()
 
 all: Qahiri-Regular.otf Qahiri-Regular.ttx
 
