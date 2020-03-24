@@ -348,20 +348,20 @@ pos base hah-ar.1 <anchor 300 -145> mark @mark_bottom;
 pos base hah-ar.1 <anchor 509 163> mark @mark_top;
 pos base hah-ar.2 <anchor 300 -145> mark @mark_bottom;
 pos base hah-ar.2 <anchor 509 163> mark @mark_top;
-pos base hah-ar.3 <anchor 200 -70> mark @mark_bottom;
+pos base hah-ar.3 <anchor 200 -34> mark @mark_bottom;
 pos base hah-ar.3 <anchor 359 163> mark @mark_top;
 pos base hah-ar.4 <anchor 320 -145> mark @mark_bottom;
 pos base hah-ar.4 <anchor 476 163> mark @mark_top;
 pos base hah-ar.5 <anchor 320 -145> mark @mark_bottom;
 pos base hah-ar.5 <anchor 476 163> mark @mark_top;
-pos base hah-ar.fina <anchor 186 -65> mark @mark_bottom;
+pos base hah-ar.fina <anchor 176 -35> mark @mark_bottom;
 pos base hah-ar.fina <anchor 236 305> mark @mark_top;
-pos base hah-ar.fina.1 <anchor 200 -70> mark @mark_bottom;
-pos base hah-ar.fina.1 <anchor 359 163> mark @mark_top;
-pos base hah-ar.medi <anchor 66 -85> mark @mark_bottom;
+pos base hah-ar.fina.1 <anchor 190 -35> mark @mark_bottom;
+pos base hah-ar.fina.1 <anchor 99 233> mark @mark_top;
+pos base hah-ar.medi <anchor 70 -35> mark @mark_bottom;
 pos base hah-ar.medi <anchor 116 305> mark @mark_top;
-pos base hah-ar.medi.1 <anchor 170 -35> mark @mark_bottom;
-pos base hah-ar.medi.1 <anchor 269 163> mark @mark_top;
+pos base hah-ar.medi.1 <anchor 110 -35> mark @mark_bottom;
+pos base hah-ar.medi.1 <anchor 9 233> mark @mark_top;
 pos base hah-ar.init <anchor 170 -35> mark @mark_bottom;
 pos base hah-ar.init <anchor 269 163> mark @mark_top;
 pos base hah-ar.init.1 <anchor 170 -35> mark @mark_bottom;
@@ -564,11 +564,10 @@ lookup DotsBelowBeforeWide {
   pos behDotless-ar.init @DotsBelow' <-60 0 0 0> [alef-ar.fina behDotless-ar.fina behDotless-ar.fina.1 dal-ar.fina seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5 seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 sad-ar.fina sad-ar.fina.1 sad-ar.medi tah-ar tah-ar.fina tah-ar.medi ain-ar.fina ain-ar.medi kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi meem-ar.medi.1 heh-ar.fina heh-ar.fina.1 heh-ar.fina.2 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7];
 } DotsBelowBeforeWide;
 
-lookup DotAvove {
- @DotAbove = [dotabove-ar dotabove-ar.alt1];
- lookupflag UseMarkFilteringSet @DotAbove;
-  pos behDotless-ar.init.hah [hah-ar.medi.1 hah-ar.fina.1] @DotAbove' <-240 120 0 0>;
-} DotAvove;
+lookup DotBelowHah {
+ lookupflag UseMarkFilteringSet @DotsBelow;
+  pos hah-ar.medi.1 @DotsBelow' <40 -110 0 0> [hah-ar.medi.1 hah-ar.fina.1];
+} DotBelowHah;
 } mark;
 
 feature kern {
