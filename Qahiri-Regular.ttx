@@ -251,7 +251,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.006"/>
-    <checkSumAdjustment value="0x37a7e51"/>
+    <checkSumAdjustment value="0xf7fc72cb"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -8116,7 +8116,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <Lookup index="9">
         <LookupType value="8"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
-        <!-- SubTableCount=1 -->
+        <!-- SubTableCount=4 -->
         <ChainContextPos index="0" Format="3">
           <!-- BacktrackGlyphCount=1 -->
           <BacktrackCoverage index="0" Format="1">
@@ -8137,6 +8137,112 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
+            <LookupListIndex value="10"/>
+          </PosLookupRecord>
+        </ChainContextPos>
+        <ChainContextPos index="1" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="behDotless-ar.medi"/>
+            <Glyph value="behDotless-ar.medi.1"/>
+            <Glyph value="behDotless-ar.medi.high"/>
+            <Glyph value="behDotless-ar.medi.high.1"/>
+            <Glyph value="behDotless-ar.init"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="dotbelow-ar"/>
+            <Glyph value="dotbelow-ar.alt1"/>
+            <Glyph value="twodotshorizontalbelow-ar"/>
+            <Glyph value="twodotshorizontalbelow-ar.alt1"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="hah-ar.fina.1"/>
+            <Glyph value="hah-ar.medi.1"/>
+          </LookAheadCoverage>
+          <!-- PosCount=1 -->
+          <PosLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="10"/>
+          </PosLookupRecord>
+        </ChainContextPos>
+        <ChainContextPos index="2" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="behDotless-ar.medi"/>
+            <Glyph value="behDotless-ar.medi.1"/>
+            <Glyph value="behDotless-ar.medi.high"/>
+            <Glyph value="behDotless-ar.medi.high.1"/>
+            <Glyph value="behDotless-ar.init"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="dotbelow-ar"/>
+            <Glyph value="dotbelow-ar.alt1"/>
+            <Glyph value="twodotshorizontalbelow-ar"/>
+            <Glyph value="twodotshorizontalbelow-ar.alt1"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=2 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="behDotless-ar.medi"/>
+            <Glyph value="behDotless-ar.medi.1"/>
+            <Glyph value="behDotless-ar.medi.high"/>
+            <Glyph value="behDotless-ar.medi.high.1"/>
+            <Glyph value="behDotless-ar.init"/>
+            <Glyph value="lam-ar.medi"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="1">
+            <Glyph value="hah-ar.fina.1"/>
+            <Glyph value="hah-ar.medi.1"/>
+          </LookAheadCoverage>
+          <!-- PosCount=1 -->
+          <PosLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="10"/>
+          </PosLookupRecord>
+        </ChainContextPos>
+        <ChainContextPos index="3" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="behDotless-ar.medi"/>
+            <Glyph value="behDotless-ar.medi.1"/>
+            <Glyph value="behDotless-ar.medi.high"/>
+            <Glyph value="behDotless-ar.medi.high.1"/>
+            <Glyph value="behDotless-ar.init"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=3 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="dotbelow-ar"/>
+            <Glyph value="dotbelow-ar.alt1"/>
+            <Glyph value="twodotshorizontalbelow-ar"/>
+            <Glyph value="twodotshorizontalbelow-ar.alt1"/>
+          </InputCoverage>
+          <InputCoverage index="1" Format="1">
+            <Glyph value="behDotless-ar.medi"/>
+            <Glyph value="behDotless-ar.medi.1"/>
+            <Glyph value="behDotless-ar.medi.high"/>
+            <Glyph value="behDotless-ar.medi.high.1"/>
+            <Glyph value="behDotless-ar.init"/>
+          </InputCoverage>
+          <InputCoverage index="2" Format="1">
+            <Glyph value="dotbelow-ar"/>
+            <Glyph value="dotbelow-ar.alt1"/>
+            <Glyph value="twodotshorizontalbelow-ar"/>
+            <Glyph value="twodotshorizontalbelow-ar.alt1"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="hah-ar.fina.1"/>
+            <Glyph value="hah-ar.medi.1"/>
+          </LookAheadCoverage>
+          <!-- PosCount=2 -->
+          <PosLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="10"/>
+          </PosLookupRecord>
+          <PosLookupRecord index="1">
+            <SequenceIndex value="2"/>
             <LookupListIndex value="10"/>
           </PosLookupRecord>
         </ChainContextPos>

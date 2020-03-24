@@ -329,8 +329,13 @@ lookup DotsBelowBeforeWide {
 } DotsBelowBeforeWide;
 
 lookup DotBelowHah {
+ @Beh = [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1];
+ valueRecordDef <40 -110 0 0> DOT_MOVEMENT;
  lookupflag UseMarkFilteringSet @DotsBelow;
-  pos hah-ar.medi.1 @DotsBelow' <40 -110 0 0> [hah-ar.medi.1 hah-ar.fina.1];
+  pos hah-ar.medi.1 @DotsBelow' <DOT_MOVEMENT> [hah-ar.medi.1 hah-ar.fina.1];
+  pos @Beh @DotsBelow' <DOT_MOVEMENT> [hah-ar.medi.1 hah-ar.fina.1];
+  pos @Beh @DotsBelow' <DOT_MOVEMENT> [@Beh lam-ar.medi] [hah-ar.medi.1 hah-ar.fina.1];
+  pos @Beh @DotsBelow' <DOT_MOVEMENT> @Beh' @DotsBelow' <DOT_MOVEMENT> [hah-ar.medi.1 hah-ar.fina.1];
 } DotBelowHah;";
 name = mark;
 },
