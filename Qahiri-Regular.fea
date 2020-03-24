@@ -575,8 +575,6 @@ feature kern {
 # Automatic Code End
 lookup Kern {
  lookupflag IgnoreMarks;
-  pos [hah-ar.init hah-ar.init.1 hah-ar.init.2] [meem-ar.medi meem-ar.medi.1 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 qafDotless-ar.fina] <-20 0 -20 0>;
-
   pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 228 0> hah-ar.fina.1;
   pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> hah-ar.medi.1;
 } Kern;
@@ -866,6 +864,9 @@ enum pos @MMK_L_lam_alef.1 seen-ar.init.4 <30 0 30 0>;
 enum pos @MMK_L_lam_alef.1 seen-ar.init.5 <60 0 60 0>;
 enum pos @MMK_L_lam_alef.1 waw-ar.2 <30 0 30 0>;
 enum pos @MMK_L_lam_alef.1 waw-ar.3 <40 0 40 0>;
+enum pos @MMK_L_meem-ar.medi meem-ar.medi.1 <-40 0 -40 0>;
+enum pos @MMK_L_meem-ar.medi meem-ar.fina.2 <-40 0 -40 0>;
+enum pos @MMK_L_meem-ar.medi qafDotless-ar.fina <-30 0 -30 0>;
 enum pos @MMK_L_pyramid behDotless-ar.fina.1 <-10 0 -10 0>;
 enum pos @MMK_L_pyramid lam_alef-ar.fina <-40 0 -40 0>;
 enum pos @MMK_L_pyramid lam_alef-ar.fina.2 <-50 0 -50 0>;
@@ -924,7 +925,9 @@ enum pos kaf-ar.medi.2 @MMK_R_yeh <-30 0 -30 0>;
 
 pos @MMK_L_dal @MMK_R_hah-ar.init <-40 0 -40 0>;
 pos @MMK_L_heh.init @MMK_R_reh.fina <40 0 40 0>;
+pos @MMK_L_meem-ar.medi @MMK_R_hah-ar.init <-20 0 -20 0>;
 pos @MMK_L_meem-ar.medi @MMK_R_pyramid <-20 0 -20 0>;
+pos @MMK_L_meem-ar.medi @MMK_R_waw <-20 0 -20 0>;
 pos @MMK_L_meem-ar.medi @MMK_R_yeh <-40 0 -40 0>;
 pos @MMK_L_pyramid @MMK_R_hah-ar.init <-15 0 -15 0>;
 pos @MMK_L_pyramid @MMK_R_reh.fina <-10 0 -10 0>;

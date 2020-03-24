@@ -251,7 +251,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.006"/>
-    <checkSumAdjustment value="0x169e8b27"/>
+    <checkSumAdjustment value="0x37a7e51"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -8161,7 +8161,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <Lookup index="11">
         <LookupType value="2"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
-        <!-- SubTableCount=2 -->
+        <!-- SubTableCount=1 -->
         <PairPos index="0" Format="2">
           <Coverage Format="1">
             <Glyph value="behDotless-ar.init.hah"/>
@@ -8186,35 +8186,6 @@ You should have received a copy of the GNU Affero General Public License along w
             </Class2Record>
             <Class2Record index="2">
               <Value1 XAdvance="228"/>
-            </Class2Record>
-          </Class1Record>
-        </PairPos>
-        <PairPos index="1" Format="2">
-          <Coverage Format="1">
-            <Glyph value="hah-ar.init"/>
-            <Glyph value="hah-ar.init.1"/>
-            <Glyph value="hah-ar.init.2"/>
-          </Coverage>
-          <ValueFormat1 value="5"/>
-          <ValueFormat2 value="0"/>
-          <ClassDef1 Format="2">
-          </ClassDef1>
-          <ClassDef2 Format="2">
-            <ClassDef glyph="meem-ar.fina" class="1"/>
-            <ClassDef glyph="meem-ar.fina.1" class="1"/>
-            <ClassDef glyph="meem-ar.fina.2" class="1"/>
-            <ClassDef glyph="meem-ar.medi" class="1"/>
-            <ClassDef glyph="meem-ar.medi.1" class="1"/>
-            <ClassDef glyph="qafDotless-ar.fina" class="1"/>
-          </ClassDef2>
-          <!-- Class1Count=1 -->
-          <!-- Class2Count=2 -->
-          <Class1Record index="0">
-            <Class2Record index="0">
-              <Value1 XPlacement="0" XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="1">
-              <Value1 XPlacement="-20" XAdvance="-20"/>
             </Class2Record>
           </Class1Record>
         </PairPos>
@@ -8290,6 +8261,8 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="hah-ar.5"/>
             <Glyph value="hah-ar.fina"/>
             <Glyph value="hah-ar.medi"/>
+            <Glyph value="hah-ar.medi.1"/>
+            <Glyph value="hah-ar.init"/>
             <Glyph value="hah-ar.init.1"/>
             <Glyph value="hah-ar.init.2"/>
             <Glyph value="dal-ar"/>
@@ -8344,6 +8317,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="meem-ar.fina"/>
             <Glyph value="meem-ar.fina.1"/>
             <Glyph value="meem-ar.fina.2"/>
+            <Glyph value="meem-ar.medi"/>
             <Glyph value="noonghunna-ar"/>
             <Glyph value="noonghunna-ar.fina"/>
             <Glyph value="waw-ar"/>
@@ -8371,7 +8345,7 @@ You should have received a copy of the GNU Affero General Public License along w
           </Coverage>
           <ValueFormat1 value="5"/>
           <ValueFormat2 value="0"/>
-          <!-- PairSetCount=91 -->
+          <!-- PairSetCount=94 -->
           <PairSet index="0">
             <!-- PairValueCount=1 -->
             <PairValueRecord index="0">
@@ -9040,53 +9014,36 @@ You should have received a copy of the GNU Affero General Public License along w
             </PairValueRecord>
           </PairSet>
           <PairSet index="13">
-            <!-- PairValueCount=11 -->
+            <!-- PairValueCount=3 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="behDotless-ar.medi.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="qafDotless-ar.fina"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="seen-ar.medi.6"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="meem-ar.fina.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="alefMaksura-ar.fina"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar.fina.0"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksura-ar.fina.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="5">
-              <SecondGlyph value="alefMaksura-ar.fina.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar.fina.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.fina.4"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.fina.5"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="9">
-              <SecondGlyph value="alefMaksura-ar.fina.6"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="10">
-              <SecondGlyph value="alefMaksura-ar.fina.tooth"/>
+              <SecondGlyph value="meem-ar.medi.1"/>
               <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="14">
+            <!-- PairValueCount=3 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="qafDotless-ar.fina"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="meem-ar.fina.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="meem-ar.medi.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="15">
             <!-- PairValueCount=11 -->
             <PairValueRecord index="0">
               <SecondGlyph value="behDotless-ar.medi.1"/>
@@ -9133,400 +9090,337 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
           </PairSet>
-          <PairSet index="15">
-            <!-- PairValueCount=35 -->
-            <PairValueRecord index="0">
-              <SecondGlyph value="alef-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="1">
-              <SecondGlyph value="alef-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="2">
-              <SecondGlyph value="alef-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="3">
-              <SecondGlyph value="hah-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="4">
-              <SecondGlyph value="hah-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="5">
-              <SecondGlyph value="hah-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="6">
-              <SecondGlyph value="hah-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="7">
-              <SecondGlyph value="hah-ar.4"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="8">
-              <SecondGlyph value="hah-ar.5"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="9">
-              <SecondGlyph value="hah-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="10">
-              <SecondGlyph value="hah-ar.init.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="11">
-              <SecondGlyph value="ain-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="12">
-              <SecondGlyph value="ain-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="13">
-              <SecondGlyph value="ain-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="14">
-              <SecondGlyph value="ain-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="15">
-              <SecondGlyph value="ain-ar.init"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="16">
-              <SecondGlyph value="ain-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="17">
-              <SecondGlyph value="fehDotless-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="18">
-              <SecondGlyph value="fehDotless-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="19">
-              <SecondGlyph value="fehDotless-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="20">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="-80" XAdvance="-80"/>
-            </PairValueRecord>
-            <PairValueRecord index="21">
-              <SecondGlyph value="meem-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="22">
-              <SecondGlyph value="meem-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="23">
-              <SecondGlyph value="meem-ar.2"/>
-              <Value1 XPlacement="-10" XAdvance="-10"/>
-            </PairValueRecord>
-            <PairValueRecord index="24">
-              <SecondGlyph value="meem-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="25">
-              <SecondGlyph value="heh-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="26">
-              <SecondGlyph value="heh-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="27">
-              <SecondGlyph value="heh-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="28">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="29">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="30">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="31">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="32">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="33">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="34">
-              <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-          </PairSet>
           <PairSet index="16">
-            <!-- PairValueCount=35 -->
+            <!-- PairValueCount=11 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="alef-ar"/>
+              <SecondGlyph value="behDotless-ar.medi.1"/>
               <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="alef-ar.1"/>
+              <SecondGlyph value="seen-ar.medi.6"/>
               <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="alef-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="alefMaksura-ar.fina"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="hah-ar"/>
+              <SecondGlyph value="alefMaksura-ar.fina.0"/>
               <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="hah-ar.1"/>
+              <SecondGlyph value="alefMaksura-ar.fina.1"/>
               <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="5">
-              <SecondGlyph value="hah-ar.2"/>
+              <SecondGlyph value="alefMaksura-ar.fina.2"/>
               <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="6">
-              <SecondGlyph value="hah-ar.3"/>
+              <SecondGlyph value="alefMaksura-ar.fina.3"/>
               <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="7">
-              <SecondGlyph value="hah-ar.4"/>
+              <SecondGlyph value="alefMaksura-ar.fina.4"/>
               <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="8">
-              <SecondGlyph value="hah-ar.5"/>
+              <SecondGlyph value="alefMaksura-ar.fina.5"/>
               <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="9">
-              <SecondGlyph value="hah-ar.init.1"/>
+              <SecondGlyph value="alefMaksura-ar.fina.6"/>
               <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="10">
-              <SecondGlyph value="hah-ar.init.2"/>
+              <SecondGlyph value="alefMaksura-ar.fina.tooth"/>
               <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="11">
-              <SecondGlyph value="ain-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="12">
-              <SecondGlyph value="ain-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="13">
-              <SecondGlyph value="ain-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="14">
-              <SecondGlyph value="ain-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="15">
-              <SecondGlyph value="ain-ar.init"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="16">
-              <SecondGlyph value="ain-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="17">
-              <SecondGlyph value="fehDotless-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="18">
-              <SecondGlyph value="fehDotless-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="19">
-              <SecondGlyph value="fehDotless-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="20">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="-80" XAdvance="-80"/>
-            </PairValueRecord>
-            <PairValueRecord index="21">
-              <SecondGlyph value="meem-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="22">
-              <SecondGlyph value="meem-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="23">
-              <SecondGlyph value="meem-ar.2"/>
-              <Value1 XPlacement="-10" XAdvance="-10"/>
-            </PairValueRecord>
-            <PairValueRecord index="24">
-              <SecondGlyph value="meem-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="25">
-              <SecondGlyph value="heh-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="26">
-              <SecondGlyph value="heh-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="27">
-              <SecondGlyph value="heh-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="28">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="29">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="30">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="31">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="32">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="33">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="34">
-              <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="17">
-            <!-- PairValueCount=13 -->
+            <!-- PairValueCount=35 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="reh-ar"/>
-              <Value1 XPlacement="88" XAdvance="88"/>
+              <SecondGlyph value="alef-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="reh-ar.1"/>
-              <Value1 XPlacement="88" XAdvance="88"/>
+              <SecondGlyph value="alef-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="lam-ar"/>
-              <Value1 XPlacement="63" XAdvance="63"/>
+              <SecondGlyph value="alef-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="noonghunna-ar"/>
-              <Value1 XPlacement="63" XAdvance="63"/>
+              <SecondGlyph value="hah-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="waw-ar"/>
-              <Value1 XPlacement="63" XAdvance="63"/>
+              <SecondGlyph value="hah-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="5">
-              <SecondGlyph value="waw-ar.1"/>
-              <Value1 XPlacement="63" XAdvance="63"/>
+              <SecondGlyph value="hah-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="63" XAdvance="63"/>
+              <SecondGlyph value="hah-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="63" XAdvance="63"/>
+              <SecondGlyph value="hah-ar.4"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="260" XAdvance="260"/>
+              <SecondGlyph value="hah-ar.5"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="9">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="405" XAdvance="405"/>
+              <SecondGlyph value="hah-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="10">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="560" XAdvance="560"/>
+              <SecondGlyph value="hah-ar.init.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="11">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="190" XAdvance="190"/>
+              <SecondGlyph value="ain-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="12">
+              <SecondGlyph value="ain-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="13">
+              <SecondGlyph value="ain-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="14">
+              <SecondGlyph value="ain-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="15">
+              <SecondGlyph value="ain-ar.init"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="16">
+              <SecondGlyph value="ain-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="17">
+              <SecondGlyph value="fehDotless-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="18">
+              <SecondGlyph value="fehDotless-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="19">
+              <SecondGlyph value="fehDotless-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="20">
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="-80" XAdvance="-80"/>
+            </PairValueRecord>
+            <PairValueRecord index="21">
+              <SecondGlyph value="meem-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="22">
+              <SecondGlyph value="meem-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="23">
+              <SecondGlyph value="meem-ar.2"/>
+              <Value1 XPlacement="-10" XAdvance="-10"/>
+            </PairValueRecord>
+            <PairValueRecord index="24">
+              <SecondGlyph value="meem-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="25">
+              <SecondGlyph value="heh-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="26">
+              <SecondGlyph value="heh-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="27">
+              <SecondGlyph value="heh-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="28">
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="29">
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="30">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="31">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="32">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="33">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="34">
               <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="560" XAdvance="560"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="18">
-            <!-- PairValueCount=13 -->
+            <!-- PairValueCount=35 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="reh-ar"/>
-              <Value1 XPlacement="88" XAdvance="88"/>
+              <SecondGlyph value="alef-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="reh-ar.1"/>
-              <Value1 XPlacement="88" XAdvance="88"/>
+              <SecondGlyph value="alef-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="lam-ar"/>
-              <Value1 XPlacement="63" XAdvance="63"/>
+              <SecondGlyph value="alef-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="noonghunna-ar"/>
-              <Value1 XPlacement="63" XAdvance="63"/>
+              <SecondGlyph value="hah-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="waw-ar"/>
-              <Value1 XPlacement="63" XAdvance="63"/>
+              <SecondGlyph value="hah-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="5">
-              <SecondGlyph value="waw-ar.1"/>
-              <Value1 XPlacement="63" XAdvance="63"/>
+              <SecondGlyph value="hah-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="63" XAdvance="63"/>
+              <SecondGlyph value="hah-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="63" XAdvance="63"/>
+              <SecondGlyph value="hah-ar.4"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="260" XAdvance="260"/>
+              <SecondGlyph value="hah-ar.5"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="9">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="405" XAdvance="405"/>
+              <SecondGlyph value="hah-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="10">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="560" XAdvance="560"/>
+              <SecondGlyph value="hah-ar.init.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="11">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="190" XAdvance="190"/>
+              <SecondGlyph value="ain-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="12">
+              <SecondGlyph value="ain-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="13">
+              <SecondGlyph value="ain-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="14">
+              <SecondGlyph value="ain-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="15">
+              <SecondGlyph value="ain-ar.init"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="16">
+              <SecondGlyph value="ain-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="17">
+              <SecondGlyph value="fehDotless-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="18">
+              <SecondGlyph value="fehDotless-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="19">
+              <SecondGlyph value="fehDotless-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="20">
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="-80" XAdvance="-80"/>
+            </PairValueRecord>
+            <PairValueRecord index="21">
+              <SecondGlyph value="meem-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="22">
+              <SecondGlyph value="meem-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="23">
+              <SecondGlyph value="meem-ar.2"/>
+              <Value1 XPlacement="-10" XAdvance="-10"/>
+            </PairValueRecord>
+            <PairValueRecord index="24">
+              <SecondGlyph value="meem-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="25">
+              <SecondGlyph value="heh-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="26">
+              <SecondGlyph value="heh-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="27">
+              <SecondGlyph value="heh-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="28">
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="29">
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="30">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="31">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="32">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="33">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="34">
               <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="560" XAdvance="560"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="19">
@@ -9640,89 +9534,113 @@ You should have received a copy of the GNU Affero General Public License along w
             </PairValueRecord>
           </PairSet>
           <PairSet index="21">
-            <!-- PairValueCount=10 -->
+            <!-- PairValueCount=13 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="reh-ar"/>
+              <Value1 XPlacement="88" XAdvance="88"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="lam-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="reh-ar.1"/>
+              <Value1 XPlacement="88" XAdvance="88"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="noonghunna-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="lam-ar"/>
+              <Value1 XPlacement="63" XAdvance="63"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="noonghunna-ar"/>
+              <Value1 XPlacement="63" XAdvance="63"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="waw-ar"/>
+              <Value1 XPlacement="63" XAdvance="63"/>
             </PairValueRecord>
             <PairValueRecord index="5">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="180" XAdvance="180"/>
+              <SecondGlyph value="waw-ar.1"/>
+              <Value1 XPlacement="63" XAdvance="63"/>
             </PairValueRecord>
             <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="325" XAdvance="325"/>
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="63" XAdvance="63"/>
             </PairValueRecord>
             <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="480" XAdvance="480"/>
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="63" XAdvance="63"/>
             </PairValueRecord>
             <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="110" XAdvance="110"/>
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="260" XAdvance="260"/>
             </PairValueRecord>
             <PairValueRecord index="9">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="405" XAdvance="405"/>
+            </PairValueRecord>
+            <PairValueRecord index="10">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="560" XAdvance="560"/>
+            </PairValueRecord>
+            <PairValueRecord index="11">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="190" XAdvance="190"/>
+            </PairValueRecord>
+            <PairValueRecord index="12">
               <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="480" XAdvance="480"/>
+              <Value1 XPlacement="560" XAdvance="560"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="22">
-            <!-- PairValueCount=10 -->
+            <!-- PairValueCount=13 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="reh-ar"/>
+              <Value1 XPlacement="88" XAdvance="88"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="lam-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="reh-ar.1"/>
+              <Value1 XPlacement="88" XAdvance="88"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="noonghunna-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="lam-ar"/>
+              <Value1 XPlacement="63" XAdvance="63"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="noonghunna-ar"/>
+              <Value1 XPlacement="63" XAdvance="63"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="waw-ar"/>
+              <Value1 XPlacement="63" XAdvance="63"/>
             </PairValueRecord>
             <PairValueRecord index="5">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="180" XAdvance="180"/>
+              <SecondGlyph value="waw-ar.1"/>
+              <Value1 XPlacement="63" XAdvance="63"/>
             </PairValueRecord>
             <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="325" XAdvance="325"/>
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="63" XAdvance="63"/>
             </PairValueRecord>
             <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="480" XAdvance="480"/>
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="63" XAdvance="63"/>
             </PairValueRecord>
             <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="110" XAdvance="110"/>
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="260" XAdvance="260"/>
             </PairValueRecord>
             <PairValueRecord index="9">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="405" XAdvance="405"/>
+            </PairValueRecord>
+            <PairValueRecord index="10">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="560" XAdvance="560"/>
+            </PairValueRecord>
+            <PairValueRecord index="11">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="190" XAdvance="190"/>
+            </PairValueRecord>
+            <PairValueRecord index="12">
               <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="480" XAdvance="480"/>
+              <Value1 XPlacement="560" XAdvance="560"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="23">
@@ -10371,49 +10289,89 @@ You should have received a copy of the GNU Affero General Public License along w
             </PairValueRecord>
           </PairSet>
           <PairSet index="38">
-            <!-- PairValueCount=5 -->
+            <!-- PairValueCount=10 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="240" XAdvance="240"/>
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="385" XAdvance="385"/>
+              <SecondGlyph value="lam-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
+              <SecondGlyph value="noonghunna-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="170" XAdvance="170"/>
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="4">
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="180" XAdvance="180"/>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="325" XAdvance="325"/>
+            </PairValueRecord>
+            <PairValueRecord index="7">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="480" XAdvance="480"/>
+            </PairValueRecord>
+            <PairValueRecord index="8">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="110" XAdvance="110"/>
+            </PairValueRecord>
+            <PairValueRecord index="9">
               <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
+              <Value1 XPlacement="480" XAdvance="480"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="39">
-            <!-- PairValueCount=5 -->
+            <!-- PairValueCount=10 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="240" XAdvance="240"/>
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="385" XAdvance="385"/>
+              <SecondGlyph value="lam-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
+              <SecondGlyph value="noonghunna-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="170" XAdvance="170"/>
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="4">
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="180" XAdvance="180"/>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="325" XAdvance="325"/>
+            </PairValueRecord>
+            <PairValueRecord index="7">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="480" XAdvance="480"/>
+            </PairValueRecord>
+            <PairValueRecord index="8">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="110" XAdvance="110"/>
+            </PairValueRecord>
+            <PairValueRecord index="9">
               <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
+              <Value1 XPlacement="480" XAdvance="480"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="40">
@@ -10486,6 +10444,52 @@ You should have received a copy of the GNU Affero General Public License along w
             </PairValueRecord>
           </PairSet>
           <PairSet index="43">
+            <!-- PairValueCount=5 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="240" XAdvance="240"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="385" XAdvance="385"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="170" XAdvance="170"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="alefMaksura-ar.6"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="44">
+            <!-- PairValueCount=5 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="240" XAdvance="240"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="385" XAdvance="385"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="170" XAdvance="170"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="alefMaksura-ar.6"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="45">
             <!-- PairValueCount=44 -->
             <PairValueRecord index="0">
               <SecondGlyph value="behDotless-ar.fina.1"/>
@@ -10664,7 +10668,7 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-100" XAdvance="-100"/>
             </PairValueRecord>
           </PairSet>
-          <PairSet index="44">
+          <PairSet index="46">
             <!-- PairValueCount=2 -->
             <PairValueRecord index="0">
               <SecondGlyph value="behDotless-ar.medi.1"/>
@@ -10675,7 +10679,7 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
           </PairSet>
-          <PairSet index="45">
+          <PairSet index="47">
             <!-- PairValueCount=38 -->
             <PairValueRecord index="0">
               <SecondGlyph value="behDotless-ar.medi.1"/>
@@ -10830,100 +10834,6 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
           </PairSet>
-          <PairSet index="46">
-            <!-- PairValueCount=11 -->
-            <PairValueRecord index="0">
-              <SecondGlyph value="behDotless-ar.medi.1"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="1">
-              <SecondGlyph value="seen-ar.medi.6"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="2">
-              <SecondGlyph value="alefMaksura-ar.fina"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar.fina.0"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksura-ar.fina.1"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="5">
-              <SecondGlyph value="alefMaksura-ar.fina.2"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar.fina.3"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.fina.4"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.fina.5"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="9">
-              <SecondGlyph value="alefMaksura-ar.fina.6"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="10">
-              <SecondGlyph value="alefMaksura-ar.fina.tooth"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-          </PairSet>
-          <PairSet index="47">
-            <!-- PairValueCount=11 -->
-            <PairValueRecord index="0">
-              <SecondGlyph value="behDotless-ar.medi.1"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="1">
-              <SecondGlyph value="seen-ar.medi.6"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="2">
-              <SecondGlyph value="alefMaksura-ar.fina"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar.fina.0"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksura-ar.fina.1"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="5">
-              <SecondGlyph value="alefMaksura-ar.fina.2"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar.fina.3"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.fina.4"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.fina.5"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="9">
-              <SecondGlyph value="alefMaksura-ar.fina.6"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-            <PairValueRecord index="10">
-              <SecondGlyph value="alefMaksura-ar.fina.tooth"/>
-              <Value1 XPlacement="-50" XAdvance="-50"/>
-            </PairValueRecord>
-          </PairSet>
           <PairSet index="48">
             <!-- PairValueCount=11 -->
             <PairValueRecord index="0">
@@ -10972,29 +10882,100 @@ You should have received a copy of the GNU Affero General Public License along w
             </PairValueRecord>
           </PairSet>
           <PairSet index="49">
-            <!-- PairValueCount=5 -->
+            <!-- PairValueCount=11 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="220" XAdvance="220"/>
+              <SecondGlyph value="behDotless-ar.medi.1"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="365" XAdvance="365"/>
+              <SecondGlyph value="seen-ar.medi.6"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="520" XAdvance="520"/>
+              <SecondGlyph value="alefMaksura-ar.fina"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="150" XAdvance="150"/>
+              <SecondGlyph value="alefMaksura-ar.fina.0"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="520" XAdvance="520"/>
+              <SecondGlyph value="alefMaksura-ar.fina.1"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="alefMaksura-ar.fina.2"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="alefMaksura-ar.fina.3"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="7">
+              <SecondGlyph value="alefMaksura-ar.fina.4"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="8">
+              <SecondGlyph value="alefMaksura-ar.fina.5"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="9">
+              <SecondGlyph value="alefMaksura-ar.fina.6"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="10">
+              <SecondGlyph value="alefMaksura-ar.fina.tooth"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="50">
+            <!-- PairValueCount=11 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="behDotless-ar.medi.1"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="seen-ar.medi.6"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="alefMaksura-ar.fina"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="alefMaksura-ar.fina.0"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="alefMaksura-ar.fina.1"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="alefMaksura-ar.fina.2"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="alefMaksura-ar.fina.3"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="7">
+              <SecondGlyph value="alefMaksura-ar.fina.4"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="8">
+              <SecondGlyph value="alefMaksura-ar.fina.5"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="9">
+              <SecondGlyph value="alefMaksura-ar.fina.6"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+            <PairValueRecord index="10">
+              <SecondGlyph value="alefMaksura-ar.fina.tooth"/>
+              <Value1 XPlacement="-50" XAdvance="-50"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="51">
             <!-- PairValueCount=5 -->
             <PairValueRecord index="0">
               <SecondGlyph value="alefMaksura-ar.2"/>
@@ -11017,290 +10998,27 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="520" XAdvance="520"/>
             </PairValueRecord>
           </PairSet>
-          <PairSet index="51">
-            <!-- PairValueCount=35 -->
-            <PairValueRecord index="0">
-              <SecondGlyph value="alef-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="1">
-              <SecondGlyph value="alef-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="2">
-              <SecondGlyph value="alef-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="3">
-              <SecondGlyph value="hah-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="4">
-              <SecondGlyph value="hah-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="5">
-              <SecondGlyph value="hah-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="6">
-              <SecondGlyph value="hah-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="7">
-              <SecondGlyph value="hah-ar.4"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="8">
-              <SecondGlyph value="hah-ar.5"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="9">
-              <SecondGlyph value="hah-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="10">
-              <SecondGlyph value="hah-ar.init.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="11">
-              <SecondGlyph value="ain-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="12">
-              <SecondGlyph value="ain-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="13">
-              <SecondGlyph value="ain-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="14">
-              <SecondGlyph value="ain-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="15">
-              <SecondGlyph value="ain-ar.init"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="16">
-              <SecondGlyph value="ain-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="17">
-              <SecondGlyph value="fehDotless-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="18">
-              <SecondGlyph value="fehDotless-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="19">
-              <SecondGlyph value="fehDotless-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="20">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="-80" XAdvance="-80"/>
-            </PairValueRecord>
-            <PairValueRecord index="21">
-              <SecondGlyph value="meem-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="22">
-              <SecondGlyph value="meem-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="23">
-              <SecondGlyph value="meem-ar.2"/>
-              <Value1 XPlacement="-10" XAdvance="-10"/>
-            </PairValueRecord>
-            <PairValueRecord index="24">
-              <SecondGlyph value="meem-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="25">
-              <SecondGlyph value="heh-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="26">
-              <SecondGlyph value="heh-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="27">
-              <SecondGlyph value="heh-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="28">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="29">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="30">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="31">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="32">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="33">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="34">
-              <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-          </PairSet>
           <PairSet index="52">
-            <!-- PairValueCount=35 -->
+            <!-- PairValueCount=5 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="alef-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="220" XAdvance="220"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="alef-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="365" XAdvance="365"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="alef-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="520" XAdvance="520"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="hah-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="150" XAdvance="150"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="hah-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="5">
-              <SecondGlyph value="hah-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="6">
-              <SecondGlyph value="hah-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="7">
-              <SecondGlyph value="hah-ar.4"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="8">
-              <SecondGlyph value="hah-ar.5"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="9">
-              <SecondGlyph value="hah-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="10">
-              <SecondGlyph value="hah-ar.init.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="11">
-              <SecondGlyph value="ain-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="12">
-              <SecondGlyph value="ain-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="13">
-              <SecondGlyph value="ain-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="14">
-              <SecondGlyph value="ain-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="15">
-              <SecondGlyph value="ain-ar.init"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="16">
-              <SecondGlyph value="ain-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="17">
-              <SecondGlyph value="fehDotless-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="18">
-              <SecondGlyph value="fehDotless-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="19">
-              <SecondGlyph value="fehDotless-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="20">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="-80" XAdvance="-80"/>
-            </PairValueRecord>
-            <PairValueRecord index="21">
-              <SecondGlyph value="meem-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="22">
-              <SecondGlyph value="meem-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="23">
-              <SecondGlyph value="meem-ar.2"/>
-              <Value1 XPlacement="-10" XAdvance="-10"/>
-            </PairValueRecord>
-            <PairValueRecord index="24">
-              <SecondGlyph value="meem-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="25">
-              <SecondGlyph value="heh-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="26">
-              <SecondGlyph value="heh-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="27">
-              <SecondGlyph value="heh-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="28">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="29">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="30">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="31">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="32">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="33">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="34">
               <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
+              <Value1 XPlacement="520" XAdvance="520"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="53">
@@ -11876,45 +11594,292 @@ You should have received a copy of the GNU Affero General Public License along w
             </PairValueRecord>
           </PairSet>
           <PairSet index="57">
-            <!-- PairValueCount=9 -->
+            <!-- PairValueCount=35 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="alefMaksura-ar.fina"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
+              <SecondGlyph value="alef-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="alefMaksura-ar.fina.0"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
+              <SecondGlyph value="alef-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="alefMaksura-ar.fina.1"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
+              <SecondGlyph value="alef-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar.fina.2"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
+              <SecondGlyph value="hah-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksura-ar.fina.3"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
+              <SecondGlyph value="hah-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="5">
-              <SecondGlyph value="alefMaksura-ar.fina.4"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
+              <SecondGlyph value="hah-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar.fina.5"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
+              <SecondGlyph value="hah-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.fina.6"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
+              <SecondGlyph value="hah-ar.4"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.fina.tooth"/>
+              <SecondGlyph value="hah-ar.5"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="9">
+              <SecondGlyph value="hah-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="10">
+              <SecondGlyph value="hah-ar.init.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="11">
+              <SecondGlyph value="ain-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="12">
+              <SecondGlyph value="ain-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="13">
+              <SecondGlyph value="ain-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="14">
+              <SecondGlyph value="ain-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="15">
+              <SecondGlyph value="ain-ar.init"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="16">
+              <SecondGlyph value="ain-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="17">
+              <SecondGlyph value="fehDotless-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="18">
+              <SecondGlyph value="fehDotless-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="19">
+              <SecondGlyph value="fehDotless-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="20">
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="-80" XAdvance="-80"/>
+            </PairValueRecord>
+            <PairValueRecord index="21">
+              <SecondGlyph value="meem-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="22">
+              <SecondGlyph value="meem-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="23">
+              <SecondGlyph value="meem-ar.2"/>
+              <Value1 XPlacement="-10" XAdvance="-10"/>
+            </PairValueRecord>
+            <PairValueRecord index="24">
+              <SecondGlyph value="meem-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="25">
+              <SecondGlyph value="heh-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="26">
+              <SecondGlyph value="heh-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="27">
+              <SecondGlyph value="heh-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="28">
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="29">
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="30">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="31">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="32">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="33">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="34">
+              <SecondGlyph value="alefMaksura-ar.6"/>
               <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="58">
+            <!-- PairValueCount=35 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="alef-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="alef-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="alef-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="hah-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="hah-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="hah-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="hah-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="7">
+              <SecondGlyph value="hah-ar.4"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="8">
+              <SecondGlyph value="hah-ar.5"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="9">
+              <SecondGlyph value="hah-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="10">
+              <SecondGlyph value="hah-ar.init.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="11">
+              <SecondGlyph value="ain-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="12">
+              <SecondGlyph value="ain-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="13">
+              <SecondGlyph value="ain-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="14">
+              <SecondGlyph value="ain-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="15">
+              <SecondGlyph value="ain-ar.init"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="16">
+              <SecondGlyph value="ain-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="17">
+              <SecondGlyph value="fehDotless-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="18">
+              <SecondGlyph value="fehDotless-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="19">
+              <SecondGlyph value="fehDotless-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="20">
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="-80" XAdvance="-80"/>
+            </PairValueRecord>
+            <PairValueRecord index="21">
+              <SecondGlyph value="meem-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="22">
+              <SecondGlyph value="meem-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="23">
+              <SecondGlyph value="meem-ar.2"/>
+              <Value1 XPlacement="-10" XAdvance="-10"/>
+            </PairValueRecord>
+            <PairValueRecord index="24">
+              <SecondGlyph value="meem-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="25">
+              <SecondGlyph value="heh-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="26">
+              <SecondGlyph value="heh-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="27">
+              <SecondGlyph value="heh-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="28">
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="29">
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="30">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="31">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="32">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="33">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="34">
+              <SecondGlyph value="alefMaksura-ar.6"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="59">
             <!-- PairValueCount=9 -->
             <PairValueRecord index="0">
               <SecondGlyph value="alefMaksura-ar.fina"/>
@@ -11953,376 +11918,129 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
           </PairSet>
-          <PairSet index="59">
-            <!-- PairValueCount=10 -->
-            <PairValueRecord index="0">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
-            </PairValueRecord>
-            <PairValueRecord index="1">
-              <SecondGlyph value="lam-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
-            </PairValueRecord>
-            <PairValueRecord index="2">
-              <SecondGlyph value="noonghunna-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
-            </PairValueRecord>
-            <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
-            </PairValueRecord>
-            <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
-            </PairValueRecord>
-            <PairValueRecord index="5">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="180" XAdvance="180"/>
-            </PairValueRecord>
-            <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="325" XAdvance="325"/>
-            </PairValueRecord>
-            <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="480" XAdvance="480"/>
-            </PairValueRecord>
-            <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="110" XAdvance="110"/>
-            </PairValueRecord>
-            <PairValueRecord index="9">
-              <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="480" XAdvance="480"/>
-            </PairValueRecord>
-          </PairSet>
           <PairSet index="60">
-            <!-- PairValueCount=10 -->
+            <!-- PairValueCount=9 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="alefMaksura-ar.fina"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="lam-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="alefMaksura-ar.fina.0"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="noonghunna-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="alefMaksura-ar.fina.1"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="alefMaksura-ar.fina.2"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="alefMaksura-ar.fina.3"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
             <PairValueRecord index="5">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="180" XAdvance="180"/>
+              <SecondGlyph value="alefMaksura-ar.fina.4"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
             <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="325" XAdvance="325"/>
+              <SecondGlyph value="alefMaksura-ar.fina.5"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
             <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="480" XAdvance="480"/>
+              <SecondGlyph value="alefMaksura-ar.fina.6"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
             <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="110" XAdvance="110"/>
-            </PairValueRecord>
-            <PairValueRecord index="9">
-              <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="480" XAdvance="480"/>
+              <SecondGlyph value="alefMaksura-ar.fina.tooth"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="61">
-            <!-- PairValueCount=35 -->
+            <!-- PairValueCount=10 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="alef-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="alef-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="lam-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="alef-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="noonghunna-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="hah-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="hah-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="5">
-              <SecondGlyph value="hah-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="180" XAdvance="180"/>
             </PairValueRecord>
             <PairValueRecord index="6">
-              <SecondGlyph value="hah-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="325" XAdvance="325"/>
             </PairValueRecord>
             <PairValueRecord index="7">
-              <SecondGlyph value="hah-ar.4"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="480" XAdvance="480"/>
             </PairValueRecord>
             <PairValueRecord index="8">
-              <SecondGlyph value="hah-ar.5"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="110" XAdvance="110"/>
             </PairValueRecord>
             <PairValueRecord index="9">
-              <SecondGlyph value="hah-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="10">
-              <SecondGlyph value="hah-ar.init.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="11">
-              <SecondGlyph value="ain-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="12">
-              <SecondGlyph value="ain-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="13">
-              <SecondGlyph value="ain-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="14">
-              <SecondGlyph value="ain-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="15">
-              <SecondGlyph value="ain-ar.init"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="16">
-              <SecondGlyph value="ain-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="17">
-              <SecondGlyph value="fehDotless-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="18">
-              <SecondGlyph value="fehDotless-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="19">
-              <SecondGlyph value="fehDotless-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="20">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="-80" XAdvance="-80"/>
-            </PairValueRecord>
-            <PairValueRecord index="21">
-              <SecondGlyph value="meem-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="22">
-              <SecondGlyph value="meem-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="23">
-              <SecondGlyph value="meem-ar.2"/>
-              <Value1 XPlacement="-10" XAdvance="-10"/>
-            </PairValueRecord>
-            <PairValueRecord index="24">
-              <SecondGlyph value="meem-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="25">
-              <SecondGlyph value="heh-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="26">
-              <SecondGlyph value="heh-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="27">
-              <SecondGlyph value="heh-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="28">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="29">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="30">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="31">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="32">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="33">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="34">
               <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
+              <Value1 XPlacement="480" XAdvance="480"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="62">
-            <!-- PairValueCount=35 -->
+            <!-- PairValueCount=10 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="alef-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="alef-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="lam-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="alef-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="noonghunna-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="hah-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="hah-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="5">
-              <SecondGlyph value="hah-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="180" XAdvance="180"/>
             </PairValueRecord>
             <PairValueRecord index="6">
-              <SecondGlyph value="hah-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="325" XAdvance="325"/>
             </PairValueRecord>
             <PairValueRecord index="7">
-              <SecondGlyph value="hah-ar.4"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="480" XAdvance="480"/>
             </PairValueRecord>
             <PairValueRecord index="8">
-              <SecondGlyph value="hah-ar.5"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="110" XAdvance="110"/>
             </PairValueRecord>
             <PairValueRecord index="9">
-              <SecondGlyph value="hah-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="10">
-              <SecondGlyph value="hah-ar.init.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="11">
-              <SecondGlyph value="ain-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="12">
-              <SecondGlyph value="ain-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="13">
-              <SecondGlyph value="ain-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="14">
-              <SecondGlyph value="ain-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="15">
-              <SecondGlyph value="ain-ar.init"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="16">
-              <SecondGlyph value="ain-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="17">
-              <SecondGlyph value="fehDotless-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="18">
-              <SecondGlyph value="fehDotless-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="19">
-              <SecondGlyph value="fehDotless-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="20">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="-80" XAdvance="-80"/>
-            </PairValueRecord>
-            <PairValueRecord index="21">
-              <SecondGlyph value="meem-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="22">
-              <SecondGlyph value="meem-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="23">
-              <SecondGlyph value="meem-ar.2"/>
-              <Value1 XPlacement="-10" XAdvance="-10"/>
-            </PairValueRecord>
-            <PairValueRecord index="24">
-              <SecondGlyph value="meem-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="25">
-              <SecondGlyph value="heh-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="26">
-              <SecondGlyph value="heh-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="27">
-              <SecondGlyph value="heh-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="28">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="29">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="30">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="31">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="32">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="33">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="34">
               <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
+              <Value1 XPlacement="480" XAdvance="480"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="63">
@@ -12898,49 +12616,307 @@ You should have received a copy of the GNU Affero General Public License along w
             </PairValueRecord>
           </PairSet>
           <PairSet index="67">
-            <!-- PairValueCount=10 -->
+            <!-- PairValueCount=35 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="alef-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="lam-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="alef-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="noonghunna-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="alef-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="hah-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="100" XAdvance="100"/>
+              <SecondGlyph value="hah-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="5">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="180" XAdvance="180"/>
+              <SecondGlyph value="hah-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="325" XAdvance="325"/>
+              <SecondGlyph value="hah-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="480" XAdvance="480"/>
+              <SecondGlyph value="hah-ar.4"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="110" XAdvance="110"/>
+              <SecondGlyph value="hah-ar.5"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
             </PairValueRecord>
             <PairValueRecord index="9">
+              <SecondGlyph value="hah-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="10">
+              <SecondGlyph value="hah-ar.init.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="11">
+              <SecondGlyph value="ain-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="12">
+              <SecondGlyph value="ain-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="13">
+              <SecondGlyph value="ain-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="14">
+              <SecondGlyph value="ain-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="15">
+              <SecondGlyph value="ain-ar.init"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="16">
+              <SecondGlyph value="ain-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="17">
+              <SecondGlyph value="fehDotless-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="18">
+              <SecondGlyph value="fehDotless-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="19">
+              <SecondGlyph value="fehDotless-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="20">
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="-80" XAdvance="-80"/>
+            </PairValueRecord>
+            <PairValueRecord index="21">
+              <SecondGlyph value="meem-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="22">
+              <SecondGlyph value="meem-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="23">
+              <SecondGlyph value="meem-ar.2"/>
+              <Value1 XPlacement="-10" XAdvance="-10"/>
+            </PairValueRecord>
+            <PairValueRecord index="24">
+              <SecondGlyph value="meem-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="25">
+              <SecondGlyph value="heh-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="26">
+              <SecondGlyph value="heh-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="27">
+              <SecondGlyph value="heh-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="28">
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="29">
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="30">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="31">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="32">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="33">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="34">
               <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="480" XAdvance="480"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="68">
+            <!-- PairValueCount=35 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="alef-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="alef-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="alef-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="hah-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="hah-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="hah-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="hah-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="7">
+              <SecondGlyph value="hah-ar.4"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="8">
+              <SecondGlyph value="hah-ar.5"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="9">
+              <SecondGlyph value="hah-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="10">
+              <SecondGlyph value="hah-ar.init.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="11">
+              <SecondGlyph value="ain-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="12">
+              <SecondGlyph value="ain-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="13">
+              <SecondGlyph value="ain-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="14">
+              <SecondGlyph value="ain-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="15">
+              <SecondGlyph value="ain-ar.init"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="16">
+              <SecondGlyph value="ain-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="17">
+              <SecondGlyph value="fehDotless-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="18">
+              <SecondGlyph value="fehDotless-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="19">
+              <SecondGlyph value="fehDotless-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="20">
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="-80" XAdvance="-80"/>
+            </PairValueRecord>
+            <PairValueRecord index="21">
+              <SecondGlyph value="meem-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="22">
+              <SecondGlyph value="meem-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="23">
+              <SecondGlyph value="meem-ar.2"/>
+              <Value1 XPlacement="-10" XAdvance="-10"/>
+            </PairValueRecord>
+            <PairValueRecord index="24">
+              <SecondGlyph value="meem-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="25">
+              <SecondGlyph value="heh-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="26">
+              <SecondGlyph value="heh-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="27">
+              <SecondGlyph value="heh-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="28">
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="29">
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="30">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="31">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="32">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="33">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="34">
+              <SecondGlyph value="alefMaksura-ar.6"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="69">
+            <!-- PairValueCount=3 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="qafDotless-ar.fina"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="meem-ar.fina.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="meem-ar.medi.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="70">
             <!-- PairValueCount=10 -->
             <PairValueRecord index="0">
               <SecondGlyph value="qafDotless-ar"/>
@@ -12983,440 +12959,122 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="480" XAdvance="480"/>
             </PairValueRecord>
           </PairSet>
-          <PairSet index="69">
-            <!-- PairValueCount=18 -->
-            <PairValueRecord index="0">
-              <SecondGlyph value="reh-ar"/>
-              <Value1 XPlacement="70" XAdvance="70"/>
-            </PairValueRecord>
-            <PairValueRecord index="1">
-              <SecondGlyph value="reh-ar.1"/>
-              <Value1 XPlacement="70" XAdvance="70"/>
-            </PairValueRecord>
-            <PairValueRecord index="2">
-              <SecondGlyph value="lam-ar"/>
-              <Value1 XPlacement="40" XAdvance="40"/>
-            </PairValueRecord>
-            <PairValueRecord index="3">
-              <SecondGlyph value="noonghunna-ar"/>
-              <Value1 XPlacement="40" XAdvance="40"/>
-            </PairValueRecord>
-            <PairValueRecord index="4">
-              <SecondGlyph value="waw-ar"/>
-              <Value1 XPlacement="40" XAdvance="40"/>
-            </PairValueRecord>
-            <PairValueRecord index="5">
-              <SecondGlyph value="waw-ar.1"/>
-              <Value1 XPlacement="40" XAdvance="40"/>
-            </PairValueRecord>
-            <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="40" XAdvance="40"/>
-            </PairValueRecord>
-            <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="40" XAdvance="40"/>
-            </PairValueRecord>
-            <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="240" XAdvance="240"/>
-            </PairValueRecord>
-            <PairValueRecord index="9">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="385" XAdvance="385"/>
-            </PairValueRecord>
-            <PairValueRecord index="10">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
-            </PairValueRecord>
-            <PairValueRecord index="11">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="170" XAdvance="170"/>
-            </PairValueRecord>
-            <PairValueRecord index="12">
-              <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
-            </PairValueRecord>
-            <PairValueRecord index="13">
-              <SecondGlyph value="lam_alef-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="14">
-              <SecondGlyph value="lam_alef-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="15">
-              <SecondGlyph value="lam_alef-ar.3"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="16">
-              <SecondGlyph value="lam_alef-ar.4"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="17">
-              <SecondGlyph value="lam_alef-ar.5"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-          </PairSet>
-          <PairSet index="70">
-            <!-- PairValueCount=18 -->
-            <PairValueRecord index="0">
-              <SecondGlyph value="reh-ar"/>
-              <Value1 XPlacement="70" XAdvance="70"/>
-            </PairValueRecord>
-            <PairValueRecord index="1">
-              <SecondGlyph value="reh-ar.1"/>
-              <Value1 XPlacement="70" XAdvance="70"/>
-            </PairValueRecord>
-            <PairValueRecord index="2">
-              <SecondGlyph value="lam-ar"/>
-              <Value1 XPlacement="40" XAdvance="40"/>
-            </PairValueRecord>
-            <PairValueRecord index="3">
-              <SecondGlyph value="noonghunna-ar"/>
-              <Value1 XPlacement="40" XAdvance="40"/>
-            </PairValueRecord>
-            <PairValueRecord index="4">
-              <SecondGlyph value="waw-ar"/>
-              <Value1 XPlacement="40" XAdvance="40"/>
-            </PairValueRecord>
-            <PairValueRecord index="5">
-              <SecondGlyph value="waw-ar.1"/>
-              <Value1 XPlacement="40" XAdvance="40"/>
-            </PairValueRecord>
-            <PairValueRecord index="6">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="40" XAdvance="40"/>
-            </PairValueRecord>
-            <PairValueRecord index="7">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="40" XAdvance="40"/>
-            </PairValueRecord>
-            <PairValueRecord index="8">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="240" XAdvance="240"/>
-            </PairValueRecord>
-            <PairValueRecord index="9">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="385" XAdvance="385"/>
-            </PairValueRecord>
-            <PairValueRecord index="10">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
-            </PairValueRecord>
-            <PairValueRecord index="11">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="170" XAdvance="170"/>
-            </PairValueRecord>
-            <PairValueRecord index="12">
-              <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
-            </PairValueRecord>
-            <PairValueRecord index="13">
-              <SecondGlyph value="lam_alef-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="14">
-              <SecondGlyph value="lam_alef-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="15">
-              <SecondGlyph value="lam_alef-ar.3"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="16">
-              <SecondGlyph value="lam_alef-ar.4"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="17">
-              <SecondGlyph value="lam_alef-ar.5"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-          </PairSet>
           <PairSet index="71">
-            <!-- PairValueCount=35 -->
+            <!-- PairValueCount=10 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="alef-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="alef-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="lam-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="alef-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="noonghunna-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="hah-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="hah-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="100" XAdvance="100"/>
             </PairValueRecord>
             <PairValueRecord index="5">
-              <SecondGlyph value="hah-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="180" XAdvance="180"/>
             </PairValueRecord>
             <PairValueRecord index="6">
-              <SecondGlyph value="hah-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="325" XAdvance="325"/>
             </PairValueRecord>
             <PairValueRecord index="7">
-              <SecondGlyph value="hah-ar.4"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="480" XAdvance="480"/>
             </PairValueRecord>
             <PairValueRecord index="8">
-              <SecondGlyph value="hah-ar.5"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="110" XAdvance="110"/>
             </PairValueRecord>
             <PairValueRecord index="9">
-              <SecondGlyph value="hah-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="10">
-              <SecondGlyph value="hah-ar.init.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="11">
-              <SecondGlyph value="ain-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="12">
-              <SecondGlyph value="ain-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="13">
-              <SecondGlyph value="ain-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="14">
-              <SecondGlyph value="ain-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="15">
-              <SecondGlyph value="ain-ar.init"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="16">
-              <SecondGlyph value="ain-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
-            </PairValueRecord>
-            <PairValueRecord index="17">
-              <SecondGlyph value="fehDotless-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="18">
-              <SecondGlyph value="fehDotless-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="19">
-              <SecondGlyph value="fehDotless-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="20">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="-80" XAdvance="-80"/>
-            </PairValueRecord>
-            <PairValueRecord index="21">
-              <SecondGlyph value="meem-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="22">
-              <SecondGlyph value="meem-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="23">
-              <SecondGlyph value="meem-ar.2"/>
-              <Value1 XPlacement="-10" XAdvance="-10"/>
-            </PairValueRecord>
-            <PairValueRecord index="24">
-              <SecondGlyph value="meem-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="25">
-              <SecondGlyph value="heh-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="26">
-              <SecondGlyph value="heh-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="27">
-              <SecondGlyph value="heh-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="28">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="29">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="30">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="31">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="32">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="33">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="34">
               <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
+              <Value1 XPlacement="480" XAdvance="480"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="72">
-            <!-- PairValueCount=35 -->
+            <!-- PairValueCount=18 -->
             <PairValueRecord index="0">
-              <SecondGlyph value="alef-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="reh-ar"/>
+              <Value1 XPlacement="70" XAdvance="70"/>
             </PairValueRecord>
             <PairValueRecord index="1">
-              <SecondGlyph value="alef-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="reh-ar.1"/>
+              <Value1 XPlacement="70" XAdvance="70"/>
             </PairValueRecord>
             <PairValueRecord index="2">
-              <SecondGlyph value="alef-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
+              <SecondGlyph value="lam-ar"/>
+              <Value1 XPlacement="40" XAdvance="40"/>
             </PairValueRecord>
             <PairValueRecord index="3">
-              <SecondGlyph value="hah-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="noonghunna-ar"/>
+              <Value1 XPlacement="40" XAdvance="40"/>
             </PairValueRecord>
             <PairValueRecord index="4">
-              <SecondGlyph value="hah-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="waw-ar"/>
+              <Value1 XPlacement="40" XAdvance="40"/>
             </PairValueRecord>
             <PairValueRecord index="5">
-              <SecondGlyph value="hah-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="waw-ar.1"/>
+              <Value1 XPlacement="40" XAdvance="40"/>
             </PairValueRecord>
             <PairValueRecord index="6">
-              <SecondGlyph value="hah-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="40" XAdvance="40"/>
             </PairValueRecord>
             <PairValueRecord index="7">
-              <SecondGlyph value="hah-ar.4"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="40" XAdvance="40"/>
             </PairValueRecord>
             <PairValueRecord index="8">
-              <SecondGlyph value="hah-ar.5"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="240" XAdvance="240"/>
             </PairValueRecord>
             <PairValueRecord index="9">
-              <SecondGlyph value="hah-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="385" XAdvance="385"/>
             </PairValueRecord>
             <PairValueRecord index="10">
-              <SecondGlyph value="hah-ar.init.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
             </PairValueRecord>
             <PairValueRecord index="11">
-              <SecondGlyph value="ain-ar"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="170" XAdvance="170"/>
             </PairValueRecord>
             <PairValueRecord index="12">
-              <SecondGlyph value="ain-ar.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="alefMaksura-ar.6"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
             </PairValueRecord>
             <PairValueRecord index="13">
-              <SecondGlyph value="ain-ar.2"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="lam_alef-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="14">
-              <SecondGlyph value="ain-ar.3"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="lam_alef-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="15">
-              <SecondGlyph value="ain-ar.init"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="lam_alef-ar.3"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="16">
-              <SecondGlyph value="ain-ar.init.1"/>
-              <Value1 XPlacement="-40" XAdvance="-40"/>
+              <SecondGlyph value="lam_alef-ar.4"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
             <PairValueRecord index="17">
-              <SecondGlyph value="fehDotless-ar"/>
+              <SecondGlyph value="lam_alef-ar.5"/>
               <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="18">
-              <SecondGlyph value="fehDotless-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="19">
-              <SecondGlyph value="fehDotless-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="20">
-              <SecondGlyph value="qafDotless-ar"/>
-              <Value1 XPlacement="-80" XAdvance="-80"/>
-            </PairValueRecord>
-            <PairValueRecord index="21">
-              <SecondGlyph value="meem-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="22">
-              <SecondGlyph value="meem-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="23">
-              <SecondGlyph value="meem-ar.2"/>
-              <Value1 XPlacement="-10" XAdvance="-10"/>
-            </PairValueRecord>
-            <PairValueRecord index="24">
-              <SecondGlyph value="meem-ar.init"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="25">
-              <SecondGlyph value="heh-ar"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="26">
-              <SecondGlyph value="heh-ar.1"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="27">
-              <SecondGlyph value="heh-ar.2"/>
-              <Value1 XPlacement="-20" XAdvance="-20"/>
-            </PairValueRecord>
-            <PairValueRecord index="28">
-              <SecondGlyph value="alefMaksura-ar"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="29">
-              <SecondGlyph value="alefMaksura-ar.1"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="30">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="31">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="32">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="33">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
-            </PairValueRecord>
-            <PairValueRecord index="34">
-              <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="-30" XAdvance="-30"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="73">
@@ -13495,6 +13153,292 @@ You should have received a copy of the GNU Affero General Public License along w
             </PairValueRecord>
           </PairSet>
           <PairSet index="74">
+            <!-- PairValueCount=35 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="alef-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="alef-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="alef-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="hah-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="hah-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="hah-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="hah-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="7">
+              <SecondGlyph value="hah-ar.4"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="8">
+              <SecondGlyph value="hah-ar.5"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="9">
+              <SecondGlyph value="hah-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="10">
+              <SecondGlyph value="hah-ar.init.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="11">
+              <SecondGlyph value="ain-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="12">
+              <SecondGlyph value="ain-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="13">
+              <SecondGlyph value="ain-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="14">
+              <SecondGlyph value="ain-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="15">
+              <SecondGlyph value="ain-ar.init"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="16">
+              <SecondGlyph value="ain-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="17">
+              <SecondGlyph value="fehDotless-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="18">
+              <SecondGlyph value="fehDotless-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="19">
+              <SecondGlyph value="fehDotless-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="20">
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="-80" XAdvance="-80"/>
+            </PairValueRecord>
+            <PairValueRecord index="21">
+              <SecondGlyph value="meem-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="22">
+              <SecondGlyph value="meem-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="23">
+              <SecondGlyph value="meem-ar.2"/>
+              <Value1 XPlacement="-10" XAdvance="-10"/>
+            </PairValueRecord>
+            <PairValueRecord index="24">
+              <SecondGlyph value="meem-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="25">
+              <SecondGlyph value="heh-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="26">
+              <SecondGlyph value="heh-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="27">
+              <SecondGlyph value="heh-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="28">
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="29">
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="30">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="31">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="32">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="33">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="34">
+              <SecondGlyph value="alefMaksura-ar.6"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="75">
+            <!-- PairValueCount=35 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="alef-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="alef-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="alef-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="hah-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="hah-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="hah-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="hah-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="7">
+              <SecondGlyph value="hah-ar.4"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="8">
+              <SecondGlyph value="hah-ar.5"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="9">
+              <SecondGlyph value="hah-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="10">
+              <SecondGlyph value="hah-ar.init.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="11">
+              <SecondGlyph value="ain-ar"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="12">
+              <SecondGlyph value="ain-ar.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="13">
+              <SecondGlyph value="ain-ar.2"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="14">
+              <SecondGlyph value="ain-ar.3"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="15">
+              <SecondGlyph value="ain-ar.init"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="16">
+              <SecondGlyph value="ain-ar.init.1"/>
+              <Value1 XPlacement="-40" XAdvance="-40"/>
+            </PairValueRecord>
+            <PairValueRecord index="17">
+              <SecondGlyph value="fehDotless-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="18">
+              <SecondGlyph value="fehDotless-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="19">
+              <SecondGlyph value="fehDotless-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="20">
+              <SecondGlyph value="qafDotless-ar"/>
+              <Value1 XPlacement="-80" XAdvance="-80"/>
+            </PairValueRecord>
+            <PairValueRecord index="21">
+              <SecondGlyph value="meem-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="22">
+              <SecondGlyph value="meem-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="23">
+              <SecondGlyph value="meem-ar.2"/>
+              <Value1 XPlacement="-10" XAdvance="-10"/>
+            </PairValueRecord>
+            <PairValueRecord index="24">
+              <SecondGlyph value="meem-ar.init"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="25">
+              <SecondGlyph value="heh-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="26">
+              <SecondGlyph value="heh-ar.1"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="27">
+              <SecondGlyph value="heh-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="28">
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="29">
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="30">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="31">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="32">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="33">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+            <PairValueRecord index="34">
+              <SecondGlyph value="alefMaksura-ar.6"/>
+              <Value1 XPlacement="-30" XAdvance="-30"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="76">
             <!-- PairValueCount=18 -->
             <PairValueRecord index="0">
               <SecondGlyph value="reh-ar"/>
@@ -13569,73 +13513,79 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
           </PairSet>
-          <PairSet index="75">
-            <!-- PairValueCount=5 -->
-            <PairValueRecord index="0">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="240" XAdvance="240"/>
-            </PairValueRecord>
-            <PairValueRecord index="1">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="385" XAdvance="385"/>
-            </PairValueRecord>
-            <PairValueRecord index="2">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
-            </PairValueRecord>
-            <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="170" XAdvance="170"/>
-            </PairValueRecord>
-            <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
-            </PairValueRecord>
-          </PairSet>
-          <PairSet index="76">
-            <!-- PairValueCount=5 -->
-            <PairValueRecord index="0">
-              <SecondGlyph value="alefMaksura-ar.2"/>
-              <Value1 XPlacement="240" XAdvance="240"/>
-            </PairValueRecord>
-            <PairValueRecord index="1">
-              <SecondGlyph value="alefMaksura-ar.3"/>
-              <Value1 XPlacement="385" XAdvance="385"/>
-            </PairValueRecord>
-            <PairValueRecord index="2">
-              <SecondGlyph value="alefMaksura-ar.4"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
-            </PairValueRecord>
-            <PairValueRecord index="3">
-              <SecondGlyph value="alefMaksura-ar.5"/>
-              <Value1 XPlacement="170" XAdvance="170"/>
-            </PairValueRecord>
-            <PairValueRecord index="4">
-              <SecondGlyph value="alefMaksura-ar.6"/>
-              <Value1 XPlacement="540" XAdvance="540"/>
-            </PairValueRecord>
-          </PairSet>
           <PairSet index="77">
-            <!-- PairValueCount=5 -->
+            <!-- PairValueCount=18 -->
             <PairValueRecord index="0">
+              <SecondGlyph value="reh-ar"/>
+              <Value1 XPlacement="70" XAdvance="70"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="reh-ar.1"/>
+              <Value1 XPlacement="70" XAdvance="70"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="lam-ar"/>
+              <Value1 XPlacement="40" XAdvance="40"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="noonghunna-ar"/>
+              <Value1 XPlacement="40" XAdvance="40"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="waw-ar"/>
+              <Value1 XPlacement="40" XAdvance="40"/>
+            </PairValueRecord>
+            <PairValueRecord index="5">
+              <SecondGlyph value="waw-ar.1"/>
+              <Value1 XPlacement="40" XAdvance="40"/>
+            </PairValueRecord>
+            <PairValueRecord index="6">
+              <SecondGlyph value="alefMaksura-ar"/>
+              <Value1 XPlacement="40" XAdvance="40"/>
+            </PairValueRecord>
+            <PairValueRecord index="7">
+              <SecondGlyph value="alefMaksura-ar.1"/>
+              <Value1 XPlacement="40" XAdvance="40"/>
+            </PairValueRecord>
+            <PairValueRecord index="8">
               <SecondGlyph value="alefMaksura-ar.2"/>
               <Value1 XPlacement="240" XAdvance="240"/>
             </PairValueRecord>
-            <PairValueRecord index="1">
+            <PairValueRecord index="9">
               <SecondGlyph value="alefMaksura-ar.3"/>
               <Value1 XPlacement="385" XAdvance="385"/>
             </PairValueRecord>
-            <PairValueRecord index="2">
+            <PairValueRecord index="10">
               <SecondGlyph value="alefMaksura-ar.4"/>
               <Value1 XPlacement="540" XAdvance="540"/>
             </PairValueRecord>
-            <PairValueRecord index="3">
+            <PairValueRecord index="11">
               <SecondGlyph value="alefMaksura-ar.5"/>
               <Value1 XPlacement="170" XAdvance="170"/>
             </PairValueRecord>
-            <PairValueRecord index="4">
+            <PairValueRecord index="12">
               <SecondGlyph value="alefMaksura-ar.6"/>
               <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+            <PairValueRecord index="13">
+              <SecondGlyph value="lam_alef-ar"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="14">
+              <SecondGlyph value="lam_alef-ar.2"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="15">
+              <SecondGlyph value="lam_alef-ar.3"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="16">
+              <SecondGlyph value="lam_alef-ar.4"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
+            </PairValueRecord>
+            <PairValueRecord index="17">
+              <SecondGlyph value="lam_alef-ar.5"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </PairValueRecord>
           </PairSet>
           <PairSet index="78">
@@ -13892,6 +13842,75 @@ You should have received a copy of the GNU Affero General Public License along w
             </PairValueRecord>
           </PairSet>
           <PairSet index="89">
+            <!-- PairValueCount=5 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="240" XAdvance="240"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="385" XAdvance="385"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="170" XAdvance="170"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="alefMaksura-ar.6"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="90">
+            <!-- PairValueCount=5 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="240" XAdvance="240"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="385" XAdvance="385"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="170" XAdvance="170"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="alefMaksura-ar.6"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="91">
+            <!-- PairValueCount=5 -->
+            <PairValueRecord index="0">
+              <SecondGlyph value="alefMaksura-ar.2"/>
+              <Value1 XPlacement="240" XAdvance="240"/>
+            </PairValueRecord>
+            <PairValueRecord index="1">
+              <SecondGlyph value="alefMaksura-ar.3"/>
+              <Value1 XPlacement="385" XAdvance="385"/>
+            </PairValueRecord>
+            <PairValueRecord index="2">
+              <SecondGlyph value="alefMaksura-ar.4"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+            <PairValueRecord index="3">
+              <SecondGlyph value="alefMaksura-ar.5"/>
+              <Value1 XPlacement="170" XAdvance="170"/>
+            </PairValueRecord>
+            <PairValueRecord index="4">
+              <SecondGlyph value="alefMaksura-ar.6"/>
+              <Value1 XPlacement="540" XAdvance="540"/>
+            </PairValueRecord>
+          </PairSet>
+          <PairSet index="92">
             <!-- PairValueCount=40 -->
             <PairValueRecord index="0">
               <SecondGlyph value="alef-ar.1"/>
@@ -14054,7 +14073,7 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="160" XAdvance="160"/>
             </PairValueRecord>
           </PairSet>
-          <PairSet index="90">
+          <PairSet index="93">
             <!-- PairValueCount=40 -->
             <PairValueRecord index="0">
               <SecondGlyph value="alef-ar.1"/>
@@ -14322,13 +14341,13 @@ You should have received a copy of the GNU Affero General Public License along w
               <Value1 XPlacement="0" XAdvance="0"/>
             </Class2Record>
             <Class2Record index="1">
-              <Value1 XPlacement="0" XAdvance="0"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </Class2Record>
             <Class2Record index="2">
               <Value1 XPlacement="-40" XAdvance="-40"/>
             </Class2Record>
             <Class2Record index="3">
-              <Value1 XPlacement="0" XAdvance="0"/>
+              <Value1 XPlacement="-20" XAdvance="-20"/>
             </Class2Record>
             <Class2Record index="4">
               <Value1 XPlacement="0" XAdvance="0"/>

@@ -338,8 +338,6 @@ name = mark;
 code = "# Automatic Code End
 lookup Kern {
  lookupflag IgnoreMarks;
-  pos [hah-ar.init hah-ar.init.1 hah-ar.init.2] [meem-ar.medi meem-ar.medi.1 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 qafDotless-ar.fina] <-20 0 -20 0>;
-
   pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 228 0> hah-ar.fina.1;
   pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> hah-ar.medi.1;
 } Kern;
@@ -11186,8 +11184,13 @@ kerning = {
 "waw-ar.3" = 40;
 };
 "@MMK_L_meem-ar.medi" = {
+"@MMK_R_hah-ar.init" = -20;
 "@MMK_R_pyramid" = -20;
+"@MMK_R_waw" = -20;
 "@MMK_R_yeh" = -40;
+"meem-ar.medi.1" = -40;
+"meem-ar.fina.2" = -40;
+"qafDotless-ar.fina" = -30;
 };
 "@MMK_L_pyramid" = {
 "@MMK_R_hah-ar.init" = -15;
