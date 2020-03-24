@@ -278,7 +278,9 @@ code = "lookup Alternates {
   sub fehDotless-ar.init      from [fehDotless-ar.init fehDotless-ar.init.1];
   sub fehDotless-ar.medi      from [fehDotless-ar.medi fehDotless-ar.medi.1];
   sub hah-ar                  from [hah-ar hah-ar.1 hah-ar.2 hah-ar.3 hah-ar.4 hah-ar.5];
+  sub hah-ar.fina             from [hah-ar.fina hah-ar.fina.1]; 
   sub hah-ar.init             from [hah-ar.init hah-ar.init.1 hah-ar.init.2];
+  sub hah-ar.medi             from [hah-ar.medi hah-ar.medi.1];
   sub heh-ar                  from [heh-ar heh-ar.1 heh-ar.2];
   sub heh-ar.fina             from [heh-ar.fina heh-ar.fina.1 heh-ar.fina.2];
   sub heh-ar.init             from [heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7];
@@ -329,7 +331,7 @@ lookup DotsBelowBeforeWide {
 lookup DotAvove {
  @DotAbove = [dotabove-ar dotabove-ar.alt1];
  lookupflag UseMarkFilteringSet @DotAbove;
-  pos behDotless-ar.init.hah [hah-ar.init hah-ar.3] @DotAbove' <-240 120 0 0>;
+  pos behDotless-ar.init.hah [hah-ar.medi.1 hah-ar.fina.1] @DotAbove' <-240 120 0 0>;
 } DotAvove;";
 name = mark;
 },
@@ -866,6 +868,16 @@ rightKerningGroup = dal;
 glyphname = "behDotless-ar.medi";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{120, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -890,6 +902,14 @@ anchors = (
 {
 name = bottom;
 position = "{73, -35}";
+},
+{
+name = entry;
+position = "{150, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
 },
 {
 name = top;
@@ -926,6 +946,16 @@ rightKerningGroup = pyramid;
 glyphname = "behDotless-ar.medi.high";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{120, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -946,6 +976,16 @@ widthMetricsKey = "=behDotless-ar.init";
 glyphname = "behDotless-ar.medi.high.1";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{120, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -1010,6 +1050,10 @@ anchors = (
 {
 name = bottom;
 position = "{46, -35}";
+},
+{
+name = exit;
+position = "{0, 0}";
 },
 {
 name = top;
@@ -1463,6 +1507,14 @@ name = bottom;
 position = "{66, -85}";
 },
 {
+name = entry;
+position = "{191, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+},
+{
 name = top;
 position = "{116, 305}";
 }
@@ -1529,6 +1581,10 @@ name = entry;
 position = "{90, 110}";
 },
 {
+name = exit;
+position = "{0, 0}";
+},
+{
 name = top;
 position = "{269, 163}";
 }
@@ -1570,6 +1626,10 @@ anchors = (
 {
 name = bottom;
 position = "{170, -35}";
+},
+{
+name = exit;
+position = "{0, 0}";
 },
 {
 name = top;
@@ -1625,6 +1685,12 @@ name = Background;
 width = 400;
 },
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -1651,6 +1717,12 @@ width = 420;
 glyphname = "hah-ar.init.2";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2312,6 +2384,16 @@ rightKerningGroup = bowel;
 glyphname = "seen-ar.medi";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{360, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2332,6 +2414,16 @@ widthMetricsKey = "=seen-ar.init";
 glyphname = "seen-ar.medi.1";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{360, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2352,6 +2444,16 @@ widthMetricsKey = "=seen-ar.init";
 glyphname = "seen-ar.medi.2";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{360, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2372,6 +2474,16 @@ widthMetricsKey = "=seen-ar.init";
 glyphname = "seen-ar.medi.3";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{360, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2392,6 +2504,16 @@ widthMetricsKey = "=seen-ar.init";
 glyphname = "seen-ar.medi.4";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{360, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2412,6 +2534,16 @@ widthMetricsKey = "=seen-ar.init";
 glyphname = "seen-ar.medi.5";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{360, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -2433,6 +2565,14 @@ glyphname = "seen-ar.medi.6";
 layers = (
 {
 anchors = (
+{
+name = entry;
+position = "{370, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+},
 {
 name = top;
 position = "{148, 215}";
@@ -2465,6 +2605,10 @@ glyphname = "seen-ar.init";
 layers = (
 {
 anchors = (
+{
+name = exit;
+position = "{0, 0}";
+},
 {
 name = top;
 position = "{160, 290}";
@@ -2511,6 +2655,10 @@ layers = (
 {
 anchors = (
 {
+name = exit;
+position = "{0, 0}";
+},
+{
 name = top;
 position = "{160, 300}";
 }
@@ -2547,6 +2695,10 @@ glyphname = "seen-ar.init.2";
 layers = (
 {
 anchors = (
+{
+name = exit;
+position = "{0, 0}";
+},
 {
 name = top;
 position = "{160, 320}";
@@ -2585,6 +2737,10 @@ layers = (
 {
 anchors = (
 {
+name = exit;
+position = "{0, 0}";
+},
+{
 name = top;
 position = "{160, 280}";
 }
@@ -2615,6 +2771,10 @@ glyphname = "seen-ar.init.4";
 layers = (
 {
 anchors = (
+{
+name = exit;
+position = "{0, 0}";
+},
 {
 name = top;
 position = "{160, 300}";
@@ -2653,6 +2813,10 @@ layers = (
 {
 anchors = (
 {
+name = exit;
+position = "{0, 0}";
+},
+{
 name = top;
 position = "{160, 300}";
 }
@@ -2689,6 +2853,10 @@ glyphname = "seen-ar.init.6";
 layers = (
 {
 anchors = (
+{
+name = exit;
+position = "{0, 0}";
+},
 {
 name = top;
 position = "{148, 215}";
@@ -2824,6 +2992,7 @@ alignment = -1;
 name = "sad-ar";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 660, 0}";
 }
@@ -2846,6 +3015,7 @@ alignment = -1;
 name = "sad-ar.1";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 660, 0}";
 }
@@ -2862,12 +3032,23 @@ rightKerningGroup = bowel;
 glyphname = "sad-ar.medi";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{670, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
 name = "sad-ar.init";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 590, 0}";
 }
@@ -2883,6 +3064,12 @@ widthMetricsKey = "=sad-ar.init";
 glyphname = "sad-ar.init";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 name = _sad;
@@ -2984,6 +3171,7 @@ alignment = -1;
 name = "tah-ar";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 670, 0}";
 }
@@ -2998,12 +3186,23 @@ leftKerningGroup = waw;
 glyphname = "tah-ar.medi";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{670, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
 name = "tah-ar.init";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 590, 0}";
 }
@@ -3018,6 +3217,12 @@ leftKerningGroup = waw;
 glyphname = "tah-ar.init";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 name = _sad;
@@ -3648,6 +3853,14 @@ layers = (
 {
 anchors = (
 {
+name = entry;
+position = "{242, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+},
+{
 name = top;
 position = "{81, 305}";
 }
@@ -3692,6 +3905,10 @@ glyphname = "ain-ar.init";
 layers = (
 {
 anchors = (
+{
+name = exit;
+position = "{0, 0}";
+},
 {
 name = top;
 position = "{49, 230}";
@@ -3770,6 +3987,10 @@ glyphname = "ain-ar.init.1";
 layers = (
 {
 anchors = (
+{
+name = exit;
+position = "{0, 0}";
+},
 {
 name = top;
 position = "{95, 230}";
@@ -4092,6 +4313,7 @@ alignment = -1;
 name = "fehDotless-ar";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 533, 0}";
 }
@@ -4112,6 +4334,7 @@ alignment = -1;
 name = "fehDotless-ar.1";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 520, 0}";
 }
@@ -4132,6 +4355,7 @@ alignment = -1;
 name = "fehDotless-ar.2";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 573, 0}";
 }
@@ -4152,6 +4376,7 @@ alignment = -1;
 name = "fehDotless-ar.3";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 560, 0}";
 }
@@ -4170,6 +4395,14 @@ anchors = (
 {
 name = bottom;
 position = "{127, -35}";
+},
+{
+name = entry;
+position = "{248, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
 },
 {
 name = top;
@@ -4315,6 +4548,16 @@ nodes = (
 width = 242;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -4340,6 +4583,10 @@ anchors = (
 {
 name = bottom;
 position = "{127, -35}";
+},
+{
+name = exit;
+position = "{0, 0}";
 },
 {
 name = top;
@@ -4407,6 +4654,10 @@ anchors = (
 {
 name = bottom;
 position = "{127, -35}";
+},
+{
+name = exit;
+position = "{0, 0}";
 },
 {
 name = top;
@@ -4781,6 +5032,7 @@ alignment = -1;
 name = "kaf-ar";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 560, 0}";
 }
@@ -4802,6 +5054,7 @@ alignment = -1;
 name = "kaf-ar.1";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 560, 0}";
 }
@@ -4823,6 +5076,7 @@ alignment = -1;
 name = "kaf-ar.2";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 560, 0}";
 }
@@ -4838,12 +5092,23 @@ rightKerningGroup = dal;
 glyphname = "kaf-ar.medi";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{580, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
 name = "kaf-ar.init";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 500, 0}";
 }
@@ -4860,12 +5125,23 @@ widthMetricsKey = "=kaf-ar.init";
 glyphname = "kaf-ar.medi.1";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{600, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
 name = "kaf-ar.init.2";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 520, 0}";
 }
@@ -4882,12 +5158,23 @@ widthMetricsKey = "kaf-ar.init.2";
 glyphname = "kaf-ar.medi.2";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{600, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
 name = "kaf-ar.init.1";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 520, 0}";
 }
@@ -4904,6 +5191,12 @@ widthMetricsKey = "=kaf-ar.init.1";
 glyphname = "kaf-ar.init";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 name = _dal;
@@ -4941,6 +5234,12 @@ width = 580;
 glyphname = "kaf-ar.init.1";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 name = _dal;
@@ -4988,6 +5287,12 @@ width = 600;
 glyphname = "kaf-ar.init.2";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 name = _dal;
@@ -5082,6 +5387,16 @@ rightKerningGroup = bowel;
 glyphname = "lam-ar.medi";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{120, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -5171,6 +5486,12 @@ rightMetricsKey = "behDotless-ar.medi.yeh";
 glyphname = "lam-ar.init";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -5492,6 +5813,7 @@ alignment = -1;
 name = "meem-ar.2";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 198, 0}";
 }
@@ -5507,6 +5829,16 @@ rightKerningGroup = dal;
 glyphname = "meem-ar.medi";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -5535,6 +5867,16 @@ rightKerningGroup = "meem-ar.medi";
 glyphname = "meem-ar.medi.1";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 name = "kashida-ar";
@@ -5590,6 +5932,12 @@ leftKerningGroup = waw;
 glyphname = "meem-ar.init";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -5705,6 +6053,7 @@ alignment = -1;
 name = "noonghunna-ar";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 110, 0}";
 }
@@ -5949,6 +6298,16 @@ width = 240;
 glyphname = "heh-ar.medi";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -5975,6 +6334,16 @@ width = 240;
 glyphname = "heh-ar.medi.1";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -6001,6 +6370,16 @@ width = 240;
 glyphname = "heh-ar.medi.2";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -6027,6 +6406,16 @@ width = 240;
 glyphname = "heh-ar.medi.3";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -6053,6 +6442,16 @@ width = 240;
 glyphname = "heh-ar.medi.4";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -6079,6 +6478,16 @@ width = 240;
 glyphname = "heh-ar.medi.5";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -6105,6 +6514,16 @@ width = 240;
 glyphname = "heh-ar.medi.6";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -6131,6 +6550,16 @@ width = 240;
 glyphname = "heh-ar.medi.7";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -6157,6 +6586,12 @@ width = 240;
 glyphname = "heh-ar.init";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -6256,6 +6691,12 @@ rightKerningGroup = heh.init;
 glyphname = "heh-ar.init.1";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -6283,6 +6724,12 @@ rightKerningGroup = heh.init;
 glyphname = "heh-ar.init.2";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -6407,6 +6854,12 @@ width = 240;
 glyphname = "heh-ar.init.3";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -6433,6 +6886,12 @@ width = 240;
 glyphname = "heh-ar.init.4";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -6517,6 +6976,12 @@ width = 240;
 glyphname = "heh-ar.init.5";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -6543,6 +7008,12 @@ width = 240;
 glyphname = "heh-ar.init.6";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -6625,6 +7096,12 @@ width = 240;
 glyphname = "heh-ar.init.7";
 layers = (
 {
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -8316,6 +8793,16 @@ unicode = 06CC;
 glyphname = "kashida-ar";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{80, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -8459,6 +8946,7 @@ alignment = -1;
 name = "lam_alef-ar";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 280, 0}";
 }
@@ -8598,6 +9086,7 @@ alignment = -1;
 name = "lam_alef-ar.1";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 175, 0}";
 }
@@ -8618,6 +9107,7 @@ alignment = -1;
 name = "lam_alef-ar.2";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 240, 0}";
 }
@@ -8638,6 +9128,7 @@ alignment = -1;
 name = "lam_alef-ar.3";
 },
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 240, 0}";
 }

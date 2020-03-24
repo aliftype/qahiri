@@ -251,7 +251,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.006"/>
-    <checkSumAdjustment value="0xd71dca03"/>
+    <checkSumAdjustment value="0x266ca009"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -5385,39 +5385,117 @@ You should have received a copy of the GNU Affero General Public License along w
         <LookupFlag value="9"/><!-- rightToLeft ignoreMarks -->
         <!-- SubTableCount=1 -->
         <CursivePos index="0" Format="1">
-          <Coverage Format="1">
+          <Coverage Format="2">
+            <Glyph value="behDotless-ar.medi"/>
+            <Glyph value="behDotless-ar.medi.1"/>
+            <Glyph value="behDotless-ar.medi.high"/>
+            <Glyph value="behDotless-ar.medi.high.1"/>
             <Glyph value="behDotless-ar.medi.yeh"/>
+            <Glyph value="behDotless-ar.init"/>
             <Glyph value="behDotless-ar.init.hah"/>
             <Glyph value="hah-ar.fina.1"/>
+            <Glyph value="hah-ar.medi"/>
             <Glyph value="hah-ar.medi.1"/>
+            <Glyph value="hah-ar.init"/>
+            <Glyph value="hah-ar.init.1"/>
+            <Glyph value="hah-ar.init.2"/>
+            <Glyph value="seen-ar.medi"/>
+            <Glyph value="seen-ar.medi.1"/>
+            <Glyph value="seen-ar.medi.2"/>
+            <Glyph value="seen-ar.medi.3"/>
+            <Glyph value="seen-ar.medi.4"/>
+            <Glyph value="seen-ar.medi.5"/>
+            <Glyph value="seen-ar.medi.6"/>
+            <Glyph value="seen-ar.init"/>
+            <Glyph value="seen-ar.init.1"/>
+            <Glyph value="seen-ar.init.2"/>
+            <Glyph value="seen-ar.init.3"/>
+            <Glyph value="seen-ar.init.4"/>
+            <Glyph value="seen-ar.init.5"/>
+            <Glyph value="seen-ar.init.6"/>
+            <Glyph value="sad-ar.medi"/>
+            <Glyph value="sad-ar.init"/>
+            <Glyph value="tah-ar.medi"/>
+            <Glyph value="tah-ar.init"/>
+            <Glyph value="ain-ar.medi"/>
+            <Glyph value="ain-ar.init"/>
+            <Glyph value="ain-ar.init.1"/>
+            <Glyph value="fehDotless-ar.medi"/>
+            <Glyph value="fehDotless-ar.medi.1"/>
+            <Glyph value="fehDotless-ar.init"/>
+            <Glyph value="fehDotless-ar.init.1"/>
+            <Glyph value="kaf-ar.medi"/>
+            <Glyph value="kaf-ar.medi.1"/>
+            <Glyph value="kaf-ar.medi.2"/>
+            <Glyph value="kaf-ar.init"/>
+            <Glyph value="kaf-ar.init.1"/>
+            <Glyph value="kaf-ar.init.2"/>
+            <Glyph value="lam-ar.medi"/>
             <Glyph value="lam-ar.medi.yeh"/>
+            <Glyph value="lam-ar.init"/>
             <Glyph value="lam-ar.init.hah"/>
+            <Glyph value="meem-ar.medi"/>
+            <Glyph value="meem-ar.medi.1"/>
+            <Glyph value="meem-ar.init"/>
+            <Glyph value="heh-ar.medi"/>
+            <Glyph value="heh-ar.medi.1"/>
+            <Glyph value="heh-ar.medi.2"/>
+            <Glyph value="heh-ar.medi.3"/>
+            <Glyph value="heh-ar.medi.4"/>
+            <Glyph value="heh-ar.medi.5"/>
+            <Glyph value="heh-ar.medi.6"/>
+            <Glyph value="heh-ar.medi.7"/>
+            <Glyph value="heh-ar.init"/>
+            <Glyph value="heh-ar.init.1"/>
+            <Glyph value="heh-ar.init.2"/>
+            <Glyph value="heh-ar.init.3"/>
+            <Glyph value="heh-ar.init.4"/>
+            <Glyph value="heh-ar.init.5"/>
+            <Glyph value="heh-ar.init.6"/>
+            <Glyph value="heh-ar.init.7"/>
             <Glyph value="alefMaksura-ar.fina.tooth"/>
+            <Glyph value="kashida-ar"/>
           </Coverage>
-          <!-- EntryExitCount=7 -->
+          <!-- EntryExitCount=69 -->
           <EntryExitRecord index="0">
+            <EntryAnchor Format="1">
+              <XCoordinate value="120"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
             <ExitAnchor Format="1">
               <XCoordinate value="0"/>
               <YCoordinate value="0"/>
             </ExitAnchor>
           </EntryExitRecord>
           <EntryExitRecord index="1">
+            <EntryAnchor Format="1">
+              <XCoordinate value="150"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
             <ExitAnchor Format="1">
-              <XCoordinate value="-19"/>
-              <YCoordinate value="-2"/>
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
             </ExitAnchor>
           </EntryExitRecord>
           <EntryExitRecord index="2">
             <EntryAnchor Format="1">
-              <XCoordinate value="180"/>
-              <YCoordinate value="110"/>
+              <XCoordinate value="120"/>
+              <YCoordinate value="0"/>
             </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
           </EntryExitRecord>
           <EntryExitRecord index="3">
             <EntryAnchor Format="1">
-              <XCoordinate value="90"/>
-              <YCoordinate value="110"/>
+              <XCoordinate value="120"/>
+              <YCoordinate value="0"/>
             </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
           </EntryExitRecord>
           <EntryExitRecord index="4">
             <ExitAnchor Format="1">
@@ -5427,15 +5505,503 @@ You should have received a copy of the GNU Affero General Public License along w
           </EntryExitRecord>
           <EntryExitRecord index="5">
             <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="6">
+            <ExitAnchor Format="1">
+              <XCoordinate value="-19"/>
+              <YCoordinate value="-2"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="7">
+            <EntryAnchor Format="1">
+              <XCoordinate value="180"/>
+              <YCoordinate value="110"/>
+            </EntryAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="8">
+            <EntryAnchor Format="1">
+              <XCoordinate value="191"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="9">
+            <EntryAnchor Format="1">
+              <XCoordinate value="90"/>
+              <YCoordinate value="110"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="10">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="11">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="12">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="13">
+            <EntryAnchor Format="1">
+              <XCoordinate value="360"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="14">
+            <EntryAnchor Format="1">
+              <XCoordinate value="360"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="15">
+            <EntryAnchor Format="1">
+              <XCoordinate value="360"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="16">
+            <EntryAnchor Format="1">
+              <XCoordinate value="360"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="17">
+            <EntryAnchor Format="1">
+              <XCoordinate value="360"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="18">
+            <EntryAnchor Format="1">
+              <XCoordinate value="360"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="19">
+            <EntryAnchor Format="1">
+              <XCoordinate value="370"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="20">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="21">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="22">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="23">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="24">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="25">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="26">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="27">
+            <EntryAnchor Format="1">
+              <XCoordinate value="670"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="28">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="29">
+            <EntryAnchor Format="1">
+              <XCoordinate value="670"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="30">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="31">
+            <EntryAnchor Format="1">
+              <XCoordinate value="242"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="32">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="33">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="34">
+            <EntryAnchor Format="1">
+              <XCoordinate value="248"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="35">
+            <EntryAnchor Format="1">
+              <XCoordinate value="240"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="36">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="37">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="38">
+            <EntryAnchor Format="1">
+              <XCoordinate value="580"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="39">
+            <EntryAnchor Format="1">
+              <XCoordinate value="600"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="40">
+            <EntryAnchor Format="1">
+              <XCoordinate value="600"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="41">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="42">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="43">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="44">
+            <EntryAnchor Format="1">
+              <XCoordinate value="120"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="45">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="46">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="47">
+            <ExitAnchor Format="1">
               <XCoordinate value="-20"/>
               <YCoordinate value="-2"/>
             </ExitAnchor>
           </EntryExitRecord>
-          <EntryExitRecord index="6">
+          <EntryExitRecord index="48">
+            <EntryAnchor Format="1">
+              <XCoordinate value="240"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="49">
+            <EntryAnchor Format="1">
+              <XCoordinate value="240"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="50">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="51">
+            <EntryAnchor Format="1">
+              <XCoordinate value="240"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="52">
+            <EntryAnchor Format="1">
+              <XCoordinate value="240"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="53">
+            <EntryAnchor Format="1">
+              <XCoordinate value="240"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="54">
+            <EntryAnchor Format="1">
+              <XCoordinate value="240"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="55">
+            <EntryAnchor Format="1">
+              <XCoordinate value="240"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="56">
+            <EntryAnchor Format="1">
+              <XCoordinate value="240"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="57">
+            <EntryAnchor Format="1">
+              <XCoordinate value="240"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="58">
+            <EntryAnchor Format="1">
+              <XCoordinate value="240"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="59">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="60">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="61">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="62">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="63">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="64">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="65">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="66">
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="67">
             <EntryAnchor Format="1">
               <XCoordinate value="0"/>
               <YCoordinate value="0"/>
             </EntryAnchor>
+          </EntryExitRecord>
+          <EntryExitRecord index="68">
+            <EntryAnchor Format="1">
+              <XCoordinate value="80"/>
+              <YCoordinate value="0"/>
+            </EntryAnchor>
+            <ExitAnchor Format="1">
+              <XCoordinate value="0"/>
+              <YCoordinate value="0"/>
+            </ExitAnchor>
           </EntryExitRecord>
         </CursivePos>
       </Lookup>
@@ -7558,8 +8124,8 @@ You should have received a copy of the GNU Affero General Public License along w
         <ChainContextPos index="0" Format="3">
           <!-- BacktrackGlyphCount=2 -->
           <BacktrackCoverage index="0" Format="1">
-            <Glyph value="hah-ar.3"/>
-            <Glyph value="hah-ar.init"/>
+            <Glyph value="hah-ar.fina.1"/>
+            <Glyph value="hah-ar.medi.1"/>
           </BacktrackCoverage>
           <BacktrackCoverage index="1" Format="1">
             <Glyph value="behDotless-ar.init.hah"/>
@@ -14408,10 +14974,18 @@ You should have received a copy of the GNU Affero General Public License along w
             <Alternate glyph="hah-ar.4"/>
             <Alternate glyph="hah-ar.5"/>
           </AlternateSet>
+          <AlternateSet glyph="hah-ar.fina">
+            <Alternate glyph="hah-ar.fina"/>
+            <Alternate glyph="hah-ar.fina.1"/>
+          </AlternateSet>
           <AlternateSet glyph="hah-ar.init">
             <Alternate glyph="hah-ar.init"/>
             <Alternate glyph="hah-ar.init.1"/>
             <Alternate glyph="hah-ar.init.2"/>
+          </AlternateSet>
+          <AlternateSet glyph="hah-ar.medi">
+            <Alternate glyph="hah-ar.medi"/>
+            <Alternate glyph="hah-ar.medi.1"/>
           </AlternateSet>
           <AlternateSet glyph="heh-ar">
             <Alternate glyph="heh-ar"/>
