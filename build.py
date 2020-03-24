@@ -447,6 +447,8 @@ def prepare(font):
     for glyph in font.glyphs:
         if not glyph.export:
             continue
+        if glyph.color == 0:
+            continue
         for layer in glyph.layers:
             propogateAnchors(layer)
 
