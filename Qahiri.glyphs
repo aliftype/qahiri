@@ -1,5 +1,5 @@
 {
-.appVersion = "1303";
+.appVersion = "1306";
 classes = (
 {
 code = "dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar";
@@ -1165,6 +1165,10 @@ anchors = (
 {
 name = bottom;
 position = "{300, -145}";
+},
+{
+name = entry;
+position = "{330, 110}";
 }
 );
 components = (
@@ -1188,6 +1192,12 @@ unicode = 062D;
 glyphname = "hah-ar.1";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{330, 110}";
+}
+);
 components = (
 {
 name = "hah-ar";
@@ -1222,6 +1232,12 @@ width = 660;
 glyphname = "hah-ar.2";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{330, 110}";
+}
+);
 components = (
 {
 name = "hah-ar";
@@ -1314,6 +1330,10 @@ anchors = (
 {
 name = bottom;
 position = "{320, -145}";
+},
+{
+name = entry;
+position = "{297, 110}";
 }
 );
 components = (
@@ -1349,6 +1369,10 @@ anchors = (
 {
 name = bottom;
 position = "{320, -145}";
+},
+{
+name = entry;
+position = "{297, 110}";
 }
 );
 components = (
@@ -1558,6 +1582,12 @@ name = Background;
 width = 400;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{90, 110}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -1584,6 +1614,12 @@ width = 420;
 glyphname = "hah-ar.init.2";
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{90, 110}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -5073,6 +5109,10 @@ anchors = (
 {
 name = bottom;
 position = "{44, -20}";
+},
+{
+name = exit;
+position = "{0, 0}";
 },
 {
 name = top;

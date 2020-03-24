@@ -603,7 +603,6 @@ feature curs {
 lookupflag IgnoreMarks RightToLeft;
 pos cursive behDotless-ar.medi.yeh <anchor NULL> <anchor 0 0>;
 pos cursive behDotless-ar.init.hah <anchor NULL> <anchor -19 -2>;
-pos cursive jeem-ar <anchor 330 110> <anchor NULL>;
 pos cursive hah-ar <anchor 330 110> <anchor NULL>;
 pos cursive hah-ar.1 <anchor 330 110> <anchor NULL>;
 pos cursive hah-ar.2 <anchor 330 110> <anchor NULL>;
@@ -613,7 +612,6 @@ pos cursive hah-ar.5 <anchor 297 110> <anchor NULL>;
 pos cursive hah-ar.init <anchor 90 110> <anchor NULL>;
 pos cursive hah-ar.init.1 <anchor 90 110> <anchor NULL>;
 pos cursive hah-ar.init.2 <anchor 90 110> <anchor NULL>;
-pos cursive khah-ar <anchor 330 110> <anchor NULL>;
 pos cursive lam-ar.medi.yeh <anchor NULL> <anchor 0 0>;
 pos cursive lam-ar.init.hah <anchor NULL> <anchor -20 -2>;
 pos cursive alefMaksura-ar.fina.tooth <anchor 0 0> <anchor NULL>;
