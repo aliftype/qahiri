@@ -9,6 +9,9 @@ title: قاهري
 يأتى الاسم «قاهري» من مدينة القاهرة بمصر، محاكاة لتسمية الخطوط القديمة على
 أسماء المدن التي ظهرت بها.
 
+«قاهري» مشروع حر مفتوح المصدر، ويرحب بالجميع لاستخدامه وتعديله تحت بنود
+[الإصدارة الثالثة من رخصة أفيرو جنو العمومية العامة][5].
+
 التطبيق
 -------
 
@@ -84,3 +87,4 @@ title: قاهري
 [2]: https://ar.wikipedia.org/wiki/محمد_عبد_القادر_عبد_الله_(خطاط)
 [3]: https://github.com/alif-type/qahiri/releases/latest
 [4]: https://alif-type.github.io/qahiri/app/
+[5]: https://github.com/alif-type/qahiri/blob/master/LICENSE
