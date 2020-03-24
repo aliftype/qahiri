@@ -7,8 +7,8 @@ languagesystem arab dflt;
 lookup AboveHah {
   sub behDotless-ar.init by behDotless-ar.init.hah;
   sub lam-ar.init by lam-ar.init.hah;
-  sub hah-ar.medi by hah-ar.init;
-  sub hah-ar.fina by hah-ar.3;
+  sub hah-ar.medi by hah-ar.medi.1;
+  sub hah-ar.fina by hah-ar.fina.1;
 } AboveHah;
 
 lookup lellah {
@@ -240,15 +240,8 @@ feature curs {
 lookupflag IgnoreMarks RightToLeft;
 pos cursive behDotless-ar.medi.yeh <anchor NULL> <anchor 0 0>;
 pos cursive behDotless-ar.init.hah <anchor NULL> <anchor -19 -2>;
-pos cursive hah-ar <anchor 330 110> <anchor NULL>;
-pos cursive hah-ar.1 <anchor 330 110> <anchor NULL>;
-pos cursive hah-ar.2 <anchor 330 110> <anchor NULL>;
-pos cursive hah-ar.3 <anchor 180 110> <anchor NULL>;
-pos cursive hah-ar.4 <anchor 297 110> <anchor NULL>;
-pos cursive hah-ar.5 <anchor 297 110> <anchor NULL>;
-pos cursive hah-ar.init <anchor 90 110> <anchor NULL>;
-pos cursive hah-ar.init.1 <anchor 90 110> <anchor NULL>;
-pos cursive hah-ar.init.2 <anchor 90 110> <anchor NULL>;
+pos cursive hah-ar.fina.1 <anchor 180 110> <anchor NULL>;
+pos cursive hah-ar.medi.1 <anchor 90 110> <anchor NULL>;
 pos cursive lam-ar.medi.yeh <anchor NULL> <anchor 0 0>;
 pos cursive lam-ar.init.hah <anchor NULL> <anchor -20 -2>;
 pos cursive alefMaksura-ar.fina.tooth <anchor 0 0> <anchor NULL>;
@@ -299,8 +292,12 @@ pos base hah-ar.5 <anchor 320 -145> mark @mark_bottom;
 pos base hah-ar.5 <anchor 476 163> mark @mark_top;
 pos base hah-ar.fina <anchor 186 -65> mark @mark_bottom;
 pos base hah-ar.fina <anchor 236 305> mark @mark_top;
+pos base hah-ar.fina.1 <anchor 200 -70> mark @mark_bottom;
+pos base hah-ar.fina.1 <anchor 359 163> mark @mark_top;
 pos base hah-ar.medi <anchor 66 -85> mark @mark_bottom;
 pos base hah-ar.medi <anchor 116 305> mark @mark_top;
+pos base hah-ar.medi.1 <anchor 170 -35> mark @mark_bottom;
+pos base hah-ar.medi.1 <anchor 269 163> mark @mark_top;
 pos base hah-ar.init <anchor 170 -35> mark @mark_bottom;
 pos base hah-ar.init <anchor 269 163> mark @mark_top;
 pos base hah-ar.init.1 <anchor 170 -35> mark @mark_bottom;
@@ -517,8 +514,8 @@ lookup Kern {
  lookupflag IgnoreMarks;
   pos [hah-ar.init hah-ar.init.1 hah-ar.init.2] [meem-ar.medi meem-ar.medi.1 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 qafDotless-ar.fina] <-20 0 -20 0>;
 
-  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 228 0> hah-ar.3;
-  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> [hah-ar.init hah-ar.init.1 hah-ar.init.2];
+  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 228 0> hah-ar.fina.1;
+  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> hah-ar.medi.1;
 } Kern;
 
 lookup BehToothYeh {
@@ -530,8 +527,8 @@ lookup BehToothYeh {
 @MMK_R_pyramid = [behDotless-ar.medi.1 seen-ar.medi.6];
 @MMK_L_pyramid = [behDotless-ar.medi.1];
 @MMK_R_waw = [hah-ar.medi dal-ar.fina sad-ar.fina sad-ar.fina.1 sad-ar.medi tah-ar.fina tah-ar.medi qafDotless-ar.fina kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi.1 noonghunna-ar.fina waw-ar.fina waw-ar.fina.1];
-@MMK_R_hah-ar.init = [hah-ar.init meem-ar.medi];
-@MMK_L_meem-ar.medi = [hah-ar.init meem-ar.medi];
+@MMK_R_hah-ar.init = [hah-ar.medi.1 hah-ar.init meem-ar.medi];
+@MMK_L_meem-ar.medi = [hah-ar.medi.1 hah-ar.init meem-ar.medi];
 @MMK_L_reh = [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1];
 @MMK_R_reh.fina = [reh-ar.fina reh-ar.fina.1];
 @MMK_L_bowel = [seen-ar seen-ar.1 seen-ar.2 seen-ar.3 seen-ar.4 seen-ar.5 seen-ar.6 seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5 sad-ar sad-ar.1 sad-ar.fina sad-ar.fina.1 lam-ar lam-ar.fina noonghunna-ar noonghunna-ar.fina];
@@ -888,7 +885,7 @@ lookup YehTooth {
 } YehTooth;
 } dist;
 
-@BASE = [ain-ar ain-ar.1 ain-ar.2 ain-ar.3 ain-ar.fina ain-ar.init ain-ar.init.1 ain-ar.medi alef-ar alef-ar.1 alef-ar.2 alef-ar.3 alef-ar.fina alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4 alefMaksura-ar.5 alefMaksura-ar.6 alefMaksura-ar.fina alefMaksura-ar.fina.0 alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6 alefMaksura-ar.fina.tooth alefWasla-ar beh-ar behDotless-ar behDotless-ar.fina behDotless-ar.fina.1 behDotless-ar.init behDotless-ar.init.hah behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1 behDotless-ar.medi.yeh dad-ar dal-ar dal-ar.fina feh-ar fehDotbelow-ar fehDotless-ar fehDotless-ar.1 fehDotless-ar.2 fehDotless-ar.3 fehDotless-ar.fina fehDotless-ar.fina.1 fehDotless-ar.fina.2 fehDotless-ar.fina.3 fehDotless-ar.init fehDotless-ar.init.1 fehDotless-ar.medi fehDotless-ar.medi.1 ghain-ar hah-ar hah-ar.1 hah-ar.2 hah-ar.3 hah-ar.4 hah-ar.5 hah-ar.fina hah-ar.init hah-ar.init.1 hah-ar.init.2 hah-ar.medi hamza-ar heh-ar heh-ar.1 heh-ar.2 heh-ar.fina heh-ar.fina.1 heh-ar.fina.2 heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7 jeem-ar kaf-ar kaf-ar.1 kaf-ar.2 kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 kaf-ar.init kaf-ar.init.1 kaf-ar.init.2 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 kashida-ar khah-ar lam-ar lam-ar.fina lam-ar.init lam-ar.init.hah lam-ar.init.lellah lam-ar.medi lam-ar.medi.lellah lam-ar.medi.yeh meem-ar meem-ar.1 meem-ar.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.init meem-ar.medi meem-ar.medi.1 noon-ar noonghunna-ar noonghunna-ar.fina qaf-ar qafDotabove-ar qafDotless-ar qafDotless-ar.fina reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1 sad-ar sad-ar.1 sad-ar.fina sad-ar.fina.1 sad-ar.init sad-ar.medi seen-ar seen-ar.1 seen-ar.2 seen-ar.3 seen-ar.4 seen-ar.5 seen-ar.6 seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5 seen-ar.init seen-ar.init.1 seen-ar.init.2 seen-ar.init.3 seen-ar.init.4 seen-ar.init.5 seen-ar.init.6 seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6 sheen-ar tah-ar tah-ar.fina tah-ar.init tah-ar.medi teh-ar tehMarbuta-ar thal-ar theh-ar waw-ar waw-ar.1 waw-ar.2 waw-ar.3 waw-ar.fina waw-ar.fina.1 wawHamzaabove-ar yeh-ar yeh-farsi yehHamzaabove-ar zah-ar zain-ar];
+@BASE = [ain-ar ain-ar.1 ain-ar.2 ain-ar.3 ain-ar.fina ain-ar.init ain-ar.init.1 ain-ar.medi alef-ar alef-ar.1 alef-ar.2 alef-ar.3 alef-ar.fina alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4 alefMaksura-ar.5 alefMaksura-ar.6 alefMaksura-ar.fina alefMaksura-ar.fina.0 alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6 alefMaksura-ar.fina.tooth alefWasla-ar beh-ar behDotless-ar behDotless-ar.fina behDotless-ar.fina.1 behDotless-ar.init behDotless-ar.init.hah behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1 behDotless-ar.medi.yeh dad-ar dal-ar dal-ar.fina feh-ar fehDotbelow-ar fehDotless-ar fehDotless-ar.1 fehDotless-ar.2 fehDotless-ar.3 fehDotless-ar.fina fehDotless-ar.fina.1 fehDotless-ar.fina.2 fehDotless-ar.fina.3 fehDotless-ar.init fehDotless-ar.init.1 fehDotless-ar.medi fehDotless-ar.medi.1 ghain-ar hah-ar hah-ar.1 hah-ar.2 hah-ar.3 hah-ar.4 hah-ar.5 hah-ar.fina hah-ar.fina.1 hah-ar.init hah-ar.init.1 hah-ar.init.2 hah-ar.medi hah-ar.medi.1 hamza-ar heh-ar heh-ar.1 heh-ar.2 heh-ar.fina heh-ar.fina.1 heh-ar.fina.2 heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7 jeem-ar kaf-ar kaf-ar.1 kaf-ar.2 kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 kaf-ar.init kaf-ar.init.1 kaf-ar.init.2 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 kashida-ar khah-ar lam-ar lam-ar.fina lam-ar.init lam-ar.init.hah lam-ar.init.lellah lam-ar.medi lam-ar.medi.lellah lam-ar.medi.yeh meem-ar meem-ar.1 meem-ar.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.init meem-ar.medi meem-ar.medi.1 noon-ar noonghunna-ar noonghunna-ar.fina qaf-ar qafDotabove-ar qafDotless-ar qafDotless-ar.fina reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1 sad-ar sad-ar.1 sad-ar.fina sad-ar.fina.1 sad-ar.init sad-ar.medi seen-ar seen-ar.1 seen-ar.2 seen-ar.3 seen-ar.4 seen-ar.5 seen-ar.6 seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5 seen-ar.init seen-ar.init.1 seen-ar.init.2 seen-ar.init.3 seen-ar.init.4 seen-ar.init.5 seen-ar.init.6 seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6 sheen-ar tah-ar tah-ar.fina tah-ar.init tah-ar.medi teh-ar tehMarbuta-ar thal-ar theh-ar waw-ar waw-ar.1 waw-ar.2 waw-ar.3 waw-ar.fina waw-ar.fina.1 wawHamzaabove-ar yeh-ar yeh-farsi yehHamzaabove-ar zah-ar zain-ar];
 @LIGA = [lam_alef-ar lam_alef-ar.1 lam_alef-ar.2 lam_alef-ar.3 lam_alef-ar.4 lam_alef-ar.5 lam_alef-ar.fina lam_alef-ar.fina.1 lam_alef-ar.fina.2 lam_alef-ar.fina.3 lam_alef-ar.fina.4 lam_alef-ar.fina.5];
 @MARK = [dotabove-ar dotabove-ar.alt1 dotbelow-ar dotbelow-ar.alt1 empty hamzaabove-ar hamzabelow-ar space threedotsupabove-ar threedotsupabove-ar.alt1 twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1 twodotshorizontalbelow-ar twodotshorizontalbelow-ar.alt1 twodotsverticalabove-ar twodotsverticalabove-ar.alt1];
 table GDEF {

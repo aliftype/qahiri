@@ -93,8 +93,8 @@ name = Languagesystems;
 code = "lookup AboveHah {
   sub behDotless-ar.init by behDotless-ar.init.hah;
   sub lam-ar.init by lam-ar.init.hah;
-  sub hah-ar.medi by hah-ar.init;
-  sub hah-ar.fina by hah-ar.3;
+  sub hah-ar.medi by hah-ar.medi.1;
+  sub hah-ar.fina by hah-ar.fina.1;
 } AboveHah;
 
 lookup lellah {
@@ -339,8 +339,8 @@ lookup Kern {
  lookupflag IgnoreMarks;
   pos [hah-ar.init hah-ar.init.1 hah-ar.init.2] [meem-ar.medi meem-ar.medi.1 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 qafDotless-ar.fina] <-20 0 -20 0>;
 
-  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 228 0> hah-ar.3;
-  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> [hah-ar.init hah-ar.init.1 hah-ar.init.2];
+  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 228 0> hah-ar.fina.1;
+  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> hah-ar.medi.1;
 } Kern;
 
 lookup BehToothYeh {
@@ -1165,10 +1165,6 @@ anchors = (
 {
 name = bottom;
 position = "{300, -145}";
-},
-{
-name = entry;
-position = "{330, 110}";
 }
 );
 components = (
@@ -1192,12 +1188,6 @@ unicode = 062D;
 glyphname = "hah-ar.1";
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{330, 110}";
-}
-);
 components = (
 {
 name = "hah-ar";
@@ -1232,12 +1222,6 @@ width = 660;
 glyphname = "hah-ar.2";
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{330, 110}";
-}
-);
 components = (
 {
 name = "hah-ar";
@@ -1276,10 +1260,6 @@ anchors = (
 {
 name = bottom;
 position = "{200, -70}";
-},
-{
-name = entry;
-position = "{180, 110}";
 },
 {
 name = top;
@@ -1330,10 +1310,6 @@ anchors = (
 {
 name = bottom;
 position = "{320, -145}";
-},
-{
-name = entry;
-position = "{297, 110}";
 }
 );
 components = (
@@ -1369,10 +1345,6 @@ anchors = (
 {
 name = bottom;
 position = "{320, -145}";
-},
-{
-name = entry;
-position = "{297, 110}";
 }
 );
 components = (
@@ -1454,6 +1426,34 @@ width = 371;
 );
 },
 {
+glyphname = "hah-ar.fina.1";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{200, -70}";
+},
+{
+name = entry;
+position = "{180, 110}";
+},
+{
+name = top;
+position = "{359, 163}";
+}
+);
+components = (
+{
+name = "hah-ar.3";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 490;
+}
+);
+},
+{
 glyphname = "hah-ar.medi";
 layers = (
 {
@@ -1499,7 +1499,7 @@ width = 191;
 leftKerningGroup = waw;
 },
 {
-glyphname = "hah-ar.init";
+glyphname = "hah-ar.medi.1";
 layers = (
 {
 associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -1527,6 +1527,49 @@ position = "{170, -35}";
 {
 name = entry;
 position = "{90, 110}";
+},
+{
+name = top;
+position = "{269, 163}";
+}
+);
+components = (
+{
+name = "hah-ar.init";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 400;
+}
+);
+leftKerningGroup = "hah-ar.init";
+rightKerningGroup = "meem-ar.medi";
+},
+{
+glyphname = "hah-ar.init";
+layers = (
+{
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
+name = Background;
+paths = (
+{
+closed = 1;
+nodes = (
+"70 70 LINE",
+"0 140 LINE",
+"42.749 209.841 LINE",
+"182.958 70 LINE"
+);
+}
+);
+width = 400;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{170, -35}";
 },
 {
 name = top;
@@ -1582,12 +1625,6 @@ name = Background;
 width = 400;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{90, 110}";
-}
-);
 components = (
 {
 alignment = -1;
@@ -1614,12 +1651,6 @@ width = 420;
 glyphname = "hah-ar.init.2";
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{90, 110}";
-}
-);
 components = (
 {
 alignment = -1;
