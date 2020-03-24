@@ -3,7 +3,7 @@ manuscript Kufic calligraphy style of the late master of Arabic calligraphy
 Mohammad Abdul Qadir.
 
 Following the convention of naming Kufic styles after the cities they appeared
-in, Qahiri (قاهری) is named after the city of Cairo, Egypt (القاهرة).
+in, Qahiri (قاهري) is named after the city of Cairo, Egypt (القاهرة).
 
 For more info and latest version:
 
