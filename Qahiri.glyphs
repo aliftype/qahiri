@@ -313,22 +313,6 @@ name = salt;
 },
 {
 code = "# Automatic Code End
-lookup Kern {
- lookupflag IgnoreMarks;
-  pos [hah-ar.init hah-ar.init.1 hah-ar.init.2] [meem-ar.medi meem-ar.medi.1 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 qafDotless-ar.fina] <-20 0 -20 0>;
-
-  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 228 0> hah-ar.3;
-  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> [hah-ar.init hah-ar.init.1 hah-ar.init.2];
-} Kern;
-
-lookup BehToothYeh {
- lookupflag IgnoreMarks;
-  pos behDotless-ar.init' <0 0 100 0> [behDotless-ar.medi.yeh alef-ar.fina] alefMaksura-ar.fina.tooth;
-} BehToothYeh;";
-name = kern;
-},
-{
-code = "# Automatic Code End
 @RehWaw = [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1 waw-ar waw-ar.1 waw-ar.2 waw-ar.3 waw-ar.fina waw-ar.fina.1];
 lookup DotsBelowReh {
  lookupflag UseMarkFilteringSet @TwoDotsBelow;
@@ -348,6 +332,22 @@ lookup DotAvove {
   pos behDotless-ar.init.hah [hah-ar.init hah-ar.3] @DotAbove' <-240 120 0 0>;
 } DotAvove;";
 name = mark;
+},
+{
+code = "# Automatic Code End
+lookup Kern {
+ lookupflag IgnoreMarks;
+  pos [hah-ar.init hah-ar.init.1 hah-ar.init.2] [meem-ar.medi meem-ar.medi.1 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 qafDotless-ar.fina] <-20 0 -20 0>;
+
+  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 228 0> hah-ar.3;
+  pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 208 0> [hah-ar.init hah-ar.init.1 hah-ar.init.2];
+} Kern;
+
+lookup BehToothYeh {
+ lookupflag IgnoreMarks;
+  pos behDotless-ar.init' <0 0 100 0> [behDotless-ar.medi.yeh alef-ar.fina] alefMaksura-ar.fina.tooth;
+} BehToothYeh;";
+name = kern;
 },
 {
 code = "lookup HehDots {
