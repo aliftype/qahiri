@@ -1,6 +1,6 @@
 afdko==3.2.0
 fonttools[ufo,lxml]==4.4.2
 glyphsLib==5.1.7
-psautohint==2.0.0
+psautohint==2.0.1
 skia-pathops==0.3.0
 PyYAML==5.3
