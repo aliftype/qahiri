@@ -203,8 +203,6 @@ def makeFeatures(instance, master):
                     gclass.code += f"{glyph.name} "
                 if ".medi" in glyph.name and gclass.name == "AllMedi":
                     gclass.code += f"{glyph.name} "
-                if glyph.unicode == "0640" and gclass.name == "AllMedi":
-                    gclass.code += f"{glyph.name} "
 
         fea += f"@{gclass.name} = [{gclass.code}];\n"
 
