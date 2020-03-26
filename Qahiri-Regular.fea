@@ -33,29 +33,29 @@ lookup ShortLamTah {
 
 feature ccmp {
 
-  sub alefHamzaabove-ar by alef-ar hamzaabove-ar;
-  sub alefHamzabelow-ar by alef-ar hamzabelow-ar;
-  sub alefMadda-ar      by alef-ar;
-  sub alefWasla-ar      by alef-ar;
-  sub yehHamzaabove-ar  by alefMaksura-ar hamzaabove-ar;
-  sub wawHamzaabove-ar  by waw-ar hamzaabove-ar;
+  sub alefHamzaabove-ar   by alef-ar hamzaabove-ar;
+  sub alefHamzabelow-ar   by alef-ar hamzabelow-ar;
+  sub alefMadda-ar        by alef-ar;
+  sub alefWasla-ar        by alef-ar;
+  sub yehHamzaabove-ar    by alefMaksura-ar hamzaabove-ar;
+  sub wawHamzaabove-ar    by waw-ar hamzaabove-ar;
 
-  sub beh-ar   by behDotless-ar dotbelow-ar;
-  sub teh-ar   by behDotless-ar twodotshorizontalabove-ar;
-  sub theh-ar  by behDotless-ar threedotsupabove-ar;
-  sub jeem-ar  by hah-ar dotbelow-ar;
-  sub khah-ar  by hah-ar dotabove-ar;
-  sub thal-ar  by dal-ar dotabove-ar;
-  sub zain-ar  by reh-ar dotabove-ar;
-  sub sheen-ar by seen-ar threedotsupabove-ar;
-  sub dad-ar   by sad-ar dotabove-ar;
-  sub zah-ar   by tah-ar dotabove-ar;
-  sub ghain-ar by ain-ar dotabove-ar;
-  sub feh-ar   by fehDotless-ar dotabove-ar;
+  sub beh-ar              by behDotless-ar dotbelow-ar;
+  sub teh-ar              by behDotless-ar twodotshorizontalabove-ar;
+  sub theh-ar             by behDotless-ar threedotsupabove-ar;
+  sub jeem-ar             by hah-ar dotbelow-ar;
+  sub khah-ar             by hah-ar dotabove-ar;
+  sub thal-ar             by dal-ar dotabove-ar;
+  sub zain-ar             by reh-ar dotabove-ar;
+  sub sheen-ar            by seen-ar threedotsupabove-ar;
+  sub dad-ar              by sad-ar dotabove-ar;
+  sub zah-ar              by tah-ar dotabove-ar;
+  sub ghain-ar            by ain-ar dotabove-ar;
+  sub feh-ar              by fehDotless-ar dotabove-ar;
   sub fehDotmovedbelow-ar by fehDotless-ar dotbelow-ar;
-  sub qaf-ar   by qafDotless-ar twodotshorizontalabove-ar;
-  sub qafDotabove-ar by qafDotless-ar dotabove-ar;
-  sub noon-ar  by noonghunna-ar dotabove-ar;
+  sub qaf-ar              by qafDotless-ar twodotshorizontalabove-ar;
+  sub qafDotabove-ar      by qafDotless-ar dotabove-ar;
+  sub noon-ar             by noonghunna-ar dotabove-ar;
 } ccmp;
 
 feature isol {
@@ -67,20 +67,17 @@ feature isol {
 
 feature init {
 
-#> feature
-  sub ain-ar by ain-ar.init;
-  sub behDotless-ar by behDotless-ar.init;
-  sub fehDotless-ar by fehDotless-ar.init;
-  sub hah-ar by hah-ar.init;
-  sub heh-ar by heh-ar.init;
-  sub kaf-ar by kaf-ar.init;
-  sub lam-ar by lam-ar.init;
-  sub meem-ar by meem-ar.init;
-  sub sad-ar by sad-ar.init;
-  sub seen-ar by seen-ar.init;
-  sub tah-ar by tah-ar.init;
-#< feature
-
+  sub ain-ar         by ain-ar.init;
+  sub behDotless-ar  by behDotless-ar.init;
+  sub fehDotless-ar  by fehDotless-ar.init;
+  sub hah-ar         by hah-ar.init;
+  sub heh-ar         by heh-ar.init;
+  sub kaf-ar         by kaf-ar.init;
+  sub lam-ar         by lam-ar.init;
+  sub meem-ar        by meem-ar.init;
+  sub sad-ar         by sad-ar.init;
+  sub seen-ar        by seen-ar.init;
+  sub tah-ar         by tah-ar.init;
   sub qafDotless-ar  by fehDotless-ar.init;
   sub noonghunna-ar  by behDotless-ar.init;
   sub alefMaksura-ar by behDotless-ar.init;
@@ -90,20 +87,17 @@ feature init {
 
 feature medi {
 
-#> feature
-  sub ain-ar by ain-ar.medi;
-  sub behDotless-ar by behDotless-ar.medi;
-  sub fehDotless-ar by fehDotless-ar.medi;
-  sub hah-ar by hah-ar.medi;
-  sub heh-ar by heh-ar.medi;
-  sub kaf-ar by kaf-ar.medi;
-  sub lam-ar by lam-ar.medi;
-  sub meem-ar by meem-ar.medi;
-  sub sad-ar by sad-ar.medi;
-  sub seen-ar by seen-ar.medi;
-  sub tah-ar by tah-ar.medi;
-#< feature
-
+  sub ain-ar         by ain-ar.medi;
+  sub behDotless-ar  by behDotless-ar.medi;
+  sub fehDotless-ar  by fehDotless-ar.medi;
+  sub hah-ar         by hah-ar.medi;
+  sub heh-ar         by heh-ar.medi;
+  sub kaf-ar         by kaf-ar.medi;
+  sub lam-ar         by lam-ar.medi;
+  sub meem-ar        by meem-ar.medi;
+  sub sad-ar         by sad-ar.medi;
+  sub seen-ar        by seen-ar.medi;
+  sub tah-ar         by tah-ar.medi;
   sub qafDotless-ar  by fehDotless-ar.medi;
   sub noonghunna-ar  by behDotless-ar.medi;
   sub alefMaksura-ar by behDotless-ar.medi;
@@ -113,30 +107,27 @@ feature medi {
 
 feature fina {
 
-#> feature
-  sub ain-ar by ain-ar.fina;
-  sub alef-ar by alef-ar.fina;
+  sub ain-ar         by ain-ar.fina;
+  sub alef-ar        by alef-ar.fina;
   sub alefMaksura-ar by alefMaksura-ar.fina;
-  sub behDotless-ar by behDotless-ar.fina;
-  sub dal-ar by dal-ar.fina;
-  sub fehDotless-ar by fehDotless-ar.fina;
-  sub hah-ar by hah-ar.fina;
-  sub heh-ar by heh-ar.fina;
-  sub kaf-ar by kaf-ar.fina;
-  sub lam-ar by lam-ar.fina;
-  sub meem-ar by meem-ar.fina;
-  sub noonghunna-ar by noonghunna-ar.fina;
-  sub qafDotless-ar by qafDotless-ar.fina;
-  sub reh-ar by reh-ar.fina;
-  sub sad-ar by sad-ar.fina;
-  sub seen-ar by seen-ar.fina;
-  sub tah-ar by tah-ar.fina;
-  sub waw-ar by waw-ar.fina;
-#< feature
-
-  sub tehMarbuta-ar by heh-ar.fina twodotshorizontalabove-ar;
-  sub yeh-ar        by alefMaksura-ar.fina;
-  sub yeh-farsi     by alefMaksura-ar.fina;
+  sub behDotless-ar  by behDotless-ar.fina;
+  sub dal-ar         by dal-ar.fina;
+  sub fehDotless-ar  by fehDotless-ar.fina;
+  sub hah-ar         by hah-ar.fina;
+  sub heh-ar         by heh-ar.fina;
+  sub kaf-ar         by kaf-ar.fina;
+  sub lam-ar         by lam-ar.fina;
+  sub meem-ar        by meem-ar.fina;
+  sub noonghunna-ar  by noonghunna-ar.fina;
+  sub qafDotless-ar  by qafDotless-ar.fina;
+  sub reh-ar         by reh-ar.fina;
+  sub sad-ar         by sad-ar.fina;
+  sub seen-ar        by seen-ar.fina;
+  sub tah-ar         by tah-ar.fina;
+  sub waw-ar         by waw-ar.fina;
+  sub tehMarbuta-ar  by heh-ar.fina twodotshorizontalabove-ar;
+  sub yeh-ar         by alefMaksura-ar.fina;
+  sub yeh-farsi      by alefMaksura-ar.fina;
 } fina;
 
 feature calt {
@@ -182,7 +173,6 @@ featureNames {
 
 feature salt {
 
-lookup Alternates {
   sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
   sub ain-ar.init             from [ain-ar.init ain-ar.init.1];
   sub alef-ar                 from [alef-ar.1 alef-ar.2 alef-ar alef-ar.3];
@@ -230,7 +220,6 @@ lookup Alternates {
   sub six-ar                  from [six-ar six-ar.1];
   sub seven-ar                from [seven-ar seven-ar.1];
   sub eight-ar                from [eight-ar eight-ar.1];
-} Alternates;
 } salt;
 markClass dotabove-ar <anchor 17 0> @mark_top;
 markClass dotabove-ar.alt1 <anchor 29 0> @mark_top;
