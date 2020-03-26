@@ -1458,7 +1458,7 @@ position = "{176, -35}";
 },
 {
 name = top;
-position = "{236, 305}";
+position = "{156, 305}";
 }
 );
 components = (
@@ -1538,7 +1538,7 @@ position = "{0, 0}";
 },
 {
 name = top;
-position = "{116, 305}";
+position = "{36, 305}";
 }
 );
 components = (

@@ -255,7 +255,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.006"/>
-    <checkSumAdjustment value="0x90129a36"/>
+    <checkSumAdjustment value="0x91529a36"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -6578,7 +6578,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="21">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="236"/>
+                <XCoordinate value="156"/>
                 <YCoordinate value="305"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
@@ -6598,7 +6598,7 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="23">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="116"/>
+                <XCoordinate value="36"/>
                 <YCoordinate value="305"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
