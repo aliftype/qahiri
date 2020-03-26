@@ -2,11 +2,6 @@
 .appVersion = "1308";
 classes = (
 {
-automatic = 1;
-code = "hamza-ar alef-ar alef-ar.1 alef-ar.2 alef-ar.3 alef-ar.fina alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar alefWasla-ar behDotless-ar behDotless-ar.fina behDotless-ar.fina.1 behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1 behDotless-ar.medi.yeh behDotless-ar.init behDotless-ar.init.hah beh-ar teh-ar theh-ar jeem-ar hah-ar hah-ar.1 hah-ar.2 hah-ar.3 hah-ar.4 hah-ar.5 hah-ar.fina hah-ar.fina.1 hah-ar.medi hah-ar.medi.1 hah-ar.init hah-ar.init.1 hah-ar.init.2 khah-ar dal-ar dal-ar.fina thal-ar reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1 zain-ar seen-ar seen-ar.1 seen-ar.2 seen-ar.3 seen-ar.4 seen-ar.5 seen-ar.6 seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5 seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6 seen-ar.init seen-ar.init.1 seen-ar.init.2 seen-ar.init.3 seen-ar.init.4 seen-ar.init.5 seen-ar.init.6 sheen-ar sad-ar sad-ar.1 sad-ar.fina sad-ar.fina.1 sad-ar.medi sad-ar.init dad-ar tah-ar tah-ar.fina tah-ar.medi tah-ar.medi.short tah-ar.init tah-ar.init.short zah-ar ain-ar ain-ar.1 ain-ar.2 ain-ar.3 ain-ar.fina ain-ar.medi ain-ar.init ain-ar.init.1 ghain-ar feh-ar fehDotless-ar fehDotless-ar.1 fehDotless-ar.2 fehDotless-ar.3 fehDotless-ar.fina fehDotless-ar.fina.1 fehDotless-ar.fina.2 fehDotless-ar.fina.3 fehDotless-ar.medi fehDotless-ar.medi.1 fehDotless-ar.init fehDotless-ar.init.1 fehDotmovedbelow-ar qafDotless-ar qafDotless-ar.fina qaf-ar qafDotabove-ar kaf-ar kaf-ar.1 kaf-ar.2 kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 kaf-ar.init kaf-ar.init.1 kaf-ar.init.2 lam-ar lam-ar.fina lam-ar.medi lam-ar.medi.lellah lam-ar.medi.short lam-ar.medi.yeh lam-ar.init lam-ar.init.hah lam-ar.init.lellah lam-ar.init.short meem-ar meem-ar.1 meem-ar.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi meem-ar.medi.1 meem-ar.init noon-ar noonghunna-ar noonghunna-ar.fina heh-ar heh-ar.1 heh-ar.2 heh-ar.fina heh-ar.fina.1 heh-ar.fina.2 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7 heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7 tehMarbuta-ar waw-ar waw-ar.1 waw-ar.2 waw-ar.3 waw-ar.fina waw-ar.fina.1 wawHamzaabove-ar alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4 alefMaksura-ar.5 alefMaksura-ar.6 alefMaksura-ar.fina alefMaksura-ar.fina.0 alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6 alefMaksura-ar.fina.tooth yeh-ar yehHamzaabove-ar yeh-farsi kashida-ar lam_alef-ar lam_alef-ar.fina lam_alef-ar.1 lam_alef-ar.fina.1 lam_alef-ar.fina.2 lam_alef-ar.fina.3 lam_alef-ar.fina.4 lam_alef-ar.fina.5 lam_alef-ar.2 lam_alef-ar.3 lam_alef-ar.4 lam_alef-ar.5";
-name = AllLetters;
-},
-{
 code = "dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar";
 name = Dots;
 },
@@ -25,6 +20,16 @@ name = TwoDotsBelow;
 {
 code = "hah-ar.medi.1 hah-ar.fina.1";
 name = HahAlt;
+},
+{
+automatic = 1;
+code = "";
+name = AllInit;
+},
+{
+automatic = 1;
+code = "";
+name = AllMedi;
 }
 );
 copyright = "Copyright © 2020 by Khaled Hosny. All rights reserved.";
@@ -374,15 +379,16 @@ lookup YehTooth {
 
 lookup HighHah {
  @Ascender = [lam-ar.init lam-ar.medi tah-ar.medi tah-ar.init];
+ @AllInitMedi = [@AllInit @AllMedi];
  lookupflag IgnoreMarks;
-  sub  @Ascender' lookup ShortLamTah @AllLetters @AllLetters @AllLetters @AllLetters @AllLetters @AllLetters @AllLetters @AllLetters @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllLetters @AllLetters @AllLetters @AllLetters @AllLetters @AllLetters @AllLetters @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllLetters @AllLetters @AllLetters @AllLetters @AllLetters @AllLetters @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllLetters @AllLetters @AllLetters @AllLetters @AllLetters @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllLetters @AllLetters @AllLetters @AllLetters @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllLetters @AllLetters @AllLetters @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllLetters @AllLetters @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllLetters @HahAlt;
+  sub  @Ascender' lookup ShortLamTah @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah @AllInitMedi @HahAlt;
   sub  @Ascender' lookup ShortLamTah @HahAlt;
 } HighHah;";
 name = dist;
