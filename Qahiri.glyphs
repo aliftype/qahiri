@@ -131,7 +131,15 @@ lookup ShortLamTah {
   sub lam-ar.medi by lam-ar.medi.short;
   sub tah-ar.medi by tah-ar.medi.short;
   sub tah-ar.init by tah-ar.init.short;
-} ShortLamTah;";
+} ShortLamTah;
+
+lookup ShortLamTah2 {
+  sub lam-ar.init by lam-ar.init.short2;
+  sub lam-ar.medi by lam-ar.medi.short2;
+  sub lam-ar.init.hah by lam-ar.init.hah2;
+  sub tah-ar.medi by tah-ar.medi.short2;
+  sub tah-ar.init by tah-ar.init.short2;
+} ShortLamTah2;";
 name = Lookups;
 }
 );
@@ -349,7 +357,7 @@ lookup DotsBelowBeforeWide {
 } DotsBelowBeforeWide;
 
 lookup DotBelowHah {
- @BehFeh = [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1 fehDotless-ar.medi fehDotless-ar.medi.1 fehDotless-ar.init fehDotless-ar.init.1 lam-ar.medi.short];
+ @BehFeh = [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1 fehDotless-ar.medi fehDotless-ar.medi.1 fehDotless-ar.init fehDotless-ar.init.1 lam-ar.medi.short lam-ar.medi.short2];
  valueRecordDef <40 -110 0 0> DOT_MOVEMENT;
  lookupflag UseMarkFilteringSet @DotsBelow;
   pos hah-ar.medi.1 @DotsBelow' <DOT_MOVEMENT> [hah-ar.medi.1 hah-ar.fina.1];
@@ -362,12 +370,12 @@ name = mark;
 {
 code = "# Automatic Code End
 lookupflag IgnoreMarks;
- @Beh = [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1 lam-ar.medi.short];
- pos [behDotless-ar.init.hah lam-ar.init.hah] <0 0 210 0> @HahAlt;
+ @Beh = [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1 lam-ar.medi.short lam-ar.medi.short2];
+ pos [behDotless-ar.init.hah lam-ar.init.hah lam-ar.init.hah2] <0 0 210 0> @HahAlt;
  pos [meem-ar.init fehDotless-ar.init.1] <0 0 70 0> @HahAlt;
  pos [ain-ar.init.1] <0 0 30 0> @HahAlt;
  pos [fehDotless-ar.init] <0 0 57 0> @HahAlt;
- pos [behDotless-ar.init lam-ar.init.short]' <0 0 70 0> @Beh @HahAlt;
+ pos [behDotless-ar.init lam-ar.init.short lam-ar.init.short2]' <0 0 70 0> @Beh @HahAlt;
  pos [heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7]' <0 0 70 0> @HahAlt;
 
  pos [waw-ar waw-ar.1 waw-ar.2 waw-ar.3 waw-ar.fina waw-ar.fina.1 reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1 hah-ar.fina hah-ar.fina.1 ain-ar.3 ain-ar.fina] behDotless-ar.init' <0 0 100 0> [behDotless-ar.medi.yeh lam-ar.medi.yeh] alefMaksura-ar.fina.tooth;
@@ -388,9 +396,50 @@ lookup YehTooth {
 } YehTooth;
 
 lookup HighHah {
- @Ascender = [lam-ar.init lam-ar.medi tah-ar.medi tah-ar.init];
+ @Ascender = [lam-ar.init lam-ar.init.hah lam-ar.medi tah-ar.medi tah-ar.init];
  @AllInitMedi = [@AllInit @AllMedi];
  lookupflag IgnoreMarks;
+   
+  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @HahAlt @HahAlt;
+
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @HahAlt @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @HahAlt @HahAlt;
+
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @HahAlt @HahAlt;
+
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt @AllInitMedi @HahAlt;
+  sub  @Ascender' lookup ShortLamTah2 @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt @HahAlt;
+  
   sub  @Ascender' lookup ShortLamTah @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
   sub  @Ascender' lookup ShortLamTah @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
   sub  @Ascender' lookup ShortLamTah @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
@@ -3286,6 +3335,39 @@ widthMetricsKey = "=tah-ar.medi";
 rightMetricsKey = "=tah-ar.medi";
 },
 {
+glyphname = "tah-ar.medi.short2";
+layers = (
+{
+anchors = (
+{
+name = entry;
+position = "{670, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "tah-ar.init.short2";
+},
+{
+alignment = -1;
+name = "kashida-ar.medi";
+transform = "{1, 0, 0, 1, 590, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 670;
+}
+);
+leftKerningGroup = waw;
+widthMetricsKey = "=tah-ar.medi";
+rightMetricsKey = "=tah-ar.medi";
+},
+{
 glyphname = "tah-ar.init";
 layers = (
 {
@@ -3328,6 +3410,33 @@ transform = "{1, 0, 0, 1, 13, 0}";
 },
 {
 name = "lam-ar.init.short";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 670;
+}
+);
+widthMetricsKey = "=tah-ar.init";
+rightMetricsKey = "=tah-ar.init";
+},
+{
+glyphname = "tah-ar.init.short2";
+layers = (
+{
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = _sad;
+transform = "{1, 0, 0, 1, 13, 0}";
+},
+{
+name = "lam-ar.init.short2";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -5561,6 +5670,37 @@ widthMetricsKey = "=lam-ar.init";
 rightMetricsKey = "=lam-ar.medi";
 },
 {
+glyphname = "lam-ar.medi.short2";
+layers = (
+{
+anchors = (
+{
+name = entry;
+position = "{120, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "lam-ar.init.short2";
+},
+{
+name = _elbow;
+transform = "{1, 0, 0, 1, 40, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 120;
+}
+);
+widthMetricsKey = "=lam-ar.init";
+rightMetricsKey = "=lam-ar.medi";
+},
+{
 glyphname = "lam-ar.medi.yeh";
 layers = (
 {
@@ -5664,6 +5804,38 @@ width = 80;
 );
 },
 {
+glyphname = "lam-ar.init.hah2";
+layers = (
+{
+anchors = (
+{
+name = exit;
+position = "{-20, -2}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"36.774 0 OFFCURVE",
+"80 30.11 OFFCURVE",
+"80 70 CURVE",
+"80 340 LINE",
+"0 320 LINE",
+"0 70 LINE",
+"0 51.332 OFFCURVE",
+"-0.2 25.365 OFFCURVE",
+"-20 24.696 CURVE",
+"-20 0 LINE"
+);
+}
+);
+width = 80;
+}
+);
+},
+{
 glyphname = "lam-ar.init.lellah";
 layers = (
 {
@@ -5717,6 +5889,39 @@ nodes = (
 "80 40 CURVE SMOOTH",
 "80 450 LINE",
 "0 430 LINE",
+"0 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 120;
+}
+);
+widthMetricsKey = "=lam-ar.init";
+rightMetricsKey = "=lam-ar.init";
+},
+{
+glyphname = "lam-ar.init.short2";
+layers = (
+{
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"42 0 LINE",
+"65 0 OFFCURVE",
+"80 15 OFFCURVE",
+"80 40 CURVE SMOOTH",
+"80 340 LINE",
+"0 320 LINE",
 "0 70 LINE",
 "-20 70 LINE",
 "-20 0 LINE"
