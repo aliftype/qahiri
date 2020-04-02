@@ -67,8 +67,6 @@ def draw(layer, instance, pen):
                 componentPen = ReverseContourPen(componentPen)
         draw(componentLayer, instance, componentPen)
 
-    return pen.pen
-
 
 def makeKerning(font, master):
     fea = ""
