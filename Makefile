@@ -28,23 +28,23 @@ space := $() $()
 
 all: Qahiri-Regular.otf Qahiri-Regular.ttx
 
-$(BUILDDIR)/%.hinted.otf: Qahiri.glyphs $(CONFIG)
+$(BUILDDIR)/%.otf: Qahiri.glyphs $(CONFIG)
 	$(info $(space) BUILD  $(*F))
 	mkdir -p $(BUILDDIR)
-	python build.py $< ${VERSION} $@ $(BUILDDIR)/$(*F).hinted.cff $(BUILDDIR)/$(*F).cidinfo $(BUILDDIR)/$(*F).cidmap
+	python build.py $< ${VERSION} $@ $(BUILDDIR)/$(*F).cff $(BUILDDIR)/$(*F).cidinfo $(BUILDDIR)/$(*F).cidmap
 
-$(BUILDDIR)/%.hinted.cid: $(BUILDDIR)/%.hinted.otf
+$(BUILDDIR)/%.cid: $(BUILDDIR)/%.otf
 	$(info $(space) CID    $(*F))
-	mergefonts -cid $(BUILDDIR)/$(*F).cidinfo $@ $(BUILDDIR)/$(*F).cidmap $(BUILDDIR)/$(*F).hinted.cff 2>/dev/null
+	mergefonts -cid $(BUILDDIR)/$(*F).cidinfo $@ $(BUILDDIR)/$(*F).cidmap $(BUILDDIR)/$(*F).cff 2>/dev/null
 
-$(BUILDDIR)/%.cff: $(BUILDDIR)/%.hinted.cid
+$(BUILDDIR)/%.subr.cff: $(BUILDDIR)/%.cid
 	$(info $(space) SUBR   $(*F))
 	tx -cff +S +b $< $@
 
-%.otf: $(BUILDDIR)/%.cff $(BUILDDIR)/%.hinted.otf
+%.otf: $(BUILDDIR)/%.subr.cff $(BUILDDIR)/%.otf
 	sfntedit -a CFF=$+ $@
 
-%.ttx: $(BUILDDIR)/%.hinted.otf
+%.ttx: $(BUILDDIR)/%.otf
 	$(info $(space) TTX    $(*F))
 	ttx -q -o $@ $<
 
