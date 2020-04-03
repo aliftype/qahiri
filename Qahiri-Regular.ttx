@@ -260,7 +260,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.006"/>
-    <checkSumAdjustment value="0xd806cf89"/>
+    <checkSumAdjustment value="0x5fc0a3b6"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -593,7 +593,9 @@ You should have received a copy of the GNU Affero General Public License along w
       </Private>
       <CharStrings>
         <CharString name=".notdef">
-          330 40 0 rmoveto
+          330 0 40 370 40 hstem
+          40 40 170 40 vstem
+          40 0 rmoveto
           250 0 rlineto
           0 450 rlineto
           -250 0 rlineto
@@ -616,7 +618,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="ain-ar">
-          680 90 -110 rmoveto
+          680 -110 70 40 70 160 -20 hstem
+          0 80 274 62 vstem
+          90 -110 rmoveto
           445 0 rlineto
           41 70 rlineto
           -476 0 rlineto
@@ -636,13 +640,17 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="ain-ar.1">
-          529 131 -110 rmoveto
+          529 -110 70 40 70 0 83 77 -20 hstemhm
+          0 42 161 62 hintmask 11011000
+          131 -110 rmoveto
           260 0 rlineto
           41 70 rlineto
           -273 0 rlineto
           -32 0 -22 3 -23 23 rrcurveto
+          hintmask 10111000
           -31 31 rlineto
           -17 17 9 47 14 -14 rrcurveto
+          hintmask 11011100
           52 -52 rlineto
           10 -10 9 -5 12 0 rrcurveto
           308 0 rlineto
@@ -656,18 +664,24 @@ You should have received a copy of the GNU Affero General Public License along w
           -49 0 rlineto
           -9 0 -5 5 -4 4 rrcurveto
           -64 64 rlineto
+          hintmask 10111000
           -50 50 -44 -149 0 -49 rrcurveto
+          hintmask 11011000
           0 -85 57 -19 74 -1 rrcurveto
           endchar
         </CharString>
         <CharString name="ain-ar.2">
-          529 131 -110 rmoveto
+          529 -110 70 40 70 0 83 77 -20 hstemhm
+          0 42 161 62 hintmask 11011000
+          131 -110 rmoveto
           45 0 rlineto
           31 0 101 47 54 23 rrcurveto
           -203 0 rlineto
           -32 0 -22 3 -23 23 rrcurveto
+          hintmask 10111000
           -31 31 rlineto
           -17 17 9 47 14 -14 rrcurveto
+          hintmask 11011100
           52 -52 rlineto
           10 -10 9 -5 12 0 rrcurveto
           308 0 rlineto
@@ -681,30 +695,38 @@ You should have received a copy of the GNU Affero General Public License along w
           -49 0 rlineto
           -9 0 -5 5 -4 4 rrcurveto
           -64 64 rlineto
+          hintmask 10111000
           -50 50 -44 -149 0 -49 rrcurveto
+          hintmask 11011000
           0 -85 57 -19 74 -1 rrcurveto
           endchar
         </CharString>
         <CharString name="ain-ar.3">
-          330 199 -250 rmoveto
+          330 -250 31 219 70 80 60 hstemhm
+          0 80 -30 80 hintmask 11010000
+          199 -250 rmoveto
           43 0 46 8 76 35 rrcurveto
           -49 -8 -35 -4 -26 0 rrcurveto
           -83 0 -91 36 0 90 rrcurveto
           0 67 50 26 40 0 rrcurveto
           79 0 rlineto
           41 70 rlineto
+          hintmask 11101000
           -127 0 rlineto
           -21 0 -12 17 0 19 rrcurveto
           0 21 16 23 37 0 rrcurveto
           13 0 16 -3 18 -7 rrcurveto
           -14 45 -35 25 -35 0 rrcurveto
           -88 0 -30 -102 38 -63 rrcurveto
+          hintmask 11010000
           -43 -29 -23 -52 0 -54 rrcurveto
           0 -104 86 -56 113 0 rrcurveto
           endchar
         </CharString>
         <CharString name="ain-ar.fina">
-          304 199 -250 rmoveto
+          304 -250 31 219 70 160 -20 hstem
+          0 80 104 80 vstem
+          199 -250 rmoveto
           43 0 46 8 76 35 rrcurveto
           -49 -8 -35 -4 -26 0 rrcurveto
           -83 0 -91 36 0 90 rrcurveto
@@ -724,20 +746,26 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="ain-ar.init">
-          330 -20 0 rmoveto
+          330 0 70 160 -20 hstemhm
+          -20 86 -62 62 hintmask 11100000
+          -20 0 rmoveto
           269 0 rlineto
           41 70 rlineto
+          hintmask 11010000
           -139 0 rlineto
           -32 0 -53 47 0 31 rrcurveto
           0 29 65 38 20 12 rrcurveto
           -1 3 rlineto
           -53 -26 -93 -47 0 -48 rrcurveto
           0 -13 6 -13 16 -13 rrcurveto
+          hintmask 11100000
           -46 0 rlineto
           endchar
         </CharString>
         <CharString name="ain-ar.init.1">
-          280 -20 0 rmoveto
+          280 0 70 80 60 hstem
+          0 80 vstem
+          -20 0 rmoveto
           219 0 rlineto
           41 70 rlineto
           -127 0 rlineto
@@ -750,11 +778,12 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="ain-ar.medi">
-          242 -20 0 rmoveto
+          242 0 70 160 -20 hstem
+          122 80 vstem
+          -20 0 rmoveto
           262 0 rlineto
           0 70 rlineto
           -40 0 rlineto
-          0 0 rlineto
           0 200 rlineto
           -80 -20 rlineto
           0 -100 rlineto
@@ -765,11 +794,12 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alef-ar">
-          360 80 140 rmoveto
+          360 0 48 512 -20 hstem
+          0 80 vstem
+          80 140 rmoveto
           0 420 rlineto
           -80 -20 rlineto
           0 -410 rlineto
-          0 0 rlineto
           5 -88 74 -42 79 0 rrcurveto
           60 0 63 24 39 46 rrcurveto
           -28 -12 -44 -10 -43 0 rrcurveto
@@ -777,7 +807,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alef-ar.1">
-          200 80 80 rmoveto
+          200 0 43 517 -20 hstem
+          0 80 vstem
+          80 80 rmoveto
           0 480 rlineto
           -80 -20 rlineto
           0 -460 rlineto
@@ -788,7 +820,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alef-ar.2">
-          280 80 100 rmoveto
+          280 0 37 523 -20 hstem
+          0 80 vstem
+          80 100 rmoveto
           0 460 rlineto
           -80 -20 rlineto
           0 -440 rlineto
@@ -799,7 +833,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alef-ar.3">
-          160 0 20 rmoveto
+          160 0 20 540 -20 hstem
+          40 80 vstem
+          0 20 rmoveto
           10 -10 20 -10 22 0 rrcurveto
           38 0 30 30 0 50 rrcurveto
           0 480 rlineto
@@ -809,7 +845,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alef-ar.fina">
-          120 80 80 rmoveto
+          120 0 70 490 -20 hstem
+          0 80 vstem
+          80 80 rmoveto
           0 480 rlineto
           -80 -20 rlineto
           0 -500 rlineto
@@ -821,11 +859,12 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefHamzaabove-ar">
-          360 80 140 rmoveto
+          360 0 48 426 29 33 25 hstem
+          0 80 vstem
+          80 140 rmoveto
           0 420 rlineto
           -80 -20 rlineto
           0 -410 rlineto
-          0 0 rlineto
           5 -88 74 -42 79 0 rrcurveto
           60 0 63 24 39 46 rrcurveto
           -28 -12 -44 -10 -43 0 rrcurveto
@@ -844,17 +883,19 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefHamzabelow-ar">
-          360 80 140 rmoveto
+          360 -107 29 33 25 20 48 512 -20 hstemhm
+          0 80 hintmask 10111000
+          80 140 rmoveto
           0 420 rlineto
           -80 -20 rlineto
           0 -410 rlineto
-          0 0 rlineto
           5 -88 74 -42 79 0 rrcurveto
           60 0 63 24 39 46 rrcurveto
           -28 -12 -44 -10 -43 0 rrcurveto
           -64 0 -61 22 0 70 rrcurveto
           -3 -218 rmoveto
           -8 0 -5 7 0 8 rrcurveto
+          hintmask 11111000
           0 9 7 9 15 0 rrcurveto
           5 0 7 -1 7 -3 rrcurveto
           -6 18 -14 11 -14 0 rrcurveto
@@ -863,15 +904,17 @@ You should have received a copy of the GNU Affero General Public License along w
           -17 -29 rlineto
           108 0 rlineto
           17 29 rlineto
+          hintmask 10111000
           -53 0 rlineto
           endchar
         </CharString>
         <CharString name="alefMadda-ar">
-          360 80 140 rmoveto
+          360 0 48 512 -20 hstem
+          0 80 vstem
+          80 140 rmoveto
           0 420 rlineto
           -80 -20 rlineto
           0 -410 rlineto
-          0 0 rlineto
           5 -88 74 -42 79 0 rrcurveto
           60 0 63 24 39 46 rrcurveto
           -28 -12 -44 -10 -43 0 rrcurveto
@@ -879,7 +922,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefMaksura-ar">
-          247 -33 -220 rmoveto
+          247 -220 70 40 67 64 -21 70 83 hstem
+          0 42 85 80 vstem
+          -33 -220 rmoveto
           202 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 96 rlineto
@@ -901,7 +946,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.1">
-          247 -33 -250 rmoveto
+          247 -250 70 70 67 64 -21 70 83 hstem
+          0 42 85 80 vstem
+          -33 -250 rmoveto
           202 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 126 rlineto
@@ -923,7 +970,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.2">
-          242 131 -110 rmoveto
+          242 -110 70 61 -21 70 83 hstem
+          0 42 vstem
+          131 -110 rmoveto
           260 0 rlineto
           41 70 rlineto
           -283 0 rlineto
@@ -941,7 +990,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.3">
-          242 131 -110 rmoveto
+          242 -110 70 61 -21 70 83 hstem
+          0 42 vstem
+          131 -110 rmoveto
           405 0 rlineto
           41 70 rlineto
           -428 0 rlineto
@@ -959,7 +1010,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.4">
-          242 131 -110 rmoveto
+          242 -110 70 61 -21 70 83 hstem
+          0 42 vstem
+          131 -110 rmoveto
           560 0 rlineto
           41 70 rlineto
           -583 0 rlineto
@@ -977,7 +1030,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.5">
-          242 131 -110 rmoveto
+          242 -110 70 61 -21 70 83 hstem
+          0 42 vstem
+          131 -110 rmoveto
           45 0 rlineto
           31 0 101 47 54 23 rrcurveto
           -213 0 rlineto
@@ -995,7 +1050,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.6">
-          242 131 -110 rmoveto
+          242 -110 70 61 -21 70 83 hstem
+          0 42 vstem
+          131 -110 rmoveto
           46 0 rlineto
           125 0 258 36 163 18 rrcurveto
           9 16 rlineto
@@ -1014,14 +1071,18 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.fina">
-          207 -33 -220 rmoveto
+          207 -220 70 40 67 43 70 0 83 hstemhm
+          0 42 85 80 hintmask 11101100
+          -33 -220 rmoveto
           202 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 96 rlineto
           0 25 -13 16 -35 0 rrcurveto
           -32 0 -22 6 -23 23 rrcurveto
+          hintmask 11011100
           -31 31 rlineto
           -17 17 9 47 14 -14 rrcurveto
+          hintmask 11101100
           52 -52 rlineto
           10 -10 9 -5 12 0 rrcurveto
           67 0 rlineto
@@ -1029,6 +1090,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -31 0 rlineto
           -9 0 -5 5 -4 4 rrcurveto
           -64 64 rlineto
+          hintmask 11011100
           -50 50 -44 -149 0 -49 rrcurveto
           0 -83 55 -20 72 -2 rrcurveto
           0 -40 rlineto
@@ -1037,14 +1099,18 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.fina.0">
-          207 -33 -220 rmoveto
+          207 -220 70 40 67 43 70 0 83 hstemhm
+          0 42 85 80 hintmask 11101100
+          -33 -220 rmoveto
           202 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 96 rlineto
           0 25 -13 16 -35 0 rrcurveto
           -32 0 -22 6 -23 23 rrcurveto
+          hintmask 11011100
           -31 31 rlineto
           -17 17 9 47 14 -14 rrcurveto
+          hintmask 11101100
           52 -52 rlineto
           10 -10 9 -5 12 0 rrcurveto
           67 0 rlineto
@@ -1052,6 +1118,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -31 0 rlineto
           -9 0 -5 5 -4 4 rrcurveto
           -64 64 rlineto
+          hintmask 11011100
           -50 50 -44 -149 0 -49 rrcurveto
           0 -83 55 -20 72 -2 rrcurveto
           0 -40 rlineto
@@ -1060,14 +1127,18 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.fina.1">
-          207 -33 -250 rmoveto
+          207 -250 70 70 67 43 70 0 83 hstemhm
+          0 42 85 80 hintmask 11101100
+          -33 -250 rmoveto
           202 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 126 rlineto
           0 25 -13 16 -35 0 rrcurveto
           -32 0 -22 6 -23 23 rrcurveto
+          hintmask 11011100
           -31 31 rlineto
           -17 17 9 47 14 -14 rrcurveto
+          hintmask 11101100
           52 -52 rlineto
           10 -10 9 -5 12 0 rrcurveto
           67 0 rlineto
@@ -1075,6 +1146,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -31 0 rlineto
           -9 0 -5 5 -4 4 rrcurveto
           -64 64 rlineto
+          hintmask 11011100
           -50 50 -44 -149 0 -49 rrcurveto
           0 -83 55 -20 72 -2 rrcurveto
           0 -70 rlineto
@@ -1083,13 +1155,17 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.fina.2">
-          207 131 -110 rmoveto
+          207 -110 70 40 70 0 83 hstemhm
+          0 42 hintmask 11010000
+          131 -110 rmoveto
           260 0 rlineto
           41 70 rlineto
           -273 0 rlineto
           -32 0 -22 3 -23 23 rrcurveto
+          hintmask 10110000
           -31 31 rlineto
           -17 17 9 47 14 -14 rrcurveto
+          hintmask 11010000
           52 -52 rlineto
           10 -10 9 -5 12 0 rrcurveto
           67 0 rlineto
@@ -1097,18 +1173,24 @@ You should have received a copy of the GNU Affero General Public License along w
           -31 0 rlineto
           -9 0 -5 5 -4 4 rrcurveto
           -64 64 rlineto
+          hintmask 10110000
           -50 50 -44 -149 0 -49 rrcurveto
+          hintmask 11010000
           0 -85 57 -19 74 -1 rrcurveto
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.fina.3">
-          207 131 -110 rmoveto
+          207 -110 70 40 70 0 83 hstemhm
+          0 42 hintmask 11010000
+          131 -110 rmoveto
           405 0 rlineto
           41 70 rlineto
           -418 0 rlineto
           -32 0 -22 3 -23 23 rrcurveto
+          hintmask 10110000
           -31 31 rlineto
           -17 17 9 47 14 -14 rrcurveto
+          hintmask 11010000
           52 -52 rlineto
           10 -10 9 -5 12 0 rrcurveto
           67 0 rlineto
@@ -1116,18 +1198,24 @@ You should have received a copy of the GNU Affero General Public License along w
           -31 0 rlineto
           -9 0 -5 5 -4 4 rrcurveto
           -64 64 rlineto
+          hintmask 10110000
           -50 50 -44 -149 0 -49 rrcurveto
+          hintmask 11010000
           0 -85 57 -19 74 -1 rrcurveto
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.fina.4">
-          207 131 -110 rmoveto
+          207 -110 70 40 70 0 83 hstemhm
+          0 42 hintmask 11010000
+          131 -110 rmoveto
           560 0 rlineto
           41 70 rlineto
           -573 0 rlineto
           -32 0 -22 3 -23 23 rrcurveto
+          hintmask 10110000
           -31 31 rlineto
           -17 17 9 47 14 -14 rrcurveto
+          hintmask 11010000
           52 -52 rlineto
           10 -10 9 -5 12 0 rrcurveto
           67 0 rlineto
@@ -1135,18 +1223,24 @@ You should have received a copy of the GNU Affero General Public License along w
           -31 0 rlineto
           -9 0 -5 5 -4 4 rrcurveto
           -64 64 rlineto
+          hintmask 10110000
           -50 50 -44 -149 0 -49 rrcurveto
+          hintmask 11010000
           0 -85 57 -19 74 -1 rrcurveto
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.fina.5">
-          207 131 -110 rmoveto
+          207 -110 70 40 70 0 83 hstemhm
+          0 42 hintmask 11010000
+          131 -110 rmoveto
           45 0 rlineto
           31 0 101 47 54 23 rrcurveto
           -203 0 rlineto
           -32 0 -22 3 -23 23 rrcurveto
+          hintmask 10110000
           -31 31 rlineto
           -17 17 9 47 14 -14 rrcurveto
+          hintmask 11010000
           52 -52 rlineto
           10 -10 9 -5 12 0 rrcurveto
           67 0 rlineto
@@ -1154,19 +1248,25 @@ You should have received a copy of the GNU Affero General Public License along w
           -31 0 rlineto
           -9 0 -5 5 -4 4 rrcurveto
           -64 64 rlineto
+          hintmask 10110000
           -50 50 -44 -149 0 -49 rrcurveto
+          hintmask 11010000
           0 -85 57 -19 74 -1 rrcurveto
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.fina.6">
-          207 131 -110 rmoveto
+          207 -110 70 40 70 0 83 hstemhm
+          0 42 hintmask 11010000
+          131 -110 rmoveto
           46 0 rlineto
           125 0 258 36 163 18 rrcurveto
           9 16 rlineto
           -573 0 rlineto
           -32 0 -22 3 -23 23 rrcurveto
+          hintmask 10110000
           -31 31 rlineto
           -17 17 9 47 14 -14 rrcurveto
+          hintmask 11010000
           52 -52 rlineto
           10 -10 9 -5 12 0 rrcurveto
           67 0 rlineto
@@ -1174,12 +1274,16 @@ You should have received a copy of the GNU Affero General Public License along w
           -31 0 rlineto
           -9 0 -5 5 -4 4 rrcurveto
           -64 64 rlineto
+          hintmask 10110000
           -50 50 -44 -149 0 -49 rrcurveto
+          hintmask 11010000
           0 -85 57 -19 74 -1 rrcurveto
           endchar
         </CharString>
         <CharString name="alefMaksura-ar.fina.tooth">
-          280 -40 -220 rmoveto
+          280 -220 70 40 70 hstem
+          0 80 116 84 vstem
+          -40 -220 rmoveto
           299 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -1195,11 +1299,12 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alefWasla-ar">
-          360 80 140 rmoveto
+          360 0 48 512 -20 hstem
+          0 80 vstem
+          80 140 rmoveto
           0 420 rlineto
           -80 -20 rlineto
           0 -410 rlineto
-          0 0 rlineto
           5 -88 74 -42 79 0 rrcurveto
           60 0 63 24 39 46 rrcurveto
           -28 -12 -44 -10 -43 0 rrcurveto
@@ -1207,7 +1312,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="beh-ar">
-          600 0 0 rmoveto
+          600 0 70 160 -20 hstem
+          480 80 vstem
+          0 0 rmoveto
           539 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 219 rlineto
@@ -1222,7 +1329,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="behDotless-ar">
-          600 0 0 rmoveto
+          600 0 70 160 -20 hstem
+          480 80 vstem
+          0 0 rmoveto
           539 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 219 rlineto
@@ -1233,7 +1342,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="behDotless-ar.fina">
-          600 0 0 rmoveto
+          600 0 70 160 -20 hstem
+          480 80 vstem
+          0 0 rmoveto
           600 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -1245,7 +1356,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="behDotless-ar.fina.1">
-          600 0 0 rmoveto
+          600 0 70 hstem
+          0 600 vstem
+          0 0 rmoveto
           600 0 rlineto
           0 70 rlineto
           -47 0 rlineto
@@ -1257,7 +1370,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="behDotless-ar.init">
-          120 -20 0 rmoveto
+          120 0 70 160 -20 hstem
+          0 80 vstem
+          -20 0 rmoveto
           79 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 219 rlineto
@@ -1267,7 +1382,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="behDotless-ar.init.hah">
-          80 -20 0 rmoveto
+          80 0 25 hstem
+          0 80 vstem
+          -20 0 rmoveto
           57 0 43 30 0 40 rrcurveto
           0 90 rlineto
           -80 -20 rlineto
@@ -1276,7 +1393,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="behDotless-ar.medi">
-          120 -20 0 rmoveto
+          120 0 70 160 -20 hstem
+          0 80 vstem
+          -20 0 rmoveto
           140 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -1287,7 +1406,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="behDotless-ar.medi.1">
-          150 -20 0 rmoveto
+          150 0 70 hstem
+          -20 170 vstem
+          -20 0 rmoveto
           170 0 rlineto
           0 70 rlineto
           -40 0 rlineto
@@ -1297,7 +1418,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="behDotless-ar.medi.high">
-          120 -20 0 rmoveto
+          120 0 70 hstem
+          0 80 vstem
+          -20 0 rmoveto
           140 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -1308,7 +1431,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="behDotless-ar.medi.high.1">
-          120 -20 0 rmoveto
+          120 0 70 170 -20 hstem
+          0 80 vstem
+          -20 0 rmoveto
           140 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -1319,7 +1444,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="behDotless-ar.medi.yeh">
-          120 80 80 rmoveto
+          120 0 70 160 -20 hstem
+          0 80 vstem
+          80 80 rmoveto
           0 150 rlineto
           -80 -20 rlineto
           0 -210 rlineto
@@ -1330,7 +1457,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="dad-ar">
-          740 -130 -250 rmoveto
+          740 -250 70 180 70 40 70 hstem
+          70 80 466 84 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -1356,7 +1485,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="dal-ar">
-          600 0 0 rmoveto
+          600 0 70 40 70 hstem
+          476 84 vstem
+          0 0 rmoveto
           539 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -1370,7 +1501,10 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="dal-ar.fina">
-          600 0 0 rmoveto
+          600 0 70 40 70 hstemhm
+          0 600 -124 124 hintmask 11100000
+          0 0 rmoveto
+          hintmask 11010000
           600 0 rlineto
           0 70 rlineto
           -43 0 rlineto
@@ -1385,14 +1519,18 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="dotabove-ar">
-          0 17 0 rmoveto
+          0 21 -21 hstem
+          0 64 vstem
+          17 0 rmoveto
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
           endchar
         </CharString>
         <CharString name="dotabove-ar.alt1">
-          0 29 0 rmoveto
+          0 0 58 hstem
+          0 58 vstem
+          29 0 rmoveto
           16 0 13 13 0 16 rrcurveto
           0 16 -13 13 -16 0 rrcurveto
           -16 0 -13 -13 0 -16 rrcurveto
@@ -1400,14 +1538,18 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="dotbelow-ar">
-          0 17 0 rmoveto
+          0 21 -21 hstem
+          0 64 vstem
+          17 0 rmoveto
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
           endchar
         </CharString>
         <CharString name="dotbelow-ar.alt1">
-          0 29 0 rmoveto
+          0 0 58 hstem
+          0 58 vstem
+          29 0 rmoveto
           16 0 13 13 0 16 rrcurveto
           0 16 -13 13 -16 0 rrcurveto
           -16 0 -13 -13 0 -16 rrcurveto
@@ -1415,7 +1557,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="eight-ar">
-          250 0 350 rmoveto
+          250 21 -21 280 70 hstem
+          0 70 70 70 vstem
+          0 350 rmoveto
           0 -350 rlineto
           70 0 rlineto
           0 280 rlineto
@@ -1426,7 +1570,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="eight-ar.1">
-          346 153 350 rmoveto
+          346 21 -21 hstem
+          0 306 vstem
+          153 350 rmoveto
           -33 0 rlineto
           -120 -327 rlineto
           66 -23 rlineto
@@ -1441,7 +1587,9 @@ You should have received a copy of the GNU Affero General Public License along w
           0 endchar
         </CharString>
         <CharString name="feh-ar">
-          613 0 0 rmoveto
+          613 0 70 40 70 40 70 hstem
+          360 80 52 81 vstem
+          0 0 rmoveto
           536 0 rlineto
           24 0 13 37 0 65 rrcurveto
           0 77 -19 111 -93 0 rrcurveto
@@ -1464,7 +1612,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="fehDotless-ar">
-          613 0 0 rmoveto
+          613 0 70 40 70 40 70 hstem
+          360 80 52 81 vstem
+          0 0 rmoveto
           536 0 rlineto
           24 0 13 37 0 65 rrcurveto
           0 77 -19 111 -93 0 rrcurveto
@@ -1483,7 +1633,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="fehDotless-ar.1">
-          600 460 110 rmoveto
+          600 0 70 40 70 40 70 hstem
+          360 80 40 80 vstem
+          460 110 rmoveto
           7 0 7 1 6 1 rrcurveto
           0 -42 rlineto
           -380 0 rlineto
@@ -1492,7 +1644,6 @@ You should have received a copy of the GNU Affero General Public License along w
           539 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 189 rlineto
-          0 0 rlineto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -50 45 -40 55 0 rrcurveto
@@ -1500,12 +1651,13 @@ You should have received a copy of the GNU Affero General Public License along w
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="fehDotless-ar.2">
-          653 0 0 rmoveto
+          653 0 70 40 70 40 70 hstem
+          400 80 52 81 vstem
+          0 0 rmoveto
           576 0 rlineto
           24 0 13 37 0 65 rrcurveto
           0 77 -19 111 -93 0 rrcurveto
@@ -1524,7 +1676,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="fehDotless-ar.3">
-          640 500 110 rmoveto
+          640 0 70 40 70 40 70 hstem
+          400 80 40 80 vstem
+          500 110 rmoveto
           7 0 7 1 6 1 rrcurveto
           0 -42 rlineto
           -420 0 rlineto
@@ -1533,7 +1687,6 @@ You should have received a copy of the GNU Affero General Public License along w
           579 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 189 rlineto
-          0 0 rlineto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -50 45 -40 55 0 rrcurveto
@@ -1541,12 +1694,13 @@ You should have received a copy of the GNU Affero General Public License along w
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="fehDotless-ar.fina">
-          613 0 0 rmoveto
+          613 0 70 40 70 40 70 hstem
+          360 80 52 81 vstem
+          0 0 rmoveto
           613 0 rlineto
           0 70 rlineto
           -41 0 rlineto
@@ -1567,7 +1721,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="fehDotless-ar.fina.1">
-          600 460 110 rmoveto
+          600 0 70 40 70 40 70 hstem
+          360 80 40 80 vstem
+          460 110 rmoveto
           7 0 7 1 6 1 rrcurveto
           0 -42 rlineto
           -380 0 rlineto
@@ -1577,7 +1733,6 @@ You should have received a copy of the GNU Affero General Public License along w
           0 70 rlineto
           -40 0 rlineto
           0 130 rlineto
-          0 0 rlineto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -50 45 -40 55 0 rrcurveto
@@ -1585,12 +1740,13 @@ You should have received a copy of the GNU Affero General Public License along w
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="fehDotless-ar.fina.2">
-          653 0 0 rmoveto
+          653 0 70 40 70 40 70 hstem
+          400 80 52 81 vstem
+          0 0 rmoveto
           653 0 rlineto
           0 70 rlineto
           -41 0 rlineto
@@ -1611,7 +1767,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="fehDotless-ar.fina.3">
-          640 500 110 rmoveto
+          640 0 70 40 70 40 70 hstem
+          400 80 40 80 vstem
+          500 110 rmoveto
           7 0 7 1 6 1 rrcurveto
           0 -42 rlineto
           -420 0 rlineto
@@ -1621,7 +1779,6 @@ You should have received a copy of the GNU Affero General Public License along w
           0 70 rlineto
           -40 0 rlineto
           0 130 rlineto
-          0 0 rlineto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -50 45 -40 55 0 rrcurveto
@@ -1629,12 +1786,13 @@ You should have received a copy of the GNU Affero General Public License along w
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="fehDotless-ar.init">
-          253 -20 0 rmoveto
+          253 0 70 40 70 40 70 hstem
+          0 80 52 81 vstem
+          -20 0 rmoveto
           196 0 rlineto
           24 0 13 37 0 65 rrcurveto
           0 77 -19 111 -93 0 rrcurveto
@@ -1652,11 +1810,12 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="fehDotless-ar.init.1">
-          240 -20 0 rmoveto
+          240 0 70 40 70 40 70 hstem
+          0 80 40 80 vstem
+          -20 0 rmoveto
           199 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 189 rlineto
-          0 0 rlineto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -50 45 -40 55 0 rrcurveto
@@ -1667,12 +1826,13 @@ You should have received a copy of the GNU Affero General Public License along w
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="fehDotless-ar.medi">
-          248 -20 0 rmoveto
+          248 0 70 170 70 hstem
+          -1 78 49 80 vstem
+          -20 0 rmoveto
           268 0 rlineto
           0 70 rlineto
           -42 0 rlineto
@@ -1691,12 +1851,13 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="fehDotless-ar.medi.1">
-          240 -20 0 rmoveto
+          240 0 70 40 70 40 70 hstem
+          0 80 40 80 vstem
+          -20 0 rmoveto
           260 0 rlineto
           0 70 rlineto
           -40 0 rlineto
           0 130 rlineto
-          0 0 rlineto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -50 45 -40 55 0 rrcurveto
@@ -1707,12 +1868,13 @@ You should have received a copy of the GNU Affero General Public License along w
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="fehDotmovedbelow-ar">
-          613 0 0 rmoveto
+          613 0 70 40 70 40 70 hstem
+          360 80 52 81 vstem
+          0 0 rmoveto
           536 0 rlineto
           24 0 13 37 0 65 rrcurveto
           0 77 -19 111 -93 0 rrcurveto
@@ -1735,7 +1897,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="five-ar">
-          250 0 350 rmoveto
+          250 0 70 210 70 hstem
+          0 70 70 70 vstem
+          0 350 rmoveto
           0 -350 rlineto
           210 0 rlineto
           0 350 rlineto
@@ -1747,26 +1911,33 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="four-ar">
-          350 120 350 rmoveto
+          350 0 70 70 70 70 70 hstemhm
+          0 70 50 70 -70 190 hintmask 11111000
+          120 350 rmoveto
           0 -140 rlineto
           -50 0 rlineto
           0 140 rlineto
           -70 0 rlineto
           0 -350 rlineto
+          hintmask 11110100
           310 0 rlineto
           0 70 rlineto
           -240 0 rlineto
           0 70 rlineto
           240 0 rlineto
           0 70 rlineto
+          hintmask 11111000
           -120 0 rlineto
           0 70 rlineto
+          hintmask 11110100
           120 0 rlineto
           0 70 rlineto
           endchar
         </CharString>
         <CharString name="four-ar.1">
-          350 120 350 rmoveto
+          350 21 -21 140 70 70 70 hstem
+          0 70 50 70 vstem
+          120 350 rmoveto
           0 -140 rlineto
           -50 0 rlineto
           0 140 rlineto
@@ -1783,22 +1954,31 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="four-ar.2">
-          250 0 350 rmoveto
+          250 0 70 70 70 70 70 hstemhm
+          0 70 -70 210 hintmask 11110000
+          0 350 rmoveto
           0 -350 rlineto
+          hintmask 11101000
           210 0 rlineto
           0 70 rlineto
+          hintmask 11110000
           -140 0 rlineto
           0 70 rlineto
+          hintmask 11101000
           140 0 rlineto
           0 70 rlineto
+          hintmask 11110000
           -140 0 rlineto
           0 70 rlineto
+          hintmask 11101000
           140 0 rlineto
           0 70 rlineto
           endchar
         </CharString>
         <CharString name="ghain-ar">
-          680 90 -110 rmoveto
+          680 -110 70 40 70 160 -20 30 -20 hstemhm
+          0 80 274 62 hintmask 11011100
+          90 -110 rmoveto
           445 0 rlineto
           41 70 rlineto
           -476 0 rlineto
@@ -1808,12 +1988,14 @@ You should have received a copy of the GNU Affero General Public License along w
           41 70 rlineto
           -139 0 rlineto
           -32 0 -53 47 0 31 rrcurveto
+          hintmask 11101100
           0 29 65 38 20 12 rrcurveto
           -1 3 rlineto
           -53 -26 -93 -47 0 -48 rrcurveto
           0 -13 6 -13 16 -13 rrcurveto
           -286 0 rlineto
           -50 0 -40 -40 0 -50 rrcurveto
+          hintmask 11011100
           0 -50 40 -40 50 0 rrcurveto
           309 340 rmoveto
           47 79 rlineto
@@ -1822,7 +2004,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hah-ar">
-          640 90 -110 rmoveto
+          640 -110 70 40 70 hstem
+          0 80 vstem
+          90 -110 rmoveto
           405 0 rlineto
           41 70 rlineto
           -436 0 rlineto
@@ -1840,7 +2024,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hah-ar.1">
-          660 90 -110 rmoveto
+          660 -110 70 40 70 hstem
+          0 80 vstem
+          90 -110 rmoveto
           425 0 rlineto
           41 70 rlineto
           -456 0 rlineto
@@ -1858,7 +2044,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hah-ar.2">
-          680 90 -110 rmoveto
+          680 -110 70 40 70 hstem
+          0 80 vstem
+          90 -110 rmoveto
           445 0 rlineto
           41 70 rlineto
           -476 0 rlineto
@@ -1876,7 +2064,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hah-ar.3">
-          490 199 -250 rmoveto
+          490 -250 31 219 70 hstem
+          0 80 vstem
+          199 -250 rmoveto
           43 0 46 8 76 35 rrcurveto
           -49 -8 -35 -4 -26 0 rrcurveto
           -83 0 -91 36 0 90 rrcurveto
@@ -1893,13 +2083,17 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hah-ar.4">
-          607 131 -110 rmoveto
+          607 -110 70 40 70 0 83 hstemhm
+          0 42 hintmask 11010000
+          131 -110 rmoveto
           331 0 rlineto
           41 70 rlineto
           -344 0 rlineto
           -32 0 -22 3 -23 23 rrcurveto
+          hintmask 10110000
           -31 31 rlineto
           -17 17 9 47 14 -14 rrcurveto
+          hintmask 11010000
           52 -52 rlineto
           10 -10 9 -5 12 0 rrcurveto
           386 0 rlineto
@@ -1911,18 +2105,24 @@ You should have received a copy of the GNU Affero General Public License along w
           -93 0 rlineto
           -9 0 -5 5 -4 4 rrcurveto
           -64 64 rlineto
+          hintmask 10110000
           -50 50 -44 -149 0 -49 rrcurveto
+          hintmask 11010000
           0 -85 57 -19 74 -1 rrcurveto
           endchar
         </CharString>
         <CharString name="hah-ar.5">
-          627 131 -110 rmoveto
+          627 -110 70 40 70 0 83 hstemhm
+          0 42 hintmask 11010000
+          131 -110 rmoveto
           351 0 rlineto
           41 70 rlineto
           -364 0 rlineto
           -32 0 -22 3 -23 23 rrcurveto
+          hintmask 10110000
           -31 31 rlineto
           -17 17 9 47 14 -14 rrcurveto
+          hintmask 11010000
           52 -52 rlineto
           10 -10 9 -5 12 0 rrcurveto
           406 0 rlineto
@@ -1934,12 +2134,16 @@ You should have received a copy of the GNU Affero General Public License along w
           -93 0 rlineto
           -9 0 -5 5 -4 4 rrcurveto
           -64 64 rlineto
+          hintmask 10110000
           -50 50 -44 -149 0 -49 rrcurveto
+          hintmask 11010000
           0 -85 57 -19 74 -1 rrcurveto
           endchar
         </CharString>
         <CharString name="hah-ar.fina">
-          371 312 -160 rmoveto
+          371 -250 31 219 70 160 -20 hstem
+          0 80 vstem
+          312 -160 rmoveto
           59 57 rlineto
           -59 103 rlineto
           59 0 rlineto
@@ -1959,7 +2163,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hah-ar.fina.1">
-          490 199 -250 rmoveto
+          490 -250 31 219 70 hstem
+          0 80 vstem
+          199 -250 rmoveto
           43 0 46 8 76 35 rrcurveto
           -49 -8 -35 -4 -26 0 rrcurveto
           -83 0 -91 36 0 90 rrcurveto
@@ -1976,7 +2182,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hah-ar.init">
-          400 -20 0 rmoveto
+          400 0 70 hstem
+          -20 380 vstem
+          -20 0 rmoveto
           339 0 rlineto
           41 70 rlineto
           -137 0 rlineto
@@ -1987,7 +2195,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hah-ar.init.1">
-          420 -20 0 rmoveto
+          420 0 70 hstem
+          -20 400 vstem
+          -20 0 rmoveto
           359 0 rlineto
           41 70 rlineto
           -157 0 rlineto
@@ -1998,7 +2208,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hah-ar.init.2">
-          440 -20 0 rmoveto
+          440 0 70 hstem
+          -20 420 vstem
+          -20 0 rmoveto
           379 0 rlineto
           41 70 rlineto
           -177 0 rlineto
@@ -2009,7 +2221,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hah-ar.medi">
-          191 192 -160 rmoveto
+          191 0 70 160 -20 hstem
+          -20 271 vstem
+          192 -160 rmoveto
           59 57 rlineto
           -59 103 rlineto
           59 0 rlineto
@@ -2025,7 +2239,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hah-ar.medi.1">
-          400 -20 0 rmoveto
+          400 0 70 hstem
+          -20 380 vstem
+          -20 0 rmoveto
           339 0 rlineto
           41 70 rlineto
           -137 0 rlineto
@@ -2036,7 +2252,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hamza-ar">
-          296 165 50 rmoveto
+          296 0 50 57 43 hstem
+          85 56 vstem
+          165 50 rmoveto
           -15 0 -9 12 0 14 rrcurveto
           0 15 12 16 26 0 rrcurveto
           10 0 11 -2 13 -5 rrcurveto
@@ -2050,7 +2268,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hamzaabove-ar">
-          0 72 29 rmoveto
+          0 0 29 33 25 hstem
+          0 125 vstem
+          72 29 rmoveto
           -8 0 -5 7 0 8 rrcurveto
           0 9 7 9 15 0 rrcurveto
           5 0 7 -1 7 -3 rrcurveto
@@ -2064,7 +2284,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="hamzabelow-ar">
-          0 72 29 rmoveto
+          0 0 29 33 25 hstem
+          0 125 vstem
+          72 29 rmoveto
           -8 0 -5 7 0 8 rrcurveto
           0 9 7 9 15 0 rrcurveto
           5 0 7 -1 7 -3 rrcurveto
@@ -2078,14 +2300,12 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="heh-ar">
-          240 100 0 rmoveto
+          240 0 70 40 70 hstem
+          0 80 40 80 vstem
+          100 0 rmoveto
           65 0 35 30 0 60 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           0 130 rlineto
           -20 -35 -40 -5 -40 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -60 45 -30 55 0 rrcurveto
           0 70 rmoveto
@@ -2096,18 +2316,15 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="heh-ar.1">
-          240 100 0 rmoveto
+          240 0 70 40 70 hstem
+          0 80 40 80 vstem
+          100 0 rmoveto
           65 0 35 30 0 60 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           0 130 rlineto
-          0 0 0 0 0 0 rrcurveto
           0 110 rlineto
           -80 -20 rlineto
           0 -129 rlineto
           -7 -1 -6 0 -7 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -60 45 -30 55 0 rrcurveto
           0 70 rmoveto
@@ -2118,18 +2335,15 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="heh-ar.2">
-          240 100 0 rmoveto
+          240 0 70 40 70 380 -20 hstem
+          0 80 40 80 vstem
+          100 0 rmoveto
           65 0 35 30 0 60 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           0 130 rlineto
-          0 0 0 0 0 0 rrcurveto
           0 340 rlineto
           -80 -20 rlineto
           0 -359 rlineto
           -7 -1 -6 0 -7 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -60 45 -30 55 0 rrcurveto
           0 70 rmoveto
@@ -2140,89 +2354,75 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="heh-ar.fina">
-          240 100 0 rmoveto
+          240 0 70 40 70 hstem
+          0 80 40 80 vstem
+          100 0 rmoveto
           140 0 rlineto
           0 70 rlineto
           -40 0 rlineto
           0 20 rlineto
-          0 0 rlineto
           0 130 rlineto
           -20 -35 -40 -5 -40 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -60 45 -30 55 0 rrcurveto
           0 70 rmoveto
-          0 0 rlineto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="heh-ar.fina.1">
-          240 100 0 rmoveto
+          240 0 70 40 70 hstem
+          0 80 40 80 vstem
+          100 0 rmoveto
           140 0 rlineto
           0 70 rlineto
           -40 0 rlineto
           0 20 rlineto
-          0 0 rlineto
           0 130 rlineto
-          0 0 0 0 0 0 rrcurveto
           0 110 rlineto
           -80 -20 rlineto
           0 -129 rlineto
           -7 -1 -6 0 -7 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -60 45 -30 55 0 rrcurveto
           0 70 rmoveto
-          0 0 rlineto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="heh-ar.fina.2">
-          240 100 0 rmoveto
+          240 0 70 40 70 380 -20 hstem
+          0 80 40 80 vstem
+          100 0 rmoveto
           140 0 rlineto
           0 70 rlineto
           -40 0 rlineto
           0 20 rlineto
-          0 0 rlineto
           0 130 rlineto
-          0 0 0 0 0 0 rrcurveto
           0 340 rlineto
           -80 -20 rlineto
           0 -359 rlineto
           -7 -1 -6 0 -7 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -60 45 -30 55 0 rrcurveto
           0 70 rmoveto
-          0 0 rlineto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="heh-ar.init">
-          240 100 -110 rmoveto
+          240 -110 70 40 70 40 70 hstem
+          0 80 40 80 vstem
+          100 -110 rmoveto
           65 0 35 30 0 60 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           0 235 rlineto
           -20 -35 -40 0 -40 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
-          0 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -7 1 -7 1 -6 rrcurveto
           -52 0 rlineto
@@ -2243,19 +2443,15 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="heh-ar.init.1">
-          240 100 -110 rmoveto
+          240 -110 70 40 70 40 70 51 -20 hstem
+          0 80 40 80 vstem
+          100 -110 rmoveto
           65 0 35 30 0 60 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           0 235 rlineto
-          0 0 0 0 0 0 rrcurveto
           0 36 rlineto
           -80 -20 rlineto
           0 -51 rlineto
-          -7 0 -6 0 -7 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
-          0 0 rlineto
+          -20 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -7 1 -7 1 -6 rrcurveto
           -52 0 rlineto
@@ -2276,51 +2472,46 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="heh-ar.init.2">
-          240 -20 0 rmoveto
+          240 0 70 40 20 40 70 hstemhm
+          -20 220 -200 80 40 80 hintmask 11110000
+          -20 0 rmoveto
+          hintmask 11101100
           199 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 29 rlineto
-          0 0 rlineto
           0 235 rlineto
           -20 -35 -40 0 -40 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
-          0 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -11 2 -10 4 -9 rrcurveto
           -4 -9 -2 -10 0 -11 rrcurveto
           0 -7 1 -7 1 -6 rrcurveto
+          hintmask 11110000
           -22 0 rlineto
+          hintmask 11101100
           120 60 rmoveto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           0 -60 rmoveto
-          0 0 rlineto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="heh-ar.init.3">
-          240 -20 0 rmoveto
+          240 0 70 40 20 40 70 hstem
+          0 80 40 80 vstem
+          -20 0 rmoveto
           199 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 29 rlineto
-          0 0 rlineto
           0 235 rlineto
-          0 0 0 0 0 0 rrcurveto
           0 35 rlineto
           -80 -20 rlineto
           0 -50 rlineto
-          -7 0 -6 0 -7 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
-          0 0 rlineto
+          -20 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -11 2 -10 4 -9 rrcurveto
           -4 -9 -2 -10 0 -11 rrcurveto
@@ -2330,31 +2521,30 @@ You should have received a copy of the GNU Affero General Public License along w
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           0 -60 rmoveto
-          0 0 rlineto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="heh-ar.init.4">
-          240 -20 0 rmoveto
+          240 0 70 36 8 36 70 hstemhm
+          -20 220 -202 82 -82 202 -80 80 hintmask 11110000
+          -20 0 rmoveto
+          hintmask 11101010
           199 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 9 rlineto
-          0 0 rlineto
           0 235 rlineto
           -20 -35 -20 0 -40 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
-          0 0 rlineto
+          hintmask 11100100
           -65 0 -57 -32 0 -72 rrcurveto
           0 -18 4 -16 6 -12 rrcurveto
+          hintmask 11110000
           -28 0 rlineto
+          hintmask 11101010
           100 44 rmoveto
           2 20 17 16 21 0 rrcurveto
           -2 -20 -17 -16 -21 0 rrcurveto
@@ -2364,13 +2554,13 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="heh-ar.init.5">
-          240 -20 0 rmoveto
+          240 0 70 36 8 36 70 hstem
+          -2 82 40 80 vstem
+          -20 0 rmoveto
           199 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 9 rlineto
-          0 0 rlineto
           0 235 rlineto
-          0 0 0 0 0 0 rrcurveto
           0 35 rlineto
           -80 -20 rlineto
           0 -50 rlineto
@@ -2386,33 +2576,37 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="heh-ar.init.6">
-          240 -20 0 rmoveto
+          240 0 70 160 -20 hstemhm
+          -20 220 -200 200 -80 80 hintmask 11100000
+          -20 0 rmoveto
+          hintmask 11001000
           199 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 9 rlineto
-          0 0 rlineto
           0 245 rlineto
           -16 -28 -24 -7 -40 0 rrcurveto
+          hintmask 11010000
           -74 0 -46 -40 0 -63 rrcurveto
           0 -23 6 -20 6 -14 rrcurveto
+          hintmask 11100000
           -32 0 rlineto
+          hintmask 11001000
           109 90 rmoveto
           31 -30 rlineto
-          0 0 rlineto
           -40 -10 rlineto
           31 -50 rmoveto
           -31 30 rlineto
           40 10 rlineto
-          0 0 rlineto
           -9 -40 rlineto
           endchar
         </CharString>
         <CharString name="heh-ar.init.7">
-          240 -20 0 rmoveto
+          240 0 70 160 -20 hstem
+          120 80 vstem
+          -20 0 rmoveto
           199 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 9 rlineto
-          0 0 rlineto
           0 245 rlineto
           0 35 rlineto
           -80 -20 rlineto
@@ -2422,29 +2616,24 @@ You should have received a copy of the GNU Affero General Public License along w
           -32 0 rlineto
           109 90 rmoveto
           31 -30 rlineto
-          0 0 rlineto
           -40 -10 rlineto
           31 -50 rmoveto
           -31 30 rlineto
           40 10 rlineto
-          0 0 rlineto
           -9 -40 rlineto
           endchar
         </CharString>
         <CharString name="heh-ar.medi">
-          240 100 -110 rmoveto
+          240 -110 70 40 70 40 70 hstem
+          0 80 40 80 vstem
+          100 -110 rmoveto
           65 0 35 30 0 60 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           0 20 rlineto
           40 0 rlineto
           0 70 rlineto
           -40 0 rlineto
           0 145 rlineto
           -20 -35 -40 0 -40 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
-          0 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -7 1 -7 1 -6 rrcurveto
           -52 0 rlineto
@@ -2465,23 +2654,19 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="heh-ar.medi.1">
-          240 100 -110 rmoveto
+          240 -110 70 40 70 40 70 51 -20 hstem
+          0 80 40 80 vstem
+          100 -110 rmoveto
           65 0 35 30 0 60 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           0 20 rlineto
           40 0 rlineto
           0 70 rlineto
           -40 0 rlineto
           0 145 rlineto
-          0 0 0 0 0 0 rrcurveto
           0 36 rlineto
           -80 -20 rlineto
           0 -51 rlineto
-          -7 0 -6 0 -7 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
-          0 0 rlineto
+          -20 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -7 1 -7 1 -6 rrcurveto
           -52 0 rlineto
@@ -2502,15 +2687,14 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="heh-ar.medi.2">
-          240 -20 0 rmoveto
+          240 0 70 40 20 40 70 hstem
+          0 80 40 80 vstem
+          -20 0 rmoveto
           260 0 rlineto
           0 70 rlineto
           -40 0 rlineto
           0 205 rlineto
           -20 -35 -40 0 -40 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
-          0 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -11 2 -10 4 -9 rrcurveto
           -4 -9 -2 -10 0 -11 rrcurveto
@@ -2520,31 +2704,26 @@ You should have received a copy of the GNU Affero General Public License along w
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           0 -60 rmoveto
-          0 0 rlineto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="heh-ar.medi.3">
-          240 -20 0 rmoveto
+          240 0 70 40 20 40 70 hstem
+          0 80 40 80 vstem
+          -20 0 rmoveto
           260 0 rlineto
           0 70 rlineto
           -40 0 rlineto
           0 205 rlineto
-          0 0 0 0 0 0 rrcurveto
           0 35 rlineto
           -80 -20 rlineto
           0 -50 rlineto
-          -7 0 -6 0 -7 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
-          0 0 rlineto
+          -20 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -11 2 -10 4 -9 rrcurveto
           -4 -9 -2 -10 0 -11 rrcurveto
@@ -2554,30 +2733,28 @@ You should have received a copy of the GNU Affero General Public License along w
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           0 -60 rmoveto
-          0 0 rlineto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="heh-ar.medi.4">
-          240 -20 0 rmoveto
+          240 0 70 36 8 36 70 hstemhm
+          -2 82 -82 202 -80 80 hintmask 11110100
+          -20 0 rmoveto
           260 0 rlineto
           0 70 rlineto
           -40 0 rlineto
           0 185 rlineto
           -20 -35 -20 0 -40 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
-          0 0 rlineto
+          hintmask 11101000
           -65 0 -57 -32 0 -72 rrcurveto
           0 -18 4 -16 6 -12 rrcurveto
           -28 0 rlineto
+          hintmask 11110100
           100 44 rmoveto
           2 20 17 16 21 0 rrcurveto
           -2 -20 -17 -16 -21 0 rrcurveto
@@ -2587,12 +2764,13 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="heh-ar.medi.5">
-          240 -20 0 rmoveto
+          240 0 70 36 8 36 70 hstem
+          -2 82 40 80 vstem
+          -20 0 rmoveto
           260 0 rlineto
           0 70 rlineto
           -40 0 rlineto
           0 185 rlineto
-          0 0 0 0 0 0 rrcurveto
           0 35 rlineto
           -80 -20 rlineto
           0 -50 rlineto
@@ -2608,28 +2786,34 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="heh-ar.medi.6">
-          240 -20 0 rmoveto
+          240 0 70 160 -20 hstemhm
+          -20 220 -200 200 -80 80 hintmask 11100000
+          -20 0 rmoveto
+          hintmask 11001000
           260 0 rlineto
           0 70 rlineto
           -40 0 rlineto
           0 195 rlineto
           -16 -28 -24 -7 -40 0 rrcurveto
+          hintmask 11010000
           -74 0 -46 -40 0 -63 rrcurveto
           0 -23 6 -20 6 -14 rrcurveto
+          hintmask 11100000
           -32 0 rlineto
+          hintmask 11001000
           109 90 rmoveto
           31 -30 rlineto
-          0 0 rlineto
           -40 -10 rlineto
           31 -50 rmoveto
           -31 30 rlineto
           40 10 rlineto
-          0 0 rlineto
           -9 -40 rlineto
           endchar
         </CharString>
         <CharString name="heh-ar.medi.7">
-          240 -20 0 rmoveto
+          240 0 70 160 -20 hstem
+          120 80 vstem
+          -20 0 rmoveto
           260 0 rlineto
           0 70 rlineto
           -40 0 rlineto
@@ -2642,17 +2826,17 @@ You should have received a copy of the GNU Affero General Public License along w
           -32 0 rlineto
           109 90 rmoveto
           31 -30 rlineto
-          0 0 rlineto
           -40 -10 rlineto
           31 -50 rmoveto
           -31 30 rlineto
           40 10 rlineto
-          0 0 rlineto
           -9 -40 rlineto
           endchar
         </CharString>
         <CharString name="jeem-ar">
-          640 90 -110 rmoveto
+          640 -110 70 40 70 hstem
+          0 80 vstem
+          90 -110 rmoveto
           405 0 rlineto
           41 70 rlineto
           -436 0 rlineto
@@ -2674,7 +2858,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kaf-ar">
-          640 116 0 rmoveto
+          640 0 70 40 70 380 -20 hstem
+          40 80 396 84 vstem
+          116 0 rmoveto
           463 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -2690,7 +2876,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kaf-ar.1">
-          640 62 110 rmoveto
+          640 0 70 40 70 380 -20 hstem
+          111 78 327 84 vstem
+          62 110 rmoveto
           414 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -476 0 rlineto
@@ -2707,7 +2895,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kaf-ar.2">
-          640 116 0 rmoveto
+          640 0 70 40 70 hstem
+          516 84 vstem
+          116 0 rmoveto
           463 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -2723,7 +2913,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kaf-ar.fina">
-          640 116 0 rmoveto
+          640 0 70 40 70 380 -20 hstem
+          40 80 396 124 vstem
+          116 0 rmoveto
           524 0 rlineto
           0 70 rlineto
           -43 0 rlineto
@@ -2740,7 +2932,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kaf-ar.fina.1">
-          640 62 110 rmoveto
+          640 0 70 40 70 380 -20 hstem
+          111 78 327 124 vstem
+          62 110 rmoveto
           414 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -476 0 rlineto
@@ -2758,7 +2952,10 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kaf-ar.fina.2">
-          640 116 0 rmoveto
+          640 0 70 40 70 hstemhm
+          0 640 -124 124 hintmask 11100000
+          116 0 rmoveto
+          hintmask 11010000
           524 0 rlineto
           0 70 rlineto
           -43 0 rlineto
@@ -2771,11 +2968,14 @@ You should have received a copy of the GNU Affero General Public License along w
           22 0 18 -18 0 -22 rrcurveto
           -476 0 rlineto
           -40 -70 rlineto
+          hintmask 11100000
           116 0 rlineto
           endchar
         </CharString>
         <CharString name="kaf-ar.init">
-          580 -20 0 rmoveto
+          580 0 70 40 70 hstem
+          456 84 vstem
+          -20 0 rmoveto
           539 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -2789,7 +2989,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kaf-ar.init.1">
-          600 22 110 rmoveto
+          600 0 70 40 70 380 -20 hstem
+          73 77 326 84 vstem
+          22 110 rmoveto
           414 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -494 0 rlineto
@@ -2804,7 +3006,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kaf-ar.init.2">
-          600 -20 0 rmoveto
+          600 0 70 40 70 380 -20 hstem
+          0 80 396 84 vstem
+          -20 0 rmoveto
           559 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -2818,7 +3022,10 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kaf-ar.medi">
-          580 -20 0 rmoveto
+          580 0 70 40 70 hstemhm
+          -20 600 -124 124 hintmask 11100000
+          -20 0 rmoveto
+          hintmask 11010000
           600 0 rlineto
           0 70 rlineto
           -43 0 rlineto
@@ -2833,7 +3040,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kaf-ar.medi.1">
-          600 -20 0 rmoveto
+          600 0 70 40 70 380 -20 hstem
+          0 80 396 124 vstem
+          -20 0 rmoveto
           620 0 rlineto
           0 70 rlineto
           -43 0 rlineto
@@ -2848,7 +3057,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kaf-ar.medi.2">
-          600 22 110 rmoveto
+          600 0 70 40 70 380 -20 hstem
+          73 77 326 124 vstem
+          22 110 rmoveto
           414 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -494 0 rlineto
@@ -2864,14 +3075,18 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="kashida-ar.medi">
-          80 -20 0 rmoveto
+          80 0 70 hstem
+          -20 100 vstem
+          -20 0 rmoveto
           100 0 rlineto
           0 70 rlineto
           -100 0 rlineto
           endchar
         </CharString>
         <CharString name="khah-ar">
-          640 90 -110 rmoveto
+          640 -110 70 40 70 172 -20 hstem
+          0 80 vstem
+          90 -110 rmoveto
           405 0 rlineto
           41 70 rlineto
           -436 0 rlineto
@@ -2893,7 +3108,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar">
-          190 -130 -250 rmoveto
+          190 -250 70 740 -20 hstem
+          70 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 770 rlineto
@@ -2904,7 +3121,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar.fina">
-          190 -130 -250 rmoveto
+          190 -250 70 180 70 490 -20 hstem
+          70 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -2919,7 +3138,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar.init">
-          120 -20 0 rmoveto
+          120 0 70 490 -20 hstem
+          0 80 vstem
+          -20 0 rmoveto
           62 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 520 rlineto
@@ -2929,7 +3150,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar.init.hah">
-          80 -20 0 rmoveto
+          80 0 25 hstem
+          0 80 vstem
+          -20 0 rmoveto
           57 0 43 30 0 40 rrcurveto
           0 380 rlineto
           -80 -20 rlineto
@@ -2938,7 +3161,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar.init.hah2">
-          80 -20 0 rmoveto
+          80 0 25 hstem
+          0 80 vstem
+          -20 0 rmoveto
           57 0 43 30 0 40 rrcurveto
           0 270 rlineto
           -80 -20 rlineto
@@ -2947,7 +3172,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar.init.lellah">
-          120 -20 0 rmoveto
+          120 0 70 hstem
+          0 80 vstem
+          -20 0 rmoveto
           62 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 490 rlineto
@@ -2957,7 +3184,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar.init.short">
-          120 -20 0 rmoveto
+          120 0 70 hstem
+          0 80 vstem
+          -20 0 rmoveto
           62 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 410 rlineto
@@ -2967,7 +3196,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar.init.short2">
-          120 -20 0 rmoveto
+          120 0 70 hstem
+          0 80 vstem
+          -20 0 rmoveto
           62 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 300 rlineto
@@ -2977,7 +3208,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar.medi">
-          120 -20 0 rmoveto
+          120 0 70 490 -20 hstem
+          0 80 vstem
+          -20 0 rmoveto
           140 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -2988,7 +3221,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar.medi.lellah">
-          120 -20 0 rmoveto
+          120 0 70 hstem
+          0 80 vstem
+          -20 0 rmoveto
           140 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -2999,7 +3234,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar.medi.short">
-          120 -20 0 rmoveto
+          120 0 70 hstem
+          0 80 vstem
+          -20 0 rmoveto
           140 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -3010,7 +3247,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar.medi.short2">
-          120 -20 0 rmoveto
+          120 0 70 hstem
+          0 80 vstem
+          -20 0 rmoveto
           140 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -3021,7 +3260,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam-ar.medi.yeh">
-          120 80 80 rmoveto
+          120 0 70 490 -20 hstem
+          0 80 vstem
+          80 80 rmoveto
           0 480 rlineto
           -80 -20 rlineto
           0 -540 rlineto
@@ -3032,15 +3273,19 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam_alef-ar">
-          360 0 0 rmoveto
+          360 0 70 490 -20 hstemhm
+          -40 362 -92 92 hintmask 11100000
+          0 0 rmoveto
           320 0 rlineto
           -114 197 rlineto
+          hintmask 11010000
           65 109 39 134 12 120 rrcurveto
           -92 -40 rlineto
           -4 -101 -17 -84 -35 -81 rrcurveto
           -154 266 rlineto
           -60 -57 rlineto
           169 -294 rlineto
+          hintmask 11100000
           -33 -54 -42 -55 -54 -60 rrcurveto
           156 123 rmoveto
           31 -53 rlineto
@@ -3049,7 +3294,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam_alef-ar.1">
-          255 0 0 rmoveto
+          255 0 70 490 -20 hstem
+          0 80 55 80 vstem
+          0 0 rmoveto
           215 0 rlineto
           0 100 rlineto
           0 29 -13 31 -30 22 rrcurveto
@@ -3069,7 +3316,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam_alef-ar.2">
-          320 0 0 rmoveto
+          320 0 60 500 -20 hstem
+          40 80 40 80 vstem
+          0 0 rmoveto
           280 0 rlineto
           -108 142 rlineto
           68 68 rlineto
@@ -3089,7 +3338,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam_alef-ar.3">
-          320 0 0 rmoveto
+          320 0 60 500 -20 hstem
+          40 80 40 80 vstem
+          0 0 rmoveto
           280 0 rlineto
           -108 142 rlineto
           68 68 rlineto
@@ -3109,7 +3360,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam_alef-ar.4">
-          400 0 0 rmoveto
+          400 0 70 490 -20 hstem
+          80 80 40 80 vstem
+          0 0 rmoveto
           360 0 rlineto
           -46 34 -62 54 -42 52 rrcurveto
           41 41 rlineto
@@ -3132,7 +3385,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam_alef-ar.5">
-          400 0 0 rmoveto
+          400 0 70 490 -20 hstem
+          80 80 40 80 vstem
+          0 0 rmoveto
           360 0 rlineto
           -46 34 -62 54 -42 52 rrcurveto
           41 41 rlineto
@@ -3155,17 +3410,21 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam_alef-ar.fina">
-          360 0 0 rmoveto
+          360 0 70 490 -20 hstemhm
+          -40 400 -130 92 hintmask 11100000
+          0 0 rmoveto
           360 0 rlineto
           0 70 rlineto
           -80 0 rlineto
           -74 127 rlineto
+          hintmask 11010000
           65 109 39 134 12 120 rrcurveto
           -92 -40 rlineto
           -4 -101 -17 -84 -35 -81 rrcurveto
           -154 266 rlineto
           -60 -57 rlineto
           169 -294 rlineto
+          hintmask 11100000
           -33 -54 -42 -55 -54 -60 rrcurveto
           156 123 rmoveto
           31 -53 rlineto
@@ -3174,7 +3433,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam_alef-ar.fina.1">
-          255 0 0 rmoveto
+          255 0 70 490 -20 hstem
+          0 80 55 80 vstem
+          0 0 rmoveto
           255 0 rlineto
           0 70 rlineto
           -40 0 rlineto
@@ -3196,8 +3457,11 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam_alef-ar.fina.2">
-          320 0 0 rmoveto
+          320 0 60 -60 70 490 -20 hstemhm
+          40 80 40 80 hintmask 10111000
+          0 0 rmoveto
           320 0 rlineto
+          hintmask 01111000
           0 70 rlineto
           -93 0 rlineto
           -55 72 rlineto
@@ -3213,13 +3477,18 @@ You should have received a copy of the GNU Affero General Public License along w
           68 -68 rlineto
           32 -32 rmoveto
           40 -40 rlineto
+          hintmask 10111000
           -17 -13 -46 0 -17 13 rrcurveto
+          hintmask 01111000
           40 40 rlineto
           endchar
         </CharString>
         <CharString name="lam_alef-ar.fina.3">
-          320 0 0 rmoveto
+          320 0 60 -60 70 490 -20 hstemhm
+          40 80 40 80 hintmask 10111000
+          0 0 rmoveto
           320 0 rlineto
+          hintmask 01111000
           0 70 rlineto
           -93 0 rlineto
           -55 72 rlineto
@@ -3235,12 +3504,16 @@ You should have received a copy of the GNU Affero General Public License along w
           68 -68 rlineto
           32 -32 rmoveto
           40 -40 rlineto
+          hintmask 10111000
           -17 -13 -46 0 -17 13 rrcurveto
+          hintmask 01111000
           40 40 rlineto
           endchar
         </CharString>
         <CharString name="lam_alef-ar.fina.4">
-          400 0 0 rmoveto
+          400 0 70 490 -20 hstem
+          80 80 40 80 vstem
+          0 0 rmoveto
           400 0 rlineto
           0 70 rlineto
           -124 0 rlineto
@@ -3265,7 +3538,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="lam_alef-ar.fina.5">
-          400 0 0 rmoveto
+          400 0 70 490 -20 hstem
+          80 80 40 80 vstem
+          0 0 rmoveto
           400 0 rlineto
           0 70 rlineto
           -124 0 rlineto
@@ -3290,11 +3565,15 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="meem-ar">
-          440 0 0 rmoveto
+          440 0 70 -70 180 -70 70 hstemhm
+          200 80 40 80 hintmask 10111000
+          0 0 rmoveto
           300 0 rlineto
           65 0 35 30 0 60 rrcurveto
+          hintmask 01011000
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
+          hintmask 10111000
           0 -7 1 -7 1 -6 rrcurveto
           -102 0 rlineto
           -20 0 -17 5 -11 15 rrcurveto
@@ -3306,12 +3585,15 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="meem-ar.1">
-          280 0 0 rmoveto
+          280 0 70 -70 180 -70 70 hstemhm
+          40 80 40 80 hintmask 10111000
+          0 0 rmoveto
           140 0 rlineto
-          0 0 rlineto
           65 0 35 30 0 60 rrcurveto
+          hintmask 01011000
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
+          hintmask 10111000
           0 -40 -5 -30 -35 -20 rrcurveto
           140 70 rmoveto
           -11 0 -9 9 0 11 rrcurveto
@@ -3321,12 +3603,16 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="meem-ar.2">
-          278 138 -40 rmoveto
+          278 -40 70 -9 -21 70 70 hstemhm
+          158 80 hintmask 10110000
+          138 -40 rmoveto
           65 0 35 30 0 60 rrcurveto
           0 50 -45 40 -55 0 rrcurveto
           -52 0 -43 -36 -5 -46 rrcurveto
+          hintmask 01110000
           -3 -24 -10 -20 -25 -14 rrcurveto
           52 0 rlineto
+          hintmask 10110000
           17 -27 32 -13 37 0 rrcurveto
           0 70 rmoveto
           -11 0 -9 9 0 11 rrcurveto
@@ -3336,13 +3622,19 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="meem-ar.fina">
-          440 0 0 rmoveto
+          440 0 70 -70 180 -70 70 hstemhm
+          200 80 40 80 -80 120 hintmask 10111000
+          0 0 rmoveto
+          hintmask 10110100
           440 0 rlineto
           0 70 rlineto
+          hintmask 10111000
           -41 0 rlineto
+          hintmask 01011000
           0 6 1 7 0 7 rrcurveto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
+          hintmask 10111000
           0 -7 1 -7 1 -6 rrcurveto
           -102 0 rlineto
           -20 0 -17 5 -11 15 rrcurveto
@@ -3354,16 +3646,21 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="meem-ar.fina.1">
-          280 0 0 rmoveto
+          280 0 70 -70 180 -70 70 hstemhm
+          40 80 40 80 -80 120 hintmask 10111000
+          0 0 rmoveto
+          hintmask 10110100
           280 0 rlineto
           0 70 rlineto
+          hintmask 10111000
           -41 0 rlineto
+          hintmask 01011000
           0 6 1 7 0 7 rrcurveto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
+          hintmask 10111000
           0 -40 -5 -30 -35 -20 rrcurveto
           140 70 rmoveto
-          0 0 rlineto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
@@ -3371,16 +3668,23 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="meem-ar.fina.2">
-          278 138 -40 rmoveto
+          278 -40 70 -30 70 0 70 hstemhm
+          158 120 hintmask 10010000
+          138 -40 rmoveto
+          hintmask 01010000
           43 0 30 13 16 27 rrcurveto
           51 0 rlineto
           0 70 rlineto
           -43 0 rlineto
+          hintmask 00110000
           -10 40 -39 30 -48 0 rrcurveto
           -52 0 -43 -36 -5 -46 rrcurveto
+          hintmask 01010000
           -3 -24 -10 -20 -25 -14 rrcurveto
           52 0 rlineto
+          hintmask 10010000
           17 -27 32 -13 37 0 rrcurveto
+          hintmask 10110000
           0 70 rmoveto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
@@ -3389,13 +3693,19 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="meem-ar.init">
-          240 -20 0 rmoveto
+          240 0 70 -70 180 -70 70 hstemhm
+          -20 100 -80 80 40 80 hintmask 10110100
+          -20 0 rmoveto
           120 0 rlineto
           65 0 35 30 0 60 rrcurveto
+          hintmask 01001100
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
+          hintmask 10101100
           0 -7 1 -7 1 -6 rrcurveto
+          hintmask 10110100
           -22 0 rlineto
+          hintmask 10101100
           120 0 rmoveto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
@@ -3404,15 +3714,20 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="meem-ar.medi">
-          240 -20 0 rmoveto
+          240 0 70 40 70 hstemhm
+          -20 100 -80 80 40 80 -80 120 hintmask 11100100
+          -20 0 rmoveto
           260 0 rlineto
           0 70 rlineto
+          hintmask 11011000
           -41 0 rlineto
           0 6 1 7 0 7 rrcurveto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -7 1 -7 1 -6 rrcurveto
+          hintmask 11101000
           -22 0 rlineto
+          hintmask 11011000
           120 0 rmoveto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
@@ -3421,17 +3736,24 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="meem-ar.medi.1">
-          240 100 -40 rmoveto
+          240 -40 70 -30 70 0 70 hstemhm
+          -20 100 40 120 hintmask 10011000
+          100 -40 rmoveto
+          hintmask 01011000
           43 0 30 13 16 27 rrcurveto
           51 0 rlineto
           0 70 rlineto
           -43 0 rlineto
+          hintmask 00111000
           -10 40 -39 30 -48 0 rrcurveto
+          hintmask 01011000
           -48 0 -39 -30 -11 -40 rrcurveto
           -22 0 rlineto
           0 -70 rlineto
           31 0 rlineto
+          hintmask 10011000
           16 -27 30 -13 43 0 rrcurveto
+          hintmask 10111000
           0 70 rmoveto
           -11 0 -9 8 0 11 rrcurveto
           0 2 rlineto
@@ -3441,7 +3763,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="nine-ar">
-          250 210 350 rmoveto
+          250 21 -21 140 70 70 70 hstem
+          0 70 70 70 vstem
+          210 350 rmoveto
           -210 0 rlineto
           0 -210 rlineto
           140 0 rlineto
@@ -3455,7 +3779,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="noon-ar">
-          190 -130 -250 rmoveto
+          190 -250 70 hstem
+          70 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 270 rlineto
@@ -3472,7 +3798,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="noonghunna-ar">
-          190 -130 -250 rmoveto
+          190 -250 70 hstem
+          70 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 270 rlineto
@@ -3485,7 +3813,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="noonghunna-ar.fina">
-          190 -130 -250 rmoveto
+          190 -250 70 180 70 hstem
+          70 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3501,30 +3831,42 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="one-ar">
-          110 0 350 rmoveto
+          110 21 -21 hstem
+          0 70 vstem
+          0 350 rmoveto
           0 -350 rlineto
           70 0 rlineto
           0 350 rlineto
           endchar
         </CharString>
         <CharString name="qaf-ar">
-          296 -64 -250 rmoveto
+          296 -250 70 40 70 70 70 40 70 65 -20 hstemhm
+          0 80 40 80 -28 84 hintmask 11111110
+          -64 -250 rmoveto
+          hintmask 11111101
           299 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
           -51 0 rlineto
+          hintmask 11111110
           88 97 rlineto
-          0 0 rlineto
           14 15 7 21 0 27 rrcurveto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -60 45 -30 55 0 rrcurveto
           11 0 10 1 9 1 rrcurveto
           -130 -142 rlineto
+          hintmask 11111101
           132 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -196 0 rlineto
-          86 415 rmoveto
+          hintmask 11111110
+          124 250 rmoveto
+          -11 0 -9 9 0 11 rrcurveto
+          0 11 9 9 11 0 rrcurveto
+          11 0 9 -9 0 -11 rrcurveto
+          0 -11 -9 -9 -11 0 rrcurveto
+          -38 165 rmoveto
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
@@ -3532,27 +3874,26 @@ You should have received a copy of the GNU Affero General Public License along w
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
-          9 -175 rmoveto
-          -11 0 -9 9 0 11 rrcurveto
-          0 11 9 9 11 0 rrcurveto
-          11 0 9 -9 0 -11 rrcurveto
-          0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="qafDotabove-ar">
-          296 -64 -250 rmoveto
+          296 -250 70 40 70 70 70 40 70 65 -20 hstemhm
+          0 80 40 80 -28 84 hintmask 11111110
+          -64 -250 rmoveto
+          hintmask 11111101
           299 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
           -51 0 rlineto
+          hintmask 11111110
           88 97 rlineto
-          0 0 rlineto
           14 15 7 21 0 27 rrcurveto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -60 45 -30 55 0 rrcurveto
           11 0 10 1 9 1 rrcurveto
           -130 -142 rlineto
+          hintmask 11111101
           132 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -196 0 rlineto
@@ -3560,6 +3901,7 @@ You should have received a copy of the GNU Affero General Public License along w
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
+          hintmask 11111110
           17 -175 rmoveto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
@@ -3568,22 +3910,27 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="qafDotless-ar">
-          296 -64 -250 rmoveto
+          296 -250 70 40 70 70 70 40 70 hstemhm
+          0 80 40 80 -28 84 hintmask 11111100
+          -64 -250 rmoveto
+          hintmask 11111010
           299 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
           -51 0 rlineto
+          hintmask 11111100
           88 97 rlineto
-          0 0 rlineto
           14 15 7 21 0 27 rrcurveto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -60 45 -30 55 0 rrcurveto
           11 0 10 1 9 1 rrcurveto
           -130 -142 rlineto
+          hintmask 11111010
           132 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -196 0 rlineto
+          hintmask 11111100
           124 250 rmoveto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
@@ -3592,9 +3939,12 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="qafDotless-ar.fina">
-          256 100 0 rmoveto
+          256 -250 70 40 70 70 70 40 70 hstemhm
+          0 80 40 80 -28 84 hintmask 11111100
+          100 0 rmoveto
           27 0 rlineto
           -127 -140 rlineto
+          hintmask 11111010
           132 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -196 0 rlineto
@@ -3603,6 +3953,7 @@ You should have received a copy of the GNU Affero General Public License along w
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
           -51 0 rlineto
+          hintmask 11111100
           64 70 rlineto
           101 0 rlineto
           0 70 rlineto
@@ -3619,57 +3970,68 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="reh-ar">
-          312 -63 -110 rmoveto
+          312 -110 70 40 140 -119 -21 hstemhm
+          213 84 hintmask 10110000
+          -63 -110 rmoveto
           339 0 rlineto
           6 0 15 0 0 21 rrcurveto
+          hintmask 11010000
           0 139 -69 43 -147 47 rrcurveto
-          -80 -140 rlineto
-          172 0 rlineto
+          -81 -140 rlineto
+          173 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -236 0 rlineto
           endchar
         </CharString>
         <CharString name="reh-ar.1">
-          312 -63 -110 rmoveto
+          312 -110 70 40 105 hstem
+          213 84 vstem
+          -63 -110 rmoveto
           339 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -68 46 -168 9 rrcurveto
-          -60 -105 rlineto
-          172 0 rlineto
+          -61 -105 rlineto
+          173 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -236 0 rlineto
           endchar
         </CharString>
         <CharString name="reh-ar.fina">
-          283 -63 -110 rmoveto
+          283 -110 70 40 70 hstem
+          213 70 vstem
+          -63 -110 rmoveto
           339 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 36 -5 30 -9 24 rrcurveto
           0 69 rlineto
           -50 0 rlineto
           -35 29 -51 20 -66 21 rrcurveto
-          -80 -140 rlineto
-          172 0 rlineto
+          -81 -140 rlineto
+          173 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -236 0 rlineto
           endchar
         </CharString>
         <CharString name="reh-ar.fina.1">
-          283 -63 -110 rmoveto
+          283 -110 70 40 70 hstem
+          213 70 vstem
+          -63 -110 rmoveto
           339 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 36 -4 29 -10 25 rrcurveto
           0 69 rlineto
           -61 0 rlineto
           -37 21 -53 10 -71 4 rrcurveto
-          -60 -105 rlineto
-          172 0 rlineto
+          -61 -105 rlineto
+          173 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -236 0 rlineto
           endchar
         </CharString>
         <CharString name="sad-ar">
-          740 -130 -250 rmoveto
+          740 -250 70 180 70 40 70 hstem
+          70 80 466 84 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3691,7 +4053,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="sad-ar.1">
-          740 -130 -250 rmoveto
+          740 -250 70 180 70 40 70 50 -20 hstem
+          70 80 466 84 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3712,7 +4076,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="sad-ar.fina">
-          740 -130 -250 rmoveto
+          740 -250 70 180 70 40 70 hstem
+          70 80 466 124 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3735,7 +4101,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="sad-ar.fina.1">
-          740 -130 -250 rmoveto
+          740 -250 70 180 70 40 70 50 -20 hstem
+          70 80 466 124 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3757,7 +4125,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="sad-ar.init">
-          670 46 0 rmoveto
+          670 0 70 40 70 50 -20 hstem
+          0 80 466 84 vstem
+          46 0 rmoveto
           563 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -3776,7 +4146,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="sad-ar.medi">
-          670 46 0 rmoveto
+          670 0 70 40 70 50 -20 hstem
+          0 80 466 124 vstem
+          46 0 rmoveto
           624 0 rlineto
           0 70 rlineto
           -43 0 rlineto
@@ -3796,7 +4168,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 170 -20 hstem
+          70 80 40 80 40 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3818,7 +4192,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.1">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 160 -20 30 -20 hstemhm
+          70 80 40 80 40 80 hintmask 11011110
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3832,6 +4208,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -80 -20 rlineto
           0 -170 rlineto
           -22 0 -18 18 0 22 rrcurveto
+          hintmask 11101110
           0 120 rlineto
           -80 -20 rlineto
           0 -390 rlineto
@@ -3840,7 +4217,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.2">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 160 -20 hstem
+          70 80 40 80 40 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3862,7 +4241,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.3">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 160 -20 hstem
+          70 80 40 80 40 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3884,7 +4265,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.4">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 160 -20 hstem
+          70 80 40 80 40 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3906,7 +4289,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.5">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 hstem
+          70 80 40 80 40 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3928,7 +4313,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.6">
-          370 -130 -250 rmoveto
+          370 -250 70 180 70 hstem
+          70 80 100 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3939,7 +4326,6 @@ You should have received a copy of the GNU Affero General Public License along w
           0 -87 rlineto
           -70 70 rlineto
           -40 -70 rlineto
-          0 0 rlineto
           -70 70 rlineto
           -40 -70 rlineto
           40 -40 rlineto
@@ -3949,7 +4335,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.fina">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 170 -20 hstem
+          70 80 40 80 40 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3972,7 +4360,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.fina.1">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 160 -20 30 -20 hstemhm
+          70 80 40 80 40 80 hintmask 11011110
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -3987,6 +4377,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -80 -20 rlineto
           0 -170 rlineto
           -22 0 -18 18 0 22 rrcurveto
+          hintmask 11101110
           0 120 rlineto
           -80 -20 rlineto
           0 -390 rlineto
@@ -3995,7 +4386,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.fina.2">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 160 -20 hstem
+          70 80 40 80 40 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -4018,7 +4411,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.fina.3">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 160 -20 hstem
+          70 80 40 80 40 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -4041,7 +4436,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.fina.4">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 160 -20 hstem
+          70 80 40 80 40 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -4064,7 +4461,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.fina.5">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 hstem
+          70 80 40 80 40 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -4087,7 +4486,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.init">
-          360 -20 0 rmoveto
+          360 0 70 170 -20 hstem
+          0 80 40 80 40 80 vstem
+          -20 0 rmoveto
           319 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 259 rlineto
@@ -4105,7 +4506,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.init.1">
-          360 -20 0 rmoveto
+          360 0 70 160 -20 30 -20 hstemhm
+          0 80 40 80 40 80 hintmask 10111100
+          -20 0 rmoveto
           319 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 279 rlineto
@@ -4116,6 +4519,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -80 -20 rlineto
           0 -170 rlineto
           -22 0 -18 18 0 22 rrcurveto
+          hintmask 11011100
           0 120 rlineto
           -80 -20 rlineto
           0 -140 rlineto
@@ -4123,7 +4527,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.init.2">
-          360 -20 0 rmoveto
+          360 0 70 160 -20 hstem
+          0 80 40 80 40 80 vstem
+          -20 0 rmoveto
           319 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 299 rlineto
@@ -4141,7 +4547,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.init.3">
-          360 -20 0 rmoveto
+          360 0 70 160 -20 hstem
+          0 80 40 80 40 80 vstem
+          -20 0 rmoveto
           319 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 219 rlineto
@@ -4159,7 +4567,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.init.4">
-          360 -20 0 rmoveto
+          360 0 70 160 -20 hstem
+          0 80 40 80 40 80 vstem
+          -20 0 rmoveto
           319 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 239 rlineto
@@ -4177,7 +4587,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.init.5">
-          360 -20 0 rmoveto
+          360 0 70 hstem
+          0 80 40 80 40 80 vstem
+          -20 0 rmoveto
           319 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 259 rlineto
@@ -4195,7 +4607,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.init.6">
-          340 -20 0 rmoveto
+          340 0 70 hstem
+          220 80 vstem
+          -20 0 rmoveto
           299 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 166 rlineto
@@ -4209,7 +4623,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.medi">
-          360 -20 0 rmoveto
+          360 0 70 170 -20 hstem
+          0 80 40 80 40 80 vstem
+          -20 0 rmoveto
           380 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -4228,7 +4644,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.medi.1">
-          360 -20 0 rmoveto
+          360 0 70 160 -20 30 -20 hstemhm
+          0 80 40 80 40 80 hintmask 10111100
+          -20 0 rmoveto
           380 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -4240,6 +4658,7 @@ You should have received a copy of the GNU Affero General Public License along w
           -80 -20 rlineto
           0 -170 rlineto
           -22 0 -18 18 0 22 rrcurveto
+          hintmask 11011100
           0 120 rlineto
           -80 -20 rlineto
           0 -140 rlineto
@@ -4247,7 +4666,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.medi.2">
-          360 -20 0 rmoveto
+          360 0 70 160 -20 hstem
+          0 80 40 80 40 80 vstem
+          -20 0 rmoveto
           380 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -4266,7 +4687,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.medi.3">
-          360 -20 0 rmoveto
+          360 0 70 160 -20 hstem
+          0 80 40 80 40 80 vstem
+          -20 0 rmoveto
           380 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -4285,7 +4708,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.medi.4">
-          360 -20 0 rmoveto
+          360 0 70 160 -20 hstem
+          0 80 40 80 40 80 vstem
+          -20 0 rmoveto
           380 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -4304,7 +4729,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.medi.5">
-          360 -20 0 rmoveto
+          360 0 70 hstem
+          0 80 40 80 40 80 vstem
+          -20 0 rmoveto
           380 0 rlineto
           0 70 rlineto
           -22 0 -18 18 0 22 rrcurveto
@@ -4323,7 +4750,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seen-ar.medi.6">
-          370 -20 0 rmoveto
+          370 0 70 hstem
+          -20 390 vstem
+          -20 0 rmoveto
           390 0 rlineto
           0 70 rlineto
           -40 0 rlineto
@@ -4337,7 +4766,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seven-ar">
-          250 0 0 rmoveto
+          250 0 70 hstem
+          0 70 70 70 vstem
+          0 0 rmoveto
           210 0 rlineto
           0 350 rlineto
           -70 0 rlineto
@@ -4348,7 +4779,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="seven-ar.1">
-          346 153 0 rmoveto
+          346 21 -21 hstem
+          0 306 vstem
+          153 0 rmoveto
           33 0 rlineto
           120 327 rlineto
           -66 23 rlineto
@@ -4360,7 +4793,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="sheen-ar">
-          430 -130 -250 rmoveto
+          430 -250 70 180 70 160 -20 hstem
+          70 80 40 80 40 80 vstem
+          -130 -250 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 210 rlineto
@@ -4394,7 +4829,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="six-ar">
-          250 70 350 rmoveto
+          250 21 -21 189 70 hstem
+          0 70 70 70 vstem
+          70 350 rmoveto
           -70 0 rlineto
           0 -161 rlineto
           140 0 rlineto
@@ -4407,7 +4844,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="six-ar.1">
-          250 210 350 rmoveto
+          250 21 -21 280 70 hstem
+          140 70 vstem
+          210 350 rmoveto
           -210 0 rlineto
           0 -70 rlineto
           140 0 rlineto
@@ -4422,7 +4861,9 @@ You should have received a copy of the GNU Affero General Public License along w
           40 endchar
         </CharString>
         <CharString name="tah-ar">
-          750 0 0 rmoveto
+          750 0 70 40 70 380 -20 hstem
+          80 80 466 84 vstem
+          0 0 rmoveto
           689 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -4439,7 +4880,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="tah-ar.fina">
-          750 0 0 rmoveto
+          750 0 70 40 70 380 -20 hstem
+          80 80 466 124 vstem
+          0 0 rmoveto
           750 0 rlineto
           0 70 rlineto
           -43 0 rlineto
@@ -4457,7 +4900,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="tah-ar.init">
-          670 -20 0 rmoveto
+          670 0 70 40 70 380 -20 hstem
+          0 80 466 84 vstem
+          -20 0 rmoveto
           629 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -4474,7 +4919,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="tah-ar.init.short">
-          670 -20 0 rmoveto
+          670 0 70 40 70 hstem
+          0 80 466 84 vstem
+          -20 0 rmoveto
           629 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -4491,7 +4938,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="tah-ar.init.short2">
-          670 -20 0 rmoveto
+          670 0 70 40 70 hstem
+          0 80 466 84 vstem
+          -20 0 rmoveto
           629 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -4508,7 +4957,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="tah-ar.medi">
-          670 -20 0 rmoveto
+          670 0 70 40 70 380 -20 hstem
+          0 80 466 124 vstem
+          -20 0 rmoveto
           690 0 rlineto
           0 70 rlineto
           -43 0 rlineto
@@ -4526,7 +4977,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="tah-ar.medi.short">
-          670 -20 0 rmoveto
+          670 0 70 40 70 hstem
+          0 80 466 124 vstem
+          -20 0 rmoveto
           690 0 rlineto
           0 70 rlineto
           -43 0 rlineto
@@ -4544,7 +4997,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="tah-ar.medi.short2">
-          670 -20 0 rmoveto
+          670 0 70 40 70 hstem
+          0 80 466 124 vstem
+          -20 0 rmoveto
           690 0 rlineto
           0 70 rlineto
           -43 0 rlineto
@@ -4562,7 +5017,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="teh-ar">
-          600 0 0 rmoveto
+          600 0 70 160 -20 hstem
+          480 80 vstem
+          0 0 rmoveto
           539 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 219 rlineto
@@ -4581,17 +5038,20 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="tehMarbuta-ar">
-          240 100 0 rmoveto
+          240 0 70 40 70 65 -20 hstem
+          0 80 40 80 vstem
+          100 0 rmoveto
           65 0 35 30 0 60 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           0 130 rlineto
           -20 -35 -40 -5 -40 0 rrcurveto
-          0 0 rlineto
-          0 0 rlineto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -60 45 -30 55 0 rrcurveto
-          -38 235 rmoveto
+          0 70 rmoveto
+          -11 0 -9 9 0 11 rrcurveto
+          0 11 9 9 11 0 rrcurveto
+          11 0 9 -9 0 -11 rrcurveto
+          0 -11 -9 -9 -11 0 rrcurveto
+          -38 165 rmoveto
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
@@ -4599,15 +5059,12 @@ You should have received a copy of the GNU Affero General Public License along w
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
-          9 -175 rmoveto
-          -11 0 -9 9 0 11 rrcurveto
-          0 11 9 9 11 0 rrcurveto
-          11 0 9 -9 0 -11 rrcurveto
-          0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="thal-ar">
-          600 0 0 rmoveto
+          600 0 70 40 70 hstem
+          476 84 vstem
+          0 0 rmoveto
           539 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -4625,7 +5082,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="theh-ar">
-          600 0 0 rmoveto
+          600 0 70 160 -20 hstem
+          480 80 vstem
+          0 0 rmoveto
           539 0 rlineto
           6 0 15 0 0 11 rrcurveto
           0 219 rlineto
@@ -4648,43 +5107,61 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="three-ar">
-          350 120 350 rmoveto
+          350 0 70 70 70 -70 210 hstemhm
+          0 70 50 70 50 70 hintmask 10111100
+          120 350 rmoveto
+          hintmask 11011100
           0 -140 rlineto
           -50 0 rlineto
+          hintmask 10111100
           0 140 rlineto
           -70 0 rlineto
           0 -350 rlineto
           310 0 rlineto
           0 70 rlineto
           -240 0 rlineto
+          hintmask 11011100
           0 70 rlineto
           240 0 rlineto
+          hintmask 10111100
           0 210 rlineto
           -70 0 rlineto
+          hintmask 11011100
           0 -140 rlineto
           -50 0 rlineto
+          hintmask 10111100
           0 140 rlineto
           endchar
         </CharString>
         <CharString name="three-ar.1">
-          350 120 350 rmoveto
+          350 21 -21 140 70 -70 210 hstemhm
+          0 70 50 70 50 70 hintmask 10111100
+          120 350 rmoveto
+          hintmask 11011100
           0 -140 rlineto
           -50 0 rlineto
+          hintmask 10111100
           0 140 rlineto
           -70 0 rlineto
           0 -350 rlineto
           70 0 rlineto
+          hintmask 11011100
           0 140 rlineto
           240 0 rlineto
+          hintmask 10111100
           0 210 rlineto
           -70 0 rlineto
+          hintmask 11011100
           0 -140 rlineto
           -50 0 rlineto
+          hintmask 10111100
           0 140 rlineto
           endchar
         </CharString>
         <CharString name="threedotsupabove-ar">
-          0 17 0 rmoveto
+          0 21 -21 hstem
+          0 156 vstem
+          17 0 rmoveto
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
@@ -4699,16 +5176,20 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="threedotsupabove-ar.alt1">
-          0 29 0 rmoveto
+          0 0 58 12 58 hstemhm
+          0 58 -19 58 -15 58 hintmask 10100000
+          29 0 rmoveto
           16 0 13 13 0 16 rrcurveto
           0 16 -13 13 -16 0 rrcurveto
           -16 0 -13 -13 0 -16 rrcurveto
           0 -16 13 -13 16 0 rrcurveto
+          hintmask 10101000
           82 0 rmoveto
           16 0 13 13 0 16 rrcurveto
           0 16 -13 13 -16 0 rrcurveto
           -16 0 -13 -13 0 -16 rrcurveto
           0 -16 13 -13 16 0 rrcurveto
+          hintmask 11010000
           -43 70 rmoveto
           16 0 13 13 0 16 rrcurveto
           0 16 -13 13 -16 0 rrcurveto
@@ -4717,7 +5198,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="two-ar">
-          250 140 350 rmoveto
+          250 21 -21 189 70 hstem
+          0 70 70 70 vstem
+          140 350 rmoveto
           0 -91 rlineto
           -70 0 rlineto
           0 91 rlineto
@@ -4730,7 +5213,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="two-ar.1">
-          250 0 350 rmoveto
+          250 21 -21 280 70 hstem
+          0 70 vstem
+          0 350 rmoveto
           0 -350 rlineto
           70 0 rlineto
           0 280 rlineto
@@ -4739,7 +5224,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="twodotshorizontalabove-ar">
-          0 17 0 rmoveto
+          0 21 -21 hstem
+          0 110 vstem
+          17 0 rmoveto
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
@@ -4750,11 +5237,14 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="twodotshorizontalabove-ar.alt1">
-          0 29 0 rmoveto
+          0 0 58 hstemhm
+          0 58 24 58 hintmask 11000000
+          29 0 rmoveto
           16 0 13 13 0 16 rrcurveto
           0 16 -13 13 -16 0 rrcurveto
           -16 0 -13 -13 0 -16 rrcurveto
           0 -16 13 -13 16 0 rrcurveto
+          hintmask 11100000
           82 0 rmoveto
           16 0 13 13 0 16 rrcurveto
           0 16 -13 13 -16 0 rrcurveto
@@ -4763,7 +5253,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="twodotshorizontalbelow-ar">
-          0 17 0 rmoveto
+          0 21 -21 hstem
+          0 110 vstem
+          17 0 rmoveto
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
@@ -4774,11 +5266,14 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="twodotshorizontalbelow-ar.alt1">
-          0 29 0 rmoveto
+          0 0 58 hstemhm
+          0 58 24 58 hintmask 11000000
+          29 0 rmoveto
           16 0 13 13 0 16 rrcurveto
           0 16 -13 13 -16 0 rrcurveto
           -16 0 -13 -13 0 -16 rrcurveto
           0 -16 13 -13 16 0 rrcurveto
+          hintmask 11100000
           82 0 rmoveto
           16 0 13 13 0 16 rrcurveto
           0 16 -13 13 -16 0 rrcurveto
@@ -4787,7 +5282,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="twodotsverticalabove-ar">
-          0 29 0 rmoveto
+          0 21 -21 hstem
+          0 76 vstem
+          29 0 rmoveto
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
@@ -4798,11 +5295,14 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="twodotsverticalabove-ar.alt1">
-          0 29 0 rmoveto
+          0 0 58 22 58 hstemhm
+          0 58 hintmask 10100000
+          29 0 rmoveto
           16 0 13 13 0 16 rrcurveto
           0 16 -13 13 -16 0 rrcurveto
           -16 0 -13 -13 0 -16 rrcurveto
           0 -16 13 -13 16 0 rrcurveto
+          hintmask 11100000
           0 80 rmoveto
           16 0 13 13 0 16 rrcurveto
           0 16 -13 13 -16 0 rrcurveto
@@ -4811,7 +5311,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="waw-ar">
-          270 -50 -110 rmoveto
+          270 -110 70 40 70 40 70 hstem
+          30 80 52 81 vstem
+          -50 -110 rmoveto
           243 0 rlineto
           31 0 9 14 5 24 rrcurveto
           4 17 1 22 0 26 rrcurveto
@@ -4832,11 +5334,12 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="waw-ar.1">
-          270 -50 -110 rmoveto
+          270 -110 70 40 70 40 70 hstem
+          30 80 40 80 vstem
+          -50 -110 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 160 rlineto
-          0 0 rlineto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -50 45 -40 55 0 rrcurveto
@@ -4848,12 +5351,13 @@ You should have received a copy of the GNU Affero General Public License along w
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="waw-ar.2">
-          320 0 0 rmoveto
+          320 0 70 40 70 40 70 hstem
+          80 80 52 81 vstem
+          0 0 rmoveto
           243 0 rlineto
           31 0 9 14 5 24 rrcurveto
           4 17 1 22 0 26 rrcurveto
@@ -4874,11 +5378,12 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="waw-ar.3">
-          307 0 0 rmoveto
+          307 0 70 40 70 40 70 hstem
+          80 80 40 80 vstem
+          0 0 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 160 rlineto
-          0 0 rlineto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -50 45 -40 55 0 rrcurveto
@@ -4890,12 +5395,13 @@ You should have received a copy of the GNU Affero General Public License along w
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="waw-ar.fina">
-          280 130 0 rmoveto
+          280 -110 70 40 70 40 70 hstemhm
+          30 80 40 130 -118 81 -81 118 hintmask 11110100
+          130 0 rmoveto
           31 0 rlineto
           1 -6 0 -6 0 -6 rrcurveto
           0 -7 0 -8 -2 -7 rrcurveto
@@ -4905,16 +5411,18 @@ You should have received a copy of the GNU Affero General Public License along w
           243 0 rlineto
           31 0 9 14 5 24 rrcurveto
           4 17 1 22 0 26 rrcurveto
-          0 3 0 2 0 2 rrcurveto
+          0 7 rlineto
+          hintmask 11110010
           37 0 rlineto
           0 70 rlineto
           -43 0 rlineto
           -1 7 -2 7 -1 7 rrcurveto
           -15 56 -38 33 -50 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
+          hintmask 11110100
           0 -50 45 -40 55 0 rrcurveto
+          hintmask 11111000
           0 70 rmoveto
-          0 0 rlineto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
@@ -4922,7 +5430,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="waw-ar.fina.1">
-          270 -50 -110 rmoveto
+          270 -110 70 40 70 40 70 hstem
+          30 80 40 80 vstem
+          -50 -110 rmoveto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 70 rlineto
@@ -4930,7 +5440,6 @@ You should have received a copy of the GNU Affero General Public License along w
           0 70 rlineto
           -40 0 rlineto
           0 20 rlineto
-          0 0 rlineto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -50 45 -40 55 0 rrcurveto
@@ -4939,16 +5448,16 @@ You should have received a copy of the GNU Affero General Public License along w
           -100 0 rlineto
           -22 0 -16 7 -10 13 rrcurveto
           128 90 rmoveto
-          0 0 rlineto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
-          0 0 rlineto
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
         <CharString name="wawHamzaabove-ar">
-          270 -50 -110 rmoveto
+          270 -110 70 40 70 40 70 50 29 33 25 hstem
+          30 80 52 81 vstem
+          -50 -110 rmoveto
           243 0 rlineto
           31 0 9 14 5 24 rrcurveto
           4 17 1 22 0 26 rrcurveto
@@ -4980,7 +5489,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="yeh-ar">
-          247 -33 -220 rmoveto
+          247 -220 70 40 67 64 -21 70 83 hstem
+          0 42 85 80 vstem
+          -33 -220 rmoveto
           202 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 96 rlineto
@@ -5002,7 +5513,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="yeh-farsi">
-          247 -33 -220 rmoveto
+          247 -220 70 40 67 64 -21 70 83 hstem
+          0 42 85 80 vstem
+          -33 -220 rmoveto
           202 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 96 rlineto
@@ -5024,7 +5537,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="yehHamzaabove-ar">
-          247 -33 -220 rmoveto
+          247 -220 70 40 67 64 -21 70 83 45 29 33 25 hstem
+          0 42 85 80 vstem
+          -33 -220 rmoveto
           202 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 96 rlineto
@@ -5057,7 +5572,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="zah-ar">
-          750 0 0 rmoveto
+          750 0 70 40 70 380 -20 hstem
+          80 80 466 84 vstem
+          0 0 rmoveto
           689 0 rlineto
           6 0 15 0 0 21 rrcurveto
           0 139 -70 20 -44 0 rrcurveto
@@ -5078,12 +5595,15 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="zain-ar">
-          312 -63 -110 rmoveto
+          312 -110 70 40 140 -119 -21 hstemhm
+          213 84 hintmask 10110000
+          -63 -110 rmoveto
           339 0 rlineto
           6 0 15 0 0 21 rrcurveto
+          hintmask 11010000
           0 139 -69 43 -147 47 rrcurveto
-          -80 -140 rlineto
-          172 0 rlineto
+          -81 -140 rlineto
+          173 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -236 0 rlineto
           140 255 rmoveto
@@ -5093,7 +5613,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="zero-ar">
-          110 0 210 rmoveto
+          110 140 70 hstem
+          0 70 vstem
+          0 210 rmoveto
           0 -70 rlineto
           70 0 rlineto
           0 70 rlineto

@@ -18,16 +18,20 @@ import argparse
 from fontTools.designspaceLib import DesignSpaceDocument
 from fontTools.fontBuilder import FontBuilder
 from fontTools.ttLib import TTFont, newTable, getTableModule
+from fontTools.misc.psCharStrings import T2CharString
 from fontTools.misc.timeTools import epoch_diff
 from fontTools.misc.transform import Transform
 from fontTools.pens.pointPen import PointToSegmentPen
 from fontTools.pens.reverseContourPen import ReverseContourPen
-from fontTools.pens.t2CharStringPen import T2CharStringPen
 from fontTools.pens.transformPen import TransformPen
 from glyphsLib import GSFont, GSAnchor
 from glyphsLib.builder.constants import CODEPAGE_RANGES
 from glyphsLib.glyphdata import get_glyph as getGlyphInfo
 from pathops import Path
+
+from psautohint import hint_bez_glyph
+from psautohint.ufoFont import BezPen
+from psautohint.otfFont import convertBezToT2
 
 
 DEFAULT_TRANSFORM = [1, 0, 0, 1, 0, 0]
@@ -311,6 +315,39 @@ def build(instance, opts):
     advanceWidths = {}
     characterMap = {}
     charStrings = {}
+
+    master.blueValues = []
+    master.otherBlues = []
+
+    for zone in sorted(master.alignmentZones):
+        pos = zone.position
+        size = zone.size
+        vals = sorted((pos, pos + size))
+        if pos == 0 or size >= 0:
+            master.blueValues.extend(vals)
+        else:
+            master.otherBlues.extend(vals)
+
+    fontinfo = f"""
+        FontName {instance.fontName}
+        OrigEmSqUnits {font.upm}
+        DominantV {master.verticalStems}
+        DominantH {master.horizontalStems}
+        BaselineOvershoot {master.blueValues[0]}
+        BaselineYCoord {master.blueValues[1]}
+        LcHeight {master.blueValues[2]}
+        LcOvershoot {master.blueValues[3] - master.blueValues[2]}
+        CapHeight {master.blueValues[4]}
+        CapOvershoot {master.blueValues[5] - master.blueValues[4]}
+        AscenderHeight {master.blueValues[6]}
+        AscenderOvershoot {master.blueValues[7] - master.blueValues[6]}
+        Baseline5 {master.otherBlues[1]}
+        Baseline5Overshoot {master.otherBlues[0] - master.otherBlues[1]}
+
+        FlexOK true
+        BlueFuzz 1
+    """
+
     for glyph in font.glyphs:
         if not glyph.export:
             continue
@@ -322,12 +359,21 @@ def build(instance, opts):
 
         layer = getLayer(glyph, instance)
         width = 0 if name in marks else layer.width
+
+        # Draw glyph and remove overlaps.
         path = Path()
         draw(layer, instance, path.getPen())
         path.simplify(fix_winding=True, keep_starting_points=True)
-        pen = T2CharStringPen(width, None)
+
+        # Autohint.
+        pen = BezPen(None, True)
         path.draw(pen)
-        charStrings[name] = pen.getCharString(optimize=False)
+        bez = "\n".join(["% " + name, "sc", *pen.bez, "ed", ""])
+        hinted = hint_bez_glyph(fontinfo, bez)
+        program = [width] + convertBezToT2(hinted)
+
+        # Build CharString.
+        charStrings[name] = T2CharString(program=program)
         advanceWidths[name] = width
 
     # XXX
@@ -366,18 +412,13 @@ def build(instance, opts):
                              lineGap=master.customParameters["typoLineGap"])
 
     privateDict = {
-        "BlueValues": [],
-        "OtherBlues": [],
+        "BlueValues": master.blueValues,
+        "OtherBlues": master.otherBlues,
         "StemSnapH": master.horizontalStems,
         "StemSnapV": master.verticalStems,
         "StdHW": master.horizontalStems[0],
         "StdVW": master.verticalStems[0],
     }
-    for zone in sorted(master.alignmentZones):
-        pos = zone.position
-        size = zone.size
-        vals = privateDict["BlueValues"] if pos == 0 or size >= 0 else privateDict["OtherBlues"]
-        vals.extend(sorted((pos, pos + size)))
 
     fontInfo = {
         "FullName": names["fullName"],

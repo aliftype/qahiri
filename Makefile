@@ -28,18 +28,14 @@ space := $() $()
 
 all: Qahiri-Regular.otf Qahiri-Regular.ttx
 
-$(BUILDDIR)/%.unhinted.otf: Qahiri.glyphs $(CONFIG)
+$(BUILDDIR)/%.hinted.otf: Qahiri.glyphs $(CONFIG)
 	$(info $(space) BUILD  $(*F))
 	mkdir -p $(BUILDDIR)
 	python build.py $< ${VERSION} $@ $(BUILDDIR)/$(*F).cidinfo $(BUILDDIR)/$(*F).cidmap
 
-$(BUILDDIR)/%.unhinted.cff: $(BUILDDIR)/%.unhinted.otf
+$(BUILDDIR)/%.hinted.cff: $(BUILDDIR)/%.hinted.otf
 	$(info $(space) CFF    $(*F))
 	tx -cff +b -no_opt +d $< $@ 2>/dev/null
-
-$(BUILDDIR)/%.hinted.cff: $(BUILDDIR)/%.unhinted.cff
-	$(info $(space) HINT   $(*F))
-	psautohint $< -o $@
 
 $(BUILDDIR)/%.hinted.cid: $(BUILDDIR)/%.hinted.cff
 	$(info $(space) CID    $(*F))
@@ -49,10 +45,10 @@ $(BUILDDIR)/%.cff: $(BUILDDIR)/%.hinted.cid
 	$(info $(space) SUBR   $(*F))
 	tx -cff +S +b $< $@
 
-%.otf: $(BUILDDIR)/%.cff $(BUILDDIR)/%.unhinted.otf
+%.otf: $(BUILDDIR)/%.cff $(BUILDDIR)/%.hinted.otf
 	sfntedit -a CFF=$+ $@
 
-%.ttx: $(BUILDDIR)/%.unhinted.otf
+%.ttx: $(BUILDDIR)/%.hinted.otf
 	$(info $(space) TTX    $(*F))
 	ttx -q -o $@ $<
 
