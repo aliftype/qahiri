@@ -31,15 +31,11 @@ all: Qahiri-Regular.otf Qahiri-Regular.ttx
 $(BUILDDIR)/%.hinted.otf: Qahiri.glyphs $(CONFIG)
 	$(info $(space) BUILD  $(*F))
 	mkdir -p $(BUILDDIR)
-	python build.py $< ${VERSION} $@ $(BUILDDIR)/$(*F).cidinfo $(BUILDDIR)/$(*F).cidmap
+	python build.py $< ${VERSION} $@ $(BUILDDIR)/$(*F).hinted.cff $(BUILDDIR)/$(*F).cidinfo $(BUILDDIR)/$(*F).cidmap
 
-$(BUILDDIR)/%.hinted.cff: $(BUILDDIR)/%.hinted.otf
-	$(info $(space) CFF    $(*F))
-	tx -cff +b -no_opt +d $< $@ 2>/dev/null
-
-$(BUILDDIR)/%.hinted.cid: $(BUILDDIR)/%.hinted.cff
+$(BUILDDIR)/%.hinted.cid: $(BUILDDIR)/%.hinted.otf
 	$(info $(space) CID    $(*F))
-	mergefonts -cid $(BUILDDIR)/$(*F).cidinfo $@ $(BUILDDIR)/$(*F).cidmap $< 2>/dev/null
+	mergefonts -cid $(BUILDDIR)/$(*F).cidinfo $@ $(BUILDDIR)/$(*F).cidmap $(BUILDDIR)/$(*F).hinted.cff 2>/dev/null
 
 $(BUILDDIR)/%.cff: $(BUILDDIR)/%.hinted.cid
 	$(info $(space) SUBR   $(*F))
