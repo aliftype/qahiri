@@ -16,7 +16,7 @@
 import argparse
 
 from fontTools.fontBuilder import FontBuilder
-from fontTools.ttLib import TTFont, newTable, getTableModule
+from fontTools.ttLib import TTFont, newTable
 from fontTools.misc.psCharStrings import T2CharString
 from fontTools.misc.timeTools import epoch_diff
 from fontTools.misc.transform import Transform, Identity
@@ -427,6 +427,10 @@ def build(instance, opts):
     ut = int(master.customParameters["underlineThickness"])
     up = int(master.customParameters["underlinePosition"])
     fb.setupPost(underlineThickness=ut, underlinePosition=up + ut//2)
+
+    meta = newTable("meta")
+    meta.data = {'dlng': 'Arab', 'slng': 'Arab'}
+    fb.font["meta"] = meta
 
     fb.addOpenTypeFeatures(fea)
 

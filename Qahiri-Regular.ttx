@@ -260,7 +260,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.006"/>
-    <checkSumAdjustment value="0x38a72d23"/>
+    <checkSumAdjustment value="0x15c4de44"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -36473,5 +36473,14 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="zain-ar" width="312" lsb="-63"/>
     <mtx name="zero-ar" width="110" lsb="0"/>
   </hmtx>
+
+  <meta>
+    <text tag="dlng">
+      Arab
+    </text>
+    <text tag="slng">
+      Arab
+    </text>
+  </meta>
 
 </ttFont>
