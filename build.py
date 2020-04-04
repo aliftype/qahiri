@@ -15,7 +15,6 @@
 
 import argparse
 
-from fontTools.designspaceLib import DesignSpaceDocument
 from fontTools.fontBuilder import FontBuilder
 from fontTools.ttLib import TTFont, newTable, getTableModule
 from fontTools.misc.psCharStrings import T2CharString
@@ -23,9 +22,11 @@ from fontTools.misc.timeTools import epoch_diff
 from fontTools.misc.transform import Transform, Identity
 from fontTools.pens.pointPen import PointToSegmentPen, ReverseContourPointPen
 from fontTools.pens.transformPen import TransformPointPen
+
 from glyphsLib import GSFont, GSAnchor
 from glyphsLib.builder.constants import CODEPAGE_RANGES
 from glyphsLib.glyphdata import get_glyph as getGlyphInfo
+
 from pathops import Path
 
 from psautohint import hint_bez_glyph
