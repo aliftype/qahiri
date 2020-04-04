@@ -21,9 +21,8 @@ from fontTools.ttLib import TTFont, newTable, getTableModule
 from fontTools.misc.psCharStrings import T2CharString
 from fontTools.misc.timeTools import epoch_diff
 from fontTools.misc.transform import Transform, Identity
-from fontTools.pens.pointPen import PointToSegmentPen
-from fontTools.pens.reverseContourPen import ReverseContourPen
-from fontTools.pens.transformPen import TransformPen
+from fontTools.pens.pointPen import PointToSegmentPen, ReverseContourPointPen
+from fontTools.pens.transformPen import TransformPointPen
 from glyphsLib import GSFont, GSAnchor
 from glyphsLib.builder.constants import CODEPAGE_RANGES
 from glyphsLib.glyphdata import get_glyph as getGlyphInfo
@@ -34,13 +33,10 @@ from psautohint.ufoFont import BezPen
 from psautohint.otfFont import convertBezToT2
 
 
-def draw(layer, instance, pen):
-    pen = PointToSegmentPen(pen)
-
+def draw(layer, pen):
     for path in layer.paths:
-        nodes = list(path.nodes)
-
         pen.beginPath()
+        nodes = list(path.nodes)
         if nodes:
             if not path.closed:
                 node = nodes.pop(0)
@@ -59,13 +55,13 @@ def draw(layer, instance, pen):
 
     for component in layer.components:
         transform = component.transform.value
-        componentPen = pen.pen
+        componentPen = pen
         if transform != Identity:
-            componentPen = TransformPen(pen.pen, transform)
+            componentPen = TransformPointPen(pen, transform)
             xx, xy, yx, yy = transform[:4]
             if xx * yy - xy * yx < 0:
-                componentPen = ReverseContourPen(componentPen)
-        draw(component.layer, instance, componentPen)
+                componentPen = ReverseContourPointPen(componentPen)
+        draw(component.layer, componentPen)
 
 
 def makeKerning(font, master):
@@ -351,7 +347,7 @@ def build(instance, opts):
 
         # Draw glyph and remove overlaps.
         path = Path()
-        draw(layer, instance, path.getPen())
+        draw(layer, PointToSegmentPen(path.getPen()))
         path.simplify(fix_winding=True, keep_starting_points=True)
 
         # Autohint.
