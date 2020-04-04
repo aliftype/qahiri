@@ -42,10 +42,10 @@ def draw(layer, pen):
             # stored at the end of the nodes list.
             nodes.insert(0, nodes.pop())
             for node in nodes:
-                node_type = node.type
-                if node_type not in ["line", "curve", "qcurve"]:
-                    node_type = None
-                pen.addPoint(tuple(node.position), segmentType=node_type, smooth=node.smooth)
+                segmentType = node.type
+                if segmentType not in ["line", "curve", "qcurve"]:
+                    segmentType = None
+                pen.addPoint(tuple(node.position), segmentType=segmentType, smooth=node.smooth)
         pen.endPath();
 
     for component in layer.components:
