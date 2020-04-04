@@ -20,7 +20,7 @@ from fontTools.fontBuilder import FontBuilder
 from fontTools.ttLib import TTFont, newTable, getTableModule
 from fontTools.misc.psCharStrings import T2CharString
 from fontTools.misc.timeTools import epoch_diff
-from fontTools.misc.transform import Transform
+from fontTools.misc.transform import Transform, Identity
 from fontTools.pens.pointPen import PointToSegmentPen
 from fontTools.pens.reverseContourPen import ReverseContourPen
 from fontTools.pens.transformPen import TransformPen
@@ -32,9 +32,6 @@ from pathops import Path
 from psautohint import hint_bez_glyph
 from psautohint.ufoFont import BezPen
 from psautohint.otfFont import convertBezToT2
-
-
-DEFAULT_TRANSFORM = [1, 0, 0, 1, 0, 0]
 
 
 def draw(layer, instance, pen):
@@ -63,7 +60,7 @@ def draw(layer, instance, pen):
     for component in layer.components:
         transform = component.transform.value
         componentPen = pen.pen
-        if transform != DEFAULT_TRANSFORM:
+        if transform != Identity:
             componentPen = TransformPen(pen.pen, transform)
             xx, xy, yx, yy = transform[:4]
             if xx * yy - xy * yx < 0:
@@ -471,7 +468,7 @@ def propogateAnchors(layer):
             if name in ("entry", "exit"):
                 continue
             x, y = anchor.position.x, anchor.position.y
-            if component.transform != DEFAULT_TRANSFORM:
+            if component.transform != Identity:
                 t = Transform(*component.transform.value)
                 x, y = t.transformPoint((x, y))
             new = GSAnchor(name)
