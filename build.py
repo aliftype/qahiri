@@ -285,7 +285,6 @@ def calcBits(bits, start, end):
     return b
 
 
-
 def build(instance, opts):
     font = instance.parent
     master = font.masters[0]
