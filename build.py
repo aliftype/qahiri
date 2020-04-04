@@ -38,14 +38,9 @@ def draw(layer, pen):
         pen.beginPath()
         nodes = list(path.nodes)
         if nodes:
-            if not path.closed:
-                node = nodes.pop(0)
-                assert node.type == "line", "Open path starts with off-curve points"
-                pen.addPoint(tuple(node.position), segmentType="move")
-            else:
-                # In Glyphs.app, the starting node of a closed contour is always
-                # stored at the end of the nodes list.
-                nodes.insert(0, nodes.pop())
+            # In Glyphs.app, the starting node of a closed contour is always
+            # stored at the end of the nodes list.
+            nodes.insert(0, nodes.pop())
             for node in nodes:
                 node_type = node.type
                 if node_type not in ["line", "curve", "qcurve"]:
