@@ -376,11 +376,9 @@ def build(instance, opts):
         charStrings[name] = T2CharString(program=program)
         advanceWidths[name] = width
 
-    # XXX
+    # Make sure .notdef is glyph index 0.
     glyphOrder.pop(glyphOrder.index(".notdef"))
-    glyphOrder.pop(glyphOrder.index("space"))
     glyphOrder.insert(0, ".notdef")
-    glyphOrder.insert(1, "space")
 
     version = float(opts.version)
     vendor = font.customParameters["vendorID"]
