@@ -61,7 +61,6 @@ def draw(layer, instance, pen):
         pen.endPath();
 
     for component in layer.components:
-        componentLayer = getLayer(component.component, instance)
         transform = component.transform.value
         componentPen = pen.pen
         if transform != DEFAULT_TRANSFORM:
@@ -69,7 +68,7 @@ def draw(layer, instance, pen):
             xx, xy, yx, yy = transform[:4]
             if xx * yy - xy * yx < 0:
                 componentPen = ReverseContourPen(componentPen)
-        draw(componentLayer, instance, componentPen)
+        draw(component.layer, instance, componentPen)
 
 
 def makeKerning(font, master):
@@ -118,14 +117,7 @@ lookupflag IgnoreMarks;
     return fea
 
 
-def getLayer(glyph, instance):
-    for layer in glyph.layers:
-        if layer.name == instance.name:
-            return layer
-    return glyph.layers[0]
-
-
-def makeMark(instance):
+def makeMark(instance, master):
     font = instance.parent
 
     fea = ""
@@ -141,7 +133,7 @@ def makeMark(instance):
         if not glyph.export:
             continue
 
-        layer = getLayer(glyph, instance)
+        layer = glyph.layers[master.id]
         for anchor in layer.anchors:
             name, x, y = anchor.name, anchor.position.x, anchor.position.y
             if name.startswith("_"):
@@ -217,7 +209,7 @@ def makeFeatures(instance, master):
         if feature.disabled:
             continue
         if feature.name == "mark":
-            fea += makeMark(instance)
+            fea += makeMark(instance, master)
 
         fea += f"""
 feature {feature.name} {{
@@ -252,7 +244,7 @@ feature {feature.name} {{
             elif info.category == "Letter":
                 base.add(glyph.name)
 
-        layer = getLayer(glyph, instance)
+        layer = glyph.layers[master.id]
         caret = ""
         for anchor in layer.anchors:
             if anchor.name.startswith("_"):
@@ -357,7 +349,7 @@ def build(instance, opts):
         if glyph.unicode:
             characterMap[int(glyph.unicode, 16)] = name
 
-        layer = getLayer(glyph, instance)
+        layer = glyph.layers[master.id]
         width = 0 if name in marks else layer.width
 
         # Draw glyph and remove overlaps.
