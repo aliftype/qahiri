@@ -1,5 +1,9 @@
 {
 .appVersion = "1308";
+DisplayStrings = (
+"/heh-ar.medi.1/hah-ar.medi",
+"/heh-ar.init"
+);
 classes = (
 {
 code = "dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar";
@@ -6687,6 +6691,7 @@ nodes = (
 width = 240;
 }
 );
+rightKerningGroup = heh.medi;
 },
 {
 glyphname = "heh-ar.medi.1";
@@ -6723,6 +6728,7 @@ nodes = (
 width = 240;
 }
 );
+rightKerningGroup = heh.medi;
 },
 {
 glyphname = "heh-ar.medi.2";
@@ -11501,6 +11507,7 @@ kerning = {
 };
 "@MMK_L_heh.init" = {
 "@MMK_R_reh.fina" = 40;
+"hah-ar.medi" = 40;
 };
 "@MMK_L_lam_alef.1" = {
 "alef-ar.1" = 160;
@@ -11883,6 +11890,9 @@ kerning = {
 "alefMaksura-ar.4" = 560;
 "alefMaksura-ar.5" = 190;
 "alefMaksura-ar.6" = 560;
+};
+"@MMK_L_heh.medi" = {
+"hah-ar.medi" = 40;
 };
 };
 };
