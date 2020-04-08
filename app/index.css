@@ -48,11 +48,21 @@ canvas {
 } 
 
 .menu {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 0 auto;
+}
+
+.right {
   text-align: right;
 }
 
-.controls {
+.left {
   text-align: left;
+}
+
+.font-size {
+  margin-top: 10px;
 }
 
 .button, .link {
@@ -74,7 +84,7 @@ input[type=checkbox] {
 input[type=checkbox] + label {
   display: inline-block;
   cursor: pointer;
-  padding: 12px 16px;
+  padding: 15px 16px;
   width: 20px;
   height: 20px;
   vertical-align: middle;
@@ -162,8 +172,30 @@ input[type=range]::-moz-range-thumb {
   -webkit-appearance: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   #font-size-number {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .toolbar {
+    flex-direction: column;
+  }
+
+  #font-size {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  #clear {
     display: none;
   }
 }
