@@ -18,7 +18,7 @@
 
 import { View } from "./TextView.js"
 
-let fontFile = "./assets/fonts/Qahiri-Regular.otf";
+let fontFile = "../Qahiri-Regular.otf";
 
 window.Module = {
   "onRuntimeInitialized": function() {
