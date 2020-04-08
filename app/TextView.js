@@ -237,21 +237,25 @@ export class View {
     this._buffer = new Buffer();
 
     this._canvas = document.getElementById("canvas");
+    this._input = document.getElementById("hiddeninput");
     this._backing = document.createElement('canvas');
 
     this._cursor = 0;
     this._text = null;
     this._layout = null;
 
-    this._canvas.focus();
-    this._canvas.addEventListener('keydown', e => this._keydown(e));
-    this._canvas.addEventListener('keypress', e => this._keypress(e));
     this._canvas.addEventListener('click', e => this._click(e));
+    this._canvas.addEventListener('focus', e => this._input.focus({preventScroll: true}));
+
+    this._input.addEventListener('keydown', e => this._keydown(e));
+    this._input.addEventListener('input', e => this._keypress(e));
 
     document.addEventListener('paste', e => {
-      if (document.activeElement === this._canvas)
+      if (document.activeElement === this._input)
         this._insert((e.clipboardData || window.clipboardData).getData('text'));
     });
+
+    this._canvas.focus();
   }
 
   update() {
@@ -262,6 +266,7 @@ export class View {
         window.localStorage.setItem(STAORAGE_KEY, JSON.stringify(this._text));
 
       this._layout = new Layout(this._font, this._buffer, this._text);
+      this._updateInput();
     }
 
     let removeDots = document.getElementById("remove-dots").checked;
@@ -275,6 +280,7 @@ export class View {
 
   _invalidate() {
     this._layout = null;
+    this._updateInput();
   }
 
   _draw() {
@@ -357,23 +363,42 @@ export class View {
     this._canvas.focus();
   }
 
+  _updateInput() {
+    this._input.value = String.fromCodePoint(...this._text.map(c => c.code));
+  }
+
   _keydown(e) {
     if (e.key === "ArrowLeft")
       this._moveCursor(1);
     else if (e.key === "ArrowRight")
       this._moveCursor(-1);
-    else if (e.key === "Backspace") {
-      e.preventDefault();
-      this._text.splice(this._cursor - 1, 1);
-      this._invalidate();
-      this._moveCursor(-1);
-    }
   }
 
   _keypress(e) {
-    if (e.ctrlKey || e.metaKey || e.key == "Enter")
-      return;
-    this._insert(e.key);
+    if (e.inputType == "insertText") {
+      this._insert(e.data);
+    } else if (e.inputType == "insertFromPaste") {
+      // e.data is null in Chrome for input events, but not null for
+      // beforeinput, however Firefox does not emit beforeinput events at all!
+      // Ignore for now, we use the paste event for this.
+      //this._insert(e.data);
+    } else if (e.inputType == "deleteContentBackward") {
+      this._backspace(1);
+    } else if (e.inputType == "deleteContentForward") {
+      this._delete(1);
+    } else if (e.inputType == "insertCompositionText") {
+      // Firefox and Chrome on Android give this instead of innsertText and
+      // deleteContentBackward! In both cases they give us a bunch of text, not
+      // just what was inserted/deleted, so I have to guess this based on the
+      // cursor position.
+      if (this._input.selectionStart > this._cursor) {
+        this._insert(this._input.value.slice(this._cursor, this._input.selectionStart));
+      } else if (this._input.selectionStart < this._cursor) {
+        this._backspace(this._cursor - this._input.selectionStart);
+      }
+    } else {
+      console.warn("Unhandled input type: %s", e.inputType);
+    }
   }
 
   _insert(text) {
@@ -388,12 +413,26 @@ export class View {
     this._moveCursor(count);
   }
 
+  _delete(count) {
+    this._text.splice(this._cursor, count);
+    this._invalidate();
+    this._moveCursor(0);
+  }
+
+  _backspace(count) {
+    this._text.splice(this._cursor - 1, count);
+    this._invalidate();
+    this._moveCursor(-count);
+  }
+
   _moveCursor(movement) {
     let cursor = this._cursor + movement;
     if (cursor >= 0 && cursor <= this._text.length) {
       this._cursor = cursor;
       this.update();
       this._updateAlternates();
+      this._input.selectionStart = cursor;
+      this._input.selectionEnd = cursor;
     }
   }
 
