@@ -12,6 +12,7 @@
     }
   ],
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "categories": ["education", "productivity"],
   "background_color": "#FEEEC9",
