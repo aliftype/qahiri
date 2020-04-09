@@ -6,7 +6,7 @@
   "dir": "rtl",
   "icons": [
     {
-      "src": "./assets/icon.svg",
+      "src": "./assets/images/app-icon.svg",
       "type": "image/svg+xml",
       "sizes": "480x480"
     }
