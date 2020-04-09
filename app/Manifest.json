@@ -13,7 +13,6 @@
   ],
   "start_url": "./",
   "display": "standalone",
-  "orientation": "landscape",
   "categories": ["education", "productivity"],
   "background_color": "#FEEEC9",
   "theme_color": "#FEEEC9"
