@@ -260,7 +260,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.007"/>
-    <checkSumAdjustment value="0xf35abafc"/>
+    <checkSumAdjustment value="0xf4490bee"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -306,7 +306,7 @@
     <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
          will be recalculated by the compiler -->
     <version value="4"/>
-    <xAvgCharWidth value="367"/>
+    <xAvgCharWidth value="366"/>
     <usWeightClass value="400"/>
     <usWidthClass value="5"/>
     <fsType value="00000000 00000000"/>
@@ -833,9 +833,9 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="alef-ar.3">
-          160 0 20 540 -20 hstem
-          40 80 vstem
-          0 20 rmoveto
+          120 0 20 540 -20 hstem
+          0 80 vstem
+          -40 20 rmoveto
           10 -10 20 -10 22 0 rrcurveto
           38 0 30 30 0 50 rrcurveto
           0 480 rlineto
@@ -7045,11 +7045,11 @@ You should have received a copy of the GNU Affero General Public License along w
             </BaseRecord>
             <BaseRecord index="3">
               <BaseAnchor index="0" Format="1">
-                <XCoordinate value="82"/>
+                <XCoordinate value="42"/>
                 <YCoordinate value="574"/>
               </BaseAnchor>
               <BaseAnchor index="1" Format="1">
-                <XCoordinate value="62"/>
+                <XCoordinate value="22"/>
                 <YCoordinate value="-20"/>
               </BaseAnchor>
             </BaseRecord>
@@ -36265,7 +36265,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="alef-ar" width="360" lsb="0"/>
     <mtx name="alef-ar.1" width="200" lsb="0"/>
     <mtx name="alef-ar.2" width="280" lsb="0"/>
-    <mtx name="alef-ar.3" width="160" lsb="0"/>
+    <mtx name="alef-ar.3" width="120" lsb="-40"/>
     <mtx name="alef-ar.fina" width="120" lsb="0"/>
     <mtx name="alefHamzaabove-ar" width="360" lsb="0"/>
     <mtx name="alefHamzabelow-ar" width="360" lsb="0"/>

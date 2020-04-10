@@ -1,9 +1,5 @@
 {
-.appVersion = "1308";
-DisplayStrings = (
-"/heh-ar.medi.1/hah-ar.medi",
-"/heh-ar.init"
-);
+.appVersion = "1313";
 classes = (
 {
 code = "dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar";
@@ -685,17 +681,16 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{62, -20}";
+position = "{22, -20}";
 },
 {
 name = top;
-position = "{82, 574}";
+position = "{42, 574}";
 }
 );
 components = (
 {
 name = _alef;
-transform = "{1, 0, 0, 1, 40, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -703,22 +698,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"10 10 OFFCURVE",
-"30 0 OFFCURVE",
-"52 0 CURVE SMOOTH",
-"90 0 OFFCURVE",
-"120 30 OFFCURVE",
-"120 80 CURVE SMOOTH",
-"120 150 LINE",
-"40 150 LINE",
-"40 70 LINE SMOOTH",
-"40 40 OFFCURVE",
-"27 20 OFFCURVE",
-"0 20 CURVE"
+"-30 10 OFFCURVE",
+"-10 0 OFFCURVE",
+"12 0 CURVE SMOOTH",
+"50 0 OFFCURVE",
+"80 30 OFFCURVE",
+"80 80 CURVE SMOOTH",
+"80 150 LINE",
+"0 150 LINE",
+"0 70 LINE SMOOTH",
+"0 40 OFFCURVE",
+"-13 20 OFFCURVE",
+"-40 20 CURVE"
 );
 }
 );
-width = 160;
+width = 120;
 }
 );
 },
@@ -11509,6 +11504,9 @@ kerning = {
 "@MMK_R_reh.fina" = 40;
 "hah-ar.medi" = 40;
 };
+"@MMK_L_heh.medi" = {
+"hah-ar.medi" = 40;
+};
 "@MMK_L_lam_alef.1" = {
 "alef-ar.1" = 160;
 "alef-ar.2" = 80;
@@ -11890,9 +11888,6 @@ kerning = {
 "alefMaksura-ar.4" = 560;
 "alefMaksura-ar.5" = 190;
 "alefMaksura-ar.6" = 560;
-};
-"@MMK_L_heh.medi" = {
-"hah-ar.medi" = 40;
 };
 };
 };
