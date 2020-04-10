@@ -16,5 +16,8 @@
   "display": "standalone",
   "categories": ["education", "productivity"],
   "background_color": "#FEEEC9",
-  "theme_color": "#FEEEC9"
+  "theme_color": "#FEEEC9",
+  "serviceworker": {
+    "src": "./AerviceWorker.js"
+  }
 }

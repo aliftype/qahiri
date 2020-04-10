@@ -18,6 +18,12 @@
 
 import { View } from "./TextView.js"
 
+if ('serviceWorker' in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./ServiceWorker.js");
+  });
+}
+
 let fontFile = "./assets/fonts/Qahiri-Regular.otf";
 
 window.Module = {
