@@ -47,10 +47,13 @@ window.Module = {
       let number = document.getElementById("font-size-number");
       range.addEventListener('input', e => {
         number.value = e.target.value;
-        view.update()
+        view.update(true)
       });
       number.addEventListener('change', e => {
         range.value = e.target.value;
+        view.update(true)
+      });
+      window.addEventListener("resize", e => {
         view.update()
       });
     });

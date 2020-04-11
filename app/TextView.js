@@ -243,6 +243,7 @@ export class View {
     this._cursor = 0;
     this._text = null;
     this._layout = null;
+    this._manualFontSize = false;
 
     this._canvas.addEventListener('click', e => this._click(e));
     this._canvas.addEventListener('focus', e => this._input.focus({preventScroll: true}));
@@ -258,7 +259,10 @@ export class View {
     this._canvas.focus();
   }
 
-  update() {
+  update(manualFontSize) {
+    if (manualFontSize)
+      this._manualFontSize = true;
+
     if (this._layout === null) {
       if (this._text === null)
         this._text = JSON.parse(window.localStorage.getItem(STAORAGE_KEY) || sample);
@@ -267,6 +271,15 @@ export class View {
 
       this._layout = new Layout(this._font, this._buffer, this._text);
       this._updateInput();
+    }
+
+    let fontSize = document.getElementById("font-size");
+    if (!this._manualFontSize) {
+      if (window.screen.width < 700)
+        fontSize.value = window.screen.width / 7;
+      else
+        fontSize.value = 100;
+      document.getElementById("font-size-number").value = fontSize.value;
     }
 
     let removeDots = document.getElementById("remove-dots").checked;
