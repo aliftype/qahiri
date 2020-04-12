@@ -26,6 +26,10 @@ code = "hah-ar.medi.1 hah-ar.fina.1";
 name = HahAlt;
 },
 {
+code = "behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1";
+name = BehMedi;
+},
+{
 automatic = 1;
 code = "";
 name = AllInit;
@@ -139,7 +143,15 @@ lookup ShortLamTah2 {
   sub lam-ar.init.hah by lam-ar.init.hah2;
   sub tah-ar.medi by tah-ar.medi.short2;
   sub tah-ar.init by tah-ar.init.short2;
-} ShortLamTah2;";
+} ShortLamTah2;
+
+lookup InsertKashida {
+  sub behDotless-ar.medi by behDotless-ar.medi kashida-ar.medi;
+  sub behDotless-ar.medi.1 by behDotless-ar.medi.1 kashida-ar.medi;
+  sub behDotless-ar.medi.high by behDotless-ar.medi.high kashida-ar.medi;
+  sub behDotless-ar.medi.high.1 by behDotless-ar.medi.high.1 kashida-ar.medi;
+  sub hah-ar.medi by hah-ar.medi kashida-ar.medi;
+} InsertKashida;";
 name = Lookups;
 }
 );
@@ -394,6 +406,11 @@ lookup YehTooth {
   ignore sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1]' @DotsBelow' [behDotless-ar.medi lam-ar.medi]' alefMaksura-ar.fina';
   sub [behDotless-ar.medi lam-ar.medi]' lookup ToothYeh alefMaksura-ar.fina' lookup ToothYeh;
 } YehTooth;
+
+lookup BehHah {
+ lookupflag UseMarkFilteringSet @DotsBelow;
+  sub [@BehMedi hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
+} BehHah;
 
 lookup HighHah {
  @Ascender = [lam-ar.init lam-ar.init.hah lam-ar.medi tah-ar.medi tah-ar.init];
@@ -1551,9 +1568,10 @@ nodes = (
 );
 }
 );
-width = 371;
+width = 311;
 }
 );
+leftKerningGroup = waw;
 },
 {
 glyphname = "hah-ar.fina.1";
@@ -11502,10 +11520,12 @@ kerning = {
 };
 "@MMK_L_heh.init" = {
 "@MMK_R_reh.fina" = 40;
-"hah-ar.medi" = 40;
+"hah-ar.medi" = 60;
+"hah-ar.fina" = 60;
 };
 "@MMK_L_heh.medi" = {
-"hah-ar.medi" = 40;
+"hah-ar.medi" = 60;
+"hah-ar.fina" = 60;
 };
 "@MMK_L_lam_alef.1" = {
 "alef-ar.1" = 160;
