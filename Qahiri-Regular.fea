@@ -190,6 +190,17 @@ featureNames {
   sub @Dots by @Dots.alt1; 
 } ss02;
 
+feature onum {
+
+sub one-ar by one-ar.osf;
+sub two-ar by two-ar.osf;
+sub three-ar by three-ar.osf;
+sub four-ar by four-ar.osf;
+sub six-ar by six-ar.osf;
+sub nine-ar by nine-ar.osf;
+
+} onum;
+
 feature salt {
 
   sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
@@ -234,9 +245,13 @@ feature salt {
   sub waw-ar                  from [waw-ar waw-ar.1 waw-ar.2 waw-ar.3];
   sub waw-ar.fina             from [waw-ar.fina waw-ar.fina.1];
   sub two-ar                  from [two-ar two-ar.1];
+  sub two-ar.osf              from [two-ar.osf two-ar.osf.1];
   sub three-ar                from [three-ar three-ar.1];
+  sub three-ar.osf            from [three-ar.osf three-ar.osf.1];
   sub four-ar                 from [four-ar four-ar.1 four-ar.2];
+  sub four-ar.osf             from [four-ar.osf four-ar.osf.1 four-ar.osf.2];
   sub six-ar                  from [six-ar six-ar.1];
+  sub six-ar.osf              from [six-ar.osf six-ar.osf.1];
   sub seven-ar                from [seven-ar seven-ar.1];
   sub eight-ar                from [eight-ar eight-ar.1];
 } salt;
@@ -868,10 +883,10 @@ enum pos @MMK_L_dal meem-ar.1 <-20 0 -20 0>;
 enum pos @MMK_L_dal meem-ar.2 <-10 0 -10 0>;
 enum pos @MMK_L_dal meem-ar.init <-20 0 -20 0>;
 enum pos @MMK_L_dal qafDotless-ar <-80 0 -80 0>;
-enum pos @MMK_L_heh.init hah-ar.medi <60 0 60 0>;
 enum pos @MMK_L_heh.init hah-ar.fina <60 0 60 0>;
-enum pos @MMK_L_heh.medi hah-ar.medi <60 0 60 0>;
+enum pos @MMK_L_heh.init hah-ar.medi <60 0 60 0>;
 enum pos @MMK_L_heh.medi hah-ar.fina <60 0 60 0>;
+enum pos @MMK_L_heh.medi hah-ar.medi <60 0 60 0>;
 enum pos @MMK_L_lam_alef.1 alef-ar.1 <160 0 160 0>;
 enum pos @MMK_L_lam_alef.1 alef-ar.2 <80 0 80 0>;
 enum pos @MMK_L_lam_alef.1 alef-ar.3 <240 0 240 0>;

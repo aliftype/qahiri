@@ -298,6 +298,17 @@ name = ss02;
 notes = "featureNames {\012   name \"Rounded Dots\";\012   name 3 1 0x0C01 \"نقاط مستديرة\";\012};";
 },
 {
+automatic = 1;
+code = "sub one-ar by one-ar.osf;
+sub two-ar by two-ar.osf;
+sub three-ar by three-ar.osf;
+sub four-ar by four-ar.osf;
+sub six-ar by six-ar.osf;
+sub nine-ar by nine-ar.osf;
+";
+name = onum;
+},
+{
 code = "  sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
   sub ain-ar.init             from [ain-ar.init ain-ar.init.1];
   sub alef-ar                 from [alef-ar.1 alef-ar.2 alef-ar alef-ar.3];
@@ -340,9 +351,13 @@ code = "  sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
   sub waw-ar                  from [waw-ar waw-ar.1 waw-ar.2 waw-ar.3];
   sub waw-ar.fina             from [waw-ar.fina waw-ar.fina.1];
   sub two-ar                  from [two-ar two-ar.1];
+  sub two-ar.osf              from [two-ar.osf two-ar.osf.1];
   sub three-ar                from [three-ar three-ar.1];
+  sub three-ar.osf            from [three-ar.osf three-ar.osf.1];
   sub four-ar                 from [four-ar four-ar.1 four-ar.2];
+  sub four-ar.osf             from [four-ar.osf four-ar.osf.1 four-ar.osf.2];
   sub six-ar                  from [six-ar six-ar.1];
+  sub six-ar.osf              from [six-ar.osf six-ar.osf.1];
   sub seven-ar                from [seven-ar seven-ar.1];
   sub eight-ar                from [eight-ar eight-ar.1];";
 name = salt;
@@ -9905,6 +9920,44 @@ widthMetricsKey = "=zero-ar";
 unicode = 0661;
 },
 {
+glyphname = "one-ar.osf";
+layers = (
+{
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 -110 LINE",
+"70 -110 LINE",
+"70 350 LINE",
+"0 350 LINE"
+);
+}
+);
+width = 110;
+}
+);
+widthMetricsKey = "=zero-ar";
+},
+{
 glyphname = "two-ar";
 layers = (
 {
@@ -10024,6 +10077,124 @@ width = 250;
 widthMetricsKey = "=two-ar";
 },
 {
+glyphname = "two-ar.osf";
+layers = (
+{
+components = (
+{
+name = "one-ar.osf";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+},
+{
+angle = 90;
+position = "{140, 450}";
+},
+{
+angle = 90;
+position = "{70, 450}";
+},
+{
+angle = 90;
+position = "{210, 450}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"60 189 LINE",
+"210 189 LINE",
+"210 259 LINE",
+"60 259 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"140 219 LINE",
+"210 219 LINE",
+"210 350 LINE",
+"140 350 LINE"
+);
+}
+);
+width = 250;
+}
+);
+},
+{
+glyphname = "two-ar.osf.1";
+layers = (
+{
+components = (
+{
+name = "one-ar.osf";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+},
+{
+angle = 90;
+position = "{140, 450}";
+},
+{
+angle = 90;
+position = "{70, 450}";
+},
+{
+angle = 90;
+position = "{210, 450}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"60 280 LINE",
+"210 280 LINE",
+"210 350 LINE",
+"60 350 LINE"
+);
+}
+);
+width = 250;
+}
+);
+widthMetricsKey = "=two-ar";
+},
+{
 glyphname = "three-ar";
 layers = (
 {
@@ -10074,6 +10245,109 @@ layers = (
 components = (
 {
 name = "one-ar";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"60 140 LINE",
+"310 140 LINE",
+"310 210 LINE",
+"60 210 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"120 170 LINE",
+"190 170 LINE",
+"190 350 LINE",
+"120 350 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"240 170 LINE",
+"310 170 LINE",
+"310 350 LINE",
+"240 350 LINE"
+);
+}
+);
+width = 350;
+}
+);
+},
+{
+glyphname = "three-ar.osf";
+layers = (
+{
+components = (
+{
+name = "three-ar.1";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"60 0 LINE",
+"310 0 LINE",
+"310 70 LINE",
+"60 70 LINE"
+);
+}
+);
+width = 350;
+}
+);
+widthMetricsKey = "=three-ar.1";
+},
+{
+glyphname = "three-ar.osf.1";
+layers = (
+{
+components = (
+{
+name = "one-ar.osf";
 }
 );
 guideLines = (
@@ -10297,6 +10571,174 @@ width = 250;
 widthMetricsKey = "=two-ar";
 },
 {
+glyphname = "four-ar.osf";
+layers = (
+{
+components = (
+{
+name = "four-ar.1";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"60 0 LINE",
+"310 0 LINE",
+"310 70 LINE",
+"60 70 LINE"
+);
+}
+);
+width = 350;
+}
+);
+widthMetricsKey = "=three-ar";
+},
+{
+glyphname = "four-ar.osf.1";
+layers = (
+{
+components = (
+{
+name = "one-ar.osf";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"60 140 LINE",
+"310 140 LINE",
+"310 210 LINE",
+"60 210 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"120 190 LINE",
+"190 190 LINE",
+"190 350 LINE",
+"120 350 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"170 280 LINE",
+"310 280 LINE",
+"310 350 LINE",
+"170 350 LINE"
+);
+}
+);
+width = 350;
+}
+);
+widthMetricsKey = "=three-ar";
+},
+{
+glyphname = "four-ar.osf.2";
+layers = (
+{
+components = (
+{
+name = "two-ar.1";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+},
+{
+angle = 90;
+position = "{140, 450}";
+},
+{
+angle = 90;
+position = "{70, 450}";
+},
+{
+angle = 90;
+position = "{210, 450}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"60 0 LINE",
+"210 0 LINE",
+"210 70 LINE",
+"60 70 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"60 140 LINE",
+"210 140 LINE",
+"210 210 LINE",
+"60 210 LINE"
+);
+}
+);
+width = 250;
+}
+);
+widthMetricsKey = "=two-ar";
+},
+{
 glyphname = "five-ar";
 layers = (
 {
@@ -10398,6 +10840,96 @@ layers = (
 components = (
 {
 name = "two-ar.1";
+transform = "{-1, 0, 0, 1, 210, 0}";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+},
+{
+angle = 90;
+position = "{140, 450}";
+},
+{
+angle = 90;
+position = "{70, 450}";
+},
+{
+angle = 90;
+position = "{210, 450}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 250;
+}
+);
+widthMetricsKey = "=six-ar";
+},
+{
+glyphname = "six-ar.osf";
+layers = (
+{
+components = (
+{
+name = "two-ar.osf";
+transform = "{-1, 0, 0, 1, 210, 0}";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+},
+{
+angle = 90;
+position = "{140, 450}";
+},
+{
+angle = 90;
+position = "{70, 450}";
+},
+{
+angle = 90;
+position = "{210, 450}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 250;
+}
+);
+widthMetricsKey = "=two-ar";
+},
+{
+glyphname = "six-ar.osf.1";
+layers = (
+{
+components = (
+{
+name = "two-ar.osf.1";
 transform = "{-1, 0, 0, 1, 210, 0}";
 }
 );
@@ -10647,6 +11179,69 @@ width = 250;
 }
 );
 unicode = 0669;
+},
+{
+glyphname = "nine-ar.osf";
+layers = (
+{
+components = (
+{
+name = "six-ar.osf.1";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+},
+{
+angle = 90;
+position = "{140, 450}";
+},
+{
+angle = 90;
+position = "{70, 450}";
+},
+{
+angle = 90;
+position = "{210, 450}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 210 LINE",
+"0 140 LINE",
+"150 140 LINE",
+"150 210 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 310 LINE",
+"0 170 LINE",
+"70 170 LINE",
+"70 310 LINE"
+);
+}
+);
+width = 250;
+}
+);
 },
 {
 glyphname = space.alt;
@@ -11520,12 +12115,12 @@ kerning = {
 };
 "@MMK_L_heh.init" = {
 "@MMK_R_reh.fina" = 40;
-"hah-ar.medi" = 60;
 "hah-ar.fina" = 60;
+"hah-ar.medi" = 60;
 };
 "@MMK_L_heh.medi" = {
-"hah-ar.medi" = 60;
 "hah-ar.fina" = 60;
+"hah-ar.medi" = 60;
 };
 "@MMK_L_lam_alef.1" = {
 "alef-ar.1" = 160;

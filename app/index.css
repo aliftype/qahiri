@@ -100,6 +100,10 @@ input[type=checkbox]:checked + label {
   background-color: var(--main-color);
 }
 
+#onum + label {
+  background-image: url(assets/images/onum.svg);
+}
+
 #round-dots + label {
   background-image: url(assets/images/round-dots.svg);
 }
@@ -188,13 +192,13 @@ input[type=range]::-moz-range-thumb {
   }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 450px) {
   .links {
     display: none;
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 395px) {
   #clear {
     display: none;
   }

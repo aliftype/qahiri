@@ -26,6 +26,7 @@ class Layout {
 
     this._removeDots = false;
     this._roundDots = false;
+    this._onum = false;
 
     this._svg = null;
     this._width = null;
@@ -58,6 +59,12 @@ class Layout {
     if (v != this._roundDots)
       this._svg = this._glyphs = null;
     this._roundDots = v;
+  }
+
+  set onum(v) {
+    if (v != this._onum)
+      this._svg = this._glyphs = null;
+    this._onum = v;
   }
 
   get svg() {
@@ -139,6 +146,9 @@ class Layout {
 
     if (this._roundDots)
       features.push("ss02");
+
+    if (this._onum)
+      features.push("onum");
 
     // Shape once without features to get the base glyphs, which we use to get
     // list of glyph alternates.
@@ -287,6 +297,8 @@ export class View {
 
     let roundDots = document.getElementById("round-dots").checked;
     this._layout.roundDots = roundDots;
+
+    this._layout.onum = document.getElementById("onum").checked;
 
     this._draw();
   }
