@@ -244,34 +244,36 @@
     <GlyphID id="238" name="six-ar.osf.1"/>
     <GlyphID id="239" name="seven-ar"/>
     <GlyphID id="240" name="seven-ar.1"/>
-    <GlyphID id="241" name="eight-ar"/>
-    <GlyphID id="242" name="eight-ar.1"/>
-    <GlyphID id="243" name="nine-ar"/>
-    <GlyphID id="244" name="nine-ar.osf"/>
-    <GlyphID id="245" name="space.alt"/>
-    <GlyphID id="246" name="space"/>
-    <GlyphID id="247" name="dotabove-ar"/>
-    <GlyphID id="248" name="dotabove-ar.alt1"/>
-    <GlyphID id="249" name="dotbelow-ar"/>
-    <GlyphID id="250" name="dotbelow-ar.alt1"/>
-    <GlyphID id="251" name="twodotsverticalabove-ar"/>
-    <GlyphID id="252" name="twodotsverticalabove-ar.alt1"/>
-    <GlyphID id="253" name="twodotshorizontalabove-ar"/>
-    <GlyphID id="254" name="twodotshorizontalabove-ar.alt1"/>
-    <GlyphID id="255" name="twodotshorizontalbelow-ar"/>
-    <GlyphID id="256" name="twodotshorizontalbelow-ar.alt1"/>
-    <GlyphID id="257" name="threedotsupabove-ar"/>
-    <GlyphID id="258" name="threedotsupabove-ar.alt1"/>
-    <GlyphID id="259" name="hamzaabove-ar"/>
-    <GlyphID id="260" name="hamzabelow-ar"/>
-    <GlyphID id="261" name="empty"/>
+    <GlyphID id="241" name="seven-ar.2"/>
+    <GlyphID id="242" name="eight-ar"/>
+    <GlyphID id="243" name="eight-ar.1"/>
+    <GlyphID id="244" name="eight-ar.2"/>
+    <GlyphID id="245" name="nine-ar"/>
+    <GlyphID id="246" name="nine-ar.osf"/>
+    <GlyphID id="247" name="space.alt"/>
+    <GlyphID id="248" name="space"/>
+    <GlyphID id="249" name="dotabove-ar"/>
+    <GlyphID id="250" name="dotabove-ar.alt1"/>
+    <GlyphID id="251" name="dotbelow-ar"/>
+    <GlyphID id="252" name="dotbelow-ar.alt1"/>
+    <GlyphID id="253" name="twodotsverticalabove-ar"/>
+    <GlyphID id="254" name="twodotsverticalabove-ar.alt1"/>
+    <GlyphID id="255" name="twodotshorizontalabove-ar"/>
+    <GlyphID id="256" name="twodotshorizontalabove-ar.alt1"/>
+    <GlyphID id="257" name="twodotshorizontalbelow-ar"/>
+    <GlyphID id="258" name="twodotshorizontalbelow-ar.alt1"/>
+    <GlyphID id="259" name="threedotsupabove-ar"/>
+    <GlyphID id="260" name="threedotsupabove-ar.alt1"/>
+    <GlyphID id="261" name="hamzaabove-ar"/>
+    <GlyphID id="262" name="hamzabelow-ar"/>
+    <GlyphID id="263" name="empty"/>
   </GlyphOrder>
 
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.007"/>
-    <checkSumAdjustment value="0xcb6ffc82"/>
+    <checkSumAdjustment value="0x7c442b27"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -305,12 +307,12 @@
     <reserved2 value="0"/>
     <reserved3 value="0"/>
     <metricDataFormat value="0"/>
-    <numberOfHMetrics value="247"/>
+    <numberOfHMetrics value="249"/>
   </hhea>
 
   <maxp>
     <tableVersion value="0x5000"/>
-    <numGlyphs value="262"/>
+    <numGlyphs value="264"/>
   </maxp>
 
   <OS_2>
@@ -1583,15 +1585,26 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="eight-ar.1">
           346 21 -21 hstem
           0 306 vstem
-          153 350 rmoveto
-          -33 0 rlineto
-          -120 -327 rlineto
-          66 -23 rlineto
-          87 238 rlineto
+          153 238 rmoveto
           87 -238 rlineto
           66 23 rlineto
           -120 327 rlineto
-          -33 0 rlineto
+          -66 0 rlineto
+          -120 -327 rlineto
+          66 -23 rlineto
+          87 238 rlineto
+          endchar
+        </CharString>
+        <CharString name="eight-ar.2">
+          366 21 -21 hstem
+          0 326 vstem
+          163 185 rmoveto
+          85 -185 rlineto
+          78 0 rlineto
+          -163 350 rlineto
+          -163 -350 rlineto
+          77 0 rlineto
+          86 185 rlineto
           endchar
         </CharString>
         <CharString name="empty">
@@ -4882,15 +4895,26 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="seven-ar.1">
           346 21 -21 hstem
           0 306 vstem
-          153 0 rmoveto
-          33 0 rlineto
-          120 327 rlineto
-          -66 23 rlineto
-          -87 -238 rlineto
+          153 112 rmoveto
           -87 238 rlineto
           -66 -23 rlineto
           120 -327 rlineto
-          33 0 rlineto
+          66 0 rlineto
+          120 327 rlineto
+          -66 23 rlineto
+          -87 -238 rlineto
+          endchar
+        </CharString>
+        <CharString name="seven-ar.2">
+          366 21 -21 hstem
+          0 326 vstem
+          163 165 rmoveto
+          -86 185 rlineto
+          -77 0 rlineto
+          163 -350 rlineto
+          163 350 rlineto
+          -78 0 rlineto
+          -85 -185 rlineto
           endchar
         </CharString>
         <CharString name="sheen-ar">
@@ -16510,6 +16534,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <AlternateSet glyph="eight-ar">
             <Alternate glyph="eight-ar"/>
             <Alternate glyph="eight-ar.1"/>
+            <Alternate glyph="eight-ar.2"/>
           </AlternateSet>
           <AlternateSet glyph="fehDotless-ar">
             <Alternate glyph="fehDotless-ar"/>
@@ -16696,6 +16721,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <AlternateSet glyph="seven-ar">
             <Alternate glyph="seven-ar"/>
             <Alternate glyph="seven-ar.1"/>
+            <Alternate glyph="seven-ar.2"/>
           </AlternateSet>
           <AlternateSet glyph="six-ar">
             <Alternate glyph="six-ar"/>
@@ -36725,6 +36751,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="dotbelow-ar.alt1" width="0" lsb="0"/>
     <mtx name="eight-ar" width="250" lsb="0"/>
     <mtx name="eight-ar.1" width="346" lsb="0"/>
+    <mtx name="eight-ar.2" width="366" lsb="0"/>
     <mtx name="empty" width="0" lsb="0"/>
     <mtx name="feh-ar" width="613" lsb="0"/>
     <mtx name="fehDotless-ar" width="613" lsb="0"/>
@@ -36885,6 +36912,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="seen-ar.medi.6" width="370" lsb="-20"/>
     <mtx name="seven-ar" width="250" lsb="0"/>
     <mtx name="seven-ar.1" width="346" lsb="0"/>
+    <mtx name="seven-ar.2" width="366" lsb="0"/>
     <mtx name="sheen-ar" width="430" lsb="-130"/>
     <mtx name="six-ar" width="250" lsb="0"/>
     <mtx name="six-ar.1" width="250" lsb="0"/>

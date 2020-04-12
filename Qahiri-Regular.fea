@@ -252,8 +252,8 @@ feature salt {
   sub four-ar.osf             from [four-ar.osf four-ar.osf.1 four-ar.osf.2];
   sub six-ar                  from [six-ar six-ar.1];
   sub six-ar.osf              from [six-ar.osf six-ar.osf.1];
-  sub seven-ar                from [seven-ar seven-ar.1];
-  sub eight-ar                from [eight-ar eight-ar.1];
+  sub seven-ar                from [seven-ar seven-ar.1 seven-ar.2];
+  sub eight-ar                from [eight-ar eight-ar.1 eight-ar.2];
 } salt;
 markClass dotabove-ar <anchor 17 0> @mark_top;
 markClass dotabove-ar.alt1 <anchor 29 0> @mark_top;
