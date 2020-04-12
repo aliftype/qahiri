@@ -11857,9 +11857,12 @@ kerning = {
 "@MMK_R_yeh" = -40;
 };
 "hah-ar.medi" = {
+"@MMK_R_hah-ar.init" = -40;
 "@MMK_R_pyramid" = -30;
+"@MMK_R_waw" = -40;
 "@MMK_R_yeh" = -40;
 "alefMaksura-ar.fina.5" = 0;
+"meem-ar.fina.2" = -50;
 };
 "kaf-ar.init.1" = {
 "@MMK_R_yeh" = -30;
