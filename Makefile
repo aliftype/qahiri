@@ -13,42 +13,44 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+NAME = Qahiri
+
 MAKEFLAGS := -sr
 SHELL = bash
 
 BUILDDIR = build
 CONFIG = _config.yml
 VERSION = $(shell python version.py $(CONFIG))
+DIST = $(NAME)-$(VERSION)
 
 .SECONDARY:
 .ONESHELL:
-.PHONY: all
+.PHONY: all dist
 
-space := $() $()
+all: $(NAME)-Regular.otf $(NAME)-Regular.ttx
 
-all: Qahiri-Regular.otf Qahiri-Regular.ttx
-
-$(BUILDDIR)/%.otf: Qahiri.glyphs $(CONFIG)
-	$(info $(space) BUILD  $(*F))
+$(BUILDDIR)/%.otf: $(NAME).glyphs $(CONFIG)
+	$(info   BUILD  $(*F))
 	mkdir -p $(BUILDDIR)
-	python build.py $< ${VERSION} $@ $(BUILDDIR)/$(*F).cff $(BUILDDIR)/$(*F).cidinfo $(BUILDDIR)/$(*F).cidmap
+	python build.py $< $(VERSION) $@ $(BUILDDIR)/$(*F).cff $(BUILDDIR)/$(*F).cidinfo $(BUILDDIR)/$(*F).cidmap
 
 $(BUILDDIR)/%.cid: $(BUILDDIR)/%.otf
-	$(info $(space) CID    $(*F))
+	$(info   CID    $(*F))
 	mergefonts -cid $(BUILDDIR)/$(*F).cidinfo $@ $(BUILDDIR)/$(*F).cidmap $(BUILDDIR)/$(*F).cff 2>/dev/null
 
 $(BUILDDIR)/%.subr.cff: $(BUILDDIR)/%.cid
-	$(info $(space) SUBR   $(*F))
+	$(info   SUBR   $(*F))
 	tx -cff +S +b $< $@
 
 %.otf: $(BUILDDIR)/%.subr.cff $(BUILDDIR)/%.otf
 	sfntedit -a CFF=$+ $@
 
 %.ttx: $(BUILDDIR)/%.otf
-	$(info $(space) TTX    $(*F))
+	$(info   TTX    $(*F))
 	ttx -q -o $@ $<
 
-dist:
-	mkdir Qahiri-$(VERSION)
-	cp Qahiri-Regular.otf README.txt README-Arabic.txt Qahiri-$(VERSION)
-	zip -r Qahiri-$(VERSION).zip Qahiri-$(VERSION)
+dist: all
+	$(info   DIST   $(DIST).zip)
+	install -Dm644 -t $(DIST) $(NAME)-Regular.otf
+	install -Dm644 -t $(DIST) {README,README-Arabic}.txt
+	zip -rq $(DIST).zip $(DIST)
