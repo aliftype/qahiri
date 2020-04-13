@@ -22,7 +22,7 @@ code = "@DotBelow @TwoDotsBelow";
 name = DotsBelow;
 },
 {
-code = "hah-ar.medi.1 hah-ar.fina.1";
+code = "hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3 hah-ar.fina.1";
 name = HahAlt;
 },
 {
@@ -326,7 +326,7 @@ code = "  sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
   sub hah-ar                  from [hah-ar hah-ar.1 hah-ar.2 hah-ar.3 hah-ar.4 hah-ar.5];
   sub hah-ar.fina             from [hah-ar.fina hah-ar.fina.1]; 
   sub hah-ar.init             from [hah-ar.init hah-ar.init.1 hah-ar.init.2];
-  sub hah-ar.medi             from [hah-ar.medi hah-ar.medi.1];
+  sub hah-ar.medi             from [hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3];
   sub heh-ar                  from [heh-ar heh-ar.1 heh-ar.2];
   sub heh-ar.fina             from [heh-ar.fina heh-ar.fina.1 heh-ar.fina.2];
   sub heh-ar.init             from [heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7];
@@ -1715,6 +1715,108 @@ name = "hah-ar.init";
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 400;
+}
+);
+leftKerningGroup = "hah-ar.init";
+rightKerningGroup = "meem-ar.medi";
+},
+{
+glyphname = "hah-ar.medi.2";
+layers = (
+{
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
+name = Background;
+paths = (
+{
+closed = 1;
+nodes = (
+"70 70 LINE",
+"0 140 LINE",
+"42.749 209.841 LINE",
+"182.958 70 LINE"
+);
+}
+);
+width = 400;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{110, -35}";
+},
+{
+name = entry;
+position = "{90, 110}";
+},
+{
+name = exit;
+position = "{0, 0}";
+},
+{
+name = top;
+position = "{9, 233}";
+}
+);
+components = (
+{
+name = "hah-ar.init.1";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 420;
+}
+);
+leftKerningGroup = "hah-ar.init";
+rightKerningGroup = "meem-ar.medi";
+},
+{
+glyphname = "hah-ar.medi.3";
+layers = (
+{
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
+name = Background;
+paths = (
+{
+closed = 1;
+nodes = (
+"70 70 LINE",
+"0 140 LINE",
+"42.749 209.841 LINE",
+"182.958 70 LINE"
+);
+}
+);
+width = 400;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{110, -35}";
+},
+{
+name = entry;
+position = "{90, 110}";
+},
+{
+name = exit;
+position = "{0, 0}";
+},
+{
+name = top;
+position = "{9, 233}";
+}
+);
+components = (
+{
+name = "hah-ar.init.2";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 440;
 }
 );
 leftKerningGroup = "hah-ar.init";
