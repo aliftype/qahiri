@@ -236,10 +236,10 @@ class Layout {
 }
 
 let sample = `
-[{"code":1575,"features":["salt=3"]},{"code":1604},{"code":1582,"features":["salt=1"]},{"code":1591},{"code":32},{"code":1575,"features":["salt=1"]},{"code":1604},{"code":1603,"features":[]},{"code":1608,"features":["salt=1"]},{"code":1601,"features":[]},{"code":1610,"features":[]},{"code":32},{"code":1575,"features":["salt=4"]},{"code":1604},{"code":1605,"features":["salt=2"]},{"code":1589,"features":[]},{"code":1581,"features":["salt=2"]},{"code":1601,"features":["salt=1"]},{"code":1610,"features":["salt=5"]}]
+[{"code":1575,"features":["salt=3"]},{"code":1604},{"code":1582,"features":["salt=1"]},{"code":1591},{"code":32},{"code":1575,"features":["salt=1"]},{"code":1604},{"code":1603,"features":[]},{"code":1608,"features":["salt=1"]},{"code":1601,"features":[]},{"code":1610,"features":[]},{"code":32},{"code":1575,"features":["salt=4"]},{"code":1604},{"code":1605,"features":["salt=2"]},{"code":1589,"features":[]},{"code":1581,"features":["salt=3"]},{"code":1601,"features":["salt=1"]},{"code":1610,"features":["salt=5"]}]
 `;
 
-const STAORAGE_KEY = "qahiri.text-v2";
+const STAORAGE_KEY = "qahiri.text-v3";
 
 export class View {
   constructor(data) {
