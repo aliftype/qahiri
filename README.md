@@ -9,9 +9,7 @@ _Qahiri_ is a free and open source project, any one is welcomed to use and
 modify it under the terms of the [version 3 of GNU Affero General Public
 License][5].
 
-The app
--------
-
+## The app
 The font provides many alternate shapes for many of its glyphs, which should be
 usable in any OpenType-savvy application. But since many apps have poor
 OpenType support, or bad UI, or don’t allow controlling features for single
@@ -49,9 +47,25 @@ the app using the ![open](app/assets/images/open.svg) button.
 Pressing the ![clear](app/assets/images/clear.svg) button will delete all the
 text.
 
-Font features
--------------
+### Installing on mobile devices
+The application works also offline, and supports mobile browsers and small
+screens. It is also possioble to add the application to the home screen for
+quick access without opining the browser.
 
+On Android devices, open the [application web page][4] in _Google Chrome_ and
+go to the menu, click on __Add to Home screen__ and you will be prompted to add
+the application to your home screen:
+
+![Installing on Android](./assets/images/install-android-en.png#install)
+
+On iOS devices, open the [application web page][4] in _Safari_, click on the
+download icon, then on __Add to Home Screen__ and you will be prompted to add
+the application to your home screen:
+
+![Installing on iOS](./assets/images/install-ios-1-en.png#install)
+![Installing on iOS](./assets/images/install-ios-2-en.png#install)
+
+## Font features
 The font tries to remain faithful to the rules laid out by _Mohammad
 Abdul Qadir_, and one aspect of that is spacing. The space between letters,
 connected or not, as well as between words is always about half the thickness
@@ -69,21 +83,14 @@ this does not always work.
 
 ![Screenshot showing clashing letters](assets/images/screenshot-clash.png)
 
-Issues
-------
-
+## Issues
 The font is built using some advanced OpenType techniques that are not equally
 supported by software, and this might result in the font being broken in
 certain applications.
 
-The application does not currently work well on small screens, and also needs a
-physical keyboard as on-screen keyboard on mobile devices does not trigger due
-to the way it is built.
-
 Performance of the application is also far from being optimal, so pasting large
 amounts of text should be avoided. Also it does not support multiple line, it
 works with one line at a time.
-
 
 [1]: https://en.wikipedia.org/wiki/Kufic
 [2]: https://ar.wikipedia.org/wiki/محمد_عبد_القادر_عبد_الله_(خطاط)
