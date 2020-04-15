@@ -119,6 +119,13 @@ code = "lookup AboveHah {
   sub hah-ar.fina by hah-ar.fina.1;
 } AboveHah;
 
+lookup AboveHahReverse {
+  sub behDotless-ar.init.hah by behDotless-ar.init;
+  sub lam-ar.init.hah by lam-ar.init;
+  sub hah-ar.medi.1 by hah-ar.medi;
+  sub hah-ar.fina.1 by hah-ar.fina;
+} AboveHahReverse;
+
 lookup lellah {
   sub lam-ar.init by lam-ar.init.lellah;
   sub lam-ar.medi by lam-ar.medi.lellah;
@@ -325,8 +332,10 @@ code = "  sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
   sub fehDotless-ar.medi      from [fehDotless-ar.medi fehDotless-ar.medi.1];
   sub hah-ar                  from [hah-ar hah-ar.1 hah-ar.2 hah-ar.3 hah-ar.4 hah-ar.5];
   sub hah-ar.fina             from [hah-ar.fina hah-ar.fina.1]; 
+  sub hah-ar.fina.1           from [hah-ar.fina hah-ar.fina.1];
   sub hah-ar.init             from [hah-ar.init hah-ar.init.1 hah-ar.init.2];
   sub hah-ar.medi             from [hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3];
+  sub hah-ar.medi.1           from [hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3];
   sub heh-ar                  from [heh-ar heh-ar.1 heh-ar.2];
   sub heh-ar.fina             from [heh-ar.fina heh-ar.fina.1 heh-ar.fina.2];
   sub heh-ar.init             from [heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7];
@@ -426,6 +435,12 @@ lookup BehHah {
  lookupflag UseMarkFilteringSet @DotsBelow;
   sub [@BehMedi hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
 } BehHah;
+
+lookup ReverseAboveHah {
+ lookupflag IgnoreMarks;
+  sub [behDotless-ar.init.hah lam-ar.init.hah]' lookup AboveHahReverse
+      [hah-ar.medi hah-ar.fina]'                lookup AboveHahReverse;
+} ReverseAboveHah;
 
 lookup HighHah {
  @Ascender = [lam-ar.init lam-ar.init.hah lam-ar.medi tah-ar.medi tah-ar.init];
