@@ -56,7 +56,8 @@ On Android devices, open the [application web page][4] in _Google Chrome_ and
 go to the menu, click on __Add to Home screen__ and you will be prompted to add
 the application to your home screen:
 
-![Installing on Android](./assets/images/install-android-en.png#install)
+![Installing on Android](./assets/images/install-android-1-en.png#install)
+![Installing on Android](./assets/images/install-android-2-en.png#install)
 
 On iOS devices, open the [application web page][4] in _Safari_, click on the
 download icon, then on __Add to Home Screen__ and you will be prompted to add
