@@ -256,10 +256,11 @@ export class View {
     this._manualFontSize = false;
 
     this._canvas.addEventListener('click', e => this._click(e));
-    this._canvas.addEventListener('focus', e => this._input.focus({preventScroll: true}));
+    this._canvas.addEventListener('focusin', e => this._input.focus({preventScroll: true}));
 
     this._input.addEventListener('keydown', e => this._keydown(e));
     this._input.addEventListener('input', e => this._keypress(e));
+    this._input.addEventListener('focusout', e => this.update());
 
     document.addEventListener('paste', e => {
       if (document.activeElement === this._input)
@@ -325,11 +326,14 @@ export class View {
     ctx.scale(this._scale, this._scale);
 
     // Draw cursor.
-    ctx.save();
-    ctx.fillStyle = "#0000003f";
-    let pos = layout.posOfIndex(this._cursor - 1);
-    ctx.fillRect(pos, layout.baseline - layout.descender, 100, layout.descender - layout.ascender);
-    ctx.restore();
+
+    if (document.hasFocus() && document.activeElement == this._input) {
+      ctx.save();
+      ctx.fillStyle = "#0000003f";
+      let pos = layout.posOfIndex(this._cursor - 1);
+      ctx.fillRect(pos, layout.baseline - layout.descender, 100, layout.descender - layout.ascender);
+      ctx.restore();
+    }
 
     let mainCanvas = this._canvas;
     let img = new Image;
