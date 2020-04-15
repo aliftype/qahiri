@@ -170,7 +170,7 @@ lookupflag IgnoreMarks;
   sub behDotless-ar.init behDotless-ar.medi' noonghunna-ar.fina by behDotless-ar.medi.high;
 
   sub [behDotless-ar.init lam-ar.init]' lookup AboveHah
-      [hah-ar.medi hah-ar.fina]' lookup AboveHah;
+      [hah-ar.medi hah-ar.fina]'        lookup AboveHah;
 
   sub lam-ar.init alef-ar.fina by lam_alef-ar;
   sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
@@ -194,7 +194,7 @@ featureNames {
    name "Rounded Dots";
    name 3 1 0x0C01 "نقاط مستديرة";
 };
-  sub @Dots by @Dots.alt1; 
+  sub @Dots by @Dots.alt1;
 } ss02;
 
 feature onum {
@@ -216,7 +216,7 @@ feature salt {
   sub alefMaksura-ar          from [alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4 alefMaksura-ar.5 alefMaksura-ar.6];
   sub alefMaksura-ar.fina     from [alefMaksura-ar.fina.0 alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6];
   # Dummy entry for the app to show alternates.
-  sub alefMaksura-ar.fina.tooth from [alefMaksura-ar.fina alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6 alefMaksura-ar.fina.tooth]; 
+  sub alefMaksura-ar.fina.tooth from [alefMaksura-ar.fina alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6 alefMaksura-ar.fina.tooth];
   sub behDotless-ar.medi      from [behDotless-ar.medi behDotless-ar.medi.1];
   sub behDotless-ar.medi.high from [behDotless-ar.medi.high behDotless-ar.medi.high.1];
   sub behDotless-ar.fina      from [behDotless-ar.fina behDotless-ar.fina.1];
@@ -225,7 +225,7 @@ feature salt {
   sub fehDotless-ar.init      from [fehDotless-ar.init fehDotless-ar.init.1];
   sub fehDotless-ar.medi      from [fehDotless-ar.medi fehDotless-ar.medi.1];
   sub hah-ar                  from [hah-ar hah-ar.1 hah-ar.2 hah-ar.3 hah-ar.4 hah-ar.5];
-  sub hah-ar.fina             from [hah-ar.fina hah-ar.fina.1]; 
+  sub hah-ar.fina             from [hah-ar.fina hah-ar.fina.1];
   sub hah-ar.fina.1           from [hah-ar.fina hah-ar.fina.1];
   sub hah-ar.init             from [hah-ar.init hah-ar.init.1 hah-ar.init.2];
   sub hah-ar.medi             from [hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3];
