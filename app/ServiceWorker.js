@@ -33,18 +33,21 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
+  let request = e.request;
+  if (request.url.startsWith("https://www.google"))
+    return;
   e.respondWith(
-    get(e.request, 400)
+    get(request, 400)
     .then(response => {
       return caches.open(CACHE).then(cache => {
-        return cache.put(e.request, response.clone()).then(() => {
+        return cache.put(request, response.clone()).then(() => {
           return response;
         });
       });
     })
     .catch(() => {
       return caches.open(CACHE).then(cache => {
-        return caches.match(e.request).then(match => {
+        return caches.match(request).then(match => {
           return match || Promise.reject('no-match');
         });
       });
