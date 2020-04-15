@@ -1,10 +1,11 @@
-let CACHE = 'app-cache-v-5';
+let CACHE = 'app-cache-v-6';
 let FILES = [
   './',
   './assets/fonts/Qahiri-Regular.otf',
   './assets/images/app-icon.svg',
   './assets/images/clear.svg',
   './assets/images/export.svg',
+  './assets/images/onum.svg',
   './assets/images/open.svg',
   './assets/images/remove-dots.svg',
   './assets/images/round-dots.svg',
