@@ -287,11 +287,10 @@ code = "lookupflag IgnoreMarks;
       [hah-ar.medi hah-ar.fina]'        lookup AboveHah;
 
   sub lam-ar.init alef-ar.fina by lam_alef-ar;
-  sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;";
-name = rclt;
-},
-{
-code = "  sub space' space by space.alt;";
+  sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
+
+lookupflag 0;
+  sub space' space by space.alt;";
 name = rclt;
 },
 {
@@ -372,34 +371,21 @@ code = "  sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
 name = salt;
 },
 {
-code = "lookup HehDots {
- @TwoDotsAbove = [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1];
- lookupflag UseMarkFilteringSet @TwoDotsAbove;
+code = "@TwoDotsAbove = [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1];
+lookupflag UseMarkFilteringSet @TwoDotsAbove;
   sub [heh-ar.fina.2 heh-ar.2] [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1]' by [twodotsverticalabove-ar twodotsverticalabove-ar.alt1];
-} HehDots;
 
-lookup YehTooth {
- lookupflag UseMarkFilteringSet @DotsBelow;
+lookupflag UseMarkFilteringSet @DotsBelow;
   ignore sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1]' @DotsBelow' [behDotless-ar.medi lam-ar.medi]' alefMaksura-ar.fina';
   sub [behDotless-ar.medi lam-ar.medi]' lookup ToothYeh alefMaksura-ar.fina' lookup ToothYeh;
-} YehTooth;
-
-lookup BehHah {
- lookupflag UseMarkFilteringSet @DotsBelow;
   sub [@BehMedi hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
-} BehHah;
 
-lookup ReverseAboveHah {
- lookupflag IgnoreMarks;
+lookupflag IgnoreMarks;
   sub [behDotless-ar.init.hah lam-ar.init.hah]' lookup AboveHahReverse
       [hah-ar.medi hah-ar.fina]'                lookup AboveHahReverse;
-} ReverseAboveHah;
 
-lookup HighHah {
- @Ascender = [lam-ar.init lam-ar.init.hah lam-ar.medi tah-ar.medi tah-ar.init];
- @AllInitMedi = [@AllInit @AllMedi];
- lookupflag IgnoreMarks;
-
+@Ascender = [lam-ar.init lam-ar.init.hah lam-ar.medi tah-ar.medi tah-ar.init];
+@AllInitMedi = [@AllInit @AllMedi];
   sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
   sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
   sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
@@ -448,8 +434,7 @@ lookup HighHah {
   sub  @Ascender' lookup ShortLamTah @AllInitMedi @AllInitMedi @AllInitMedi @HahAlt;
   sub  @Ascender' lookup ShortLamTah @AllInitMedi @AllInitMedi @HahAlt;
   sub  @Ascender' lookup ShortLamTah @AllInitMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @HahAlt;
-} HighHah;";
+  sub  @Ascender' lookup ShortLamTah @HahAlt;";
 name = dist;
 },
 {
