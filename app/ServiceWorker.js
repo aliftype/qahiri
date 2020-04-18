@@ -11,7 +11,7 @@ let FILES = [
   './assets/images/round-dots.svg',
   './assets/images/save.svg',
   './HarfBuzz.js',
-  './Manifest.json',
+  './app.webmanifest',
   './OpenType.js',
   './TextView.js',
   './hb.js',
