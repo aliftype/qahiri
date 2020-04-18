@@ -122,31 +122,27 @@ export class Font {
       return outlines[glyph];
 
     if (!this._decompose_funcs) {
-      let funcs = this._decompose_funcs = _hb_ot_glyph_decompose_funcs_create();
-      _hb_ot_glyph_decompose_funcs_set_move_to_func(funcs,
-        addFunction(function(x, y, data) {
-          outlines[data] += `M${x},${-y}`
+      let funcs = this._decompose_funcs = _hb_draw_funcs_create();
+      _hb_draw_funcs_set_move_to_func(funcs,
+        addFunction(function(x, y, g) { outlines[g] += `M${x},${-y}`; }));
+      _hb_draw_funcs_set_line_to_func(funcs,
+        addFunction(function(x, y, g) { outlines[g] += `L${x},${-y}`; }));
+      _hb_draw_funcs_set_quadratic_to_func(funcs,
+        addFunction(function(x1, y1, x2, y2, g) {
+          outlines[g] += `Q${x1},${-y1},${x2},${-y2}`;
         }));
-      _hb_ot_glyph_decompose_funcs_set_line_to_func(funcs,
-        addFunction(function(x, y, data) {
-          outlines[data] += `L${x},${-y}`
+      _hb_draw_funcs_set_cubic_to_func(funcs,
+        addFunction(function(x1, y1, x2, y2, x3, y3, g) {
+          outlines[g] += `C${x1},${-y1},${x2},${-y2},${x3},${-y3}`;
         }));
-      _hb_ot_glyph_decompose_funcs_set_conic_to_func(funcs,
-        addFunction(function(x1, y1, x2, y2, data) {
-          outlines[data] += `Q${x1},${-y1},${x2},${-y2}`
-        }));
-      _hb_ot_glyph_decompose_funcs_set_cubic_to_func(funcs,
-        addFunction(function(x1, y1, x2, y2, x3, y3, data) {
-          outlines[data] += `C${x1},${-y1},${x2},${-y2},${x3},${-y3}`
-        }));
-      _hb_ot_glyph_decompose_funcs_set_close_path_func(funcs,
-        addFunction(function(data) { outlines[data] += `Z` }));
+      _hb_draw_funcs_set_close_path_func(funcs,
+        addFunction(function(g) { outlines[g] += `Z` }));
     }
 
     outlines[glyph] = "";
     // I’m abusing pointers here to pass the actual glyph id instead of a user
     // data pointer, don’t shot me.
-    _hb_ot_glyph_decompose(this.ptr, glyph, this._decompose_funcs, glyph);
+    _hb_font_draw_glyph(this.ptr, glyph, this._decompose_funcs, glyph);
 
     return outlines[glyph];
   }
