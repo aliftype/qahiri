@@ -31,7 +31,7 @@ name = BehMedi;
 },
 {
 automatic = 1;
-code = "";
+code = "/.*\\.medi/";
 name = AllMedi;
 }
 );

@@ -14,6 +14,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import argparse
+import re
 
 from fontTools.fontBuilder import FontBuilder
 from fontTools.ttLib import TTFont, newTable
@@ -172,6 +173,10 @@ feature mark {{
 
     return fea
 
+def isRegexClass(code):
+    if len(code) > 2 and code.startswith("/") and code.endswith("/"):
+        return True
+    return False
 
 def makeFeatures(instance, master):
     font = instance.parent
@@ -180,11 +185,11 @@ def makeFeatures(instance, master):
     for gclass in font.classes:
         if gclass.disabled:
             continue
-        if gclass.automatic and not gclass.code:
+        if gclass.automatic and isRegexClass(gclass.code):
+            regex = re.compile(gclass.code[1:-1])
+            gclass.code = ""
             for glyph in font.glyphs:
-                if ".init" in glyph.name and gclass.name == "AllInit":
-                    gclass.code += f"{glyph.name} "
-                if ".medi" in glyph.name and gclass.name == "AllMedi":
+                if regex.match(glyph.name):
                     gclass.code += f"{glyph.name} "
 
         fea += f"@{gclass.name} = [{gclass.code}];\n"
