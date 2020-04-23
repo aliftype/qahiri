@@ -877,8 +877,8 @@ closed = 1;
 nodes = (
 "470 0 LINE",
 "470 70 LINE",
-"320 70 LINE",
-"320 0 LINE"
+"170 70 LINE",
+"170 0 LINE"
 );
 }
 );
@@ -941,8 +941,8 @@ closed = 1;
 nodes = (
 "600 0 LINE",
 "600 70 LINE",
-"320 70 LINE",
-"320 0 LINE"
+"170 70 LINE",
+"170 0 LINE"
 );
 },
 {
@@ -4557,6 +4557,17 @@ name = _tail;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"350 0 LINE",
+"350 70 LINE",
+"170 70 LINE",
+"170 0 LINE"
+);
+}
+);
 width = 613;
 }
 );
@@ -4578,6 +4589,17 @@ name = _tail;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"350 0 LINE",
+"350 70 LINE",
+"170 70 LINE",
+"170 0 LINE"
+);
+}
+);
 width = 600;
 }
 );
@@ -4604,8 +4626,8 @@ closed = 1;
 nodes = (
 "390 0 LINE",
 "390 70 LINE",
-"320 70 LINE",
-"320 0 LINE"
+"170 70 LINE",
+"170 0 LINE"
 );
 }
 );
@@ -4635,8 +4657,8 @@ closed = 1;
 nodes = (
 "390 0 LINE",
 "390 70 LINE",
-"320 70 LINE",
-"320 0 LINE"
+"170 70 LINE",
+"170 0 LINE"
 );
 }
 );
@@ -7666,6 +7688,12 @@ name = top;
 position = "{129, 230}";
 }
 );
+components = (
+{
+name = _tail;
+transform = "{1, 0, 0, 1, -50, -110}";
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7706,18 +7734,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"130 -110 LINE",
-"130 -40 LINE",
-"50 -40 LINE SMOOTH",
-"27.559 -40 OFFCURVE",
-"12.149 -33.182 OFFCURVE",
-"2 -20 CURVE",
-"-50 -110 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "118.964 70 OFFCURVE",
 "110.003 78.962 OFFCURVE",
 "110.003 90 CURVE SMOOTH",
@@ -7749,6 +7765,12 @@ name = top;
 position = "{129, 230}";
 }
 );
+components = (
+{
+name = _tail;
+transform = "{1, 0, 0, 1, -50, -110}";
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
@@ -7763,18 +7785,6 @@ nodes = (
 "150 -40 LINE",
 "10 -40 LINE",
 "10 -110 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"130 -110 LINE",
-"130 -40 LINE",
-"50 -40 LINE",
-"27.559 -40 OFFCURVE",
-"12.149 -33.182 OFFCURVE",
-"2 -20 CURVE",
-"-50 -110 LINE"
 );
 },
 {
@@ -12078,17 +12088,17 @@ paths = (
 {
 closed = 1;
 nodes = (
-"350 0 LINE",
-"350 70 LINE",
-"100 70 LINE",
-"77.559 70 OFFCURVE",
-"62.149 76.818 OFFCURVE",
+"180 0 LINE",
+"180 70 LINE",
+"100 70 LINE SMOOTH",
+"78 70 OFFCURVE",
+"62 77 OFFCURVE",
 "52 90 CURVE",
 "0 0 LINE"
 );
 }
 );
-width = 350;
+width = 180;
 }
 );
 },

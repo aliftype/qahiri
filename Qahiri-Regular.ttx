@@ -277,7 +277,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.008"/>
-    <checkSumAdjustment value="0xe21f1156"/>
+    <checkSumAdjustment value="0xfad70de8"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -5624,18 +5624,19 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="waw-ar.1">
           270 -110 70 40 70 40 70 hstem
           30 80 40 80 vstem
-          -50 -110 rmoveto
+          130 0 rmoveto
+          7 0 7 1 6 1 rrcurveto
+          0 -42 rlineto
+          -100 0 rlineto
+          -22 0 -16 7 -10 13 rrcurveto
+          -52 -90 rlineto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 160 rlineto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -50 45 -40 55 0 rrcurveto
-          7 0 7 1 6 1 rrcurveto
-          0 -42 rlineto
-          -100 0 rlineto
-          -22 0 -16 7 -10 13 rrcurveto
-          128 90 rmoveto
+          0 70 rmoveto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
@@ -5668,18 +5669,19 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="waw-ar.3">
           320 0 70 40 70 40 70 hstem
           80 80 40 80 vstem
-          0 0 rmoveto
+          180 110 rmoveto
+          7 0 7 1 6 1 rrcurveto
+          0 -42 rlineto
+          -100 0 rlineto
+          -22 0 -16 7 -10 13 rrcurveto
+          -52 -90 rlineto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 160 rlineto
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -50 45 -40 55 0 rrcurveto
-          7 0 7 1 6 1 rrcurveto
-          0 -42 rlineto
-          -100 0 rlineto
-          -22 0 -16 7 -10 13 rrcurveto
-          128 90 rmoveto
+          0 70 rmoveto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
@@ -5720,7 +5722,12 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="waw-ar.fina.1">
           270 -110 70 40 70 40 70 hstem
           30 80 40 80 vstem
-          -50 -110 rmoveto
+          130 0 rmoveto
+          20 0 rlineto
+          0 -40 rlineto
+          -100 0 rlineto
+          -22 0 -16 7 -10 13 rrcurveto
+          -52 -90 rlineto
           242 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 70 rlineto
@@ -5731,11 +5738,7 @@ You should have received a copy of the GNU Affero General Public License along w
           0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -50 45 -40 55 0 rrcurveto
-          20 0 rlineto
-          0 -40 rlineto
-          -100 0 rlineto
-          -22 0 -16 7 -10 13 rrcurveto
-          128 90 rmoveto
+          0 70 rmoveto
           -11 0 -9 9 0 11 rrcurveto
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
