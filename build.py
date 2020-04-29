@@ -17,48 +17,40 @@ import argparse
 import re
 
 from fontTools.fontBuilder import FontBuilder
-from fontTools.ttLib import TTFont, newTable
+from fontTools.ttLib import newTable
 from fontTools.misc.psCharStrings import T2CharString
 from fontTools.misc.timeTools import epoch_diff
 from fontTools.misc.transform import Transform, Identity
-from fontTools.pens.pointPen import PointToSegmentPen, ReverseContourPointPen
-from fontTools.pens.transformPen import TransformPointPen
+from fontTools.pens.reverseContourPen import ReverseContourPen
+from fontTools.pens.transformPen import TransformPen
 
 from glyphsLib import GSFont, GSAnchor
 from glyphsLib.builder.constants import CODEPAGE_RANGES
 from glyphsLib.glyphdata import get_glyph as getGlyphInfo
 
-from pathops import Path
+from pathops import Path, PathPen
 
 from psautohint import hint_bez_glyph
 from psautohint.ufoFont import BezPen
 from psautohint.otfFont import convertBezToT2
 
 
-def draw(layer, pen):
-    for path in layer.paths:
-        pen.beginPath()
-        nodes = list(path.nodes)
-        if nodes:
-            # In Glyphs.app, the starting node of a closed contour is always
-            # stored at the end of the nodes list.
-            nodes.insert(0, nodes.pop())
-            for node in nodes:
-                segmentType = node.type
-                if segmentType not in ["line", "curve", "qcurve"]:
-                    segmentType = None
-                pen.addPoint(tuple(node.position), segmentType=segmentType, smooth=node.smooth)
-        pen.endPath();
+class DecomposePathPen(PathPen):
+    def __new__(cls, *args, **kwargs):
+        kwargs.pop("layerSet")
+        return super().__new__(cls, *args, **kwargs)
 
-    for component in layer.components:
-        transform = component.transform.value
-        componentPen = pen
+    def __init__(self, path, layerSet):
+        self._layerSet = layerSet
+
+    def addComponent(self, name, transform):
+        pen = self
         if transform != Identity:
-            componentPen = TransformPointPen(pen, transform)
+            pen = TransformPen(pen, transform)
             xx, xy, yx, yy = transform[:4]
             if xx * yy - xy * yx < 0:
-                componentPen = ReverseContourPointPen(componentPen)
-        draw(component.layer, componentPen)
+                pen = ReverseContourPen(pen)
+        self._layerSet[name].draw(pen)
 
 
 def makeKerning(font, master):
@@ -333,6 +325,7 @@ def build(instance, opts):
         BlueFuzz 1
     """
 
+    layerSet = {g.name: g.layers[master.id] for g in font.glyphs}
     for glyph in font.glyphs:
         if not glyph.export:
             continue
@@ -347,7 +340,7 @@ def build(instance, opts):
 
         # Draw glyph and remove overlaps.
         path = Path()
-        draw(layer, PointToSegmentPen(path.getPen()))
+        layer.draw(DecomposePathPen(path, layerSet=layerSet))
         path.simplify(fix_winding=True, keep_starting_points=True)
 
         # Autohint.
