@@ -1,20 +1,24 @@
 {
-.appVersion = "1320";
+.appVersion = "1332";
 classes = (
 {
-code = "dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar";
+automatic = 1;
+code = "/.*dot.*.-ar$/";
 name = Dots;
 },
 {
-code = "dotabove-ar.alt1 dotbelow-ar.alt1 twodotshorizontalabove-ar.alt1 twodotshorizontalbelow-ar.alt1 threedotsupabove-ar.alt1";
+automatic = 1;
+code = "/.*dot.*.-ar.alt1/";
 name = Dots.alt1;
 },
 {
-code = "twodotshorizontalbelow-ar twodotshorizontalbelow-ar.alt1";
+automatic = 1;
+code = "/^twodotshorizontalbelow-ar.*/";
 name = TwoDotsBelow;
 },
 {
-code = "dotbelow-ar dotbelow-ar.alt1";
+automatic = 1;
+code = "/^dotbelow-ar.*/";
 name = DotBelow;
 },
 {
@@ -26,33 +30,18 @@ code = "hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3 hah-ar.fina.1";
 name = HahAlt;
 },
 {
-code = "behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1";
+automatic = 1;
+code = "/^behDotless-ar.medi.*/";
 name = BehMedi;
 },
 {
 automatic = 1;
-code = "/.*\\.medi/";
+code = "/.*\\.medi.*/";
 name = AllMedi;
 }
 );
 copyright = "Copyright © 2020 by Khaled Hosny. All rights reserved.";
 customParameters = (
-{
-name = description;
-value = "Qahiri is a Kufic typeface based on the modernized and regularized old manuscript Kufic calligraphy style of the late master of Arabic calligraphy Mohammad Abdul Qadir.";
-},
-{
-name = license;
-value = "This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\012\012This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.\012\012You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>";
-},
-{
-name = licenseURL;
-value = "https://www.gnu.org/licenses/agpl-3.0.html";
-},
-{
-name = sampleText;
-value = "صف خلق خود كمثل الشمس إذ بزغت يحظى الضجيع بها نجلاء معطار";
-},
 {
 name = vendorID;
 value = ALIF;
@@ -94,6 +83,22 @@ name = codePageRanges;
 value = (
 1256
 );
+},
+{
+name = license;
+value = "This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\012\012This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.\012\012You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>";
+},
+{
+name = licenseURL;
+value = "https://www.gnu.org/licenses/agpl-3.0.html";
+},
+{
+name = description;
+value = "Qahiri is a Kufic typeface based on the modernized and regularized old manuscript Kufic calligraphy style of the late master of Arabic calligraphy Mohammad Abdul Qadir.";
+},
+{
+name = sampleText;
+value = "صف خلق خود كمثل الشمس إذ بزغت يحظى الضجيع بها نجلاء معطار";
 }
 );
 date = "2020-03-17 04:09:41 +0000";
@@ -291,12 +296,12 @@ name = rclt;
 {
 code = "  sub [@Dots hamzaabove-ar hamzabelow-ar hamza-ar] by empty;";
 name = ss01;
-notes = "featureNames {\012   name \"Dot-less Letter Forms\";\012   name 3 1 0x0C01 \"حروف مهملة (بلا نقاط)\";\012};";
+notes = "featureNames {\012	name 3 1 0x409 \"Dot-less Letter Forms\";\012	name 3 1 0xC01 \"حروف مهملة (بلا نقاط)\";\012};\012";
 },
 {
 code = "  sub @Dots by @Dots.alt1;";
 name = ss02;
-notes = "featureNames {\012   name \"Rounded Dots\";\012   name 3 1 0x0C01 \"نقاط مستديرة\";\012};";
+notes = "featureNames {\012	name 3 1 0x409 \"Rounded Dots\";\012	name 3 1 0xC01 \"نقاط مستديرة\";\012};\012";
 },
 {
 automatic = 1;
@@ -10922,6 +10927,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "two-ar";
 transform = "{-1, 0, 0, 1, 210, 0}";
 }
@@ -10968,6 +10974,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "two-ar.1";
 transform = "{-1, 0, 0, 1, 210, 0}";
 }
@@ -11013,6 +11020,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "two-ar.osf";
 transform = "{-1, 0, 0, 1, 210, 0}";
 }
@@ -11058,6 +11066,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "two-ar.osf.1";
 transform = "{-1, 0, 0, 1, 210, 0}";
 }
@@ -12693,6 +12702,7 @@ GSDimensionPlugin.Dimensions = {
 "67aa4fb0-543e-4232-8202-ade6a11e0795" = {
 };
 };
+GSDontShowVersionAlert = 1;
 };
 versionMajor = 0;
 versionMinor = 0;

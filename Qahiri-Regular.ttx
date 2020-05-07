@@ -277,7 +277,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.008"/>
-    <checkSumAdjustment value="0xfad70de8"/>
+    <checkSumAdjustment value="0xc630118"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -16919,6 +16919,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <Substitution in="threedotsupabove-ar" out="empty"/>
           <Substitution in="twodotshorizontalabove-ar" out="empty"/>
           <Substitution in="twodotshorizontalbelow-ar" out="empty"/>
+          <Substitution in="twodotsverticalabove-ar" out="empty"/>
         </SingleSubst>
       </Lookup>
       <Lookup index="21">
@@ -16931,6 +16932,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <Substitution in="threedotsupabove-ar" out="threedotsupabove-ar.alt1"/>
           <Substitution in="twodotshorizontalabove-ar" out="twodotshorizontalabove-ar.alt1"/>
           <Substitution in="twodotshorizontalbelow-ar" out="twodotshorizontalbelow-ar.alt1"/>
+          <Substitution in="twodotsverticalabove-ar" out="twodotsverticalabove-ar.alt1"/>
         </SingleSubst>
       </Lookup>
       <Lookup index="22">
@@ -17342,6 +17344,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="behDotless-ar.medi.1"/>
             <Glyph value="behDotless-ar.medi.high"/>
             <Glyph value="behDotless-ar.medi.high.1"/>
+            <Glyph value="behDotless-ar.medi.yeh"/>
             <Glyph value="hah-ar.medi"/>
           </InputCoverage>
           <!-- LookAheadGlyphCount=2 -->
