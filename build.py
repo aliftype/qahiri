@@ -138,7 +138,7 @@ def makeMark(instance, master):
 
     for name, components in lig.items():
         mark += f"pos ligature {name}"
-        for component, anchors in components.items():
+        for component, anchors in sorted(components.items()):
             if component != "1":
                 mark += " ligComponent"
             for anchor, (x, y) in anchors:

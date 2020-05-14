@@ -277,7 +277,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.008"/>
-    <checkSumAdjustment value="0xc630118"/>
+    <checkSumAdjustment value="0xfd1302e0"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -8839,16 +8839,22 @@ You should have received a copy of the GNU Affero General Public License along w
             <LigatureAttach index="4">
               <!-- ComponentCount=2 -->
               <ComponentRecord index="0">
-                <LigatureAnchor index="0" empty="1"/>
-                <LigatureAnchor index="1" empty="1"/>
-              </ComponentRecord>
-              <ComponentRecord index="1">
                 <LigatureAnchor index="0" Format="1">
                   <XCoordinate value="201"/>
                   <YCoordinate value="570"/>
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="220"/>
+                  <YCoordinate value="0"/>
+                </LigatureAnchor>
+              </ComponentRecord>
+              <ComponentRecord index="1">
+                <LigatureAnchor index="0" Format="1">
+                  <XCoordinate value="80"/>
+                  <YCoordinate value="570"/>
+                </LigatureAnchor>
+                <LigatureAnchor index="1" Format="1">
+                  <XCoordinate value="64"/>
                   <YCoordinate value="0"/>
                 </LigatureAnchor>
               </ComponentRecord>
@@ -8879,16 +8885,22 @@ You should have received a copy of the GNU Affero General Public License along w
             <LigatureAttach index="6">
               <!-- ComponentCount=2 -->
               <ComponentRecord index="0">
-                <LigatureAnchor index="0" empty="1"/>
-                <LigatureAnchor index="1" empty="1"/>
-              </ComponentRecord>
-              <ComponentRecord index="1">
                 <LigatureAnchor index="0" Format="1">
                   <XCoordinate value="241"/>
                   <YCoordinate value="570"/>
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="260"/>
+                  <YCoordinate value="0"/>
+                </LigatureAnchor>
+              </ComponentRecord>
+              <ComponentRecord index="1">
+                <LigatureAnchor index="0" Format="1">
+                  <XCoordinate value="120"/>
+                  <YCoordinate value="570"/>
+                </LigatureAnchor>
+                <LigatureAnchor index="1" Format="1">
+                  <XCoordinate value="104"/>
                   <YCoordinate value="0"/>
                 </LigatureAnchor>
               </ComponentRecord>
@@ -8919,16 +8931,22 @@ You should have received a copy of the GNU Affero General Public License along w
             <LigatureAttach index="8">
               <!-- ComponentCount=2 -->
               <ComponentRecord index="0">
-                <LigatureAnchor index="0" empty="1"/>
-                <LigatureAnchor index="1" empty="1"/>
-              </ComponentRecord>
-              <ComponentRecord index="1">
                 <LigatureAnchor index="0" Format="1">
                   <XCoordinate value="201"/>
                   <YCoordinate value="570"/>
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="220"/>
+                  <YCoordinate value="0"/>
+                </LigatureAnchor>
+              </ComponentRecord>
+              <ComponentRecord index="1">
+                <LigatureAnchor index="0" Format="1">
+                  <XCoordinate value="80"/>
+                  <YCoordinate value="570"/>
+                </LigatureAnchor>
+                <LigatureAnchor index="1" Format="1">
+                  <XCoordinate value="64"/>
                   <YCoordinate value="0"/>
                 </LigatureAnchor>
               </ComponentRecord>
@@ -8959,16 +8977,22 @@ You should have received a copy of the GNU Affero General Public License along w
             <LigatureAttach index="10">
               <!-- ComponentCount=2 -->
               <ComponentRecord index="0">
-                <LigatureAnchor index="0" empty="1"/>
-                <LigatureAnchor index="1" empty="1"/>
-              </ComponentRecord>
-              <ComponentRecord index="1">
                 <LigatureAnchor index="0" Format="1">
                   <XCoordinate value="241"/>
                   <YCoordinate value="570"/>
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="260"/>
+                  <YCoordinate value="0"/>
+                </LigatureAnchor>
+              </ComponentRecord>
+              <ComponentRecord index="1">
+                <LigatureAnchor index="0" Format="1">
+                  <XCoordinate value="120"/>
+                  <YCoordinate value="570"/>
+                </LigatureAnchor>
+                <LigatureAnchor index="1" Format="1">
+                  <XCoordinate value="104"/>
                   <YCoordinate value="0"/>
                 </LigatureAnchor>
               </ComponentRecord>
