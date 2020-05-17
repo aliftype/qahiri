@@ -277,7 +277,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.008"/>
-    <checkSumAdjustment value="0xfd1302e0"/>
+    <checkSumAdjustment value="0xff1501a6"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -6316,10 +6316,9 @@ You should have received a copy of the GNU Affero General Public License along w
       <FeatureRecord index="1">
         <FeatureTag value="kern"/>
         <Feature>
-          <!-- LookupCount=3 -->
+          <!-- LookupCount=2 -->
           <LookupListIndex index="0" value="12"/>
-          <LookupListIndex index="1" value="13"/>
-          <LookupListIndex index="2" value="17"/>
+          <LookupListIndex index="1" value="16"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="2">
@@ -6335,7 +6334,7 @@ You should have received a copy of the GNU Affero General Public License along w
       </FeatureRecord>
     </FeatureList>
     <LookupList>
-      <!-- LookupCount=18 -->
+      <!-- LookupCount=17 -->
       <Lookup index="0">
         <LookupType value="3"/>
         <LookupFlag value="9"/><!-- rightToLeft ignoreMarks -->
@@ -9484,74 +9483,89 @@ You should have received a copy of the GNU Affero General Public License along w
         <MarkFilteringSet value="1"/>
       </Lookup>
       <Lookup index="12">
-        <LookupType value="2"/>
-        <LookupFlag value="8"/><!-- ignoreMarks -->
-        <!-- SubTableCount=1 -->
-        <PairPos index="0" Format="2">
-          <Coverage Format="1">
-            <Glyph value="behDotless-ar.init.hah"/>
-            <Glyph value="ain-ar.init.1"/>
-            <Glyph value="fehDotless-ar.init"/>
-            <Glyph value="fehDotless-ar.init.1"/>
-            <Glyph value="lam-ar.init.hah"/>
-            <Glyph value="lam-ar.init.hah2"/>
-            <Glyph value="meem-ar.init"/>
-          </Coverage>
-          <ValueFormat1 value="4"/>
-          <ValueFormat2 value="0"/>
-          <ClassDef1 Format="2">
-            <ClassDef glyph="ain-ar.init.1" class="3"/>
-            <ClassDef glyph="fehDotless-ar.init" class="2"/>
-            <ClassDef glyph="fehDotless-ar.init.1" class="1"/>
-            <ClassDef glyph="meem-ar.init" class="1"/>
-          </ClassDef1>
-          <ClassDef2 Format="1">
-            <ClassDef glyph="hah-ar.fina.1" class="1"/>
-            <ClassDef glyph="hah-ar.medi.1" class="1"/>
-            <ClassDef glyph="hah-ar.medi.2" class="1"/>
-            <ClassDef glyph="hah-ar.medi.3" class="1"/>
-          </ClassDef2>
-          <!-- Class1Count=4 -->
-          <!-- Class2Count=2 -->
-          <Class1Record index="0">
-            <Class2Record index="0">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="1">
-              <Value1 XAdvance="210"/>
-            </Class2Record>
-          </Class1Record>
-          <Class1Record index="1">
-            <Class2Record index="0">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="1">
-              <Value1 XAdvance="70"/>
-            </Class2Record>
-          </Class1Record>
-          <Class1Record index="2">
-            <Class2Record index="0">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="1">
-              <Value1 XAdvance="57"/>
-            </Class2Record>
-          </Class1Record>
-          <Class1Record index="3">
-            <Class2Record index="0">
-              <Value1 XAdvance="0"/>
-            </Class2Record>
-            <Class2Record index="1">
-              <Value1 XAdvance="30"/>
-            </Class2Record>
-          </Class1Record>
-        </PairPos>
-      </Lookup>
-      <Lookup index="13">
         <LookupType value="8"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
-        <!-- SubTableCount=4 -->
+        <!-- SubTableCount=8 -->
         <ChainContextPos index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="behDotless-ar.init.hah"/>
+            <Glyph value="lam-ar.init.hah"/>
+            <Glyph value="lam-ar.init.hah2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="hah-ar.fina.1"/>
+            <Glyph value="hah-ar.medi.1"/>
+            <Glyph value="hah-ar.medi.2"/>
+            <Glyph value="hah-ar.medi.3"/>
+          </LookAheadCoverage>
+          <!-- PosCount=1 -->
+          <PosLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="13"/>
+          </PosLookupRecord>
+        </ChainContextPos>
+        <ChainContextPos index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="fehDotless-ar.init.1"/>
+            <Glyph value="meem-ar.init"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="hah-ar.fina.1"/>
+            <Glyph value="hah-ar.medi.1"/>
+            <Glyph value="hah-ar.medi.2"/>
+            <Glyph value="hah-ar.medi.3"/>
+          </LookAheadCoverage>
+          <!-- PosCount=1 -->
+          <PosLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="13"/>
+          </PosLookupRecord>
+        </ChainContextPos>
+        <ChainContextPos index="2" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="ain-ar.init.1"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="hah-ar.fina.1"/>
+            <Glyph value="hah-ar.medi.1"/>
+            <Glyph value="hah-ar.medi.2"/>
+            <Glyph value="hah-ar.medi.3"/>
+          </LookAheadCoverage>
+          <!-- PosCount=1 -->
+          <PosLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="13"/>
+          </PosLookupRecord>
+        </ChainContextPos>
+        <ChainContextPos index="3" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="fehDotless-ar.init"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="hah-ar.fina.1"/>
+            <Glyph value="hah-ar.medi.1"/>
+            <Glyph value="hah-ar.medi.2"/>
+            <Glyph value="hah-ar.medi.3"/>
+          </LookAheadCoverage>
+          <!-- PosCount=1 -->
+          <PosLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="13"/>
+          </PosLookupRecord>
+        </ChainContextPos>
+        <ChainContextPos index="4" Format="3">
           <!-- BacktrackGlyphCount=0 -->
           <!-- InputGlyphCount=1 -->
           <InputCoverage index="0" Format="1">
@@ -9578,10 +9592,10 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="14"/>
+            <LookupListIndex value="13"/>
           </PosLookupRecord>
         </ChainContextPos>
-        <ChainContextPos index="1" Format="3">
+        <ChainContextPos index="5" Format="3">
           <!-- BacktrackGlyphCount=0 -->
           <!-- InputGlyphCount=1 -->
           <InputCoverage index="0" Format="2">
@@ -9603,10 +9617,10 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="14"/>
+            <LookupListIndex value="13"/>
           </PosLookupRecord>
         </ChainContextPos>
-        <ChainContextPos index="2" Format="3">
+        <ChainContextPos index="6" Format="3">
           <!-- BacktrackGlyphCount=1 -->
           <BacktrackCoverage index="0" Format="1">
             <Glyph value="hah-ar.fina"/>
@@ -9639,10 +9653,10 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="15"/>
+            <LookupListIndex value="14"/>
           </PosLookupRecord>
         </ChainContextPos>
-        <ChainContextPos index="3" Format="3">
+        <ChainContextPos index="7" Format="3">
           <!-- BacktrackGlyphCount=1 -->
           <BacktrackCoverage index="0" Format="1">
             <Glyph value="lam-ar"/>
@@ -9665,19 +9679,21 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="16"/>
+            <LookupListIndex value="15"/>
           </PosLookupRecord>
         </ChainContextPos>
       </Lookup>
-      <Lookup index="14">
+      <Lookup index="13">
         <LookupType value="1"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
-        <!-- SubTableCount=1 -->
+        <!-- SubTableCount=2 -->
         <SinglePos index="0" Format="1">
-          <Coverage Format="2">
+          <Coverage Format="1">
             <Glyph value="behDotless-ar.init"/>
+            <Glyph value="fehDotless-ar.init.1"/>
             <Glyph value="lam-ar.init.short"/>
             <Glyph value="lam-ar.init.short2"/>
+            <Glyph value="meem-ar.init"/>
             <Glyph value="heh-ar.init.1"/>
             <Glyph value="heh-ar.init.2"/>
             <Glyph value="heh-ar.init.3"/>
@@ -9689,8 +9705,24 @@ You should have received a copy of the GNU Affero General Public License along w
           <ValueFormat value="4"/>
           <Value XAdvance="70"/>
         </SinglePos>
+        <SinglePos index="1" Format="2">
+          <Coverage Format="1">
+            <Glyph value="behDotless-ar.init.hah"/>
+            <Glyph value="ain-ar.init.1"/>
+            <Glyph value="fehDotless-ar.init"/>
+            <Glyph value="lam-ar.init.hah"/>
+            <Glyph value="lam-ar.init.hah2"/>
+          </Coverage>
+          <ValueFormat value="4"/>
+          <!-- ValueCount=5 -->
+          <Value index="0" XAdvance="210"/>
+          <Value index="1" XAdvance="30"/>
+          <Value index="2" XAdvance="57"/>
+          <Value index="3" XAdvance="210"/>
+          <Value index="4" XAdvance="210"/>
+        </SinglePos>
       </Lookup>
-      <Lookup index="15">
+      <Lookup index="14">
         <LookupType value="1"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
         <!-- SubTableCount=1 -->
@@ -9702,7 +9734,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <Value XAdvance="100"/>
         </SinglePos>
       </Lookup>
-      <Lookup index="16">
+      <Lookup index="15">
         <LookupType value="1"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
         <!-- SubTableCount=1 -->
@@ -9714,7 +9746,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <Value XAdvance="200"/>
         </SinglePos>
       </Lookup>
-      <Lookup index="17">
+      <Lookup index="16">
         <LookupType value="2"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
         <!-- SubTableCount=3 -->
