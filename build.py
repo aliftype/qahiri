@@ -53,7 +53,7 @@ class DecomposePathPen(PathPen):
         self._layerSet[name].draw(pen)
 
 
-def makeKerning(font, master):
+def makeKerning(font, source):
     fea = ""
 
     groups = {}
@@ -71,7 +71,7 @@ def makeKerning(font, master):
     for group, glyphs in groups.items():
         fea += f"{group} = [{' '.join(glyphs)}];\n"
 
-    kerning = font.kerning[master.id]
+    kerning = font.kerning[source.id]
     pairs = ""
     classes = "";
     enums = "";
@@ -99,7 +99,7 @@ lookupflag IgnoreMarks;
     return fea
 
 
-def makeMark(instance, master):
+def makeMark(instance, source):
     font = instance.parent
 
     fea = ""
@@ -115,7 +115,7 @@ def makeMark(instance, master):
         if not glyph.export:
             continue
 
-        layer = glyph.layers[master.id]
+        layer = glyph.layers[source.id]
         for anchor in layer.anchors:
             name, x, y = anchor.name, anchor.position.x, anchor.position.y
             if name.startswith("_"):
@@ -170,7 +170,7 @@ def isRegexClass(code):
         return True
     return False
 
-def makeFeatures(instance, master):
+def makeFeatures(instance, source):
     font = instance.parent
 
     fea = ""
@@ -195,7 +195,7 @@ def makeFeatures(instance, master):
         if feature.disabled:
             continue
         if feature.name == "mark":
-            fea += makeMark(instance, master)
+            fea += makeMark(instance, source)
 
         fea += f"""
 feature {feature.name} {{
@@ -204,7 +204,7 @@ feature {feature.name} {{
 }} {feature.name};
 """
         if feature.name == "kern":
-            fea += makeKerning(font, master)
+            fea += makeKerning(font, source)
 
     mark = set()
     liga = set()
@@ -230,7 +230,7 @@ feature {feature.name} {{
             elif info.category == "Letter":
                 base.add(glyph.name)
 
-        layer = glyph.layers[master.id]
+        layer = glyph.layers[source.id]
         caret = ""
         for anchor in layer.anchors:
             if anchor.name.startswith("_"):
@@ -284,48 +284,48 @@ def calcBits(bits, start, end):
 
 def build(instance, opts):
     font = instance.parent
-    master = font.masters[0]
+    source = font.masters[0]
 
-    fea, marks = makeFeatures(instance, master)
+    fea, marks = makeFeatures(instance, source)
 
     glyphOrder = []
     advanceWidths = {}
     characterMap = {}
     charStrings = {}
 
-    master.blueValues = []
-    master.otherBlues = []
+    source.blueValues = []
+    source.otherBlues = []
 
-    for zone in sorted(master.alignmentZones):
+    for zone in sorted(source.alignmentZones):
         pos = zone.position
         size = zone.size
         vals = sorted((pos, pos + size))
         if pos == 0 or size >= 0:
-            master.blueValues.extend(vals)
+            source.blueValues.extend(vals)
         else:
-            master.otherBlues.extend(vals)
+            source.otherBlues.extend(vals)
 
     fontinfo = f"""
         FontName {instance.fontName}
         OrigEmSqUnits {font.upm}
-        DominantV {master.verticalStems}
-        DominantH {master.horizontalStems}
-        BaselineOvershoot {master.blueValues[0]}
-        BaselineYCoord {master.blueValues[1]}
-        LcHeight {master.blueValues[2]}
-        LcOvershoot {master.blueValues[3] - master.blueValues[2]}
-        CapHeight {master.blueValues[4]}
-        CapOvershoot {master.blueValues[5] - master.blueValues[4]}
-        AscenderHeight {master.blueValues[6]}
-        AscenderOvershoot {master.blueValues[7] - master.blueValues[6]}
-        Baseline5 {master.otherBlues[1]}
-        Baseline5Overshoot {master.otherBlues[0] - master.otherBlues[1]}
+        DominantV {source.verticalStems}
+        DominantH {source.horizontalStems}
+        BaselineOvershoot {source.blueValues[0]}
+        BaselineYCoord {source.blueValues[1]}
+        LcHeight {source.blueValues[2]}
+        LcOvershoot {source.blueValues[3] - source.blueValues[2]}
+        CapHeight {source.blueValues[4]}
+        CapOvershoot {source.blueValues[5] - source.blueValues[4]}
+        AscenderHeight {source.blueValues[6]}
+        AscenderOvershoot {source.blueValues[7] - source.blueValues[6]}
+        Baseline5 {source.otherBlues[1]}
+        Baseline5Overshoot {source.otherBlues[0] - source.otherBlues[1]}
 
         FlexOK true
         BlueFuzz 1
     """
 
-    layerSet = {g.name: g.layers[master.id] for g in font.glyphs}
+    layerSet = {g.name: g.layers[source.id] for g in font.glyphs}
     for glyph in font.glyphs:
         if not glyph.export:
             continue
@@ -335,7 +335,7 @@ def build(instance, opts):
         if glyph.unicode:
             characterMap[int(glyph.unicode, 16)] = name
 
-        layer = glyph.layers[master.id]
+        layer = glyph.layers[source.id]
         width = 0 if name in marks else layer.width
 
         # Draw glyph and remove overlaps.
@@ -384,16 +384,16 @@ def build(instance, opts):
     fb.setupGlyphOrder(glyphOrder)
     fb.setupCharacterMap(characterMap)
     fb.setupNameTable(names, mac=False)
-    fb.setupHorizontalHeader(ascent=master.ascender, descent=master.descender,
-                             lineGap=master.customParameters["typoLineGap"])
+    fb.setupHorizontalHeader(ascent=source.ascender, descent=source.descender,
+                             lineGap=source.customParameters["typoLineGap"])
 
     privateDict = {
-        "BlueValues": master.blueValues,
-        "OtherBlues": master.otherBlues,
-        "StemSnapH": master.horizontalStems,
-        "StemSnapV": master.verticalStems,
-        "StdHW": master.horizontalStems[0],
-        "StdVW": master.verticalStems[0],
+        "BlueValues": source.blueValues,
+        "OtherBlues": source.otherBlues,
+        "StemSnapH": source.horizontalStems,
+        "StemSnapV": source.verticalStems,
+        "StdHW": source.horizontalStems[0],
+        "StdVW": source.verticalStems[0],
     }
 
     fontInfo = {
@@ -411,19 +411,19 @@ def build(instance, opts):
     fb.setupHorizontalMetrics(metrics)
 
     codePages = [CODEPAGE_RANGES[v] for v in font.customParameters["codePageRanges"]]
-    fb.setupOS2(version=4, sTypoAscender=master.ascender,
-                sTypoDescender=master.descender,
-                sTypoLineGap=master.customParameters["typoLineGap"],
-                usWinAscent=master.ascender, usWinDescent=-master.descender,
-                sxHeight=master.xHeight, sCapHeight=master.capHeight,
+    fb.setupOS2(version=4, sTypoAscender=source.ascender,
+                sTypoDescender=source.descender,
+                sTypoLineGap=source.customParameters["typoLineGap"],
+                usWinAscent=source.ascender, usWinDescent=-source.descender,
+                sxHeight=source.xHeight, sCapHeight=source.capHeight,
                 achVendID=vendor,
                 fsType=calcBits(font.customParameters["fsType"], 0, 16),
                 fsSelection=calcFsSelection(instance),
                 ulUnicodeRange1=calcBits(font.customParameters["unicodeRanges"], 0, 32),
                 ulCodePageRange1=calcBits(codePages, 0, 32))
 
-    ut = int(master.customParameters["underlineThickness"])
-    up = int(master.customParameters["underlinePosition"])
+    ut = int(source.customParameters["underlineThickness"])
+    up = int(source.customParameters["underlinePosition"])
     fb.setupPost(underlineThickness=ut, underlinePosition=up + ut//2)
 
     meta = newTable("meta")
