@@ -277,7 +277,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.008"/>
-    <checkSumAdjustment value="0xff1501a6"/>
+    <checkSumAdjustment value="0x7d7c85da"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -8752,7 +8752,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="270"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
               <ComponentRecord index="1">
@@ -8762,7 +8762,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="60"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
             </LigatureAttach>
@@ -8775,7 +8775,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="270"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
               <ComponentRecord index="1">
@@ -8785,7 +8785,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="60"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
             </LigatureAttach>
@@ -8797,8 +8797,8 @@ You should have received a copy of the GNU Affero General Public License along w
                   <YCoordinate value="570"/>
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
-                  <XCoordinate value="191"/>
-                  <YCoordinate value="0"/>
+                  <XCoordinate value="171"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
               <ComponentRecord index="1">
@@ -8807,8 +8807,8 @@ You should have received a copy of the GNU Affero General Public License along w
                   <YCoordinate value="500"/>
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
-                  <XCoordinate value="64"/>
-                  <YCoordinate value="0"/>
+                  <XCoordinate value="44"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
             </LigatureAttach>
@@ -8820,8 +8820,8 @@ You should have received a copy of the GNU Affero General Public License along w
                   <YCoordinate value="570"/>
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
-                  <XCoordinate value="191"/>
-                  <YCoordinate value="0"/>
+                  <XCoordinate value="171"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
               <ComponentRecord index="1">
@@ -8830,8 +8830,8 @@ You should have received a copy of the GNU Affero General Public License along w
                   <YCoordinate value="500"/>
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
-                  <XCoordinate value="64"/>
-                  <YCoordinate value="0"/>
+                  <XCoordinate value="44"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
             </LigatureAttach>
@@ -8844,7 +8844,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="220"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
               <ComponentRecord index="1">
@@ -8854,7 +8854,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="64"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
             </LigatureAttach>
@@ -8867,7 +8867,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="220"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
               <ComponentRecord index="1">
@@ -8877,7 +8877,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="64"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
             </LigatureAttach>
@@ -8890,7 +8890,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="260"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
               <ComponentRecord index="1">
@@ -8900,7 +8900,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="104"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
             </LigatureAttach>
@@ -8913,7 +8913,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="260"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
               <ComponentRecord index="1">
@@ -8923,7 +8923,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="104"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
             </LigatureAttach>
@@ -8936,7 +8936,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="220"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
               <ComponentRecord index="1">
@@ -8946,7 +8946,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="64"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
             </LigatureAttach>
@@ -8959,7 +8959,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="220"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
               <ComponentRecord index="1">
@@ -8969,7 +8969,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="64"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
             </LigatureAttach>
@@ -8982,7 +8982,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="260"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
               <ComponentRecord index="1">
@@ -8992,7 +8992,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="104"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
             </LigatureAttach>
@@ -9005,7 +9005,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="260"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
               <ComponentRecord index="1">
@@ -9015,7 +9015,7 @@ You should have received a copy of the GNU Affero General Public License along w
                 </LigatureAnchor>
                 <LigatureAnchor index="1" Format="1">
                   <XCoordinate value="104"/>
-                  <YCoordinate value="0"/>
+                  <YCoordinate value="-20"/>
                 </LigatureAnchor>
               </ComponentRecord>
             </LigatureAttach>
