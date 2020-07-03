@@ -435,9 +435,9 @@ feature mark {
 pos base alef-ar <anchor 70 -20> mark @mark_bottom;
 pos base alef-ar <anchor 173 474> mark @mark_top;
 pos base alef-ar.1 <anchor 70 -20> mark @mark_bottom;
-pos base alef-ar.1 <anchor 143 474> mark @mark_top;
+pos base alef-ar.1 <anchor 173 474> mark @mark_top;
 pos base alef-ar.2 <anchor 70 -20> mark @mark_bottom;
-pos base alef-ar.2 <anchor 163 474> mark @mark_top;
+pos base alef-ar.2 <anchor 173 474> mark @mark_top;
 pos base alef-ar.3 <anchor 22 -20> mark @mark_bottom;
 pos base alef-ar.3 <anchor 42 574> mark @mark_top;
 pos base alef-ar.fina <anchor 44 -20> mark @mark_bottom;

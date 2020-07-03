@@ -613,7 +613,7 @@ position = "{70, -20}";
 },
 {
 name = top;
-position = "{143, 474}";
+position = "{173, 474}";
 }
 );
 components = (
@@ -659,7 +659,7 @@ position = "{70, -20}";
 },
 {
 name = top;
-position = "{163, 474}";
+position = "{173, 474}";
 }
 );
 components = (
