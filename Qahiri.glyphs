@@ -381,9 +381,9 @@ code = "  sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
   sub p from [p p.1];
   sub q from [q q.1];
   sub r from [r r.1 r.2];
-  sub u from [u u.1];
+  sub u from [u u.1 u.2];
   sub v from [v v.1];
-  sub w from [w w.1 w.2];
+  sub w from [w w.1 w.2 w.3];
   sub y from [y y.1];";
 name = salt;
 },
@@ -1804,6 +1804,22 @@ width = 240;
 );
 },
 {
+glyphname = u.2;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = n.2;
+transform = "{-1, 0, 0, -1, 200, 210}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 240;
+}
+);
+},
+{
 glyphname = v;
 layers = (
 {
@@ -1941,6 +1957,22 @@ width = 450;
 }
 );
 rightMetricsKey = v.2;
+},
+{
+glyphname = w.3;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = m.2;
+transform = "{-1, 0, 0, -1, 320, 210}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 360;
+}
+);
 },
 {
 glyphname = x;
