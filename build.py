@@ -18,6 +18,7 @@ import re
 
 from fontTools.fontBuilder import FontBuilder
 from fontTools.ttLib import newTable
+from fontTools.misc.fixedTools import otRound
 from fontTools.misc.psCharStrings import T2CharString
 from fontTools.misc.timeTools import epoch_diff
 from fontTools.misc.transform import Transform, Identity
@@ -117,7 +118,9 @@ def makeMark(instance, source):
 
         layer = glyph.layers[source.id]
         for anchor in layer.anchors:
-            name, x, y = anchor.name, anchor.position.x, anchor.position.y
+            name = anchor.name
+            x = otRound(anchor.position.x)
+            y = otRound(anchor.position.y)
             if name.startswith("_"):
                 fea += f"markClass {glyph.name} <anchor {x} {y}> @mark_{name[1:]};\n"
             elif name.startswith("caret_"):
@@ -142,6 +145,8 @@ def makeMark(instance, source):
             if component != "1":
                 mark += " ligComponent"
             for anchor, (x, y) in anchors:
+                x = otRound(x)
+                y = otRound(y)
                 mark += f" <anchor {x} {y}> mark @mark_{anchor}"
         mark += ";\n"
 
