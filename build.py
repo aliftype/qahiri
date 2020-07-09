@@ -337,8 +337,8 @@ def build(instance, opts):
         name = glyph.name
 
         glyphOrder.append(name)
-        if glyph.unicode:
-            characterMap[int(glyph.unicode, 16)] = name
+        for code in glyph.unicodes:
+            characterMap[int(code, 16)] = name
 
         layer = glyph.layers[source.id]
         width = 0 if name in marks else layer.width
