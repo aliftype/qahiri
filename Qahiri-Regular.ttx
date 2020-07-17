@@ -325,7 +325,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.008"/>
-    <checkSumAdjustment value="0xca3fd22f"/>
+    <checkSumAdjustment value="0x66feddfe"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -2377,7 +2377,8 @@ You should have received a copy of the GNU Affero General Public License along w
           212 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 300 rlineto
-          0 50 -45 40 -55 0 rrcurveto
+          0 130 rlineto
+          -20 -35 -40 -5 -40 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -60 45 -30 55 0 rrcurveto
           7 0 7 0 6 1 rrcurveto
@@ -2398,8 +2399,7 @@ You should have received a copy of the GNU Affero General Public License along w
           212 0 rlineto
           23 0 15 15 0 25 rrcurveto
           0 300 rlineto
-          0 130 rlineto
-          -20 -35 -40 -5 -40 0 rrcurveto
+          0 50 -45 40 -55 0 rrcurveto
           -55 0 -45 -40 0 -50 rrcurveto
           0 -60 45 -30 55 0 rrcurveto
           7 0 7 0 6 1 rrcurveto
@@ -3336,33 +3336,33 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="i">
-          200 0 43 hstem
+          200 0 43 195 -20 hstem
           0 80 vstem
           80 80 rmoveto
-          0 200 rlineto
+          0 120 rlineto
           -80 -20 rlineto
-          0 -180 rlineto
+          0 -100 rlineto
           0 -50 37 -30 40 0 rrcurveto
           30 0 31 16 22 34 rrcurveto
           -9 -4 -12 -3 -12 0 rrcurveto
           -24 0 -23 11 0 26 rrcurveto
-          0 239 rmoveto
+          0 159 rmoveto
           0 20 rlineto
           -80 -21 rlineto
           0 -20 rlineto
           endchar
         </CharString>
         <CharString name="j">
-          120 -250 20 hstem
+          120 -250 20 468 -20 hstem
           0 80 vstem
           -40 -230 rmoveto
           10 -10 20 -10 22 0 rrcurveto
           38 0 30 30 0 50 rrcurveto
-          0 450 rlineto
+          0 370 rlineto
           -80 -20 rlineto
-          0 -440 rlineto
+          0 -360 rlineto
           0 -30 -13 -20 -27 0 rrcurveto
-          120 549 rmoveto
+          120 469 rmoveto
           0 20 rlineto
           -80 -21 rlineto
           0 -20 rlineto
@@ -4605,27 +4605,6 @@ You should have received a copy of the GNU Affero General Public License along w
         <CharString name="p">
           240 -229 -21 250 70 40 70 hstem
           0 80 40 80 vstem
-          100 180 rmoveto
-          -65 0 -35 -30 0 -60 rrcurveto
-          0 -130 rlineto
-          0 -70 rlineto
-          0 -140 rlineto
-          80 20 rlineto
-          0 120 rlineto
-          0 109 rlineto
-          7 1 6 0 7 0 rrcurveto
-          55 0 45 40 0 50 rrcurveto
-          0 60 -45 30 -55 0 rrcurveto
-          0 -70 rmoveto
-          11 0 9 -9 0 -11 rrcurveto
-          0 -11 -9 -9 -11 0 rrcurveto
-          -11 0 -9 9 0 11 rrcurveto
-          0 11 9 9 11 0 rrcurveto
-          endchar
-        </CharString>
-        <CharString name="p.1">
-          240 -229 -21 250 70 40 70 hstem
-          0 80 40 80 vstem
           0 90 rmoveto
           0 -130 rlineto
           0 -70 rlineto
@@ -4644,18 +4623,20 @@ You should have received a copy of the GNU Affero General Public License along w
           0 11 9 9 11 0 rrcurveto
           endchar
         </CharString>
-        <CharString name="q">
+        <CharString name="p.1">
           240 -229 -21 250 70 40 70 hstem
           0 80 40 80 vstem
           100 180 rmoveto
-          -55 0 -45 -30 0 -60 rrcurveto
-          0 -50 45 -40 55 0 rrcurveto
-          7 0 6 0 7 -1 rrcurveto
-          0 -249 rlineto
+          -65 0 -35 -30 0 -60 rrcurveto
+          0 -130 rlineto
+          0 -70 rlineto
+          0 -140 rlineto
           80 20 rlineto
-          0 190 rlineto
-          0 130 rlineto
-          0 60 -35 30 -65 0 rrcurveto
+          0 120 rlineto
+          0 109 rlineto
+          7 1 6 0 7 0 rrcurveto
+          55 0 45 40 0 50 rrcurveto
+          0 60 -45 30 -55 0 rrcurveto
           0 -70 rmoveto
           11 0 9 -9 0 -11 rrcurveto
           0 -11 -9 -9 -11 0 rrcurveto
@@ -4663,7 +4644,7 @@ You should have received a copy of the GNU Affero General Public License along w
           0 11 9 9 11 0 rrcurveto
           endchar
         </CharString>
-        <CharString name="q.1">
+        <CharString name="q">
           240 -229 -21 250 70 40 70 hstem
           0 80 40 80 vstem
           200 90 rmoveto
@@ -4677,6 +4658,25 @@ You should have received a copy of the GNU Affero General Public License along w
           0 190 rlineto
           0 130 rlineto
           -100 20 rmoveto
+          11 0 9 -9 0 -11 rrcurveto
+          0 -11 -9 -9 -11 0 rrcurveto
+          -11 0 -9 9 0 11 rrcurveto
+          0 11 9 9 11 0 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="q.1">
+          240 -229 -21 250 70 40 70 hstem
+          0 80 40 80 vstem
+          100 180 rmoveto
+          -55 0 -45 -30 0 -60 rrcurveto
+          0 -50 45 -40 55 0 rrcurveto
+          7 0 6 0 7 -1 rrcurveto
+          0 -249 rlineto
+          80 20 rlineto
+          0 190 rlineto
+          0 130 rlineto
+          0 60 -35 30 -65 0 rrcurveto
+          0 -70 rmoveto
           11 0 9 -9 0 -11 rrcurveto
           0 -11 -9 -9 -11 0 rrcurveto
           -11 0 -9 9 0 11 rrcurveto
@@ -5849,20 +5849,20 @@ You should have received a copy of the GNU Affero General Public License along w
           40 endchar
         </CharString>
         <CharString name="t">
-          200 0 43 157 19 hstem
+          200 0 43 117 19 61 -20 hstem
           0 80 vstem
           80 80 rmoveto
-          0 120 rlineto
+          0 80 rlineto
           80 0 rlineto
           0 19 rlineto
           -80 0 rlineto
-          0 61 rlineto
+          0 81 rlineto
           -80 -20 rlineto
-          0 -41 rlineto
+          0 -61 rlineto
           -20 0 rlineto
           0 -19 rlineto
           20 0 rlineto
-          0 -120 rlineto
+          0 -80 rlineto
           0 -50 37 -30 40 0 rrcurveto
           30 0 31 16 22 34 rrcurveto
           -9 -4 -12 -3 -12 0 rrcurveto
@@ -6446,6 +6446,21 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="v">
+          240 21 -21 hstem
+          0 80 40 80 vstem
+          100 0 rmoveto
+          100 100 rlineto
+          0 100 rlineto
+          -80 -20 rlineto
+          0 -80 rlineto
+          -20 -27 rlineto
+          -20 27 rlineto
+          0 100 rlineto
+          -80 -20 rlineto
+          0 -80 rlineto
+          endchar
+        </CharString>
+        <CharString name="v.1">
           214 21 -21 230 -20 hstem
           -20 214 vstem
           117 230 rmoveto
@@ -6454,21 +6469,6 @@ You should have received a copy of the GNU Affero General Public License along w
           -77 0 rlineto
           107 -230 rlineto
           107 230 rlineto
-          endchar
-        </CharString>
-        <CharString name="v.1">
-          240 21 -21 230 -20 hstem
-          0 80 40 80 vstem
-          100 0 rmoveto
-          100 100 rlineto
-          0 130 rlineto
-          -80 -20 rlineto
-          0 -110 rlineto
-          -20 -27 rlineto
-          -20 27 rlineto
-          0 130 rlineto
-          -80 -20 rlineto
-          0 -110 rlineto
           endchar
         </CharString>
         <CharString name="v.2">
@@ -6483,6 +6483,28 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="w">
+          360 21 -21 hstem
+          0 80 40 80 40 80 vstem
+          100 0 rmoveto
+          60 60 rlineto
+          60 -60 rlineto
+          100 100 rlineto
+          0 100 rlineto
+          -80 -20 rlineto
+          0 -80 rlineto
+          -20 -27 rlineto
+          -20 27 rlineto
+          0 100 rlineto
+          -80 -20 rlineto
+          0 -80 rlineto
+          -20 -27 rlineto
+          -20 27 rlineto
+          0 100 rlineto
+          -80 -20 rlineto
+          0 -80 rlineto
+          endchar
+        </CharString>
+        <CharString name="w.1">
           351 21 -21 147 83 0 -20 hstemhm
           -20 351 hintmask 10110000
           117 230 rmoveto
@@ -6497,28 +6519,6 @@ You should have received a copy of the GNU Affero General Public License along w
           -77 0 rlineto
           -30 -65 rlineto
           -30 65 rlineto
-          endchar
-        </CharString>
-        <CharString name="w.1">
-          360 21 -21 230 -20 hstem
-          0 80 40 80 40 80 vstem
-          100 0 rmoveto
-          60 60 rlineto
-          60 -60 rlineto
-          100 100 rlineto
-          0 130 rlineto
-          -80 -20 rlineto
-          0 -110 rlineto
-          -20 -27 rlineto
-          -20 27 rlineto
-          0 130 rlineto
-          -80 -20 rlineto
-          0 -110 rlineto
-          -20 -27 rlineto
-          -20 27 rlineto
-          0 130 rlineto
-          -80 -20 rlineto
-          0 -110 rlineto
           endchar
         </CharString>
         <CharString name="w.2">
@@ -8172,7 +8172,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="b"/>
             <Glyph value="c.1"/>
             <Glyph value="d"/>
-            <Glyph value="g.1"/>
+            <Glyph value="g"/>
             <Glyph value="l"/>
             <Glyph value="m.2"/>
             <Glyph value="n.2"/>
@@ -8501,17 +8501,17 @@ You should have received a copy of the GNU Affero General Public License along w
                 <XCoordinate value="100"/>
                 <YCoordinate value="-225"/>
               </BaseAnchor>
-              <BaseAnchor index="1" empty="1"/>
+              <BaseAnchor index="1" Format="1">
+                <XCoordinate value="150"/>
+                <YCoordinate value="-138"/>
+              </BaseAnchor>
             </BaseRecord>
             <BaseRecord index="9">
               <BaseAnchor index="0" Format="1">
                 <XCoordinate value="100"/>
                 <YCoordinate value="-225"/>
               </BaseAnchor>
-              <BaseAnchor index="1" Format="1">
-                <XCoordinate value="150"/>
-                <YCoordinate value="-138"/>
-              </BaseAnchor>
+              <BaseAnchor index="1" empty="1"/>
             </BaseRecord>
             <BaseRecord index="10">
               <BaseAnchor index="0" Format="1">
@@ -30569,11 +30569,11 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="u" width="240" lsb="0"/>
     <mtx name="u.1" width="240" lsb="0"/>
     <mtx name="u.2" width="240" lsb="0"/>
-    <mtx name="v" width="214" lsb="-20"/>
-    <mtx name="v.1" width="240" lsb="0"/>
+    <mtx name="v" width="240" lsb="0"/>
+    <mtx name="v.1" width="214" lsb="-20"/>
     <mtx name="v.2" width="260" lsb="-20"/>
-    <mtx name="w" width="351" lsb="-20"/>
-    <mtx name="w.1" width="360" lsb="0"/>
+    <mtx name="w" width="360" lsb="0"/>
+    <mtx name="w.1" width="351" lsb="-20"/>
     <mtx name="w.2" width="450" lsb="-20"/>
     <mtx name="w.3" width="360" lsb="0"/>
     <mtx name="waw-ar" width="270" lsb="-50"/>
