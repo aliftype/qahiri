@@ -468,11 +468,8 @@ lookupflag UseMarkFilteringSet @TwoDotsBelow;
   pos @RehWaw behDotless-ar.init @TwoDotsBelow' <40 -100 0 0> [qafDotless-ar.fina alefMaksura-ar.fina alefMaksura-ar.fina.0 alefMaksura-ar.fina.1];
   pos @RehWaw behDotless-ar.init @TwoDotsBelow' <-60 0 0 0>;
 
-lookupflag UseMarkFilteringSet @DotBelow;
-  pos [behDotless-ar.init behDotless-ar.medi] @DotBelow' <20 0 0 0> [reh-ar.fina reh-ar.fina.1];
-
-lookupflag UseMarkFilteringSet @TwoDotsVerticalBelow;
-  pos [behDotless-ar.init behDotless-ar.medi] @TwoDotsVerticalBelow' <20 0 0 0> [reh-ar.fina reh-ar.fina.1];
+lookupflag UseMarkFilteringSet [@DotBelow @TwoDotsVerticalBelow];
+  pos [behDotless-ar.init behDotless-ar.medi] [@DotBelow @TwoDotsVerticalBelow]' <20 0 0 0> [reh-ar.fina reh-ar.fina.1];
 
 lookupflag UseMarkFilteringSet @DotsBelow;
   pos behDotless-ar.init @DotsBelow' <-60 0 0 0> [alef-ar.fina behDotless-ar.fina behDotless-ar.fina.1 dal-ar.fina seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5 seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 sad-ar.fina sad-ar.fina.1 sad-ar.medi tah-ar tah-ar.fina tah-ar.medi ain-ar.fina ain-ar.medi kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi meem-ar.medi.1 heh-ar.fina heh-ar.fina.1 heh-ar.fina.2 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7];

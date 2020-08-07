@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="OTTO" ttLibVersion="4.9">
+<ttFont sfntVersion="OTTO" ttLibVersion="4.13">
 
   <GlyphOrder>
     <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
@@ -327,7 +327,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.008"/>
-    <checkSumAdjustment value="0xf734b036"/>
+    <checkSumAdjustment value="0x5cc37c76"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -7369,7 +7369,7 @@ You should have received a copy of the GNU Affero General Public License along w
     </LigCaretList>
     <MarkGlyphSetsDef>
       <MarkSetTableFormat value="1"/>
-      <!-- MarkSetCount=5 -->
+      <!-- MarkSetCount=4 -->
       <Coverage index="0" Format="1">
         <Glyph value="twodotshorizontalabove-ar"/>
         <Glyph value="twodotshorizontalabove-ar.alt1"/>
@@ -7387,8 +7387,6 @@ You should have received a copy of the GNU Affero General Public License along w
       <Coverage index="3" Format="1">
         <Glyph value="dotbelow-ar"/>
         <Glyph value="dotbelow-ar.alt1"/>
-      </Coverage>
-      <Coverage index="4" Format="1">
         <Glyph value="twodotsverticalbelow-ar"/>
         <Glyph value="twodotsverticalbelow-ar.alt1"/>
       </Coverage>
@@ -7439,25 +7437,24 @@ You should have received a copy of the GNU Affero General Public License along w
         <FeatureTag value="kern"/>
         <Feature>
           <!-- LookupCount=2 -->
-          <LookupListIndex index="0" value="14"/>
-          <LookupListIndex index="1" value="18"/>
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="16"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="2">
         <FeatureTag value="mark"/>
         <Feature>
-          <!-- LookupCount=6 -->
+          <!-- LookupCount=5 -->
           <LookupListIndex index="0" value="1"/>
           <LookupListIndex index="1" value="2"/>
           <LookupListIndex index="2" value="3"/>
           <LookupListIndex index="3" value="7"/>
           <LookupListIndex index="4" value="9"/>
-          <LookupListIndex index="5" value="11"/>
         </Feature>
       </FeatureRecord>
     </FeatureList>
     <LookupList>
-      <!-- LookupCount=19 -->
+      <!-- LookupCount=17 -->
       <Lookup index="0">
         <LookupType value="3"/>
         <LookupFlag value="9"/><!-- rightToLeft ignoreMarks -->
@@ -10477,6 +10474,8 @@ You should have received a copy of the GNU Affero General Public License along w
           <InputCoverage index="0" Format="1">
             <Glyph value="dotbelow-ar"/>
             <Glyph value="dotbelow-ar.alt1"/>
+            <Glyph value="twodotsverticalbelow-ar"/>
+            <Glyph value="twodotsverticalbelow-ar.alt1"/>
           </InputCoverage>
           <!-- LookAheadGlyphCount=1 -->
           <LookAheadCoverage index="0" Format="1">
@@ -10499,6 +10498,8 @@ You should have received a copy of the GNU Affero General Public License along w
           <Coverage Format="1">
             <Glyph value="dotbelow-ar"/>
             <Glyph value="dotbelow-ar.alt1"/>
+            <Glyph value="twodotsverticalbelow-ar"/>
+            <Glyph value="twodotsverticalbelow-ar.alt1"/>
           </Coverage>
           <ValueFormat value="1"/>
           <Value XPlacement="20"/>
@@ -10506,48 +10507,6 @@ You should have received a copy of the GNU Affero General Public License along w
         <MarkFilteringSet value="3"/>
       </Lookup>
       <Lookup index="9">
-        <LookupType value="8"/>
-        <LookupFlag value="16"/><!-- useMarkFilteringSet -->
-        <!-- SubTableCount=1 -->
-        <ChainContextPos index="0" Format="3">
-          <!-- BacktrackGlyphCount=1 -->
-          <BacktrackCoverage index="0" Format="1">
-            <Glyph value="behDotless-ar.medi"/>
-            <Glyph value="behDotless-ar.init"/>
-          </BacktrackCoverage>
-          <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0" Format="1">
-            <Glyph value="twodotsverticalbelow-ar"/>
-            <Glyph value="twodotsverticalbelow-ar.alt1"/>
-          </InputCoverage>
-          <!-- LookAheadGlyphCount=1 -->
-          <LookAheadCoverage index="0" Format="1">
-            <Glyph value="reh-ar.fina"/>
-            <Glyph value="reh-ar.fina.1"/>
-          </LookAheadCoverage>
-          <!-- PosCount=1 -->
-          <PosLookupRecord index="0">
-            <SequenceIndex value="0"/>
-            <LookupListIndex value="10"/>
-          </PosLookupRecord>
-        </ChainContextPos>
-        <MarkFilteringSet value="4"/>
-      </Lookup>
-      <Lookup index="10">
-        <LookupType value="1"/>
-        <LookupFlag value="16"/><!-- useMarkFilteringSet -->
-        <!-- SubTableCount=1 -->
-        <SinglePos index="0" Format="1">
-          <Coverage Format="1">
-            <Glyph value="twodotsverticalbelow-ar"/>
-            <Glyph value="twodotsverticalbelow-ar.alt1"/>
-          </Coverage>
-          <ValueFormat value="1"/>
-          <Value XPlacement="20"/>
-        </SinglePos>
-        <MarkFilteringSet value="4"/>
-      </Lookup>
-      <Lookup index="11">
         <LookupType value="8"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=5 -->
@@ -10613,7 +10572,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="12"/>
+            <LookupListIndex value="10"/>
           </PosLookupRecord>
         </ChainContextPos>
         <ChainContextPos index="1" Format="3">
@@ -10636,7 +10595,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="13"/>
+            <LookupListIndex value="11"/>
           </PosLookupRecord>
         </ChainContextPos>
         <ChainContextPos index="2" Format="3">
@@ -10669,7 +10628,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="13"/>
+            <LookupListIndex value="11"/>
           </PosLookupRecord>
         </ChainContextPos>
         <ChainContextPos index="3" Format="3">
@@ -10716,7 +10675,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="13"/>
+            <LookupListIndex value="11"/>
           </PosLookupRecord>
         </ChainContextPos>
         <ChainContextPos index="4" Format="3">
@@ -10768,16 +10727,16 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=2 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="13"/>
+            <LookupListIndex value="11"/>
           </PosLookupRecord>
           <PosLookupRecord index="1">
             <SequenceIndex value="2"/>
-            <LookupListIndex value="13"/>
+            <LookupListIndex value="11"/>
           </PosLookupRecord>
         </ChainContextPos>
         <MarkFilteringSet value="1"/>
       </Lookup>
-      <Lookup index="12">
+      <Lookup index="10">
         <LookupType value="1"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
@@ -10793,7 +10752,7 @@ You should have received a copy of the GNU Affero General Public License along w
         </SinglePos>
         <MarkFilteringSet value="1"/>
       </Lookup>
-      <Lookup index="13">
+      <Lookup index="11">
         <LookupType value="1"/>
         <LookupFlag value="16"/><!-- useMarkFilteringSet -->
         <!-- SubTableCount=1 -->
@@ -10809,7 +10768,7 @@ You should have received a copy of the GNU Affero General Public License along w
         </SinglePos>
         <MarkFilteringSet value="1"/>
       </Lookup>
-      <Lookup index="14">
+      <Lookup index="12">
         <LookupType value="8"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
         <!-- SubTableCount=8 -->
@@ -10831,7 +10790,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="15"/>
+            <LookupListIndex value="13"/>
           </PosLookupRecord>
         </ChainContextPos>
         <ChainContextPos index="1" Format="3">
@@ -10851,7 +10810,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="15"/>
+            <LookupListIndex value="13"/>
           </PosLookupRecord>
         </ChainContextPos>
         <ChainContextPos index="2" Format="3">
@@ -10870,7 +10829,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="15"/>
+            <LookupListIndex value="13"/>
           </PosLookupRecord>
         </ChainContextPos>
         <ChainContextPos index="3" Format="3">
@@ -10889,7 +10848,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="15"/>
+            <LookupListIndex value="13"/>
           </PosLookupRecord>
         </ChainContextPos>
         <ChainContextPos index="4" Format="3">
@@ -10919,7 +10878,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="15"/>
+            <LookupListIndex value="13"/>
           </PosLookupRecord>
         </ChainContextPos>
         <ChainContextPos index="5" Format="3">
@@ -10944,7 +10903,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="15"/>
+            <LookupListIndex value="13"/>
           </PosLookupRecord>
         </ChainContextPos>
         <ChainContextPos index="6" Format="3">
@@ -10980,7 +10939,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="16"/>
+            <LookupListIndex value="14"/>
           </PosLookupRecord>
         </ChainContextPos>
         <ChainContextPos index="7" Format="3">
@@ -11006,11 +10965,11 @@ You should have received a copy of the GNU Affero General Public License along w
           <!-- PosCount=1 -->
           <PosLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="17"/>
+            <LookupListIndex value="15"/>
           </PosLookupRecord>
         </ChainContextPos>
       </Lookup>
-      <Lookup index="15">
+      <Lookup index="13">
         <LookupType value="1"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
         <!-- SubTableCount=2 -->
@@ -11049,7 +11008,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <Value index="4" XAdvance="210"/>
         </SinglePos>
       </Lookup>
-      <Lookup index="16">
+      <Lookup index="14">
         <LookupType value="1"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
         <!-- SubTableCount=1 -->
@@ -11061,7 +11020,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <Value XAdvance="100"/>
         </SinglePos>
       </Lookup>
-      <Lookup index="17">
+      <Lookup index="15">
         <LookupType value="1"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
         <!-- SubTableCount=1 -->
@@ -11073,7 +11032,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <Value XAdvance="200"/>
         </SinglePos>
       </Lookup>
-      <Lookup index="18">
+      <Lookup index="16">
         <LookupType value="2"/>
         <LookupFlag value="8"/><!-- ignoreMarks -->
         <!-- SubTableCount=3 -->
