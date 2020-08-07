@@ -1,5 +1,5 @@
 {
-.appVersion = "1342";
+.appVersion = "1343";
 classes = (
 {
 automatic = 1;
@@ -15,6 +15,11 @@ name = Dots.alt1;
 automatic = 1;
 code = "/^twodotshorizontalbelow-ar.*/";
 name = TwoDotsBelow;
+},
+{
+automatic = 1;
+code = "/^twodotsverticalbelow-ar.*/";
+name = TwoDotsVerticalBelow;
 },
 {
 automatic = 1;
@@ -397,6 +402,9 @@ lookupflag UseMarkFilteringSet @DotsBelow;
   sub [behDotless-ar.medi lam-ar.medi]' lookup ToothYeh alefMaksura-ar.fina' lookup ToothYeh;
   sub [@BehMedi hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
 
+lookupflag UseMarkFilteringSet @TwoDotsBelow;
+  sub [behDotless-ar.init behDotless-ar.medi] @TwoDotsBelow' [reh-ar.fina reh-ar.fina.1] by @TwoDotsVerticalBelow;
+
 lookupflag IgnoreMarks;
   sub [behDotless-ar.init.hah lam-ar.init.hah]' lookup AboveHahReverse
       [hah-ar.medi hah-ar.fina]'                lookup AboveHahReverse;
@@ -462,6 +470,9 @@ lookupflag UseMarkFilteringSet @TwoDotsBelow;
 
 lookupflag UseMarkFilteringSet @DotBelow;
   pos [behDotless-ar.init behDotless-ar.medi] @DotBelow' <20 0 0 0> [reh-ar.fina reh-ar.fina.1];
+
+lookupflag UseMarkFilteringSet @TwoDotsVerticalBelow;
+  pos [behDotless-ar.init behDotless-ar.medi] @TwoDotsVerticalBelow' <20 0 0 0> [reh-ar.fina reh-ar.fina.1];
 
 lookupflag UseMarkFilteringSet @DotsBelow;
   pos behDotless-ar.init @DotsBelow' <-60 0 0 0> [alef-ar.fina behDotless-ar.fina behDotless-ar.fina.1 dal-ar.fina seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5 seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 sad-ar.fina sad-ar.fina.1 sad-ar.medi tah-ar tah-ar.fina tah-ar.medi ain-ar.fina ain-ar.medi kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi meem-ar.medi.1 heh-ar.fina heh-ar.fina.1 heh-ar.fina.2 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7];
@@ -13346,6 +13357,46 @@ name = "dotabove-ar.alt1";
 alignment = -1;
 name = "dotabove-ar.alt1";
 transform = "{1, 0, 0, 1, 0, 80}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 58;
+}
+);
+},
+{
+glyphname = "twodotsverticalbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{47, 146}";
+}
+);
+components = (
+{
+name = "twodotsverticalabove-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 76;
+}
+);
+},
+{
+glyphname = "twodotsverticalbelow-ar.alt1";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{29, 138}";
+}
+);
+components = (
+{
+name = "twodotsverticalabove-ar.alt1";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
