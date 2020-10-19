@@ -212,6 +212,11 @@ code = "  sub alefHamzaabove-ar   by alef-ar hamzaabove-ar;
 name = ccmp;
 },
 {
+code = "script latn;
+  sub space by space.latn;";
+name = locl;
+},
+{
 code = "  sub tehMarbuta-ar by heh-ar twodotshorizontalabove-ar;
   sub yeh-ar        by alefMaksura-ar;
   sub yeh-farsi     by alefMaksura-ar;";
@@ -376,6 +381,7 @@ code = "  sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2 ain-ar.3];
   sub seven-ar                from [seven-ar seven-ar.1 seven-ar.2];
   sub eight-ar                from [eight-ar eight-ar.1 eight-ar.2];
 
+script latn;
   sub g from [g g.1];
   sub h from [h h.1];
   sub k from [k k.1];
@@ -12790,6 +12796,15 @@ layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 40;
+}
+);
+},
+{
+glyphname = space.latn;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 80;
 }
 );
 },

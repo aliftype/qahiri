@@ -86,6 +86,12 @@ feature ccmp {
   sub noon-ar             by noonghunna-ar dotabove-ar;
 } ccmp;
 
+feature locl {
+
+script latn;
+  sub space by space.latn;
+} locl;
+
 feature isol {
 
   sub tehMarbuta-ar by heh-ar twodotshorizontalabove-ar;
@@ -266,6 +272,7 @@ feature salt {
   sub seven-ar                from [seven-ar seven-ar.1 seven-ar.2];
   sub eight-ar                from [eight-ar eight-ar.1 eight-ar.2];
 
+script latn;
   sub g from [g g.1];
   sub h from [h h.1];
   sub k from [k k.1];
