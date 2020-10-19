@@ -171,21 +171,6 @@ name = Lookups;
 );
 features = (
 {
-code = "";
-disabled = 1;
-name = rlig;
-},
-{
-code = "";
-disabled = 1;
-name = dlig;
-},
-{
-code = "";
-disabled = 1;
-name = aalt;
-},
-{
 code = "  sub alefHamzaabove-ar   by alef-ar hamzaabove-ar;
   sub alefHamzabelow-ar   by alef-ar hamzabelow-ar;
   sub alefMadda-ar        by alef-ar;
