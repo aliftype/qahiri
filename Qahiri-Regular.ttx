@@ -316,36 +316,48 @@
     <GlyphID id="310" name="eight-ar.2"/>
     <GlyphID id="311" name="nine-ar"/>
     <GlyphID id="312" name="nine-ar.osf"/>
-    <GlyphID id="313" name="space.alt"/>
-    <GlyphID id="314" name="space.latn"/>
-    <GlyphID id="315" name="space"/>
-    <GlyphID id="316" name="tahabove-ar"/>
-    <GlyphID id="317" name="dotabove-ar"/>
-    <GlyphID id="318" name="dotabove-ar.alt1"/>
-    <GlyphID id="319" name="dotbelow-ar"/>
-    <GlyphID id="320" name="dotbelow-ar.alt1"/>
-    <GlyphID id="321" name="twodotsverticalabove-ar"/>
-    <GlyphID id="322" name="twodotsverticalabove-ar.alt1"/>
-    <GlyphID id="323" name="twodotsverticalbelow-ar"/>
-    <GlyphID id="324" name="twodotsverticalbelow-ar.alt1"/>
-    <GlyphID id="325" name="twodotshorizontalabove-ar"/>
-    <GlyphID id="326" name="twodotshorizontalabove-ar.alt1"/>
-    <GlyphID id="327" name="twodotshorizontalbelow-ar"/>
-    <GlyphID id="328" name="twodotshorizontalbelow-ar.alt1"/>
-    <GlyphID id="329" name="threedotsdownbelow-ar"/>
-    <GlyphID id="330" name="threedotsdownbelow-ar.alt1"/>
-    <GlyphID id="331" name="threedotsupabove-ar"/>
-    <GlyphID id="332" name="threedotsupabove-ar.alt1"/>
-    <GlyphID id="333" name="hamzaabove-ar"/>
-    <GlyphID id="334" name="hamzabelow-ar"/>
-    <GlyphID id="335" name="empty"/>
+    <GlyphID id="313" name="zero-persian"/>
+    <GlyphID id="314" name="one-persian"/>
+    <GlyphID id="315" name="two-persian"/>
+    <GlyphID id="316" name="three-persian"/>
+    <GlyphID id="317" name="four-persian"/>
+    <GlyphID id="318" name="four-persian.urdu"/>
+    <GlyphID id="319" name="five-persian"/>
+    <GlyphID id="320" name="six-persian"/>
+    <GlyphID id="321" name="seven-persian"/>
+    <GlyphID id="322" name="seven-persian.urdu"/>
+    <GlyphID id="323" name="eight-persian"/>
+    <GlyphID id="324" name="nine-persian"/>
+    <GlyphID id="325" name="space.alt"/>
+    <GlyphID id="326" name="space.latn"/>
+    <GlyphID id="327" name="space"/>
+    <GlyphID id="328" name="tahabove-ar"/>
+    <GlyphID id="329" name="dotabove-ar"/>
+    <GlyphID id="330" name="dotabove-ar.alt1"/>
+    <GlyphID id="331" name="dotbelow-ar"/>
+    <GlyphID id="332" name="dotbelow-ar.alt1"/>
+    <GlyphID id="333" name="twodotsverticalabove-ar"/>
+    <GlyphID id="334" name="twodotsverticalabove-ar.alt1"/>
+    <GlyphID id="335" name="twodotsverticalbelow-ar"/>
+    <GlyphID id="336" name="twodotsverticalbelow-ar.alt1"/>
+    <GlyphID id="337" name="twodotshorizontalabove-ar"/>
+    <GlyphID id="338" name="twodotshorizontalabove-ar.alt1"/>
+    <GlyphID id="339" name="twodotshorizontalbelow-ar"/>
+    <GlyphID id="340" name="twodotshorizontalbelow-ar.alt1"/>
+    <GlyphID id="341" name="threedotsdownbelow-ar"/>
+    <GlyphID id="342" name="threedotsdownbelow-ar.alt1"/>
+    <GlyphID id="343" name="threedotsupabove-ar"/>
+    <GlyphID id="344" name="threedotsupabove-ar.alt1"/>
+    <GlyphID id="345" name="hamzaabove-ar"/>
+    <GlyphID id="346" name="hamzabelow-ar"/>
+    <GlyphID id="347" name="empty"/>
   </GlyphOrder>
 
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.008"/>
-    <checkSumAdjustment value="0x29195813"/>
+    <checkSumAdjustment value="0xab5c15e7"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -379,19 +391,19 @@
     <reserved2 value="0"/>
     <reserved3 value="0"/>
     <metricDataFormat value="0"/>
-    <numberOfHMetrics value="316"/>
+    <numberOfHMetrics value="328"/>
   </hhea>
 
   <maxp>
     <tableVersion value="0x5000"/>
-    <numGlyphs value="336"/>
+    <numGlyphs value="348"/>
   </maxp>
 
   <OS_2>
     <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
          will be recalculated by the compiler -->
     <version value="4"/>
-    <xAvgCharWidth value="347"/>
+    <xAvgCharWidth value="343"/>
     <usWeightClass value="400"/>
     <usWidthClass value="5"/>
     <fsType value="00000000 00000000"/>
@@ -425,7 +437,7 @@
     <achVendID value="ALIF"/>
     <fsSelection value="00000000 01000000"/>
     <usFirstCharIndex value="32"/>
-    <usLastCharIndex value="1747"/>
+    <usLastCharIndex value="1785"/>
     <sTypoAscender value="600"/>
     <sTypoDescender value="-250"/>
     <sTypoLineGap value="0"/>
@@ -643,6 +655,16 @@ You should have received a copy of the GNU Affero General Public License along w
       <map code="0x6cc" name="yeh-farsi"/><!-- ARABIC LETTER FARSI YEH -->
       <map code="0x6d2" name="yehbarree-ar"/><!-- ARABIC LETTER YEH BARREE -->
       <map code="0x6d3" name="yehbarreeHamzaabove-ar"/><!-- ARABIC LETTER YEH BARREE WITH HAMZA ABOVE -->
+      <map code="0x6f0" name="zero-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT ZERO -->
+      <map code="0x6f1" name="one-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT ONE -->
+      <map code="0x6f2" name="two-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT TWO -->
+      <map code="0x6f3" name="three-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT THREE -->
+      <map code="0x6f4" name="four-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT FOUR -->
+      <map code="0x6f5" name="five-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT FIVE -->
+      <map code="0x6f6" name="six-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT SIX -->
+      <map code="0x6f7" name="seven-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT SEVEN -->
+      <map code="0x6f8" name="eight-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT EIGHT -->
+      <map code="0x6f9" name="nine-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT NINE -->
     </cmap_format_4>
     <cmap_format_4 platformID="3" platEncID="1" language="0">
       <map code="0x20" name="space"/><!-- SPACE -->
@@ -781,6 +803,16 @@ You should have received a copy of the GNU Affero General Public License along w
       <map code="0x6cc" name="yeh-farsi"/><!-- ARABIC LETTER FARSI YEH -->
       <map code="0x6d2" name="yehbarree-ar"/><!-- ARABIC LETTER YEH BARREE -->
       <map code="0x6d3" name="yehbarreeHamzaabove-ar"/><!-- ARABIC LETTER YEH BARREE WITH HAMZA ABOVE -->
+      <map code="0x6f0" name="zero-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT ZERO -->
+      <map code="0x6f1" name="one-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT ONE -->
+      <map code="0x6f2" name="two-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT TWO -->
+      <map code="0x6f3" name="three-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT THREE -->
+      <map code="0x6f4" name="four-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT FOUR -->
+      <map code="0x6f5" name="five-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT FIVE -->
+      <map code="0x6f6" name="six-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT SIX -->
+      <map code="0x6f7" name="seven-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT SEVEN -->
+      <map code="0x6f8" name="eight-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT EIGHT -->
+      <map code="0x6f9" name="nine-persian"/><!-- EXTENDED ARABIC-INDIC DIGIT NINE -->
     </cmap_format_4>
   </cmap>
 
@@ -1987,6 +2019,19 @@ You should have received a copy of the GNU Affero General Public License along w
           86 185 rlineto
           endchar
         </CharString>
+        <CharString name="eight-persian">
+          250 21 -21 280 70 hstem
+          0 70 70 70 vstem
+          0 350 rmoveto
+          0 -350 rlineto
+          70 0 rlineto
+          0 280 rlineto
+          70 0 rlineto
+          0 -280 rlineto
+          70 0 rlineto
+          0 350 rlineto
+          endchar
+        </CharString>
         <CharString name="empty">
           0 endchar
         </CharString>
@@ -2355,6 +2400,20 @@ You should have received a copy of the GNU Affero General Public License along w
           -70 0 rlineto
           endchar
         </CharString>
+        <CharString name="five-persian">
+          250 0 70 210 70 hstem
+          0 70 70 70 vstem
+          0 350 rmoveto
+          0 -350 rlineto
+          210 0 rlineto
+          0 350 rlineto
+          -140 -280 rmoveto
+          0 210 rlineto
+          70 0 rlineto
+          0 -210 rlineto
+          -70 0 rlineto
+          endchar
+        </CharString>
         <CharString name="four">
           250 21 -21 189 70 hstem
           0 70 70 70 vstem
@@ -2498,6 +2557,45 @@ You should have received a copy of the GNU Affero General Public License along w
           hintmask 11101000
           140 0 rlineto
           0 70 rlineto
+          endchar
+        </CharString>
+        <CharString name="four-persian">
+          350 0 70 70 70 70 70 hstemhm
+          0 70 50 70 -70 190 hintmask 11111000
+          120 350 rmoveto
+          0 -140 rlineto
+          -50 0 rlineto
+          0 140 rlineto
+          -70 0 rlineto
+          0 -350 rlineto
+          hintmask 11110100
+          310 0 rlineto
+          0 70 rlineto
+          -240 0 rlineto
+          0 70 rlineto
+          240 0 rlineto
+          0 70 rlineto
+          hintmask 11111000
+          -120 0 rlineto
+          0 70 rlineto
+          hintmask 11110100
+          120 0 rlineto
+          0 70 rlineto
+          endchar
+        </CharString>
+        <CharString name="four-persian.urdu">
+          320 21 -21 280 70 hstem
+          0 70 50 70 vstem
+          120 189 rmoveto
+          70 0 rlineto
+          0 91 rlineto
+          90 0 rlineto
+          0 70 rlineto
+          -280 0 rlineto
+          0 -350 rlineto
+          70 0 rlineto
+          0 280 rlineto
+          50 0 rlineto
           endchar
         </CharString>
         <CharString name="g">
@@ -4764,6 +4862,22 @@ You should have received a copy of the GNU Affero General Public License along w
           70 0 rlineto
           endchar
         </CharString>
+        <CharString name="nine-persian">
+          250 21 -21 140 70 70 70 hstem
+          0 70 70 70 vstem
+          210 350 rmoveto
+          -210 0 rlineto
+          0 -210 rlineto
+          140 0 rlineto
+          0 -140 rlineto
+          70 0 rlineto
+          -70 280 rmoveto
+          0 -70 rlineto
+          -70 0 rlineto
+          0 70 rlineto
+          70 0 rlineto
+          endchar
+        </CharString>
         <CharString name="noon-ar">
           190 -250 70 hstem
           70 80 vstem
@@ -4856,6 +4970,15 @@ You should have received a copy of the GNU Affero General Public License along w
           0 -460 rlineto
           70 0 rlineto
           0 460 rlineto
+          endchar
+        </CharString>
+        <CharString name="one-persian">
+          110 21 -21 hstem
+          0 70 vstem
+          0 350 rmoveto
+          0 -350 rlineto
+          70 0 rlineto
+          0 350 rlineto
           endchar
         </CharString>
         <CharString name="p">
@@ -6053,6 +6176,30 @@ You should have received a copy of the GNU Affero General Public License along w
           -85 -185 rlineto
           endchar
         </CharString>
+        <CharString name="seven-persian">
+          250 0 70 hstem
+          0 70 70 70 vstem
+          0 0 rmoveto
+          210 0 rlineto
+          0 350 rlineto
+          -70 0 rlineto
+          0 -280 rlineto
+          -70 0 rlineto
+          0 280 rlineto
+          -70 0 rlineto
+          endchar
+        </CharString>
+        <CharString name="seven-persian.urdu">
+          250 0 70 hstem
+          0 70 vstem
+          0 0 rmoveto
+          210 0 rlineto
+          0 70 rlineto
+          -140 0 rlineto
+          0 280 rlineto
+          -70 0 rlineto
+          endchar
+        </CharString>
         <CharString name="sheen-ar">
           430 -250 70 180 70 160 -20 hstem
           70 80 40 80 40 80 vstem
@@ -6159,6 +6306,21 @@ You should have received a copy of the GNU Affero General Public License along w
           140 0 rlineto
           0 -390 rlineto
           70 0 rlineto
+          endchar
+        </CharString>
+        <CharString name="six-persian">
+          250 21 -21 189 70 hstem
+          0 70 70 70 vstem
+          70 350 rmoveto
+          -70 0 rlineto
+          0 -161 rlineto
+          140 0 rlineto
+          0 -189 rlineto
+          70 0 rlineto
+          0 350 rlineto
+          -70 0 rlineto
+          0 -91 rlineto
+          -70 0 rlineto
           endchar
         </CharString>
         <CharString name="space">
@@ -6643,6 +6805,33 @@ You should have received a copy of the GNU Affero General Public License along w
           0 140 rlineto
           endchar
         </CharString>
+        <CharString name="three-persian">
+          350 0 70 70 70 -70 210 hstemhm
+          0 70 50 70 50 70 hintmask 10111100
+          120 350 rmoveto
+          hintmask 11011100
+          0 -140 rlineto
+          -50 0 rlineto
+          hintmask 10111100
+          0 140 rlineto
+          -70 0 rlineto
+          0 -350 rlineto
+          310 0 rlineto
+          0 70 rlineto
+          -240 0 rlineto
+          hintmask 11011100
+          0 70 rlineto
+          240 0 rlineto
+          hintmask 10111100
+          0 210 rlineto
+          -70 0 rlineto
+          hintmask 11011100
+          0 -140 rlineto
+          -50 0 rlineto
+          hintmask 10111100
+          0 140 rlineto
+          endchar
+        </CharString>
         <CharString name="threedotsdownbelow-ar">
           0 21 -21 hstem
           0 156 vstem
@@ -6823,6 +7012,21 @@ You should have received a copy of the GNU Affero General Public License along w
           hintmask 10100000
           140 0 rlineto
           0 70 rlineto
+          endchar
+        </CharString>
+        <CharString name="two-persian">
+          250 21 -21 189 70 hstem
+          0 70 70 70 vstem
+          140 350 rmoveto
+          0 -91 rlineto
+          -70 0 rlineto
+          0 91 rlineto
+          -70 0 rlineto
+          0 -350 rlineto
+          70 0 rlineto
+          0 189 rlineto
+          140 0 rlineto
+          0 161 rlineto
           endchar
         </CharString>
         <CharString name="twodotshorizontalabove-ar">
@@ -7485,6 +7689,15 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="zero-ar">
+          110 140 70 hstem
+          0 70 vstem
+          0 210 rmoveto
+          0 -70 rlineto
+          70 0 rlineto
+          0 70 rlineto
+          endchar
+        </CharString>
+        <CharString name="zero-persian">
           110 140 70 hstem
           0 70 vstem
           0 210 rmoveto
@@ -31002,6 +31215,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="eight-ar" width="250" lsb="0"/>
     <mtx name="eight-ar.1" width="346" lsb="0"/>
     <mtx name="eight-ar.2" width="366" lsb="0"/>
+    <mtx name="eight-persian" width="250" lsb="0"/>
     <mtx name="empty" width="0" lsb="0"/>
     <mtx name="f" width="120" lsb="-45"/>
     <mtx name="feh-ar" width="613" lsb="0"/>
@@ -31020,6 +31234,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="fehDotmovedbelow-ar" width="613" lsb="0"/>
     <mtx name="five" width="250" lsb="0"/>
     <mtx name="five-ar" width="250" lsb="0"/>
+    <mtx name="five-persian" width="250" lsb="0"/>
     <mtx name="four" width="250" lsb="0"/>
     <mtx name="four-ar" width="350" lsb="0"/>
     <mtx name="four-ar.1" width="350" lsb="0"/>
@@ -31027,6 +31242,8 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="four-ar.osf" width="350" lsb="0"/>
     <mtx name="four-ar.osf.1" width="350" lsb="0"/>
     <mtx name="four-ar.osf.2" width="250" lsb="0"/>
+    <mtx name="four-persian" width="350" lsb="0"/>
+    <mtx name="four-persian.urdu" width="320" lsb="0"/>
     <mtx name="g" width="240" lsb="-50"/>
     <mtx name="g.1" width="240" lsb="-50"/>
     <mtx name="gaf-ar" width="640" lsb="0"/>
@@ -31139,6 +31356,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="nine" width="250" lsb="0"/>
     <mtx name="nine-ar" width="250" lsb="0"/>
     <mtx name="nine-ar.osf" width="250" lsb="0"/>
+    <mtx name="nine-persian" width="250" lsb="0"/>
     <mtx name="noon-ar" width="190" lsb="-130"/>
     <mtx name="noonghunna-ar" width="190" lsb="-130"/>
     <mtx name="noonghunna-ar.fina" width="190" lsb="-130"/>
@@ -31146,6 +31364,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="one" width="110" lsb="0"/>
     <mtx name="one-ar" width="110" lsb="0"/>
     <mtx name="one-ar.osf" width="110" lsb="0"/>
+    <mtx name="one-persian" width="110" lsb="0"/>
     <mtx name="p" width="240" lsb="0"/>
     <mtx name="p.1" width="240" lsb="0"/>
     <mtx name="peh-ar" width="600" lsb="0"/>
@@ -31203,12 +31422,15 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="seven-ar" width="250" lsb="0"/>
     <mtx name="seven-ar.1" width="346" lsb="0"/>
     <mtx name="seven-ar.2" width="366" lsb="0"/>
+    <mtx name="seven-persian" width="250" lsb="0"/>
+    <mtx name="seven-persian.urdu" width="250" lsb="0"/>
     <mtx name="sheen-ar" width="430" lsb="-130"/>
     <mtx name="six" width="250" lsb="0"/>
     <mtx name="six-ar" width="250" lsb="0"/>
     <mtx name="six-ar.1" width="250" lsb="0"/>
     <mtx name="six-ar.osf" width="250" lsb="0"/>
     <mtx name="six-ar.osf.1" width="250" lsb="0"/>
+    <mtx name="six-persian" width="250" lsb="0"/>
     <mtx name="space" width="0" lsb="0"/>
     <mtx name="space.alt" width="40" lsb="0"/>
     <mtx name="space.latn" width="80" lsb="0"/>
@@ -31233,6 +31455,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="three-ar.1" width="350" lsb="0"/>
     <mtx name="three-ar.osf" width="350" lsb="0"/>
     <mtx name="three-ar.osf.1" width="350" lsb="0"/>
+    <mtx name="three-persian" width="350" lsb="0"/>
     <mtx name="threedotsdownbelow-ar" width="0" lsb="0"/>
     <mtx name="threedotsdownbelow-ar.alt1" width="0" lsb="0"/>
     <mtx name="threedotsupabove-ar" width="0" lsb="0"/>
@@ -31243,6 +31466,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="two-ar.1" width="250" lsb="0"/>
     <mtx name="two-ar.osf" width="250" lsb="0"/>
     <mtx name="two-ar.osf.1" width="250" lsb="0"/>
+    <mtx name="two-persian" width="250" lsb="0"/>
     <mtx name="twodotshorizontalabove-ar" width="0" lsb="0"/>
     <mtx name="twodotshorizontalabove-ar.alt1" width="0" lsb="0"/>
     <mtx name="twodotshorizontalbelow-ar" width="0" lsb="0"/>
@@ -31276,6 +31500,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="zain-ar" width="312" lsb="-63"/>
     <mtx name="zero" width="250" lsb="0"/>
     <mtx name="zero-ar" width="110" lsb="0"/>
+    <mtx name="zero-persian" width="110" lsb="0"/>
   </hmtx>
 
   <meta>
