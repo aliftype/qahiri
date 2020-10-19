@@ -62,272 +62,290 @@
     <GlyphID id="56" name="behDotless-ar.init"/>
     <GlyphID id="57" name="behDotless-ar.init.hah"/>
     <GlyphID id="58" name="beh-ar"/>
-    <GlyphID id="59" name="teh-ar"/>
-    <GlyphID id="60" name="theh-ar"/>
-    <GlyphID id="61" name="jeem-ar"/>
-    <GlyphID id="62" name="hah-ar"/>
-    <GlyphID id="63" name="hah-ar.1"/>
-    <GlyphID id="64" name="hah-ar.2"/>
-    <GlyphID id="65" name="hah-ar.3"/>
-    <GlyphID id="66" name="hah-ar.4"/>
-    <GlyphID id="67" name="hah-ar.5"/>
-    <GlyphID id="68" name="hah-ar.fina"/>
-    <GlyphID id="69" name="hah-ar.fina.1"/>
-    <GlyphID id="70" name="hah-ar.medi"/>
-    <GlyphID id="71" name="hah-ar.medi.1"/>
-    <GlyphID id="72" name="hah-ar.medi.2"/>
-    <GlyphID id="73" name="hah-ar.medi.3"/>
-    <GlyphID id="74" name="hah-ar.init"/>
-    <GlyphID id="75" name="hah-ar.init.1"/>
-    <GlyphID id="76" name="hah-ar.init.2"/>
-    <GlyphID id="77" name="khah-ar"/>
-    <GlyphID id="78" name="dal-ar"/>
-    <GlyphID id="79" name="dal-ar.fina"/>
-    <GlyphID id="80" name="thal-ar"/>
-    <GlyphID id="81" name="reh-ar"/>
-    <GlyphID id="82" name="reh-ar.1"/>
-    <GlyphID id="83" name="reh-ar.2"/>
-    <GlyphID id="84" name="reh-ar.3"/>
-    <GlyphID id="85" name="reh-ar.fina"/>
-    <GlyphID id="86" name="reh-ar.fina.1"/>
-    <GlyphID id="87" name="zain-ar"/>
-    <GlyphID id="88" name="seen-ar"/>
-    <GlyphID id="89" name="seen-ar.1"/>
-    <GlyphID id="90" name="seen-ar.2"/>
-    <GlyphID id="91" name="seen-ar.3"/>
-    <GlyphID id="92" name="seen-ar.4"/>
-    <GlyphID id="93" name="seen-ar.5"/>
-    <GlyphID id="94" name="seen-ar.6"/>
-    <GlyphID id="95" name="seen-ar.fina"/>
-    <GlyphID id="96" name="seen-ar.fina.1"/>
-    <GlyphID id="97" name="seen-ar.fina.2"/>
-    <GlyphID id="98" name="seen-ar.fina.3"/>
-    <GlyphID id="99" name="seen-ar.fina.4"/>
-    <GlyphID id="100" name="seen-ar.fina.5"/>
-    <GlyphID id="101" name="seen-ar.medi"/>
-    <GlyphID id="102" name="seen-ar.medi.1"/>
-    <GlyphID id="103" name="seen-ar.medi.2"/>
-    <GlyphID id="104" name="seen-ar.medi.3"/>
-    <GlyphID id="105" name="seen-ar.medi.4"/>
-    <GlyphID id="106" name="seen-ar.medi.5"/>
-    <GlyphID id="107" name="seen-ar.medi.6"/>
-    <GlyphID id="108" name="seen-ar.init"/>
-    <GlyphID id="109" name="seen-ar.init.1"/>
-    <GlyphID id="110" name="seen-ar.init.2"/>
-    <GlyphID id="111" name="seen-ar.init.3"/>
-    <GlyphID id="112" name="seen-ar.init.4"/>
-    <GlyphID id="113" name="seen-ar.init.5"/>
-    <GlyphID id="114" name="seen-ar.init.6"/>
-    <GlyphID id="115" name="sheen-ar"/>
-    <GlyphID id="116" name="sad-ar"/>
-    <GlyphID id="117" name="sad-ar.1"/>
-    <GlyphID id="118" name="sad-ar.fina"/>
-    <GlyphID id="119" name="sad-ar.fina.1"/>
-    <GlyphID id="120" name="sad-ar.medi"/>
-    <GlyphID id="121" name="sad-ar.init"/>
-    <GlyphID id="122" name="dad-ar"/>
-    <GlyphID id="123" name="tah-ar"/>
-    <GlyphID id="124" name="tah-ar.fina"/>
-    <GlyphID id="125" name="tah-ar.medi"/>
-    <GlyphID id="126" name="tah-ar.medi.short"/>
-    <GlyphID id="127" name="tah-ar.medi.short2"/>
-    <GlyphID id="128" name="tah-ar.init"/>
-    <GlyphID id="129" name="tah-ar.init.short"/>
-    <GlyphID id="130" name="tah-ar.init.short2"/>
-    <GlyphID id="131" name="zah-ar"/>
-    <GlyphID id="132" name="ain-ar"/>
-    <GlyphID id="133" name="ain-ar.1"/>
-    <GlyphID id="134" name="ain-ar.2"/>
-    <GlyphID id="135" name="ain-ar.3"/>
-    <GlyphID id="136" name="ain-ar.fina"/>
-    <GlyphID id="137" name="ain-ar.medi"/>
-    <GlyphID id="138" name="ain-ar.init"/>
-    <GlyphID id="139" name="ain-ar.init.1"/>
-    <GlyphID id="140" name="ghain-ar"/>
-    <GlyphID id="141" name="feh-ar"/>
-    <GlyphID id="142" name="fehDotless-ar"/>
-    <GlyphID id="143" name="fehDotless-ar.1"/>
-    <GlyphID id="144" name="fehDotless-ar.2"/>
-    <GlyphID id="145" name="fehDotless-ar.3"/>
-    <GlyphID id="146" name="fehDotless-ar.fina"/>
-    <GlyphID id="147" name="fehDotless-ar.fina.1"/>
-    <GlyphID id="148" name="fehDotless-ar.fina.2"/>
-    <GlyphID id="149" name="fehDotless-ar.fina.3"/>
-    <GlyphID id="150" name="fehDotless-ar.medi"/>
-    <GlyphID id="151" name="fehDotless-ar.medi.1"/>
-    <GlyphID id="152" name="fehDotless-ar.init"/>
-    <GlyphID id="153" name="fehDotless-ar.init.1"/>
-    <GlyphID id="154" name="fehDotmovedbelow-ar"/>
-    <GlyphID id="155" name="qafDotless-ar"/>
-    <GlyphID id="156" name="qafDotless-ar.fina"/>
-    <GlyphID id="157" name="qaf-ar"/>
-    <GlyphID id="158" name="qafDotabove-ar"/>
-    <GlyphID id="159" name="kaf-ar"/>
-    <GlyphID id="160" name="kaf-ar.1"/>
-    <GlyphID id="161" name="kaf-ar.2"/>
-    <GlyphID id="162" name="kaf-ar.fina"/>
-    <GlyphID id="163" name="kaf-ar.fina.1"/>
-    <GlyphID id="164" name="kaf-ar.fina.2"/>
-    <GlyphID id="165" name="kaf-ar.medi"/>
-    <GlyphID id="166" name="kaf-ar.medi.1"/>
-    <GlyphID id="167" name="kaf-ar.medi.2"/>
-    <GlyphID id="168" name="kaf-ar.init"/>
-    <GlyphID id="169" name="kaf-ar.init.1"/>
-    <GlyphID id="170" name="kaf-ar.init.2"/>
-    <GlyphID id="171" name="lam-ar"/>
-    <GlyphID id="172" name="lam-ar.fina"/>
-    <GlyphID id="173" name="lam-ar.medi"/>
-    <GlyphID id="174" name="lam-ar.medi.lellah"/>
-    <GlyphID id="175" name="lam-ar.medi.short"/>
-    <GlyphID id="176" name="lam-ar.medi.short2"/>
-    <GlyphID id="177" name="lam-ar.medi.yeh"/>
-    <GlyphID id="178" name="lam-ar.init"/>
-    <GlyphID id="179" name="lam-ar.init.hah"/>
-    <GlyphID id="180" name="lam-ar.init.hah2"/>
-    <GlyphID id="181" name="lam-ar.init.lellah"/>
-    <GlyphID id="182" name="lam-ar.init.short"/>
-    <GlyphID id="183" name="lam-ar.init.short2"/>
-    <GlyphID id="184" name="meem-ar"/>
-    <GlyphID id="185" name="meem-ar.1"/>
-    <GlyphID id="186" name="meem-ar.2"/>
-    <GlyphID id="187" name="meem-ar.fina"/>
-    <GlyphID id="188" name="meem-ar.fina.1"/>
-    <GlyphID id="189" name="meem-ar.fina.2"/>
-    <GlyphID id="190" name="meem-ar.medi"/>
-    <GlyphID id="191" name="meem-ar.medi.1"/>
-    <GlyphID id="192" name="meem-ar.init"/>
-    <GlyphID id="193" name="noon-ar"/>
-    <GlyphID id="194" name="noonghunna-ar"/>
-    <GlyphID id="195" name="noonghunna-ar.fina"/>
-    <GlyphID id="196" name="heh-ar"/>
-    <GlyphID id="197" name="heh-ar.1"/>
-    <GlyphID id="198" name="heh-ar.2"/>
-    <GlyphID id="199" name="heh-ar.fina"/>
-    <GlyphID id="200" name="heh-ar.fina.1"/>
-    <GlyphID id="201" name="heh-ar.fina.2"/>
-    <GlyphID id="202" name="heh-ar.medi"/>
-    <GlyphID id="203" name="heh-ar.medi.1"/>
-    <GlyphID id="204" name="heh-ar.medi.2"/>
-    <GlyphID id="205" name="heh-ar.medi.3"/>
-    <GlyphID id="206" name="heh-ar.medi.4"/>
-    <GlyphID id="207" name="heh-ar.medi.5"/>
-    <GlyphID id="208" name="heh-ar.medi.6"/>
-    <GlyphID id="209" name="heh-ar.medi.7"/>
-    <GlyphID id="210" name="heh-ar.init"/>
-    <GlyphID id="211" name="heh-ar.init.1"/>
-    <GlyphID id="212" name="heh-ar.init.2"/>
-    <GlyphID id="213" name="heh-ar.init.3"/>
-    <GlyphID id="214" name="heh-ar.init.4"/>
-    <GlyphID id="215" name="heh-ar.init.5"/>
-    <GlyphID id="216" name="heh-ar.init.6"/>
-    <GlyphID id="217" name="heh-ar.init.7"/>
-    <GlyphID id="218" name="tehMarbuta-ar"/>
-    <GlyphID id="219" name="waw-ar"/>
-    <GlyphID id="220" name="waw-ar.1"/>
-    <GlyphID id="221" name="waw-ar.2"/>
-    <GlyphID id="222" name="waw-ar.3"/>
-    <GlyphID id="223" name="waw-ar.fina"/>
-    <GlyphID id="224" name="waw-ar.fina.1"/>
-    <GlyphID id="225" name="wawHamzaabove-ar"/>
-    <GlyphID id="226" name="alefMaksura-ar"/>
-    <GlyphID id="227" name="alefMaksura-ar.1"/>
-    <GlyphID id="228" name="alefMaksura-ar.2"/>
-    <GlyphID id="229" name="alefMaksura-ar.3"/>
-    <GlyphID id="230" name="alefMaksura-ar.4"/>
-    <GlyphID id="231" name="alefMaksura-ar.5"/>
-    <GlyphID id="232" name="alefMaksura-ar.6"/>
-    <GlyphID id="233" name="alefMaksura-ar.fina"/>
-    <GlyphID id="234" name="alefMaksura-ar.fina.0"/>
-    <GlyphID id="235" name="alefMaksura-ar.fina.1"/>
-    <GlyphID id="236" name="alefMaksura-ar.fina.2"/>
-    <GlyphID id="237" name="alefMaksura-ar.fina.3"/>
-    <GlyphID id="238" name="alefMaksura-ar.fina.4"/>
-    <GlyphID id="239" name="alefMaksura-ar.fina.5"/>
-    <GlyphID id="240" name="alefMaksura-ar.fina.6"/>
-    <GlyphID id="241" name="alefMaksura-ar.fina.tooth"/>
-    <GlyphID id="242" name="yeh-ar"/>
-    <GlyphID id="243" name="yehHamzaabove-ar"/>
-    <GlyphID id="244" name="yeh-farsi"/>
-    <GlyphID id="245" name="kashida-ar.medi"/>
-    <GlyphID id="246" name="lam_alef-ar"/>
-    <GlyphID id="247" name="lam_alef-ar.fina"/>
-    <GlyphID id="248" name="lam_alef-ar.1"/>
-    <GlyphID id="249" name="lam_alef-ar.fina.1"/>
-    <GlyphID id="250" name="lam_alef-ar.fina.2"/>
-    <GlyphID id="251" name="lam_alef-ar.fina.3"/>
-    <GlyphID id="252" name="lam_alef-ar.fina.4"/>
-    <GlyphID id="253" name="lam_alef-ar.fina.5"/>
-    <GlyphID id="254" name="lam_alef-ar.2"/>
-    <GlyphID id="255" name="lam_alef-ar.3"/>
-    <GlyphID id="256" name="lam_alef-ar.4"/>
-    <GlyphID id="257" name="lam_alef-ar.5"/>
-    <GlyphID id="258" name="zero"/>
-    <GlyphID id="259" name="one"/>
-    <GlyphID id="260" name="two"/>
-    <GlyphID id="261" name="three"/>
-    <GlyphID id="262" name="four"/>
-    <GlyphID id="263" name="five"/>
-    <GlyphID id="264" name="six"/>
-    <GlyphID id="265" name="seven"/>
-    <GlyphID id="266" name="eight"/>
-    <GlyphID id="267" name="nine"/>
-    <GlyphID id="268" name="zero-ar"/>
-    <GlyphID id="269" name="one-ar"/>
-    <GlyphID id="270" name="one-ar.osf"/>
-    <GlyphID id="271" name="two-ar"/>
-    <GlyphID id="272" name="two-ar.1"/>
-    <GlyphID id="273" name="two-ar.osf"/>
-    <GlyphID id="274" name="two-ar.osf.1"/>
-    <GlyphID id="275" name="three-ar"/>
-    <GlyphID id="276" name="three-ar.1"/>
-    <GlyphID id="277" name="three-ar.osf"/>
-    <GlyphID id="278" name="three-ar.osf.1"/>
-    <GlyphID id="279" name="four-ar"/>
-    <GlyphID id="280" name="four-ar.1"/>
-    <GlyphID id="281" name="four-ar.2"/>
-    <GlyphID id="282" name="four-ar.osf"/>
-    <GlyphID id="283" name="four-ar.osf.1"/>
-    <GlyphID id="284" name="four-ar.osf.2"/>
-    <GlyphID id="285" name="five-ar"/>
-    <GlyphID id="286" name="six-ar"/>
-    <GlyphID id="287" name="six-ar.1"/>
-    <GlyphID id="288" name="six-ar.osf"/>
-    <GlyphID id="289" name="six-ar.osf.1"/>
-    <GlyphID id="290" name="seven-ar"/>
-    <GlyphID id="291" name="seven-ar.1"/>
-    <GlyphID id="292" name="seven-ar.2"/>
-    <GlyphID id="293" name="eight-ar"/>
-    <GlyphID id="294" name="eight-ar.1"/>
-    <GlyphID id="295" name="eight-ar.2"/>
-    <GlyphID id="296" name="nine-ar"/>
-    <GlyphID id="297" name="nine-ar.osf"/>
-    <GlyphID id="298" name="space.alt"/>
-    <GlyphID id="299" name="space.latn"/>
-    <GlyphID id="300" name="space"/>
-    <GlyphID id="301" name="dotabove-ar"/>
-    <GlyphID id="302" name="dotabove-ar.alt1"/>
-    <GlyphID id="303" name="dotbelow-ar"/>
-    <GlyphID id="304" name="dotbelow-ar.alt1"/>
-    <GlyphID id="305" name="twodotsverticalabove-ar"/>
-    <GlyphID id="306" name="twodotsverticalabove-ar.alt1"/>
-    <GlyphID id="307" name="twodotsverticalbelow-ar"/>
-    <GlyphID id="308" name="twodotsverticalbelow-ar.alt1"/>
-    <GlyphID id="309" name="twodotshorizontalabove-ar"/>
-    <GlyphID id="310" name="twodotshorizontalabove-ar.alt1"/>
-    <GlyphID id="311" name="twodotshorizontalbelow-ar"/>
-    <GlyphID id="312" name="twodotshorizontalbelow-ar.alt1"/>
-    <GlyphID id="313" name="threedotsupabove-ar"/>
-    <GlyphID id="314" name="threedotsupabove-ar.alt1"/>
-    <GlyphID id="315" name="hamzaabove-ar"/>
-    <GlyphID id="316" name="hamzabelow-ar"/>
-    <GlyphID id="317" name="empty"/>
+    <GlyphID id="59" name="peh-ar"/>
+    <GlyphID id="60" name="teh-ar"/>
+    <GlyphID id="61" name="theh-ar"/>
+    <GlyphID id="62" name="tteh-ar"/>
+    <GlyphID id="63" name="jeem-ar"/>
+    <GlyphID id="64" name="tcheh-ar"/>
+    <GlyphID id="65" name="hah-ar"/>
+    <GlyphID id="66" name="hah-ar.1"/>
+    <GlyphID id="67" name="hah-ar.2"/>
+    <GlyphID id="68" name="hah-ar.3"/>
+    <GlyphID id="69" name="hah-ar.4"/>
+    <GlyphID id="70" name="hah-ar.5"/>
+    <GlyphID id="71" name="hah-ar.fina"/>
+    <GlyphID id="72" name="hah-ar.fina.1"/>
+    <GlyphID id="73" name="hah-ar.medi"/>
+    <GlyphID id="74" name="hah-ar.medi.1"/>
+    <GlyphID id="75" name="hah-ar.medi.2"/>
+    <GlyphID id="76" name="hah-ar.medi.3"/>
+    <GlyphID id="77" name="hah-ar.init"/>
+    <GlyphID id="78" name="hah-ar.init.1"/>
+    <GlyphID id="79" name="hah-ar.init.2"/>
+    <GlyphID id="80" name="khah-ar"/>
+    <GlyphID id="81" name="dal-ar"/>
+    <GlyphID id="82" name="dal-ar.fina"/>
+    <GlyphID id="83" name="thal-ar"/>
+    <GlyphID id="84" name="ddal-ar"/>
+    <GlyphID id="85" name="reh-ar"/>
+    <GlyphID id="86" name="reh-ar.1"/>
+    <GlyphID id="87" name="reh-ar.2"/>
+    <GlyphID id="88" name="reh-ar.3"/>
+    <GlyphID id="89" name="reh-ar.fina"/>
+    <GlyphID id="90" name="reh-ar.fina.1"/>
+    <GlyphID id="91" name="zain-ar"/>
+    <GlyphID id="92" name="rreh-ar"/>
+    <GlyphID id="93" name="jeh-ar"/>
+    <GlyphID id="94" name="seen-ar"/>
+    <GlyphID id="95" name="seen-ar.1"/>
+    <GlyphID id="96" name="seen-ar.2"/>
+    <GlyphID id="97" name="seen-ar.3"/>
+    <GlyphID id="98" name="seen-ar.4"/>
+    <GlyphID id="99" name="seen-ar.5"/>
+    <GlyphID id="100" name="seen-ar.6"/>
+    <GlyphID id="101" name="seen-ar.fina"/>
+    <GlyphID id="102" name="seen-ar.fina.1"/>
+    <GlyphID id="103" name="seen-ar.fina.2"/>
+    <GlyphID id="104" name="seen-ar.fina.3"/>
+    <GlyphID id="105" name="seen-ar.fina.4"/>
+    <GlyphID id="106" name="seen-ar.fina.5"/>
+    <GlyphID id="107" name="seen-ar.medi"/>
+    <GlyphID id="108" name="seen-ar.medi.1"/>
+    <GlyphID id="109" name="seen-ar.medi.2"/>
+    <GlyphID id="110" name="seen-ar.medi.3"/>
+    <GlyphID id="111" name="seen-ar.medi.4"/>
+    <GlyphID id="112" name="seen-ar.medi.5"/>
+    <GlyphID id="113" name="seen-ar.medi.6"/>
+    <GlyphID id="114" name="seen-ar.init"/>
+    <GlyphID id="115" name="seen-ar.init.1"/>
+    <GlyphID id="116" name="seen-ar.init.2"/>
+    <GlyphID id="117" name="seen-ar.init.3"/>
+    <GlyphID id="118" name="seen-ar.init.4"/>
+    <GlyphID id="119" name="seen-ar.init.5"/>
+    <GlyphID id="120" name="seen-ar.init.6"/>
+    <GlyphID id="121" name="sheen-ar"/>
+    <GlyphID id="122" name="sad-ar"/>
+    <GlyphID id="123" name="sad-ar.1"/>
+    <GlyphID id="124" name="sad-ar.fina"/>
+    <GlyphID id="125" name="sad-ar.fina.1"/>
+    <GlyphID id="126" name="sad-ar.medi"/>
+    <GlyphID id="127" name="sad-ar.init"/>
+    <GlyphID id="128" name="dad-ar"/>
+    <GlyphID id="129" name="tah-ar"/>
+    <GlyphID id="130" name="tah-ar.fina"/>
+    <GlyphID id="131" name="tah-ar.medi"/>
+    <GlyphID id="132" name="tah-ar.medi.short"/>
+    <GlyphID id="133" name="tah-ar.medi.short2"/>
+    <GlyphID id="134" name="tah-ar.init"/>
+    <GlyphID id="135" name="tah-ar.init.short"/>
+    <GlyphID id="136" name="tah-ar.init.short2"/>
+    <GlyphID id="137" name="zah-ar"/>
+    <GlyphID id="138" name="ain-ar"/>
+    <GlyphID id="139" name="ain-ar.1"/>
+    <GlyphID id="140" name="ain-ar.2"/>
+    <GlyphID id="141" name="ain-ar.3"/>
+    <GlyphID id="142" name="ain-ar.fina"/>
+    <GlyphID id="143" name="ain-ar.medi"/>
+    <GlyphID id="144" name="ain-ar.init"/>
+    <GlyphID id="145" name="ain-ar.init.1"/>
+    <GlyphID id="146" name="ghain-ar"/>
+    <GlyphID id="147" name="feh-ar"/>
+    <GlyphID id="148" name="veh-ar"/>
+    <GlyphID id="149" name="fehDotless-ar"/>
+    <GlyphID id="150" name="fehDotless-ar.1"/>
+    <GlyphID id="151" name="fehDotless-ar.2"/>
+    <GlyphID id="152" name="fehDotless-ar.3"/>
+    <GlyphID id="153" name="fehDotless-ar.fina"/>
+    <GlyphID id="154" name="fehDotless-ar.fina.1"/>
+    <GlyphID id="155" name="fehDotless-ar.fina.2"/>
+    <GlyphID id="156" name="fehDotless-ar.fina.3"/>
+    <GlyphID id="157" name="fehDotless-ar.medi"/>
+    <GlyphID id="158" name="fehDotless-ar.medi.1"/>
+    <GlyphID id="159" name="fehDotless-ar.init"/>
+    <GlyphID id="160" name="fehDotless-ar.init.1"/>
+    <GlyphID id="161" name="fehDotmovedbelow-ar"/>
+    <GlyphID id="162" name="qafDotless-ar"/>
+    <GlyphID id="163" name="qafDotless-ar.fina"/>
+    <GlyphID id="164" name="qaf-ar"/>
+    <GlyphID id="165" name="qafDotabove-ar"/>
+    <GlyphID id="166" name="kaf-ar"/>
+    <GlyphID id="167" name="kaf-ar.1"/>
+    <GlyphID id="168" name="kaf-ar.2"/>
+    <GlyphID id="169" name="kaf-ar.fina"/>
+    <GlyphID id="170" name="kaf-ar.fina.1"/>
+    <GlyphID id="171" name="kaf-ar.fina.2"/>
+    <GlyphID id="172" name="kaf-ar.medi"/>
+    <GlyphID id="173" name="kaf-ar.medi.1"/>
+    <GlyphID id="174" name="kaf-ar.medi.2"/>
+    <GlyphID id="175" name="kaf-ar.init"/>
+    <GlyphID id="176" name="kaf-ar.init.1"/>
+    <GlyphID id="177" name="kaf-ar.init.2"/>
+    <GlyphID id="178" name="keheh-ar"/>
+    <GlyphID id="179" name="gaf-ar"/>
+    <GlyphID id="180" name="lam-ar"/>
+    <GlyphID id="181" name="lam-ar.fina"/>
+    <GlyphID id="182" name="lam-ar.medi"/>
+    <GlyphID id="183" name="lam-ar.medi.lellah"/>
+    <GlyphID id="184" name="lam-ar.medi.short"/>
+    <GlyphID id="185" name="lam-ar.medi.short2"/>
+    <GlyphID id="186" name="lam-ar.medi.yeh"/>
+    <GlyphID id="187" name="lam-ar.init"/>
+    <GlyphID id="188" name="lam-ar.init.hah"/>
+    <GlyphID id="189" name="lam-ar.init.hah2"/>
+    <GlyphID id="190" name="lam-ar.init.lellah"/>
+    <GlyphID id="191" name="lam-ar.init.short"/>
+    <GlyphID id="192" name="lam-ar.init.short2"/>
+    <GlyphID id="193" name="meem-ar"/>
+    <GlyphID id="194" name="meem-ar.1"/>
+    <GlyphID id="195" name="meem-ar.2"/>
+    <GlyphID id="196" name="meem-ar.fina"/>
+    <GlyphID id="197" name="meem-ar.fina.1"/>
+    <GlyphID id="198" name="meem-ar.fina.2"/>
+    <GlyphID id="199" name="meem-ar.medi"/>
+    <GlyphID id="200" name="meem-ar.medi.1"/>
+    <GlyphID id="201" name="meem-ar.init"/>
+    <GlyphID id="202" name="noon-ar"/>
+    <GlyphID id="203" name="noonghunna-ar"/>
+    <GlyphID id="204" name="noonghunna-ar.fina"/>
+    <GlyphID id="205" name="heh-ar"/>
+    <GlyphID id="206" name="heh-ar.1"/>
+    <GlyphID id="207" name="heh-ar.2"/>
+    <GlyphID id="208" name="heh-ar.fina"/>
+    <GlyphID id="209" name="heh-ar.fina.1"/>
+    <GlyphID id="210" name="heh-ar.fina.2"/>
+    <GlyphID id="211" name="heh-ar.medi"/>
+    <GlyphID id="212" name="heh-ar.medi.1"/>
+    <GlyphID id="213" name="heh-ar.medi.2"/>
+    <GlyphID id="214" name="heh-ar.medi.3"/>
+    <GlyphID id="215" name="heh-ar.medi.4"/>
+    <GlyphID id="216" name="heh-ar.medi.5"/>
+    <GlyphID id="217" name="heh-ar.medi.6"/>
+    <GlyphID id="218" name="heh-ar.medi.7"/>
+    <GlyphID id="219" name="heh-ar.init"/>
+    <GlyphID id="220" name="heh-ar.init.1"/>
+    <GlyphID id="221" name="heh-ar.init.2"/>
+    <GlyphID id="222" name="heh-ar.init.3"/>
+    <GlyphID id="223" name="heh-ar.init.4"/>
+    <GlyphID id="224" name="heh-ar.init.5"/>
+    <GlyphID id="225" name="heh-ar.init.6"/>
+    <GlyphID id="226" name="heh-ar.init.7"/>
+    <GlyphID id="227" name="hehgoal-ar"/>
+    <GlyphID id="228" name="hehgoalHamzaabove-ar"/>
+    <GlyphID id="229" name="hehDoachashmee-ar"/>
+    <GlyphID id="230" name="tehMarbuta-ar"/>
+    <GlyphID id="231" name="tehMarbutagoal-ar"/>
+    <GlyphID id="232" name="waw-ar"/>
+    <GlyphID id="233" name="waw-ar.1"/>
+    <GlyphID id="234" name="waw-ar.2"/>
+    <GlyphID id="235" name="waw-ar.3"/>
+    <GlyphID id="236" name="waw-ar.fina"/>
+    <GlyphID id="237" name="waw-ar.fina.1"/>
+    <GlyphID id="238" name="wawHamzaabove-ar"/>
+    <GlyphID id="239" name="alefMaksura-ar"/>
+    <GlyphID id="240" name="alefMaksura-ar.1"/>
+    <GlyphID id="241" name="alefMaksura-ar.2"/>
+    <GlyphID id="242" name="alefMaksura-ar.3"/>
+    <GlyphID id="243" name="alefMaksura-ar.4"/>
+    <GlyphID id="244" name="alefMaksura-ar.5"/>
+    <GlyphID id="245" name="alefMaksura-ar.6"/>
+    <GlyphID id="246" name="alefMaksura-ar.fina"/>
+    <GlyphID id="247" name="alefMaksura-ar.fina.0"/>
+    <GlyphID id="248" name="alefMaksura-ar.fina.1"/>
+    <GlyphID id="249" name="alefMaksura-ar.fina.2"/>
+    <GlyphID id="250" name="alefMaksura-ar.fina.3"/>
+    <GlyphID id="251" name="alefMaksura-ar.fina.4"/>
+    <GlyphID id="252" name="alefMaksura-ar.fina.5"/>
+    <GlyphID id="253" name="alefMaksura-ar.fina.6"/>
+    <GlyphID id="254" name="alefMaksura-ar.fina.tooth"/>
+    <GlyphID id="255" name="yeh-ar"/>
+    <GlyphID id="256" name="yehHamzaabove-ar"/>
+    <GlyphID id="257" name="yeh-farsi"/>
+    <GlyphID id="258" name="yehbarree-ar"/>
+    <GlyphID id="259" name="yehbarreeHamzaabove-ar"/>
+    <GlyphID id="260" name="kashida-ar.medi"/>
+    <GlyphID id="261" name="lam_alef-ar"/>
+    <GlyphID id="262" name="lam_alef-ar.fina"/>
+    <GlyphID id="263" name="lam_alef-ar.1"/>
+    <GlyphID id="264" name="lam_alef-ar.fina.1"/>
+    <GlyphID id="265" name="lam_alef-ar.fina.2"/>
+    <GlyphID id="266" name="lam_alef-ar.fina.3"/>
+    <GlyphID id="267" name="lam_alef-ar.fina.4"/>
+    <GlyphID id="268" name="lam_alef-ar.fina.5"/>
+    <GlyphID id="269" name="lam_alef-ar.2"/>
+    <GlyphID id="270" name="lam_alef-ar.3"/>
+    <GlyphID id="271" name="lam_alef-ar.4"/>
+    <GlyphID id="272" name="lam_alef-ar.5"/>
+    <GlyphID id="273" name="zero"/>
+    <GlyphID id="274" name="one"/>
+    <GlyphID id="275" name="two"/>
+    <GlyphID id="276" name="three"/>
+    <GlyphID id="277" name="four"/>
+    <GlyphID id="278" name="five"/>
+    <GlyphID id="279" name="six"/>
+    <GlyphID id="280" name="seven"/>
+    <GlyphID id="281" name="eight"/>
+    <GlyphID id="282" name="nine"/>
+    <GlyphID id="283" name="zero-ar"/>
+    <GlyphID id="284" name="one-ar"/>
+    <GlyphID id="285" name="one-ar.osf"/>
+    <GlyphID id="286" name="two-ar"/>
+    <GlyphID id="287" name="two-ar.1"/>
+    <GlyphID id="288" name="two-ar.osf"/>
+    <GlyphID id="289" name="two-ar.osf.1"/>
+    <GlyphID id="290" name="three-ar"/>
+    <GlyphID id="291" name="three-ar.1"/>
+    <GlyphID id="292" name="three-ar.osf"/>
+    <GlyphID id="293" name="three-ar.osf.1"/>
+    <GlyphID id="294" name="four-ar"/>
+    <GlyphID id="295" name="four-ar.1"/>
+    <GlyphID id="296" name="four-ar.2"/>
+    <GlyphID id="297" name="four-ar.osf"/>
+    <GlyphID id="298" name="four-ar.osf.1"/>
+    <GlyphID id="299" name="four-ar.osf.2"/>
+    <GlyphID id="300" name="five-ar"/>
+    <GlyphID id="301" name="six-ar"/>
+    <GlyphID id="302" name="six-ar.1"/>
+    <GlyphID id="303" name="six-ar.osf"/>
+    <GlyphID id="304" name="six-ar.osf.1"/>
+    <GlyphID id="305" name="seven-ar"/>
+    <GlyphID id="306" name="seven-ar.1"/>
+    <GlyphID id="307" name="seven-ar.2"/>
+    <GlyphID id="308" name="eight-ar"/>
+    <GlyphID id="309" name="eight-ar.1"/>
+    <GlyphID id="310" name="eight-ar.2"/>
+    <GlyphID id="311" name="nine-ar"/>
+    <GlyphID id="312" name="nine-ar.osf"/>
+    <GlyphID id="313" name="space.alt"/>
+    <GlyphID id="314" name="space.latn"/>
+    <GlyphID id="315" name="space"/>
+    <GlyphID id="316" name="tahabove-ar"/>
+    <GlyphID id="317" name="dotabove-ar"/>
+    <GlyphID id="318" name="dotabove-ar.alt1"/>
+    <GlyphID id="319" name="dotbelow-ar"/>
+    <GlyphID id="320" name="dotbelow-ar.alt1"/>
+    <GlyphID id="321" name="twodotsverticalabove-ar"/>
+    <GlyphID id="322" name="twodotsverticalabove-ar.alt1"/>
+    <GlyphID id="323" name="twodotsverticalbelow-ar"/>
+    <GlyphID id="324" name="twodotsverticalbelow-ar.alt1"/>
+    <GlyphID id="325" name="twodotshorizontalabove-ar"/>
+    <GlyphID id="326" name="twodotshorizontalabove-ar.alt1"/>
+    <GlyphID id="327" name="twodotshorizontalbelow-ar"/>
+    <GlyphID id="328" name="twodotshorizontalbelow-ar.alt1"/>
+    <GlyphID id="329" name="threedotsdownbelow-ar"/>
+    <GlyphID id="330" name="threedotsdownbelow-ar.alt1"/>
+    <GlyphID id="331" name="threedotsupabove-ar"/>
+    <GlyphID id="332" name="threedotsupabove-ar.alt1"/>
+    <GlyphID id="333" name="hamzaabove-ar"/>
+    <GlyphID id="334" name="hamzabelow-ar"/>
+    <GlyphID id="335" name="empty"/>
   </GlyphOrder>
 
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.008"/>
-    <checkSumAdjustment value="0x447b6ea1"/>
+    <checkSumAdjustment value="0x29195813"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -361,19 +379,19 @@
     <reserved2 value="0"/>
     <reserved3 value="0"/>
     <metricDataFormat value="0"/>
-    <numberOfHMetrics value="301"/>
+    <numberOfHMetrics value="316"/>
   </hhea>
 
   <maxp>
     <tableVersion value="0x5000"/>
-    <numGlyphs value="318"/>
+    <numGlyphs value="336"/>
   </maxp>
 
   <OS_2>
     <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
          will be recalculated by the compiler -->
     <version value="4"/>
-    <xAvgCharWidth value="343"/>
+    <xAvgCharWidth value="347"/>
     <usWeightClass value="400"/>
     <usWidthClass value="5"/>
     <fsType value="00000000 00000000"/>
@@ -407,7 +425,7 @@
     <achVendID value="ALIF"/>
     <fsSelection value="00000000 01000000"/>
     <usFirstCharIndex value="32"/>
-    <usLastCharIndex value="1740"/>
+    <usLastCharIndex value="1747"/>
     <sTypoAscender value="600"/>
     <sTypoDescender value="-250"/>
     <sTypoLineGap value="0"/>
@@ -552,6 +570,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <map code="0x78" name="x"/><!-- LATIN SMALL LETTER X -->
       <map code="0x79" name="y"/><!-- LATIN SMALL LETTER Y -->
       <map code="0x7a" name="z"/><!-- LATIN SMALL LETTER Z -->
+      <map code="0x615" name="tahabove-ar"/><!-- ARABIC SMALL HIGH TAH -->
       <map code="0x621" name="hamza-ar"/><!-- ARABIC LETTER HAMZA -->
       <map code="0x622" name="alefMadda-ar"/><!-- ARABIC LETTER ALEF WITH MADDA ABOVE -->
       <map code="0x623" name="alefHamzaabove-ar"/><!-- ARABIC LETTER ALEF WITH HAMZA ABOVE -->
@@ -604,11 +623,26 @@ You should have received a copy of the GNU Affero General Public License along w
       <map code="0x66e" name="behDotless-ar"/><!-- ARABIC LETTER DOTLESS BEH -->
       <map code="0x66f" name="qafDotless-ar"/><!-- ARABIC LETTER DOTLESS QAF -->
       <map code="0x671" name="alefWasla-ar"/><!-- ARABIC LETTER ALEF WASLA -->
+      <map code="0x679" name="tteh-ar"/><!-- ARABIC LETTER TTEH -->
+      <map code="0x67e" name="peh-ar"/><!-- ARABIC LETTER PEH -->
+      <map code="0x686" name="tcheh-ar"/><!-- ARABIC LETTER TCHEH -->
+      <map code="0x688" name="ddal-ar"/><!-- ARABIC LETTER DDAL -->
+      <map code="0x691" name="rreh-ar"/><!-- ARABIC LETTER RREH -->
+      <map code="0x698" name="jeh-ar"/><!-- ARABIC LETTER JEH -->
       <map code="0x6a1" name="fehDotless-ar"/><!-- ARABIC LETTER DOTLESS FEH -->
       <map code="0x6a2" name="fehDotmovedbelow-ar"/><!-- ARABIC LETTER FEH WITH DOT MOVED BELOW -->
+      <map code="0x6a4" name="veh-ar"/><!-- ARABIC LETTER VEH -->
       <map code="0x6a7" name="qafDotabove-ar"/><!-- ARABIC LETTER QAF WITH DOT ABOVE -->
+      <map code="0x6a9" name="keheh-ar"/><!-- ARABIC LETTER KEHEH -->
+      <map code="0x6af" name="gaf-ar"/><!-- ARABIC LETTER GAF -->
       <map code="0x6ba" name="noonghunna-ar"/><!-- ARABIC LETTER NOON GHUNNA -->
+      <map code="0x6be" name="hehDoachashmee-ar"/><!-- ARABIC LETTER HEH DOACHASHMEE -->
+      <map code="0x6c1" name="hehgoal-ar"/><!-- ARABIC LETTER HEH GOAL -->
+      <map code="0x6c2" name="hehgoalHamzaabove-ar"/><!-- ARABIC LETTER HEH GOAL WITH HAMZA ABOVE -->
+      <map code="0x6c3" name="tehMarbutagoal-ar"/><!-- ARABIC LETTER TEH MARBUTA GOAL -->
       <map code="0x6cc" name="yeh-farsi"/><!-- ARABIC LETTER FARSI YEH -->
+      <map code="0x6d2" name="yehbarree-ar"/><!-- ARABIC LETTER YEH BARREE -->
+      <map code="0x6d3" name="yehbarreeHamzaabove-ar"/><!-- ARABIC LETTER YEH BARREE WITH HAMZA ABOVE -->
     </cmap_format_4>
     <cmap_format_4 platformID="3" platEncID="1" language="0">
       <map code="0x20" name="space"/><!-- SPACE -->
@@ -674,6 +708,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <map code="0x78" name="x"/><!-- LATIN SMALL LETTER X -->
       <map code="0x79" name="y"/><!-- LATIN SMALL LETTER Y -->
       <map code="0x7a" name="z"/><!-- LATIN SMALL LETTER Z -->
+      <map code="0x615" name="tahabove-ar"/><!-- ARABIC SMALL HIGH TAH -->
       <map code="0x621" name="hamza-ar"/><!-- ARABIC LETTER HAMZA -->
       <map code="0x622" name="alefMadda-ar"/><!-- ARABIC LETTER ALEF WITH MADDA ABOVE -->
       <map code="0x623" name="alefHamzaabove-ar"/><!-- ARABIC LETTER ALEF WITH HAMZA ABOVE -->
@@ -726,11 +761,26 @@ You should have received a copy of the GNU Affero General Public License along w
       <map code="0x66e" name="behDotless-ar"/><!-- ARABIC LETTER DOTLESS BEH -->
       <map code="0x66f" name="qafDotless-ar"/><!-- ARABIC LETTER DOTLESS QAF -->
       <map code="0x671" name="alefWasla-ar"/><!-- ARABIC LETTER ALEF WASLA -->
+      <map code="0x679" name="tteh-ar"/><!-- ARABIC LETTER TTEH -->
+      <map code="0x67e" name="peh-ar"/><!-- ARABIC LETTER PEH -->
+      <map code="0x686" name="tcheh-ar"/><!-- ARABIC LETTER TCHEH -->
+      <map code="0x688" name="ddal-ar"/><!-- ARABIC LETTER DDAL -->
+      <map code="0x691" name="rreh-ar"/><!-- ARABIC LETTER RREH -->
+      <map code="0x698" name="jeh-ar"/><!-- ARABIC LETTER JEH -->
       <map code="0x6a1" name="fehDotless-ar"/><!-- ARABIC LETTER DOTLESS FEH -->
       <map code="0x6a2" name="fehDotmovedbelow-ar"/><!-- ARABIC LETTER FEH WITH DOT MOVED BELOW -->
+      <map code="0x6a4" name="veh-ar"/><!-- ARABIC LETTER VEH -->
       <map code="0x6a7" name="qafDotabove-ar"/><!-- ARABIC LETTER QAF WITH DOT ABOVE -->
+      <map code="0x6a9" name="keheh-ar"/><!-- ARABIC LETTER KEHEH -->
+      <map code="0x6af" name="gaf-ar"/><!-- ARABIC LETTER GAF -->
       <map code="0x6ba" name="noonghunna-ar"/><!-- ARABIC LETTER NOON GHUNNA -->
+      <map code="0x6be" name="hehDoachashmee-ar"/><!-- ARABIC LETTER HEH DOACHASHMEE -->
+      <map code="0x6c1" name="hehgoal-ar"/><!-- ARABIC LETTER HEH GOAL -->
+      <map code="0x6c2" name="hehgoalHamzaabove-ar"/><!-- ARABIC LETTER HEH GOAL WITH HAMZA ABOVE -->
+      <map code="0x6c3" name="tehMarbutagoal-ar"/><!-- ARABIC LETTER TEH MARBUTA GOAL -->
       <map code="0x6cc" name="yeh-farsi"/><!-- ARABIC LETTER FARSI YEH -->
+      <map code="0x6d2" name="yehbarree-ar"/><!-- ARABIC LETTER YEH BARREE -->
+      <map code="0x6d3" name="yehbarreeHamzaabove-ar"/><!-- ARABIC LETTER YEH BARREE WITH HAMZA ABOVE -->
     </cmap_format_4>
   </cmap>
 
@@ -1785,6 +1835,41 @@ You should have received a copy of the GNU Affero General Public License along w
           -436 0 rlineto
           endchar
         </CharString>
+        <CharString name="ddal-ar">
+          600 0 70 40 70 75 21 14 24 hstemhm
+          231 25 73 25 122 84 hintmask 11101110
+          0 0 rmoveto
+          539 0 rlineto
+          6 0 15 0 0 21 rrcurveto
+          0 139 -70 20 -44 0 rrcurveto
+          -326 0 rlineto
+          27 70 rlineto
+          -3 0 rlineto
+          -80 -140 rlineto
+          372 0 rlineto
+          22 0 18 -18 0 -22 rrcurveto
+          -436 0 rlineto
+          166 185 rmoveto
+          142 0 rlineto
+          4 0 2 0 0 6 rrcurveto
+          hintmask 11111110
+          0 44 -21 9 -14 0 rrcurveto
+          -63 0 rlineto
+          hintmask 11101110
+          0 56 rlineto
+          -25 -6 rlineto
+          0 -88 rlineto
+          -13 0 rlineto
+          38 0 rmoveto
+          hintmask 11111110
+          0 14 rlineto
+          59 0 rlineto
+          4 0 4 -1 2 -3 rrcurveto
+          3 -2 1 -4 0 -4 rrcurveto
+          hintmask 11101110
+          -73 0 rlineto
+          endchar
+        </CharString>
         <CharString name="dotabove-ar">
           0 21 -21 hstem
           0 64 vstem
@@ -2456,6 +2541,24 @@ You should have received a copy of the GNU Affero General Public License along w
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
           0 -11 -9 -9 -11 0 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="gaf-ar">
+          640 0 70 40 70 380 -20 hstem
+          40 80 396 84 vstem
+          116 0 rmoveto
+          463 0 rlineto
+          6 0 15 0 0 21 rrcurveto
+          0 139 -70 20 -44 0 rrcurveto
+          -366 0 rlineto
+          0 380 rlineto
+          -80 -20 rlineto
+          0 -430 rlineto
+          436 0 rlineto
+          22 0 18 -18 0 -22 rrcurveto
+          -476 0 rlineto
+          -40 -70 rlineto
+          116 0 rlineto
           endchar
         </CharString>
         <CharString name="ghain-ar">
@@ -3380,6 +3483,75 @@ You should have received a copy of the GNU Affero General Public License along w
           -9 -40 rlineto
           endchar
         </CharString>
+        <CharString name="hehDoachashmee-ar">
+          240 -110 70 40 70 40 70 hstem
+          0 80 40 80 vstem
+          100 -110 rmoveto
+          65 0 35 30 0 60 rrcurveto
+          0 235 rlineto
+          -20 -35 -40 0 -40 0 rrcurveto
+          -55 0 -45 -40 0 -50 rrcurveto
+          0 -7 1 -7 1 -6 rrcurveto
+          -52 0 rlineto
+          0 -70 rlineto
+          52 0 rlineto
+          -1 -6 -1 -7 0 -7 rrcurveto
+          0 -60 45 -30 55 0 rrcurveto
+          0 180 rmoveto
+          -11 0 -9 9 0 11 rrcurveto
+          0 11 9 9 11 0 rrcurveto
+          11 0 9 -9 0 -11 rrcurveto
+          0 -11 -9 -9 -11 0 rrcurveto
+          0 -110 rmoveto
+          -11 0 -9 9 0 11 rrcurveto
+          0 11 9 9 11 0 rrcurveto
+          11 0 9 -9 0 -11 rrcurveto
+          0 -11 -9 -9 -11 0 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="hehgoal-ar">
+          240 0 70 40 70 hstem
+          0 80 40 80 vstem
+          100 0 rmoveto
+          65 0 35 30 0 60 rrcurveto
+          0 130 rlineto
+          -20 -35 -40 -5 -40 0 rrcurveto
+          -55 0 -45 -40 0 -50 rrcurveto
+          0 -60 45 -30 55 0 rrcurveto
+          0 70 rmoveto
+          -11 0 -9 9 0 11 rrcurveto
+          0 11 9 9 11 0 rrcurveto
+          11 0 9 -9 0 -11 rrcurveto
+          0 -11 -9 -9 -11 0 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="hehgoalHamzaabove-ar">
+          240 0 70 40 70 55 29 33 25 hstem
+          0 80 40 80 vstem
+          100 0 rmoveto
+          65 0 35 30 0 60 rrcurveto
+          0 130 rlineto
+          -20 -35 -40 -5 -40 0 rrcurveto
+          -55 0 -45 -40 0 -50 rrcurveto
+          0 -60 45 -30 55 0 rrcurveto
+          13 264 rmoveto
+          -8 0 -5 7 0 8 rrcurveto
+          0 9 7 9 15 0 rrcurveto
+          5 0 7 -1 7 -3 rrcurveto
+          -6 18 -14 11 -14 0 rrcurveto
+          -32 0 -14 -33 8 -25 rrcurveto
+          -11 0 rlineto
+          -17 -29 rlineto
+          108 0 rlineto
+          17 29 rlineto
+          -53 0 rlineto
+          -13 -194 rmoveto
+          -11 0 -9 9 0 11 rrcurveto
+          0 11 9 9 11 0 rrcurveto
+          11 0 9 -9 0 -11 rrcurveto
+          0 -11 -9 -9 -11 0 rrcurveto
+          endchar
+        </CharString>
         <CharString name="i">
           200 0 43 195 -20 hstem
           0 80 vstem
@@ -3432,6 +3604,32 @@ You should have received a copy of the GNU Affero General Public License along w
           -50 0 -40 -40 0 -50 rrcurveto
           0 -50 40 -40 50 0 rrcurveto
           180 -124 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          endchar
+        </CharString>
+        <CharString name="jeh-ar">
+          312 -110 70 40 140 -119 -21 hstemhm
+          213 84 hintmask 10110000
+          -63 -110 rmoveto
+          339 0 rlineto
+          6 0 15 0 0 21 rrcurveto
+          hintmask 11010000
+          0 139 -69 43 -147 47 rrcurveto
+          -81 -140 rlineto
+          173 0 rlineto
+          22 0 18 -18 0 -22 rrcurveto
+          -236 0 rlineto
+          79 255 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          63 -10 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          63 -10 rmoveto
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
@@ -3720,6 +3918,24 @@ You should have received a copy of the GNU Affero General Public License along w
           100 0 rlineto
           0 70 rlineto
           -100 0 rlineto
+          endchar
+        </CharString>
+        <CharString name="keheh-ar">
+          640 0 70 40 70 380 -20 hstem
+          40 80 396 84 vstem
+          116 0 rmoveto
+          463 0 rlineto
+          6 0 15 0 0 21 rrcurveto
+          0 139 -70 20 -44 0 rrcurveto
+          -366 0 rlineto
+          0 380 rlineto
+          -80 -20 rlineto
+          0 -430 rlineto
+          436 0 rlineto
+          22 0 18 -18 0 -22 rrcurveto
+          -476 0 rlineto
+          -40 -70 rlineto
+          116 0 rlineto
           endchar
         </CharString>
         <CharString name="khah-ar">
@@ -4684,6 +4900,31 @@ You should have received a copy of the GNU Affero General Public License along w
           0 11 9 9 11 0 rrcurveto
           endchar
         </CharString>
+        <CharString name="peh-ar">
+          600 0 70 160 -20 hstem
+          480 80 vstem
+          0 0 rmoveto
+          539 0 rlineto
+          6 0 15 0 0 11 rrcurveto
+          0 219 rlineto
+          -80 -20 rlineto
+          0 -140 rlineto
+          -380 0 rlineto
+          -22 0 -16 7 -10 13 rrcurveto
+          210 -214 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          63 -10 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          63 -10 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          endchar
+        </CharString>
         <CharString name="q">
           240 -229 -21 250 70 40 70 hstem
           0 80 40 80 vstem
@@ -4977,6 +5218,40 @@ You should have received a copy of the GNU Affero General Public License along w
           173 0 rlineto
           22 0 18 -18 0 -22 rrcurveto
           -236 0 rlineto
+          endchar
+        </CharString>
+        <CharString name="rreh-ar">
+          312 -110 70 40 140 -119 -21 215 21 14 24 hstemhm
+          68 25 73 25 22 84 hintmask 10110101
+          -63 -110 rmoveto
+          339 0 rlineto
+          6 0 15 0 0 21 rrcurveto
+          hintmask 11010101
+          0 139 -69 43 -147 47 rrcurveto
+          -81 -140 rlineto
+          173 0 rlineto
+          22 0 18 -18 0 -22 rrcurveto
+          -236 0 rlineto
+          66 255 rmoveto
+          hintmask 10110111
+          142 0 rlineto
+          4 0 2 0 0 6 rrcurveto
+          hintmask 10111111
+          0 44 -21 9 -14 0 rrcurveto
+          -63 0 rlineto
+          hintmask 10110101
+          0 56 rlineto
+          -25 -6 rlineto
+          0 -88 rlineto
+          -13 0 rlineto
+          38 0 rmoveto
+          hintmask 10111111
+          0 14 rlineto
+          59 0 rlineto
+          4 0 4 -1 2 -3 rrcurveto
+          3 -2 1 -4 0 -4 rrcurveto
+          hintmask 10110101
+          -73 0 rlineto
           endchar
         </CharString>
         <CharString name="s">
@@ -6072,6 +6347,62 @@ You should have received a copy of the GNU Affero General Public License along w
           -466 0 rlineto
           endchar
         </CharString>
+        <CharString name="tahabove-ar">
+          0 0 21 14 24 hstemhm
+          25 25 73 25 hintmask 10110000
+          0 0 rmoveto
+          142 0 rlineto
+          4 0 2 0 0 6 rrcurveto
+          hintmask 11110000
+          0 44 -21 9 -14 0 rrcurveto
+          -63 0 rlineto
+          hintmask 10110000
+          0 56 rlineto
+          -25 -6 rlineto
+          0 -88 rlineto
+          -13 0 rlineto
+          38 0 rmoveto
+          hintmask 11110000
+          0 14 rlineto
+          59 0 rlineto
+          4 0 4 -1 2 -3 rrcurveto
+          3 -2 1 -4 0 -4 rrcurveto
+          hintmask 10110000
+          -73 0 rlineto
+          endchar
+        </CharString>
+        <CharString name="tcheh-ar">
+          640 -110 70 40 70 hstem
+          0 80 vstem
+          90 -110 rmoveto
+          405 0 rlineto
+          41 70 rlineto
+          -436 0 rlineto
+          -11 0 -9 9 0 11 rrcurveto
+          0 11 9 9 11 0 rrcurveto
+          459 0 rlineto
+          41 70 rlineto
+          -137 0 rlineto
+          -58 0 -61 65 -61 75 rrcurveto
+          -43 -70 rlineto
+          19 -28 28 -29 15 -13 rrcurveto
+          -212 0 rlineto
+          -50 0 -40 -40 0 -50 rrcurveto
+          0 -50 40 -40 50 0 rrcurveto
+          192 -124 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          63 -10 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          63 -10 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          endchar
+        </CharString>
         <CharString name="teh-ar">
           600 0 70 160 -20 hstem
           480 80 vstem
@@ -6094,6 +6425,30 @@ You should have received a copy of the GNU Affero General Public License along w
           endchar
         </CharString>
         <CharString name="tehMarbuta-ar">
+          240 0 70 40 70 65 -20 hstem
+          0 80 40 80 vstem
+          100 0 rmoveto
+          65 0 35 30 0 60 rrcurveto
+          0 130 rlineto
+          -20 -35 -40 -5 -40 0 rrcurveto
+          -55 0 -45 -40 0 -50 rrcurveto
+          0 -60 45 -30 55 0 rrcurveto
+          0 70 rmoveto
+          -11 0 -9 9 0 11 rrcurveto
+          0 11 9 9 11 0 rrcurveto
+          11 0 9 -9 0 -11 rrcurveto
+          0 -11 -9 -9 -11 0 rrcurveto
+          -38 165 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          63 -10 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          endchar
+        </CharString>
+        <CharString name="tehMarbutagoal-ar">
           240 0 70 40 70 65 -20 hstem
           0 80 40 80 vstem
           100 0 rmoveto
@@ -6288,6 +6643,45 @@ You should have received a copy of the GNU Affero General Public License along w
           0 140 rlineto
           endchar
         </CharString>
+        <CharString name="threedotsdownbelow-ar">
+          0 21 -21 hstem
+          0 156 vstem
+          17 0 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          63 -10 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          63 -10 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          endchar
+        </CharString>
+        <CharString name="threedotsdownbelow-ar.alt1">
+          0 0 58 12 58 hstemhm
+          0 58 -19 58 -15 58 hintmask 10010000
+          68 58 rmoveto
+          -16 0 -13 -13 0 -16 rrcurveto
+          0 -16 13 -13 16 0 rrcurveto
+          16 0 13 13 0 16 rrcurveto
+          0 16 -13 13 -16 0 rrcurveto
+          hintmask 11100000
+          -39 70 rmoveto
+          -16 0 -13 -13 0 -16 rrcurveto
+          0 -16 13 -13 16 0 rrcurveto
+          16 0 13 13 0 16 rrcurveto
+          0 16 -13 13 -16 0 rrcurveto
+          hintmask 11101000
+          82 0 rmoveto
+          -16 0 -13 -13 0 -16 rrcurveto
+          0 -16 13 -13 16 0 rrcurveto
+          16 0 13 13 0 16 rrcurveto
+          0 16 -13 13 -16 0 rrcurveto
+          endchar
+        </CharString>
         <CharString name="threedotsupabove-ar">
           0 21 -21 hstem
           0 156 vstem
@@ -6325,6 +6719,40 @@ You should have received a copy of the GNU Affero General Public License along w
           0 16 -13 13 -16 0 rrcurveto
           -16 0 -13 -13 0 -16 rrcurveto
           0 -16 13 -13 16 0 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="tteh-ar">
+          600 0 70 130 21 9 -20 25 24 hstemhm
+          231 25 73 25 126 80 hintmask 11001010
+          0 0 rmoveto
+          539 0 rlineto
+          6 0 15 0 0 11 rrcurveto
+          hintmask 10101010
+          0 219 rlineto
+          -80 -20 rlineto
+          0 -140 rlineto
+          -380 0 rlineto
+          -22 0 -16 7 -10 13 rrcurveto
+          hintmask 11001110
+          154 110 rmoveto
+          142 0 rlineto
+          4 0 2 0 0 6 rrcurveto
+          hintmask 11011110
+          0 44 -21 9 -14 0 rrcurveto
+          -63 0 rlineto
+          hintmask 11001010
+          0 56 rlineto
+          -25 -6 rlineto
+          0 -88 rlineto
+          -13 0 rlineto
+          38 0 rmoveto
+          hintmask 11011110
+          0 14 rlineto
+          59 0 rlineto
+          4 0 4 -1 2 -3 rrcurveto
+          3 -2 1 -4 0 -4 rrcurveto
+          hintmask 11001010
+          -73 0 rlineto
           endchar
         </CharString>
         <CharString name="two">
@@ -6555,6 +6983,39 @@ You should have received a copy of the GNU Affero General Public License along w
           -77 0 rlineto
           107 -230 rlineto
           107 230 rlineto
+          endchar
+        </CharString>
+        <CharString name="veh-ar">
+          613 0 70 40 70 40 70 hstem
+          360 80 52 81 vstem
+          0 0 rmoveto
+          536 0 rlineto
+          24 0 13 37 0 65 rrcurveto
+          0 77 -19 111 -93 0 rrcurveto
+          -56 0 -45 -40 0 -50 rrcurveto
+          0 -50 45 -40 55 0 rrcurveto
+          10 0 10 1 10 3 rrcurveto
+          2 -7 0 -8 0 -7 rrcurveto
+          0 -7 0 -8 -2 -7 rrcurveto
+          -390 0 rlineto
+          -22 0 -16 7 -10 13 rrcurveto
+          408 90 rmoveto
+          -11 0 -9 9 0 11 rrcurveto
+          0 11 9 9 11 0 rrcurveto
+          11 0 9 -9 0 -11 rrcurveto
+          0 -11 -9 -9 -11 0 rrcurveto
+          -61 155 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          63 -10 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
+          63 -10 rmoveto
+          47 79 rlineto
+          -17 10 rlineto
+          -47 -79 rlineto
           endchar
         </CharString>
         <CharString name="w">
@@ -6899,6 +7360,57 @@ You should have received a copy of the GNU Affero General Public License along w
           -53 0 rlineto
           endchar
         </CharString>
+        <CharString name="yehbarree-ar">
+          242 -110 70 61 -21 70 83 hstem
+          0 42 vstem
+          131 -110 rmoveto
+          45 0 rlineto
+          31 0 101 47 54 23 rrcurveto
+          -213 0 rlineto
+          -32 0 -12 3 -23 23 rrcurveto
+          -31 31 rlineto
+          -17 17 9 47 14 -14 rrcurveto
+          52 -52 rlineto
+          10 -10 9 -5 12 0 rrcurveto
+          16 0 36 10 10 80 rrcurveto
+          -3 -15 -14 -5 -9 0 rrcurveto
+          -9 0 -5 5 -4 4 rrcurveto
+          -64 64 rlineto
+          -50 50 -44 -149 0 -49 rrcurveto
+          0 -85 57 -19 74 -1 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="yehbarreeHamzaabove-ar">
+          242 -110 70 61 -21 70 83 45 29 33 25 hstem
+          0 42 vstem
+          131 -110 rmoveto
+          45 0 rlineto
+          31 0 101 47 54 23 rrcurveto
+          -213 0 rlineto
+          -32 0 -12 3 -23 23 rrcurveto
+          -31 31 rlineto
+          -17 17 9 47 14 -14 rrcurveto
+          52 -52 rlineto
+          10 -10 9 -5 12 0 rrcurveto
+          16 0 36 10 10 80 rrcurveto
+          -3 -15 -14 -5 -9 0 rrcurveto
+          -9 0 -5 5 -4 4 rrcurveto
+          -64 64 rlineto
+          -50 50 -44 -149 0 -49 rrcurveto
+          0 -85 57 -19 74 -1 rrcurveto
+          -61 337 rmoveto
+          -8 0 -5 7 0 8 rrcurveto
+          0 9 7 9 15 0 rrcurveto
+          5 0 7 -1 7 -3 rrcurveto
+          -6 18 -14 11 -14 0 rrcurveto
+          -32 0 -14 -33 8 -25 rrcurveto
+          -11 0 rlineto
+          -17 -29 rlineto
+          108 0 rlineto
+          17 29 rlineto
+          -53 0 rlineto
+          endchar
+        </CharString>
         <CharString name="z">
           318 0 70 128 70 hstem
           0 278 vstem
@@ -7043,6 +7555,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="dad-ar" class="1"/>
       <ClassDef glyph="dal-ar" class="1"/>
       <ClassDef glyph="dal-ar.fina" class="1"/>
+      <ClassDef glyph="ddal-ar" class="1"/>
       <ClassDef glyph="dotabove-ar" class="3"/>
       <ClassDef glyph="dotabove-ar.alt1" class="3"/>
       <ClassDef glyph="dotbelow-ar" class="3"/>
@@ -7066,6 +7579,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="fehDotmovedbelow-ar" class="1"/>
       <ClassDef glyph="g" class="1"/>
       <ClassDef glyph="g.1" class="1"/>
+      <ClassDef glyph="gaf-ar" class="1"/>
       <ClassDef glyph="ghain-ar" class="1"/>
       <ClassDef glyph="h" class="1"/>
       <ClassDef glyph="h.1" class="1"/>
@@ -7109,9 +7623,13 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="heh-ar.medi.5" class="1"/>
       <ClassDef glyph="heh-ar.medi.6" class="1"/>
       <ClassDef glyph="heh-ar.medi.7" class="1"/>
+      <ClassDef glyph="hehDoachashmee-ar" class="1"/>
+      <ClassDef glyph="hehgoal-ar" class="1"/>
+      <ClassDef glyph="hehgoalHamzaabove-ar" class="1"/>
       <ClassDef glyph="i" class="1"/>
       <ClassDef glyph="j" class="1"/>
       <ClassDef glyph="jeem-ar" class="1"/>
+      <ClassDef glyph="jeh-ar" class="1"/>
       <ClassDef glyph="k" class="1"/>
       <ClassDef glyph="k.1" class="1"/>
       <ClassDef glyph="kaf-ar" class="1"/>
@@ -7127,6 +7645,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="kaf-ar.medi.1" class="1"/>
       <ClassDef glyph="kaf-ar.medi.2" class="1"/>
       <ClassDef glyph="kashida-ar.medi" class="1"/>
+      <ClassDef glyph="keheh-ar" class="1"/>
       <ClassDef glyph="khah-ar" class="1"/>
       <ClassDef glyph="l" class="1"/>
       <ClassDef glyph="lam-ar" class="1"/>
@@ -7173,6 +7692,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="o" class="1"/>
       <ClassDef glyph="p" class="1"/>
       <ClassDef glyph="p.1" class="1"/>
+      <ClassDef glyph="peh-ar" class="1"/>
       <ClassDef glyph="q" class="1"/>
       <ClassDef glyph="q.1" class="1"/>
       <ClassDef glyph="qaf-ar" class="1"/>
@@ -7188,6 +7708,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="reh-ar.3" class="1"/>
       <ClassDef glyph="reh-ar.fina" class="1"/>
       <ClassDef glyph="reh-ar.fina.1" class="1"/>
+      <ClassDef glyph="rreh-ar" class="1"/>
       <ClassDef glyph="s" class="1"/>
       <ClassDef glyph="sad-ar" class="1"/>
       <ClassDef glyph="sad-ar.1" class="1"/>
@@ -7233,12 +7754,18 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="tah-ar.medi" class="1"/>
       <ClassDef glyph="tah-ar.medi.short" class="1"/>
       <ClassDef glyph="tah-ar.medi.short2" class="1"/>
+      <ClassDef glyph="tahabove-ar" class="3"/>
+      <ClassDef glyph="tcheh-ar" class="1"/>
       <ClassDef glyph="teh-ar" class="1"/>
       <ClassDef glyph="tehMarbuta-ar" class="1"/>
+      <ClassDef glyph="tehMarbutagoal-ar" class="1"/>
       <ClassDef glyph="thal-ar" class="1"/>
       <ClassDef glyph="theh-ar" class="1"/>
+      <ClassDef glyph="threedotsdownbelow-ar" class="3"/>
+      <ClassDef glyph="threedotsdownbelow-ar.alt1" class="3"/>
       <ClassDef glyph="threedotsupabove-ar" class="3"/>
       <ClassDef glyph="threedotsupabove-ar.alt1" class="3"/>
+      <ClassDef glyph="tteh-ar" class="1"/>
       <ClassDef glyph="twodotshorizontalabove-ar" class="3"/>
       <ClassDef glyph="twodotshorizontalabove-ar.alt1" class="3"/>
       <ClassDef glyph="twodotshorizontalbelow-ar" class="3"/>
@@ -7250,6 +7777,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="u" class="1"/>
       <ClassDef glyph="u.1" class="1"/>
       <ClassDef glyph="v" class="1"/>
+      <ClassDef glyph="veh-ar" class="1"/>
       <ClassDef glyph="w" class="1"/>
       <ClassDef glyph="waw-ar" class="1"/>
       <ClassDef glyph="waw-ar.1" class="1"/>
@@ -7264,6 +7792,8 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="yeh-ar" class="1"/>
       <ClassDef glyph="yeh-farsi" class="1"/>
       <ClassDef glyph="yehHamzaabove-ar" class="1"/>
+      <ClassDef glyph="yehbarree-ar" class="1"/>
+      <ClassDef glyph="yehbarreeHamzaabove-ar" class="1"/>
       <ClassDef glyph="z" class="1"/>
       <ClassDef glyph="zah-ar" class="1"/>
       <ClassDef glyph="zain-ar" class="1"/>
@@ -8177,6 +8707,7 @@ You should have received a copy of the GNU Affero General Public License along w
         <!-- SubTableCount=1 -->
         <MarkBasePos index="0" Format="1">
           <MarkCoverage Format="2">
+            <Glyph value="tahabove-ar"/>
             <Glyph value="dotabove-ar"/>
             <Glyph value="dotabove-ar.alt1"/>
             <Glyph value="dotbelow-ar"/>
@@ -8189,6 +8720,8 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="twodotshorizontalabove-ar.alt1"/>
             <Glyph value="twodotshorizontalbelow-ar"/>
             <Glyph value="twodotshorizontalbelow-ar.alt1"/>
+            <Glyph value="threedotsdownbelow-ar"/>
+            <Glyph value="threedotsdownbelow-ar.alt1"/>
             <Glyph value="threedotsupabove-ar"/>
             <Glyph value="threedotsupabove-ar.alt1"/>
             <Glyph value="hamzaabove-ar"/>
@@ -8351,40 +8884,40 @@ You should have received a copy of the GNU Affero General Public License along w
           </BaseCoverage>
           <!-- ClassCount=2 -->
           <MarkArray>
-            <!-- MarkCount=16 -->
+            <!-- MarkCount=19 -->
             <MarkRecord index="0">
               <Class value="0"/>
               <MarkAnchor Format="1">
-                <XCoordinate value="17"/>
+                <XCoordinate value="74"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
             <MarkRecord index="1">
               <Class value="0"/>
               <MarkAnchor Format="1">
-                <XCoordinate value="29"/>
+                <XCoordinate value="17"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
             <MarkRecord index="2">
+              <Class value="0"/>
+              <MarkAnchor Format="1">
+                <XCoordinate value="29"/>
+                <YCoordinate value="0"/>
+              </MarkAnchor>
+            </MarkRecord>
+            <MarkRecord index="3">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="47"/>
                 <YCoordinate value="89"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="3">
+            <MarkRecord index="4">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="29"/>
                 <YCoordinate value="58"/>
-              </MarkAnchor>
-            </MarkRecord>
-            <MarkRecord index="4">
-              <Class value="0"/>
-              <MarkAnchor Format="1">
-                <XCoordinate value="29"/>
-                <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
             <MarkRecord index="5">
@@ -8395,69 +8928,90 @@ You should have received a copy of the GNU Affero General Public License along w
               </MarkAnchor>
             </MarkRecord>
             <MarkRecord index="6">
+              <Class value="0"/>
+              <MarkAnchor Format="1">
+                <XCoordinate value="29"/>
+                <YCoordinate value="0"/>
+              </MarkAnchor>
+            </MarkRecord>
+            <MarkRecord index="7">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="47"/>
                 <YCoordinate value="146"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="7">
+            <MarkRecord index="8">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="29"/>
                 <YCoordinate value="138"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="8">
+            <MarkRecord index="9">
               <Class value="0"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="55"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="9">
+            <MarkRecord index="10">
               <Class value="0"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="70"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="10">
+            <MarkRecord index="11">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="35"/>
                 <YCoordinate value="89"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="11">
+            <MarkRecord index="12">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="70"/>
                 <YCoordinate value="58"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="12">
+            <MarkRecord index="13">
+              <Class value="1"/>
+              <MarkAnchor Format="1">
+                <XCoordinate value="35"/>
+                <YCoordinate value="89"/>
+              </MarkAnchor>
+            </MarkRecord>
+            <MarkRecord index="14">
+              <Class value="1"/>
+              <MarkAnchor Format="1">
+                <XCoordinate value="70"/>
+                <YCoordinate value="128"/>
+              </MarkAnchor>
+            </MarkRecord>
+            <MarkRecord index="15">
               <Class value="0"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="78"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="13">
+            <MarkRecord index="16">
               <Class value="0"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="68"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="14">
+            <MarkRecord index="17">
               <Class value="0"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="59"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="15">
+            <MarkRecord index="18">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="65"/>
@@ -9814,6 +10368,7 @@ You should have received a copy of the GNU Affero General Public License along w
         <!-- SubTableCount=1 -->
         <MarkLigPos index="0" Format="1">
           <MarkCoverage Format="2">
+            <Glyph value="tahabove-ar"/>
             <Glyph value="dotabove-ar"/>
             <Glyph value="dotabove-ar.alt1"/>
             <Glyph value="dotbelow-ar"/>
@@ -9826,6 +10381,8 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="twodotshorizontalabove-ar.alt1"/>
             <Glyph value="twodotshorizontalbelow-ar"/>
             <Glyph value="twodotshorizontalbelow-ar.alt1"/>
+            <Glyph value="threedotsdownbelow-ar"/>
+            <Glyph value="threedotsdownbelow-ar.alt1"/>
             <Glyph value="threedotsupabove-ar"/>
             <Glyph value="threedotsupabove-ar.alt1"/>
             <Glyph value="hamzaabove-ar"/>
@@ -9847,40 +10404,40 @@ You should have received a copy of the GNU Affero General Public License along w
           </LigatureCoverage>
           <!-- ClassCount=2 -->
           <MarkArray>
-            <!-- MarkCount=16 -->
+            <!-- MarkCount=19 -->
             <MarkRecord index="0">
               <Class value="0"/>
               <MarkAnchor Format="1">
-                <XCoordinate value="17"/>
+                <XCoordinate value="74"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
             <MarkRecord index="1">
               <Class value="0"/>
               <MarkAnchor Format="1">
-                <XCoordinate value="29"/>
+                <XCoordinate value="17"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
             <MarkRecord index="2">
+              <Class value="0"/>
+              <MarkAnchor Format="1">
+                <XCoordinate value="29"/>
+                <YCoordinate value="0"/>
+              </MarkAnchor>
+            </MarkRecord>
+            <MarkRecord index="3">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="47"/>
                 <YCoordinate value="89"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="3">
+            <MarkRecord index="4">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="29"/>
                 <YCoordinate value="58"/>
-              </MarkAnchor>
-            </MarkRecord>
-            <MarkRecord index="4">
-              <Class value="0"/>
-              <MarkAnchor Format="1">
-                <XCoordinate value="29"/>
-                <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
             <MarkRecord index="5">
@@ -9891,69 +10448,90 @@ You should have received a copy of the GNU Affero General Public License along w
               </MarkAnchor>
             </MarkRecord>
             <MarkRecord index="6">
+              <Class value="0"/>
+              <MarkAnchor Format="1">
+                <XCoordinate value="29"/>
+                <YCoordinate value="0"/>
+              </MarkAnchor>
+            </MarkRecord>
+            <MarkRecord index="7">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="47"/>
                 <YCoordinate value="146"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="7">
+            <MarkRecord index="8">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="29"/>
                 <YCoordinate value="138"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="8">
+            <MarkRecord index="9">
               <Class value="0"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="55"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="9">
+            <MarkRecord index="10">
               <Class value="0"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="70"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="10">
+            <MarkRecord index="11">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="35"/>
                 <YCoordinate value="89"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="11">
+            <MarkRecord index="12">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="70"/>
                 <YCoordinate value="58"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="12">
+            <MarkRecord index="13">
+              <Class value="1"/>
+              <MarkAnchor Format="1">
+                <XCoordinate value="35"/>
+                <YCoordinate value="89"/>
+              </MarkAnchor>
+            </MarkRecord>
+            <MarkRecord index="14">
+              <Class value="1"/>
+              <MarkAnchor Format="1">
+                <XCoordinate value="70"/>
+                <YCoordinate value="128"/>
+              </MarkAnchor>
+            </MarkRecord>
+            <MarkRecord index="15">
               <Class value="0"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="78"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="13">
+            <MarkRecord index="16">
               <Class value="0"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="68"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="14">
+            <MarkRecord index="17">
               <Class value="0"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="59"/>
                 <YCoordinate value="0"/>
               </MarkAnchor>
             </MarkRecord>
-            <MarkRecord index="15">
+            <MarkRecord index="18">
               <Class value="1"/>
               <MarkAnchor Format="1">
                 <XCoordinate value="65"/>
@@ -17927,18 +18505,30 @@ You should have received a copy of the GNU Affero General Public License along w
           <Substitution in="alefWasla-ar" out="alef-ar"/>
           <Substitution in="beh-ar" out="behDotless-ar,dotbelow-ar"/>
           <Substitution in="dad-ar" out="sad-ar,dotabove-ar"/>
+          <Substitution in="ddal-ar" out="dal-ar,tahabove-ar"/>
           <Substitution in="feh-ar" out="fehDotless-ar,dotabove-ar"/>
           <Substitution in="fehDotmovedbelow-ar" out="fehDotless-ar,dotbelow-ar"/>
+          <Substitution in="gaf-ar" out="kaf-ar"/>
           <Substitution in="ghain-ar" out="ain-ar,dotabove-ar"/>
+          <Substitution in="hehgoal-ar" out="heh-ar"/>
+          <Substitution in="hehgoalHamzaabove-ar" out="heh-ar,hamzaabove-ar"/>
           <Substitution in="jeem-ar" out="hah-ar,dotbelow-ar"/>
+          <Substitution in="jeh-ar" out="reh-ar,threedotsupabove-ar"/>
+          <Substitution in="keheh-ar" out="kaf-ar"/>
           <Substitution in="khah-ar" out="hah-ar,dotabove-ar"/>
           <Substitution in="noon-ar" out="noonghunna-ar,dotabove-ar"/>
+          <Substitution in="peh-ar" out="behDotless-ar,threedotsdownbelow-ar"/>
           <Substitution in="qaf-ar" out="qafDotless-ar,twodotshorizontalabove-ar"/>
           <Substitution in="qafDotabove-ar" out="qafDotless-ar,dotabove-ar"/>
+          <Substitution in="rreh-ar" out="reh-ar,tahabove-ar"/>
           <Substitution in="sheen-ar" out="seen-ar,threedotsupabove-ar"/>
+          <Substitution in="tcheh-ar" out="hah-ar,threedotsdownbelow-ar"/>
           <Substitution in="teh-ar" out="behDotless-ar,twodotshorizontalabove-ar"/>
+          <Substitution in="tehMarbutagoal-ar" out="heh-ar,twodotshorizontalabove-ar"/>
           <Substitution in="thal-ar" out="dal-ar,dotabove-ar"/>
           <Substitution in="theh-ar" out="behDotless-ar,threedotsupabove-ar"/>
+          <Substitution in="tteh-ar" out="behDotless-ar,tahabove-ar"/>
+          <Substitution in="veh-ar" out="fehDotless-ar,threedotsupabove-ar"/>
           <Substitution in="wawHamzaabove-ar" out="waw-ar,hamzaabove-ar"/>
           <Substitution in="yehHamzaabove-ar" out="alefMaksura-ar,hamzaabove-ar"/>
           <Substitution in="zah-ar" out="tah-ar,dotabove-ar"/>
@@ -18035,6 +18625,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <Substitution in="waw-ar" out="waw-ar.fina"/>
           <Substitution in="yeh-ar" out="alefMaksura-ar.fina"/>
           <Substitution in="yeh-farsi" out="alefMaksura-ar.fina"/>
+          <Substitution in="yehbarree-ar" out="alefMaksura-ar.fina.5"/>
         </MultipleSubst>
       </Lookup>
       <Lookup index="13">
@@ -18231,6 +18822,7 @@ You should have received a copy of the GNU Affero General Public License along w
           <Substitution in="hamza-ar" out="empty"/>
           <Substitution in="hamzaabove-ar" out="empty"/>
           <Substitution in="hamzabelow-ar" out="empty"/>
+          <Substitution in="threedotsdownbelow-ar" out="empty"/>
           <Substitution in="threedotsupabove-ar" out="empty"/>
           <Substitution in="twodotshorizontalabove-ar" out="empty"/>
           <Substitution in="twodotshorizontalbelow-ar" out="empty"/>
@@ -18245,6 +18837,7 @@ You should have received a copy of the GNU Affero General Public License along w
         <SingleSubst index="0" Format="1">
           <Substitution in="dotabove-ar" out="dotabove-ar.alt1"/>
           <Substitution in="dotbelow-ar" out="dotbelow-ar.alt1"/>
+          <Substitution in="threedotsdownbelow-ar" out="threedotsdownbelow-ar.alt1"/>
           <Substitution in="threedotsupabove-ar" out="threedotsupabove-ar.alt1"/>
           <Substitution in="twodotshorizontalabove-ar" out="twodotshorizontalabove-ar.alt1"/>
           <Substitution in="twodotshorizontalbelow-ar" out="twodotshorizontalbelow-ar.alt1"/>
@@ -30399,6 +30992,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="dad-ar" width="740" lsb="-130"/>
     <mtx name="dal-ar" width="600" lsb="0"/>
     <mtx name="dal-ar.fina" width="600" lsb="0"/>
+    <mtx name="ddal-ar" width="600" lsb="0"/>
     <mtx name="dotabove-ar" width="0" lsb="0"/>
     <mtx name="dotabove-ar.alt1" width="0" lsb="0"/>
     <mtx name="dotbelow-ar" width="0" lsb="0"/>
@@ -30435,6 +31029,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="four-ar.osf.2" width="250" lsb="0"/>
     <mtx name="g" width="240" lsb="-50"/>
     <mtx name="g.1" width="240" lsb="-50"/>
+    <mtx name="gaf-ar" width="640" lsb="0"/>
     <mtx name="ghain-ar" width="680" lsb="0"/>
     <mtx name="h" width="240" lsb="0"/>
     <mtx name="h.1" width="240" lsb="0"/>
@@ -30478,9 +31073,13 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="heh-ar.medi.5" width="240" lsb="-20"/>
     <mtx name="heh-ar.medi.6" width="240" lsb="-20"/>
     <mtx name="heh-ar.medi.7" width="240" lsb="-20"/>
+    <mtx name="hehDoachashmee-ar" width="240" lsb="-50"/>
+    <mtx name="hehgoal-ar" width="240" lsb="0"/>
+    <mtx name="hehgoalHamzaabove-ar" width="240" lsb="0"/>
     <mtx name="i" width="200" lsb="0"/>
     <mtx name="j" width="120" lsb="-40"/>
     <mtx name="jeem-ar" width="640" lsb="0"/>
+    <mtx name="jeh-ar" width="312" lsb="-63"/>
     <mtx name="k" width="260" lsb="0"/>
     <mtx name="k.1" width="260" lsb="0"/>
     <mtx name="kaf-ar" width="640" lsb="0"/>
@@ -30496,6 +31095,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="kaf-ar.medi.1" width="600" lsb="-20"/>
     <mtx name="kaf-ar.medi.2" width="600" lsb="-18"/>
     <mtx name="kashida-ar.medi" width="80" lsb="-20"/>
+    <mtx name="keheh-ar" width="640" lsb="0"/>
     <mtx name="khah-ar" width="640" lsb="0"/>
     <mtx name="l" width="200" lsb="0"/>
     <mtx name="lam-ar" width="190" lsb="-130"/>
@@ -30548,6 +31148,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="one-ar.osf" width="110" lsb="0"/>
     <mtx name="p" width="240" lsb="0"/>
     <mtx name="p.1" width="240" lsb="0"/>
+    <mtx name="peh-ar" width="600" lsb="0"/>
     <mtx name="q" width="240" lsb="0"/>
     <mtx name="q.1" width="240" lsb="0"/>
     <mtx name="qaf-ar" width="296" lsb="-64"/>
@@ -30563,6 +31164,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="reh-ar.3" width="400" lsb="0"/>
     <mtx name="reh-ar.fina" width="283" lsb="-63"/>
     <mtx name="reh-ar.fina.1" width="283" lsb="-63"/>
+    <mtx name="rreh-ar" width="312" lsb="-63"/>
     <mtx name="s" width="238" lsb="0"/>
     <mtx name="sad-ar" width="740" lsb="-130"/>
     <mtx name="sad-ar.1" width="740" lsb="-130"/>
@@ -30619,8 +31221,11 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="tah-ar.medi" width="670" lsb="-20"/>
     <mtx name="tah-ar.medi.short" width="670" lsb="-20"/>
     <mtx name="tah-ar.medi.short2" width="670" lsb="-20"/>
+    <mtx name="tahabove-ar" width="0" lsb="0"/>
+    <mtx name="tcheh-ar" width="640" lsb="0"/>
     <mtx name="teh-ar" width="600" lsb="0"/>
     <mtx name="tehMarbuta-ar" width="240" lsb="0"/>
+    <mtx name="tehMarbutagoal-ar" width="240" lsb="0"/>
     <mtx name="thal-ar" width="600" lsb="0"/>
     <mtx name="theh-ar" width="600" lsb="0"/>
     <mtx name="three" width="250" lsb="0"/>
@@ -30628,8 +31233,11 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="three-ar.1" width="350" lsb="0"/>
     <mtx name="three-ar.osf" width="350" lsb="0"/>
     <mtx name="three-ar.osf.1" width="350" lsb="0"/>
+    <mtx name="threedotsdownbelow-ar" width="0" lsb="0"/>
+    <mtx name="threedotsdownbelow-ar.alt1" width="0" lsb="0"/>
     <mtx name="threedotsupabove-ar" width="0" lsb="0"/>
     <mtx name="threedotsupabove-ar.alt1" width="0" lsb="0"/>
+    <mtx name="tteh-ar" width="600" lsb="0"/>
     <mtx name="two" width="250" lsb="0"/>
     <mtx name="two-ar" width="250" lsb="0"/>
     <mtx name="two-ar.1" width="250" lsb="0"/>
@@ -30646,6 +31254,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="u" width="240" lsb="0"/>
     <mtx name="u.1" width="240" lsb="0"/>
     <mtx name="v" width="214" lsb="-20"/>
+    <mtx name="veh-ar" width="613" lsb="0"/>
     <mtx name="w" width="351" lsb="-20"/>
     <mtx name="waw-ar" width="270" lsb="-50"/>
     <mtx name="waw-ar.1" width="270" lsb="-50"/>
@@ -30660,6 +31269,8 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="yeh-ar" width="247" lsb="-33"/>
     <mtx name="yeh-farsi" width="247" lsb="-33"/>
     <mtx name="yehHamzaabove-ar" width="247" lsb="-33"/>
+    <mtx name="yehbarree-ar" width="242" lsb="0"/>
+    <mtx name="yehbarreeHamzaabove-ar" width="242" lsb="-2"/>
     <mtx name="z" width="318" lsb="0"/>
     <mtx name="zah-ar" width="750" lsb="0"/>
     <mtx name="zain-ar" width="312" lsb="-63"/>
