@@ -261,63 +261,73 @@
     <GlyphID id="255" name="lam_alef-ar.3"/>
     <GlyphID id="256" name="lam_alef-ar.4"/>
     <GlyphID id="257" name="lam_alef-ar.5"/>
-    <GlyphID id="258" name="zero-ar"/>
-    <GlyphID id="259" name="one-ar"/>
-    <GlyphID id="260" name="one-ar.osf"/>
-    <GlyphID id="261" name="two-ar"/>
-    <GlyphID id="262" name="two-ar.1"/>
-    <GlyphID id="263" name="two-ar.osf"/>
-    <GlyphID id="264" name="two-ar.osf.1"/>
-    <GlyphID id="265" name="three-ar"/>
-    <GlyphID id="266" name="three-ar.1"/>
-    <GlyphID id="267" name="three-ar.osf"/>
-    <GlyphID id="268" name="three-ar.osf.1"/>
-    <GlyphID id="269" name="four-ar"/>
-    <GlyphID id="270" name="four-ar.1"/>
-    <GlyphID id="271" name="four-ar.2"/>
-    <GlyphID id="272" name="four-ar.osf"/>
-    <GlyphID id="273" name="four-ar.osf.1"/>
-    <GlyphID id="274" name="four-ar.osf.2"/>
-    <GlyphID id="275" name="five-ar"/>
-    <GlyphID id="276" name="six-ar"/>
-    <GlyphID id="277" name="six-ar.1"/>
-    <GlyphID id="278" name="six-ar.osf"/>
-    <GlyphID id="279" name="six-ar.osf.1"/>
-    <GlyphID id="280" name="seven-ar"/>
-    <GlyphID id="281" name="seven-ar.1"/>
-    <GlyphID id="282" name="seven-ar.2"/>
-    <GlyphID id="283" name="eight-ar"/>
-    <GlyphID id="284" name="eight-ar.1"/>
-    <GlyphID id="285" name="eight-ar.2"/>
-    <GlyphID id="286" name="nine-ar"/>
-    <GlyphID id="287" name="nine-ar.osf"/>
-    <GlyphID id="288" name="space.alt"/>
-    <GlyphID id="289" name="space.latn"/>
-    <GlyphID id="290" name="space"/>
-    <GlyphID id="291" name="dotabove-ar"/>
-    <GlyphID id="292" name="dotabove-ar.alt1"/>
-    <GlyphID id="293" name="dotbelow-ar"/>
-    <GlyphID id="294" name="dotbelow-ar.alt1"/>
-    <GlyphID id="295" name="twodotsverticalabove-ar"/>
-    <GlyphID id="296" name="twodotsverticalabove-ar.alt1"/>
-    <GlyphID id="297" name="twodotsverticalbelow-ar"/>
-    <GlyphID id="298" name="twodotsverticalbelow-ar.alt1"/>
-    <GlyphID id="299" name="twodotshorizontalabove-ar"/>
-    <GlyphID id="300" name="twodotshorizontalabove-ar.alt1"/>
-    <GlyphID id="301" name="twodotshorizontalbelow-ar"/>
-    <GlyphID id="302" name="twodotshorizontalbelow-ar.alt1"/>
-    <GlyphID id="303" name="threedotsupabove-ar"/>
-    <GlyphID id="304" name="threedotsupabove-ar.alt1"/>
-    <GlyphID id="305" name="hamzaabove-ar"/>
-    <GlyphID id="306" name="hamzabelow-ar"/>
-    <GlyphID id="307" name="empty"/>
+    <GlyphID id="258" name="zero"/>
+    <GlyphID id="259" name="one"/>
+    <GlyphID id="260" name="two"/>
+    <GlyphID id="261" name="three"/>
+    <GlyphID id="262" name="four"/>
+    <GlyphID id="263" name="five"/>
+    <GlyphID id="264" name="six"/>
+    <GlyphID id="265" name="seven"/>
+    <GlyphID id="266" name="eight"/>
+    <GlyphID id="267" name="nine"/>
+    <GlyphID id="268" name="zero-ar"/>
+    <GlyphID id="269" name="one-ar"/>
+    <GlyphID id="270" name="one-ar.osf"/>
+    <GlyphID id="271" name="two-ar"/>
+    <GlyphID id="272" name="two-ar.1"/>
+    <GlyphID id="273" name="two-ar.osf"/>
+    <GlyphID id="274" name="two-ar.osf.1"/>
+    <GlyphID id="275" name="three-ar"/>
+    <GlyphID id="276" name="three-ar.1"/>
+    <GlyphID id="277" name="three-ar.osf"/>
+    <GlyphID id="278" name="three-ar.osf.1"/>
+    <GlyphID id="279" name="four-ar"/>
+    <GlyphID id="280" name="four-ar.1"/>
+    <GlyphID id="281" name="four-ar.2"/>
+    <GlyphID id="282" name="four-ar.osf"/>
+    <GlyphID id="283" name="four-ar.osf.1"/>
+    <GlyphID id="284" name="four-ar.osf.2"/>
+    <GlyphID id="285" name="five-ar"/>
+    <GlyphID id="286" name="six-ar"/>
+    <GlyphID id="287" name="six-ar.1"/>
+    <GlyphID id="288" name="six-ar.osf"/>
+    <GlyphID id="289" name="six-ar.osf.1"/>
+    <GlyphID id="290" name="seven-ar"/>
+    <GlyphID id="291" name="seven-ar.1"/>
+    <GlyphID id="292" name="seven-ar.2"/>
+    <GlyphID id="293" name="eight-ar"/>
+    <GlyphID id="294" name="eight-ar.1"/>
+    <GlyphID id="295" name="eight-ar.2"/>
+    <GlyphID id="296" name="nine-ar"/>
+    <GlyphID id="297" name="nine-ar.osf"/>
+    <GlyphID id="298" name="space.alt"/>
+    <GlyphID id="299" name="space.latn"/>
+    <GlyphID id="300" name="space"/>
+    <GlyphID id="301" name="dotabove-ar"/>
+    <GlyphID id="302" name="dotabove-ar.alt1"/>
+    <GlyphID id="303" name="dotbelow-ar"/>
+    <GlyphID id="304" name="dotbelow-ar.alt1"/>
+    <GlyphID id="305" name="twodotsverticalabove-ar"/>
+    <GlyphID id="306" name="twodotsverticalabove-ar.alt1"/>
+    <GlyphID id="307" name="twodotsverticalbelow-ar"/>
+    <GlyphID id="308" name="twodotsverticalbelow-ar.alt1"/>
+    <GlyphID id="309" name="twodotshorizontalabove-ar"/>
+    <GlyphID id="310" name="twodotshorizontalabove-ar.alt1"/>
+    <GlyphID id="311" name="twodotshorizontalbelow-ar"/>
+    <GlyphID id="312" name="twodotshorizontalbelow-ar.alt1"/>
+    <GlyphID id="313" name="threedotsupabove-ar"/>
+    <GlyphID id="314" name="threedotsupabove-ar.alt1"/>
+    <GlyphID id="315" name="hamzaabove-ar"/>
+    <GlyphID id="316" name="hamzabelow-ar"/>
+    <GlyphID id="317" name="empty"/>
   </GlyphOrder>
 
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.008"/>
-    <checkSumAdjustment value="0x3c25d827"/>
+    <checkSumAdjustment value="0x447b6ea1"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -351,19 +361,19 @@
     <reserved2 value="0"/>
     <reserved3 value="0"/>
     <metricDataFormat value="0"/>
-    <numberOfHMetrics value="291"/>
+    <numberOfHMetrics value="301"/>
   </hhea>
 
   <maxp>
     <tableVersion value="0x5000"/>
-    <numGlyphs value="308"/>
+    <numGlyphs value="318"/>
   </maxp>
 
   <OS_2>
     <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
          will be recalculated by the compiler -->
     <version value="4"/>
-    <xAvgCharWidth value="346"/>
+    <xAvgCharWidth value="343"/>
     <usWeightClass value="400"/>
     <usWidthClass value="5"/>
     <fsType value="00000000 00000000"/>
@@ -480,6 +490,16 @@ You should have received a copy of the GNU Affero General Public License along w
     <tableVersion version="0"/>
     <cmap_format_4 platformID="0" platEncID="3" language="0">
       <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x30" name="zero"/><!-- DIGIT ZERO -->
+      <map code="0x31" name="one"/><!-- DIGIT ONE -->
+      <map code="0x32" name="two"/><!-- DIGIT TWO -->
+      <map code="0x33" name="three"/><!-- DIGIT THREE -->
+      <map code="0x34" name="four"/><!-- DIGIT FOUR -->
+      <map code="0x35" name="five"/><!-- DIGIT FIVE -->
+      <map code="0x36" name="six"/><!-- DIGIT SIX -->
+      <map code="0x37" name="seven"/><!-- DIGIT SEVEN -->
+      <map code="0x38" name="eight"/><!-- DIGIT EIGHT -->
+      <map code="0x39" name="nine"/><!-- DIGIT NINE -->
       <map code="0x41" name="a"/><!-- LATIN CAPITAL LETTER A -->
       <map code="0x42" name="b"/><!-- LATIN CAPITAL LETTER B -->
       <map code="0x43" name="c"/><!-- LATIN CAPITAL LETTER C -->
@@ -592,6 +612,16 @@ You should have received a copy of the GNU Affero General Public License along w
     </cmap_format_4>
     <cmap_format_4 platformID="3" platEncID="1" language="0">
       <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x30" name="zero"/><!-- DIGIT ZERO -->
+      <map code="0x31" name="one"/><!-- DIGIT ONE -->
+      <map code="0x32" name="two"/><!-- DIGIT TWO -->
+      <map code="0x33" name="three"/><!-- DIGIT THREE -->
+      <map code="0x34" name="four"/><!-- DIGIT FOUR -->
+      <map code="0x35" name="five"/><!-- DIGIT FIVE -->
+      <map code="0x36" name="six"/><!-- DIGIT SIX -->
+      <map code="0x37" name="seven"/><!-- DIGIT SEVEN -->
+      <map code="0x38" name="eight"/><!-- DIGIT EIGHT -->
+      <map code="0x39" name="nine"/><!-- DIGIT NINE -->
       <map code="0x41" name="a"/><!-- LATIN CAPITAL LETTER A -->
       <map code="0x42" name="b"/><!-- LATIN CAPITAL LETTER B -->
       <map code="0x43" name="c"/><!-- LATIN CAPITAL LETTER C -->
@@ -1815,6 +1845,25 @@ You should have received a copy of the GNU Affero General Public License along w
           3 6 7 4 7 0 7 0 7 -4 3 -6 50 flex
           endchar
         </CharString>
+        <CharString name="eight">
+          250 0 70 70 70 70 70 hstem
+          0 70 70 70 vstem
+          210 350 rmoveto
+          -210 0 rlineto
+          0 -350 rlineto
+          210 0 rlineto
+          -140 70 rmoveto
+          0 70 rlineto
+          70 0 rlineto
+          0 -70 rlineto
+          -70 0 rlineto
+          70 140 rmoveto
+          -70 0 rlineto
+          0 70 rlineto
+          70 0 rlineto
+          0 -70 rlineto
+          endchar
+        </CharString>
         <CharString name="eight-ar">
           250 21 -21 280 70 hstem
           0 70 70 70 vstem
@@ -2190,6 +2239,23 @@ You should have received a copy of the GNU Affero General Public License along w
           0 -11 -9 -9 -11 0 rrcurveto
           endchar
         </CharString>
+        <CharString name="five">
+          250 0 70 70 70 70 70 hstem
+          0 70 70 70 vstem
+          0 0 rmoveto
+          210 0 rlineto
+          0 210 rlineto
+          -140 0 rlineto
+          0 70 rlineto
+          140 0 rlineto
+          0 70 rlineto
+          -210 0 rlineto
+          0 -210 rlineto
+          140 0 rlineto
+          0 -70 rlineto
+          -140 0 rlineto
+          endchar
+        </CharString>
         <CharString name="five-ar">
           250 0 70 210 70 hstem
           0 70 70 70 vstem
@@ -2201,6 +2267,21 @@ You should have received a copy of the GNU Affero General Public License along w
           0 210 rlineto
           70 0 rlineto
           0 -210 rlineto
+          -70 0 rlineto
+          endchar
+        </CharString>
+        <CharString name="four">
+          250 21 -21 189 70 hstem
+          0 70 70 70 vstem
+          70 350 rmoveto
+          -70 0 rlineto
+          0 -161 rlineto
+          140 0 rlineto
+          0 -189 rlineto
+          70 0 rlineto
+          0 350 rlineto
+          -70 0 rlineto
+          0 -91 rlineto
           -70 0 rlineto
           endchar
         </CharString>
@@ -4417,6 +4498,24 @@ You should have received a copy of the GNU Affero General Public License along w
           -40 0 -40 5 -20 35 rrcurveto
           endchar
         </CharString>
+        <CharString name="nine">
+          250 0 70 70 70 70 70 hstem
+          0 70 70 70 vstem
+          0 70 rmoveto
+          0 -70 rlineto
+          210 0 rlineto
+          0 350 rlineto
+          -210 0 rlineto
+          0 -210 rlineto
+          140 0 rlineto
+          0 -70 rlineto
+          0 210 rmoveto
+          0 -70 rlineto
+          -70 0 rlineto
+          0 70 rlineto
+          70 0 rlineto
+          endchar
+        </CharString>
         <CharString name="nine-ar">
           250 21 -21 140 70 70 70 hstem
           0 70 70 70 vstem
@@ -4514,6 +4613,15 @@ You should have received a copy of the GNU Affero General Public License along w
           0 11 9 9 11 0 rrcurveto
           11 0 9 -9 0 -11 rrcurveto
           0 -11 -9 -9 -11 0 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="one">
+          110 21 -21 hstem
+          0 70 vstem
+          0 350 rmoveto
+          0 -350 rlineto
+          70 0 rlineto
+          0 350 rlineto
           endchar
         </CharString>
         <CharString name="one-ar">
@@ -5621,6 +5729,17 @@ You should have received a copy of the GNU Affero General Public License along w
           -20 0 rlineto
           endchar
         </CharString>
+        <CharString name="seven">
+          250 21 -21 280 70 hstem
+          140 70 vstem
+          210 350 rmoveto
+          -210 0 rlineto
+          0 -70 rlineto
+          140 0 rlineto
+          0 -280 rlineto
+          70 0 rlineto
+          endchar
+        </CharString>
         <CharString name="seven-ar">
           250 0 70 hstem
           0 70 70 70 vstem
@@ -5693,6 +5812,24 @@ You should have received a copy of the GNU Affero General Public License along w
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
+          endchar
+        </CharString>
+        <CharString name="six">
+          250 0 70 70 70 70 70 hstem
+          0 70 70 70 vstem
+          210 280 rmoveto
+          0 70 rlineto
+          -210 0 rlineto
+          0 -350 rlineto
+          210 0 rlineto
+          0 210 rlineto
+          -140 0 rlineto
+          0 70 rlineto
+          0 -210 rmoveto
+          0 70 rlineto
+          70 0 rlineto
+          0 -70 rlineto
+          -70 0 rlineto
           endchar
         </CharString>
         <CharString name="six-ar">
@@ -6025,6 +6162,28 @@ You should have received a copy of the GNU Affero General Public License along w
           -47 -79 rlineto
           endchar
         </CharString>
+        <CharString name="three">
+          250 0 70 70 70 70 70 hstemhm
+          0 210 -70 70 hintmask 11101000
+          210 0 rmoveto
+          0 350 rlineto
+          hintmask 11110000
+          -210 0 rlineto
+          0 -70 rlineto
+          hintmask 11101000
+          140 0 rlineto
+          0 -70 rlineto
+          hintmask 11110000
+          -140 0 rlineto
+          0 -70 rlineto
+          hintmask 11101000
+          140 0 rlineto
+          0 -70 rlineto
+          hintmask 11110000
+          -140 0 rlineto
+          0 -70 rlineto
+          endchar
+        </CharString>
         <CharString name="three-ar">
           350 0 70 70 70 -70 210 hstemhm
           0 70 50 70 50 70 hintmask 10111100
@@ -6166,6 +6325,23 @@ You should have received a copy of the GNU Affero General Public License along w
           0 16 -13 13 -16 0 rrcurveto
           -16 0 -13 -13 0 -16 rrcurveto
           0 -16 13 -13 16 0 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="two">
+          250 0 70 70 70 70 70 hstem
+          0 70 70 70 vstem
+          210 0 rmoveto
+          0 70 rlineto
+          -140 0 rlineto
+          0 70 rlineto
+          140 0 rlineto
+          0 210 rlineto
+          -210 0 rlineto
+          0 -70 rlineto
+          140 0 rlineto
+          0 -70 rlineto
+          -140 0 rlineto
+          0 -210 rlineto
           endchar
         </CharString>
         <CharString name="two-ar">
@@ -6780,6 +6956,20 @@ You should have received a copy of the GNU Affero General Public License along w
           47 79 rlineto
           -17 10 rlineto
           -47 -79 rlineto
+          endchar
+        </CharString>
+        <CharString name="zero">
+          250 0 70 210 70 hstem
+          0 70 70 70 vstem
+          0 350 rmoveto
+          0 -350 rlineto
+          210 0 rlineto
+          0 350 rlineto
+          -140 -280 rmoveto
+          0 210 rlineto
+          70 0 rlineto
+          0 -210 rlineto
+          -70 0 rlineto
           endchar
         </CharString>
         <CharString name="zero-ar">
@@ -30214,6 +30404,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="dotbelow-ar" width="0" lsb="0"/>
     <mtx name="dotbelow-ar.alt1" width="0" lsb="0"/>
     <mtx name="e" width="240" lsb="0"/>
+    <mtx name="eight" width="250" lsb="0"/>
     <mtx name="eight-ar" width="250" lsb="0"/>
     <mtx name="eight-ar.1" width="346" lsb="0"/>
     <mtx name="eight-ar.2" width="366" lsb="0"/>
@@ -30233,7 +30424,9 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="fehDotless-ar.medi" width="248" lsb="-20"/>
     <mtx name="fehDotless-ar.medi.1" width="240" lsb="-20"/>
     <mtx name="fehDotmovedbelow-ar" width="613" lsb="0"/>
+    <mtx name="five" width="250" lsb="0"/>
     <mtx name="five-ar" width="250" lsb="0"/>
+    <mtx name="four" width="250" lsb="0"/>
     <mtx name="four-ar" width="350" lsb="0"/>
     <mtx name="four-ar.1" width="350" lsb="0"/>
     <mtx name="four-ar.2" width="250" lsb="0"/>
@@ -30343,12 +30536,14 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="meem-ar.medi.1" width="240" lsb="-20"/>
     <mtx name="n" width="240" lsb="0"/>
     <mtx name="n.1" width="240" lsb="0"/>
+    <mtx name="nine" width="250" lsb="0"/>
     <mtx name="nine-ar" width="250" lsb="0"/>
     <mtx name="nine-ar.osf" width="250" lsb="0"/>
     <mtx name="noon-ar" width="190" lsb="-130"/>
     <mtx name="noonghunna-ar" width="190" lsb="-130"/>
     <mtx name="noonghunna-ar.fina" width="190" lsb="-130"/>
     <mtx name="o" width="240" lsb="0"/>
+    <mtx name="one" width="110" lsb="0"/>
     <mtx name="one-ar" width="110" lsb="0"/>
     <mtx name="one-ar.osf" width="110" lsb="0"/>
     <mtx name="p" width="240" lsb="0"/>
@@ -30402,10 +30597,12 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="seen-ar.medi.4" width="360" lsb="-20"/>
     <mtx name="seen-ar.medi.5" width="360" lsb="-20"/>
     <mtx name="seen-ar.medi.6" width="370" lsb="-20"/>
+    <mtx name="seven" width="250" lsb="0"/>
     <mtx name="seven-ar" width="250" lsb="0"/>
     <mtx name="seven-ar.1" width="346" lsb="0"/>
     <mtx name="seven-ar.2" width="366" lsb="0"/>
     <mtx name="sheen-ar" width="430" lsb="-130"/>
+    <mtx name="six" width="250" lsb="0"/>
     <mtx name="six-ar" width="250" lsb="0"/>
     <mtx name="six-ar.1" width="250" lsb="0"/>
     <mtx name="six-ar.osf" width="250" lsb="0"/>
@@ -30426,12 +30623,14 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="tehMarbuta-ar" width="240" lsb="0"/>
     <mtx name="thal-ar" width="600" lsb="0"/>
     <mtx name="theh-ar" width="600" lsb="0"/>
+    <mtx name="three" width="250" lsb="0"/>
     <mtx name="three-ar" width="350" lsb="0"/>
     <mtx name="three-ar.1" width="350" lsb="0"/>
     <mtx name="three-ar.osf" width="350" lsb="0"/>
     <mtx name="three-ar.osf.1" width="350" lsb="0"/>
     <mtx name="threedotsupabove-ar" width="0" lsb="0"/>
     <mtx name="threedotsupabove-ar.alt1" width="0" lsb="0"/>
+    <mtx name="two" width="250" lsb="0"/>
     <mtx name="two-ar" width="250" lsb="0"/>
     <mtx name="two-ar.1" width="250" lsb="0"/>
     <mtx name="two-ar.osf" width="250" lsb="0"/>
@@ -30464,6 +30663,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="z" width="318" lsb="0"/>
     <mtx name="zah-ar" width="750" lsb="0"/>
     <mtx name="zain-ar" width="312" lsb="-63"/>
+    <mtx name="zero" width="250" lsb="0"/>
     <mtx name="zero-ar" width="110" lsb="0"/>
   </hmtx>
 
