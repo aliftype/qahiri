@@ -263,7 +263,7 @@
     <GlyphID id="257" name="yeh-farsi"/>
     <GlyphID id="258" name="yehbarree-ar"/>
     <GlyphID id="259" name="yehbarreeHamzaabove-ar"/>
-    <GlyphID id="260" name="kashida-ar.medi"/>
+    <GlyphID id="260" name="kashida-ar"/>
     <GlyphID id="261" name="lam_alef-ar"/>
     <GlyphID id="262" name="lam_alef-ar.fina"/>
     <GlyphID id="263" name="lam_alef-ar.1"/>
@@ -357,7 +357,7 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.008"/>
-    <checkSumAdjustment value="0xab5c15e7"/>
+    <checkSumAdjustment value="0xbd0c269e"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="750"/>
@@ -609,7 +609,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <map code="0x638" name="zah-ar"/><!-- ARABIC LETTER ZAH -->
       <map code="0x639" name="ain-ar"/><!-- ARABIC LETTER AIN -->
       <map code="0x63a" name="ghain-ar"/><!-- ARABIC LETTER GHAIN -->
-      <map code="0x640" name="kashida-ar.medi"/><!-- ARABIC TATWEEL -->
+      <map code="0x640" name="kashida-ar"/><!-- ARABIC TATWEEL -->
       <map code="0x641" name="feh-ar"/><!-- ARABIC LETTER FEH -->
       <map code="0x642" name="qaf-ar"/><!-- ARABIC LETTER QAF -->
       <map code="0x643" name="kaf-ar"/><!-- ARABIC LETTER KAF -->
@@ -757,7 +757,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <map code="0x638" name="zah-ar"/><!-- ARABIC LETTER ZAH -->
       <map code="0x639" name="ain-ar"/><!-- ARABIC LETTER AIN -->
       <map code="0x63a" name="ghain-ar"/><!-- ARABIC LETTER GHAIN -->
-      <map code="0x640" name="kashida-ar.medi"/><!-- ARABIC TATWEEL -->
+      <map code="0x640" name="kashida-ar"/><!-- ARABIC TATWEEL -->
       <map code="0x641" name="feh-ar"/><!-- ARABIC LETTER FEH -->
       <map code="0x642" name="qaf-ar"/><!-- ARABIC LETTER QAF -->
       <map code="0x643" name="kaf-ar"/><!-- ARABIC LETTER KAF -->
@@ -4009,7 +4009,7 @@ You should have received a copy of the GNU Affero General Public License along w
           25 -125 -11 -134 -52 -111 rrcurveto
           endchar
         </CharString>
-        <CharString name="kashida-ar.medi">
+        <CharString name="kashida-ar">
           80 0 70 hstem
           -20 100 vstem
           -20 0 rmoveto
@@ -7857,7 +7857,7 @@ You should have received a copy of the GNU Affero General Public License along w
       <ClassDef glyph="kaf-ar.medi" class="1"/>
       <ClassDef glyph="kaf-ar.medi.1" class="1"/>
       <ClassDef glyph="kaf-ar.medi.2" class="1"/>
-      <ClassDef glyph="kashida-ar.medi" class="1"/>
+      <ClassDef glyph="kashida-ar" class="1"/>
       <ClassDef glyph="keheh-ar" class="1"/>
       <ClassDef glyph="khah-ar" class="1"/>
       <ClassDef glyph="l" class="1"/>
@@ -8273,7 +8273,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.init.6"/>
             <Glyph value="heh-ar.init.7"/>
             <Glyph value="alefMaksura-ar.fina.tooth"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </Coverage>
           <!-- EntryExitCount=80 -->
           <EntryExitRecord index="0">
@@ -18700,11 +18700,11 @@ You should have received a copy of the GNU Affero General Public License along w
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
         <MultipleSubst index="0" Format="1">
-          <Substitution in="behDotless-ar.medi" out="behDotless-ar.medi,kashida-ar.medi"/>
-          <Substitution in="behDotless-ar.medi.1" out="behDotless-ar.medi.1,kashida-ar.medi"/>
-          <Substitution in="behDotless-ar.medi.high" out="behDotless-ar.medi.high,kashida-ar.medi"/>
-          <Substitution in="behDotless-ar.medi.high.1" out="behDotless-ar.medi.high.1,kashida-ar.medi"/>
-          <Substitution in="hah-ar.medi" out="hah-ar.medi,kashida-ar.medi"/>
+          <Substitution in="behDotless-ar.medi" out="behDotless-ar.medi,kashida-ar"/>
+          <Substitution in="behDotless-ar.medi.1" out="behDotless-ar.medi.1,kashida-ar"/>
+          <Substitution in="behDotless-ar.medi.high" out="behDotless-ar.medi.high,kashida-ar"/>
+          <Substitution in="behDotless-ar.medi.high.1" out="behDotless-ar.medi.high.1,kashida-ar"/>
+          <Substitution in="hah-ar.medi" out="hah-ar.medi,kashida-ar"/>
         </MultipleSubst>
       </Lookup>
       <Lookup index="7">
@@ -19660,7 +19660,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -19704,7 +19704,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -19748,7 +19748,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -19792,7 +19792,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -19836,7 +19836,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -19880,7 +19880,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -19924,7 +19924,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -19968,7 +19968,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="9" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -20041,7 +20041,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20085,7 +20085,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20129,7 +20129,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20173,7 +20173,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20217,7 +20217,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20261,7 +20261,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20305,7 +20305,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -20378,7 +20378,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20422,7 +20422,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20466,7 +20466,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20510,7 +20510,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20554,7 +20554,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20598,7 +20598,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -20671,7 +20671,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20715,7 +20715,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20759,7 +20759,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20803,7 +20803,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20847,7 +20847,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -20920,7 +20920,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -20964,7 +20964,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -21008,7 +21008,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -21052,7 +21052,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -21125,7 +21125,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -21169,7 +21169,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -21213,7 +21213,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -21286,7 +21286,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -21330,7 +21330,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -21403,7 +21403,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -21499,7 +21499,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -21549,7 +21549,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -21593,7 +21593,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -21637,7 +21637,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -21681,7 +21681,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -21725,7 +21725,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -21769,7 +21769,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -21813,7 +21813,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="9" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -21857,7 +21857,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="10" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -21924,7 +21924,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -21974,7 +21974,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22018,7 +22018,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22062,7 +22062,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22106,7 +22106,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22150,7 +22150,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22194,7 +22194,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22238,7 +22238,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="9" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -22305,7 +22305,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -22355,7 +22355,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22399,7 +22399,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22443,7 +22443,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22487,7 +22487,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22531,7 +22531,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22575,7 +22575,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -22642,7 +22642,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -22692,7 +22692,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22736,7 +22736,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22780,7 +22780,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22824,7 +22824,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -22868,7 +22868,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -22935,7 +22935,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -22985,7 +22985,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -23029,7 +23029,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -23073,7 +23073,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -23117,7 +23117,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -23184,7 +23184,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -23234,7 +23234,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -23278,7 +23278,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -23322,7 +23322,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -23389,7 +23389,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -23439,7 +23439,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -23483,7 +23483,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -23550,7 +23550,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -23600,7 +23600,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -23667,7 +23667,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -23740,7 +23740,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -23784,7 +23784,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -23834,7 +23834,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -23878,7 +23878,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -23922,7 +23922,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -23966,7 +23966,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24010,7 +24010,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24054,7 +24054,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="9" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24098,7 +24098,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="10" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24142,7 +24142,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="11" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -24209,7 +24209,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24253,7 +24253,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -24303,7 +24303,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24347,7 +24347,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24391,7 +24391,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24435,7 +24435,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24479,7 +24479,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24523,7 +24523,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="9" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24567,7 +24567,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="10" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -24634,7 +24634,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24678,7 +24678,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -24728,7 +24728,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24772,7 +24772,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24816,7 +24816,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24860,7 +24860,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24904,7 +24904,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -24948,7 +24948,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="9" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -25015,7 +25015,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25059,7 +25059,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -25109,7 +25109,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25153,7 +25153,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25197,7 +25197,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25241,7 +25241,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25285,7 +25285,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -25352,7 +25352,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25396,7 +25396,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -25446,7 +25446,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25490,7 +25490,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25534,7 +25534,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25578,7 +25578,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -25645,7 +25645,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25689,7 +25689,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -25739,7 +25739,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25783,7 +25783,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25827,7 +25827,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -25894,7 +25894,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -25938,7 +25938,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -25988,7 +25988,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26032,7 +26032,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -26099,7 +26099,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26143,7 +26143,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -26193,7 +26193,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -26260,7 +26260,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26304,7 +26304,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -26377,7 +26377,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26421,7 +26421,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26465,7 +26465,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -26515,7 +26515,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26559,7 +26559,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26603,7 +26603,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26647,7 +26647,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26691,7 +26691,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="9" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26735,7 +26735,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="10" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26779,7 +26779,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="11" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26823,7 +26823,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="12" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -26890,7 +26890,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26934,7 +26934,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -26978,7 +26978,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -27028,7 +27028,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27072,7 +27072,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27116,7 +27116,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27160,7 +27160,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27204,7 +27204,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="9" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27248,7 +27248,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="10" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27292,7 +27292,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="11" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -27359,7 +27359,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27403,7 +27403,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27447,7 +27447,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -27497,7 +27497,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27541,7 +27541,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27585,7 +27585,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27629,7 +27629,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27673,7 +27673,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="9" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27717,7 +27717,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="10" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -27784,7 +27784,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27828,7 +27828,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27872,7 +27872,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -27922,7 +27922,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -27966,7 +27966,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28010,7 +28010,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28054,7 +28054,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28098,7 +28098,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="9" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -28165,7 +28165,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28209,7 +28209,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28253,7 +28253,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -28303,7 +28303,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28347,7 +28347,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28391,7 +28391,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28435,7 +28435,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -28502,7 +28502,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28546,7 +28546,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28590,7 +28590,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -28640,7 +28640,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28684,7 +28684,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28728,7 +28728,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -28795,7 +28795,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28839,7 +28839,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28883,7 +28883,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -28933,7 +28933,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -28977,7 +28977,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -29044,7 +29044,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29088,7 +29088,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29132,7 +29132,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -29182,7 +29182,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -29249,7 +29249,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29293,7 +29293,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29337,7 +29337,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -29410,7 +29410,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29454,7 +29454,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29498,7 +29498,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29542,7 +29542,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29586,7 +29586,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29630,7 +29630,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29674,7 +29674,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29718,7 +29718,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="8" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -29785,7 +29785,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29829,7 +29829,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29873,7 +29873,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29917,7 +29917,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -29961,7 +29961,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30005,7 +30005,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30049,7 +30049,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="7" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -30116,7 +30116,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30160,7 +30160,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30204,7 +30204,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30248,7 +30248,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30292,7 +30292,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30336,7 +30336,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="6" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -30403,7 +30403,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30447,7 +30447,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30491,7 +30491,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30535,7 +30535,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30579,7 +30579,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="5" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -30646,7 +30646,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30690,7 +30690,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30734,7 +30734,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30778,7 +30778,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="4" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -30845,7 +30845,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30889,7 +30889,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -30933,7 +30933,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="3" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -31000,7 +31000,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="2">
             <Glyph value="behDotless-ar.medi"/>
@@ -31044,7 +31044,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="2" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -31111,7 +31111,7 @@ You should have received a copy of the GNU Affero General Public License along w
             <Glyph value="heh-ar.medi.5"/>
             <Glyph value="heh-ar.medi.6"/>
             <Glyph value="heh-ar.medi.7"/>
-            <Glyph value="kashida-ar.medi"/>
+            <Glyph value="kashida-ar"/>
           </LookAheadCoverage>
           <LookAheadCoverage index="1" Format="1">
             <Glyph value="hah-ar.fina.1"/>
@@ -31311,7 +31311,7 @@ You should have received a copy of the GNU Affero General Public License along w
     <mtx name="kaf-ar.medi" width="580" lsb="-20"/>
     <mtx name="kaf-ar.medi.1" width="600" lsb="-20"/>
     <mtx name="kaf-ar.medi.2" width="600" lsb="-18"/>
-    <mtx name="kashida-ar.medi" width="80" lsb="-20"/>
+    <mtx name="kashida-ar" width="80" lsb="-20"/>
     <mtx name="keheh-ar" width="640" lsb="0"/>
     <mtx name="khah-ar" width="640" lsb="0"/>
     <mtx name="l" width="200" lsb="0"/>
