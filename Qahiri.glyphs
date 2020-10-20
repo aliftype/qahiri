@@ -2,27 +2,22 @@
 .appVersion = "1348";
 classes = (
 {
-automatic = 1;
 code = "/.*dot.*.-ar$/";
 name = Dots;
 },
 {
-automatic = 1;
 code = "/.*dot.*.-ar.alt1/";
 name = Dots.alt1;
 },
 {
-automatic = 1;
 code = "/^twodotshorizontalbelow-ar.*/";
 name = TwoDotsBelow;
 },
 {
-automatic = 1;
 code = "/^twodotsverticalbelow-ar.*/";
 name = TwoDotsVerticalBelow;
 },
 {
-automatic = 1;
 code = "/^dotbelow-ar.*/";
 name = DotBelow;
 },
@@ -35,12 +30,10 @@ code = "hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3 hah-ar.fina.1";
 name = HahAlt;
 },
 {
-automatic = 1;
 code = "/^behDotless-ar.medi.*/";
 name = BehMedi;
 },
 {
-automatic = 1;
 code = "/.*\\.medi.*/";
 name = AllMedi;
 }

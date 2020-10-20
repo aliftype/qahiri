@@ -171,26 +171,27 @@ feature mark {{
     return fea
 
 
-def isRegexClass(code):
-    if len(code) > 2 and code.startswith("/") and code.endswith("/"):
-        return True
-    return False
+RE_DELIM = re.compile(r"(?:/(.*.)/)")
 
 
 def makeFeatures(instance, source):
     font = instance.parent
 
+    def repl(match):
+        ret = ""
+        regex = re.compile(match.group(1))
+        for glyph in font.glyphs:
+            if regex.match(glyph.name):
+                ret += f"{glyph.name} "
+        return ret
+
+    for x in list(font.featurePrefixes) + list(font.classes) + list(font.features):
+        x.code = RE_DELIM.sub(repl, x.code)
+
     fea = ""
     for gclass in font.classes:
         if gclass.disabled:
             continue
-        if gclass.automatic and isRegexClass(gclass.code):
-            regex = re.compile(gclass.code[1:-1])
-            gclass.code = ""
-            for glyph in font.glyphs:
-                if regex.match(glyph.name):
-                    gclass.code += f"{glyph.name} "
-
         fea += f"@{gclass.name} = [{gclass.code}];\n"
 
     for prefix in font.featurePrefixes:
