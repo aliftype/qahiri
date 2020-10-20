@@ -30,10 +30,6 @@ code = "hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3 hah-ar.fina.1";
 name = HahAlt;
 },
 {
-code = "/^behDotless-ar.medi.*/";
-name = BehMedi;
-},
-{
 code = "/.*\\.medi.*/ kashida-ar";
 name = AllMedi;
 }
@@ -393,7 +389,7 @@ lookupflag UseMarkFilteringSet @TwoDotsAbove;
 lookupflag UseMarkFilteringSet @DotsBelow;
   ignore sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1]' @DotsBelow' [behDotless-ar.medi lam-ar.medi]' alefMaksura-ar.fina';
   sub [behDotless-ar.medi lam-ar.medi]' lookup ToothYeh alefMaksura-ar.fina' lookup ToothYeh;
-  sub [@BehMedi hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
+  sub [/^behDotless-ar.medi.*/ hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
 
 lookupflag UseMarkFilteringSet @TwoDotsBelow;
   sub [behDotless-ar.init behDotless-ar.medi] @TwoDotsBelow' [reh-ar.fina reh-ar.fina.1] by @TwoDotsVerticalBelow;

@@ -5,7 +5,6 @@
 @DotBelow = [dotbelow-ar dotbelow-ar.alt1 ];
 @DotsBelow = [@DotBelow @TwoDotsBelow];
 @HahAlt = [hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3 hah-ar.fina.1];
-@BehMedi = [behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1 behDotless-ar.medi.yeh ];
 @AllMedi = [behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1 behDotless-ar.medi.yeh hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3 seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6 sad-ar.medi tah-ar.medi tah-ar.medi.short tah-ar.medi.short2 ain-ar.medi fehDotless-ar.medi fehDotless-ar.medi.1 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 lam-ar.medi lam-ar.medi.lellah lam-ar.medi.short lam-ar.medi.short2 lam-ar.medi.yeh meem-ar.medi meem-ar.medi.1 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7  kashida-ar];
 languagesystem DFLT dflt;
 languagesystem arab dflt;
@@ -307,7 +306,7 @@ lookupflag UseMarkFilteringSet @TwoDotsAbove;
 lookupflag UseMarkFilteringSet @DotsBelow;
   ignore sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1]' @DotsBelow' [behDotless-ar.medi lam-ar.medi]' alefMaksura-ar.fina';
   sub [behDotless-ar.medi lam-ar.medi]' lookup ToothYeh alefMaksura-ar.fina' lookup ToothYeh;
-  sub [@BehMedi hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
+  sub [behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1 behDotless-ar.medi.yeh  hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
 
 lookupflag UseMarkFilteringSet @TwoDotsBelow;
   sub [behDotless-ar.init behDotless-ar.medi] @TwoDotsBelow' [reh-ar.fina reh-ar.fina.1] by @TwoDotsVerticalBelow;
