@@ -74,8 +74,8 @@ def makeKerning(font, source):
 
     kerning = font.kerning[source.id]
     pairs = ""
-    classes = "";
-    enums = "";
+    classes = ""
+    enums = ""
     for left in kerning:
         for right in kerning[left]:
             value = kerning[left][right]
@@ -170,10 +170,12 @@ feature mark {{
 
     return fea
 
+
 def isRegexClass(code):
     if len(code) > 2 and code.startswith("/") and code.endswith("/"):
         return True
     return False
+
 
 def makeFeatures(instance, source):
     font = instance.parent
@@ -267,13 +269,13 @@ def calcFsSelection(instance):
     font = instance.parent
     fsSelection = 0
     if font.customParameters["Use Typo Metrics"]:
-        fsSelection |= (1 << 7)
+        fsSelection |= 1 << 7
     if instance.isItalic:
-        fsSelection |= (1 << 1)
+        fsSelection |= 1 << 1
     if instance.isBold:
-        fsSelection |= (1 << 5)
+        fsSelection |= 1 << 5
     if not (instance.isItalic or instance.isBold):
-        fsSelection |= (1 << 6)
+        fsSelection |= 1 << 6
 
     return fsSelection
 
@@ -389,8 +391,11 @@ def build(instance, opts):
     fb.setupGlyphOrder(glyphOrder)
     fb.setupCharacterMap(characterMap)
     fb.setupNameTable(names, mac=False)
-    fb.setupHorizontalHeader(ascent=source.ascender, descent=source.descender,
-                             lineGap=source.customParameters["typoLineGap"])
+    fb.setupHorizontalHeader(
+        ascent=source.ascender,
+        descent=source.descender,
+        lineGap=source.customParameters["typoLineGap"],
+    )
 
     privateDict = {
         "BlueValues": source.blueValues,
@@ -416,23 +421,28 @@ def build(instance, opts):
     fb.setupHorizontalMetrics(metrics)
 
     codePages = [CODEPAGE_RANGES[v] for v in font.customParameters["codePageRanges"]]
-    fb.setupOS2(version=4, sTypoAscender=source.ascender,
-                sTypoDescender=source.descender,
-                sTypoLineGap=source.customParameters["typoLineGap"],
-                usWinAscent=source.ascender, usWinDescent=-source.descender,
-                sxHeight=source.xHeight, sCapHeight=source.capHeight,
-                achVendID=vendor,
-                fsType=calcBits(font.customParameters["fsType"], 0, 16),
-                fsSelection=calcFsSelection(instance),
-                ulUnicodeRange1=calcBits(font.customParameters["unicodeRanges"], 0, 32),
-                ulCodePageRange1=calcBits(codePages, 0, 32))
+    fb.setupOS2(
+        version=4,
+        sTypoAscender=source.ascender,
+        sTypoDescender=source.descender,
+        sTypoLineGap=source.customParameters["typoLineGap"],
+        usWinAscent=source.ascender,
+        usWinDescent=-source.descender,
+        sxHeight=source.xHeight,
+        sCapHeight=source.capHeight,
+        achVendID=vendor,
+        fsType=calcBits(font.customParameters["fsType"], 0, 16),
+        fsSelection=calcFsSelection(instance),
+        ulUnicodeRange1=calcBits(font.customParameters["unicodeRanges"], 0, 32),
+        ulCodePageRange1=calcBits(codePages, 0, 32),
+    )
 
     ut = int(source.customParameters["underlineThickness"])
     up = int(source.customParameters["underlinePosition"])
-    fb.setupPost(underlineThickness=ut, underlinePosition=up + ut//2)
+    fb.setupPost(underlineThickness=ut, underlinePosition=up + ut // 2)
 
     meta = newTable("meta")
-    meta.data = {'dlng': 'Arab', 'slng': 'Arab'}
+    meta.data = {"dlng": "Arab", "slng": "Arab"}
     fb.font["meta"] = meta
 
     fb.addOpenTypeFeatures(fea)
@@ -448,8 +458,9 @@ Ordering	Identity
 Supplement	0
 """
 
-    cidmap = f"mergefonts {instance.fontName}\n" \
-            + "\n".join([f"{i} {n}" for i, n in enumerate(glyphOrder)])
+    cidmap = f"mergefonts {instance.fontName}\n" + "\n".join(
+        [f"{i} {n}" for i, n in enumerate(glyphOrder)]
+    )
 
     return fb.font, cidinfo, cidmap
 
@@ -485,16 +496,16 @@ def prepare(font):
 def main():
     parser = argparse.ArgumentParser(description="Build Rana Kufi.")
     parser.add_argument("glyphs", help="input Glyphs source file")
-    parser.add_argument("version",help="font version")
-    parser.add_argument("otf",    help="output OTF file")
-    parser.add_argument("cff",    help="output CFF file")
-    parser.add_argument("cidinfo",help="output CID info file")
+    parser.add_argument("version", help="font version")
+    parser.add_argument("otf", help="output OTF file")
+    parser.add_argument("cff", help="output CFF file")
+    parser.add_argument("cidinfo", help="output CID info file")
     parser.add_argument("cidmap", help="output CID map file")
     args = parser.parse_args()
 
     font = GSFont(args.glyphs)
     prepare(font)
-    instance = font.instances[0] # XXX
+    instance = font.instances[0]  # XXX
     otf, cidinfo, cidmap = build(instance, args)
 
     with open(args.cff, "wb") as fp:
@@ -505,5 +516,6 @@ def main():
     with open(args.cidmap, "w") as fp:
         fp.write(cidmap)
     otf.save(args.otf)
+
 
 main()
