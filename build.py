@@ -448,22 +448,7 @@ def build(instance, opts):
 
     fb.addOpenTypeFeatures(fea)
 
-    cidinfo = f"""
-FontName	({names["psName"]})
-FamilyName	({names["familyName"]})
-Weight	({fontInfo["Weight"]})
-version	({fontInfo["version"]})
-Notice	({fontInfo["Notice"]})
-Registry	Adobe
-Ordering	Identity
-Supplement	0
-"""
-
-    cidmap = f"mergefonts {instance.fontName}\n" + "\n".join(
-        [f"{i} {n}" for i, n in enumerate(glyphOrder)]
-    )
-
-    return fb.font, cidinfo, cidmap
+    return fb.font
 
 
 def propogateAnchors(layer):
@@ -499,23 +484,12 @@ def main():
     parser.add_argument("glyphs", help="input Glyphs source file")
     parser.add_argument("version", help="font version")
     parser.add_argument("otf", help="output OTF file")
-    parser.add_argument("cff", help="output CFF file")
-    parser.add_argument("cidinfo", help="output CID info file")
-    parser.add_argument("cidmap", help="output CID map file")
     args = parser.parse_args()
 
     font = GSFont(args.glyphs)
     prepare(font)
     instance = font.instances[0]  # XXX
-    otf, cidinfo, cidmap = build(instance, args)
-
-    with open(args.cff, "wb") as fp:
-        data = otf.getTableData("CFF ")
-        fp.write(data)
-    with open(args.cidinfo, "w") as fp:
-        fp.write(cidinfo)
-    with open(args.cidmap, "w") as fp:
-        fp.write(cidmap)
+    otf = build(instance, args)
     otf.save(args.otf)
 
 

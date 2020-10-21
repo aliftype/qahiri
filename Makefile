@@ -32,13 +32,9 @@ all: $(NAME)-Regular.otf $(NAME)-Regular.ttx
 $(BUILDDIR)/%.otf: $(NAME).glyphs $(CONFIG)
 	$(info   BUILD  $(*F))
 	mkdir -p $(BUILDDIR)
-	python build.py $< $(VERSION) $@ $(BUILDDIR)/$(*F).cff $(BUILDDIR)/$(*F).cidinfo $(BUILDDIR)/$(*F).cidmap
+	python build.py $< $(VERSION) $@
 
-$(BUILDDIR)/%.cid: $(BUILDDIR)/%.otf
-	$(info   CID    $(*F))
-	mergefonts -cid $(BUILDDIR)/$(*F).cidinfo $@ $(BUILDDIR)/$(*F).cidmap $(BUILDDIR)/$(*F).cff 2>/dev/null
-
-$(BUILDDIR)/%.subr.cff: $(BUILDDIR)/%.cid
+$(BUILDDIR)/%.subr.cff: $(BUILDDIR)/%.otf
 	$(info   SUBR   $(*F))
 	tx -cff +S +b $< $@
 
