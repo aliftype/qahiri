@@ -1,4 +1,4 @@
-afdko==3.2.0
+cffsubr==0.2.7
 fonttools[ufo,lxml]==4.9.0
 glyphsLib==5.1.10
 psautohint==2.0.1
