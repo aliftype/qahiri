@@ -1,6 +1,6 @@
 cffsubr==0.2.7
-fonttools[ufo,lxml]==4.9.0
-glyphsLib==5.1.10
-psautohint==2.0.1
-skia-pathops==0.3.0
-PyYAML==5.3
+fonttools[ufo,lxml]==4.17.0
+glyphsLib==5.2.0
+psautohint==2.1.2
+skia-pathops==0.5.1.post1
+PyYAML==5.3.1
