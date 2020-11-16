@@ -27,7 +27,7 @@ DIST = $(NAME)-$(VERSION)
 .ONESHELL:
 .PHONY: all dist
 
-all: $(NAME)-Regular.otf $(NAME)-Regular.ttx
+all: $(NAME)-Regular.otf
 
 $(BUILDDIR)/%.otf: $(NAME).glyphs $(CONFIG)
 	$(info   BUILD  $(*F))
@@ -37,10 +37,6 @@ $(BUILDDIR)/%.otf: $(NAME).glyphs $(CONFIG)
 %.otf: $(BUILDDIR)/%.otf
 	$(info   SUBR   $(*F))
 	python -m cffsubr --cff-version 1 -o $@ $<
-
-%.ttx: $(BUILDDIR)/%.otf
-	$(info   TTX    $(*F))
-	ttx -q -o $@ $<
 
 dist: all
 	$(info   DIST   $(DIST).zip)
