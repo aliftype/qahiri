@@ -10,4 +10,4 @@
 
 لمزيد من المعلومات وآخر إصدارة:
 
-	https://alif-type.github.io/qahiri/arabic
+	https://aliftype.com/qahiri/arabic

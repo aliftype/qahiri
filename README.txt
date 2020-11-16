@@ -11,4 +11,4 @@ the enclosed LICENSE file for more details.
 
 For more info and latest version:
 
-	https://alif-type.github.io/qahiri/
+	https://aliftype.com/qahiri/

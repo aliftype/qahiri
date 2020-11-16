@@ -94,5 +94,5 @@ title: قاهري
 [1]: https://ar.wikipedia.org/wiki/خط_كوفي
 [2]: https://ar.wikipedia.org/wiki/محمد_عبد_القادر_عبد_الله_(خطاط)
 [3]: https://github.com/alif-type/qahiri/releases/latest
-[4]: https://alif-type.github.io/qahiri/app/
+[4]: https://aliftype.com/qahiri/app/
 [5]: https://github.com/alif-type/qahiri/blob/master/LICENSE
