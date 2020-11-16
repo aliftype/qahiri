@@ -1,5 +1,5 @@
 {
-.appVersion = "1348";
+.appVersion = "1350";
 classes = (
 {
 code = "/.*dot.*.-ar$/";
@@ -62,10 +62,6 @@ name = "Disable Subroutines";
 value = 1;
 },
 {
-name = "makeOTF Argument";
-value = "-omitMacNames";
-},
-{
 name = unicodeRanges;
 value = (
 0,
@@ -97,7 +93,7 @@ value = "صف خلق خود كمثل الشمس إذ بزغت يحظى الضج�
 );
 date = "2020-03-17 04:09:41 +0000";
 designer = "Khaled Hosny";
-designerURL = "https://github.com/alif-type";
+designerURL = "https://aliftype.com";
 familyName = Qahiri;
 featurePrefixes = (
 {
@@ -14875,7 +14871,7 @@ kerning = {
 };
 };
 manufacturer = "Alif Type";
-manufacturerURL = "https://github.com/alif-type";
+manufacturerURL = "https://aliftype.com";
 unitsPerEm = 750;
 userData = {
 GSDimensionPlugin.Dimensions = {
