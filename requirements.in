@@ -1,0 +1,6 @@
+cffsubr
+fonttools[ufo,lxml]
+glyphsLib
+psautohint
+skia-pathops
+PyYAML
