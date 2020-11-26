@@ -171,19 +171,15 @@ feature mark {{
     return fea
 
 
-RE_DELIM = re.compile(r"(?:/(.*.)/)")
+RE_DELIM = re.compile(r"(?:/(.*?.)/)")
 
 
 def makeFeatures(instance, source):
     font = instance.parent
 
     def repl(match):
-        ret = ""
         regex = re.compile(match.group(1))
-        for glyph in font.glyphs:
-            if regex.match(glyph.name):
-                ret += f"{glyph.name} "
-        return ret
+        return " ".join(g.name for g in font.glyphs if regex.match(g.name))
 
     for x in list(font.featurePrefixes) + list(font.classes) + list(font.features):
         x.code = RE_DELIM.sub(repl, x.code)
