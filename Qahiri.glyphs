@@ -14094,7 +14094,7 @@ layers = (
 components = (
 {
 name = quoteright;
-transform = "{1, 0, 0, 1, 0, -324}";
+transform = "{1, 0, 0, 1, 0, -424}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -14112,7 +14112,7 @@ layers = (
 components = (
 {
 name = quotedblright;
-transform = "{1, 0, 0, 1, 0, -324}";
+transform = "{1, 0, 0, 1, 0, -424}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
