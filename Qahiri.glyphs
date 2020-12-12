@@ -13466,6 +13466,158 @@ rightMetricsKey = "nine-ar";
 unicode = 06F9;
 },
 {
+glyphname = parenleft;
+layers = (
+{
+components = (
+{
+name = parenright;
+transform = "{-1, 0, 0, -1, 122, 460}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 162;
+}
+);
+unicode = 0028;
+},
+{
+glyphname = parenright;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"154 78 OFFCURVE",
+"154 334 OFFCURVE",
+"45 560 CURVE",
+"0 469 LINE",
+"93 295 OFFCURVE",
+"96 65 OFFCURVE",
+"0 -100 CURVE"
+);
+}
+);
+width = 162;
+}
+);
+unicode = 0029;
+},
+{
+glyphname = braceleft;
+layers = (
+{
+components = (
+{
+name = braceright;
+transform = "{-1, 0, 0, -1, 168, 460}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 208;
+}
+);
+unicode = 007B;
+},
+{
+glyphname = braceright;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"70 -100 OFFCURVE",
+"116 -43 OFFCURVE",
+"116 39 CURVE SMOOTH",
+"116 153 OFFCURVE",
+"125 198 OFFCURVE",
+"168 229 CURVE",
+"125 260 OFFCURVE",
+"116 298 OFFCURVE",
+"116 413 CURVE SMOOTH",
+"116 502 OFFCURVE",
+"77 560 OFFCURVE",
+"0 560 CURVE",
+"43 543 OFFCURVE",
+"64 502 OFFCURVE",
+"64 413 CURVE SMOOTH",
+"64 320 OFFCURVE",
+"67 253 OFFCURVE",
+"154 229 CURVE",
+"64 205 OFFCURVE",
+"64 139 OFFCURVE",
+"64 39 CURVE SMOOTH",
+"64 -43 OFFCURVE",
+"43 -80 OFFCURVE",
+"0 -100 CURVE"
+);
+}
+);
+width = 208;
+}
+);
+unicode = 007D;
+},
+{
+glyphname = bracketleft;
+layers = (
+{
+components = (
+{
+name = bracketright;
+transform = "{-1, 0, 0, -1, 110, 460}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 150;
+}
+);
+unicode = 005B;
+},
+{
+glyphname = bracketright;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"110 -100 LINE",
+"110 560 LINE",
+"70 560 LINE",
+"70 -100 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"90 -100 LINE",
+"90 -60 LINE",
+"0 -60 LINE",
+"0 -100 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"90 520 LINE",
+"90 560 LINE",
+"0 560 LINE",
+"0 520 LINE"
+);
+}
+);
+width = 150;
+}
+);
+unicode = 005D;
+},
+{
 glyphname = space.alt;
 layers = (
 {
