@@ -1,11 +1,5 @@
 {
 .appVersion = "1350";
-DisplayStrings = (
-"/guilsinglleft",
-"/seen-ar.fina.2",
-"»",
-"«"
-);
 classes = (
 {
 code = "/.*dot.*.-ar$/";
@@ -207,13 +201,17 @@ name = locl;
 {
 code = "  sub tehMarbuta-ar by heh-ar twodotshorizontalabove-ar;
   sub yeh-ar        by alefMaksura-ar;
-  sub yeh-farsi     by alefMaksura-ar;";
+  sub yeh-farsi     by alefMaksura-ar;
+  sub fehAfrican-ar by fehDotless-ar;
+  sub qafAfrican-ar by qafDotless-ar;
+  sub noonAfrican-ar by noonghunna-ar;";
 name = isol;
 },
 {
 code = "  sub ain-ar         by ain-ar.init;
   sub behDotless-ar  by behDotless-ar.init;
   sub fehDotless-ar  by fehDotless-ar.init;
+  sub fehAfrican-ar  by fehDotless-ar.init dotbelow-ar;
   sub hah-ar         by hah-ar.init;
   sub heh-ar         by heh-ar.init;
   sub kaf-ar         by kaf-ar.init;
@@ -223,7 +221,9 @@ code = "  sub ain-ar         by ain-ar.init;
   sub seen-ar        by seen-ar.init;
   sub tah-ar         by tah-ar.init;
   sub qafDotless-ar  by fehDotless-ar.init;
+  sub qafAfrican-ar  by fehDotless-ar.init dotabove-ar;
   sub noonghunna-ar  by behDotless-ar.init;
+  sub noonAfrican-ar by behDotless-ar.init dotabove-ar;
   sub alefMaksura-ar by behDotless-ar.init;
   sub yeh-ar         by behDotless-ar.init twodotshorizontalbelow-ar;
   sub yeh-farsi      by behDotless-ar.init twodotshorizontalbelow-ar;";
@@ -233,6 +233,7 @@ name = init;
 code = "  sub ain-ar         by ain-ar.medi;
   sub behDotless-ar  by behDotless-ar.medi;
   sub fehDotless-ar  by fehDotless-ar.medi;
+  sub fehAfrican-ar  by fehDotless-ar.medi dotbelow-ar;
   sub hah-ar         by hah-ar.medi;
   sub heh-ar         by heh-ar.medi;
   sub kaf-ar         by kaf-ar.medi;
@@ -242,7 +243,9 @@ code = "  sub ain-ar         by ain-ar.medi;
   sub seen-ar        by seen-ar.medi;
   sub tah-ar         by tah-ar.medi;
   sub qafDotless-ar  by fehDotless-ar.medi;
+  sub qafAfrican-ar  by fehDotless-ar.medi dotabove-ar;
   sub noonghunna-ar  by behDotless-ar.medi;
+  sub noonAfrican-ar by behDotless-ar.medi dotabove-ar;
   sub alefMaksura-ar by behDotless-ar.medi;
   sub yeh-ar         by behDotless-ar.medi twodotshorizontalbelow-ar;
   sub yeh-farsi      by behDotless-ar.medi twodotshorizontalbelow-ar;";
@@ -255,13 +258,16 @@ code = "  sub ain-ar         by ain-ar.fina;
   sub behDotless-ar  by behDotless-ar.fina;
   sub dal-ar         by dal-ar.fina;
   sub fehDotless-ar  by fehDotless-ar.fina;
+  sub fehAfrican-ar  by fehDotless-ar.fina;
   sub hah-ar         by hah-ar.fina;
   sub heh-ar         by heh-ar.fina;
   sub kaf-ar         by kaf-ar.fina;
   sub lam-ar         by lam-ar.fina;
   sub meem-ar        by meem-ar.fina;
   sub noonghunna-ar  by noonghunna-ar.fina;
+  sub noonAfrican-ar by noonghunna-ar.fina;
   sub qafDotless-ar  by qafDotless-ar.fina;
+  sub qafAfrican-ar  by qafDotless-ar.fina;
   sub reh-ar         by reh-ar.fina;
   sub sad-ar         by sad-ar.fina;
   sub seen-ar        by seen-ar.fina;
@@ -6599,6 +6605,22 @@ width = 613;
 unicode = 06A2;
 },
 {
+color = 0;
+glyphname = "fehAfrican-ar";
+layers = (
+{
+components = (
+{
+name = "fehDotless-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 613;
+}
+);
+unicode = 08BB;
+},
+{
 glyphname = "qafDotless-ar";
 layers = (
 {
@@ -6746,6 +6768,22 @@ width = 296;
 }
 );
 unicode = 06A7;
+},
+{
+color = 0;
+glyphname = "qafAfrican-ar";
+layers = (
+{
+components = (
+{
+name = "qafDotless-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 296;
+}
+);
+unicode = 08BC;
 },
 {
 glyphname = "kaf-ar";
@@ -8124,6 +8162,22 @@ width = 190;
 );
 leftKerningGroup = waw;
 rightKerningGroup = bowel;
+},
+{
+color = 0;
+glyphname = "noonAfrican-ar";
+layers = (
+{
+components = (
+{
+name = "noonghunna-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 190;
+}
+);
+unicode = 08BD;
 },
 {
 glyphname = "heh-ar";
