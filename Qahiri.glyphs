@@ -34,7 +34,7 @@ code = "/.*\\.medi.*/ kashida-ar";
 name = AllMedi;
 }
 );
-copyright = "Copyright 2020 The Qahiri Project Authors (github.com/alif-type/qahiri)";
+copyright = "Copyright 2020 The Qahiri Project Authors (github.com/alif-type/qahiri).";
 customParameters = (
 {
 name = vendorID;
