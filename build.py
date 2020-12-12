@@ -16,26 +16,22 @@
 import argparse
 import re
 
+from cffsubr import subroutinize
 from fontTools.fontBuilder import FontBuilder
-from fontTools.ttLib import newTable
 from fontTools.misc.fixedTools import otRound
 from fontTools.misc.psCharStrings import T2CharString
 from fontTools.misc.timeTools import epoch_diff
-from fontTools.misc.transform import Transform, Identity
+from fontTools.misc.transform import Identity, Transform
 from fontTools.pens.reverseContourPen import ReverseContourPen
 from fontTools.pens.transformPen import TransformPen
-
-from glyphsLib import GSFont, GSAnchor
+from fontTools.ttLib import newTable
+from glyphsLib import GSAnchor, GSFont
 from glyphsLib.builder.constants import CODEPAGE_RANGES
 from glyphsLib.glyphdata import get_glyph as getGlyphInfo
-
 from pathops import Path, PathPen
-
 from psautohint import hint_bez_glyph
-from psautohint.ufoFont import BezPen
 from psautohint.otfFont import convertBezToT2
-
-from cffsubr import subroutinize
+from psautohint.ufoFont import BezPen
 
 
 class DecomposePathPen(PathPen):
