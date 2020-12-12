@@ -229,6 +229,76 @@ featureNames {
   sub @Dots by @Dots.alt1;
 } ss02;
 
+feature numr {
+
+sub zero by zero.numr;
+sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+sub five by five.numr;
+sub six by six.numr;
+sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
+sub zero-ar by zero-ar.numr;
+sub one-ar by one-ar.numr;
+sub two-ar by two-ar.numr;
+sub three-ar by three-ar.numr;
+sub four-ar by four-ar.numr;
+sub five-ar by five-ar.numr;
+sub six-ar by six-ar.numr;
+sub seven-ar by seven-ar.numr;
+sub eight-ar by eight-ar.numr;
+sub nine-ar by nine-ar.numr;
+sub zero-persian by zero-persian.numr;
+sub one-persian by one-persian.numr;
+sub two-persian by two-persian.numr;
+sub three-persian by three-persian.numr;
+sub four-persian by four-persian.numr;
+sub five-persian by five-persian.numr;
+sub six-persian by six-persian.numr;
+sub seven-persian by seven-persian.numr;
+sub eight-persian by eight-persian.numr;
+sub nine-persian by nine-persian.numr;
+
+} numr;
+
+feature dnom {
+
+sub zero by zero.dnom;
+sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+sub five by five.dnom;
+sub six by six.dnom;
+sub seven by seven.dnom;
+sub eight by eight.dnom;
+sub nine by nine.dnom;
+sub zero-ar by zero-ar.dnom;
+sub one-ar by one-ar.dnom;
+sub two-ar by two-ar.dnom;
+sub three-ar by three-ar.dnom;
+sub four-ar by four-ar.dnom;
+sub five-ar by five-ar.dnom;
+sub six-ar by six-ar.dnom;
+sub seven-ar by seven-ar.dnom;
+sub eight-ar by eight-ar.dnom;
+sub nine-ar by nine-ar.dnom;
+sub zero-persian by zero-persian.dnom;
+sub one-persian by one-persian.dnom;
+sub two-persian by two-persian.dnom;
+sub three-persian by three-persian.dnom;
+sub four-persian by four-persian.dnom;
+sub five-persian by five-persian.dnom;
+sub six-persian by six-persian.dnom;
+sub seven-persian by seven-persian.dnom;
+sub eight-persian by eight-persian.dnom;
+sub nine-persian by nine-persian.dnom;
+
+} dnom;
+
 feature onum {
 
 sub one-ar by one-ar.osf;

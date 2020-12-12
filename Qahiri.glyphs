@@ -311,6 +311,14 @@ name = ss02;
 notes = "featureNames {\012	name 3 1 0x409 \"Rounded Dots\";\012	name 3 1 0xC01 \"نقاط مستديرة\";\012};\012";
 },
 {
+code = "";
+name = numr;
+},
+{
+code = "";
+name = dnom;
+},
+{
 automatic = 1;
 code = "sub one-ar by one-ar.osf;
 sub two-ar by two-ar.osf;
@@ -11884,7 +11892,7 @@ nodes = (
 );
 }
 );
-width = 40;
+width = 80;
 }
 );
 unicode = 2044;

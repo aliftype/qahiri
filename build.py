@@ -25,7 +25,7 @@ from fontTools.misc.transform import Identity, Transform
 from fontTools.pens.reverseContourPen import ReverseContourPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import newTable
-from glyphsLib import GSAnchor, GSFont
+from glyphsLib import GSAnchor, GSComponent, GSFont, GSGlyph, GSLayer
 from glyphsLib.builder.constants import CODEPAGE_RANGES
 from glyphsLib.glyphdata import get_glyph as getGlyphInfo
 from pathops import Path, PathPen
@@ -290,7 +290,6 @@ def build(instance, opts):
 
     fea, marks = makeFeatures(instance, source)
 
-    glyphOrder = []
     advanceWidths = {}
     characterMap = {}
     charStrings = {}
@@ -333,7 +332,6 @@ def build(instance, opts):
             continue
         name = glyph.name
 
-        glyphOrder.append(name)
         for code in glyph.unicodes:
             characterMap[int(code, 16)] = name
 
@@ -355,10 +353,6 @@ def build(instance, opts):
         # Build CharString.
         charStrings[name] = T2CharString(program=program)
         advanceWidths[name] = width
-
-    # Make sure .notdef is glyph index 0.
-    glyphOrder.pop(glyphOrder.index(".notdef"))
-    glyphOrder.insert(0, ".notdef")
 
     version = float(opts.version)
     vendor = font.customParameters["vendorID"]
@@ -383,7 +377,7 @@ def build(instance, opts):
     date = int(font.date.timestamp()) - epoch_diff
     fb = FontBuilder(font.upm, isTTF=False)
     fb.updateHead(fontRevision=version, created=date, modified=date)
-    fb.setupGlyphOrder(glyphOrder)
+    fb.setupGlyphOrder(font.glyphOrder)
     fb.setupCharacterMap(characterMap)
     fb.setupNameTable(names, mac=False)
     fb.setupHorizontalHeader(
@@ -473,6 +467,49 @@ def prepare(font):
             continue
         for layer in glyph.layers:
             propogateAnchors(layer)
+
+    numbers = {
+        "zero",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+    }
+    glyphOrder = [g.name for g in font.glyphs]
+    font.glyphOrder = [".notdef"]
+    for name in glyphOrder:
+        glyph = font.glyphs[name]
+        if not glyph.export or name == ".notdef":
+            continue
+
+        font.glyphOrder.append(name)
+        if "." in name or name.split("-")[0] not in numbers:
+            continue
+
+        for tag in ["numr", "dnom"]:
+            newGlyph = GSGlyph(f"{name}.{tag}")
+            font.glyphOrder.append(newGlyph.name)
+
+            font.glyphs.append(newGlyph)
+            for feature in font.features:
+                if feature.name == tag:
+                    feature.code += f"sub {name} by {newGlyph.name};\n"
+
+            newLayer = GSLayer()
+            newLayer.name = glyph.layers[0].name
+            newLayer.associatedMasterId = glyph.layers[0].associatedMasterId
+            newGlyph.layers[newLayer.associatedMasterId] = newLayer
+
+            scale = 0.7
+            offset = 0 if tag == "dnom" else 300
+            newComponent = GSComponent(name, (0, offset), (scale, scale))
+            newLayer.components.append(newComponent)
+            newLayer.width = ((glyph.layers[0].width - 40) * scale) + 40
 
 
 def main():
