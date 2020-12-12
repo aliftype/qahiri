@@ -48,7 +48,7 @@ text.
 
 ### Installing on mobile devices
 The application works also offline, and supports mobile browsers and small
-screens. It is also possioble to add the application to the home screen for
+screens. It is also possible to add the application to the home screen for
 quick access without opining the browser.
 
 On Android devices, open the [application web page][4] in _Google Chrome_ and
