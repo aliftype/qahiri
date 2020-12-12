@@ -29,14 +29,9 @@ DIST = $(NAME)-$(VERSION)
 
 all: $(NAME)-Regular.otf
 
-$(BUILDDIR)/%.otf: $(NAME).glyphs $(CONFIG)
+%.otf: $(NAME).glyphs $(CONFIG)
 	$(info   BUILD  $(@F))
-	mkdir -p $(BUILDDIR)
 	python build.py $< $(VERSION) $@
-
-%.otf: $(BUILDDIR)/%.otf
-	$(info   SUBR   $(@F))
-	python -m cffsubr --cff-version 1 -o $@ $<
 
 %.ttf: %.otf
 	$(info   BUILD  $(@F))

@@ -35,6 +35,8 @@ from psautohint import hint_bez_glyph
 from psautohint.ufoFont import BezPen
 from psautohint.otfFont import convertBezToT2
 
+from cffsubr import subroutinize
+
 
 class DecomposePathPen(PathPen):
     def __new__(cls, *args, **kwargs):
@@ -443,6 +445,8 @@ def build(instance, opts):
     fb.font["meta"] = meta
 
     fb.addOpenTypeFeatures(fea)
+
+    subroutinize(fb.font)
 
     return fb.font
 
