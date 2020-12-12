@@ -6700,6 +6700,7 @@ nodes = (
 width = 296;
 }
 );
+rightKerningGroup = qaf;
 unicode = 066F;
 },
 {
@@ -6728,6 +6729,7 @@ width = 256;
 }
 );
 leftKerningGroup = waw;
+rightKerningGroup = qaf;
 },
 {
 color = 0;
@@ -14852,6 +14854,9 @@ kerning = {
 "lam_alef-ar.fina.3" = -50;
 "lam_alef-ar.fina.4" = -80;
 "lam_alef-ar.fina.5" = -80;
+};
+"@MMK_L_qaf" = {
+"qafDotless-ar" = 40;
 };
 "@MMK_L_reh" = {
 "alefMaksura-ar" = 63;
