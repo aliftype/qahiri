@@ -36,6 +36,7 @@ all: $(NAME)-Regular.otf
 %.ttf: %.otf
 	$(info   BUILD  $(@F))
 	python otf2ttf.py $< -o $@ --post-format 3
+	gftools fix-font $@ -o $@
 
 dist: all
 	$(info   DIST   $(DIST).zip)
