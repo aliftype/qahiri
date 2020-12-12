@@ -14075,6 +14075,46 @@ width = 162;
 unicode = 203A;
 },
 {
+glyphname = quotedbl;
+layers = (
+{
+components = (
+{
+name = quotesingle;
+},
+{
+name = quotesingle;
+transform = "{1, 0, 0, 1, 80, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 160;
+}
+);
+unicode = 0022;
+},
+{
+glyphname = quotesingle;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"40 560 LINE",
+"0 560 LINE",
+"0 325 LINE",
+"40 325 LINE"
+);
+}
+);
+width = 80;
+}
+);
+unicode = 0027;
+},
+{
 glyphname = "fullstop-ar";
 layers = (
 {
