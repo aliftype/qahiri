@@ -6,8 +6,7 @@ Following the convention of naming Kufic styles after the cities they appeared
 in, _Qahiri_ (قاهري) is named after the city of Cairo, Egypt (القاهرة).
 
 _Qahiri_ is a free and open source project, any one is welcomed to use and
-modify it under the terms of the [version 3 of GNU Affero General Public
-License][5].
+modify it under the terms of the [version 1.1 of SIL Open Font License][5].
 
 ## The app
 The font provides many alternate shapes for many of its glyphs, which should be
@@ -97,4 +96,4 @@ works with one line at a time.
 [2]: https://ar.wikipedia.org/wiki/محمد_عبد_القادر_عبد_الله_(خطاط)
 [3]: https://github.com/alif-type/qahiri/releases/latest
 [4]: https://aliftype.com/qahiri/app/
-[5]: https://github.com/alif-type/qahiri/blob/master/LICENSE
+[5]: https://github.com/alif-type/qahiri/blob/master/OFL.txt
