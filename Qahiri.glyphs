@@ -14022,7 +14022,7 @@ nodes = (
 width = 170;
 }
 );
-unicode = "002D,2010,2011";
+unicode = "002D,2010,2011,00AD";
 },
 {
 glyphname = endash;
