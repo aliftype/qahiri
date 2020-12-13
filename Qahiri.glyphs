@@ -1843,34 +1843,35 @@ paths = (
 {
 closed = 1;
 nodes = (
-"270 0 LINE",
-"218 90 LINE",
-"207 75 OFFCURVE",
-"190 70 OFFCURVE",
-"170 70 CURVE",
-"56 70 LINE",
-"93 66 LINE",
-"278 268 LINE",
-"165 252 LINE",
-"61 149 OFFCURVE",
-"0 85 OFFCURVE",
-"0 40 CURVE",
-"0 15 OFFCURVE",
-"15 0 OFFCURVE",
-"38 0 CURVE SMOOTH"
+"257 0 LINE",
+"205 90 LINE",
+"194 75 OFFCURVE",
+"177 70 OFFCURVE",
+"157 70 CURVE",
+"80 70 LINE",
+"15 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"143 198 LINE",
-"278.124 268.469 LINE",
-"21.867 268.321 LINE",
-"0 198 LINE"
+"190 160 LINE",
+"265 230 LINE",
+"44 230 LINE",
+"22 160 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"22 0 LINE",
+"271 230 LINE",
+"252 230 LINE",
+"0 0 LINE"
 );
 }
 );
-width = 318;
+width = 311;
 }
 );
 unicode = "007A,005A";
