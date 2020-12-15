@@ -540,8 +540,8 @@ def prepare(font, isTTF):
                     feature.code += f"sub {name} by {newGlyph.name};\n"
 
             newLayer = GSLayer()
-            newLayer.name = glyph.layers[0].name
             newLayer.associatedMasterId = glyph.layers[0].associatedMasterId
+            newLayer.layerId = glyph.layers[0].layerId
             newGlyph.layers[newLayer.associatedMasterId] = newLayer
 
             scale = 0.7
