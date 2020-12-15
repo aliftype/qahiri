@@ -13,36 +13,31 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-import argparse
 import re
 
-from cffsubr import subroutinize
 from fontTools.fontBuilder import FontBuilder
 from fontTools.misc.fixedTools import otRound
-from fontTools.misc.psCharStrings import T2CharString
 from fontTools.misc.timeTools import epoch_diff
 from fontTools.misc.transform import Identity, Transform
-from fontTools.pens.reverseContourPen import ReverseContourPen
-from fontTools.pens.transformPen import TransformPen
+from fontTools.pens.boundsPen import BoundsPen
 from fontTools.ttLib import newTable
 from glyphsLib import GSAnchor, GSComponent, GSFont, GSGlyph, GSLayer
 from glyphsLib.builder.constants import CODEPAGE_RANGES
 from glyphsLib.glyphdata import get_glyph as getGlyphInfo
 from pathops import Path, PathPen
-from psautohint import hint_bez_glyph
-from psautohint.otfFont import convertBezToT2
-from psautohint.ufoFont import BezPen
 
 
 class DecomposePathPen(PathPen):
     def __new__(cls, *args, **kwargs):
-        kwargs.pop("layerSet")
         return super().__new__(cls, *args, **kwargs)
 
     def __init__(self, path, layerSet):
         self._layerSet = layerSet
 
     def addComponent(self, name, transform):
+        from fontTools.pens.reverseContourPen import ReverseContourPen
+        from fontTools.pens.transformPen import TransformPen
+
         pen = self
         if transform != Identity:
             pen = TransformPen(pen, transform)
@@ -284,15 +279,11 @@ def calcBits(bits, start, end):
     return b
 
 
-def build(instance, opts):
+def build(instance, isTTF, version):
     font = instance.parent
     source = font.masters[0]
 
     fea, marks = makeFeatures(instance, source)
-
-    advanceWidths = {}
-    characterMap = {}
-    charStrings = {}
 
     source.blueValues = []
     source.otherBlues = []
@@ -326,9 +317,25 @@ def build(instance, opts):
         BlueFuzz 1
     """
 
+    characterMap = {}
+    glyphs = {}
+    metrics = {}
     layerSet = {g.name: g.layers[source.id] for g in font.glyphs}
+
+    if isTTF:
+        from fontTools.pens.cu2quPen import Cu2QuPen
+        from fontTools.pens.recordingPen import RecordingPen
+
+        for glyph in font.glyphs:
+            layer = glyph.layers[source.id]
+            pen = RecordingPen()
+            layer.draw(pen)
+            layer.paths = []
+            layer.components = []
+            pen.replay(Cu2QuPen(layer.getPen(), 1.0, reverse_direction=True))
+
     for glyph in font.glyphs:
-        if not glyph.export:
+        if not glyph.export and not isTTF:
             continue
         name = glyph.name
 
@@ -338,23 +345,43 @@ def build(instance, opts):
         layer = glyph.layers[source.id]
         width = 0 if name in marks else layer.width
 
-        # Draw glyph and remove overlaps.
-        path = Path()
-        layer.draw(DecomposePathPen(path, layerSet=layerSet))
-        path.simplify(fix_winding=True, keep_starting_points=True)
+        pen = BoundsPen(layerSet)
+        layer.draw(pen)
+        metrics[name] = (width, pen.bounds[0] if pen.bounds else 0)
 
-        # Autohint.
-        pen = BezPen(None, True)
-        path.draw(pen)
-        bez = "\n".join(["% " + name, "sc", *pen.bez, "ed", ""])
-        hinted = hint_bez_glyph(fontinfo, bez)
-        program = [width] + convertBezToT2(hinted)
+        if isTTF:
+            from fontTools.pens.ttGlyphPen import TTGlyphPen
 
-        # Build CharString.
-        charStrings[name] = T2CharString(program=program)
-        advanceWidths[name] = width
+            pen = TTGlyphPen(layerSet)
+            if layer.paths:
+                path = Path()
+                layer.draw(DecomposePathPen(path, layerSet))
+                path.simplify(fix_winding=True, keep_starting_points=True)
+                path.draw(pen)
+            else:
+                layer.draw(pen)
+            glyphs[name] = pen.glyph()
+        else:
+            from fontTools.misc.psCharStrings import T2CharString
+            from psautohint import hint_bez_glyph
+            from psautohint.otfFont import convertBezToT2
+            from psautohint.ufoFont import BezPen
 
-    version = float(opts.version)
+            # Draw glyph and remove overlaps.
+            path = Path()
+            layer.draw(DecomposePathPen(path, layerSet))
+            path.simplify(fix_winding=True, keep_starting_points=True)
+
+            # Autohint.
+            pen = BezPen(None, True)
+            path.draw(pen)
+            bez = "\n".join(["% " + name, "sc", *pen.bez, "ed", ""])
+            hinted = hint_bez_glyph(fontinfo, bez)
+            program = [width] + convertBezToT2(hinted)
+
+            # Build CharString.
+            glyphs[name] = T2CharString(program=program)
+
     vendor = font.customParameters["vendorID"]
     names = {
         "copyright": font.copyright,
@@ -375,7 +402,7 @@ def build(instance, opts):
     }
 
     date = int(font.date.timestamp()) - epoch_diff
-    fb = FontBuilder(font.upm, isTTF=False)
+    fb = FontBuilder(font.upm, isTTF=isTTF)
     fb.updateHead(fontRevision=version, created=date, modified=date)
     fb.setupGlyphOrder(font.glyphOrder)
     fb.setupCharacterMap(characterMap)
@@ -386,27 +413,27 @@ def build(instance, opts):
         lineGap=source.customParameters["typoLineGap"],
     )
 
-    privateDict = {
-        "BlueValues": source.blueValues,
-        "OtherBlues": source.otherBlues,
-        "StemSnapH": source.horizontalStems,
-        "StemSnapV": source.verticalStems,
-        "StdHW": source.horizontalStems[0],
-        "StdVW": source.verticalStems[0],
-    }
+    if isTTF:
+        fb.setupGlyf(glyphs)
+    else:
+        privateDict = {
+            "BlueValues": source.blueValues,
+            "OtherBlues": source.otherBlues,
+            "StemSnapH": source.horizontalStems,
+            "StemSnapV": source.verticalStems,
+            "StdHW": source.horizontalStems[0],
+            "StdVW": source.verticalStems[0],
+        }
 
-    fontInfo = {
-        "FullName": names["fullName"],
-        "Notice": names["copyright"].replace("©", "\(c\)"),
-        "version": f"{version:07.03f}",
-        "Weight": instance.name,
-    }
-    fb.setupCFF(names["psName"], fontInfo, charStrings, privateDict)
+        fontInfo = {
+            "FullName": names["fullName"],
+            "Notice": names["copyright"].replace("©", "\(c\)"),
+            "version": f"{version:07.03f}",
+            "Weight": instance.name,
+        }
 
-    metrics = {}
-    for i, (name, width) in enumerate(advanceWidths.items()):
-        bounds = charStrings[name].calcBounds(None) or [0]
-        metrics[name] = (width, bounds[0])
+        fb.setupCFF(names["psName"], fontInfo, glyphs, privateDict)
+
     fb.setupHorizontalMetrics(metrics)
 
     codePages = [CODEPAGE_RANGES[v] for v in font.customParameters["codePageRanges"]]
@@ -428,15 +455,31 @@ def build(instance, opts):
 
     ut = int(source.customParameters["underlineThickness"])
     up = int(source.customParameters["underlinePosition"])
-    fb.setupPost(underlineThickness=ut, underlinePosition=up + ut // 2)
+    fb.setupPost(
+        keepGlyphNames=False, underlineThickness=ut, underlinePosition=up + ut // 2
+    )
 
-    meta = newTable("meta")
+    fb.font["meta"] = meta = newTable("meta")
     meta.data = {"dlng": "Arab", "slng": "Arab"}
-    fb.font["meta"] = meta
 
     fb.addOpenTypeFeatures(fea)
 
-    subroutinize(fb.font)
+    if isTTF:
+        from fontTools.ttLib.tables import ttProgram
+
+        fb.setupDummyDSIG()
+
+        fb.font["gasp"] = gasp = newTable("gasp")
+        gasp.gaspRange = {0xFFFF: 15}
+
+        fb.font["prep"] = prep = newTable("prep")
+        prep.program = ttProgram.Program()
+        assembly = ["PUSHW[]", "511", "SCANCTRL[]", "PUSHB[]", "4", "SCANTYPE[]"]
+        prep.program.fromAssembly(assembly)
+    else:
+        from cffsubr import subroutinize
+
+        subroutinize(fb.font)
 
     return fb.font
 
@@ -461,7 +504,7 @@ def propogateAnchors(layer):
             layer.anchors[name] = new
 
 
-def prepare(font):
+def prepare(font, isTTF):
     for glyph in font.glyphs:
         if glyph.color == 0:
             continue
@@ -484,7 +527,9 @@ def prepare(font):
     font.glyphOrder = [".notdef"]
     for name in glyphOrder:
         glyph = font.glyphs[name]
-        if not glyph.export or name == ".notdef":
+        if not glyph.export and not isTTF:
+            continue
+        if name == ".notdef":
             continue
 
         font.glyphOrder.append(name)
@@ -513,17 +558,25 @@ def prepare(font):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Build Rana Kufi.")
-    parser.add_argument("glyphs", help="input Glyphs source file")
-    parser.add_argument("version", help="font version")
-    parser.add_argument("otf", help="output OTF file")
+    from argparse import ArgumentParser
+    from pathlib import Path
+
+    parser = ArgumentParser(description="Build Qahiri font.")
+    parser.add_argument("input", help="input Glyphs source file", type=Path)
+    parser.add_argument("version", help="font version", type=float)
+    parser.add_argument("output", help="output font file", type=Path)
     args = parser.parse_args()
 
-    font = GSFont(args.glyphs)
-    prepare(font)
+    isTTF = False
+    if args.output.suffix == ".ttf":
+        isTTF = True
+
+    font = GSFont(args.input)
+    prepare(font, isTTF)
     instance = font.instances[0]  # XXX
-    otf = build(instance, args)
-    otf.save(args.otf)
+
+    otf = build(instance, isTTF, args.version)
+    otf.save(args.output)
 
 
 main()

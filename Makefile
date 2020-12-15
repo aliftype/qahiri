@@ -27,16 +27,15 @@ DIST = $(NAME)-$(VERSION)
 .ONESHELL:
 .PHONY: all dist
 
-all: $(NAME)-Regular.otf
+all: $(NAME)-Regular.otf $(NAME)-Regular.ttf
 
 %.otf: $(NAME).glyphs $(CONFIG)
 	$(info   BUILD  $(@F))
 	python build.py $< $(VERSION) $@
 
-%.ttf: %.otf
+%.ttf: $(NAME).glyphs $(CONFIG)
 	$(info   BUILD  $(@F))
-	python otf2ttf.py $< -o $@ --post-format 3
-	gftools fix-font $@ -o $@
+	python build.py $< $(VERSION) $@
 
 dist: all
 	$(info   DIST   $(DIST).zip)
