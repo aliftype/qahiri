@@ -354,33 +354,27 @@ def build(instance, isTTF, version):
 
             pen = TTGlyphPen(layerSet)
             if layer.paths:
+                # Decompose and remove overlaps.
                 path = Path()
                 layer.draw(DecomposePathPen(path, layerSet))
                 path.simplify(fix_winding=True, keep_starting_points=True)
                 path.draw(pen)
             else:
+                # Composite-only glyph, no need to decompose.
                 layer.draw(pen)
             glyphs[name] = pen.glyph()
         else:
-            from fontTools.misc.psCharStrings import T2CharString
-            from psautohint import hint_bez_glyph
-            from psautohint.otfFont import convertBezToT2
-            from psautohint.ufoFont import BezPen
+            from fontTools.pens.t2CharStringPen import T2CharStringPen
 
             # Draw glyph and remove overlaps.
             path = Path()
             layer.draw(DecomposePathPen(path, layerSet))
             path.simplify(fix_winding=True, keep_starting_points=True)
 
-            # Autohint.
-            pen = BezPen(None, True)
-            path.draw(pen)
-            bez = "\n".join(["% " + name, "sc", *pen.bez, "ed", ""])
-            hinted = hint_bez_glyph(fontinfo, bez)
-            program = [width] + convertBezToT2(hinted)
-
             # Build CharString.
-            glyphs[name] = T2CharString(program=program)
+            pen = T2CharStringPen(width, None)
+            path.draw(pen)
+            glyphs[name] = pen.getCharString()
 
     vendor = font.customParameters["vendorID"]
     names = {

@@ -1,6 +1,5 @@
 cffsubr
-fonttools[ufo,lxml]
+fonttools
 glyphsLib
-psautohint
 skia-pathops
 PyYAML
