@@ -464,10 +464,12 @@ def build(instance, isTTF, version):
         ulCodePageRange1=calcBits(codePages, 0, 32),
     )
 
-    ut = int(source.customParameters["underlineThickness"])
-    up = int(source.customParameters["underlinePosition"])
+    underlineThickness = int(source.customParameters["underlineThickness"])
+    underlinePosition = int(source.customParameters["underlinePosition"])
     fb.setupPost(
-        keepGlyphNames=False, underlineThickness=ut, underlinePosition=up + ut // 2
+        keepGlyphNames=False,
+        underlineThickness=underlineThickness,
+        underlinePosition=underlinePosition + underlineThickness // 2,
     )
 
     fb.font["meta"] = meta = newTable("meta")
