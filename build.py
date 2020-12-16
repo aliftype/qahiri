@@ -19,7 +19,9 @@ from fontTools.fontBuilder import FontBuilder
 from fontTools.misc.fixedTools import otRound
 from fontTools.misc.timeTools import epoch_diff
 from fontTools.misc.transform import Identity, Transform
+from fontTools.pens.basePen import BasePen
 from fontTools.pens.boundsPen import BoundsPen
+from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import newTable
 from glyphsLib import GSAnchor, GSComponent, GSFont, GSGlyph, GSLayer
 from glyphsLib.builder.constants import CODEPAGE_RANGES
@@ -36,7 +38,6 @@ class DecomposePathPen(PathPen):
 
     def addComponent(self, name, transform):
         from fontTools.pens.reverseContourPen import ReverseContourPen
-        from fontTools.pens.transformPen import TransformPen
 
         pen = self
         if transform != Identity:
@@ -45,6 +46,22 @@ class DecomposePathPen(PathPen):
             if xx * yy - xy * yx < 0:
                 pen = ReverseContourPen(pen)
         self._layerSet[name].draw(pen)
+
+
+class FlattenComponentsPen(BasePen):
+    def __init__(self, pen, glyphSet):
+        super().__init__(glyphSet)
+        self.pen = pen
+
+    def addComponent(self, name, transform):
+        layer = self.glyphSet[name]
+        pen = self.pen
+        if layer.components and not layer.paths:
+            if transform != Identity:
+                pen = TransformPen(pen, transform)
+            layer.draw(FlattenComponentsPen(pen, self.glyphSet))
+        else:
+            pen.addComponent(name, transform)
 
 
 def makeKerning(font, source):
@@ -361,7 +378,7 @@ def build(instance, isTTF, version):
                 path.draw(pen)
             else:
                 # Composite-only glyph, no need to decompose.
-                layer.draw(pen)
+                layer.draw(FlattenComponentsPen(pen, layerSet))
             glyphs[name] = pen.glyph()
         else:
             from fontTools.pens.t2CharStringPen import T2CharStringPen
