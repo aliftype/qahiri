@@ -41,4 +41,5 @@ dist: all
 	$(info   DIST   $(DIST).zip)
 	install -Dm644 -t $(DIST) $(NAME)-Regular.otf
 	install -Dm644 -t $(DIST) {README,README-Arabic}.txt
+	install -Dm644 -t $(DIST) OFL.txt
 	zip -rq $(DIST).zip $(DIST)
