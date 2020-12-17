@@ -398,9 +398,9 @@ def build(instance, isTTF, version):
         "copyright": font.copyright,
         "familyName": instance.familyName,
         "styleName": instance.name,
-        "uniqueFontIdentifier": f"{version:.03f};{vendor};{instance.fontName}",
+        "uniqueFontIdentifier": f"{version};{vendor};{instance.fontName}",
         "fullName": instance.fullName,
-        "version": f"Version {version:.03f}",
+        "version": f"Version {version}",
         "psName": instance.fontName,
         "manufacturer": font.manufacturer,
         "designer": font.designer,
@@ -439,7 +439,7 @@ def build(instance, isTTF, version):
         fontInfo = {
             "FullName": names["fullName"],
             "Notice": names["copyright"].replace("©", "\(c\)"),
-            "version": f"{version:07.03f}",
+            "version": f"{version}",
             "Weight": instance.name,
         }
 
