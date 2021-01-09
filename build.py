@@ -424,8 +424,21 @@ def build(instance, isTTF, version):
         lineGap=source.customParameters["typoLineGap"],
     )
 
+    fb.setupHorizontalMetrics(metrics)
+
     if isTTF:
+        from fontTools.ttLib.removeOverlaps import componentsOverlap
+        from fontTools.ttLib.tables._g_l_y_f import OVERLAP_COMPOUND
+
         fb.setupGlyf(glyphs)
+
+        # Set OVERLAP_COMPOUND flag on composite glyphs with overlapping
+        # components.
+        glyphSet = fb.font.getGlyphSet()
+        for name in glyphs:
+            glyph = glyphs[name]
+            if glyph.isComposite() and componentsOverlap(glyph, glyphSet):
+                glyph.components[0].flags |= OVERLAP_COMPOUND
     else:
         privateDict = {
             "BlueValues": source.blueValues,
@@ -444,8 +457,6 @@ def build(instance, isTTF, version):
         }
 
         fb.setupCFF(names["psName"], fontInfo, glyphs, privateDict)
-
-    fb.setupHorizontalMetrics(metrics)
 
     codePages = [CODEPAGE_RANGES[v] for v in font.customParameters["codePageRanges"]]
     fb.setupOS2(
