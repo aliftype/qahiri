@@ -1,5 +1,5 @@
 {
-.appVersion = "1352";
+.appVersion = "1350";
 classes = (
 {
 code = "/.*dot.*.-ar$/";
@@ -14489,7 +14489,7 @@ glyphname = space.latn;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 200;
+width = 80;
 }
 );
 },
