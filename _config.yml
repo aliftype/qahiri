@@ -1,4 +1,4 @@
-version: 1.01 # Increment only when tagging release, download link uses it.
+version: "2.00" # Increment only when tagging release, download link uses it.
 title: Qahiri
 title_ar: قاهري
 description: A manuscript Kufic typeface

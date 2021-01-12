@@ -414,7 +414,7 @@ def build(instance, isTTF, version):
 
     date = int(font.date.timestamp()) - epoch_diff
     fb = FontBuilder(font.upm, isTTF=isTTF)
-    fb.updateHead(fontRevision=version, created=date, modified=date)
+    fb.updateHead(fontRevision=float(version), created=date, modified=date)
     fb.setupGlyphOrder(font.glyphOrder)
     fb.setupCharacterMap(characterMap)
     fb.setupNameTable(names, mac=False)
@@ -587,7 +587,7 @@ def main():
 
     parser = ArgumentParser(description="Build Qahiri font.")
     parser.add_argument("input", help="input Glyphs source file", type=Path)
-    parser.add_argument("version", help="font version", type=float)
+    parser.add_argument("version", help="font version", type=str)
     parser.add_argument("output", help="output font file", type=Path)
     args = parser.parse_args()
 
