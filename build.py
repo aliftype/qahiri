@@ -209,6 +209,7 @@ def makeFeatures(instance, source):
                 newGlyph.category = "Other"
                 gclass.code += f" {newGlyph.name}"
                 font.glyphOrder.append(newGlyph.name)
+                font.tempGlyphs.append(newGlyph.name)
                 font.glyphs.append(newGlyph)
 
                 glyph = font.glyphs[name]
@@ -507,6 +508,24 @@ def build(instance, isTTF, version):
 
     fb.addOpenTypeFeatures(fea)
 
+    if font.tempGlyphs:
+        from fontTools import subset
+
+        fb.font.allowVID = True
+        for glyphName in font.tempGlyphs:
+            glyphID = fb.font.getGlyphID(glyphName)
+            fb.font.reverseVIDDict[glyphName] = glyphID
+            fb.font.VIDDict[glyphID] = glyphName
+
+        options = subset.Options()
+        options.set(layout_features='*', name_IDs='*', name_languages='*',
+            notdef_outline=True, glyph_names=True, passthrough_tables=True,
+            layout_closure=False, no_subset_tables=["GSUB", "GPOS", "GDEF"],
+            recalc_average_width=True)
+        subsetter = subset.Subsetter(options=options)
+        subsetter.populate(glyphs=set(font.glyphOrder) - set(font.tempGlyphs))
+        subsetter.subset(fb.font)
+
     if isTTF:
         from fontTools.ttLib.tables import ttProgram
 
@@ -566,6 +585,7 @@ def prepare(font, isTTF):
         "eight",
         "nine",
     }
+    font.tempGlyphs = []
     glyphOrder = [g.name for g in font.glyphs]
     font.glyphOrder = [".notdef"]
     for name in glyphOrder:
