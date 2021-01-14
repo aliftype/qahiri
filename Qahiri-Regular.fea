@@ -367,7 +367,7 @@ script latn;
   sub y from [y y.1];
 } salt;
 
-feature dist {
+feature clig {
 
 @TwoDotsAbove = [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1];
 lookupflag UseMarkFilteringSet @TwoDotsAbove;
@@ -403,7 +403,7 @@ lookup ShortLamTah {
 } ShortLamTah;
 
 
-} dist;
+} clig;
 markClass tahabove-ar <anchor 74 0> @mark_top;
 markClass dotabove-ar <anchor 17 0> @mark_top;
 markClass dotabove-ar.alt1 <anchor 29 0> @mark_top;

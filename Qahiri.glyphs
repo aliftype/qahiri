@@ -431,7 +431,7 @@ lookup ShortLamTah {
 } ShortLamTah;
 
 ";
-name = dist;
+name = clig;
 },
 {
 code = "@RehWaw = [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1 waw-ar waw-ar.1 waw-ar.2 waw-ar.3 waw-ar.fina waw-ar.fina.1];
