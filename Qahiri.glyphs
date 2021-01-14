@@ -30,8 +30,22 @@ code = "hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3 hah-ar.fina.1";
 name = HahAlt;
 },
 {
+code = "hah-ar.medi.1.Temp hah-ar.medi.2.Temp hah-ar.medi.3.Temp";
+name = HahAltTemp;
+},
+{
 code = "/.*\\.medi.*/ kashida-ar";
 name = AllMedi;
+},
+{
+automatic = 1;
+code = "";
+name = AllMediTemp;
+},
+{
+automatic = 1;
+code = "";
+name = AllMediTemp2;
 }
 );
 copyright = "Copyright 2021 The Qahiri Project Authors (github.com/alif-type/qahiri).";
@@ -126,21 +140,6 @@ lookup ToothYeh {
  sub lam-ar.medi         by lam-ar.medi.yeh;
  sub behDotless-ar.medi  by behDotless-ar.medi.yeh;
 } ToothYeh;
-
-lookup ShortLamTah {
-  sub lam-ar.init by lam-ar.init.short;
-  sub lam-ar.medi by lam-ar.medi.short;
-  sub tah-ar.medi by tah-ar.medi.short;
-  sub tah-ar.init by tah-ar.init.short;
-} ShortLamTah;
-
-lookup ShortLamTah2 {
-  sub lam-ar.init by lam-ar.init.short2;
-  sub lam-ar.medi by lam-ar.medi.short2;
-  sub lam-ar.init.hah by lam-ar.init.hah2;
-  sub tah-ar.medi by tah-ar.medi.short2;
-  sub tah-ar.init by tah-ar.init.short2;
-} ShortLamTah2;
 
 lookup InsertKashida {
   sub behDotless-ar.medi by behDotless-ar.medi kashida-ar;
@@ -414,56 +413,24 @@ lookupflag IgnoreMarks;
   sub [behDotless-ar.init.hah lam-ar.init.hah]' lookup AboveHahReverse
       [hah-ar.medi hah-ar.fina]'                lookup AboveHahReverse;
 
-@Ascender = [lam-ar.init lam-ar.init.hah lam-ar.medi tah-ar.medi tah-ar.init];
-  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @HahAlt @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @HahAlt @HahAlt;
+# Mark first level.
+lookup Temp1 { rsub @AllMedi'     [@HahAlt @AllMediTemp]      by @AllMediTemp;  } Temp1;
 
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @HahAlt @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @HahAlt @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @HahAlt @HahAlt;
+# Mark second level.
+lookup Temp2 { rsub @AllMediTemp' [@HahAltTemp @AllMediTemp2] by @AllMediTemp2; } Temp2;
 
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @HahAlt @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @HahAlt @HahAlt;
+lookup ShortLamTah {
+  # Replace ascender glyphs with shorter versions.
+  sub  [lam-ar.init tah-ar.init lam-ar.init.hah]' @AllMediTemp  by [lam-ar.init.short tah-ar.init.short lam-ar.init.hah2];
+  sub  [lam-ar.init tah-ar.init lam-ar.init.hah]' @AllMediTemp2 by [lam-ar.init.short2 tah-ar.init.short2 lam-ar.init.hah2];
+  sub  [lam-ar.medi.Temp tah-ar.medi.Temp]'                     by [lam-ar.medi.short tah-ar.medi.short];
+  sub  [lam-ar.medi.Temp2 tah-ar.medi.Temp2]'                   by [lam-ar.medi.short2 tah-ar.medi.short2];
 
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @AllMedi @HahAlt @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @AllMedi @HahAlt @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah2 @AllMedi @AllMedi @AllMedi @HahAlt @HahAlt;
+  # Cleanup temporary glyphs.
+  sub [@AllMediTemp @AllMediTemp2]' by [@AllMedi @AllMedi];
+} ShortLamTah;
 
-  sub  @Ascender' lookup ShortLamTah @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllMedi @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllMedi @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllMedi @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllMedi @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @AllMedi @HahAlt;
-  sub  @Ascender' lookup ShortLamTah @HahAlt;";
+";
 name = dist;
 },
 {

@@ -198,6 +198,25 @@ def makeFeatures(instance, source):
     for gclass in font.classes:
         if gclass.disabled:
             continue
+
+        if gclass.automatic and "Temp" in gclass.name:
+            other, ext1, ext2 = gclass.name.partition("Temp")
+            other = font.classes[other]
+
+            font = instance.parent
+            for name in other.code.split():
+                newGlyph = GSGlyph(f"{name}.{ext1}{ext2}")
+                newGlyph.category = "Other"
+                gclass.code += f" {newGlyph.name}"
+                font.glyphOrder.append(newGlyph.name)
+                font.glyphs.append(newGlyph)
+
+                glyph = font.glyphs[name]
+                newLayer = GSLayer()
+                newLayer.associatedMasterId = glyph.layers[0].associatedMasterId
+                newLayer.layerId = glyph.layers[0].layerId
+                newGlyph.layers[newLayer.associatedMasterId] = newLayer
+
         fea += f"@{gclass.name} = [{gclass.code}];\n"
 
     for prefix in font.featurePrefixes:
