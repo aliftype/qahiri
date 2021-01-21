@@ -2979,7 +2979,7 @@ position = "{190, -35}";
 },
 {
 name = entry;
-position = "{180, 110}";
+position = "{178, 110}";
 },
 {
 name = top;
@@ -3077,7 +3077,7 @@ position = "{110, -35}";
 },
 {
 name = entry;
-position = "{90, 110}";
+position = "{88, 110}";
 },
 {
 name = exit;
@@ -3127,7 +3127,7 @@ position = "{110, -35}";
 },
 {
 name = entry;
-position = "{90, 110}";
+position = "{88, 110}";
 },
 {
 name = exit;
@@ -3177,7 +3177,7 @@ position = "{110, -35}";
 },
 {
 name = entry;
-position = "{90, 110}";
+position = "{88, 110}";
 },
 {
 name = exit;
