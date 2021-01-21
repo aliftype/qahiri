@@ -3097,7 +3097,6 @@ layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 400;
 }
 );
-leftKerningGroup = "hah-ar.init";
 rightKerningGroup = "meem-ar.medi";
 },
 {
@@ -3148,7 +3147,6 @@ layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 420;
 }
 );
-leftKerningGroup = "hah-ar.init";
 rightKerningGroup = "meem-ar.medi";
 },
 {
@@ -3199,7 +3197,6 @@ layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 440;
 }
 );
-leftKerningGroup = "hah-ar.init";
 rightKerningGroup = "meem-ar.medi";
 },
 {
