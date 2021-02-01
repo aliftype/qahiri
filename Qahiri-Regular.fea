@@ -82,7 +82,10 @@ feature ccmp {
   sub noon-ar             by noonghunna-ar dotabove-ar;
   sub hehgoal-ar          by heh-ar;
   sub hehgoalHamzaabove-ar by heh-ar hamzaabove-ar;
+  sub tehMarbuta-ar       by heh-ar twodotshorizontalabove-ar;
   sub tehMarbutagoal-ar   by heh-ar twodotshorizontalabove-ar;
+
+
 } ccmp;
 
 feature locl {
@@ -93,7 +96,6 @@ script latn;
 
 feature isol {
 
-  sub tehMarbuta-ar by heh-ar twodotshorizontalabove-ar;
   sub yeh-ar        by alefMaksura-ar;
   sub yeh-farsi     by alefMaksura-ar;
   sub fehAfrican-ar by fehDotless-ar;
@@ -170,7 +172,6 @@ feature fina {
   sub seen-ar        by seen-ar.fina;
   sub tah-ar         by tah-ar.fina;
   sub waw-ar         by waw-ar.fina;
-  sub tehMarbuta-ar  by heh-ar.fina twodotshorizontalabove-ar;
   sub yeh-ar         by alefMaksura-ar.fina;
   sub yeh-farsi      by alefMaksura-ar.fina;
   sub yehbarree-ar   by alefMaksura-ar.fina.5;

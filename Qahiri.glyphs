@@ -1,5 +1,5 @@
 {
-.appVersion = "1352";
+.appVersion = "1354";
 classes = (
 {
 code = "/.*dot.*.-ar$/";
@@ -189,7 +189,10 @@ code = "  sub alefHamzaabove-ar   by alef-ar hamzaabove-ar;
   sub noon-ar             by noonghunna-ar dotabove-ar;
   sub hehgoal-ar          by heh-ar;
   sub hehgoalHamzaabove-ar by heh-ar hamzaabove-ar;
-  sub tehMarbutagoal-ar   by heh-ar twodotshorizontalabove-ar;";
+  sub tehMarbuta-ar       by heh-ar twodotshorizontalabove-ar;
+  sub tehMarbutagoal-ar   by heh-ar twodotshorizontalabove-ar;
+
+";
 name = ccmp;
 },
 {
@@ -198,8 +201,7 @@ code = "script latn;
 name = locl;
 },
 {
-code = "  sub tehMarbuta-ar by heh-ar twodotshorizontalabove-ar;
-  sub yeh-ar        by alefMaksura-ar;
+code = "  sub yeh-ar        by alefMaksura-ar;
   sub yeh-farsi     by alefMaksura-ar;
   sub fehAfrican-ar by fehDotless-ar;
   sub qafAfrican-ar by qafDotless-ar;
@@ -272,7 +274,6 @@ code = "  sub ain-ar         by ain-ar.fina;
   sub seen-ar        by seen-ar.fina;
   sub tah-ar         by tah-ar.fina;
   sub waw-ar         by waw-ar.fina;
-  sub tehMarbuta-ar  by heh-ar.fina twodotshorizontalabove-ar;
   sub yeh-ar         by alefMaksura-ar.fina;
   sub yeh-farsi      by alefMaksura-ar.fina;
   sub yehbarree-ar   by alefMaksura-ar.fina.5;";
