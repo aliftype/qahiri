@@ -548,9 +548,16 @@ def propogateAnchors(layer):
 
 
 def prepare(font, isTTF):
+    glyphOrder = []
+    end = []
     for glyph in font.glyphs:
         if glyph.color == 0:
+            end.append(glyph.name)
+            for layer in glyph.layers:
+                layer.components = []
+                layer.width = 600
             continue
+        glyphOrder.append(glyph.name)
         for layer in glyph.layers:
             propogateAnchors(layer)
 
@@ -566,7 +573,6 @@ def prepare(font, isTTF):
         "eight",
         "nine",
     }
-    glyphOrder = [g.name for g in font.glyphs]
     font.glyphOrder = [".notdef"]
     for name in glyphOrder:
         glyph = font.glyphs[name]
@@ -598,6 +604,8 @@ def prepare(font, isTTF):
             newComponent = GSComponent(name, (0, offset), (scale, scale))
             newLayer.components.append(newComponent)
             newLayer.width = ((glyph.layers[0].width - 40) * scale) + 40
+
+    font.glyphOrder += end
 
 
 def main():
