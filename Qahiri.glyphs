@@ -1,5 +1,5 @@
 {
-.appVersion = "1354";
+.appVersion = "3083";
 classes = (
 {
 code = "/.*dot.*.-ar$/";
@@ -51,10 +51,6 @@ name = AllMediTemp2;
 copyright = "Copyright 2021 The Qahiri Project Authors (github.com/alif-type/qahiri).";
 customParameters = (
 {
-name = vendorID;
-value = ALIF;
-},
-{
 name = fsType;
 value = (
 );
@@ -66,6 +62,10 @@ value = 1;
 {
 name = "Disable Last Change";
 value = 1;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
 },
 {
 name = "Don't use Production Names";
@@ -87,6 +87,10 @@ name = codePageRanges;
 value = (
 1256
 );
+},
+{
+name = vendorID;
+value = ALIF;
 },
 {
 name = license;
@@ -11722,6 +11726,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "four-ar.2";
 transform = "{-1, 0, 0, -1, 210, 350}";
 }
@@ -11753,6 +11758,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = two;
 transform = "{-1, 0, 0, 1, 210, 0}";
 }
@@ -11769,6 +11775,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = nine;
 transform = "{-1, 0, 0, -1, 210, 350}";
 }
@@ -13483,6 +13490,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "six-ar.1";
 transform = "{-1, 0, 0, -1, 210, 350}";
 }
