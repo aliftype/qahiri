@@ -519,10 +519,6 @@ def build(instance, isTTF, version):
         prep.program = ttProgram.Program()
         assembly = ["PUSHW[]", "511", "SCANCTRL[]", "PUSHB[]", "4", "SCANTYPE[]"]
         prep.program.fromAssembly(assembly)
-    else:
-        from cffsubr import subroutinize
-
-        subroutinize(fb.font)
 
     return fb.font
 
