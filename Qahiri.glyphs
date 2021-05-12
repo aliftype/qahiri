@@ -301,7 +301,8 @@ lookupflag 0;
 name = rclt;
 },
 {
-code = "  sub [@Dots hamzaabove-ar hamzabelow-ar hamza-ar] by empty;";
+code = "  sub [@Dots hamzaabove-ar hamzabelow-ar hamza-ar] by NULL;
+";
 name = ss01;
 notes = "featureNames {\012	name 3 1 0x409 \"Dot-less Letter Forms\";\012	name 3 1 0xC01 \"حروف مهملة (بلا نقاط)\";\012};\012";
 },

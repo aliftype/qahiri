@@ -202,7 +202,8 @@ featureNames {
 	name 3 1 0xC01 "حروف مهملة (بلا نقاط)";
 };
 
-  sub [@Dots hamzaabove-ar hamzabelow-ar hamza-ar] by empty;
+  sub [@Dots hamzaabove-ar hamzabelow-ar hamza-ar] by NULL;
+
 } ss01;
 
 feature ss02 {
