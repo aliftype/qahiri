@@ -48,7 +48,7 @@ code = "";
 name = AllMediTemp2;
 }
 );
-copyright = "Copyright 2021 The Qahiri Project Authors (github.com/alif-type/qahiri).";
+copyright = "Copyright 2021 The Qahiri Project Authors (github.com/aliftype/qahiri).";
 customParameters = (
 {
 name = fsType;
