@@ -510,8 +510,6 @@ def build(instance, isTTF, version):
     if isTTF:
         from fontTools.ttLib.tables import ttProgram
 
-        fb.setupDummyDSIG()
-
         fb.font["gasp"] = gasp = newTable("gasp")
         gasp.gaspRange = {0xFFFF: 15}
 
