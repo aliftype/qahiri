@@ -288,8 +288,6 @@ export class View {
     if (!this._manualFontSize) {
       if (window.screen.width < 700)
         fontSize.value = window.screen.width / 7;
-      else
-        fontSize.value = 100;
       document.getElementById("font-size-number").value = fontSize.value;
     }
 
