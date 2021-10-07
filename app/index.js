@@ -17,6 +17,7 @@
  */
 
 import { View } from "./TextView.js"
+import Module from "./hb.js"
 
 if ('serviceWorker' in navigator) {
   window.addEventListener("load", () => {
@@ -26,36 +27,35 @@ if ('serviceWorker' in navigator) {
 
 let fontFile = "./assets/fonts/Qahiri-Regular.otf";
 
-window.Module = {
-  "onRuntimeInitialized": function() {
-    fetch(fontFile).then(function (res) {
-      return res.arrayBuffer();
-    }).then(function (blob) {
-      let view = new View(blob);
-      view.update();
+Module().then(function (m) {
+  window.M = m;
+  fetch(fontFile).then(function (res) {
+    return res.arrayBuffer();
+  }).then(function (blob) {
+    let view = new View(blob);
+    view.update();
 
-      document.getElementById("open").addEventListener("click", e => view.open(e.value));
-      document.getElementById("save").addEventListener("click", e => view.save());
-      document.getElementById("export").addEventListener("click", e => view.export());
-      document.getElementById("clear").addEventListener("click", e => view.clear());
+    document.getElementById("open").addEventListener("click", e => view.open(e.value));
+    document.getElementById("save").addEventListener("click", e => view.save());
+    document.getElementById("export").addEventListener("click", e => view.export());
+    document.getElementById("clear").addEventListener("click", e => view.clear());
 
-      [].forEach.call(document.getElementsByClassName("opts"), function(el) {
-        el.addEventListener("change", e => view.update());
-      });
-
-      let range = document.getElementById("font-size");
-      let number = document.getElementById("font-size-number");
-      range.addEventListener('input', e => {
-        number.value = e.target.value;
-        view.update(true)
-      });
-      number.addEventListener('change', e => {
-        range.value = e.target.value;
-        view.update(true)
-      });
-      window.addEventListener("resize", e => {
-        view.update()
-      });
+    [].forEach.call(document.getElementsByClassName("opts"), function(el) {
+      el.addEventListener("change", e => view.update());
     });
-  }
-};
+
+    let range = document.getElementById("font-size");
+    let number = document.getElementById("font-size-number");
+    range.addEventListener('input', e => {
+      number.value = e.target.value;
+      view.update(true)
+    });
+    number.addEventListener('change', e => {
+      range.value = e.target.value;
+      view.update(true)
+    });
+    window.addEventListener("resize", e => {
+      view.update()
+    });
+  });
+});

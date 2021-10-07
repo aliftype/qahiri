@@ -52,28 +52,28 @@ class Pointer {
   constructor(arg) {
     if (arg instanceof ArrayBuffer) {
       this.byteLength = arg.byteLength;
-      this.ptr = stackAlloc(this.byteLength);
-      HEAPU8.set(new Uint8Array(arg), this.ptr);
+      this.ptr = M.stackAlloc(this.byteLength);
+      M.HEAPU8.set(new Uint8Array(arg), this.ptr);
     } else {
       this.byteLength = arg;
-      this.ptr = stackAlloc(this.byteLength);
+      this.ptr = M.stackAlloc(this.byteLength);
     }
   }
 
-  get int32Array() { return HEAP32.slice(this.ptr / 4, (this.ptr + this.byteLength) / 4); }
-  get uint32()     { return HEAPU32[this.ptr / 4]; }
+  get int32Array() { return M.HEAP32.slice(this.ptr / 4, (this.ptr + this.byteLength) / 4); }
+  get uint32()     { return M.HEAPU32[this.ptr / 4]; }
 }
 
 export class Font {
   constructor(data, dpr) {
     let dataPtr = new Pointer(data);
-    let blob = _hb_blob_create(dataPtr.ptr, dataPtr.byteLength, 2/*writable*/, 0, 0);
-    this.face = _hb_face_create(blob, 0);
-    this.ptr = _hb_font_create(this.face);
-    this.upem = _hb_face_get_upem(this.face);
+    let blob = M._hb_blob_create(dataPtr.ptr, dataPtr.byteLength, 2/*writable*/, 0, 0);
+    this.face = M._hb_face_create(blob, 0);
+    this.ptr = M._hb_font_create(this.face);
+    this.upem = M._hb_face_get_upem(this.face);
 
     let scale = this.upem * dpr;
-    _hb_font_set_scale(this.ptr, scale, scale);
+    M._hb_font_set_scale(this.ptr, scale, scale);
 
     this._outlines = [];
     this._extents = [];
@@ -89,7 +89,7 @@ export class Font {
       return this._extents[glyph];
 
     let extentsPtr = new Pointer(4 * 4);
-    _hb_font_get_glyph_extents(this.ptr, glyph, extentsPtr.ptr);
+    M._hb_font_get_glyph_extents(this.ptr, glyph, extentsPtr.ptr);
 
     let extents = extentsPtr.int32Array;
     this._extents[glyph] = {
@@ -122,44 +122,44 @@ export class Font {
       return outlines[glyph];
 
     if (!this._draw_funcs) {
-      let funcs = this._draw_funcs = _hb_draw_funcs_create();
-      let move_to = addFunction(function(x, y, g) {
+      let funcs = this._draw_funcs = M._hb_draw_funcs_create();
+      let move_to = M.addFunction(function(x, y, g) {
         outlines[g] += `M${x},${-y}`;
       }, "viii");
-      let line_to = addFunction(function(x, y, g) {
+      let line_to = M.addFunction(function(x, y, g) {
         outlines[g] += `L${x},${-y}`;
       }, "viii");
-      let quadratic_to = addFunction(function(x1, y1, x2, y2, g) {
+      let quadratic_to = M.addFunction(function(x1, y1, x2, y2, g) {
         outlines[g] += `Q${x1},${-y1},${x2},${-y2}`;
       }, "viiiii");
-      let cubic_to = addFunction(function(x1, y1, x2, y2, x3, y3, g) {
+      let cubic_to = M.addFunction(function(x1, y1, x2, y2, x3, y3, g) {
         outlines[g] += `C${x1},${-y1},${x2},${-y2},${x3},${-y3}`;
       }, "viiiiiii");
-      let close_path = addFunction(function(g) {
+      let close_path = M.addFunction(function(g) {
         outlines[g] += `Z`
       }, "vi");
 
-      _hb_draw_funcs_set_move_to_func(funcs, move_to);
-      _hb_draw_funcs_set_line_to_func(funcs, line_to);
-      _hb_draw_funcs_set_quadratic_to_func(funcs, quadratic_to);
-      _hb_draw_funcs_set_cubic_to_func(funcs, cubic_to);
-      _hb_draw_funcs_set_close_path_func(funcs, close_path);
+      M._hb_draw_funcs_set_move_to_func(funcs, move_to);
+      M._hb_draw_funcs_set_line_to_func(funcs, line_to);
+      M._hb_draw_funcs_set_quadratic_to_func(funcs, quadratic_to);
+      M._hb_draw_funcs_set_cubic_to_func(funcs, cubic_to);
+      M._hb_draw_funcs_set_close_path_func(funcs, close_path);
     }
 
     outlines[glyph] = "";
     // I’m abusing pointers here to pass the actual glyph id instead of a user
     // data pointer, don’t shot me.
-    _hb_font_draw_glyph(this.ptr, glyph, this._draw_funcs, glyph);
+    M._hb_font_draw_glyph(this.ptr, glyph, this._draw_funcs, glyph);
 
     return outlines[glyph];
   }
 
   _getTable(name, klass) {
     let lenPtr = new Pointer(4);
-    let blob = _hb_face_reference_table(this.face, TAG(name));
-    let data = _hb_blob_get_data(blob, lenPtr.ptr);
+    let blob = M._hb_face_reference_table(this.face, TAG(name));
+    let data = M._hb_blob_get_data(blob, lenPtr.ptr);
     if (lenPtr.uint32 != 0)
-      return new klass(HEAPU8.slice(data, data + lenPtr.uint32));
+      return new klass(M.HEAPU8.slice(data, data + lenPtr.uint32));
     return null;
   }
 
@@ -192,7 +192,7 @@ export class Font {
 
   get extents() {
     let extentsPtr = new Pointer(12 * 4);
-    _hb_font_get_h_extents(this.ptr, extentsPtr.ptr);
+    M._hb_font_get_h_extents(this.ptr, extentsPtr.ptr);
     let extents = extentsPtr.int32Array;
     return {
       ascender: extents[0],
@@ -249,17 +249,17 @@ class Glyph {
 }
 
 export class Buffer {
-  constructor() { this.ptr = _hb_buffer_create(); }
+  constructor() { this.ptr = M._hb_buffer_create(); }
 
   shape(font, text, useFeatures, globalFeatures) {
-    _hb_buffer_clear_contents(this.ptr);
-    _hb_buffer_set_direction(this.ptr, 5/*rtl*/);
-    _hb_buffer_set_script(this.ptr, TAG("Arab"));
-    _hb_buffer_set_content_type(this.ptr, 1/*unicode*/);
+    M._hb_buffer_clear_contents(this.ptr);
+    M._hb_buffer_set_direction(this.ptr, 5/*rtl*/);
+    M._hb_buffer_set_script(this.ptr, TAG("Arab"));
+    M._hb_buffer_set_content_type(this.ptr, 1/*unicode*/);
 
     let features = [];
     for (let i = 0; i < text.length; i++) {
-      _hb_buffer_add(this.ptr, text[i].code, i);
+      M._hb_buffer_add(this.ptr, text[i].code, i);
       for (const feature of text[i].features || []) {
         let [tag, value] = feature.split("=");
         value = value ? parseInt(value) : 1;
@@ -274,13 +274,13 @@ export class Buffer {
     }
 
     let featuresPtr = new Pointer(new Uint32Array(features).buffer);
-    _hb_shape(font.ptr, this.ptr, featuresPtr.ptr, features.length / 4);
+    M._hb_shape(font.ptr, this.ptr, featuresPtr.ptr, features.length / 4);
 
-    let length = _hb_buffer_get_length(this.ptr);
-    let infosPtr32 = _hb_buffer_get_glyph_infos(this.ptr, 0) / 4;
-    let positionsPtr32 = _hb_buffer_get_glyph_positions(this.ptr, 0) / 4;
-    let infos = HEAPU32.slice(infosPtr32, infosPtr32 + 5 * length);
-    let positions = HEAP32.slice(positionsPtr32, positionsPtr32 + 5 * length);
+    let length = M._hb_buffer_get_length(this.ptr);
+    let infosPtr32 = M._hb_buffer_get_glyph_infos(this.ptr, 0) / 4;
+    let positionsPtr32 = M._hb_buffer_get_glyph_positions(this.ptr, 0) / 4;
+    let infos = M.HEAPU32.slice(infosPtr32, infosPtr32 + 5 * length);
+    let positions = M.HEAP32.slice(positionsPtr32, positionsPtr32 + 5 * length);
     let glyphs = [];
     for (let i = 0; i < length; ++i) {
       let j = i * 5;
