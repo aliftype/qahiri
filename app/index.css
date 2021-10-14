@@ -32,6 +32,25 @@ body {
   background-color: var(--bg-color);
 }
 
+#app {
+  overflow: auto;
+  height: 100vh;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#header, #footer {
+  position: sticky;
+}
+
+#content {
+  overflow: scroll;
+}
+
 canvas {
   outline: none;
 }
@@ -42,12 +61,7 @@ canvas {
   transform: scale(0);
 }
 
-.toolbar {
-  display: flex;
-  justify-content: space-between;
-} 
-
-.menu {
+#menu {
   display: flex;
   justify-content: space-between;
   flex: 1 0 auto;
@@ -100,16 +114,28 @@ input[type=checkbox]:checked + label {
   background-color: var(--main-color);
 }
 
+#nocolor-dots + label {
+  background-image: url(assets/images/nocolor-dots.svg);
+}
+
+#remove-dots + label {
+  background-image: url(assets/images/remove-dots.svg);
+}
+
+#small-dots + label {
+  background-image: url(assets/images/small-dots.svg);
+}
+
+#adjust-dots + label {
+  background-image: url(assets/images/adjust-dots.svg);
+}
+
 #onum + label {
   background-image: url(assets/images/onum.svg);
 }
 
 #round-dots + label {
   background-image: url(assets/images/round-dots.svg);
-}
-
-#remove-dots + label {
-  background-image: url(assets/images/remove-dots.svg);
 }
 
 .feature {
@@ -183,7 +209,7 @@ input[type=range]::-moz-range-thumb {
 }
 
 @media screen and (max-width: 600px) {
-  .toolbar {
+  #header {
     flex-direction: column;
   }
 

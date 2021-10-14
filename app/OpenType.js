@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2019-2020 Khaled Hosny
+ * Copyright (c) 2019-2021 Khaled Hosny
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -16,43 +16,72 @@
  *
  */
 
-class Stream {
+export function TAG(tag) {
+  tag = tag.padEnd(4, " ");
+  let c1 = tag.codePointAt(0);
+  let c2 = tag.codePointAt(1);
+  let c3 = tag.codePointAt(2);
+  let c4 = tag.codePointAt(3);
+  return (c1&0xFF) << 24 | (c2&0xFF) << 16 | (c3&0xFF) << 8 | c4&0xFF;
+}
+
+export class Stream {
   constructor(bytes) {
-    this.bytes = bytes;
-    this.pos = 0;
+    this._pos = 0;
+    this._view = new DataView(bytes.buffer);
   }
 
-  readByte(pos) {
-    if (pos !== undefined)
-      this.pos = pos;
-    return this.bytes[this.pos++];
+  get data() {
+    return this._view.buffer;
   }
 
-  readUInt16(pos) {
-    let b0 = this.readByte(pos);
-    let b1 = this.readByte();
-    return (b0 << 8) + b1;
+  get pos() {
+    return this._pos;
+  }
+
+  set pos(v) {
+    this._pos = v;
+  }
+
+  _advance(pos, length) {
+    if (pos === undefined)
+      pos = this._pos;
+    this._pos = pos + length;
+    return pos;
+  }
+
+  readBytes(pos, len) {
+    pos = this._advance(pos, len)
+    let end = len === undefined ? -1 : pos + len;
+    return new Uint8Array(this._view.buffer.slice(pos, end));
+  }
+
+  readInt8(pos) {
+    return this._view.getInt8(this._advance(pos, 1));
+  }
+
+  readUInt8(pos) {
+    return this._view.getUint8(this._advance(pos, 1));
   }
 
   readInt16(pos) {
-    let v = this.readUInt16(pos);
-    return (v << 16) >> 16;
+    return this._view.getInt16(this._advance(pos, 2));
+  }
+
+  readUInt16(pos) {
+    return this._view.getUint16(this._advance(pos, 2));
+  }
+
+  readInt32(pos) {
+    return this._view.getInt32(this._advance(pos, 4));
   }
 
   readUInt32(pos) {
-    let b0 = this.readByte(pos);
-    let b1 = this.readByte();
-    let b2 = this.readByte();
-    let b3 = this.readByte();
-    return (b0 << 24) + (b1 << 16) + (b2 << 8) + b3;
+    return this._view.getUint32(this._advance(pos, 4));
   }
 
   readTag(pos) {
-    let b0 = this.readByte(pos);
-    let b1 = this.readByte();
-    let b2 = this.readByte();
-    let b3 = this.readByte();
-    return String.fromCodePoint(b0, b1, b2, b3);
+    return String.fromCharCode.apply(null, this.readBytes(pos, 4));
   }
 }
 
@@ -270,7 +299,8 @@ export class GSUB {
 
       let features = {};
       for (const [featureTag, featureOffset] of featureOffsets) {
-        features[featureTag] = features[featureTag] || [];
+        if (!(featureTag in features))
+          features[featureTag] = [];
 
         let featureParams = this.stream.readUInt16(featureOffset);
         let lookupIndexCount = this.stream.readUInt16();
@@ -364,10 +394,10 @@ export class CPAL {
     let colorRecords = [];
     stream.pos = offsetFirstColorRecord;
     for (let i = 0; i < numColorRecords; i++) {
-      let b = stream.readByte().toString(16);
-      let g = stream.readByte().toString(16);
-      let r = stream.readByte().toString(16);
-      let a = stream.readByte().toString(16);
+      let b = stream.readUInt8().toString(16);
+      let g = stream.readUInt8().toString(16);
+      let r = stream.readUInt8().toString(16);
+      let a = stream.readUInt8().toString(16);
       colorRecords.push(`#${r}${g}${b}${a}`);
     }
 

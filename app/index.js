@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2019-2020 Khaled Hosny
+ * Copyright (c) 2019-2021 Khaled Hosny
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -17,6 +17,7 @@
  */
 
 import { View } from "./TextView.js"
+import { FONT_FILE } from "./Config.js"
 import Module from "./hb.js"
 
 if ('serviceWorker' in navigator) {
@@ -25,19 +26,16 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-let fontFile = "./assets/fonts/Qahiri-Regular.otf";
-
 Module().then(function (m) {
   window.M = m;
-  fetch(fontFile).then(function (res) {
+  fetch(FONT_FILE).then(res => {
     return res.arrayBuffer();
-  }).then(function (blob) {
+  }).then(blob => {
     let view = new View(blob);
     view.update();
 
     document.getElementById("open").addEventListener("click", e => view.open(e.value));
     document.getElementById("save").addEventListener("click", e => view.save());
-    document.getElementById("export").addEventListener("click", e => view.export());
     document.getElementById("clear").addEventListener("click", e => view.clear());
 
     [].forEach.call(document.getElementsByClassName("opts"), function(el) {

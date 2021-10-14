@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2019-2020 Khaled Hosny
+ * Copyright (c) 2019-2021 Khaled Hosny
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -37,16 +37,7 @@
  *
  */
 
-import { GSUB, COLR, CPAL } from "./OpenType.js"
-
-function TAG(tag) {
-  tag = tag.padEnd(4, " ");
-  let c1 = tag.codePointAt(0);
-  let c2 = tag.codePointAt(1);
-  let c3 = tag.codePointAt(2);
-  let c4 = tag.codePointAt(3);
-  return (c1&0xFF) << 24 | (c2&0xFF) << 16 | (c3&0xFF) << 8 | c4&0xFF;
-}
+import { GSUB, COLR, CPAL, TAG } from "./OpenType.js"
 
 class Pointer {
   constructor(arg) {
@@ -61,6 +52,7 @@ class Pointer {
   }
 
   get int32Array() { return M.HEAP32.slice(this.ptr / 4, (this.ptr + this.byteLength) / 4); }
+  get int32()      { return M.HEAP32[this.ptr / 4]; }
   get uint32()     { return M.HEAPU32[this.ptr / 4]; }
 }
 
@@ -194,17 +186,29 @@ export class Font {
     let extentsPtr = new Pointer(12 * 4);
     M._hb_font_get_h_extents(this.ptr, extentsPtr.ptr);
     let extents = extentsPtr.int32Array;
+    let clipAscender = extents[0];
+    let clipDescender = extents[1];
+    let clipPtr = new Pointer(4);
+    if (M._hb_ot_metrics_get_position(this.ptr, TAG("hcla"), clipPtr.ptr))
+      clipAscender = clipPtr.int32;
+    if (M._hb_ot_metrics_get_position(this.ptr, TAG("hcld"), clipPtr.ptr))
+      clipDescender = clipPtr.int32;
+
     return {
       ascender: extents[0],
       descender: extents[1],
       line_gap: extents[2],
+      clipAscender: clipAscender,
+      clipDescender: clipDescender,
     };
   }
 }
 
-let REQUIRED_FEATURES = [
-  "isol", "init", "medi", "fina", "rlig", "rclt", "calt", "dist", "ccmp",
-];
+let ALTERNATE_FEATURES = ["salt"].concat(
+  [...Array(100).keys()].map(
+    i => `cv${String(i).padStart(2, '0')}`
+  )
+);
 
 class Glyph {
   constructor(font, info, position) {
@@ -219,6 +223,10 @@ class Glyph {
     this._features = null;
   }
 
+  get isDot() {
+    let layers = this.font.getGlyphColorLayers(this.index);
+    return layers.length;
+  }
   get layers() {
     let layers = this.font.getGlyphColorLayers(this.index);
     return layers.map(l => {
@@ -234,7 +242,7 @@ class Glyph {
       let features = this.font.GSUB.features;
       let result = new Set();
       for (const [tag, lookups] of Object.entries(features)) {
-        if (!REQUIRED_FEATURES.includes(tag)) {
+        if (ALTERNATE_FEATURES.includes(tag)) {
           for (const lookup of lookups) {
             let sub = this.font.getSubstitute(lookup, this.index, next && next.index);
             if (sub)
