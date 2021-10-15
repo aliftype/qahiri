@@ -38,6 +38,15 @@ Module().then(function (m) {
     document.getElementById("save").addEventListener("click", e => view.save());
     document.getElementById("clear").addEventListener("click", e => view.clear());
 
+    const isMac = ~navigator.userAgent.indexOf('Mac OS X');
+    document.addEventListener("keydown", e => {
+      if (((!isMac && e.ctrlKey) || (isMac && e.metaKey)) &&
+          e.key == "s" && !e.isComposing) {
+        e.preventDefault();
+        view.save();
+      }
+    });
+
     [].forEach.call(document.getElementsByClassName("opts"), function(el) {
       el.addEventListener("change", e => view.update());
     });
