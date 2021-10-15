@@ -106,7 +106,7 @@ class Layout {
 
   get width() {
     this._shape();
-    return this._width + this._margin;
+    return this._width + (this._margin * 2);
   }
 
   get height() { return this.ascender - this.descender + (this._margin * 2); }
@@ -128,7 +128,7 @@ class Layout {
 
   posOfIndex(index) {
     let c = this._text[index];
-    let x = c ? c.x : this._width;
+    let x = c ? c.x : this.width;
     return x;
   }
 
@@ -245,7 +245,7 @@ class Layout {
     svg.setAttributeNS(ns, "version", '1.1');
     svg.setAttributeNS(ns, "width", this.width * this.scale);
     svg.setAttributeNS(ns, "height", this.height * this.scale);
-    svg.setAttributeNS(ns, "viewBox", `${this._margin/2} 0 ${this.width} ${this.height}`);
+    svg.setAttributeNS(ns, "viewBox", `0 0 ${this.width} ${this.height}`);
 
     for (const g of this._glyphs) {
       if (g.layers.length && !this._nocolorDots)
@@ -411,7 +411,7 @@ export class View {
 
   }
 
-  open(file) {
+  open() {
     let input = document.createElement("input");
     input.type = "file";
     input.onchange = e => {

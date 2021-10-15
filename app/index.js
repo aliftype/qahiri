@@ -34,16 +34,20 @@ Module().then(function (m) {
     let view = new View(blob);
     view.update();
 
-    document.getElementById("open").addEventListener("click", e => view.open(e.value));
+    document.getElementById("open").addEventListener("click", e => view.open());
     document.getElementById("save").addEventListener("click", e => view.save());
     document.getElementById("clear").addEventListener("click", e => view.clear());
 
     const isMac = ~navigator.userAgent.indexOf('Mac OS X');
     document.addEventListener("keydown", e => {
-      if (((!isMac && e.ctrlKey) || (isMac && e.metaKey)) &&
-          e.key == "s" && !e.isComposing) {
-        e.preventDefault();
-        view.save();
+      if (((!isMac && e.ctrlKey) || (isMac && e.metaKey)) && !e.isComposing) {
+        if (e.key == "s") {
+          e.preventDefault();
+          view.save();
+        } else if (e.key == "o") {
+          e.preventDefault();
+          view.open();
+        }
       }
     });
 
