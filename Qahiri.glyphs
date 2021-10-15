@@ -1,5 +1,5 @@
 {
-.appVersion = "3083";
+.appVersion = "3099";
 classes = (
 {
 code = "/.*dot.*.-ar$/";
@@ -46,6 +46,11 @@ name = AllMediTemp;
 automatic = 1;
 code = "";
 name = AllMediTemp2;
+},
+{
+automatic = 1;
+code = "hamza-ar alef-ar alef-ar.1 alef-ar.2 alef-ar.3 alef-ar.fina alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar alefWasla-ar behDotless-ar behDotless-ar.fina behDotless-ar.fina.1 behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1 behDotless-ar.medi.yeh behDotless-ar.init behDotless-ar.init.hah beh-ar peh-ar teh-ar theh-ar tteh-ar jeem-ar tcheh-ar hah-ar hah-ar.1 hah-ar.2 hah-ar.3 hah-ar.4 hah-ar.5 hah-ar.fina hah-ar.fina.1 hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3 hah-ar.init hah-ar.init.1 hah-ar.init.2 khah-ar dal-ar dal-ar.fina thal-ar ddal-ar reh-ar reh-ar.1 reh-ar.2 reh-ar.3 reh-ar.fina reh-ar.fina.1 zain-ar rreh-ar jeh-ar seen-ar seen-ar.1 seen-ar.2 seen-ar.3 seen-ar.4 seen-ar.5 seen-ar.6 seen-ar.fina seen-ar.fina.1 seen-ar.fina.2 seen-ar.fina.3 seen-ar.fina.4 seen-ar.fina.5 seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6 seen-ar.init seen-ar.init.1 seen-ar.init.2 seen-ar.init.3 seen-ar.init.4 seen-ar.init.5 seen-ar.init.6 sheen-ar sad-ar sad-ar.1 sad-ar.fina sad-ar.fina.1 sad-ar.medi sad-ar.init dad-ar tah-ar tah-ar.fina tah-ar.medi tah-ar.medi.short tah-ar.medi.short2 tah-ar.init tah-ar.init.short tah-ar.init.short2 zah-ar ain-ar ain-ar.1 ain-ar.2 ain-ar.3 ain-ar.fina ain-ar.medi ain-ar.init ain-ar.init.1 ghain-ar feh-ar veh-ar fehDotless-ar fehDotless-ar.1 fehDotless-ar.2 fehDotless-ar.3 fehDotless-ar.fina fehDotless-ar.fina.1 fehDotless-ar.fina.2 fehDotless-ar.fina.3 fehDotless-ar.medi fehDotless-ar.medi.1 fehDotless-ar.init fehDotless-ar.init.1 fehDotmovedbelow-ar fehAfrican-ar qafDotless-ar qafDotless-ar.fina qaf-ar qafDotabove-ar qafAfrican-ar kaf-ar kaf-ar.1 kaf-ar.2 kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 kaf-ar.init kaf-ar.init.1 kaf-ar.init.2 keheh-ar gaf-ar lam-ar lam-ar.fina lam-ar.medi lam-ar.medi.lellah lam-ar.medi.short lam-ar.medi.short2 lam-ar.medi.yeh lam-ar.init lam-ar.init.hah lam-ar.init.hah2 lam-ar.init.lellah lam-ar.init.short lam-ar.init.short2 meem-ar meem-ar.1 meem-ar.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi meem-ar.medi.1 meem-ar.init noon-ar noonghunna-ar noonghunna-ar.fina noonAfrican-ar heh-ar heh-ar.1 heh-ar.2 heh-ar.isol heh-ar.fina heh-ar.fina.1 heh-ar.fina.2 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7 heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 heh-ar.init.4 heh-ar.init.5 heh-ar.init.6 heh-ar.init.7 hehgoal-ar hehgoalHamzaabove-ar hehDoachashmee-ar tehMarbuta-ar tehMarbutagoal-ar waw-ar waw-ar.1 waw-ar.2 waw-ar.3 waw-ar.fina waw-ar.fina.1 wawHamzaabove-ar alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4 alefMaksura-ar.5 alefMaksura-ar.6 alefMaksura-ar.fina alefMaksura-ar.fina.0 alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.5 alefMaksura-ar.fina.6 alefMaksura-ar.fina.tooth yeh-ar yehHamzaabove-ar yeh-farsi yehbarree-ar yehbarreeHamzaabove-ar ae-ar kashida-ar lam_alef-ar lam_alef-ar.fina lam_alef-ar.1 lam_alef-ar.2 lam_alef-ar.3 lam_alef-ar.4 lam_alef-ar.5 lam_alef-ar.fina.1 lam_alef-ar.fina.2 lam_alef-ar.fina.3 lam_alef-ar.fina.4 lam_alef-ar.fina.5";
+name = ArabicLetters;
 }
 );
 copyright = "Copyright 2021 The Qahiri Project Authors (github.com/aliftype/qahiri).";
@@ -191,10 +196,9 @@ code = "  sub alefHamzaabove-ar   by alef-ar hamzaabove-ar;
   sub keheh-ar            by kaf-ar;
   sub gaf-ar              by kaf-ar;
   sub noon-ar             by noonghunna-ar dotabove-ar;
-  sub hehgoal-ar          by heh-ar;
-  sub hehgoalHamzaabove-ar by heh-ar hamzaabove-ar;
-  sub tehMarbuta-ar       by heh-ar twodotshorizontalabove-ar;
-  sub tehMarbutagoal-ar   by heh-ar twodotshorizontalabove-ar;
+  sub hehgoalHamzaabove-ar by hehgoal-ar hamzaabove-ar;
+  sub tehMarbuta-ar       by ae-ar twodotshorizontalabove-ar;
+  sub tehMarbutagoal-ar   by ae-ar twodotshorizontalabove-ar;
   sub yeh-ar              by alefMaksura-ar twodotshorizontalbelow-ar;
 ";
 name = ccmp;
@@ -218,6 +222,7 @@ code = "  sub ain-ar         by ain-ar.init;
   sub fehAfrican-ar  by fehDotless-ar.init dotbelow-ar;
   sub hah-ar         by hah-ar.init;
   sub heh-ar         by heh-ar.init;
+  sub hehgoal-ar     by heh-ar.init;
   sub kaf-ar         by kaf-ar.init;
   sub lam-ar         by lam-ar.init;
   sub meem-ar        by meem-ar.init;
@@ -229,7 +234,8 @@ code = "  sub ain-ar         by ain-ar.init;
   sub noonghunna-ar  by behDotless-ar.init;
   sub noonAfrican-ar by behDotless-ar.init dotabove-ar;
   sub alefMaksura-ar by behDotless-ar.init;
-  sub yeh-farsi      by behDotless-ar.init twodotshorizontalbelow-ar;";
+  sub yeh-farsi      by behDotless-ar.init twodotshorizontalbelow-ar;
+";
 name = init;
 },
 {
@@ -239,6 +245,7 @@ code = "  sub ain-ar         by ain-ar.medi;
   sub fehAfrican-ar  by fehDotless-ar.medi dotbelow-ar;
   sub hah-ar         by hah-ar.medi;
   sub heh-ar         by heh-ar.medi;
+  sub hehgoal-ar     by heh-ar.medi;
   sub kaf-ar         by kaf-ar.medi;
   sub lam-ar         by lam-ar.medi;
   sub meem-ar        by meem-ar.medi;
@@ -250,7 +257,8 @@ code = "  sub ain-ar         by ain-ar.medi;
   sub noonghunna-ar  by behDotless-ar.medi;
   sub noonAfrican-ar by behDotless-ar.medi dotabove-ar;
   sub alefMaksura-ar by behDotless-ar.medi;
-  sub yeh-farsi      by behDotless-ar.medi twodotshorizontalbelow-ar;";
+  sub yeh-farsi      by behDotless-ar.medi twodotshorizontalbelow-ar;
+";
 name = medi;
 },
 {
@@ -263,6 +271,8 @@ code = "  sub ain-ar         by ain-ar.fina;
   sub fehAfrican-ar  by fehDotless-ar.fina;
   sub hah-ar         by hah-ar.fina;
   sub heh-ar         by heh-ar.fina;
+  sub hehgoal-ar     by heh-ar.fina;
+  sub ae-ar          by heh-ar.fina;
   sub kaf-ar         by kaf-ar.fina;
   sub lam-ar         by lam-ar.fina;
   sub meem-ar        by meem-ar.fina;
@@ -276,12 +286,20 @@ code = "  sub ain-ar         by ain-ar.fina;
   sub tah-ar         by tah-ar.fina;
   sub waw-ar         by waw-ar.fina;
   sub yeh-farsi      by alefMaksura-ar.fina;
-  sub yehbarree-ar   by alefMaksura-ar.fina.5;";
+  sub yehbarree-ar   by alefMaksura-ar.fina.5;
+";
 name = fina;
 },
 {
 code = "lookupflag IgnoreMarks;
-  sub alef-ar lam-ar.init' lookup lellah lam-ar.medi' lookup lellah heh-ar.fina;";
+  sub alef-ar lam-ar.init' lookup lellah lam-ar.medi' lookup lellah heh-ar.fina;
+
+lookup heh_isol {
+  lookupflag UseMarkFilteringSet [space];
+    ignore sub @ArabicLetters heh-ar';
+    sub heh-ar' by heh-ar.isol;
+} heh_isol;
+";
 name = calt;
 },
 {
@@ -8281,6 +8299,27 @@ width = 240;
 );
 },
 {
+glyphname = "heh-ar.isol";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "heh-ar.init.5";
+transform = "{1, 0, 0, 1, 90, 0}";
+},
+{
+alignment = -1;
+name = _tail;
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 330;
+}
+);
+rightMetricsKey = "=heh-ar.init.5";
+},
+{
 glyphname = "heh-ar.fina";
 layers = (
 {
@@ -10972,6 +11011,21 @@ width = 242;
 }
 );
 unicode = 06D3;
+},
+{
+glyphname = "ae-ar";
+layers = (
+{
+components = (
+{
+name = "heh-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 240;
+}
+);
+unicode = 06D5;
 },
 {
 glyphname = "kashida-ar";
