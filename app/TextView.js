@@ -27,6 +27,9 @@ class Layout {
     this._buffer = buffer;
     this._text = text.map(c => ({...c}));
 
+    let fontSize = document.getElementById("font-size").value;
+    this._scale = fontSize / font.upem;
+
     this._adjustDots = false;
     this._removeDots = false;
     this._smallDots = false;
@@ -40,6 +43,10 @@ class Layout {
     this._imgs = [];
 
     this._margin = 500;
+  }
+
+  get scale() {
+    return this._scale;
   }
 
   getWidth(from, to) {
@@ -236,8 +243,8 @@ class Layout {
     let svg = document.createElementNS(ns, "svg");
     svg.setAttribute("xmlns", ns);
     svg.setAttributeNS(ns, "version", '1.1');
-    svg.setAttributeNS(ns, "width", this.width);
-    svg.setAttributeNS(ns, "height", this.height);
+    svg.setAttributeNS(ns, "width", this.width * this.scale);
+    svg.setAttributeNS(ns, "height", this.height * this.scale);
     svg.setAttributeNS(ns, "viewBox", `${this._margin/2} 0 ${this.width} ${this.height}`);
 
     for (const g of this._glyphs) {
@@ -359,19 +366,16 @@ export class View {
 
   _draw() {
     let canvas = this._canvas;
-    let fontSize = document.getElementById("font-size").value;
     let layout = this._layout;
 
-    this._scale = fontSize / this._font.upem;
-
-    canvas.width = layout.width * this._scale;
-    canvas.height = layout.height * this._scale;
+    canvas.width = layout.width * layout.scale;
+    canvas.height = layout.height * layout.scale;
     canvas.style.width = `${canvas.width / window.devicePixelRatio}px`;
     canvas.style.height = `${canvas.height / window.devicePixelRatio}px`;
 
     let ctx = canvas.getContext("2d");
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.scale(this._scale, this._scale);
+    ctx.scale(layout.scale, layout.scale);
 
     // Draw cursor.
     if (document.hasFocus() && document.activeElement == this._input) {
@@ -595,7 +599,7 @@ export class View {
     if (this._layout === null)
       return;
     let dpr = window.devicePixelRatio;
-    let scale = dpr / this._scale;
+    let scale = dpr / this._layout.scale;
     let rect = e.target.getBoundingClientRect();
     let x = (e.clientX - rect.left) * scale;
 
