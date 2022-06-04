@@ -145,7 +145,7 @@ class Lookup {
               let coverage = new Coverage(stream, subtableOffset + stream.readUInt16());
               let deltaGlyphID = stream.readInt16();
               for (let glyphID of coverage.glyphs)
-                this.mapping[glyphID] = glyphID + deltaGlyphID;
+                this.mapping[glyphID] = [glyphID + deltaGlyphID];
             }
             break;
 
@@ -154,7 +154,7 @@ class Lookup {
               let glyphCount = stream.readUInt16();
               let substituteGlyphIDs = [];
               for (let i = 0; i < glyphCount; i++)
-                this.mapping[coverage.glyphs[i]] = stream.readUInt16();
+                this.mapping[coverage.glyphs[i]] = [stream.readUInt16()];
             }
             break;
 
@@ -246,7 +246,7 @@ class Lookup {
                   let componentGlyphIDs = [coverage.glyphs[i]];
                   for (let k = 0; k < componentCount - 1; k++)
                     componentGlyphIDs.push(stream.readUInt16());
-                  this.mapping[componentGlyphIDs] = ligatureGlyph;
+                  this.mapping[componentGlyphIDs] = [ligatureGlyph];
                 }
               }
             }
@@ -300,13 +300,13 @@ export class GSUB {
       let features = {};
       for (const [featureTag, featureOffset] of featureOffsets) {
         if (!(featureTag in features))
-          features[featureTag] = [];
+          features[featureTag] = new Set();
 
         let featureParams = this.stream.readUInt16(featureOffset);
         let lookupIndexCount = this.stream.readUInt16();
         for (let j = 0; j < lookupIndexCount; j++) {
           let lookupIndex = this.stream.readUInt16();
-          features[featureTag].push(lookupIndex);
+          features[featureTag].add(lookupIndex);
         }
       }
       this._features = features;

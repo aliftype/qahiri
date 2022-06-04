@@ -115,33 +115,33 @@ export class Font {
 
     if (!this._draw_funcs) {
       let funcs = this._draw_funcs = M._hb_draw_funcs_create();
-      let move_to = M.addFunction(function(x, y, g) {
+      let move_to = M.addFunction(function(f, g, s, x, y, u) {
         outlines[g] += `M${x},${-y}`;
-      }, "viii");
-      let line_to = M.addFunction(function(x, y, g) {
+      }, "viiiffi");
+      let line_to = M.addFunction(function(f, g, s, x, y, u) {
         outlines[g] += `L${x},${-y}`;
-      }, "viii");
-      let quadratic_to = M.addFunction(function(x1, y1, x2, y2, g) {
+      }, "viiiffi");
+      let quadratic_to = M.addFunction(function(f, g, s, x1, y1, x2, y2, u) {
         outlines[g] += `Q${x1},${-y1},${x2},${-y2}`;
-      }, "viiiii");
-      let cubic_to = M.addFunction(function(x1, y1, x2, y2, x3, y3, g) {
+      }, "viiiffffi");
+      let cubic_to = M.addFunction(function(f, g, s, x1, y1, x2, y2, x3, y3, u) {
         outlines[g] += `C${x1},${-y1},${x2},${-y2},${x3},${-y3}`;
-      }, "viiiiiii");
-      let close_path = M.addFunction(function(g) {
+      }, "viiiffffffi");
+      let close_path = M.addFunction(function(f, g, s, u) {
         outlines[g] += `Z`
-      }, "vi");
+      }, "viiii");
 
-      M._hb_draw_funcs_set_move_to_func(funcs, move_to);
-      M._hb_draw_funcs_set_line_to_func(funcs, line_to);
-      M._hb_draw_funcs_set_quadratic_to_func(funcs, quadratic_to);
-      M._hb_draw_funcs_set_cubic_to_func(funcs, cubic_to);
-      M._hb_draw_funcs_set_close_path_func(funcs, close_path);
+      M._hb_draw_funcs_set_move_to_func(funcs, move_to, 0, 0);
+      M._hb_draw_funcs_set_line_to_func(funcs, line_to, 0, 0);
+      M._hb_draw_funcs_set_quadratic_to_func(funcs, quadratic_to, 0, 0);
+      M._hb_draw_funcs_set_cubic_to_func(funcs, cubic_to, 0, 0);
+      M._hb_draw_funcs_set_close_path_func(funcs, close_path, 0, 0);
     }
 
     outlines[glyph] = "";
     // I’m abusing pointers here to pass the actual glyph id instead of a user
-    // data pointer, don’t shot me.
-    M._hb_font_draw_glyph(this.ptr, glyph, this._draw_funcs, glyph);
+    // data pointer, don’t shoot me.
+    M._hb_font_get_glyph_shape(this.ptr, glyph, this._draw_funcs, glyph);
 
     return outlines[glyph];
   }
@@ -170,7 +170,7 @@ export class Font {
     return this._gsub;
   }
 
-  getSubstitute(lookupIndex, glyph, next) {
+  getAlternates(lookupIndex, glyph, next) {
     let lookup = this.GSUB.lookup(lookupIndex);
 
     if (next) {
@@ -204,7 +204,7 @@ export class Font {
   }
 }
 
-let ALTERNATE_FEATURES = ["salt"].concat(
+let ALTERNATE_FEATURES = ["salt", "dlig"].concat(
   [...Array(100).keys()].map(
     i => `cv${String(i).padStart(2, '0')}`
   )
@@ -220,7 +220,7 @@ class Glyph {
     this.dx = position[2];
     this.dy = position[3];
 
-    this._features = null;
+    this._alternates = null;
   }
 
   get isDot() {
@@ -237,22 +237,22 @@ class Glyph {
   }
   get outline() { return this.font.getGlyphOutline(this.index); }
 
-  getSubstitutes(next) {
-    if (this._features === null) {
+  getAlternates(next) {
+    if (this._alternates === null) {
       let features = this.font.GSUB.features;
       let result = new Set();
       for (const [tag, lookups] of Object.entries(features)) {
         if (ALTERNATE_FEATURES.includes(tag)) {
           for (const lookup of lookups) {
-            let sub = this.font.getSubstitute(lookup, this.index, next && next.index);
-            if (sub)
-              result.add([tag, sub]);
+            let alternates = this.font.getAlternates(lookup, this.index, next && next.index);
+            if (alternates)
+              result.add([tag, [this.index, ...alternates]]);
           }
         }
       }
-      this._features = result.size && Array.from(result) || undefined;
+      this._alternates = result.size && Array.from(result) || undefined;
     }
-    return this._features;
+    return this._alternates;
   }
 }
 

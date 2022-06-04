@@ -17,12 +17,12 @@
  */
 
 import { View } from "./TextView.js"
-import { FONT_FILE } from "./Config.js"
+import { FONT_FILE, SERVICE_WORKER } from "./Config.js"
 import Module from "./hb.js"
 
-if ('serviceWorker' in navigator) {
+if ('serviceWorker' in navigator && SERVICE_WORKER != null) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("./ServiceWorker.js");
+    navigator.serviceWorker.register(SERVICE_WORKER);
   });
 }
 

@@ -27,8 +27,7 @@ class Layout {
     this._buffer = buffer;
     this._text = text.map(c => ({...c}));
 
-    let fontSize = document.getElementById("font-size").value;
-    this._scale = fontSize / font.upem;
+    this.fontSize = document.getElementById("font-size").value;
 
     this._adjustDots = false;
     this._removeDots = false;
@@ -40,9 +39,13 @@ class Layout {
     this._width = null;
     this._glyphs = null;
 
-    this._imgs = [];
+    this._svgs = [];
 
     this._margin = 500;
+  }
+
+  set fontSize(v) {
+    this._scale = v / this._font.upem;
   }
 
   get scale() {
@@ -123,7 +126,7 @@ class Layout {
     let p = this._text[index - 1];
     let n = this._text[index + 1];
     if (c && c.baseGlyph)
-      return c.baseGlyph.getSubstitutes(n && n.baseGlyph);
+      return c.baseGlyph.getAlternates(n && n.baseGlyph);
   }
 
   posOfIndex(index) {
@@ -148,8 +151,8 @@ class Layout {
     return 0;
   }
 
-  getGlyphImg(glyph) {
-    if (this._imgs[glyph] === undefined) {
+  getGlyphSVG(glyph) {
+    if (this._svgs[glyph] === undefined) {
       let extents = this._font.getGlyphExtents(glyph)
       let ns = "http://www.w3.org/2000/svg";
       let svg = document.createElementNS(ns, "svg");
@@ -165,13 +168,10 @@ class Layout {
       svg.appendChild(path);
 
       let blob = new Blob([svg.outerHTML], {type: "image/svg+xml"});
-      let img = document.createElement('img');
-      img.height = 70;
-      img.src = window.URL.createObjectURL(blob)
-      this._imgs[glyph] = img;
+      this._svgs[glyph] = window.URL.createObjectURL(blob);
     }
 
-    return this._imgs[glyph];
+    return this._svgs[glyph];
   }
 
   _shape() {
@@ -295,7 +295,6 @@ export class View {
     this._cursor = 0;
     this._text = null;
     this._layout = null;
-    this._manualFontSize = false;
 
     this._canvas.addEventListener('click', e => this._click(e));
     this._canvas.addEventListener('focusin', e => this._input.focus({preventScroll: true}));
@@ -329,32 +328,31 @@ export class View {
   };
 
   update(manualFontSize) {
-    if (manualFontSize)
-      this._manualFontSize = true;
-
-    if (this._layout === null) {
+    let layout = this._layout;
+    if (layout === null) {
       if (this._text === null)
         this._text = JSON.parse(window.localStorage.getItem(STAORAGE_KEY) || SAMPLE_TEXT);
       else
         window.localStorage.setItem(STAORAGE_KEY, JSON.stringify(this._text));
 
-      this._layout = new Layout(this._font, this._buffer, this._text);
+      this._layout = layout = new Layout(this._font, this._buffer, this._text);
       this._updateInput();
     }
 
     let fontSize = document.getElementById("font-size");
-    if (!this._manualFontSize) {
+    if (!manualFontSize) {
       if (window.screen.width < 700)
         fontSize.value = window.screen.width / 7;
       document.getElementById("font-size-number").value = fontSize.value;
     }
+    layout.fontSize = fontSize.value;
 
-    this._layout.adjustDots = document.getElementById("adjust-dots").checked;
-    this._layout.removeDots = document.getElementById("remove-dots").checked;
-    this._layout.nocolorDots = document.getElementById("nocolor-dots").checked;
-    this._layout.smallDots = document.getElementById("small-dots").checked;
-    this._layout.roundDots = document.getElementById("round-dots").checked;
-    this._layout.onum = document.getElementById("onum").checked;
+    layout.adjustDots = document.getElementById("adjust-dots").checked;
+    layout.removeDots = document.getElementById("remove-dots").checked;
+    layout.nocolorDots = document.getElementById("nocolor-dots").checked;
+    layout.smallDots = document.getElementById("small-dots").checked;
+    layout.roundDots = document.getElementById("round-dots").checked;
+    layout.onum = document.getElementById("onum").checked;
 
     this._draw();
   }
@@ -539,12 +537,15 @@ export class View {
       for (let i = 0; i < alts.length; i++) {
         let alt = alts[i];
         let button = document.createElement("a");
-        let setting = feature + "=" + (i + 1);
+        let setting = feature + "=" + i;
 
         button.title = setting;
         button.href = "#";
 
-        button.appendChild(this._layout.getGlyphImg(alt));
+        let img = document.createElement('img');
+        img.height = 70;
+        img.src = this._layout.getGlyphSVG(alt);
+        button.appendChild(img);
         div.appendChild(button);
 
         button.onclick = e => {
