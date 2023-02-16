@@ -521,10 +521,10 @@ def build(instance, isTTF, version):
     return fb.font
 
 
-def propogateAnchors(layer):
+def propagateAnchors(layer):
     for component in layer.components:
         clayer = component.layer or component.component.layers[0]
-        propogateAnchors(clayer)
+        propagateAnchors(clayer)
         for anchor in clayer.anchors:
             names = [a.name for a in layer.anchors]
             name = anchor.name
@@ -553,7 +553,7 @@ def prepare(font, isTTF):
             continue
         glyphOrder.append(glyph.name)
         for layer in glyph.layers:
-            propogateAnchors(layer)
+            propagateAnchors(layer)
 
     numbers = {
         "zero",
