@@ -1,5 +1,5 @@
 {
-.appVersion = "3099";
+.appVersion = "3151";
 classes = (
 {
 code = "/.*dot.*.-ar$/";
@@ -26,11 +26,16 @@ code = "@DotBelow @TwoDotsBelow";
 name = DotsBelow;
 },
 {
-code = "hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3 hah-ar.fina.1";
+code = "hah-ar.medi
+hah-ar.medi.1
+hah-ar.medi.2
+hah-ar.fina
+";
 name = HahAlt;
 },
 {
-code = "hah-ar.medi.1.Temp hah-ar.medi.2.Temp hah-ar.medi.3.Temp";
+automatic = 1;
+code = "";
 name = HahAltTemp;
 },
 {
@@ -128,15 +133,13 @@ name = Languagesystems;
 code = "lookup AboveHah {
   sub behDotless-ar.init by behDotless-ar.init.hah;
   sub lam-ar.init by lam-ar.init.hah;
-  sub hah-ar.medi by hah-ar.medi.1;
-  sub hah-ar.fina by hah-ar.fina.1;
 } AboveHah;
 
 lookup AboveHahReverse {
   sub behDotless-ar.init.hah by behDotless-ar.init;
   sub lam-ar.init.hah by lam-ar.init;
-  sub hah-ar.medi.1 by hah-ar.medi;
-  sub hah-ar.fina.1 by hah-ar.fina;
+  sub hah-ar.medi by hah-ar.medi.3;
+  sub hah-ar.fina by hah-ar.fina.1;
 } AboveHahReverse;
 
 lookup lellah {
@@ -158,7 +161,8 @@ lookup InsertKashida {
   sub hah-ar.medi by hah-ar.medi kashida-ar;
 } InsertKashida;
 
-valueRecordDef <40 -110 0 0> DOT_MOVEMENT;";
+valueRecordDef <40 -110 0 0> DOT_MOVEMENT;
+";
 name = Lookups;
 }
 );
@@ -309,13 +313,14 @@ code = "lookupflag IgnoreMarks;
   sub behDotless-ar.init behDotless-ar.medi' noonghunna-ar.fina by behDotless-ar.medi.high;
 
   sub [behDotless-ar.init lam-ar.init]' lookup AboveHah
-      [hah-ar.medi hah-ar.fina]'        lookup AboveHah;
+      [hah-ar.medi hah-ar.fina];
 
   sub lam-ar.init alef-ar.fina by lam_alef-ar;
   sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
 
 lookupflag 0;
-  sub space' space by space.alt;";
+  sub space' space by space.alt;
+";
 name = rclt;
 },
 {
@@ -431,7 +436,7 @@ lookupflag UseMarkFilteringSet @TwoDotsBelow;
 
 lookupflag IgnoreMarks;
   sub [behDotless-ar.init.hah lam-ar.init.hah]' lookup AboveHahReverse
-      [hah-ar.medi hah-ar.fina]'                lookup AboveHahReverse;
+      [hah-ar.medi.3 hah-ar.fina.1]'            lookup AboveHahReverse;
 
 # Mark first level.
 lookup Temp1 { rsub @AllMedi'     [@HahAlt @AllMediTemp]      by @AllMediTemp;  } Temp1;
@@ -470,7 +475,26 @@ lookupflag UseMarkFilteringSet @DotsBelow;
   pos hah-ar.medi.1 @DotsBelow' <DOT_MOVEMENT> [hah-ar.medi.1 hah-ar.fina.1];
   pos @BehFeh @DotsBelow' <DOT_MOVEMENT> [hah-ar.medi.1 hah-ar.fina.1];
   pos @BehFeh @DotsBelow' <DOT_MOVEMENT> [@BehFeh lam-ar.medi] [hah-ar.medi.1 hah-ar.fina.1];
-  pos @BehFeh @DotsBelow' <DOT_MOVEMENT> @BehFeh' @DotsBelow' <DOT_MOVEMENT> [hah-ar.medi.1 hah-ar.fina.1];";
+  pos @BehFeh @DotsBelow' <DOT_MOVEMENT> @BehFeh' @DotsBelow' <DOT_MOVEMENT> [hah-ar.medi.1 hah-ar.fina.1];
+
+
+	pos	[behDotless-ar.medi hah-ar.init hah-ar.medi]
+		 @DotsBelow' <0 -110 0 0>
+		[hah-ar.medi hah-ar.fina]
+	;
+
+	pos	[hah-ar.init hah-ar.medi]
+		 @DotsBelow' <0 -110 0 0>
+		[lam-ar.medi.short behDotless-ar.medi]
+		[hah-ar.medi hah-ar.fina]
+	;
+
+	pos	[behDotless-ar.medi hah-ar.init hah-ar.medi]
+		 kashida-ar
+		 @DotsBelow' <0 -110 0 0>
+		[hah-ar.medi hah-ar.fina]
+	;
+";
 name = mark;
 },
 {
@@ -2950,6 +2974,34 @@ layers = (
 anchors = (
 {
 name = bottom;
+position = "{190, -35}";
+},
+{
+name = entry;
+position = "{178, 110}";
+},
+{
+name = top;
+position = "{99, 233}";
+}
+);
+components = (
+{
+name = "hah-ar.3";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 490;
+}
+);
+},
+{
+glyphname = "hah-ar.fina.1";
+layers = (
+{
+anchors = (
+{
+name = bottom;
 position = "{176, -35}";
 },
 {
@@ -2989,35 +3041,157 @@ width = 311;
 leftKerningGroup = waw;
 },
 {
-glyphname = "hah-ar.fina.1";
+glyphname = "hah-ar.medi";
 layers = (
+{
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
+name = Background;
+paths = (
+{
+closed = 1;
+nodes = (
+"70 70 LINE",
+"0 140 LINE",
+"42.749 209.841 LINE",
+"182.958 70 LINE"
+);
+}
+);
+width = 400;
+},
 {
 anchors = (
 {
 name = bottom;
-position = "{190, -35}";
+position = "{110, -35}";
 },
 {
 name = entry;
-position = "{178, 110}";
+position = "{88, 110}";
+},
+{
+name = exit;
+position = "{0, 0}";
 },
 {
 name = top;
-position = "{99, 233}";
+position = "{9, 233}";
 }
 );
 components = (
 {
-name = "hah-ar.3";
+name = "hah-ar.init";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 490;
+width = 400;
 }
 );
+rightKerningGroup = "meem-ar.medi";
 },
 {
-glyphname = "hah-ar.medi";
+glyphname = "hah-ar.medi.1";
+layers = (
+{
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
+name = Background;
+paths = (
+{
+closed = 1;
+nodes = (
+"70 70 LINE",
+"0 140 LINE",
+"42.749 209.841 LINE",
+"182.958 70 LINE"
+);
+}
+);
+width = 400;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{110, -35}";
+},
+{
+name = entry;
+position = "{88, 110}";
+},
+{
+name = exit;
+position = "{0, 0}";
+},
+{
+name = top;
+position = "{9, 233}";
+}
+);
+components = (
+{
+name = "hah-ar.init.1";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 420;
+}
+);
+rightKerningGroup = "meem-ar.medi";
+},
+{
+glyphname = "hah-ar.medi.2";
+layers = (
+{
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
+name = Background;
+paths = (
+{
+closed = 1;
+nodes = (
+"70 70 LINE",
+"0 140 LINE",
+"42.749 209.841 LINE",
+"182.958 70 LINE"
+);
+}
+);
+width = 400;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{110, -35}";
+},
+{
+name = entry;
+position = "{88, 110}";
+},
+{
+name = exit;
+position = "{0, 0}";
+},
+{
+name = top;
+position = "{9, 233}";
+}
+);
+components = (
+{
+name = "hah-ar.init.2";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 440;
+}
+);
+rightKerningGroup = "meem-ar.medi";
+},
+{
+glyphname = "hah-ar.medi.3";
 layers = (
 {
 anchors = (
@@ -3068,156 +3242,6 @@ width = 191;
 }
 );
 leftKerningGroup = waw;
-},
-{
-glyphname = "hah-ar.medi.1";
-layers = (
-{
-associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
-name = Background;
-paths = (
-{
-closed = 1;
-nodes = (
-"70 70 LINE",
-"0 140 LINE",
-"42.749 209.841 LINE",
-"182.958 70 LINE"
-);
-}
-);
-width = 400;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{110, -35}";
-},
-{
-name = entry;
-position = "{88, 110}";
-},
-{
-name = exit;
-position = "{0, 0}";
-},
-{
-name = top;
-position = "{9, 233}";
-}
-);
-components = (
-{
-name = "hah-ar.init";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 400;
-}
-);
-rightKerningGroup = "meem-ar.medi";
-},
-{
-glyphname = "hah-ar.medi.2";
-layers = (
-{
-associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
-name = Background;
-paths = (
-{
-closed = 1;
-nodes = (
-"70 70 LINE",
-"0 140 LINE",
-"42.749 209.841 LINE",
-"182.958 70 LINE"
-);
-}
-);
-width = 400;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{110, -35}";
-},
-{
-name = entry;
-position = "{88, 110}";
-},
-{
-name = exit;
-position = "{0, 0}";
-},
-{
-name = top;
-position = "{9, 233}";
-}
-);
-components = (
-{
-name = "hah-ar.init.1";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 420;
-}
-);
-rightKerningGroup = "meem-ar.medi";
-},
-{
-glyphname = "hah-ar.medi.3";
-layers = (
-{
-associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
-name = Background;
-paths = (
-{
-closed = 1;
-nodes = (
-"70 70 LINE",
-"0 140 LINE",
-"42.749 209.841 LINE",
-"182.958 70 LINE"
-);
-}
-);
-width = 400;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{110, -35}";
-},
-{
-name = entry;
-position = "{88, 110}";
-},
-{
-name = exit;
-position = "{0, 0}";
-},
-{
-name = top;
-position = "{9, 233}";
-}
-);
-components = (
-{
-name = "hah-ar.init.2";
-}
-);
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 440;
-}
-);
-rightKerningGroup = "meem-ar.medi";
 },
 {
 glyphname = "hah-ar.init";
@@ -15610,12 +15634,12 @@ kerning = {
 };
 "@MMK_L_heh.init" = {
 "@MMK_R_reh.fina" = 40;
-"hah-ar.fina" = 60;
-"hah-ar.medi" = 60;
+"hah-ar.fina.1" = 60;
+"hah-ar.medi.3" = 60;
 };
 "@MMK_L_heh.medi" = {
-"hah-ar.fina" = 60;
-"hah-ar.medi" = 60;
+"hah-ar.fina.1" = 60;
+"hah-ar.medi.3" = 60;
 };
 "@MMK_L_lam_alef.1" = {
 "alef-ar.1" = 160;
@@ -15758,7 +15782,7 @@ kerning = {
 "@MMK_R_yeh" = -40;
 "behDotless-ar.fina.1" = -30;
 "behDotless-ar.medi.1" = -40;
-"hah-ar.fina" = -80;
+"hah-ar.fina.1" = -80;
 "lam_alef-ar.fina" = -60;
 "lam_alef-ar.fina.2" = -60;
 "lam_alef-ar.fina.3" = -60;
@@ -15883,7 +15907,7 @@ kerning = {
 "@MMK_R_reh.fina" = -40;
 "@MMK_R_waw" = -40;
 "@MMK_R_yeh" = -50;
-"hah-ar.fina" = -100;
+"hah-ar.fina.1" = -100;
 "lam_alef-ar.fina" = -80;
 "lam_alef-ar.fina.1" = -20;
 "meem-ar.medi" = -40;
@@ -15934,7 +15958,7 @@ kerning = {
 "alefMaksura-ar.5" = 170;
 "alefMaksura-ar.6" = 540;
 };
-"hah-ar.fina" = {
+"hah-ar.fina.1" = {
 "alefMaksura-ar.2" = 240;
 "alefMaksura-ar.3" = 385;
 "alefMaksura-ar.4" = 540;
@@ -15949,7 +15973,7 @@ kerning = {
 "@MMK_R_pyramid" = -20;
 "@MMK_R_yeh" = -40;
 };
-"hah-ar.medi" = {
+"hah-ar.medi.3" = {
 "@MMK_R_hah-ar.init" = -40;
 "@MMK_R_pyramid" = -30;
 "@MMK_R_waw" = -40;

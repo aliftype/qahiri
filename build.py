@@ -203,19 +203,21 @@ def makeFeatures(instance, source):
             other, ext1, ext2 = gclass.name.partition("Temp")
             other = font.classes[other]
 
-            font = instance.parent
+            gclass.code = ""
             for name in other.code.split():
-                newGlyph = GSGlyph(f"{name}.{ext1}{ext2}")
-                newGlyph.category = "Other"
-                gclass.code += f" {newGlyph.name}"
-                font.glyphOrder.append(newGlyph.name)
-                font.glyphs.append(newGlyph)
+                newName = f"{name}.{ext1}{ext2}"
+                if newName not in font.glyphs:
+                    newGlyph = GSGlyph(newName)
+                    newGlyph.category = "Other"
+                    font.glyphOrder.append(newGlyph.name)
+                    font.glyphs.append(newGlyph)
 
-                glyph = font.glyphs[name]
-                newLayer = GSLayer()
-                newLayer.associatedMasterId = glyph.layers[0].associatedMasterId
-                newLayer.layerId = glyph.layers[0].layerId
-                newGlyph.layers[newLayer.associatedMasterId] = newLayer
+                    glyph = font.glyphs[name]
+                    newLayer = GSLayer()
+                    newLayer.associatedMasterId = glyph.layers[0].associatedMasterId
+                    newLayer.layerId = glyph.layers[0].layerId
+                    newGlyph.layers[newLayer.associatedMasterId] = newLayer
+                gclass.code += " " + newName
 
         fea += f"@{gclass.name} = [{gclass.code}];\n"
 

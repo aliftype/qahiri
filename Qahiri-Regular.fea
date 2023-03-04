@@ -4,8 +4,12 @@
 @TwoDotsVerticalBelow = [twodotsverticalbelow-ar twodotsverticalbelow-ar.alt1];
 @DotBelow = [dotbelow-ar dotbelow-ar.alt1];
 @DotsBelow = [@DotBelow @TwoDotsBelow];
-@HahAlt = [hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3 hah-ar.fina.1];
-@HahAltTemp = [hah-ar.medi.1.Temp hah-ar.medi.2.Temp hah-ar.medi.3.Temp];
+@HahAlt = [hah-ar.medi
+hah-ar.medi.1
+hah-ar.medi.2
+hah-ar.fina
+];
+@HahAltTemp = [ hah-ar.medi.Temp hah-ar.medi.1.Temp hah-ar.medi.2.Temp hah-ar.fina.Temp];
 @AllMedi = [behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1 behDotless-ar.medi.yeh hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3 seen-ar.medi seen-ar.medi.1 seen-ar.medi.2 seen-ar.medi.3 seen-ar.medi.4 seen-ar.medi.5 seen-ar.medi.6 sad-ar.medi tah-ar.medi tah-ar.medi.short tah-ar.medi.short2 ain-ar.medi fehDotless-ar.medi fehDotless-ar.medi.1 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 lam-ar.medi lam-ar.medi.lellah lam-ar.medi.short lam-ar.medi.short2 lam-ar.medi.yeh meem-ar.medi meem-ar.medi.1 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.medi.4 heh-ar.medi.5 heh-ar.medi.6 heh-ar.medi.7 kashida-ar];
 @AllMediTemp = [ behDotless-ar.medi.Temp behDotless-ar.medi.1.Temp behDotless-ar.medi.high.Temp behDotless-ar.medi.high.1.Temp behDotless-ar.medi.yeh.Temp hah-ar.medi.Temp hah-ar.medi.1.Temp hah-ar.medi.2.Temp hah-ar.medi.3.Temp seen-ar.medi.Temp seen-ar.medi.1.Temp seen-ar.medi.2.Temp seen-ar.medi.3.Temp seen-ar.medi.4.Temp seen-ar.medi.5.Temp seen-ar.medi.6.Temp sad-ar.medi.Temp tah-ar.medi.Temp tah-ar.medi.short.Temp tah-ar.medi.short2.Temp ain-ar.medi.Temp fehDotless-ar.medi.Temp fehDotless-ar.medi.1.Temp kaf-ar.medi.Temp kaf-ar.medi.1.Temp kaf-ar.medi.2.Temp lam-ar.medi.Temp lam-ar.medi.lellah.Temp lam-ar.medi.short.Temp lam-ar.medi.short2.Temp lam-ar.medi.yeh.Temp meem-ar.medi.Temp meem-ar.medi.1.Temp heh-ar.medi.Temp heh-ar.medi.1.Temp heh-ar.medi.2.Temp heh-ar.medi.3.Temp heh-ar.medi.4.Temp heh-ar.medi.5.Temp heh-ar.medi.6.Temp heh-ar.medi.7.Temp kashida-ar.Temp];
 @AllMediTemp2 = [ behDotless-ar.medi.Temp2 behDotless-ar.medi.1.Temp2 behDotless-ar.medi.high.Temp2 behDotless-ar.medi.high.1.Temp2 behDotless-ar.medi.yeh.Temp2 hah-ar.medi.Temp2 hah-ar.medi.1.Temp2 hah-ar.medi.2.Temp2 hah-ar.medi.3.Temp2 seen-ar.medi.Temp2 seen-ar.medi.1.Temp2 seen-ar.medi.2.Temp2 seen-ar.medi.3.Temp2 seen-ar.medi.4.Temp2 seen-ar.medi.5.Temp2 seen-ar.medi.6.Temp2 sad-ar.medi.Temp2 tah-ar.medi.Temp2 tah-ar.medi.short.Temp2 tah-ar.medi.short2.Temp2 ain-ar.medi.Temp2 fehDotless-ar.medi.Temp2 fehDotless-ar.medi.1.Temp2 kaf-ar.medi.Temp2 kaf-ar.medi.1.Temp2 kaf-ar.medi.2.Temp2 lam-ar.medi.Temp2 lam-ar.medi.lellah.Temp2 lam-ar.medi.short.Temp2 lam-ar.medi.short2.Temp2 lam-ar.medi.yeh.Temp2 meem-ar.medi.Temp2 meem-ar.medi.1.Temp2 heh-ar.medi.Temp2 heh-ar.medi.1.Temp2 heh-ar.medi.2.Temp2 heh-ar.medi.3.Temp2 heh-ar.medi.4.Temp2 heh-ar.medi.5.Temp2 heh-ar.medi.6.Temp2 heh-ar.medi.7.Temp2 kashida-ar.Temp2];
@@ -15,15 +19,13 @@ languagesystem arab dflt;
 lookup AboveHah {
   sub behDotless-ar.init by behDotless-ar.init.hah;
   sub lam-ar.init by lam-ar.init.hah;
-  sub hah-ar.medi by hah-ar.medi.1;
-  sub hah-ar.fina by hah-ar.fina.1;
 } AboveHah;
 
 lookup AboveHahReverse {
   sub behDotless-ar.init.hah by behDotless-ar.init;
   sub lam-ar.init.hah by lam-ar.init;
-  sub hah-ar.medi.1 by hah-ar.medi;
-  sub hah-ar.fina.1 by hah-ar.fina;
+  sub hah-ar.medi by hah-ar.medi.3;
+  sub hah-ar.fina by hah-ar.fina.1;
 } AboveHahReverse;
 
 lookup lellah {
@@ -46,6 +48,7 @@ lookup InsertKashida {
 } InsertKashida;
 
 valueRecordDef <40 -110 0 0> DOT_MOVEMENT;
+
 
 feature ccmp {
 
@@ -201,13 +204,14 @@ lookupflag IgnoreMarks;
   sub behDotless-ar.init behDotless-ar.medi' noonghunna-ar.fina by behDotless-ar.medi.high;
 
   sub [behDotless-ar.init lam-ar.init]' lookup AboveHah
-      [hah-ar.medi hah-ar.fina]'        lookup AboveHah;
+      [hah-ar.medi hah-ar.fina];
 
   sub lam-ar.init alef-ar.fina by lam_alef-ar;
   sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
 
 lookupflag 0;
   sub space' space by space.alt;
+
 } rclt;
 
 feature ss01 {
@@ -395,7 +399,7 @@ lookupflag UseMarkFilteringSet @TwoDotsBelow;
 
 lookupflag IgnoreMarks;
   sub [behDotless-ar.init.hah lam-ar.init.hah]' lookup AboveHahReverse
-      [hah-ar.medi hah-ar.fina]'                lookup AboveHahReverse;
+      [hah-ar.medi.3 hah-ar.fina.1]'            lookup AboveHahReverse;
 
 # Mark first level.
 lookup Temp1 { rsub @AllMedi'     [@HahAlt @AllMediTemp]      by @AllMediTemp;  } Temp1;
@@ -445,11 +449,11 @@ pos cursive behDotless-ar.medi.high.1 <anchor 120 0> <anchor 0 0>;
 pos cursive behDotless-ar.medi.yeh <anchor NULL> <anchor 0 0>;
 pos cursive behDotless-ar.init <anchor NULL> <anchor 0 0>;
 pos cursive behDotless-ar.init.hah <anchor NULL> <anchor -19 -2>;
-pos cursive hah-ar.fina.1 <anchor 178 110> <anchor NULL>;
-pos cursive hah-ar.medi <anchor 191 0> <anchor 0 0>;
+pos cursive hah-ar.fina <anchor 178 110> <anchor NULL>;
+pos cursive hah-ar.medi <anchor 88 110> <anchor 0 0>;
 pos cursive hah-ar.medi.1 <anchor 88 110> <anchor 0 0>;
 pos cursive hah-ar.medi.2 <anchor 88 110> <anchor 0 0>;
-pos cursive hah-ar.medi.3 <anchor 88 110> <anchor 0 0>;
+pos cursive hah-ar.medi.3 <anchor 191 0> <anchor 0 0>;
 pos cursive hah-ar.init <anchor NULL> <anchor 0 0>;
 pos cursive hah-ar.init.1 <anchor NULL> <anchor 0 0>;
 pos cursive hah-ar.init.2 <anchor NULL> <anchor 0 0>;
@@ -574,18 +578,18 @@ pos base hah-ar.4 <anchor 320 -145> mark @mark_bottom;
 pos base hah-ar.4 <anchor 476 163> mark @mark_top;
 pos base hah-ar.5 <anchor 320 -145> mark @mark_bottom;
 pos base hah-ar.5 <anchor 476 163> mark @mark_top;
-pos base hah-ar.fina <anchor 176 -35> mark @mark_bottom;
-pos base hah-ar.fina <anchor 156 305> mark @mark_top;
-pos base hah-ar.fina.1 <anchor 190 -35> mark @mark_bottom;
-pos base hah-ar.fina.1 <anchor 99 233> mark @mark_top;
-pos base hah-ar.medi <anchor 70 -35> mark @mark_bottom;
-pos base hah-ar.medi <anchor 36 305> mark @mark_top;
+pos base hah-ar.fina <anchor 190 -35> mark @mark_bottom;
+pos base hah-ar.fina <anchor 99 233> mark @mark_top;
+pos base hah-ar.fina.1 <anchor 176 -35> mark @mark_bottom;
+pos base hah-ar.fina.1 <anchor 156 305> mark @mark_top;
+pos base hah-ar.medi <anchor 110 -35> mark @mark_bottom;
+pos base hah-ar.medi <anchor 9 233> mark @mark_top;
 pos base hah-ar.medi.1 <anchor 110 -35> mark @mark_bottom;
 pos base hah-ar.medi.1 <anchor 9 233> mark @mark_top;
 pos base hah-ar.medi.2 <anchor 110 -35> mark @mark_bottom;
 pos base hah-ar.medi.2 <anchor 9 233> mark @mark_top;
-pos base hah-ar.medi.3 <anchor 110 -35> mark @mark_bottom;
-pos base hah-ar.medi.3 <anchor 9 233> mark @mark_top;
+pos base hah-ar.medi.3 <anchor 70 -35> mark @mark_bottom;
+pos base hah-ar.medi.3 <anchor 36 305> mark @mark_top;
 pos base hah-ar.init <anchor 170 -35> mark @mark_bottom;
 pos base hah-ar.init <anchor 269 163> mark @mark_top;
 pos base hah-ar.init.1 <anchor 170 -35> mark @mark_bottom;
@@ -798,6 +802,25 @@ lookupflag UseMarkFilteringSet @DotsBelow;
   pos @BehFeh @DotsBelow' <DOT_MOVEMENT> [hah-ar.medi.1 hah-ar.fina.1];
   pos @BehFeh @DotsBelow' <DOT_MOVEMENT> [@BehFeh lam-ar.medi] [hah-ar.medi.1 hah-ar.fina.1];
   pos @BehFeh @DotsBelow' <DOT_MOVEMENT> @BehFeh' @DotsBelow' <DOT_MOVEMENT> [hah-ar.medi.1 hah-ar.fina.1];
+
+
+	pos	[behDotless-ar.medi hah-ar.init hah-ar.medi]
+		 @DotsBelow' <0 -110 0 0>
+		[hah-ar.medi hah-ar.fina]
+	;
+
+	pos	[hah-ar.init hah-ar.medi]
+		 @DotsBelow' <0 -110 0 0>
+		[lam-ar.medi.short behDotless-ar.medi]
+		[hah-ar.medi hah-ar.fina]
+	;
+
+	pos	[behDotless-ar.medi hah-ar.init hah-ar.medi]
+		 kashida-ar
+		 @DotsBelow' <0 -110 0 0>
+		[hah-ar.medi hah-ar.fina]
+	;
+
 } mark;
 
 feature kern {
@@ -817,8 +840,8 @@ lookupflag IgnoreMarks;
 @MMK_L_dal = [behDotless-ar behDotless-ar.fina behDotless-ar.fina.1 dal-ar dal-ar.fina reh-ar.2 reh-ar.3 kaf-ar kaf-ar.1 kaf-ar.2 kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 meem-ar meem-ar.1 meem-ar.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 waw-ar.2 waw-ar.3];
 @MMK_R_pyramid = [behDotless-ar.medi.1 seen-ar.medi.6];
 @MMK_L_pyramid = [behDotless-ar.medi.1];
-@MMK_R_waw = [hah-ar.fina hah-ar.medi dal-ar.fina sad-ar.fina sad-ar.fina.1 sad-ar.medi tah-ar.fina tah-ar.medi tah-ar.medi.short tah-ar.medi.short2 qafDotless-ar.fina kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi.1 noonghunna-ar.fina waw-ar.fina waw-ar.fina.1];
-@MMK_L_meem-ar.medi = [hah-ar.medi.1 hah-ar.medi.2 hah-ar.medi.3 hah-ar.init meem-ar.medi];
+@MMK_R_waw = [hah-ar.fina.1 hah-ar.medi.3 dal-ar.fina sad-ar.fina sad-ar.fina.1 sad-ar.medi tah-ar.fina tah-ar.medi tah-ar.medi.short tah-ar.medi.short2 qafDotless-ar.fina kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 kaf-ar.medi kaf-ar.medi.1 kaf-ar.medi.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi.1 noonghunna-ar.fina waw-ar.fina waw-ar.fina.1];
+@MMK_L_meem-ar.medi = [hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.init meem-ar.medi];
 @MMK_R_hah-ar.init = [hah-ar.init meem-ar.medi];
 @MMK_L_reh = [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1];
 @MMK_R_reh.fina = [reh-ar.fina reh-ar.fina.1];
@@ -859,7 +882,7 @@ pos ain-ar.fina alefMaksura-ar.5 <170 0 170 0>;
 pos ain-ar.fina alefMaksura-ar.6 <540 0 540 0>;
 pos ain-ar.medi behDotless-ar.fina.1 <-30 0 -30 0>;
 pos ain-ar.medi behDotless-ar.medi.1 <-40 0 -40 0>;
-pos ain-ar.medi hah-ar.fina <-80 0 -80 0>;
+pos ain-ar.medi hah-ar.fina.1 <-80 0 -80 0>;
 pos ain-ar.medi lam_alef-ar.fina <-60 0 -60 0>;
 pos ain-ar.medi lam_alef-ar.fina.2 <-60 0 -60 0>;
 pos ain-ar.medi lam_alef-ar.fina.3 <-60 0 -60 0>;
@@ -940,7 +963,7 @@ pos alefMaksura-ar.fina.6 alefMaksura-ar.3 <385 0 385 0>;
 pos alefMaksura-ar.fina.6 alefMaksura-ar.4 <540 0 540 0>;
 pos alefMaksura-ar.fina.6 alefMaksura-ar.5 <170 0 170 0>;
 pos alefMaksura-ar.fina.6 alefMaksura-ar.6 <540 0 540 0>;
-pos fehDotless-ar.medi hah-ar.fina <-100 0 -100 0>;
+pos fehDotless-ar.medi hah-ar.fina.1 <-100 0 -100 0>;
 pos fehDotless-ar.medi lam_alef-ar.fina <-80 0 -80 0>;
 pos fehDotless-ar.medi lam_alef-ar.fina.1 <-20 0 -20 0>;
 pos fehDotless-ar.medi meem-ar.medi <-40 0 -40 0>;
@@ -974,13 +997,13 @@ pos hah-ar.5 alefMaksura-ar.3 <385 0 385 0>;
 pos hah-ar.5 alefMaksura-ar.4 <540 0 540 0>;
 pos hah-ar.5 alefMaksura-ar.5 <170 0 170 0>;
 pos hah-ar.5 alefMaksura-ar.6 <540 0 540 0>;
-pos hah-ar.fina alefMaksura-ar.2 <240 0 240 0>;
-pos hah-ar.fina alefMaksura-ar.3 <385 0 385 0>;
-pos hah-ar.fina alefMaksura-ar.4 <540 0 540 0>;
-pos hah-ar.fina alefMaksura-ar.5 <170 0 170 0>;
-pos hah-ar.fina alefMaksura-ar.6 <540 0 540 0>;
-pos hah-ar.medi alefMaksura-ar.fina.5 <0 0 0 0>;
-pos hah-ar.medi meem-ar.fina.2 <-50 0 -50 0>;
+pos hah-ar.fina.1 alefMaksura-ar.2 <240 0 240 0>;
+pos hah-ar.fina.1 alefMaksura-ar.3 <385 0 385 0>;
+pos hah-ar.fina.1 alefMaksura-ar.4 <540 0 540 0>;
+pos hah-ar.fina.1 alefMaksura-ar.5 <170 0 170 0>;
+pos hah-ar.fina.1 alefMaksura-ar.6 <540 0 540 0>;
+pos hah-ar.medi.3 alefMaksura-ar.fina.5 <0 0 0 0>;
+pos hah-ar.medi.3 meem-ar.fina.2 <-50 0 -50 0>;
 pos qafDotless-ar alefMaksura-ar.2 <220 0 220 0>;
 pos qafDotless-ar alefMaksura-ar.3 <365 0 365 0>;
 pos qafDotless-ar alefMaksura-ar.4 <520 0 520 0>;
@@ -1057,10 +1080,10 @@ enum pos @MMK_L_dal meem-ar.1 <-20 0 -20 0>;
 enum pos @MMK_L_dal meem-ar.2 <-10 0 -10 0>;
 enum pos @MMK_L_dal meem-ar.init <-20 0 -20 0>;
 enum pos @MMK_L_dal qafDotless-ar <-80 0 -80 0>;
-enum pos @MMK_L_heh.init hah-ar.fina <60 0 60 0>;
-enum pos @MMK_L_heh.init hah-ar.medi <60 0 60 0>;
-enum pos @MMK_L_heh.medi hah-ar.fina <60 0 60 0>;
-enum pos @MMK_L_heh.medi hah-ar.medi <60 0 60 0>;
+enum pos @MMK_L_heh.init hah-ar.fina.1 <60 0 60 0>;
+enum pos @MMK_L_heh.init hah-ar.medi.3 <60 0 60 0>;
+enum pos @MMK_L_heh.medi hah-ar.fina.1 <60 0 60 0>;
+enum pos @MMK_L_heh.medi hah-ar.medi.3 <60 0 60 0>;
 enum pos @MMK_L_lam_alef.1 alef-ar.1 <160 0 160 0>;
 enum pos @MMK_L_lam_alef.1 alef-ar.2 <80 0 80 0>;
 enum pos @MMK_L_lam_alef.1 alef-ar.3 <240 0 240 0>;
@@ -1156,10 +1179,10 @@ enum pos hah-ar.init.1 @MMK_R_pyramid <-20 0 -20 0>;
 enum pos hah-ar.init.1 @MMK_R_yeh <-40 0 -40 0>;
 enum pos hah-ar.init.2 @MMK_R_pyramid <-20 0 -20 0>;
 enum pos hah-ar.init.2 @MMK_R_yeh <-40 0 -40 0>;
-enum pos hah-ar.medi @MMK_R_hah-ar.init <-40 0 -40 0>;
-enum pos hah-ar.medi @MMK_R_pyramid <-30 0 -30 0>;
-enum pos hah-ar.medi @MMK_R_waw <-40 0 -40 0>;
-enum pos hah-ar.medi @MMK_R_yeh <-40 0 -40 0>;
+enum pos hah-ar.medi.3 @MMK_R_hah-ar.init <-40 0 -40 0>;
+enum pos hah-ar.medi.3 @MMK_R_pyramid <-30 0 -30 0>;
+enum pos hah-ar.medi.3 @MMK_R_waw <-40 0 -40 0>;
+enum pos hah-ar.medi.3 @MMK_R_yeh <-40 0 -40 0>;
 enum pos kaf-ar.init.1 @MMK_R_yeh <-30 0 -30 0>;
 enum pos kaf-ar.medi.2 @MMK_R_yeh <-30 0 -30 0>;
 
