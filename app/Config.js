@@ -16,7 +16,7 @@
  *
  */
 
-export const FONT_FILE = "./assets/fonts/Qahiri-Regular.otf";
+export const FONT_FILE = "./assets/fonts/Qahiri-Regular.ttf";
 export const SERVICE_WORKER = "./ServiceWorker.js";
 export const SAMPLE_TEXT = `
 [{"code":1575,"features":["salt=3"]},{"code":1604},{"code":1582,"features":["salt=1"]},{"code":1591},{"code":32},{"code":1575,"features":["salt=1"]},{"code":1604},{"code":1603,"features":[]},{"code":1608,"features":["salt=1"]},{"code":1601,"features":[]},{"code":1610,"features":[]},{"code":32},{"code":1575,"features":["salt=4"]},{"code":1604},{"code":1605,"features":["salt=2"]},{"code":1589,"features":[]},{"code":1581,"features":["salt=3"]},{"code":1601,"features":["salt=1"]},{"code":1610,"features":["salt=5"]}]

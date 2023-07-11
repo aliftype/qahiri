@@ -28,17 +28,13 @@ FONTDIR = fonts
 TESTDIR = tests
 BUILDDIR = build
 
-FONTS = $(FONTDIR)/$(NAME)-Regular.otf $(FONTDIR)/$(NAME)-Regular.ttf
+FONTS = $(FONTDIR)/$(NAME)-Regular.ttf
 
 .SECONDARY:
 .ONESHELL:
 .PHONY: all dist
 
 all: $(FONTS)
-
-%.otf: $(SOURCEDIR)/$(NAME).glyphs $(CONFIG)
-	$(info   BUILD  $(@F))
-	python $(SCRIPTDIR)/build.py $< $(VERSION) $@
 
 %.ttf: $(SOURCEDIR)/$(NAME).glyphs $(CONFIG)
 	$(info   BUILD  $(@F))
