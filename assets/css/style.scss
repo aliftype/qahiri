@@ -31,13 +31,12 @@ section:lang(ar) {
 
 .lang-switcher {
   font-size: 14pt;
-  float: left;
+  float: right;
   transform: rotate(90deg);
 }
 
 .lang-switcher:lang(ar) {
   font-size: 16pt;
-  float: right;
   transform: rotate(-90deg);
 }
 
