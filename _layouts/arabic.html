@@ -33,14 +33,14 @@
     <div class="wrapper">
       <header>
         <h1>{{ site.title_ar | default: site.github.repository_name }}</h1>
-        
+
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description_ar | default: site.github.project_tagline }}</p>
 
-        <p class="downloads"><a href="{{ site.github.repository_url }}/releases/download/v{{ site.version }}/Qahiri-{{ site.version }}.zip">نزِّل الخط</a></p>
+        <p class="downloads"><a href="{{ site.github.repository_url }}/releases/download/v{{ site.version }}/{{ site.title }}-{{ site.version }}.zip">نزِّل الخط</a></p>
 
         <p class="downloads"><a href="./app">اذهب إلى التطبيق</a></p>
 
