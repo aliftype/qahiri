@@ -1,3 +1,10 @@
+---
+title: Qahiri
+description: A manuscript Kufic typeface
+layout: default
+language: en-US
+direction: ltr
+---
 _Qahiri_ is a [Kufic][1] typeface based on the modernized and regularized old
 manuscript Kufic calligraphy style of the late master of Arabic calligraphy
 [_Mohammad Abdul Qadir_][2].

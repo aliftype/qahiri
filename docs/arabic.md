@@ -1,6 +1,7 @@
 ---
-layout: arabic
-title: قاهري
+layout: default
+language: ar
+direction: rtl
 ---
 
 «قاهري» هو خط حاسوبي [كوفي] مبني على القاعدة الحديثة لخط كوفي المصاحف التي

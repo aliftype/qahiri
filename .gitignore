@@ -1,3 +1,5 @@
 /venv
 /build
 *.swp
+/docs/_site
+/fonts/*.woff2

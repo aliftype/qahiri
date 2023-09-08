@@ -1,0 +1,4 @@
+version: "3.00" # Increment only when tagging release, download link uses it.
+name: Qahiri
+title: قاهري
+description: خط كوفي مصحفي

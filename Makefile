@@ -18,7 +18,7 @@ NAME = Qahiri
 MAKEFLAGS := -sr
 SHELL = bash
 
-CONFIG = _config.yml
+CONFIG = docs/_config.yml
 VERSION = $(shell grep "version:" $(CONFIG) | sed -e 's/.*.: "\(.*.\)".*/\1/')
 DIST = $(NAME)-$(VERSION)
 
@@ -29,16 +29,26 @@ TESTDIR = tests
 BUILDDIR = build
 
 FONTS = $(FONTDIR)/$(NAME)-Regular.ttf
+WOFF2 = $(FONTDIR)/$(NAME)-Regular.woff2
 
 .SECONDARY:
 .ONESHELL:
 .PHONY: all dist
 
-all: $(FONTS)
+all: ttf web
+ttf: $(FONTS)
+
+web: $(WOFF2)
+	cp $(WOFF2) docs/assets/fonts/
+	cp $(FONTS) docs/app/assets/fonts/
 
 %.ttf: $(SOURCEDIR)/$(NAME).glyphs $(CONFIG)
 	$(info   BUILD  $(@F))
 	python $(SCRIPTDIR)/build.py $< $(VERSION) $@
+
+%.woff2: %.ttf
+	$(info   WOFF2  $(@F))
+	python $(SCRIPTDIR)/buildwoff2.py $< $@
 
 dist: all
 	$(info   DIST   $(DIST).zip)

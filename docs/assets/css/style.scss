@@ -1,0 +1,336 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@700&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=block');
+
+@font-face {
+  font-family: "Raqq";
+  src: url("{{ "/assets/fonts/Raqq.woff2" | relative_url }}");
+  font-weight: 400;
+}
+
+@font-feature-values "Raqq" {
+  @stylistic { alt-one: 1; alt-two: 2; }
+  @styleset { dotless: 1; }
+}
+
+@font-face {
+  font-family: "Qahiri";
+  src: url("{{ "/assets/fonts/Qahiri-Regular.woff2" | relative_url }}");
+  font-weight: 400;
+}
+
+@font-feature-values "Qahiri" {
+  @stylistic { alt-six: 6; }
+}
+
+@font-face {
+  font-family: "Amiri";
+  src: url("{{ "/assets/fonts/Amiri-Regular.woff2" | relative_url }}");
+  font-weight: 400;
+}
+
+:root {
+  --kufi-family: "Raqq", serif;
+  --kufi-color: #DFDFDF;
+  --title-family: "Qahiri", serif;
+  --main-family: "Amiri", serif;
+  --heading-family: "Reem Kufi", sans-serif;
+  --h1-font-size: 40px;
+  --latin-font: "DM Sans", "Amiri", sans-serif;
+}
+
+:lang(en-US) {
+  --main-family: var(--latin-font);
+  --heading-family: var(--latin-font);
+  --h1-font-size: 1.5em;
+}
+
+body * {
+  font-palette: dark;
+}
+
+body {
+  font-family: var(--main-family);
+  font-size: 14pt;
+  font-weight: 400;
+  font-variant-numeric: proportional-nums;
+  background-color: black;
+  color: lightgray;
+  max-width: 1240px;
+  padding: 0 15px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 700px 1fr;
+  grid-template-rows: auto auto auto;
+  justify-content: space-between;
+  grid-template-areas:
+    "header title title"
+    "header section footer";
+  gap: 15px;
+}
+
+.lang-switcher-top { grid-area: lang-switcher; }
+header  { grid-area: header; }
+#title  { grid-area: title; }
+section { grid-area: section; }
+footer  { grid-area: footer; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-family);
+  margin-block-start: 20px;
+  margin-block-end: 5px;
+  color: var(--kufi-color);
+}
+
+h1, h2, h3 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+p {
+  text-align: justify;
+  line-height: normal;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+a {
+  color: #267CB9;
+  text-decoration: none;
+}
+
+blockquote {
+  margin: 0;
+  container-type: inline-size;
+}
+
+blockquote p {
+  text-align: center;
+}
+
+blockquote.kufi p,
+blockquote.كوفي p {
+  font-size: 8cqw;
+  direction: rtl;
+  font-weight: normal;
+}
+
+blockquote.big p,
+blockquote.كبير p {
+  margin-block-start: 0px;
+  margin-block-end: .4em;
+}
+
+code {
+  font-family: "Inconsolata", monospace;
+}
+
+img {
+  max-width: 100%;
+}
+
+#sitedesigner {
+  font-size: 60%;
+  color: grey;
+}
+
+header p {
+  text-align: start;
+  margin-block-end: 20%;
+}
+
+#logo {
+  font-family: var(--kufi-family);
+  color: var(--kufi-color);
+  font-size: 55pt;
+  margin-block-end: 5%;
+  margin-block-start: 0;
+}
+
+#title {
+  font-size: 95pt;
+  font-weight: normal;
+  font-variant-alternates: stylistic(alt-six);
+  text-align-last: justify;
+  font-family: var(--title-family);
+  margin: 0;
+  color: var(--kufi-color);
+}
+
+footer {
+  align-self: start;
+  position: sticky;
+  top: 0;
+}
+
+footer p {
+  text-align: center;
+  margin-block-end: 20%;
+}
+
+.downloads {
+  background: #f4f4f4;
+  border-radius: 35px;
+  border: 1px solid #e0e0e0;
+}
+
+.downloads a {
+  line-height: 200%;
+  font-size: 120%;
+  color: #676767;
+  text-align: center;
+}
+
+.lang-switcher-side {
+  font-size: 120%;
+}
+
+.lang-switcher-top {
+  grid-area: lang-switcher;
+  text-align: center;
+  display: none;
+}
+
+.lang-switcher-side,
+.lang-switcher-top {
+  font-family: var(--latin-font);
+}
+
+.kufi p, .كوفي p {
+  font-family: var(--kufi-family);
+  color: var(--kufi-color);
+}
+
+@media print, screen and (max-width: 1280px) {
+  #title {
+    font-size: 10vw;
+    font-variation-settings: "SPAC" -100;
+  }
+}
+
+@media print, screen and (max-width: 1100px) {
+  body {
+    grid-template-columns: auto;
+    max-width: 700px;
+    padding: 0 20px;
+    grid-template-areas:
+      "lang-switcher"
+      "title"
+      "section"
+      "footer"
+      "header"
+    ;
+  }
+
+  .lang-switcher-top {
+    display: revert;
+  }
+
+  .lang-switcher-side {
+    display: none;
+  }
+
+  header {
+    border-block-start: 1px solid #e5e5e5;
+    border-width: 1px 0;
+  }
+
+  header, header p {
+    text-align: center;
+  }
+
+  header p, footer p {
+    margin-block-end: 10%;
+    margin-block-end: 10%;
+  }
+
+  header, footer {
+    padding: revert;
+    margin: revert;
+    padding-block-start: 20px;
+    border-block-start: 1px solid #e5e5e5;
+    border-width: 1px 0;
+  }
+
+  footer {
+    align-self: revert;
+    position: revert;
+    top: revert;
+  }
+
+  #title {
+    text-align: center;
+    text-align-last: center;
+    font-size: 15vi;
+  }
+
+  blockquote p {
+    margin-block-start: .2em;
+    margin-block-end: .6em;
+  }
+}
+
+@media print, screen and (max-width: 700px) {
+  section > p:lang(en-US) {
+    text-align: start;
+    hyphens: revert;
+    -webkit-hyphens: revert;
+  }
+}
+
+@media print {
+  body {
+    background-color: revert;
+    grid-template-columns: auto;
+    max-width: 100%;
+    padding: 0 8%;
+    grid-template-areas:
+      "title"
+      "section"
+      "footer"
+      "header"
+    ;
+  }
+
+  body * {
+    font-palette: light;
+  }
+
+  body,
+  .kufi p, .كوفي p,
+  h1, h2, h3, h4, h5, h6,
+  #title,
+  #logo {
+    color: revert;
+  }
+
+  section {
+    break-after: page;
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  blockquote {
+    break-after: avoid-page;
+  }
+
+  blockquote.kufi {
+    break-after: default;
+  }
+
+  footer {
+    border: none;
+  }
+
+  .lang-switcher-top,
+  .lang-switcher-side,
+  #sitedesigner {
+    display: none;
+  }
+
+}
