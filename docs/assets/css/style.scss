@@ -135,6 +135,16 @@ img {
   max-width: 100%;
 }
 
+img.button,
+img.زر {
+  max-width: revert;
+  background-color: #D9D9D9;
+  border: none;
+  padding: 6px 8px;
+  vertical-align: text-bottom;
+  filter: invert(1);
+}
+
 #sitedesigner {
   font-size: 60%;
   color: grey;
