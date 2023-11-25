@@ -17,4 +17,5 @@ width = 312;
 }
 );
 unicode = 0632;
+category = Placeholder;
 }
