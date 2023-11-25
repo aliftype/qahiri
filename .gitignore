@@ -1,5 +1,6 @@
 /venv
 /build
+/.vscode
 *.swp
 /docs/_site
 /fonts/*.woff2
