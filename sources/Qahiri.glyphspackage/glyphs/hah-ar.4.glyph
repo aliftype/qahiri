@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{320, -145}";
+position = "{412, -40}";
 }
 );
 components = (
@@ -14,22 +14,12 @@ name = "hah-ar.init";
 transform = "{1, 0, 0, 1, 207, 0}";
 },
 {
-name = "alefMaksura-ar.fina.2";
+name = _tail1;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"462 -110 LINE",
-"503 -40 LINE",
-"373 -40 LINE",
-"373 -110 LINE"
-);
-}
-);
 width = 607;
 }
 );
+rightMetricsKey = "=hah-ar.init";
 }

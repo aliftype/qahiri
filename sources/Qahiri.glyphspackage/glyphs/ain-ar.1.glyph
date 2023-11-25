@@ -108,7 +108,7 @@ name = "ain-ar.init";
 transform = "{1, 0, 0, 1, 199, 0}";
 },
 {
-name = "alefMaksura-ar.fina.2";
+name = _tail1;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";

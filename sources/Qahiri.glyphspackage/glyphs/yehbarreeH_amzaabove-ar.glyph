@@ -5,6 +5,7 @@ layers = (
 {
 components = (
 {
+alignment = 1;
 name = "yehbarree-ar";
 },
 {
