@@ -101,6 +101,12 @@ nodes = (
 width = 680;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{129, -135}";
+}
+);
 components = (
 {
 alignment = -1;

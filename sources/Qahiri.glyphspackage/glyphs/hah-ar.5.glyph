@@ -18,14 +18,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"506 0 LINE",
-"547 70 LINE",
-"477 70 LINE",
-"477 0 LINE"
+"546 0 LINE",
+"587 70 LINE",
+"517 70 LINE",
+"517 0 LINE"
 );
 }
 );
-width = 587;
+width = 627;
 }
 );
 rightMetricsKey = "=hah-ar.init";
