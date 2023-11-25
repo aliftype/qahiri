@@ -1,0 +1,34 @@
+{
+glyphname = y;
+layers = (
+{
+components = (
+{
+name = u;
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"162 -250 LINE SMOOTH",
+"185 -250 OFFCURVE",
+"200 -235 OFFCURVE",
+"200 -210 CURVE SMOOTH",
+"200 60 LINE",
+"120 60 LINE",
+"120 -180 LINE",
+"50 -180 LINE",
+"30 -180 OFFCURVE",
+"13 -175 OFFCURVE",
+"2 -160 CURVE",
+"-50 -250 LINE"
+);
+}
+);
+width = 240;
+}
+);
+unicode = "0079,0059";
+}

@@ -1,0 +1,44 @@
+{
+glyphname = "hamza-ar";
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"226 0 LINE",
+"256 50 LINE",
+"165 50 LINE SMOOTH",
+"150 50 OFFCURVE",
+"141 62 OFFCURVE",
+"141 76 CURVE SMOOTH",
+"141 91 OFFCURVE",
+"153 107 OFFCURVE",
+"179 107 CURVE SMOOTH",
+"189 107 OFFCURVE",
+"200 105 OFFCURVE",
+"213 100 CURVE",
+"203 132 OFFCURVE",
+"178 150 OFFCURVE",
+"153 150 CURVE SMOOTH",
+"69 150 OFFCURVE",
+"59 19 OFFCURVE",
+"141 0 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"69 50 LINE",
+"40 0 LINE",
+"157 0 LINE",
+"186 50 LINE"
+);
+}
+);
+width = 296;
+}
+);
+unicode = 0621;
+}

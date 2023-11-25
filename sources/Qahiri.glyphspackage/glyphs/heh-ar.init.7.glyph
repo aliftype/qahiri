@@ -1,0 +1,32 @@
+{
+glyphname = "heh-ar.init.7";
+layers = (
+{
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "heh-ar.init.6";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"200 241 LINE",
+"200 300 LINE",
+"120 280 LINE",
+"120 210 LINE"
+);
+}
+);
+width = 240;
+}
+);
+}

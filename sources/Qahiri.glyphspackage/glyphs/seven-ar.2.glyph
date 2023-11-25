@@ -1,0 +1,28 @@
+{
+glyphname = "seven-ar.2";
+layers = (
+{
+guideLines = (
+{
+position = "{14, 350}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"177 135 LINE",
+"77 350 LINE",
+"0 350 LINE",
+"163 0 LINE",
+"326 350 LINE",
+"248 350 LINE",
+"149 135 LINE"
+);
+}
+);
+width = 366;
+}
+);
+}

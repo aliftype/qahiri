@@ -1,0 +1,15 @@
+{
+glyphname = l;
+layers = (
+{
+components = (
+{
+name = "alef-ar.1";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 200;
+}
+);
+unicode = "006C,004C";
+}

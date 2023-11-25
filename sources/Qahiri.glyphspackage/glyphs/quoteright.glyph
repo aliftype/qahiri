@@ -1,0 +1,16 @@
+{
+glyphname = quoteright;
+layers = (
+{
+components = (
+{
+name = guilsinglright;
+transform = "{0.90909, 0, 0, 0.90909, 0, 324}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 115;
+}
+);
+unicode = 2019;
+}

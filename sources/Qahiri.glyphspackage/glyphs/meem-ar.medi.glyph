@@ -1,0 +1,38 @@
+{
+glyphname = "meem-ar.medi";
+layers = (
+{
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "meem-ar.init";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"240 0 LINE",
+"240 70 LINE",
+"100 70 LINE",
+"100 0 LINE"
+);
+}
+);
+width = 240;
+}
+);
+leftKerningGroup = "hah-ar.init";
+rightKerningGroup = "meem-ar.medi";
+}

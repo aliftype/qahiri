@@ -1,0 +1,15 @@
+{
+glyphname = "zero-persian";
+layers = (
+{
+components = (
+{
+name = "zero-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 110;
+}
+);
+unicode = 06F0;
+}

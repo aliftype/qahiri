@@ -1,0 +1,30 @@
+{
+glyphname = "behDotless-ar.medi";
+layers = (
+{
+anchors = (
+{
+name = entry;
+position = "{120, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.init";
+},
+{
+name = _elbow;
+transform = "{1, 0, 0, 1, 40, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 120;
+}
+);
+widthMetricsKey = "=behDotless-ar.init";
+}

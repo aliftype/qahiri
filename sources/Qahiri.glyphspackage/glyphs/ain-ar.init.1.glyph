@@ -1,0 +1,109 @@
+{
+glyphname = "ain-ar.init.1";
+layers = (
+{
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+},
+{
+name = top;
+position = "{95, 230}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"199 0 LINE",
+"240 70 LINE",
+"113 70 LINE SMOOTH",
+"92 70 OFFCURVE",
+"80 87 OFFCURVE",
+"80 106 CURVE SMOOTH",
+"80 127 OFFCURVE",
+"96 150 OFFCURVE",
+"133 150 CURVE SMOOTH",
+"146 150 OFFCURVE",
+"162 147 OFFCURVE",
+"180 140 CURVE",
+"166 185 OFFCURVE",
+"131 210 OFFCURVE",
+"96 210 CURVE SMOOTH",
+"-22 210 OFFCURVE",
+"-36 26 OFFCURVE",
+"80 0 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"193 0 LINE",
+"193 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 280;
+},
+{
+anchors = (
+{
+name = top;
+position = "{49, 230}";
+}
+);
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+guideLines = (
+{
+position = "{366, 210}";
+},
+{
+angle = 90;
+position = "{290, 210}";
+},
+{
+position = "{367, 140}";
+},
+{
+angle = 90;
+position = "{210, 210}";
+},
+{
+angle = 90;
+position = "{130, 210}";
+},
+{
+angle = 90;
+position = "{50, 210}";
+},
+{
+angle = 90;
+position = "{230, 210}";
+}
+);
+layerId = "F7344B96-69D7-4772-B92B-16315C87848D";
+name = "Mar 9 20, 21:39";
+paths = (
+{
+closed = 1;
+nodes = (
+"249 0 LINE",
+"290 70 LINE",
+"163 70 LINE SMOOTH",
+"108 70 OFFCURVE",
+"118 195 OFFCURVE",
+"230 140 CURVE",
+"90 295 OFFCURVE",
+"-37 37 OFFCURVE",
+"130 0 CURVE"
+);
+}
+);
+width = 330;
+}
+);
+}

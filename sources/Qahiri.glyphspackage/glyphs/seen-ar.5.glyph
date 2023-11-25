@@ -1,0 +1,38 @@
+{
+glyphname = "seen-ar.5";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{233, 340}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "seen-ar.3";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 70, 200}";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 190, 200}";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 310, 200}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 430;
+}
+);
+widthMetricsKey = "=seen-ar";
+rightKerningGroup = bowel;
+}

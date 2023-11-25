@@ -1,0 +1,35 @@
+{
+glyphname = "lam-ar.medi.yeh";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{44, -20}";
+},
+{
+name = exit;
+position = "{0, 0}";
+},
+{
+name = top;
+position = "{40, 569}";
+}
+);
+components = (
+{
+alignment = -1;
+name = _alef;
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi.yeh";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 120;
+}
+);
+widthMetricsKey = "behDotless-ar.medi.yeh";
+rightMetricsKey = "behDotless-ar.medi.yeh";
+}

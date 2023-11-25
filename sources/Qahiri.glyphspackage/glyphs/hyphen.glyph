@@ -1,0 +1,21 @@
+{
+glyphname = hyphen;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"130 140 LINE",
+"130 180 LINE",
+"0 180 LINE",
+"0 140 LINE"
+);
+}
+);
+width = 170;
+}
+);
+unicode = "002D,2010,2011,00AD";
+}

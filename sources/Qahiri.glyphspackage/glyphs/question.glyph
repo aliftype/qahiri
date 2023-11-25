@@ -1,0 +1,18 @@
+{
+glyphname = question;
+layers = (
+{
+components = (
+{
+name = "question-ar";
+transform = "{-1, 0, 0, 1, 230, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 270;
+}
+);
+widthMetricsKey = "=question-ar";
+rightMetricsKey = "=question-ar";
+unicode = 003F;
+}

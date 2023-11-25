@@ -1,0 +1,31 @@
+{
+glyphname = "kashida-ar";
+layers = (
+{
+anchors = (
+{
+name = entry;
+position = "{80, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"80 0 LINE",
+"80 70 LINE",
+"-19.763 70 LINE",
+"-19.763 0 LINE"
+);
+}
+);
+width = 80;
+}
+);
+unicode = 0640;
+}

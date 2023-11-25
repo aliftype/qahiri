@@ -42,7 +42,7 @@ web: $(WOFF2)
 	cp $(WOFF2) docs/assets/fonts/
 	cp $(FONTS) docs/app/assets/fonts/
 
-%.ttf: $(SOURCEDIR)/$(NAME).glyphs $(CONFIG)
+%.ttf: $(SOURCEDIR)/$(NAME).glyphspackage $(CONFIG)
 	$(info   BUILD  $(@F))
 	python $(SCRIPTDIR)/build.py $< $(VERSION) $@
 

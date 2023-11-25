@@ -1,0 +1,17 @@
+{
+glyphname = five;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = two;
+transform = "{-1, 0, 0, 1, 210, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 250;
+}
+);
+unicode = 0035;
+}

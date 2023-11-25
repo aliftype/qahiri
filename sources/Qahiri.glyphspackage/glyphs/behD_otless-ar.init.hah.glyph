@@ -1,0 +1,40 @@
+{
+glyphname = "behDotless-ar.init.hah";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{100, -145}";
+},
+{
+name = exit;
+position = "{-19, -2}";
+},
+{
+name = top;
+position = "{30, 235}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"36.774 0 OFFCURVE",
+"80 30.109 OFFCURVE",
+"80 70 CURVE SMOOTH",
+"80 160 LINE",
+"0 140 LINE",
+"0 70 LINE SMOOTH",
+"0 51.331 OFFCURVE",
+"-0.2 25.365 OFFCURVE",
+"-20 24.696 CURVE",
+"-20 0 LINE"
+);
+}
+);
+width = 80;
+}
+);
+}

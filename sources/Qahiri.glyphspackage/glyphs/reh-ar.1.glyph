@@ -1,0 +1,37 @@
+{
+glyphname = "reh-ar.1";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{117, 180}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"276 -110 LINE SMOOTH",
+"282 -110 OFFCURVE",
+"297 -110 OFFCURVE",
+"297 -89 CURVE",
+"297 50 OFFCURVE",
+"228.998 96.339 OFFCURVE",
+"61 105 CURVE",
+"0.5 0 LINE",
+"173 0 LINE SMOOTH",
+"195 0 OFFCURVE",
+"213 -18 OFFCURVE",
+"213 -40 CURVE",
+"-22.6 -40 LINE",
+"-63 -110 LINE"
+);
+}
+);
+width = 312;
+}
+);
+rightKerningGroup = reh;
+}

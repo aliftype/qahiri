@@ -1,0 +1,40 @@
+{
+glyphname = "tah-ar";
+layers = (
+{
+components = (
+{
+name = _sad;
+transform = "{1, 0, 0, 1, 93, 0}";
+},
+{
+name = _alef;
+transform = "{1, 0, 0, 1, 80, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"126 0 LINE",
+"126 70 LINE",
+"40.4 70 LINE",
+"0 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"160 0 LINE",
+"160 150 LINE",
+"80 150 LINE",
+"80 0 LINE"
+);
+}
+);
+width = 750;
+}
+);
+unicode = 0637;
+}

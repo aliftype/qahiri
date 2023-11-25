@@ -1,0 +1,20 @@
+{
+color = 0;
+glyphname = "qafDotabove-ar";
+layers = (
+{
+components = (
+{
+name = "qafDotless-ar";
+},
+{
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 83, 235}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 296;
+}
+);
+unicode = 06A7;
+}

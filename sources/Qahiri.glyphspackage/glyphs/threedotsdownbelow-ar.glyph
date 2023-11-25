@@ -1,0 +1,21 @@
+{
+glyphname = "threedotsdownbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{35, 89}";
+}
+);
+components = (
+{
+name = "threedotsupabove-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 156;
+}
+);
+widthMetricsKey = "=threedotsupabove-ar";
+}

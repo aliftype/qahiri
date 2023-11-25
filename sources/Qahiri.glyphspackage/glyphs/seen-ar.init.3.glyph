@@ -1,0 +1,35 @@
+{
+glyphname = "seen-ar.init.3";
+layers = (
+{
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+},
+{
+name = top;
+position = "{160, 280}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.init";
+transform = "{1, 0, 0, 1, 240, 0}";
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+transform = "{1, 0, 0, 1, 120, 0}";
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 360;
+}
+);
+}

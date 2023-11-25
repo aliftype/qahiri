@@ -1,0 +1,24 @@
+{
+glyphname = parenright;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"154 78 OFFCURVE",
+"154 334 OFFCURVE",
+"45 560 CURVE",
+"0 469 LINE",
+"93 295 OFFCURVE",
+"96 65 OFFCURVE",
+"0 -100 CURVE"
+);
+}
+);
+width = 162;
+}
+);
+unicode = 0029;
+}

@@ -1,0 +1,57 @@
+{
+glyphname = "dotabove-ar.alt1";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{29, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"45 0 OFFCURVE",
+"58 13 OFFCURVE",
+"58 29 CURVE SMOOTH",
+"58 45 OFFCURVE",
+"45 58 OFFCURVE",
+"29 58 CURVE SMOOTH",
+"13 58 OFFCURVE",
+"0 45 OFFCURVE",
+"0 29 CURVE SMOOTH",
+"0 13 OFFCURVE",
+"13 0 OFFCURVE",
+"29 0 CURVE SMOOTH"
+);
+}
+);
+width = 58;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{40, -40}";
+}
+);
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+layerId = "EE17D735-ABCF-480D-8CC3-543DD761DBD5";
+name = "Mar 9 20, 00:16";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 -25.213 LINE",
+"65.612 40.399 LINE",
+"79.754 26.257 LINE",
+"14.142 -39.355 LINE"
+);
+}
+);
+width = 80;
+}
+);
+}

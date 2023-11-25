@@ -1,0 +1,36 @@
+{
+glyphname = "lam_alef-ar.2";
+layers = (
+{
+anchors = (
+{
+name = top_2;
+position = "{80, 570}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "lam_alef-ar.3";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 40, 490}";
+}
+);
+guideLines = (
+{
+position = "{-142, 210}";
+},
+{
+position = "{-142, 60}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 320;
+}
+);
+leftMetricsKey = "lam_alef-ar.3";
+widthMetricsKey = "lam_alef-ar.3";
+}

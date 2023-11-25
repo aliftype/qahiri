@@ -1,0 +1,28 @@
+{
+glyphname = "hah-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{190, -35}";
+},
+{
+name = entry;
+position = "{178, 110}";
+},
+{
+name = top;
+position = "{99, 233}";
+}
+);
+components = (
+{
+name = "hah-ar.3";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 490;
+}
+);
+}

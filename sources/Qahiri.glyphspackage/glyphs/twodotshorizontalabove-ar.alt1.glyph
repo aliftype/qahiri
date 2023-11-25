@@ -1,0 +1,26 @@
+{
+glyphname = "twodotshorizontalabove-ar.alt1";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{70, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "dotabove-ar.alt1";
+},
+{
+alignment = -1;
+name = "dotabove-ar.alt1";
+transform = "{1, 0, 0, 1, 82, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 140;
+}
+);
+}

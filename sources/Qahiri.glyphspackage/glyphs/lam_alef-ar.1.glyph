@@ -1,0 +1,120 @@
+{
+glyphname = "lam_alef-ar.1";
+layers = (
+{
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+layerId = "abf4b10a-26e5-432c-8593-bf37389dfdfd";
+widthMetricsKey = "=4*80+40";
+name = Regular.1;
+paths = (
+{
+closed = 1;
+nodes = (
+"100 0 LINE",
+"215 0 LINE",
+"215 70 LINE",
+"70 70 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"80 560 LINE",
+"0 540 LINE",
+"0 0 LINE",
+"135 0 LINE",
+"135 70 LINE",
+"80 70 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-212.842 460.029 LINE",
+"-242.414 382.699 LINE",
+"224.161 45.577 LINE",
+"271.014 110.422 LINE"
+);
+}
+);
+width = 360;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{171, -20}";
+},
+{
+name = bottom_2;
+position = "{44, -20}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
+},
+{
+name = top_1;
+position = "{40, 570}";
+},
+{
+name = top_2;
+position = "{-197, 500}";
+}
+);
+guideLines = (
+{
+position = "{0, 150}";
+showMeasurement = 1;
+},
+{
+position = "{0, 110}";
+},
+{
+angle = 90;
+position = "{215, 0}";
+},
+{
+angle = 90;
+position = "{135, 0}";
+},
+{
+position = "{0, 460}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"215 0 LINE",
+"215 100.334 LINE SMOOTH",
+"215 129 OFFCURVE",
+"201.818 160.419 OFFCURVE",
+"172.44 181.646 CURVE SMOOTH",
+"-212.842 460.029 LINE",
+"-242.414 382.699 LINE",
+"125.733 116.696 LINE SMOOTH",
+"130.375 113.342 OFFCURVE",
+"135 107.547 OFFCURVE",
+"135 100.151 CURVE SMOOTH",
+"135 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"175 0 LINE",
+"175 70 LINE",
+"80 70 LINE",
+"80 560 LINE",
+"0 540 LINE",
+"0 0 LINE"
+);
+}
+);
+width = 255;
+}
+);
+rightKerningGroup = lam_alef.1;
+}

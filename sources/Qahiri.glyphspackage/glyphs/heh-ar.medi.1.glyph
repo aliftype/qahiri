@@ -1,0 +1,37 @@
+{
+glyphname = "heh-ar.medi.1";
+layers = (
+{
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "heh-ar.init.1";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"240 0 LINE",
+"240 70 LINE",
+"80 70 LINE",
+"80 0 LINE"
+);
+}
+);
+width = 240;
+}
+);
+rightKerningGroup = heh.medi;
+}

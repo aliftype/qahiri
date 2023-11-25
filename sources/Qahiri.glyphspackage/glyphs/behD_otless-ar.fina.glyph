@@ -1,0 +1,27 @@
+{
+glyphname = "behDotless-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{280, -35}";
+}
+);
+components = (
+{
+alignment = -1;
+name = _elbow;
+transform = "{1, 0, 0, 1, 520, 0}";
+},
+{
+name = "behDotless-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 600;
+}
+);
+widthMetricsKey = "=behDotless-ar";
+rightKerningGroup = dal;
+}

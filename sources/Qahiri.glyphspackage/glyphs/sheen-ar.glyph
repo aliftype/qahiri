@@ -1,0 +1,20 @@
+{
+color = 0;
+glyphname = "sheen-ar";
+layers = (
+{
+components = (
+{
+name = "seen-ar.3";
+},
+{
+name = "threedotsupabove-ar";
+transform = "{1, 0, 0, 1, 155, 300}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 430;
+}
+);
+unicode = 0634;
+}

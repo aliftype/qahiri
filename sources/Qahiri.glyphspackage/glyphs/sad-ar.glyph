@@ -1,0 +1,42 @@
+{
+glyphname = "sad-ar";
+layers = (
+{
+components = (
+{
+name = _bowelShort;
+transform = "{1, 0, 0, 1, -80, 0}";
+},
+{
+name = _sad;
+transform = "{1, 0, 0, 1, 83, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"150 40 LINE",
+"150 180 LINE",
+"70 180 LINE",
+"70 40 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"150 147 LINE",
+"150 180 LINE",
+"70 260 LINE",
+"30 190 LINE",
+"102 118 LINE"
+);
+}
+);
+width = 740;
+}
+);
+rightKerningGroup = bowel;
+unicode = 0635;
+}

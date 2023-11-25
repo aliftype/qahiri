@@ -1,0 +1,67 @@
+{
+glyphname = "fehDotless-ar.medi.1";
+layers = (
+{
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+layerId = "abf4b10a-26e5-432c-8593-bf37389dfdfd";
+name = Regular.1;
+paths = (
+{
+closed = 1;
+nodes = (
+"242 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE",
+"242 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 158.999 LINE",
+"128.991 30.007 LINE",
+"209.005 30.007 LINE",
+"225.567 46.569 LINE",
+"42.426 229.709 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"122 250 LINE",
+"122 11 LINE",
+"202 11 LINE",
+"202 270 LINE"
+);
+}
+);
+width = 242;
+},
+{
+anchors = (
+{
+name = entry;
+position = "{240, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 160, 0}";
+},
+{
+alignment = -1;
+name = "fehDotless-ar.init.1";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 240;
+}
+);
+widthMetricsKey = "=fehDotless-ar.init.1";
+}

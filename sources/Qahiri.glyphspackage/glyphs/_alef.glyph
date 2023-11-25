@@ -1,0 +1,21 @@
+{
+export = 0;
+glyphname = _alef;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"80 560 LINE",
+"0 540 LINE",
+"0 130 LINE",
+"80 130 LINE"
+);
+}
+);
+width = 80;
+}
+);
+}

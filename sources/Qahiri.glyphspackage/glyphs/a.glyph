@@ -1,0 +1,26 @@
+{
+glyphname = a;
+layers = (
+{
+components = (
+{
+name = "heh-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"200 0 LINE",
+"200 150 LINE",
+"120 150 LINE",
+"120 0 LINE"
+);
+}
+);
+width = 240;
+}
+);
+unicode = "0061,0041";
+}

@@ -1,0 +1,32 @@
+{
+glyphname = "tah-ar.medi";
+layers = (
+{
+anchors = (
+{
+name = entry;
+position = "{670, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "tah-ar.init";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 590, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 670;
+}
+);
+leftKerningGroup = waw;
+widthMetricsKey = "tah-ar.init";
+}

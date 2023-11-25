@@ -1,0 +1,27 @@
+{
+glyphname = "hah-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{300, -145}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "hah-ar.init";
+transform = "{1, 0, 0, 1, 240, 0}";
+},
+{
+alignment = -1;
+name = _tail2;
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 640;
+}
+);
+unicode = 062D;
+}

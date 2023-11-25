@@ -1,0 +1,32 @@
+{
+glyphname = "lam-ar.init.hah";
+layers = (
+{
+anchors = (
+{
+name = exit;
+position = "{-20, -2}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"36.774 0 OFFCURVE",
+"80 30.11 OFFCURVE",
+"80 70 CURVE",
+"80 450 LINE",
+"0 430 LINE",
+"0 70 LINE",
+"0 51.332 OFFCURVE",
+"-0.2 25.365 OFFCURVE",
+"-20 24.696 CURVE",
+"-20 0 LINE"
+);
+}
+);
+width = 80;
+}
+);
+}

@@ -1,0 +1,21 @@
+{
+glyphname = "lam_alef-ar.fina.1";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "lam_alef-ar.1";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 175, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 255;
+}
+);
+rightKerningGroup = lam_alef.1;
+}

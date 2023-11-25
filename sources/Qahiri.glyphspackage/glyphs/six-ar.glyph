@@ -1,0 +1,47 @@
+{
+glyphname = "six-ar";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "two-ar";
+transform = "{-1, 0, 0, 1, 210, 0}";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+},
+{
+angle = 90;
+position = "{140, 450}";
+},
+{
+angle = 90;
+position = "{70, 450}";
+},
+{
+angle = 90;
+position = "{210, 450}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 250;
+}
+);
+widthMetricsKey = "=two-ar";
+unicode = 0666;
+}

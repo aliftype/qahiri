@@ -1,0 +1,21 @@
+{
+glyphname = emdash;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"520 140 LINE",
+"520 180 LINE",
+"0 180 LINE",
+"0 140 LINE"
+);
+}
+);
+width = 560;
+}
+);
+unicode = 2014;
+}

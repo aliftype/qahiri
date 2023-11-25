@@ -1,0 +1,73 @@
+{
+glyphname = "fehDotless-ar.init.1";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{127, -35}";
+},
+{
+name = exit;
+position = "{0, 0}";
+},
+{
+name = top;
+position = "{100, 335}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"179 0 LINE",
+"185 0 OFFCURVE",
+"200 0 OFFCURVE",
+"200 11 CURVE",
+"200 200 LINE",
+"120 210 LINE",
+"120 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"155.172 110 OFFCURVE",
+"199.981 150.328 OFFCURVE",
+"199.981 200 CURVE SMOOTH",
+"199.981 249.672 OFFCURVE",
+"155.172 290 OFFCURVE",
+"99.981 290 CURVE SMOOTH",
+"44.789 290 OFFCURVE",
+"-0.02 249.672 OFFCURVE",
+"-0.02 200 CURVE SMOOTH",
+"-0.02 150.328 OFFCURVE",
+"44.789 110 OFFCURVE",
+"99.981 110 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"88.964 180 OFFCURVE",
+"80.003 188.962 OFFCURVE",
+"80.003 200 CURVE SMOOTH",
+"80.003 211.038 OFFCURVE",
+"88.964 220 OFFCURVE",
+"100.003 220 CURVE SMOOTH",
+"111.041 220 OFFCURVE",
+"120.003 211.038 OFFCURVE",
+"120.003 200 CURVE SMOOTH",
+"120.003 188.962 OFFCURVE",
+"111.041 180 OFFCURVE",
+"100.003 180 CURVE SMOOTH"
+);
+}
+);
+width = 240;
+}
+);
+}

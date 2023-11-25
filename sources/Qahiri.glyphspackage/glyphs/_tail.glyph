@@ -1,0 +1,30 @@
+{
+export = 0;
+glyphname = _tail;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{97, 365}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"180 0 LINE",
+"180 70 LINE",
+"100 70 LINE SMOOTH",
+"78 70 OFFCURVE",
+"62 77 OFFCURVE",
+"52 90 CURVE",
+"0 0 LINE"
+);
+}
+);
+width = 180;
+}
+);
+}

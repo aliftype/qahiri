@@ -1,0 +1,19 @@
+{
+glyphname = "reh-ar.3";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "reh-ar.1";
+transform = "{1, 0, 0, 1, 63, 110}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 400;
+}
+);
+widthMetricsKey = "=reh-ar.2";
+rightKerningGroup = dal;
+rightMetricsKey = "=reh-ar.2";
+}

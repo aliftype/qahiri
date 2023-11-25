@@ -1,0 +1,44 @@
+{
+glyphname = p;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{150, -138}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "heh-ar.1";
+transform = "{-1, 0, 0, -1, 200, 180}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 -110 LINE",
+"0 -250 LINE",
+"80 -230 LINE",
+"80 -110 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"100 180 LINE",
+"60 180 OFFCURVE",
+"20 185 OFFCURVE",
+"0 220 CURVE",
+"0 90 LINE"
+);
+}
+);
+width = 240;
+}
+);
+unicode = "0070,0050";
+}

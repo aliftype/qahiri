@@ -1,0 +1,16 @@
+{
+glyphname = bullet;
+layers = (
+{
+components = (
+{
+name = period;
+transform = "{1.4641, 0, 0, 1.4641, 0, 103}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 157;
+}
+);
+unicode = 2022;
+}

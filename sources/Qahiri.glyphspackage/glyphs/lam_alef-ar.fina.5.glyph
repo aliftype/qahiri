@@ -1,0 +1,27 @@
+{
+glyphname = "lam_alef-ar.fina.5";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "lam_alef-ar.5";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"400 0 LINE",
+"400 70 LINE",
+"260 70 LINE",
+"260 0 LINE"
+);
+}
+);
+width = 400;
+}
+);
+widthMetricsKey = "=lam_alef-ar.5";
+}

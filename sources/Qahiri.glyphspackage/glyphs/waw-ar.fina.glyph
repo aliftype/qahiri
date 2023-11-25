@@ -1,0 +1,28 @@
+{
+glyphname = "waw-ar.fina";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "waw-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"280 0 LINE",
+"280 70 LINE",
+"130 70 LINE",
+"130 0 LINE"
+);
+}
+);
+width = 280;
+}
+);
+leftKerningGroup = waw;
+rightKerningGroup = waw;
+}

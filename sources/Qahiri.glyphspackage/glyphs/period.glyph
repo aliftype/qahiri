@@ -1,0 +1,29 @@
+{
+glyphname = period;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"62 0 OFFCURVE",
+"80 18 OFFCURVE",
+"80 40 CURVE SMOOTH",
+"80 62 OFFCURVE",
+"62 80 OFFCURVE",
+"40 80 CURVE SMOOTH",
+"18 80 OFFCURVE",
+"0 62 OFFCURVE",
+"0 40 CURVE SMOOTH",
+"0 18 OFFCURVE",
+"18 0 OFFCURVE",
+"40 0 CURVE SMOOTH"
+);
+}
+);
+width = 120;
+}
+);
+unicode = 002E;
+}

@@ -1,0 +1,15 @@
+{
+glyphname = zero;
+layers = (
+{
+components = (
+{
+name = "five-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 250;
+}
+);
+unicode = 0030;
+}

@@ -1,0 +1,57 @@
+{
+glyphname = exclam;
+layers = (
+{
+components = (
+{
+name = period;
+transform = "{1, 0, 0, 1, 10, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"135 331 OFFCURVE",
+"99 414 OFFCURVE",
+"45 560 CURVE",
+"0 469 LINE",
+"38 385 OFFCURVE",
+"77 309 OFFCURVE",
+"64 155 CURVE"
+);
+}
+);
+width = 144;
+},
+{
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+components = (
+{
+name = period;
+transform = "{1, 0, 0, 1, 10, 0}";
+}
+);
+layerId = "AA869208-4485-4269-BA4A-1F8F0627DEA2";
+name = "Dec 12 20, 17:13";
+paths = (
+{
+closed = 1;
+nodes = (
+"143 294 OFFCURVE",
+"106 401 OFFCURVE",
+"45 560 CURVE",
+"0 469 LINE",
+"45 372 OFFCURVE",
+"85 281 OFFCURVE",
+"58 111 CURVE"
+);
+}
+);
+visible = 1;
+width = 148;
+}
+);
+unicode = 0021;
+}

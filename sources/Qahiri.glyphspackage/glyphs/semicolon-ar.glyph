@@ -1,0 +1,21 @@
+{
+glyphname = "semicolon-ar";
+layers = (
+{
+components = (
+{
+name = "dotbelow-ar.alt1";
+transform = "{1, 0, 0, 1, 10, -82}";
+},
+{
+name = "comma-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 120;
+}
+);
+widthMetricsKey = "=colon";
+rightMetricsKey = "=colon";
+unicode = 061B;
+}

@@ -1,0 +1,20 @@
+{
+color = 0;
+glyphname = "noon-ar";
+layers = (
+{
+components = (
+{
+name = "noonghunna-ar";
+},
+{
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 63, 205}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 190;
+}
+);
+unicode = 0646;
+}

@@ -1,0 +1,39 @@
+{
+glyphname = bracketright;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"110 -100 LINE",
+"110 560 LINE",
+"70 560 LINE",
+"70 -100 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"90 -100 LINE",
+"90 -60 LINE",
+"0 -60 LINE",
+"0 -100 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"90 520 LINE",
+"90 560 LINE",
+"0 560 LINE",
+"0 520 LINE"
+);
+}
+);
+width = 150;
+}
+);
+unicode = 005D;
+}

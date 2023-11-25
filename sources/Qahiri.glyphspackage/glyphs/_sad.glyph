@@ -1,0 +1,42 @@
+{
+export = 0;
+glyphname = _sad;
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{297, 255}";
+}
+);
+components = (
+{
+name = _dal;
+transform = "{1, 0, 0, 1, 57, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"103 70 LINE",
+"0 70 LINE",
+"0 0 LINE",
+"103 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"193 180 LINE",
+"0 180 LINE",
+"0 110 LINE",
+"193 110 LINE"
+);
+}
+);
+width = 617;
+}
+);
+}

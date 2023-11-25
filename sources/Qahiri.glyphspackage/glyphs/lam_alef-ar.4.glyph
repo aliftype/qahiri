@@ -1,0 +1,91 @@
+{
+glyphname = "lam_alef-ar.4";
+layers = (
+{
+anchors = (
+{
+name = top_2;
+position = "{120, 570}";
+}
+);
+components = (
+{
+name = "lam_alef-ar.5";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 80, 490}";
+}
+);
+guideLines = (
+{
+position = "{-102, 210}";
+},
+{
+position = "{-102, 60}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 400;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{260, 0}";
+},
+{
+name = bottom_2;
+position = "{104, 0}";
+},
+{
+name = caret;
+position = "{180, 0}";
+},
+{
+name = top_1;
+position = "{241, 570}";
+},
+{
+name = top_2;
+position = "{120, 570}";
+}
+);
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+guideLines = (
+{
+position = "{-102, 210}";
+},
+{
+position = "{-102, 60}";
+}
+);
+layerId = "C46413DF-93AE-4F9A-9C2C-42A8FE2320D2";
+name = "Mar 10 20, 07:19";
+paths = (
+{
+closed = 1;
+nodes = (
+"320 0 LINE",
+"160 210 LINE",
+"160 530 LINE",
+"80 510 LINE",
+"80 210 LINE",
+"220 70 LINE",
+"203 57 OFFCURVE",
+"157 57 OFFCURVE",
+"140 70 CURVE",
+"280 210 LINE",
+"280 560 LINE",
+"200 540 LINE",
+"200 210 LINE",
+"40 0 LINE"
+);
+}
+);
+visible = 1;
+width = 400;
+}
+);
+}

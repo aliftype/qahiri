@@ -1,0 +1,24 @@
+{
+glyphname = ellipsis;
+layers = (
+{
+components = (
+{
+name = period;
+transform = "{1, 0, 0, 1, 120, 0}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 240, 0}";
+},
+{
+name = period;
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 360;
+}
+);
+rightMetricsKey = "=period";
+unicode = 2026;
+}

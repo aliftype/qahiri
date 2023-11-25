@@ -1,0 +1,21 @@
+{
+glyphname = semicolon;
+layers = (
+{
+components = (
+{
+name = period;
+transform = "{1, 0, 0, 1, 0, 180}";
+},
+{
+name = comma;
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 120;
+}
+);
+widthMetricsKey = "=colon";
+rightMetricsKey = "=colon";
+unicode = 003B;
+}

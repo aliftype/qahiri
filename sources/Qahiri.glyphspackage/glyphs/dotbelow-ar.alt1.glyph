@@ -1,0 +1,21 @@
+{
+glyphname = "dotbelow-ar.alt1";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{29, 58}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "dotabove-ar.alt1";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 58;
+}
+);
+}

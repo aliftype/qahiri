@@ -1,0 +1,40 @@
+{
+glyphname = "seen-ar.3";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{233, 300}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.init";
+transform = "{1, 0, 0, 1, 310, 0}";
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+transform = "{1, 0, 0, 1, 190, 0}";
+},
+{
+name = _elbow;
+transform = "{1, 0, 0, 1, 110, 0}";
+},
+{
+name = _bowel;
+transform = "{1, 0, 0, 1, -80, 0}";
+},
+{
+name = _vextender;
+transform = "{1, 0, 0, 1, 70, 160}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 430;
+}
+);
+rightKerningGroup = bowel;
+}

@@ -1,0 +1,121 @@
+{
+glyphname = "fehDotless-ar.medi";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{127, -35}";
+},
+{
+name = entry;
+position = "{248, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+},
+{
+name = top;
+position = "{81, 355}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"206 61 LINE",
+"206 207 LINE SMOOTH",
+"206 264 OFFCURVE",
+"160 310 OFFCURVE",
+"103 310 CURVE SMOOTH",
+"46 310 OFFCURVE",
+"-1 264 OFFCURVE",
+"-1 207 CURVE SMOOTH",
+"-1 179 OFFCURVE",
+"14 153 OFFCURVE",
+"33 134 CURVE SMOOTH",
+"133 30 LINE",
+"213 30 LINE",
+"228 47 LINE",
+"86 194 LINE SMOOTH",
+"81 199 OFFCURVE",
+"77 206 OFFCURVE",
+"77 214 CURVE SMOOTH",
+"77 228 OFFCURVE",
+"85 240 OFFCURVE",
+"100 240 CURVE SMOOTH",
+"114 240 OFFCURVE",
+"126 228 OFFCURVE",
+"126 214 CURVE SMOOTH",
+"126 61 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"248 0 LINE",
+"248 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 248;
+},
+{
+anchors = (
+{
+name = top;
+position = "{101, 375}";
+}
+);
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+layerId = "388FE02E-045B-46C0-BFA3-7E7C5E94DC12";
+name = "Mar 9 20, 18:01";
+paths = (
+{
+closed = 1;
+nodes = (
+"206 1 LINE",
+"206 197 LINE SMOOTH",
+"206 254 OFFCURVE",
+"160 300 OFFCURVE",
+"103 300 CURVE SMOOTH",
+"46 300 OFFCURVE",
+"-1 254 OFFCURVE",
+"-1 197 CURVE SMOOTH",
+"-1 169 OFFCURVE",
+"10 143 OFFCURVE",
+"29 124 CURVE SMOOTH",
+"133 20 LINE",
+"213 20 LINE",
+"230 37 LINE",
+"82 184 LINE SMOOTH",
+"77 189 OFFCURVE",
+"73 196 OFFCURVE",
+"73 204 CURVE SMOOTH",
+"73 218 OFFCURVE",
+"85 230 OFFCURVE",
+"100 230 CURVE SMOOTH",
+"114 230 OFFCURVE",
+"126 218 OFFCURVE",
+"126 204 CURVE SMOOTH",
+"126 1 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"248 0 LINE",
+"248 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 248;
+}
+);
+}

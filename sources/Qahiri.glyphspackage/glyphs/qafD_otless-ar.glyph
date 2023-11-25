@@ -1,0 +1,83 @@
+{
+glyphname = "qafDotless-ar";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{100, 235}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"235 -250 LINE SMOOTH",
+"241 -250 OFFCURVE",
+"256 -250 OFFCURVE",
+"256 -229 CURVE",
+"256 -90 OFFCURVE",
+"186 -70 OFFCURVE",
+"142 -70 CURVE SMOOTH",
+"76 -70 LINE",
+"0 -140 LINE",
+"132 -140 LINE SMOOTH",
+"154 -140 OFFCURVE",
+"172 -158 OFFCURVE",
+"172 -180 CURVE",
+"-24 -180 LINE",
+"-64 -250 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"28 -140 LINE",
+"179 27 LINE",
+"190 61 LINE",
+"183 61 LINE",
+"0 -140 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"165 0 OFFCURVE",
+"200 30 OFFCURVE",
+"200 90 CURVE SMOOTH",
+"200 140 OFFCURVE",
+"155 180 OFFCURVE",
+"100 180 CURVE SMOOTH",
+"45 180 OFFCURVE",
+"0 140 OFFCURVE",
+"0 90 CURVE SMOOTH",
+"0 30 OFFCURVE",
+"45 0 OFFCURVE",
+"100 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"89 70 OFFCURVE",
+"80 79 OFFCURVE",
+"80 90 CURVE SMOOTH",
+"80 101 OFFCURVE",
+"89 110 OFFCURVE",
+"100 110 CURVE SMOOTH",
+"111 110 OFFCURVE",
+"120 101 OFFCURVE",
+"120 90 CURVE SMOOTH",
+"120 79 OFFCURVE",
+"111 70 OFFCURVE",
+"100 70 CURVE SMOOTH"
+);
+}
+);
+width = 296;
+}
+);
+rightKerningGroup = qaf;
+unicode = 066F;
+}

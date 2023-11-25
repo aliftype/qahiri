@@ -1,0 +1,42 @@
+{
+glyphname = "behDotless-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{280, -35}";
+},
+{
+name = top;
+position = "{280, 200}";
+}
+);
+components = (
+{
+alignment = -1;
+name = _tail;
+},
+{
+name = "behDotless-ar.init";
+transform = "{1, 0, 0, 1, 480, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"470 0 LINE",
+"470 70 LINE",
+"170 70 LINE",
+"170 0 LINE"
+);
+}
+);
+width = 600;
+}
+);
+rightKerningGroup = dal;
+unicode = 066E;
+}

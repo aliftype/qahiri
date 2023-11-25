@@ -1,0 +1,21 @@
+{
+glyphname = w;
+layers = (
+{
+components = (
+{
+name = v;
+},
+{
+alignment = -1;
+name = v;
+transform = "{1, 0, 0, 1, 137, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 351;
+}
+);
+rightMetricsKey = "=v";
+unicode = "0077,0057";
+}

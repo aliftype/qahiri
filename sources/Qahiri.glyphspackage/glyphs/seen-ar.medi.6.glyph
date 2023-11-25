@@ -1,0 +1,40 @@
+{
+glyphname = "seen-ar.medi.6";
+layers = (
+{
+anchors = (
+{
+name = entry;
+position = "{370, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+},
+{
+name = top;
+position = "{148, 215}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.medi.1";
+transform = "{1, 0, 0, 1, 110, 0}";
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi.1";
+transform = "{1, 0, 0, 1, 220, 0}";
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi.1";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 370;
+}
+);
+leftKerningGroup = pyramid;
+}

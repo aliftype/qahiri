@@ -1,0 +1,20 @@
+{
+color = 0;
+glyphname = "ghain-ar";
+layers = (
+{
+components = (
+{
+name = "ain-ar";
+},
+{
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 382, 230}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 680;
+}
+);
+unicode = 063A;
+}

@@ -1,0 +1,49 @@
+{
+glyphname = "seen-ar.init";
+layers = (
+{
+anchors = (
+{
+name = exit;
+position = "{0, 0}";
+},
+{
+name = top;
+position = "{160, 290}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.init";
+transform = "{1, 0, 0, 1, 240, 0}";
+},
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+transform = "{1, 0, 0, 1, 120, 0}";
+},
+{
+name = _elbow;
+transform = "{1, 0, 0, 1, 40, 0}";
+},
+{
+name = _behShort;
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 120, 170}";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 240, 200}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 360;
+}
+);
+widthMetricsKey = "=seen-ar.init";
+}

@@ -1,0 +1,72 @@
+{
+glyphname = "waw-ar.1";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{129, 230}";
+}
+);
+components = (
+{
+name = _tail;
+transform = "{1, 0, 0, 1, -50, -110}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"192 -110 LINE SMOOTH",
+"215 -110 OFFCURVE",
+"230 -95 OFFCURVE",
+"230 -70 CURVE SMOOTH",
+"230 90 LINE",
+"150 100 LINE",
+"150 -40 LINE",
+"10 -40 LINE",
+"10 -110 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"185.172 0 OFFCURVE",
+"229.981 40.328 OFFCURVE",
+"229.981 90 CURVE SMOOTH",
+"229.981 139.672 OFFCURVE",
+"185.172 180 OFFCURVE",
+"129.981 180 CURVE SMOOTH",
+"74.789 180 OFFCURVE",
+"29.98 139.672 OFFCURVE",
+"29.98 90 CURVE SMOOTH",
+"29.98 40.328 OFFCURVE",
+"74.789 0 OFFCURVE",
+"129.981 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"118.964 70 OFFCURVE",
+"110.003 78.962 OFFCURVE",
+"110.003 90 CURVE SMOOTH",
+"110.003 101.038 OFFCURVE",
+"118.964 110 OFFCURVE",
+"130.003 110 CURVE SMOOTH",
+"141.041 110 OFFCURVE",
+"150.003 101.038 OFFCURVE",
+"150.003 90 CURVE SMOOTH",
+"150.003 78.962 OFFCURVE",
+"141.041 70 OFFCURVE",
+"130.003 70 CURVE SMOOTH"
+);
+}
+);
+width = 270;
+}
+);
+rightKerningGroup = waw;
+}

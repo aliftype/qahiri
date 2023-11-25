@@ -1,0 +1,25 @@
+{
+glyphname = r.1;
+layers = (
+{
+components = (
+{
+name = r.2;
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 40 LINE",
+"0 -250 LINE",
+"80 -230 LINE",
+"80 40 LINE"
+);
+}
+);
+width = 217;
+}
+);
+}

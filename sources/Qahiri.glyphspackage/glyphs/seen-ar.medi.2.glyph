@@ -1,0 +1,30 @@
+{
+glyphname = "seen-ar.medi.2";
+layers = (
+{
+anchors = (
+{
+name = entry;
+position = "{360, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "seen-ar.init.2";
+},
+{
+name = _elbow;
+transform = "{1, 0, 0, 1, 280, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 360;
+}
+);
+widthMetricsKey = "=seen-ar.init";
+}

@@ -1,0 +1,21 @@
+{
+glyphname = "fehDotless-ar.fina";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "fehDotless-ar";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 533, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 613;
+}
+);
+widthMetricsKey = "=fehDotless-ar";
+}

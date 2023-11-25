@@ -1,0 +1,17 @@
+{
+glyphname = six;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = nine;
+transform = "{-1, 0, 0, -1, 210, 350}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 250;
+}
+);
+unicode = 0036;
+}

@@ -1,0 +1,27 @@
+{
+glyphname = p.1;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "heh-ar.1";
+transform = "{-1, 0, 0, -1, 200, 180}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 -110 LINE",
+"0 -250 LINE",
+"80 -230 LINE",
+"80 -110 LINE"
+);
+}
+);
+width = 240;
+}
+);
+}

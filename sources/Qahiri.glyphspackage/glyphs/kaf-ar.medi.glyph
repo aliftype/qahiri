@@ -1,0 +1,33 @@
+{
+glyphname = "kaf-ar.medi";
+layers = (
+{
+anchors = (
+{
+name = entry;
+position = "{580, 0}";
+},
+{
+name = exit;
+position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kaf-ar.init";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 500, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 580;
+}
+);
+leftKerningGroup = waw;
+leftMetricsKey = "=kaf-ar.init";
+widthMetricsKey = "=kaf-ar.init";
+}

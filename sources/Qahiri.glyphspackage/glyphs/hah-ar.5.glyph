@@ -1,0 +1,44 @@
+{
+glyphname = "hah-ar.5";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{320, -145}";
+}
+);
+components = (
+{
+name = "hah-ar.init";
+transform = "{1, 0, 0, 1, 207, 0}";
+},
+{
+name = "alefMaksura-ar.fina.2";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"482 -110 LINE",
+"523 -40 LINE",
+"373 -40 LINE",
+"373 -110 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"546 0 LINE",
+"587 70 LINE",
+"517 70 LINE",
+"517 0 LINE"
+);
+}
+);
+width = 627;
+}
+);
+}

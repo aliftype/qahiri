@@ -1,0 +1,23 @@
+{
+glyphname = "hamzabelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{65, 87}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "hamza-ar";
+transform = "{0.5787, 0, 0, 0.5787, -23, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 125;
+}
+);
+unicode = 0655;
+}

@@ -1,0 +1,47 @@
+{
+glyphname = "tahabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{74, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"142 0 LINE SMOOTH",
+"146 0 OFFCURVE",
+"148 0 OFFCURVE",
+"148 6 CURVE SMOOTH",
+"148 50 OFFCURVE",
+"127 59 OFFCURVE",
+"113 59 CURVE SMOOTH",
+"30 59 LINE",
+"30 35 LINE",
+"109 35 LINE SMOOTH",
+"117 35 OFFCURVE",
+"123 29 OFFCURVE",
+"123 21 CURVE",
+"12 21 LINE",
+"0 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"50 0 LINE",
+"50 115 LINE",
+"25 109 LINE",
+"25 0 LINE"
+);
+}
+);
+width = 148;
+}
+);
+unicode = 0615;
+}

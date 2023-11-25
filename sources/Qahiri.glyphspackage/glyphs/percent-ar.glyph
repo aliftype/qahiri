@@ -1,0 +1,23 @@
+{
+glyphname = "percent-ar";
+layers = (
+{
+components = (
+{
+name = slash;
+},
+{
+name = "zero-ar";
+transform = "{1, 0, 0, 1, 166, -90}";
+},
+{
+name = "zero-ar";
+transform = "{1, 0, 0, 1, 0, 300}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 276;
+}
+);
+unicode = 066A;
+}

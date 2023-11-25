@@ -1,0 +1,68 @@
+{
+glyphname = "question-ar";
+layers = (
+{
+components = (
+{
+name = period;
+transform = "{1, 0, 0, 1, 113, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"230 453 LINE",
+"187 479 OFFCURVE",
+"150 490 OFFCURVE",
+"116 490 CURVE SMOOTH",
+"83 490 OFFCURVE",
+"32 478 OFFCURVE",
+"32 444 CURVE SMOOTH",
+"32 421 OFFCURVE",
+"55 395 OFFCURVE",
+"95 376 CURVE SMOOTH",
+"158 345 OFFCURVE",
+"193 306 OFFCURVE",
+"193 252 CURVE SMOOTH",
+"193 224 OFFCURVE",
+"183 193 OFFCURVE",
+"163 156 CURVE",
+"173 239 OFFCURVE",
+"145 271 OFFCURVE",
+"68 312 CURVE SMOOTH",
+"17 340 OFFCURVE",
+"0 384 OFFCURVE",
+"0 424 CURVE SMOOTH",
+"0 500 OFFCURVE",
+"62 560 OFFCURVE",
+"138 560 CURVE SMOOTH",
+"169 560 OFFCURVE",
+"201 550 OFFCURVE",
+"230 531 CURVE"
+);
+}
+);
+width = 270;
+},
+{
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+components = (
+{
+name = exclam;
+transform = "{1, 0, 0, 1, 104, 0}";
+},
+{
+name = _tail3;
+transform = "{0, -1, -1, 0, 176, 599}";
+}
+);
+layerId = "CB1C8960-F96D-41AC-A78E-557CC3F88674";
+name = "Dec 12 20, 17:00";
+visible = 1;
+width = 271;
+}
+);
+unicode = 061F;
+}

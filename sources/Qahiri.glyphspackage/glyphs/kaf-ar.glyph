@@ -1,0 +1,41 @@
+{
+glyphname = "kaf-ar";
+layers = (
+{
+components = (
+{
+name = _dal;
+transform = "{1, 0, 0, 1, 40, 0}";
+},
+{
+name = _alef;
+transform = "{1, 0, 0, 1, 40, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"116 70 LINE",
+"40.4 70 LINE",
+"0 0 LINE",
+"116 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"175 180 LINE",
+"40 180 LINE",
+"40 110 LINE",
+"176 110 LINE"
+);
+}
+);
+width = 640;
+}
+);
+rightKerningGroup = dal;
+unicode = 0643;
+}

@@ -1,0 +1,63 @@
+{
+glyphname = "two-ar.osf";
+layers = (
+{
+components = (
+{
+name = "one-ar.osf";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+},
+{
+angle = 90;
+position = "{140, 450}";
+},
+{
+angle = 90;
+position = "{70, 450}";
+},
+{
+angle = 90;
+position = "{210, 450}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"60 189 LINE",
+"210 189 LINE",
+"210 259 LINE",
+"60 259 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"140 219 LINE",
+"210 219 LINE",
+"210 350 LINE",
+"140 350 LINE"
+);
+}
+);
+width = 250;
+}
+);
+}

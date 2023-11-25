@@ -1,0 +1,43 @@
+{
+glyphname = "three-ar.osf";
+layers = (
+{
+components = (
+{
+name = "three-ar.1";
+}
+);
+guideLines = (
+{
+position = "{0, 70}";
+},
+{
+position = "{0, 140}";
+},
+{
+position = "{0, 210}";
+},
+{
+position = "{0, 280}";
+},
+{
+position = "{0, 350}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"60 0 LINE",
+"310 0 LINE",
+"310 70 LINE",
+"60 70 LINE"
+);
+}
+);
+width = 350;
+}
+);
+widthMetricsKey = "=three-ar.1";
+}

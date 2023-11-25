@@ -1,0 +1,34 @@
+{
+glyphname = "hah-ar.1";
+layers = (
+{
+components = (
+{
+name = "hah-ar";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"515 -110 LINE",
+"556 -40 LINE",
+"486 -40 LINE",
+"486 -110 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"579 0 LINE",
+"620 70 LINE",
+"550 70 LINE",
+"550 0 LINE"
+);
+}
+);
+width = 660;
+}
+);
+}
