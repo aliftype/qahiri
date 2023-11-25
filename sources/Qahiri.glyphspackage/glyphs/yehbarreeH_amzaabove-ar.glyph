@@ -10,11 +10,11 @@ name = "yehbarree-ar";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, -2, 198}";
+transform = "{1, 0, 0, 1, -2, 308}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-width = 242;
+width = 472;
 }
 );
 unicode = 06D3;
