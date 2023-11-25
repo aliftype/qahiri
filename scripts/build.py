@@ -490,7 +490,7 @@ def build(instance, isTTF, version):
     underlineThickness = int(source.customParameters["underlineThickness"])
     underlinePosition = int(source.customParameters["underlinePosition"])
     fb.setupPost(
-        keepGlyphNames=False,
+        # keepGlyphNames=False,
         underlineThickness=underlineThickness,
         underlinePosition=underlinePosition + underlineThickness // 2,
     )
