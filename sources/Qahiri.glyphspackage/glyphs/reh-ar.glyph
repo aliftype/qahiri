@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{117, 215}";
+position = "{180, 325}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -13,26 +13,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"276 -110 LINE SMOOTH",
-"282 -110 OFFCURVE",
-"297 -110 OFFCURVE",
-"297 -89 CURVE",
-"297 50 OFFCURVE",
-"228.195 92.87 OFFCURVE",
-"81.4 140 CURVE",
-"0.5 0 LINE",
-"173 0 LINE SMOOTH",
-"195 0 OFFCURVE",
-"213 -18 OFFCURVE",
-"213 -40 CURVE",
-"-22.6 -40 LINE",
-"-63 -110 LINE"
+"339 0 LINE SMOOTH",
+"345 0 OFFCURVE",
+"360 0 OFFCURVE",
+"360 21 CURVE SMOOTH",
+"360 160 OFFCURVE",
+"291 203 OFFCURVE",
+"144 250 CURVE",
+"64 110 LINE",
+"236 110 LINE SMOOTH",
+"258 110 OFFCURVE",
+"276 92 OFFCURVE",
+"276 70 CURVE",
+"40 70 LINE",
+"0 0 LINE"
 );
 }
 );
-width = 312;
+width = 400;
 }
 );
-rightKerningGroup = reh;
+rightKerningGroup = dal;
 unicode = 0631;
 }

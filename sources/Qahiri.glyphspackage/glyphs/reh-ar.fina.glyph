@@ -6,6 +6,7 @@ components = (
 {
 alignment = -1;
 name = "reh-ar";
+transform = "{1, 0, 0, 1, -63, -110}";
 },
 {
 name = "kashida-ar";
