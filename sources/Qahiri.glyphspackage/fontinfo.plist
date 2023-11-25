@@ -341,6 +341,12 @@ name = ss02;
 notes = "featureNames {\012	name 3 1 0x409 \"Rounded Dots\";\012	name 3 1 0xC01 \"نقاط مستديرة\";\012};\012";
 },
 {
+code = "sub hah-ar.medi by hah-ar.medi.3;
+sub hah-ar.fina by hah-ar.fina.1;";
+name = ss03;
+notes = "featureNames {\012	name 3 1 0x409 \"Hah that connects on the line\";\012	name 3 1 0xC01 \"حاء باتصال سطري\";\012};\012";
+},
+{
 code = "";
 name = numr;
 },
