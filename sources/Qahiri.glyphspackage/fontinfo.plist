@@ -219,10 +219,7 @@ code = "script latn;
 name = locl;
 },
 {
-code = "  sub yeh-farsi     by alefMaksura-ar;
-  sub fehAfrican-ar by fehDotless-ar;
-  sub qafAfrican-ar by qafDotless-ar;
-  sub noonAfrican-ar by noonghunna-ar;";
+code = "";
 name = isol;
 },
 {
@@ -299,6 +296,14 @@ code = "  sub ain-ar         by ain-ar.fina;
   sub yehbarree-ar   by alefMaksura-ar.fina.2;
 ";
 name = fina;
+},
+{
+code = "  sub yeh-farsi     by alefMaksura-ar;
+  sub fehAfrican-ar by fehDotless-ar;
+  sub qafAfrican-ar by qafDotless-ar;
+  sub noonAfrican-ar by noonghunna-ar;
+  sub yehbarree-ar	by alefMaksura-ar.2;";
+name = rlig;
 },
 {
 code = "lookupflag IgnoreMarks;
