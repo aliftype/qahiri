@@ -15,7 +15,7 @@ position = "{0, 0}";
 components = (
 {
 alignment = -1;
-name = "kaf-ar.init.1";
+name = "kaf-ar.init.2";
 },
 {
 alignment = -1;
@@ -28,6 +28,6 @@ width = 600;
 }
 );
 leftKerningGroup = waw;
-leftMetricsKey = "=kaf-ar.init.1";
+leftMetricsKey = "=kaf-ar.init.2";
 widthMetricsKey = "=kaf-ar.init.1";
 }
