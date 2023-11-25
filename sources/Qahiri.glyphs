@@ -1,24 +1,29 @@
 {
-.appVersion = "3151";
+.appVersion = "3227";
 classes = (
 {
-code = "/.*dot.*.-ar$/";
+code = "$[name LIKE \"*dot*-ar\"]
+";
 name = Dots;
 },
 {
-code = "/.*dot.*.-ar.alt1/";
+code = "$[name LIKE \"*dot*-ar.alt1\"]
+";
 name = Dots.alt1;
 },
 {
-code = "/^twodotshorizontalbelow-ar.*/";
+code = "$[name LIKE \"twodotshorizontalbelow-ar*\"]
+";
 name = TwoDotsBelow;
 },
 {
-code = "/^twodotsverticalbelow-ar.*/";
+code = "$[name LIKE \"twodotsverticalbelow-ar*\"]
+";
 name = TwoDotsVerticalBelow;
 },
 {
-code = "/^dotbelow-ar.*/";
+code = "$[name LIKE \"dotbelow-ar*\"]
+";
 name = DotBelow;
 },
 {
@@ -39,7 +44,8 @@ code = "";
 name = HahAltTemp;
 },
 {
-code = "/.*\\.medi.*/ kashida-ar";
+code = "$[name LIKE \"*.medi*\"] kashida-ar
+";
 name = AllMedi;
 },
 {
@@ -429,7 +435,7 @@ lookupflag UseMarkFilteringSet @TwoDotsAbove;
 lookupflag UseMarkFilteringSet @DotsBelow;
   ignore sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1]' @DotsBelow' [behDotless-ar.medi lam-ar.medi]' alefMaksura-ar.fina';
   sub [behDotless-ar.medi lam-ar.medi]' lookup ToothYeh alefMaksura-ar.fina' lookup ToothYeh;
-  sub [/^behDotless-ar.medi.*/ hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
+  sub [$[name LIKE \"behDotless-ar.medi*\"] hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
 
 lookupflag UseMarkFilteringSet @TwoDotsBelow;
   sub [behDotless-ar.init behDotless-ar.medi] @TwoDotsBelow' [reh-ar.fina reh-ar.fina.1] by @TwoDotsVerticalBelow;

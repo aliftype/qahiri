@@ -13,8 +13,6 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-import re
-
 from fontTools.fontBuilder import FontBuilder
 from fontTools.misc.fixedTools import otRound
 from fontTools.misc.timeTools import epoch_diff
@@ -24,6 +22,7 @@ from fontTools.pens.boundsPen import BoundsPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import newTable
 from glyphsLib import GSAnchor, GSComponent, GSFont, GSGlyph, GSLayer
+from glyphsLib.builder.tokens import TokenExpander
 from glyphsLib.builder.constants import CODEPAGE_RANGES
 from glyphsLib.glyphdata import get_glyph as getGlyphInfo
 from pathops import Path, PathPen
@@ -181,18 +180,12 @@ feature mark {{
     return fea
 
 
-RE_DELIM = re.compile(r"(?:/(.*?.)/)")
-
-
 def makeFeatures(instance, source):
     font = instance.parent
 
-    def repl(match):
-        regex = re.compile(match.group(1))
-        return " ".join(g.name for g in font.glyphs if regex.match(g.name))
-
+    expander = TokenExpander(font, source)
     for x in list(font.featurePrefixes) + list(font.classes) + list(font.features):
-        x.code = RE_DELIM.sub(repl, x.code)
+        x.code = expander.expand(x.code)
 
     fea = ""
     for gclass in font.classes:
