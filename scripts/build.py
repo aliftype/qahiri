@@ -463,7 +463,7 @@ def build(instance, isTTF, version):
 
         fontInfo = {
             "FullName": names["fullName"],
-            "Notice": names["copyright"].replace("©", "\(c\)"),
+            "Notice": names["copyright"].replace("©", "(c)"),
             "version": f"{version}",
             "Weight": instance.name,
         }
