@@ -4,7 +4,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "one-ar.osf";
+},
+{
+name = "two-ar";
 }
 );
 guideLines = (
@@ -37,26 +41,6 @@ position = "{210, 450}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"60 189 LINE",
-"210 189 LINE",
-"210 259 LINE",
-"60 259 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"140 219 LINE",
-"210 219 LINE",
-"210 350 LINE",
-"140 350 LINE"
-);
-}
-);
 width = 250;
 }
 );

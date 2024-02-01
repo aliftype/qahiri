@@ -10,43 +10,20 @@ position = "{0, 0}";
 );
 components = (
 {
+alignment = -1;
 name = _dal;
+},
+{
+alignment = -1;
+name = "kashida-ar";
+},
+{
+alignment = -1;
+name = _kaf;
+transform = "{1, 0, 0, 1, -40, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"51 126 LINE",
-"142 247 OFFCURVE",
-"166 400 OFFCURVE",
-"140 560 CURVE",
-"60 480 LINE",
-"85 355 OFFCURVE",
-"74 221 OFFCURVE",
-"22 110 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"76 0 LINE",
-"76 70 LINE",
-"-18 70 LINE",
-"-18 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"135 180 LINE",
-"63 180 LINE",
-"22 110 LINE",
-"136 110 LINE"
-);
-}
-);
 width = 600;
 }
 );

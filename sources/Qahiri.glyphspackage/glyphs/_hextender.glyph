@@ -1,0 +1,20 @@
+{
+glyphname = _hextender;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"49 0 LINE",
+"90 70 LINE",
+"41 70 LINE",
+"0 0 LINE"
+);
+}
+);
+width = 90;
+}
+);
+}

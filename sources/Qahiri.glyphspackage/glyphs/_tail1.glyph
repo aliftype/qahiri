@@ -1,14 +1,7 @@
 {
-export = 0;
 glyphname = _tail1;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{129, -135}";
-}
-);
 guideLines = (
 {
 position = "{-33, 155}";

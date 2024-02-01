@@ -11,20 +11,24 @@ transform = "{1, 0, 0, 1, 400, 0}";
 {
 alignment = -1;
 name = _tail;
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 176, 0}";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 249, 0}";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 323, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"390 0 LINE",
-"390 70 LINE",
-"170 70 LINE",
-"170 0 LINE"
-);
-}
-);
 width = 640;
 }
 );

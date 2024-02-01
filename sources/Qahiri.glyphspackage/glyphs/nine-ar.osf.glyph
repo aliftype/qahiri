@@ -4,7 +4,12 @@ layers = (
 {
 components = (
 {
-name = "six-ar.osf.1";
+alignment = -1;
+name = "one-ar.osf";
+transform = "{1, 0, 0, 1, 140, 0}";
+},
+{
+name = "nine-ar";
 }
 );
 guideLines = (
@@ -37,26 +42,6 @@ position = "{210, 450}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"0 210 LINE",
-"0 140 LINE",
-"150 140 LINE",
-"150 210 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"0 310 LINE",
-"0 170 LINE",
-"70 170 LINE",
-"70 310 LINE"
-);
-}
-);
 width = 250;
 }
 );

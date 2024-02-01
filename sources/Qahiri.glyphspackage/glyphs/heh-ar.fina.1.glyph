@@ -6,29 +6,23 @@ components = (
 {
 alignment = -1;
 name = "heh-ar.1";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 160, 0}";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 120, 0}";
+},
+{
+name = _vextender;
+transform = "{1, 0, 0, 1, 120, 33}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"200 10 LINE",
-"200 150 LINE",
-"120 150 LINE",
-"120 10 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"240 0 LINE",
-"240 70 LINE",
-"100 70 LINE",
-"100 0 LINE"
-);
-}
-);
 width = 240;
 }
 );

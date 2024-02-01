@@ -4,7 +4,7 @@ layers = (
 {
 components = (
 {
-name = "two-ar.1";
+name = "four-ar.2";
 }
 );
 guideLines = (
@@ -37,26 +37,6 @@ position = "{210, 450}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"60 0 LINE",
-"210 0 LINE",
-"210 70 LINE",
-"60 70 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"60 140 LINE",
-"210 140 LINE",
-"210 210 LINE",
-"60 210 LINE"
-);
-}
-);
 width = 250;
 }
 );

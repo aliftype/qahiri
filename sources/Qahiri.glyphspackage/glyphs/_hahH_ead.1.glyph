@@ -1,0 +1,39 @@
+{
+glyphname = _hahHead.1;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{56, -35}";
+},
+{
+name = top;
+position = "{36, 305}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"251 -103 LINE",
+"59 230 LINE",
+"0 173 LINE",
+"192 -160 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"251 0 LINE",
+"251 70 LINE",
+"30 70 LINE",
+"30 0 LINE"
+);
+}
+);
+width = 191;
+}
+);
+}

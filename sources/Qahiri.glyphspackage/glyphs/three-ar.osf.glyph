@@ -4,7 +4,7 @@ layers = (
 {
 components = (
 {
-name = "three-ar.1";
+name = "three-ar";
 }
 );
 guideLines = (
@@ -25,17 +25,6 @@ position = "{0, 350}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"60 0 LINE",
-"310 0 LINE",
-"310 70 LINE",
-"60 70 LINE"
-);
-}
-);
 width = 350;
 }
 );

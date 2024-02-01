@@ -1,0 +1,28 @@
+{
+glyphname = _alefTail.4;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"-30 10 OFFCURVE",
+"-10 0 OFFCURVE",
+"12 0 CURVE SMOOTH",
+"50 0 OFFCURVE",
+"80 30 OFFCURVE",
+"80 80 CURVE SMOOTH",
+"80 150 LINE",
+"0 150 LINE",
+"0 70 LINE SMOOTH",
+"0 40 OFFCURVE",
+"-13 20 OFFCURVE",
+"-40 20 CURVE"
+);
+}
+);
+width = 120;
+}
+);
+}

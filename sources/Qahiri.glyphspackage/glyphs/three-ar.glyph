@@ -5,6 +5,21 @@ layers = (
 components = (
 {
 name = "three-ar.1";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 70, 0}";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 150, 0}";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 230, 0}";
 }
 );
 guideLines = (
@@ -25,20 +40,9 @@ position = "{0, 350}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"60 0 LINE",
-"310 0 LINE",
-"310 70 LINE",
-"60 70 LINE"
-);
-}
-);
 width = 350;
 }
 );
 widthMetricsKey = "=three-ar.1";
-unicode = 0663;
+unicode = "0663,06F3";
 }

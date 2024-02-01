@@ -4,35 +4,31 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = _dal;
 transform = "{1, 0, 0, 1, 40, 0}";
 },
 {
+alignment = -1;
 name = _alef;
 transform = "{1, 0, 0, 1, 40, 0}";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 60, 110}";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 120, 110}";
+},
+{
+alignment = -1;
+name = _hextender;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"116 70 LINE",
-"40.4 70 LINE",
-"0 0 LINE",
-"116 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"175 180 LINE",
-"40 180 LINE",
-"40 110 LINE",
-"176 110 LINE"
-);
-}
-);
 width = 640;
 }
 );

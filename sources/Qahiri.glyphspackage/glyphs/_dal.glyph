@@ -1,5 +1,4 @@
 {
-export = 0;
 glyphname = _dal;
 layers = (
 {
@@ -27,7 +26,7 @@ nodes = (
 "458 110 OFFCURVE",
 "476 92 OFFCURVE",
 "476 70 CURVE",
-"40.4 70 LINE",
+"41 70 LINE",
 "0 0 LINE"
 );
 }

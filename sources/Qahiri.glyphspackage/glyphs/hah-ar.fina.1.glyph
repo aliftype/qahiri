@@ -2,42 +2,17 @@
 glyphname = "hah-ar.fina.1";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{176, -35}";
-},
-{
-name = top;
-position = "{156, 305}";
-}
-);
 components = (
 {
+alignment = -1;
 name = _tail3;
+},
+{
+name = _hahHead.1;
+transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"371 -103 LINE",
-"179 230 LINE",
-"120 173 LINE",
-"312 -160 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"371 0 LINE",
-"371 70 LINE",
-"150 70 LINE",
-"150 0 LINE"
-);
-}
-);
 width = 311;
 }
 );

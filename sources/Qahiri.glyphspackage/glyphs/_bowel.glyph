@@ -1,25 +1,30 @@
 {
-export = 0;
 glyphname = _bowel;
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = _bowelShort;
+},
+{
+name = _vextender;
+transform = "{1, 0, 0, 1, 150, 140}";
+},
+{
+name = _vextender;
+transform = "{1, 0, 0, 1, 150, 103}";
+},
+{
+name = _vextender;
+transform = "{1, 0, 0, 1, 150, 67}";
+},
+{
+name = _vextender;
+transform = "{1, 0, 0, 1, 150, 30}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"230 40 LINE",
-"230 210 LINE",
-"150 190 LINE",
-"150 40 LINE"
-);
-}
-);
 width = 230;
 }
 );

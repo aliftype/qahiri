@@ -35,5 +35,5 @@ width = 110;
 }
 );
 widthMetricsKey = "=zero-ar";
-unicode = 0661;
+unicode = "0661,06F1,0031";
 }

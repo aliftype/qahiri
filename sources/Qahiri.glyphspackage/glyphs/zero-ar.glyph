@@ -34,5 +34,5 @@ nodes = (
 width = 110;
 }
 );
-unicode = 0660;
+unicode = "0660,06F0";
 }

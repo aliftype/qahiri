@@ -60,5 +60,5 @@ nodes = (
 width = 250;
 }
 );
-unicode = 0662;
+unicode = "0662,06F2";
 }

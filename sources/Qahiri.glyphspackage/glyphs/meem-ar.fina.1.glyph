@@ -6,20 +6,19 @@ components = (
 {
 alignment = -1;
 name = "meem-ar.1";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 200, 0}";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 130, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"280 0 LINE",
-"280 70 LINE",
-"140 70 LINE",
-"140 0 LINE"
-);
-}
-);
 width = 280;
 }
 );

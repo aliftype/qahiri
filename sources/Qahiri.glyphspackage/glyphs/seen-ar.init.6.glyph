@@ -14,30 +14,21 @@ position = "{148, 215}";
 );
 components = (
 {
+alignment = -1;
 name = "behDotless-ar.medi.1";
 },
 {
+alignment = -1;
 name = "behDotless-ar.medi.1";
 transform = "{1, 0, 0, 1, 110, 0}";
+},
+{
+alignment = -1;
+name = _behShort;
+transform = "{1, 0, 0, 1, 202, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"279 0 LINE SMOOTH",
-"285 0 OFFCURVE",
-"300 0 OFFCURVE",
-"300 11 CURVE SMOOTH",
-"300 177 LINE",
-"220 157 LINE",
-"220 70 LINE",
-"200 70 LINE",
-"200 0 LINE"
-);
-}
-);
 width = 340;
 }
 );

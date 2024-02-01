@@ -2,37 +2,43 @@
 glyphname = "tah-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{377, -35}";
+},
+{
+name = top;
+position = "{377, 255}";
+}
+);
 components = (
 {
+alignment = -1;
 name = _sad;
 transform = "{1, 0, 0, 1, 93, 0}";
 },
 {
+alignment = -1;
 name = _alef;
 transform = "{1, 0, 0, 1, 80, 0}";
+},
+{
+alignment = -1;
+name = _behShort;
+transform = "{1, 0, 0, 1, 62, 0}";
+},
+{
+alignment = -1;
+name = _hextender;
+},
+{
+alignment = -1;
+name = _hextender;
+transform = "{1, 0, 0, 1, 20, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"126 0 LINE",
-"126 70 LINE",
-"40.4 70 LINE",
-"0 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"160 0 LINE",
-"160 150 LINE",
-"80 150 LINE",
-"80 0 LINE"
-);
-}
-);
 width = 750;
 }
 );

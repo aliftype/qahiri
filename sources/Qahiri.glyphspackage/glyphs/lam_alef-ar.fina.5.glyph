@@ -6,20 +6,19 @@ components = (
 {
 alignment = -1;
 name = "lam_alef-ar.5";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 320, 0}";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 270, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"400 0 LINE",
-"400 70 LINE",
-"260 70 LINE",
-"260 0 LINE"
-);
-}
-);
 width = 400;
 }
 );

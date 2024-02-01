@@ -4,36 +4,20 @@ layers = (
 {
 components = (
 {
+name = k.1;
+},
+{
 alignment = -1;
-name = h;
+name = _vextender;
+transform = "{1, 0, 0, 1, 0, -20}";
+},
+{
+alignment = -1;
+name = _vextender;
+transform = "{1, 0, 0, 1, 120, -20}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"256 136 OFFCURVE",
-"242 320 OFFCURVE",
-"124 320 CURVE SMOOTH",
-"89 320 OFFCURVE",
-"54 295 OFFCURVE",
-"40 250 CURVE",
-"58 257 OFFCURVE",
-"74 260 OFFCURVE",
-"87 260 CURVE SMOOTH",
-"124 260 OFFCURVE",
-"140 237 OFFCURVE",
-"140 216 CURVE SMOOTH",
-"140 197 OFFCURVE",
-"128 180 OFFCURVE",
-"107 180 CURVE SMOOTH",
-"21 180 LINE",
-"21 110 LINE",
-"140 110 LINE"
-);
-}
-);
 width = 260;
 }
 );

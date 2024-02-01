@@ -5,6 +5,16 @@ layers = (
 components = (
 {
 name = "one-ar";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 70, 280}";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 130, 280}";
 }
 );
 guideLines = (
@@ -37,17 +47,6 @@ position = "{210, 450}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"60 280 LINE",
-"210 280 LINE",
-"210 350 LINE",
-"60 350 LINE"
-);
-}
-);
 width = 250;
 }
 );

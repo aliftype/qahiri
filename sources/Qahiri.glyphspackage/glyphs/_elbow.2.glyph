@@ -1,0 +1,28 @@
+{
+glyphname = _elbow.2;
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"80 150 LINE",
+"0 150 LINE",
+"0 40 LINE",
+"0 15 OFFCURVE",
+"15 0 OFFCURVE",
+"38 0 CURVE",
+"120 0 LINE",
+"120 70 LINE",
+"90 70 LINE",
+"83 70 OFFCURVE",
+"80 73 OFFCURVE",
+"80 80 CURVE"
+);
+}
+);
+width = 120;
+}
+);
+}

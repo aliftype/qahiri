@@ -14,33 +14,14 @@ position = "{280, 200}";
 );
 components = (
 {
+alignment = -1;
 name = _tail;
+},
+{
+name = _behBody.1;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"600 0 LINE",
-"600 70 LINE",
-"170 70 LINE",
-"170 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"577 4 LINE",
-"502 210 LINE",
-"434 164 LINE",
-"481 34 LINE",
-"517 70 LINE",
-"451 70 LINE",
-"451 0 LINE"
-);
-}
-);
 width = 600;
 }
 );

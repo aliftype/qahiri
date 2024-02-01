@@ -16,20 +16,14 @@ components = (
 {
 alignment = -1;
 name = "heh-ar.init.6";
+},
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 160, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"240 0 LINE",
-"240 70 LINE",
-"80 70 LINE",
-"80 0 LINE"
-);
-}
-);
 width = 240;
 }
 );

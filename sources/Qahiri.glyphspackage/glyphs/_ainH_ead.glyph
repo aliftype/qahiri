@@ -1,0 +1,40 @@
+{
+glyphname = _ainHead;
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{145, 230}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"249 0 LINE",
+"290 70 LINE",
+"163 70 LINE SMOOTH",
+"142 70 OFFCURVE",
+"130 87 OFFCURVE",
+"130 106 CURVE SMOOTH",
+"130 127 OFFCURVE",
+"146 150 OFFCURVE",
+"183 150 CURVE SMOOTH",
+"196 150 OFFCURVE",
+"212 147 OFFCURVE",
+"230 140 CURVE",
+"216 185 OFFCURVE",
+"181 210 OFFCURVE",
+"146 210 CURVE SMOOTH",
+"28 210 OFFCURVE",
+"14 26 OFFCURVE",
+"130 0 CURVE"
+);
+}
+);
+width = 330;
+}
+);
+}

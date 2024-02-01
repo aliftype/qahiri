@@ -1,14 +1,7 @@
 {
-export = 0;
 glyphname = _tail2;
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{170, -70}";
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {

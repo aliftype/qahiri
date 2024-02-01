@@ -12,20 +12,17 @@ components = (
 {
 alignment = -1;
 name = "heh-ar.init";
+},
+{
+name = _vextender;
+transform = "{1, 0, 0, 1, 120, 181}";
+},
+{
+name = _vextender;
+transform = "{1, 0, 0, 1, 120, 151}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"200 191 LINE",
-"200 251 LINE",
-"120 231 LINE",
-"120 160 LINE"
-);
-}
-);
 width = 240;
 }
 );

@@ -14,50 +14,21 @@ position = "{0, 0}";
 );
 components = (
 {
+alignment = -1;
 name = "kashida-ar";
 transform = "{1, 0, 0, 1, 160, 0}";
 },
 {
+alignment = -1;
 name = "kashida-ar";
+},
+{
+alignment = -1;
+name = o;
+transform = "{1, 0, 0, 1, 0, -40}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"165 -40 OFFCURVE",
-"199.981 -10 OFFCURVE",
-"199.981 50 CURVE SMOOTH",
-"199.981 99.672 OFFCURVE",
-"155.172 140 OFFCURVE",
-"99.981 140 CURVE SMOOTH",
-"44.789 140 OFFCURVE",
-"-0.019 99.672 OFFCURVE",
-"-0.02 50 CURVE SMOOTH",
-"-0.02 -10 OFFCURVE",
-"35 -40 OFFCURVE",
-"99.981 -40 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"88.942 30 OFFCURVE",
-"79.981 38.962 OFFCURVE",
-"79.981 50 CURVE SMOOTH",
-"79.981 61.038 OFFCURVE",
-"88.942 70 OFFCURVE",
-"99.981 70 CURVE SMOOTH",
-"111.019 70 OFFCURVE",
-"119.981 61.038 OFFCURVE",
-"119.981 50 CURVE SMOOTH",
-"119.981 38.962 OFFCURVE",
-"111.019 30 OFFCURVE",
-"99.981 30 CURVE SMOOTH"
-);
-}
-);
 width = 240;
 }
 );

@@ -13,27 +13,16 @@ components = (
 name = "noonghunna-ar.fina";
 },
 {
+alignment = -1;
 name = "behDotless-ar.medi.1";
 transform = "{1, 0, 0, 1, 140, 0}";
+},
+{
+name = _behShort;
+transform = "{1, 0, 0, 1, 232, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"309 0 LINE SMOOTH",
-"315 0 OFFCURVE",
-"330 0 OFFCURVE",
-"330 11 CURVE SMOOTH",
-"330 177 LINE",
-"250 157 LINE",
-"250 70 LINE",
-"230 70 LINE",
-"230 0 LINE"
-);
-}
-);
 width = 370;
 }
 );

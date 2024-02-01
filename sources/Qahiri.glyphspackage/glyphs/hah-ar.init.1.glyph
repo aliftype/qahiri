@@ -22,22 +22,15 @@ position = "{0, 0}";
 );
 components = (
 {
-alignment = -1;
 name = "hah-ar.init";
+},
+{
+alignment = -1;
+name = _hextender;
+transform = "{1, 0, 0, 1, 290, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"339 0 LINE",
-"380 70 LINE",
-"310 70 LINE",
-"310 0 LINE"
-);
-}
-);
 width = 420;
 }
 );

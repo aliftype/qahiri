@@ -27,39 +27,19 @@ position = "{170, -35}";
 {
 name = exit;
 position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = _hahHead;
 },
 {
-name = top;
-position = "{269, 163}";
+alignment = -1;
+name = "kashida-ar";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"223 50 LINE",
-"223 70 LINE",
-"165.248 70 OFFCURVE",
-"103.552 135.117 OFFCURVE",
-"42.749 209.841 CURVE",
-"0 140 LINE",
-"18.911 111.75 OFFCURVE",
-"46.601 83.162 OFFCURVE",
-"62.066 70 CURVE",
-"62.066 50 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"319 0 LINE",
-"360 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
-);
-}
-);
 width = 400;
 }
 );

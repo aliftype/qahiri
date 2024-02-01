@@ -11,20 +11,14 @@ position = "{432, -40}";
 components = (
 {
 name = "hah-ar.4";
+},
+{
+alignment = -1;
+name = _hextender;
+transform = "{1, 0, 0, 1, 497, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"546 0 LINE",
-"587 70 LINE",
-"517 70 LINE",
-"517 0 LINE"
-);
-}
-);
 width = 627;
 }
 );

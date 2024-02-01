@@ -7,6 +7,7 @@ components = (
 name = "two-ar.1";
 },
 {
+alignment = -1;
 name = "two-ar.1";
 transform = "{-1, 0, 0, -1, 210, 350}";
 }
@@ -45,5 +46,5 @@ width = 250;
 }
 );
 widthMetricsKey = "=two-ar";
-unicode = 0665;
+unicode = "0665,06F5";
 }

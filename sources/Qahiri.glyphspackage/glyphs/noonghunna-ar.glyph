@@ -10,23 +10,15 @@ position = "{80, 205}";
 );
 components = (
 {
+alignment = -1;
 name = _bowelShort;
 transform = "{1, 0, 0, 1, -80, 0}";
+},
+{
+name = _noonHead;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"150 27 LINE",
-"150 60 LINE",
-"70 140 LINE",
-"30 70 LINE",
-"102 -2 LINE"
-);
-}
-);
 width = 190;
 }
 );

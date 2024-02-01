@@ -14,38 +14,19 @@ position = "{191, 0}";
 {
 name = exit;
 position = "{0, 0}";
-},
-{
-name = top;
-position = "{36, 305}";
 }
 );
 components = (
 {
+alignment = -1;
 name = "kashida-ar";
+},
+{
+alignment = -1;
+name = _hahHead.1;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
-{
-closed = 1;
-nodes = (
-"250.878 -102.526 LINE",
-"59.282 230 LINE",
-"0 172.679 LINE",
-"191.596 -159.846 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"251.237 0 LINE",
-"251.237 70 LINE",
-"30.237 70 LINE",
-"30.237 0 LINE"
-);
-}
-);
 width = 191;
 }
 );

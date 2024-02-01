@@ -1,5 +1,4 @@
 {
-export = 0;
 glyphname = _behShort;
 layers = (
 {
@@ -8,19 +7,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"59 0 LINE SMOOTH",
-"65 0 OFFCURVE",
-"80 0 OFFCURVE",
-"80 11 CURVE SMOOTH",
-"80 210 LINE",
-"0 190 LINE",
-"0 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
+"77 0 LINE SMOOTH",
+"83 0 OFFCURVE",
+"98 0 OFFCURVE",
+"98 11 CURVE SMOOTH",
+"98 177 LINE",
+"18 157 LINE",
+"18 70 LINE",
+"-2 70 LINE",
+"-2 0 LINE"
 );
 }
 );
-width = 80;
+width = 138;
 }
 );
 }
