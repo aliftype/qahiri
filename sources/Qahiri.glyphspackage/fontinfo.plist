@@ -1,5 +1,5 @@
 {
-.appVersion = "3236";
+.appVersion = "3246";
 classes = (
 {
 code = "$[name LIKE \"*dot*-ar\"]
@@ -302,20 +302,17 @@ code = "  sub yeh-farsi     by alefMaksura-ar;
   sub fehAfrican-ar by fehDotless-ar;
   sub qafAfrican-ar by qafDotless-ar;
   sub noonAfrican-ar by noonghunna-ar;
-  sub yehbarree-ar	by alefMaksura-ar.2;";
-name = rlig;
-},
-{
-code = "lookupflag IgnoreMarks;
+  sub yehbarree-ar	by alefMaksura-ar.2;
+
+lookupflag IgnoreMarks;
   sub alef-ar lam-ar.init' lookup lellah lam-ar.medi' lookup lellah heh-ar.fina;
 
 lookup heh_isol {
   lookupflag UseMarkFilteringSet [space];
     ignore sub @ArabicLetters heh-ar';
     sub heh-ar' by heh-ar.isol;
-} heh_isol;
-";
-name = calt;
+} heh_isol;";
+name = rlig;
 },
 {
 code = "lookupflag IgnoreMarks;
