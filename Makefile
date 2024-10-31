@@ -15,12 +15,9 @@
 
 NAME = Qahiri
 
-MAKEFLAGS := -sr
 SHELL = bash
-
-CONFIG = docs/_config.yml
-VERSION = $(shell grep "version:" $(CONFIG) | sed -e 's/.*.: "\(.*.\)".*/\1/')
-DIST = $(NAME)-$(VERSION)
+MAKEFLAGS := -sr
+PYTHON := venv/bin/python3
 
 SOURCEDIR = sources
 SCRIPTDIR = scripts
@@ -28,31 +25,34 @@ FONTDIR = fonts
 TESTDIR = tests
 BUILDDIR = build
 
-FONTS = $(FONTDIR)/$(NAME)-Regular.ttf
-WOFF2 = $(FONTDIR)/$(NAME)-Regular.woff2
+FONT = ${FONTDIR}/${NAME}-Regular.ttf
+
+GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
+
+export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
+
+TAG = $(shell git describe --tags --abbrev=0)
+VERSION = ${TAG:v%=%}
+DIST = ${NAME}-${VERSION}
+
 
 .SECONDARY:
 .ONESHELL:
-.PHONY: all dist
+.PHONY: all clean dist ttf
 
-all: ttf web
-ttf: $(FONTS)
+all: ttf
+ttf: ${FONT}
 
-web: $(WOFF2)
-	cp $(WOFF2) docs/assets/fonts/
-	cp $(FONTS) docs/app/assets/fonts/
+${FONT}: ${GLYPHSFILE}
+	$(info   BUILD  ${@F})
+	${PYTHON} ${SCRIPTDIR}/build.py $< ${VERSION} $@
 
-%.ttf: $(SOURCEDIR)/$(NAME).glyphspackage $(CONFIG)
-	$(info   BUILD  $(@F))
-	python $(SCRIPTDIR)/build.py $< $(VERSION) $@
+dist: ${FONT}
+	$(info   DIST   ${DIST}.zip)
+	install -Dm644 -t ${DIST} ${FONT}
+	install -Dm644 -t ${DIST} {README,README-Arabic}.txt
+	install -Dm644 -t ${DIST} OFL.txt
+	zip -rq ${DIST}.zip ${DIST}
 
-%.woff2: %.ttf
-	$(info   WOFF2  $(@F))
-	python $(SCRIPTDIR)/buildwoff2.py $< $@
-
-dist: all
-	$(info   DIST   $(DIST).zip)
-	install -Dm644 -t $(DIST) $(FONTS)
-	install -Dm644 -t $(DIST) {README,README-Arabic}.txt
-	install -Dm644 -t $(DIST) OFL.txt
-	zip -rq $(DIST).zip $(DIST)
+clean:
+	rm -rf ${BUILDDIR} ${FONT} ${SVG} ${DIST} ${DIST}.zip
