@@ -326,26 +326,6 @@ def build(instance, isTTF, version):
         else:
             source.otherBlues.extend(vals)
 
-    fontinfo = f"""
-        FontName {instance.fontName}
-        OrigEmSqUnits {font.upm}
-        DominantV {source.verticalStems}
-        DominantH {source.horizontalStems}
-        BaselineOvershoot {source.blueValues[0]}
-        BaselineYCoord {source.blueValues[1]}
-        LcHeight {source.blueValues[2]}
-        LcOvershoot {source.blueValues[3] - source.blueValues[2]}
-        CapHeight {source.blueValues[4]}
-        CapOvershoot {source.blueValues[5] - source.blueValues[4]}
-        AscenderHeight {source.blueValues[6]}
-        AscenderOvershoot {source.blueValues[7] - source.blueValues[6]}
-        Baseline5 {source.otherBlues[1]}
-        Baseline5Overshoot {source.otherBlues[0] - source.otherBlues[1]}
-
-        FlexOK true
-        BlueFuzz 1
-    """
-
     characterMap = {}
     glyphs = {}
     metrics = {}
