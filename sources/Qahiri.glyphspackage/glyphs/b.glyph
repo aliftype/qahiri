@@ -7,13 +7,20 @@ components = (
 alignment = -1;
 name = "heh-ar";
 transform = "{-1, 0, 0, 1, 200, 0}";
-},
-{
-alignment = -1;
-name = _alef;
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"80 560 LINE",
+"0 540 LINE",
+"0 130 LINE",
+"80 130 LINE"
+);
+}
+);
 width = 240;
 }
 );
