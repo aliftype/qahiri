@@ -1,5 +1,5 @@
 {
-.appVersion = "3246";
+.appVersion = "3343";
 classes = (
 {
 code = "$[name LIKE \"*dot*-ar\"]

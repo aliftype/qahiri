@@ -5,7 +5,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = "heh-ar.1";
+name = "heh-ar";
 transform = "{-1, 0, 0, 1, 200, 0}";
 },
 {

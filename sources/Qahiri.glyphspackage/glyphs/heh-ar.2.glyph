@@ -10,32 +10,12 @@ position = "{50, 318}";
 );
 components = (
 {
-name = "heh-ar.1";
+name = "heh-ar";
 },
 {
 alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 120, 305}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 120, 351}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 120, 397}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 120, 443}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 120, 490}";
+name = _alef;
+transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
