@@ -210,6 +210,8 @@ code = "  sub alefHamzaabove-ar   by alef-ar hamzaabove-ar;
   sub tehMarbuta-ar       by ae-ar twodotshorizontalabove-ar;
   sub tehMarbutagoal-ar   by ae-ar twodotshorizontalabove-ar;
   sub yeh-ar              by alefMaksura-ar twodotshorizontalbelow-ar;
+  sub yehbarree-ar        by alefMaksura-ar.2;
+  sub yehbarreeHamzaabove-ar by alefMaksura-ar.2 hamzaabove-ar;
 ";
 name = ccmp;
 },
@@ -241,6 +243,7 @@ code = "  sub ain-ar         by ain-ar.init;
   sub noonghunna-ar  by behDotless-ar.init;
   sub noonAfrican-ar by behDotless-ar.init dotabove-ar;
   sub alefMaksura-ar by behDotless-ar.init;
+  sub alefMaksura-ar.2 by behDotless-ar.init;
   sub yeh-farsi      by behDotless-ar.init twodotshorizontalbelow-ar;
 ";
 name = init;
@@ -264,6 +267,7 @@ code = "  sub ain-ar         by ain-ar.medi;
   sub noonghunna-ar  by behDotless-ar.medi;
   sub noonAfrican-ar by behDotless-ar.medi dotabove-ar;
   sub alefMaksura-ar by behDotless-ar.medi;
+  sub alefMaksura-ar.2 by behDotless-ar.medi;
   sub yeh-farsi      by behDotless-ar.medi twodotshorizontalbelow-ar;
 ";
 name = medi;
@@ -293,7 +297,7 @@ code = "  sub ain-ar         by ain-ar.fina;
   sub tah-ar         by tah-ar.fina;
   sub waw-ar         by waw-ar.fina;
   sub yeh-farsi      by alefMaksura-ar.fina;
-  sub yehbarree-ar   by alefMaksura-ar.fina.2;
+  sub alefMaksura-ar.2   by alefMaksura-ar.fina.2;
 ";
 name = fina;
 },
@@ -373,6 +377,8 @@ code = "  sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2];
   sub alef-ar                 from [alef-ar.1 alef-ar.2 alef-ar alef-ar.3];
   sub alefMaksura-ar          from [alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.2 alefMaksura-ar.3 alefMaksura-ar.4];
   sub alefMaksura-ar.fina     from [alefMaksura-ar.fina.0 alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4];
+  sub alefMaksura-ar.2        from [alefMaksura-ar.3 alefMaksura-ar.4];
+  sub alefMaksura-ar.fina.2   from [alefMaksura-ar.fina.3 alefMaksura-ar.fina.4];
   # Dummy entry for the app to show alternates.
   sub alefMaksura-ar.fina.tooth from [alefMaksura-ar.fina alefMaksura-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4 alefMaksura-ar.fina.tooth];
   sub behDotless-ar.medi      from [behDotless-ar.medi behDotless-ar.medi.1];
@@ -590,7 +596,6 @@ kerning = {
 "@MMK_R_yeh.2" = -70;
 "alefMaksura-ar" = 100;
 "alefMaksura-ar.1" = 100;
-"alefMaksura-ar.4" = 480;
 "lam-ar" = 100;
 "noonghunna-ar" = 100;
 "qafDotless-ar" = 100;
@@ -713,7 +718,6 @@ kerning = {
 "@MMK_L_waw" = {
 "alefMaksura-ar" = 40;
 "alefMaksura-ar.1" = 40;
-"alefMaksura-ar.4" = 540;
 "lam-ar" = 40;
 "lam_alef-ar" = -20;
 "lam_alef-ar.2" = -20;
@@ -721,18 +725,6 @@ kerning = {
 "lam_alef-ar.4" = -20;
 "lam_alef-ar.5" = -20;
 "noonghunna-ar" = 40;
-};
-"ain-ar" = {
-"alefMaksura-ar.4" = 540;
-};
-"ain-ar.1" = {
-"alefMaksura-ar.4" = 540;
-};
-"ain-ar.2" = {
-"alefMaksura-ar.4" = 540;
-};
-"ain-ar.fina" = {
-"alefMaksura-ar.4" = 540;
 };
 "ain-ar.init" = {
 "@MMK_R_pyramid" = -20;
@@ -758,36 +750,6 @@ kerning = {
 "alef-ar.fina" = {
 "qafDotless-ar" = -50;
 };
-"alefMaksura-ar" = {
-"alefMaksura-ar.4" = 540;
-};
-"alefMaksura-ar.1" = {
-"alefMaksura-ar.4" = 540;
-};
-"alefMaksura-ar.2" = {
-"alefMaksura-ar.4" = 540;
-};
-"alefMaksura-ar.3" = {
-"alefMaksura-ar.4" = 540;
-};
-"alefMaksura-ar.4" = {
-"alefMaksura-ar.4" = 540;
-};
-"alefMaksura-ar.fina" = {
-"alefMaksura-ar.4" = 540;
-};
-"alefMaksura-ar.fina.1" = {
-"alefMaksura-ar.4" = 540;
-};
-"alefMaksura-ar.fina.2" = {
-"alefMaksura-ar.4" = 540;
-};
-"alefMaksura-ar.fina.3" = {
-"alefMaksura-ar.4" = 540;
-};
-"alefMaksura-ar.fina.4" = {
-"alefMaksura-ar.4" = 540;
-};
 "fehDotless-ar.init" = {
 "@MMK_R_pyramid" = -30;
 "@MMK_R_yeh" = -50;
@@ -810,27 +772,6 @@ kerning = {
 "@MMK_R_pyramid" = -30;
 "@MMK_R_yeh" = -50;
 };
-"hah-ar" = {
-"alefMaksura-ar.4" = 540;
-};
-"hah-ar.1" = {
-"alefMaksura-ar.4" = 540;
-};
-"hah-ar.2" = {
-"alefMaksura-ar.4" = 540;
-};
-"hah-ar.3" = {
-"alefMaksura-ar.4" = 540;
-};
-"hah-ar.4" = {
-"alefMaksura-ar.4" = 540;
-};
-"hah-ar.5" = {
-"alefMaksura-ar.4" = 540;
-};
-"hah-ar.fina.1" = {
-"alefMaksura-ar.4" = 540;
-};
 "hah-ar.init.1" = {
 "@MMK_R_pyramid" = -20;
 "@MMK_R_yeh" = -40;
@@ -851,18 +792,6 @@ kerning = {
 };
 "kaf-ar.medi.2" = {
 "@MMK_R_yeh" = -30;
-};
-"qafDotless-ar" = {
-"alefMaksura-ar.4" = 520;
-};
-"qafDotless-ar.fina" = {
-"alefMaksura-ar.4" = 520;
-};
-"reh-ar.fina" = {
-"alefMaksura-ar.4" = 560;
-};
-"reh-ar.fina.1" = {
-"alefMaksura-ar.4" = 560;
 };
 };
 };
