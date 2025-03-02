@@ -6,32 +6,37 @@ anchors = (
 {
 name = exit;
 position = "{0, 0}";
-}
-);
-components = (
-{
-alignment = -1;
-name = _dal;
 },
 {
-alignment = -1;
-name = _alef;
-},
-{
-name = "kashida-ar";
-},
-{
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 20, 110}";
-},
-{
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 80, 110}";
+name = top;
+position = "{280, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"539 0 LINE SMOOTH",
+"545 0 OFFCURVE",
+"560 0 OFFCURVE",
+"560 21 CURVE SMOOTH",
+"560 160 OFFCURVE",
+"490 180 OFFCURVE",
+"446 180 CURVE SMOOTH",
+"80 180 LINE",
+"80 560 LINE",
+"0 540 LINE",
+"0 110 LINE",
+"436 110 LINE SMOOTH",
+"458 110 OFFCURVE",
+"476 92 OFFCURVE",
+"476 70 CURVE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+}
+);
 width = 600;
 }
 );

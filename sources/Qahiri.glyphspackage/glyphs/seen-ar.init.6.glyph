@@ -12,23 +12,39 @@ name = top;
 position = "{148, 215}";
 }
 );
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-alignment = -1;
-name = "behDotless-ar.medi.1";
+closed = 1;
+nodes = (
+"279 0 LINE SMOOTH",
+"285 0 OFFCURVE",
+"300 0 OFFCURVE",
+"300 11 CURVE SMOOTH",
+"300 177 LINE",
+"220 157 LINE",
+"220 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
 },
 {
-alignment = -1;
-name = "behDotless-ar.medi.1";
-transform = "{1, 0, 0, 1, 110, 0}";
+closed = 1;
+nodes = (
+"140 40 LINE",
+"40 140 LINE",
+"-17 40 LINE"
+);
 },
 {
-alignment = -1;
-name = _behShort;
-transform = "{1, 0, 0, 1, 202, 0}";
+closed = 1;
+nodes = (
+"250 40 LINE",
+"150 140 LINE",
+"93 40 LINE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 340;
 }
 );

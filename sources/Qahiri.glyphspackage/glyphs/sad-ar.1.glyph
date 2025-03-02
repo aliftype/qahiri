@@ -2,24 +2,52 @@
 glyphname = "sad-ar.1";
 layers = (
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = _bowel;
-transform = "{1, 0, 0, 1, -80, 0}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 70, 180}";
-},
-{
-alignment = -1;
-name = _sad;
-transform = "{1, 0, 0, 1, 83, 0}";
+name = top;
+position = "{380, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"112 -250 LINE SMOOTH",
+"135 -250 OFFCURVE",
+"150 -235 OFFCURVE",
+"150 -210 CURVE SMOOTH",
+"150 250 LINE",
+"70 230 LINE",
+"70 -180 LINE",
+"-30 -180 LINE SMOOTH",
+"-50 -180 OFFCURVE",
+"-67 -175 OFFCURVE",
+"-78 -160 CURVE",
+"-130 -250 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"679 0 LINE SMOOTH",
+"685 0 OFFCURVE",
+"700 0 OFFCURVE",
+"700 21 CURVE SMOOTH",
+"700 160 OFFCURVE",
+"630 180 OFFCURVE",
+"586 180 CURVE SMOOTH",
+"113 180 LINE",
+"113 110 LINE",
+"576 110 LINE SMOOTH",
+"598 110 OFFCURVE",
+"616 92 OFFCURVE",
+"616 70 CURVE",
+"113 70 LINE",
+"113 0 LINE"
+);
+}
+);
 width = 740;
 }
 );

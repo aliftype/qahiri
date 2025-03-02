@@ -2,18 +2,67 @@
 glyphname = "fehDotless-ar.fina.2";
 layers = (
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = "fehDotless-ar.2";
+name = bottom;
+position = "{527, -35}";
 },
 {
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 573, 0}";
+name = top;
+position = "{500, 335}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"653 0 LINE",
+"653 70 LINE",
+"612 70 LINE",
+"613 81 OFFCURVE",
+"613 90 OFFCURVE",
+"613 102 CURVE SMOOTH",
+"613 179 OFFCURVE",
+"594 290 OFFCURVE",
+"501 290 CURVE SMOOTH",
+"445 290 OFFCURVE",
+"400 250 OFFCURVE",
+"400 200 CURVE SMOOTH",
+"400 150 OFFCURVE",
+"445 110 OFFCURVE",
+"500 110 CURVE SMOOTH",
+"510 110 OFFCURVE",
+"520 111 OFFCURVE",
+"530 114 CURVE",
+"533 104 OFFCURVE",
+"533 80 OFFCURVE",
+"530 70 CURVE",
+"100 70 LINE SMOOTH",
+"78 70 OFFCURVE",
+"62 77 OFFCURVE",
+"52 90 CURVE",
+"0 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"489 180 OFFCURVE",
+"480 189 OFFCURVE",
+"480 200 CURVE SMOOTH",
+"480 211 OFFCURVE",
+"489 220 OFFCURVE",
+"500 220 CURVE SMOOTH",
+"511 220 OFFCURVE",
+"520 211 OFFCURVE",
+"520 200 CURVE SMOOTH",
+"520 189 OFFCURVE",
+"511 180 OFFCURVE",
+"500 180 CURVE SMOOTH"
+);
+}
+);
 width = 653;
 }
 );

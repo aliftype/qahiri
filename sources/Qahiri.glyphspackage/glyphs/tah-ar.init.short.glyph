@@ -6,19 +6,44 @@ anchors = (
 {
 name = exit;
 position = "{0, 0}";
-}
-);
-components = (
-{
-alignment = -1;
-name = _sad;
-transform = "{1, 0, 0, 1, 13, 0}";
 },
 {
-name = "lam-ar.init.short";
+name = top;
+position = "{310, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"609 0 LINE SMOOTH",
+"615 0 OFFCURVE",
+"630 0 OFFCURVE",
+"630 21 CURVE SMOOTH",
+"630 160 OFFCURVE",
+"560 180 OFFCURVE",
+"516 180 CURVE SMOOTH",
+"13 180 LINE",
+"13 110 LINE",
+"506 110 LINE SMOOTH",
+"528 110 OFFCURVE",
+"546 92 OFFCURVE",
+"546 70 CURVE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"80 40 LINE",
+"80 450 LINE",
+"0 430 LINE",
+"0 40 LINE"
+);
+}
+);
 width = 670;
 }
 );

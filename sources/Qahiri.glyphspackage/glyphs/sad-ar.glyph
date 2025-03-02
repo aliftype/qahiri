@@ -2,31 +2,55 @@
 glyphname = "sad-ar";
 layers = (
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = _sad;
-transform = "{1, 0, 0, 1, 83, 0}";
-},
-{
-alignment = -1;
-name = _bowelShort;
-transform = "{1, 0, 0, 1, -67, 0}";
-},
-{
-name = _noonHead;
-transform = "{1, 0, 0, 1, 0, 120}";
-},
-{
-name = _vextender;
-transform = "{1, 0, 0, 1, 83, 76}";
-},
-{
-name = _vextender;
-transform = "{1, 0, 0, 1, 83, 39}";
+name = top;
+position = "{380, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"125 -250 LINE SMOOTH",
+"148 -250 OFFCURVE",
+"163 -235 OFFCURVE",
+"163 -210 CURVE SMOOTH",
+"163 146 LINE",
+"150 180 LINE",
+"70 260 LINE",
+"30 190 LINE",
+"83 137 LINE",
+"83 -180 LINE",
+"-17 -180 LINE SMOOTH",
+"-37 -180 OFFCURVE",
+"-54 -175 OFFCURVE",
+"-65 -160 CURVE",
+"-117 -250 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"679 0 LINE SMOOTH",
+"685 0 OFFCURVE",
+"700 0 OFFCURVE",
+"700 21 CURVE SMOOTH",
+"700 160 OFFCURVE",
+"630 180 OFFCURVE",
+"586 180 CURVE SMOOTH",
+"113 180 LINE",
+"113 110 LINE",
+"576 110 LINE SMOOTH",
+"598 110 OFFCURVE",
+"616 92 OFFCURVE",
+"616 70 CURVE",
+"113 70 LINE",
+"113 0 LINE"
+);
+}
+);
 width = 740;
 }
 );

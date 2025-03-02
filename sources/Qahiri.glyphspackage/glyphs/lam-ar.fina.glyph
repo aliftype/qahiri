@@ -2,17 +2,38 @@
 glyphname = "lam-ar.fina";
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-alignment = -1;
-name = "lam-ar";
+closed = 1;
+nodes = (
+"150 560 LINE",
+"70 540 LINE",
+"70 -180 LINE",
+"-30 -180 LINE SMOOTH",
+"-50 -180 OFFCURVE",
+"-67 -175 OFFCURVE",
+"-78 -160 CURVE",
+"-130 -250 LINE",
+"112 -250 LINE SMOOTH",
+"135 -250 OFFCURVE",
+"150 -235 OFFCURVE",
+"150 -210 CURVE SMOOTH"
+);
 },
 {
-name = _elbow;
-transform = "{1, 0, 0, 1, 110, 0}";
+closed = 1;
+nodes = (
+"190 0 LINE",
+"190 70 LINE",
+"168 70 OFFCURVE",
+"150 88 OFFCURVE",
+"150 110 CURVE",
+"110 110 LINE",
+"110 0 LINE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 190;
 }
 );

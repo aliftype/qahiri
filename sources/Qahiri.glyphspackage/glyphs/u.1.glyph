@@ -2,14 +2,32 @@
 glyphname = u.1;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-alignment = -1;
-name = n.1;
-transform = "{-1, 0, 0, -1, 200, 180}";
+closed = 1;
+nodes = (
+"200 180 LINE",
+"120 180 LINE",
+"120 90 LINE SMOOTH",
+"120 79 OFFCURVE",
+"111 70 OFFCURVE",
+"100 70 CURVE SMOOTH",
+"89 70 OFFCURVE",
+"80 79 OFFCURVE",
+"80 90 CURVE SMOOTH",
+"80 180 LINE",
+"0 180 LINE",
+"0 90 LINE SMOOTH",
+"0 40 OFFCURVE",
+"45 0 OFFCURVE",
+"100 0 CURVE SMOOTH",
+"140 0 OFFCURVE",
+"180 -5 OFFCURVE",
+"200 -40 CURVE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 240;
 }
 );

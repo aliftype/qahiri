@@ -12,28 +12,35 @@ name = top;
 position = "{160, 300}";
 }
 );
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-alignment = -1;
-name = "seen-ar.init.3";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 0, 180}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 120, 180}";
-},
-{
-alignment = -1;
-name = _vextender;
-transform = "{1, 0, 0, 1, 240, 180}";
+closed = 1;
+nodes = (
+"299 0 LINE SMOOTH",
+"305 0 OFFCURVE",
+"320 0 OFFCURVE",
+"320 11 CURVE SMOOTH",
+"320 250 LINE",
+"240 230 LINE",
+"240 70 LINE",
+"218 70 OFFCURVE",
+"200 88 OFFCURVE",
+"200 110 CURVE SMOOTH",
+"200 250 LINE",
+"120 230 LINE",
+"120 70 LINE",
+"98 70 OFFCURVE",
+"80 88 OFFCURVE",
+"80 110 CURVE SMOOTH",
+"80 250 LINE",
+"0 230 LINE",
+"0 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 360;
 }
 );

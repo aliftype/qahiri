@@ -2,21 +2,47 @@
 glyphname = "kaf-ar.1";
 layers = (
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = _dal;
-transform = "{1, 0, 0, 1, 40, 0}";
-},
-{
-alignment = -1;
-name = _hextender;
-},
-{
-name = _kaf;
+name = top;
+position = "{320, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"579 0 LINE SMOOTH",
+"585 0 OFFCURVE",
+"600 0 OFFCURVE",
+"600 21 CURVE SMOOTH",
+"600 160 OFFCURVE",
+"530 180 OFFCURVE",
+"486 180 CURVE SMOOTH",
+"126 180 LINE",
+"167 254 OFFCURVE",
+"189 342 OFFCURVE",
+"189 443 CURVE SMOOTH",
+"189 480 OFFCURVE",
+"186 520 OFFCURVE",
+"180 560 CURVE",
+"100 480 LINE",
+"107 439 OFFCURVE",
+"111 398 OFFCURVE",
+"111 355 CURVE SMOOTH",
+"111 272 OFFCURVE",
+"96 187 OFFCURVE",
+"62 110 CURVE",
+"476 110 LINE SMOOTH",
+"498 110 OFFCURVE",
+"516 92 OFFCURVE",
+"516 70 CURVE",
+"41 70 LINE",
+"0 0 LINE"
+);
+}
+);
 width = 640;
 }
 );

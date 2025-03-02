@@ -2,15 +2,36 @@
 glyphname = eight;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-name = nine;
+closed = 1;
+nodes = (
+"210 0 LINE",
+"210 350 LINE",
+"0 350 LINE",
+"0 0 LINE"
+);
 },
 {
-name = "one-ar";
+closed = 1;
+nodes = (
+"70 280 LINE",
+"140 280 LINE",
+"140 210 LINE",
+"70 210 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"70 140 LINE",
+"140 140 LINE",
+"140 70 LINE",
+"70 70 LINE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 250;
 }
 );

@@ -16,17 +16,23 @@ name = top;
 position = "{40, 569}";
 }
 );
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-alignment = -1;
-name = _alef;
-},
-{
-alignment = -1;
-name = "behDotless-ar.medi.yeh";
+closed = 1;
+nodes = (
+"120 0 LINE",
+"120 70 LINE",
+"90 70 LINE SMOOTH",
+"83 70 OFFCURVE",
+"80 73 OFFCURVE",
+"80 80 CURVE SMOOTH",
+"80 560 LINE",
+"0 540 LINE",
+"0 0 LINE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 120;
 }
 );

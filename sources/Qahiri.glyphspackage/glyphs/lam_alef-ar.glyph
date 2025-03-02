@@ -83,16 +83,9 @@ paths = (
 closed = 1;
 nodes = (
 "320 0 LINE",
-"20.071 520 LINE",
-"-40.017 462.701 LINE",
-"227 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"320 0 LINE",
-"260 70 LINE",
+"20 520 LINE",
+"-40 463 LINE",
+"187 70 LINE",
 "70 70 LINE",
 "0 0 LINE"
 );

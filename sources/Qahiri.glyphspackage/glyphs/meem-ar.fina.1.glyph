@@ -2,23 +2,53 @@
 glyphname = "meem-ar.fina.1";
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-alignment = -1;
-name = "meem-ar.1";
+closed = 1;
+nodes = (
+"140 0 LINE SMOOTH",
+"204 0 OFFCURVE",
+"240 30 OFFCURVE",
+"240 90 CURVE SMOOTH",
+"240 140 OFFCURVE",
+"195 180 OFFCURVE",
+"140 180 CURVE SMOOTH",
+"85 180 OFFCURVE",
+"40 140 OFFCURVE",
+"40 90 CURVE SMOOTH",
+"40 50 OFFCURVE",
+"35 20 OFFCURVE",
+"0 0 CURVE"
+);
 },
 {
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 200, 0}";
+closed = 1;
+nodes = (
+"129 70 OFFCURVE",
+"120 79 OFFCURVE",
+"120 90 CURVE SMOOTH",
+"120 101 OFFCURVE",
+"129 110 OFFCURVE",
+"140 110 CURVE SMOOTH",
+"151 110 OFFCURVE",
+"160 101 OFFCURVE",
+"160 90 CURVE SMOOTH",
+"160 79 OFFCURVE",
+"151 70 OFFCURVE",
+"140 70 CURVE SMOOTH"
+);
 },
 {
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 130, 0}";
+closed = 1;
+nodes = (
+"280 0 LINE",
+"280 70 LINE",
+"200 70 LINE",
+"140 0 LINE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 280;
 }
 );

@@ -2,17 +2,50 @@
 glyphname = "seen-ar.fina.5";
 layers = (
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = "seen-ar.5";
-},
-{
-name = _elbow;
-transform = "{1, 0, 0, 1, 350, 0}";
+name = top;
+position = "{233, 340}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"112 -250 LINE SMOOTH",
+"135 -250 OFFCURVE",
+"150 -235 OFFCURVE",
+"150 -210 CURVE SMOOTH",
+"150 0 LINE",
+"430 0 LINE",
+"430 70 LINE",
+"408 70 OFFCURVE",
+"390 88 OFFCURVE",
+"390 110 CURVE SMOOTH",
+"390 270 LINE",
+"310 250 LINE",
+"310 70 LINE",
+"288 70 OFFCURVE",
+"270 88 OFFCURVE",
+"270 110 CURVE SMOOTH",
+"270 270 LINE",
+"190 250 LINE",
+"190 70 LINE",
+"168 70 OFFCURVE",
+"150 88 OFFCURVE",
+"150 110 CURVE SMOOTH",
+"150 270 LINE",
+"70 250 LINE",
+"70 -180 LINE",
+"-30 -180 LINE SMOOTH",
+"-50 -180 OFFCURVE",
+"-67 -175 OFFCURVE",
+"-78 -160 CURVE",
+"-130 -250 LINE"
+);
+}
+);
 width = 430;
 }
 );

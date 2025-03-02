@@ -2,18 +2,37 @@
 glyphname = "noonghunna-ar.fina";
 layers = (
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = "noonghunna-ar";
-},
-{
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 110, 0}";
+name = top;
+position = "{80, 205}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"112 -250 LINE SMOOTH",
+"135 -250 OFFCURVE",
+"150 -235 OFFCURVE",
+"150 -210 CURVE SMOOTH",
+"150 0 LINE",
+"190 0 LINE",
+"190 70 LINE",
+"140 70 LINE",
+"70 140 LINE",
+"30 70 LINE",
+"70 30 LINE",
+"70 -180 LINE",
+"-30 -180 LINE SMOOTH",
+"-50 -180 OFFCURVE",
+"-67 -175 OFFCURVE",
+"-78 -160 CURVE",
+"-130 -250 LINE"
+);
+}
+);
 width = 190;
 }
 );

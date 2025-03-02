@@ -2,22 +2,41 @@
 glyphname = b;
 layers = (
 {
-components = (
-{
-alignment = -1;
-name = "heh-ar";
-transform = "{-1, 0, 0, 1, 200, 0}";
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
 closed = 1;
 nodes = (
+"155 0 OFFCURVE",
+"200 30 OFFCURVE",
+"200 90 CURVE SMOOTH",
+"200 140 OFFCURVE",
+"155 180 OFFCURVE",
+"100 180 CURVE SMOOTH",
+"80 180 LINE",
 "80 560 LINE",
 "0 540 LINE",
-"0 130 LINE",
-"80 130 LINE"
+"0 90 LINE SMOOTH",
+"0 30 OFFCURVE",
+"35 0 OFFCURVE",
+"100 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"89 70 OFFCURVE",
+"80 79 OFFCURVE",
+"80 90 CURVE SMOOTH",
+"80 101 OFFCURVE",
+"89 110 OFFCURVE",
+"100 110 CURVE SMOOTH",
+"111 110 OFFCURVE",
+"120 101 OFFCURVE",
+"120 90 CURVE SMOOTH",
+"120 79 OFFCURVE",
+"111 70 OFFCURVE",
+"100 70 CURVE SMOOTH"
 );
 }
 );

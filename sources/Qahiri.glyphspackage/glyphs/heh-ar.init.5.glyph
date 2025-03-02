@@ -8,21 +8,63 @@ name = exit;
 position = "{0, 0}";
 }
 );
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-alignment = -1;
-name = "heh-ar.init.4";
+closed = 1;
+nodes = (
+"179 0 LINE SMOOTH",
+"185 0 OFFCURVE",
+"200 0 OFFCURVE",
+"200 11 CURVE SMOOTH",
+"200 291 LINE",
+"120 271 LINE",
+"120 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
 },
 {
-name = _vextender;
-transform = "{1, 0, 0, 1, 120, 221}";
+closed = 1;
+nodes = (
+"167 50 LINE",
+"186 65 OFFCURVE",
+"190 97 OFFCURVE",
+"190 125 CURVE SMOOTH",
+"190 173 OFFCURVE",
+"161 220 OFFCURVE",
+"120 220 CURVE SMOOTH",
+"55 220 OFFCURVE",
+"-2 188 OFFCURVE",
+"-2 116 CURVE SMOOTH",
+"-2 83 OFFCURVE",
+"10 59 OFFCURVE",
+"24 50 CURVE"
+);
 },
 {
-name = _vextender;
-transform = "{1, 0, 0, 1, 120, 191}";
+closed = 1;
+nodes = (
+"99 70 OFFCURVE",
+"82 86 OFFCURVE",
+"80 106 CURVE",
+"101 106 OFFCURVE",
+"118 90 OFFCURVE",
+"120 70 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"82 134 OFFCURVE",
+"99 150 OFFCURVE",
+"120 150 CURVE",
+"118 130 OFFCURVE",
+"101 114 OFFCURVE",
+"80 114 CURVE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 240;
 }
 );

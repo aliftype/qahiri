@@ -7,27 +7,27 @@ paths = (
 {
 closed = 1;
 nodes = (
+"214 230 LINE",
+"137 230 LINE",
 "93 135 LINE",
 "121 135 LINE",
 "77 230 LINE",
 "0 230 LINE",
 "64 92 LINE",
-"148 89 LINE",
-"214 230 LINE",
-"137 230 LINE"
+"148 89 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"214 0 LINE",
-"148 141 LINE",
-"63 135 LINE",
-"0 0 LINE",
 "77 0 LINE",
 "121 95 LINE",
 "93 95 LINE",
-"137 0 LINE"
+"137 0 LINE",
+"214 0 LINE",
+"148 141 LINE",
+"63 135 LINE",
+"0 0 LINE"
 );
 }
 );

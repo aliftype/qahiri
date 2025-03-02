@@ -2,14 +2,31 @@
 glyphname = k.1;
 layers = (
 {
-components = (
-{
-alignment = -1;
-name = h.1;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
+{
+closed = 1;
+nodes = (
+"80 0 LINE",
+"80 90 LINE SMOOTH",
+"80 101 OFFCURVE",
+"89 110 OFFCURVE",
+"100 110 CURVE SMOOTH",
+"111 110 OFFCURVE",
+"120 101 OFFCURVE",
+"120 90 CURVE SMOOTH",
+"120 0 LINE",
+"200 0 LINE",
+"200 90 LINE SMOOTH",
+"200 140 OFFCURVE",
+"155 180 OFFCURVE",
+"100 180 CURVE SMOOTH",
+"80 180 LINE",
+"80 560 LINE",
+"0 540 LINE",
+"0 0 LINE"
+);
+},
 {
 closed = 1;
 nodes = (
@@ -28,8 +45,7 @@ nodes = (
 "140 197 OFFCURVE",
 "128 180 OFFCURVE",
 "107 180 CURVE SMOOTH",
-"21 180 LINE",
-"21 110 LINE",
+"71 180 LINE",
 "140 110 LINE"
 );
 }

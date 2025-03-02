@@ -11,26 +11,12 @@ nodes = (
 "205 90 LINE",
 "194 75 OFFCURVE",
 "177 70 OFFCURVE",
-"157 70 CURVE",
-"80 70 LINE",
-"15 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"190 160 LINE",
-"265 230 LINE",
-"44 230 LINE",
-"22 160 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"22 0 LINE",
+"157 70 CURVE SMOOTH",
+"98 70 LINE",
 "271 230 LINE",
-"252 230 LINE",
+"44 230 LINE",
+"22 160 LINE",
+"175 160 LINE",
 "0 0 LINE"
 );
 }

@@ -2,16 +2,6 @@
 glyphname = "five-ar";
 layers = (
 {
-components = (
-{
-name = "two-ar.1";
-},
-{
-alignment = -1;
-name = "two-ar.1";
-transform = "{-1, 0, 0, -1, 210, 350}";
-}
-);
 guideLines = (
 {
 position = "{0, 70}";
@@ -42,6 +32,26 @@ position = "{210, 450}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"210 0 LINE",
+"210 350 LINE",
+"0 350 LINE",
+"0 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"70 280 LINE",
+"140 280 LINE",
+"140 70 LINE",
+"70 70 LINE"
+);
+}
+);
 width = 250;
 }
 );

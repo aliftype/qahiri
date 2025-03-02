@@ -2,24 +2,62 @@
 glyphname = "waw-ar.fina";
 layers = (
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = "waw-ar";
-transform = "{1, 0, 0, 1, -50, -110}";
-},
-{
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 200, 0}";
-},
-{
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 150, 0}";
+name = top;
+position = "{129, 230}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"206 -110 LINE SMOOTH",
+"235 -110 OFFCURVE",
+"243 -61 OFFCURVE",
+"243 0 CURVE",
+"280 0 LINE",
+"280 70 LINE",
+"236 70 LINE",
+"224 128 OFFCURVE",
+"195 180 OFFCURVE",
+"131 180 CURVE SMOOTH",
+"75 180 OFFCURVE",
+"30 140 OFFCURVE",
+"30 90 CURVE SMOOTH",
+"30 40 OFFCURVE",
+"75 0 OFFCURVE",
+"130 0 CURVE SMOOTH",
+"161 0 LINE",
+"163 -12 OFFCURVE",
+"163 -27 OFFCURVE",
+"160 -40 CURVE",
+"50 -40 LINE SMOOTH",
+"28 -40 OFFCURVE",
+"12 -33 OFFCURVE",
+"2 -20 CURVE",
+"-50 -110 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"119 70 OFFCURVE",
+"110 79 OFFCURVE",
+"110 90 CURVE SMOOTH",
+"110 101 OFFCURVE",
+"119 110 OFFCURVE",
+"130 110 CURVE SMOOTH",
+"141 110 OFFCURVE",
+"150 101 OFFCURVE",
+"150 90 CURVE SMOOTH",
+"150 79 OFFCURVE",
+"141 70 OFFCURVE",
+"130 70 CURVE SMOOTH"
+);
+}
+);
 width = 280;
 }
 );

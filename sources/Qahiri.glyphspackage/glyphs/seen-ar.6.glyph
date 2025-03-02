@@ -4,25 +4,45 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+position = "{213, -35}";
+},
+{
 name = top;
 position = "{180, 202}";
 }
 );
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-name = "noonghunna-ar.fina";
-},
-{
-alignment = -1;
-name = "behDotless-ar.medi.1";
-transform = "{1, 0, 0, 1, 140, 0}";
-},
-{
-name = _behShort;
-transform = "{1, 0, 0, 1, 232, 0}";
+closed = 1;
+nodes = (
+"112 -250 LINE SMOOTH",
+"135 -250 OFFCURVE",
+"150 -235 OFFCURVE",
+"150 -210 CURVE SMOOTH",
+"150 0 LINE",
+"309 0 LINE SMOOTH",
+"315 0 OFFCURVE",
+"330 0 OFFCURVE",
+"330 11 CURVE SMOOTH",
+"330 177 LINE",
+"250 157 LINE",
+"250 70 LINE",
+"180 140 LINE",
+"140 70 LINE",
+"70 140 LINE",
+"30 70 LINE",
+"70 30 LINE",
+"70 -180 LINE",
+"-30 -180 LINE SMOOTH",
+"-50 -180 OFFCURVE",
+"-67 -175 OFFCURVE",
+"-78 -160 CURVE",
+"-130 -250 LINE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 370;
 }
 );

@@ -12,23 +12,52 @@ name = exit;
 position = "{0, 0}";
 }
 );
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-alignment = -1;
-name = "meem-ar.init";
+closed = 1;
+nodes = (
+"165 0 OFFCURVE",
+"200 30 OFFCURVE",
+"200 90 CURVE SMOOTH",
+"200 140 OFFCURVE",
+"155 180 OFFCURVE",
+"100 180 CURVE SMOOTH",
+"45 180 OFFCURVE",
+"0 140 OFFCURVE",
+"0 90 CURVE SMOOTH",
+"0 30 OFFCURVE",
+"45 0 OFFCURVE",
+"100 0 CURVE SMOOTH"
+);
 },
 {
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 160, 0}";
+closed = 1;
+nodes = (
+"240 0 LINE",
+"240 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
 },
 {
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 90, 0}";
+closed = 1;
+nodes = (
+"89 70 OFFCURVE",
+"80 79 OFFCURVE",
+"80 90 CURVE SMOOTH",
+"80 101 OFFCURVE",
+"89 110 OFFCURVE",
+"100 110 CURVE SMOOTH",
+"111 110 OFFCURVE",
+"120 101 OFFCURVE",
+"120 90 CURVE SMOOTH",
+"120 79 OFFCURVE",
+"111 70 OFFCURVE",
+"100 70 CURVE SMOOTH"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 240;
 }
 );

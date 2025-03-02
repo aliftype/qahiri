@@ -9,26 +9,12 @@ closed = 1;
 nodes = (
 "110 -100 LINE",
 "110 560 LINE",
-"70 560 LINE",
-"70 -100 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"90 -100 LINE",
-"90 -60 LINE",
+"0 560 LINE",
+"0 520 LINE",
+"70 520 LINE",
+"70 -60 LINE",
 "0 -60 LINE",
 "0 -100 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"90 520 LINE",
-"90 560 LINE",
-"0 560 LINE",
-"0 520 LINE"
 );
 }
 );

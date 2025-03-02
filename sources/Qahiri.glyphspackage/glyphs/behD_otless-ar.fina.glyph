@@ -6,19 +6,33 @@ anchors = (
 {
 name = bottom;
 position = "{280, -35}";
-}
-);
-components = (
-{
-alignment = -1;
-name = _elbow;
-transform = "{1, 0, 0, 1, 520, 0}";
 },
 {
-name = "behDotless-ar";
+name = top;
+position = "{280, 200}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"600 0 LINE",
+"600 70 LINE",
+"578 70 OFFCURVE",
+"560 88 OFFCURVE",
+"560 110 CURVE SMOOTH",
+"560 230 LINE",
+"480 210 LINE",
+"480 70 LINE",
+"100 70 LINE SMOOTH",
+"78 70 OFFCURVE",
+"62 77 OFFCURVE",
+"52 90 CURVE",
+"0 0 LINE"
+);
+}
+);
 width = 600;
 }
 );

@@ -33,7 +33,7 @@ nodes = (
 width = 400;
 }
 );
-widthMetricsKey = "=reh-ar.2";
+widthMetricsKey = "=reh-ar";
 rightKerningGroup = dal;
-rightMetricsKey = "=reh-ar.2";
+rightMetricsKey = "=reh-ar";
 }

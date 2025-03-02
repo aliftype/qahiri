@@ -8,20 +8,23 @@ name = exit;
 position = "{0, 0}";
 }
 );
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-alignment = -1;
-name = _alef;
-},
-{
-name = _elbow.3;
-},
-{
-name = _vextender;
-transform = "{1, 0, 0, 1, 0, 90}";
+closed = 1;
+nodes = (
+"42 0 LINE SMOOTH",
+"65 0 OFFCURVE",
+"80 15 OFFCURVE",
+"80 40 CURVE SMOOTH",
+"80 560 LINE",
+"0 540 LINE",
+"0 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 120;
 }
 );

@@ -7,37 +7,42 @@ paths = (
 {
 closed = 1;
 nodes = (
-"40 450 LINE",
-"290 450 LINE",
 "290 0 LINE",
+"290 450 LINE",
+"40 450 LINE",
 "40 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"80 410 LINE",
-"80 40 LINE",
-"250 40 LINE",
-"250 410 LINE"
+"164 172 LINE",
+"221 40 LINE",
+"106 40 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"232 430 LINE",
-"266 407.973 LINE",
-"98 21 LINE",
-"61.014 37.027 LINE"
+"80 364 LINE",
+"142 222 LINE",
+"80 81 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"95.014 430 LINE",
-"266 37.027 LINE",
-"229.014 21 LINE",
-"61.014 407.973 LINE"
+"185 222 LINE",
+"250 371 LINE",
+"250 74 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"104 410 LINE",
+"223 410 LINE",
+"164 273 LINE"
 );
 }
 );

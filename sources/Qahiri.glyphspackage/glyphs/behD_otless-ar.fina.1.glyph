@@ -12,16 +12,30 @@ name = top;
 position = "{280, 200}";
 }
 );
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-alignment = -1;
-name = _tail;
+closed = 1;
+nodes = (
+"600 0 LINE",
+"600 70 LINE",
+"100 70 LINE SMOOTH",
+"78 70 OFFCURVE",
+"62 77 OFFCURVE",
+"52 90 CURVE",
+"0 0 LINE"
+);
 },
 {
-name = _behBody.1;
+closed = 1;
+nodes = (
+"502 210 LINE",
+"434 164 LINE",
+"481 34 LINE",
+"577 4 LINE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 600;
 }
 );

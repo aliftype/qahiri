@@ -2,18 +2,57 @@
 glyphname = "lam_alef-ar.fina.3";
 layers = (
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = "lam_alef-ar.3";
+name = bottom_1;
+position = "{220, -20}";
 },
 {
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 240, 0}";
+name = bottom_2;
+position = "{64, -20}";
+},
+{
+name = caret_1;
+position = "{140, 0}";
+},
+{
+name = exit;
+position = "{240, 0}";
+},
+{
+name = top_1;
+position = "{201, 570}";
+},
+{
+name = top_2;
+position = "{80, 540}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"320 0 LINE",
+"320 70 LINE",
+"191 70 LINE",
+"249 41 LINE",
+"120 210 LINE",
+"120 530 LINE",
+"40 510 LINE",
+"40 210 LINE",
+"180 70 LINE",
+"163 57 OFFCURVE",
+"117 57 OFFCURVE",
+"100 70 CURVE",
+"240 210 LINE",
+"240 560 LINE",
+"160 540 LINE",
+"160 210 LINE",
+"0 0 LINE"
+);
+}
+);
 width = 320;
 }
 );

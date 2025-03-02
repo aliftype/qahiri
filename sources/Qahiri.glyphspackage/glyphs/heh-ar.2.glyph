@@ -8,17 +8,44 @@ name = top;
 position = "{50, 318}";
 }
 );
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-name = "heh-ar";
+closed = 1;
+nodes = (
+"165 0 OFFCURVE",
+"200 30 OFFCURVE",
+"200 90 CURVE SMOOTH",
+"200 560 LINE",
+"120 540 LINE",
+"120 180 LINE",
+"100 180 LINE SMOOTH",
+"45 180 OFFCURVE",
+"0 140 OFFCURVE",
+"0 90 CURVE SMOOTH",
+"0 30 OFFCURVE",
+"45 0 OFFCURVE",
+"100 0 CURVE SMOOTH"
+);
 },
 {
-alignment = -1;
-name = _alef;
-transform = "{1, 0, 0, 1, 120, 0}";
+closed = 1;
+nodes = (
+"89 70 OFFCURVE",
+"80 79 OFFCURVE",
+"80 90 CURVE SMOOTH",
+"80 101 OFFCURVE",
+"89 110 OFFCURVE",
+"100 110 CURVE SMOOTH",
+"111 110 OFFCURVE",
+"120 101 OFFCURVE",
+"120 90 CURVE SMOOTH",
+"120 79 OFFCURVE",
+"111 70 OFFCURVE",
+"100 70 CURVE SMOOTH"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 240;
 }
 );

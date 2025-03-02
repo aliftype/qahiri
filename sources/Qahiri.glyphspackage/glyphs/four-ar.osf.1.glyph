@@ -2,11 +2,6 @@
 glyphname = "four-ar.osf.1";
 layers = (
 {
-components = (
-{
-name = "one-ar.osf";
-}
-);
 guideLines = (
 {
 position = "{0, 70}";
@@ -29,28 +24,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"60 140 LINE",
+"70 -110 LINE",
+"70 140 LINE",
 "310 140 LINE",
 "310 210 LINE",
-"60 210 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"120 190 LINE",
-"190 190 LINE",
-"190 350 LINE",
-"120 350 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"170 280 LINE",
+"190 210 LINE",
+"190 280 LINE",
 "310 280 LINE",
 "310 350 LINE",
-"170 350 LINE"
+"120 350 LINE",
+"120 210 LINE",
+"70 210 LINE",
+"70 350 LINE",
+"0 350 LINE",
+"0 -110 LINE"
 );
 }
 );

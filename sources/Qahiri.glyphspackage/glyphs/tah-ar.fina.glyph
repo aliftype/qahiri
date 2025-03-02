@@ -2,18 +2,43 @@
 glyphname = "tah-ar.fina";
 layers = (
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = "tah-ar";
-},
-{
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 670, 0}";
+name = top;
+position = "{377, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"750 0 LINE",
+"750 70 LINE",
+"707 70 LINE",
+"692 166 OFFCURVE",
+"634 180 OFFCURVE",
+"596 180 CURVE SMOOTH",
+"93 180 LINE",
+"93 110 LINE",
+"586 110 LINE SMOOTH",
+"608 110 OFFCURVE",
+"626 92 OFFCURVE",
+"626 70 CURVE",
+"41 70 LINE",
+"0 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"160 51 LINE",
+"160 560 LINE",
+"80 540 LINE",
+"80 51 LINE"
+);
+}
+);
 width = 750;
 }
 );

@@ -10,20 +10,46 @@ position = "{600, 0}";
 {
 name = exit;
 position = "{0, 0}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "kaf-ar.init.2";
 },
 {
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 520, 0}";
+name = top;
+position = "{280, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"600 0 LINE",
+"600 70 LINE",
+"557 70 LINE",
+"542 166 OFFCURVE",
+"484 180 OFFCURVE",
+"446 180 CURVE SMOOTH",
+"86 180 LINE",
+"127 254 OFFCURVE",
+"149 342 OFFCURVE",
+"149 443 CURVE SMOOTH",
+"149 480 OFFCURVE",
+"146 519 OFFCURVE",
+"140 560 CURVE",
+"60 480 LINE",
+"67 440 OFFCURVE",
+"71 398 OFFCURVE",
+"71 355 CURVE SMOOTH",
+"71 272 OFFCURVE",
+"56 187 OFFCURVE",
+"22 110 CURVE",
+"436 110 LINE SMOOTH",
+"458 110 OFFCURVE",
+"476 92 OFFCURVE",
+"476 70 CURVE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+}
+);
 width = 600;
 }
 );

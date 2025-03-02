@@ -12,16 +12,29 @@ name = top;
 position = "{173, 474}";
 }
 );
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-alignment = -1;
-name = _alef;
-},
-{
-name = _alefTail.2;
+closed = 1;
+nodes = (
+"107 0 OFFCURVE",
+"138 15 OFFCURVE",
+"160 50 CURVE",
+"151 46 OFFCURVE",
+"139 43 OFFCURVE",
+"127 43 CURVE SMOOTH",
+"103 43 OFFCURVE",
+"80 54 OFFCURVE",
+"80 80 CURVE SMOOTH",
+"80 560 LINE",
+"0 540 LINE",
+"0 80 LINE SMOOTH",
+"0 31 OFFCURVE",
+"37 0 OFFCURVE",
+"77 0 CURVE SMOOTH"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 200;
 }
 );

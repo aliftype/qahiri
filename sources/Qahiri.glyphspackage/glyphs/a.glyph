@@ -2,20 +2,39 @@
 glyphname = a;
 layers = (
 {
-components = (
-{
-name = "heh-ar";
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
 closed = 1;
 nodes = (
 "200 0 LINE",
-"200 150 LINE",
-"120 150 LINE",
-"120 0 LINE"
+"200 220 LINE",
+"180 185 OFFCURVE",
+"140 180 OFFCURVE",
+"100 180 CURVE SMOOTH",
+"45 180 OFFCURVE",
+"0 140 OFFCURVE",
+"0 90 CURVE SMOOTH",
+"0 30 OFFCURVE",
+"45 0 OFFCURVE",
+"100 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"89 70 OFFCURVE",
+"80 79 OFFCURVE",
+"80 90 CURVE SMOOTH",
+"80 101 OFFCURVE",
+"89 110 OFFCURVE",
+"100 110 CURVE SMOOTH",
+"111 110 OFFCURVE",
+"120 100 OFFCURVE",
+"120 90 CURVE SMOOTH",
+"120 80 OFFCURVE",
+"111 70 OFFCURVE",
+"100 70 CURVE SMOOTH"
 );
 }
 );

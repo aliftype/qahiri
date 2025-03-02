@@ -7,12 +7,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"80 150 LINE",
-"0 150 LINE",
-"0 80 LINE",
-"0 30 OFFCURVE",
-"37 0 OFFCURVE",
-"77 0 CURVE SMOOTH",
 "107 0 OFFCURVE",
 "138 16 OFFCURVE",
 "160 50 CURVE",
@@ -21,16 +15,13 @@ nodes = (
 "127 43 CURVE SMOOTH",
 "103 43 OFFCURVE",
 "80 54 OFFCURVE",
-"80 80 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
+"80 80 CURVE SMOOTH",
 "80 260 LINE",
 "0 240 LINE",
-"0 130 LINE",
-"80 130 LINE"
+"0 80 LINE SMOOTH",
+"0 30 OFFCURVE",
+"37 0 OFFCURVE",
+"77 0 CURVE SMOOTH"
 );
 },
 {

@@ -2,22 +2,31 @@
 glyphname = nine;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-name = "nine-ar";
+closed = 1;
+nodes = (
+"210 0 LINE",
+"210 350 LINE",
+"0 350 LINE",
+"0 140 LINE",
+"140 140 LINE",
+"140 70 LINE",
+"0 70 LINE",
+"0 0 LINE"
+);
 },
 {
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 20, 0}";
-},
-{
-alignment = -1;
-name = "kashida-ar";
-transform = "{1, 0, 0, 1, 90, 0}";
+closed = 1;
+nodes = (
+"70 280 LINE",
+"140 280 LINE",
+"140 210 LINE",
+"70 210 LINE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 250;
 }
 );

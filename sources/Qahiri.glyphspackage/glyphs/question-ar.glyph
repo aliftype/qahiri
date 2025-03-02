@@ -45,23 +45,6 @@ nodes = (
 }
 );
 width = 270;
-},
-{
-associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-components = (
-{
-name = exclam;
-transform = "{1, 0, 0, 1, 104, 0}";
-},
-{
-name = _tail3;
-transform = "{0, -1, -1, 0, 176, 599}";
-}
-);
-layerId = "CB1C8960-F96D-41AC-A78E-557CC3F88674";
-name = "Dec 12 20, 17:00";
-visible = 1;
-width = 271;
 }
 );
 unicode = 061F;

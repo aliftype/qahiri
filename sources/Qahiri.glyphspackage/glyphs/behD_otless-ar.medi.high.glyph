@@ -4,25 +4,40 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+position = "{46, -35}";
+},
+{
 name = entry;
 position = "{120, 0}";
 },
 {
 name = exit;
 position = "{0, 0}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "behDotless-ar.medi";
 },
 {
-name = _vextender;
-transform = "{1, 0, 0, 1, 0, 200}";
+name = top;
+position = "{44, 300}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"120 0 LINE",
+"120 70 LINE",
+"98 70 OFFCURVE",
+"80 88 OFFCURVE",
+"80 110 CURVE SMOOTH",
+"80 270 LINE",
+"0 250 LINE",
+"0 70 LINE",
+"-20 70 LINE",
+"-20 0 LINE"
+);
+}
+);
 width = 120;
 }
 );

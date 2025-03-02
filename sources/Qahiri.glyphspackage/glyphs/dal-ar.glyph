@@ -2,16 +2,37 @@
 glyphname = "dal-ar";
 layers = (
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = _dal;
-},
-{
-name = _dalZuluf;
+name = top;
+position = "{280, 255}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
+{
+closed = 1;
+nodes = (
+"539 0 LINE SMOOTH",
+"545 0 OFFCURVE",
+"560 0 OFFCURVE",
+"560 21 CURVE SMOOTH",
+"560 160 OFFCURVE",
+"490 180 OFFCURVE",
+"446 180 CURVE SMOOTH",
+"120 180 LINE",
+"147 250 LINE",
+"144 250 LINE",
+"64 110 LINE",
+"436 110 LINE SMOOTH",
+"458 110 OFFCURVE",
+"476 92 OFFCURVE",
+"476 70 CURVE",
+"41 70 LINE",
+"0 0 LINE"
+);
+}
+);
 width = 600;
 }
 );

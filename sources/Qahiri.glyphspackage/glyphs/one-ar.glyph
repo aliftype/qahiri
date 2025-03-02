@@ -24,10 +24,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"0 0 LINE",
 "70 0 LINE",
 "70 350 LINE",
-"0 350 LINE"
+"0 350 LINE",
+"0 0 LINE"
 );
 }
 );

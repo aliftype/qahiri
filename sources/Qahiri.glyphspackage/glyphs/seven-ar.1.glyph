@@ -12,14 +12,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"167 75 LINE",
-"66 350 LINE",
-"0 327 LINE",
-"120 0 LINE",
 "186 0 LINE",
 "306 327 LINE",
 "240 350 LINE",
-"140 75 LINE"
+"140 75 LINE",
+"167 75 LINE",
+"66 350 LINE",
+"0 327 LINE",
+"120 0 LINE"
 );
 }
 );

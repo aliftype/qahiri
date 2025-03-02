@@ -2,17 +2,40 @@
 glyphname = y.1;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-alignment = -1;
-name = u.1;
-},
-{
-alignment = -1;
-name = _y;
+closed = 1;
+nodes = (
+"162 -250 LINE SMOOTH",
+"185 -250 OFFCURVE",
+"200 -235 OFFCURVE",
+"200 -210 CURVE SMOOTH",
+"200 180 LINE",
+"120 180 LINE",
+"120 90 LINE SMOOTH",
+"120 79 OFFCURVE",
+"111 70 OFFCURVE",
+"100 70 CURVE SMOOTH",
+"89 70 OFFCURVE",
+"80 79 OFFCURVE",
+"80 90 CURVE SMOOTH",
+"80 180 LINE",
+"0 180 LINE",
+"0 90 LINE SMOOTH",
+"0 40 OFFCURVE",
+"45 0 OFFCURVE",
+"100 0 CURVE SMOOTH",
+"120 0 LINE",
+"120 -180 LINE",
+"50 -180 LINE SMOOTH",
+"30 -180 OFFCURVE",
+"13 -175 OFFCURVE",
+"2 -160 CURVE",
+"-50 -250 LINE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 240;
 }
 );

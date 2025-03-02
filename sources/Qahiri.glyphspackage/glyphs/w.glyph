@@ -2,17 +2,27 @@
 glyphname = w;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+paths = (
 {
-name = v;
-},
-{
-alignment = -1;
-name = v;
-transform = "{1, 0, 0, 1, 137, 0}";
+closed = 1;
+nodes = (
+"156 147 LINE",
+"224 0 LINE",
+"331 230 LINE",
+"254 230 LINE",
+"209 132 LINE",
+"239 132 LINE",
+"194 230 LINE",
+"117 230 LINE",
+"72 132 LINE",
+"102 132 LINE",
+"57 230 LINE",
+"-20 230 LINE",
+"87 0 LINE"
+);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 351;
 }
 );

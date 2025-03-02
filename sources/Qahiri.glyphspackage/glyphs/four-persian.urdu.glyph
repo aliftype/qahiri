@@ -2,29 +2,21 @@
 glyphname = "four-persian.urdu";
 layers = (
 {
-components = (
-{
-name = "one-ar";
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 paths = (
 {
 closed = 1;
 nodes = (
+"70 0 LINE",
+"70 280 LINE",
+"120 280 LINE",
+"120 189 LINE",
+"190 189 LINE",
+"190 280 LINE",
 "280 280 LINE",
 "280 350 LINE",
-"60 350 LINE",
-"60 280 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"190 189 LINE",
-"190 320 LINE",
-"120 320 LINE",
-"120 189 LINE"
+"0 350 LINE",
+"0 0 LINE"
 );
 }
 );
