@@ -1,0 +1,15 @@
+{
+glyphname = "two-ar.dnom";
+layers = (
+{
+components = (
+{
+name = "two-ar";
+transform = "{0.7, 0, 0, 0.7, 0, 0}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 175;
+}
+);
+}

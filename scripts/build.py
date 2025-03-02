@@ -506,18 +506,6 @@ def prepare(font, isTTF):
             continue
         glyphOrder.append(glyph.name)
 
-    numbers = {
-        "zero",
-        "one",
-        "two",
-        "three",
-        "four",
-        "five",
-        "six",
-        "seven",
-        "eight",
-        "nine",
-    }
     font.glyphOrder = [".notdef"]
     for name in glyphOrder:
         glyph = font.glyphs[name]
@@ -527,28 +515,6 @@ def prepare(font, isTTF):
             continue
 
         font.glyphOrder.append(name)
-        if "." in name or name.split("-")[0] not in numbers:
-            continue
-
-        for tag in ["numr", "dnom"]:
-            newGlyph = GSGlyph(f"{name}.{tag}")
-            font.glyphOrder.append(newGlyph.name)
-
-            font.glyphs.append(newGlyph)
-            for feature in font.features:
-                if feature.name == tag:
-                    feature.code += f"sub {name} by {newGlyph.name};\n"
-
-            newLayer = GSLayer()
-            newLayer.associatedMasterId = glyph.layers[0].associatedMasterId
-            newLayer.layerId = glyph.layers[0].layerId
-            newGlyph.layers[newLayer.associatedMasterId] = newLayer
-
-            scale = 0.7
-            offset = 0 if tag == "dnom" else 300
-            newComponent = GSComponent(name, (0, offset), (scale, scale))
-            newLayer.components.append(newComponent)
-            newLayer.width = ((glyph.layers[0].width - 40) * scale) + 40
 
     font.glyphOrder += end
 

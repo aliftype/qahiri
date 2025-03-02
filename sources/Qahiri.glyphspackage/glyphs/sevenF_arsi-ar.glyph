@@ -1,12 +1,10 @@
 {
-glyphname = "seven-persian.urdu";
+glyphname = "sevenFarsi-ar";
 layers = (
 {
 components = (
 {
-alignment = -1;
-name = "six-ar.1";
-transform = "{-1, 0, 0, -1, 210, 350}";
+name = "seven-ar";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
@@ -15,4 +13,5 @@ width = 250;
 );
 leftMetricsKey = "seven-ar";
 rightMetricsKey = "seven-ar";
+unicode = 06F7;
 }

@@ -1,0 +1,15 @@
+{
+glyphname = "nine-ar.numr";
+layers = (
+{
+components = (
+{
+name = "nine-ar";
+transform = "{0.7, 0, 0, 0.7, 0, 300}";
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 175;
+}
+);
+}
