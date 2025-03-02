@@ -16,12 +16,12 @@
 from fontTools.fontBuilder import FontBuilder
 from fontTools.misc.fixedTools import otRound
 from fontTools.misc.timeTools import epoch_diff
-from fontTools.misc.transform import Identity, Transform
+from fontTools.misc.transform import Identity
 from fontTools.pens.basePen import BasePen
 from fontTools.pens.boundsPen import BoundsPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import newTable
-from glyphsLib import GSAnchor, GSComponent, GSFont, GSGlyph, GSLayer
+from glyphsLib import GSFont, GSGlyph, GSLayer
 from glyphsLib.builder.tokens import TokenExpander
 from glyphsLib.builder.constants import CODEPAGE_RANGES
 from glyphsLib.glyphdata import get_glyph as getGlyphInfo
@@ -115,7 +115,6 @@ def makeMark(instance, source):
     fea = ""
     mark = ""
     curs = ""
-    liga = ""
 
     exit = {}
     entry = {}
