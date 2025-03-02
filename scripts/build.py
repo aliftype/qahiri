@@ -495,8 +495,9 @@ def build(instance, isTTF, version):
 
 
 def prepare(font, isTTF):
-    glyphOrder = []
     end = []
+
+    font.glyphOrder = [".notdef"]
     for glyph in font.glyphs:
         if glyph.color == 0:
             end.append(glyph.name)
@@ -504,17 +505,12 @@ def prepare(font, isTTF):
                 layer.components = []
                 layer.width = 600
             continue
-        glyphOrder.append(glyph.name)
-
-    font.glyphOrder = [".notdef"]
-    for name in glyphOrder:
-        glyph = font.glyphs[name]
         if not glyph.export and not isTTF:
             continue
-        if name == ".notdef":
+        if glyph.name == ".notdef":
             continue
 
-        font.glyphOrder.append(name)
+        font.glyphOrder.append(glyph.name)
 
     font.glyphOrder += end
 
