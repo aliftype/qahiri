@@ -105,6 +105,10 @@ value = (
 );
 },
 {
+name = "Propagate Anchors";
+value = 0;
+},
+{
 name = description;
 value = "Qahiri is a Kufic typeface based on the modernized and regularized old manuscript Kufic calligraphy style of the late master of Arabic calligraphy Mohammad Abdul Qadir.";
 },

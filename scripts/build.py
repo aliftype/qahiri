@@ -494,26 +494,6 @@ def build(instance, isTTF, version):
     return fb.font
 
 
-def propagateAnchors(layer):
-    for component in layer.components:
-        clayer = component.layer or component.component.layers[0]
-        propagateAnchors(clayer)
-        for anchor in clayer.anchors:
-            names = [a.name for a in layer.anchors]
-            name = anchor.name
-            if name.startswith("_") or name in names:
-                continue
-            if name in ("entry", "exit"):
-                continue
-            x, y = anchor.position.x, anchor.position.y
-            if component.transform != Identity:
-                t = Transform(*component.transform.value)
-                x, y = t.transformPoint((x, y))
-            new = GSAnchor(name)
-            new.position.x, new.position.y = (x, y)
-            layer.anchors[name] = new
-
-
 def prepare(font, isTTF):
     glyphOrder = []
     end = []
@@ -525,8 +505,6 @@ def prepare(font, isTTF):
                 layer.width = 600
             continue
         glyphOrder.append(glyph.name)
-        for layer in glyph.layers:
-            propagateAnchors(layer)
 
     numbers = {
         "zero",
