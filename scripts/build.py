@@ -495,7 +495,7 @@ def prepare(font, isTTF):
 
     font.glyphOrder = [".notdef"]
     for glyph in font.glyphs:
-        if glyph.color == 0:
+        if glyph.category in ("Placeholder", "Temporary"):
             end.append(glyph.name)
             for layer in glyph.layers:
                 layer.components = []
