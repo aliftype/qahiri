@@ -21,7 +21,7 @@ from fontTools.pens.basePen import BasePen
 from fontTools.pens.boundsPen import BoundsPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import newTable
-from glyphsLib import GSFont, GSGlyph, GSLayer
+from glyphsLib import GSFont
 from glyphsLib.builder.tokens import TokenExpander
 from glyphsLib.builder.constants import CODEPAGE_RANGES
 from glyphsLib.glyphdata import get_glyph as getGlyphInfo
@@ -193,27 +193,6 @@ def makeFeatures(instance, source):
     for gclass in font.classes:
         if gclass.disabled:
             continue
-
-        if gclass.automatic and "Temp" in gclass.name:
-            other, ext1, ext2 = gclass.name.partition("Temp")
-            other = font.classes[other]
-
-            gclass.code = ""
-            for name in other.code.split():
-                newName = f"{name}.{ext1}{ext2}"
-                if newName not in font.glyphs:
-                    newGlyph = GSGlyph(newName)
-                    newGlyph.category = "Other"
-                    font.glyphOrder.append(newGlyph.name)
-                    font.glyphs.append(newGlyph)
-
-                    glyph = font.glyphs[name]
-                    newLayer = GSLayer()
-                    newLayer.associatedMasterId = glyph.layers[0].associatedMasterId
-                    newLayer.layerId = glyph.layers[0].layerId
-                    newGlyph.layers[newLayer.associatedMasterId] = newLayer
-                gclass.code += " " + newName
-
         fea += f"@{gclass.name} = [{gclass.code}];\n"
 
     for prefix in font.featurePrefixes:

@@ -1,0 +1,12 @@
+{
+category = Temporary;
+color = 0;
+glyphname = "seen-ar.medi.Temp";
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 600;
+}
+);
+subCategory = "1";
+}

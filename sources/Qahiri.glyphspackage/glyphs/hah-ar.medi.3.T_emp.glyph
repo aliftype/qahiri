@@ -1,0 +1,14 @@
+{
+category = Temporary;
+color = 0;
+glyphname = "hah-ar.medi.3.Temp";
+layers = (
+{
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+width = 600;
+}
+);
+sortName = ar0342.3.Temp;
+sortNameKeep = ar0342.Temp;
+subCategory = "1";
+}
