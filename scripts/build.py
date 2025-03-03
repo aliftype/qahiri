@@ -498,7 +498,6 @@ def prepare(font, isTTF):
         if glyph.category in ("Placeholder", "Temporary"):
             end.append(glyph.name)
             for layer in glyph.layers:
-                layer.components = []
                 layer.width = 600
             continue
         if not glyph.export and not isTTF:
