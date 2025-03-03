@@ -387,6 +387,8 @@ sub eight-ar by eight-ar.numr;
 sub nine-ar by nine-ar.numr;
 sub fourFarsi-ar by fourFarsi-ar.numr;
 sub sevenFarsi-ar by sevenFarsi-ar.numr;
+sub fourFarsi-ar.urdu by fourFarsi-ar.urdu.numr;
+sub sevenFarsi-ar.urdu by sevenFarsi-ar.urdu.numr;
 sub zero by zero.numr;
 sub two by two.numr;
 sub three by three.numr;
@@ -412,6 +414,8 @@ sub eight-ar by eight-ar.dnom;
 sub nine-ar by nine-ar.dnom;
 sub fourFarsi-ar by fourFarsi-ar.dnom;
 sub sevenFarsi-ar by sevenFarsi-ar.dnom;
+sub fourFarsi-ar.urdu by fourFarsi-ar.urdu.dnom;
+sub sevenFarsi-ar.urdu by sevenFarsi-ar.urdu.dnom;
 sub zero by zero.dnom;
 sub two by two.dnom;
 sub three by three.dnom;
@@ -966,9 +970,6 @@ key = vendorID;
 value = ALIF;
 }
 );
-settings = {
-keepAlternatesTogether = 1;
-};
 stems = (
 {
 horizontal = 1;

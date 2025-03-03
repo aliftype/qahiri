@@ -16,4 +16,6 @@ width = 250;
 );
 metricLeft = "seven-ar";
 metricRight = "seven-ar";
+sortName = ar3179;
+sortNameKeep = ar3177.urdu;
 }
