@@ -3,31 +3,31 @@ glyphname = s;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"157 0 OFFCURVE",
-"191 24 OFFCURVE",
-"198 71 CURVE",
-"52 110 LINE",
-"196 110 LINE",
-"186 150 OFFCURVE",
-"146 180 OFFCURVE",
-"99 180 CURVE SMOOTH",
-"51 180 OFFCURVE",
-"11 150 OFFCURVE",
-"1 109 CURVE",
-"142 71 LINE",
-"0 71 LINE",
-"9 23 OFFCURVE",
-"50 0 OFFCURVE",
-"99 0 CURVE SMOOTH"
+(157,0,o),
+(191,24,o),
+(198,71,c),
+(52,110,l),
+(196,110,l),
+(186,150,o),
+(146,180,o),
+(99,180,cs),
+(51,180,o),
+(11,150,o),
+(1,109,c),
+(142,71,l),
+(0,71,l),
+(9,23,o),
+(50,0,o),
+(99,0,cs)
 );
 }
 );
 width = 238;
 }
 );
-unicode = "0073,0053";
+unicode = (115,83);
 }

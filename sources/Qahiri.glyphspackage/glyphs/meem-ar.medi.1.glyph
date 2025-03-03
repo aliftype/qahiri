@@ -1,74 +1,73 @@
 {
 glyphname = "meem-ar.medi.1";
+kernRight = waw;
 layers = (
 {
 anchors = (
 {
 name = entry;
-position = "{240, 0}";
+pos = (240,0);
 },
 {
 name = exit;
-position = "{0, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"165 -40 OFFCURVE",
-"200 -10 OFFCURVE",
-"200 50 CURVE SMOOTH",
-"200 100 OFFCURVE",
-"155 140 OFFCURVE",
-"100 140 CURVE SMOOTH",
-"45 140 OFFCURVE",
-"0 100 OFFCURVE",
-"0 50 CURVE SMOOTH",
-"0 -10 OFFCURVE",
-"35 -40 OFFCURVE",
-"100 -40 CURVE SMOOTH"
+(165,-40,o),
+(200,-10,o),
+(200,50,cs),
+(200,100,o),
+(155,140,o),
+(100,140,cs),
+(45,140,o),
+(0,100,o),
+(0,50,cs),
+(0,-10,o),
+(35,-40,o),
+(100,-40,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-"50 0 LINE",
-"50 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
+(50,0,l),
+(50,70,l),
+(-20,70,l),
+(-20,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"89 30 OFFCURVE",
-"80 39 OFFCURVE",
-"80 50 CURVE SMOOTH",
-"80 61 OFFCURVE",
-"89 70 OFFCURVE",
-"100 70 CURVE SMOOTH",
-"111 70 OFFCURVE",
-"120 61 OFFCURVE",
-"120 50 CURVE SMOOTH",
-"120 39 OFFCURVE",
-"111 30 OFFCURVE",
-"100 30 CURVE SMOOTH"
+(89,30,o),
+(80,39,o),
+(80,50,cs),
+(80,61,o),
+(89,70,o),
+(100,70,cs),
+(111,70,o),
+(120,61,o),
+(120,50,cs),
+(120,39,o),
+(111,30,o),
+(100,30,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-"240 0 LINE",
-"240 70 LINE",
-"140 70 LINE",
-"140 0 LINE"
+(240,0,l),
+(240,70,l),
+(140,70,l),
+(140,0,l)
 );
 }
 );
 width = 240;
 }
 );
-leftKerningGroup = waw;
 }

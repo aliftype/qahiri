@@ -2,20 +2,20 @@
 glyphname = colon;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = period;
+ref = period;
 },
 {
-name = period;
-transform = "{1, 0, 0, 1, 0, 180}";
+pos = (0,180);
+ref = period;
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 120;
 }
 );
-widthMetricsKey = "=period";
-rightMetricsKey = "=period";
-unicode = 003A;
+metricRight = "=period";
+metricWidth = "=period";
+unicode = 58;
 }

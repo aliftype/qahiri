@@ -5,22 +5,22 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{29, 0}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 12, 0}";
-},
-{
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 0, 57}";
+pos = (29,0);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+alignment = -1;
+pos = (12,0);
+ref = "dotabove-ar";
+},
+{
+alignment = -1;
+pos = (0,57);
+ref = "dotabove-ar";
+}
+);
 width = 76;
 }
 );

@@ -5,66 +5,65 @@ layers = (
 anchors = (
 {
 name = exit;
-position = "{0, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"179 0 LINE SMOOTH",
-"185 0 OFFCURVE",
-"200 0 OFFCURVE",
-"200 11 CURVE SMOOTH",
-"200 20 LINE",
-"200 255 LINE",
-"180 220 OFFCURVE",
-"160 220 OFFCURVE",
-"120 220 CURVE",
-"120 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
+(179,0,ls),
+(185,0,o),
+(200,0,o),
+(200,11,cs),
+(200,20,l),
+(200,255,l),
+(180,220,o),
+(160,220,o),
+(120,220,c),
+(120,70,l),
+(-20,70,l),
+(-20,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"167 50 LINE",
-"186 65 OFFCURVE",
-"190 97 OFFCURVE",
-"190 125 CURVE SMOOTH",
-"190 173 OFFCURVE",
-"161 220 OFFCURVE",
-"120 220 CURVE SMOOTH",
-"55 220 OFFCURVE",
-"-2 188 OFFCURVE",
-"-2 116 CURVE SMOOTH",
-"-2 83 OFFCURVE",
-"10 59 OFFCURVE",
-"24 50 CURVE"
+(167,50,l),
+(186,65,o),
+(190,97,o),
+(190,125,cs),
+(190,173,o),
+(161,220,o),
+(120,220,cs),
+(55,220,o),
+(-2,188,o),
+(-2,116,cs),
+(-2,83,o),
+(10,59,o),
+(24,50,c)
 );
 },
 {
 closed = 1;
 nodes = (
-"99 70 OFFCURVE",
-"82 86 OFFCURVE",
-"80 106 CURVE",
-"101 106 OFFCURVE",
-"118 90 OFFCURVE",
-"120 70 CURVE"
+(99,70,o),
+(82,86,o),
+(80,106,c),
+(101,106,o),
+(118,90,o),
+(120,70,c)
 );
 },
 {
 closed = 1;
 nodes = (
-"82 134 OFFCURVE",
-"99 150 OFFCURVE",
-"120 150 CURVE",
-"118 130 OFFCURVE",
-"101 114 OFFCURVE",
-"80 114 CURVE"
+(82,134,o),
+(99,150,o),
+(120,150,c),
+(118,130,o),
+(101,114,o),
+(80,114,c)
 );
 }
 );

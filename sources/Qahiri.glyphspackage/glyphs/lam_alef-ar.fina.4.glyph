@@ -5,62 +5,62 @@ layers = (
 anchors = (
 {
 name = bottom_1;
-position = "{260, -20}";
+pos = (260,-20);
 },
 {
 name = bottom_2;
-position = "{104, -20}";
+pos = (104,-20);
 },
 {
 name = caret_1;
-position = "{180, 0}";
+pos = (180,0);
 },
 {
 name = top_1;
-position = "{241, 570}";
+pos = (241,570);
 },
 {
 name = top_2;
-position = "{120, 570}";
+pos = (120,570);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"400 0 LINE",
-"400 70 LINE",
-"240 70 LINE",
-"297 51 LINE",
-"230 110 OFFCURVE",
-"160 187 OFFCURVE",
-"160 235 CURVE SMOOTH",
-"160 560 LINE",
-"80 540 LINE",
-"80 235 LINE SMOOTH",
-"80 217 OFFCURVE",
-"96 194 OFFCURVE",
-"109 181 CURVE SMOOTH",
-"220 70 LINE",
-"193 70 OFFCURVE",
-"167 70 OFFCURVE",
-"140 70 CURVE",
-"251 181 LINE SMOOTH",
-"264 194 OFFCURVE",
-"280 212 OFFCURVE",
-"280 235 CURVE SMOOTH",
-"280 560 LINE",
-"200 540 LINE",
-"200 235 LINE SMOOTH",
-"200 172 OFFCURVE",
-"78 57 OFFCURVE",
-"0 0 CURVE"
+(400,0,l),
+(400,70,l),
+(240,70,l),
+(297,51,l),
+(230,110,o),
+(160,187,o),
+(160,235,cs),
+(160,560,l),
+(80,540,l),
+(80,235,ls),
+(80,217,o),
+(96,194,o),
+(109,181,cs),
+(220,70,l),
+(193,70,o),
+(167,70,o),
+(140,70,c),
+(251,181,ls),
+(264,194,o),
+(280,212,o),
+(280,235,cs),
+(280,560,l),
+(200,540,l),
+(200,235,ls),
+(200,172,o),
+(78,57,o),
+(0,0,c)
 );
 }
 );
 width = 400;
 }
 );
-widthMetricsKey = "=lam_alef-ar.4";
+metricWidth = "=lam_alef-ar.4";
 }

@@ -1,39 +1,39 @@
 {
 glyphname = "reh-ar.1";
+kernLeft = dal;
 layers = (
 {
 anchors = (
 {
 name = top;
-position = "{180, 290}";
+pos = (180,290);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"339 0 LINE SMOOTH",
-"345 0 OFFCURVE",
-"360 0 OFFCURVE",
-"360 21 CURVE SMOOTH",
-"360 160 OFFCURVE",
-"292 206 OFFCURVE",
-"124 215 CURVE",
-"64 110 LINE",
-"236 110 LINE SMOOTH",
-"258 110 OFFCURVE",
-"276 92 OFFCURVE",
-"276 70 CURVE",
-"40 70 LINE",
-"0 0 LINE"
+(339,0,ls),
+(345,0,o),
+(360,0,o),
+(360,21,cs),
+(360,160,o),
+(292,206,o),
+(124,215,c),
+(64,110,l),
+(236,110,ls),
+(258,110,o),
+(276,92,o),
+(276,70,c),
+(40,70,l),
+(0,0,l)
 );
 }
 );
 width = 400;
 }
 );
-widthMetricsKey = "=reh-ar";
-rightKerningGroup = dal;
-rightMetricsKey = "=reh-ar";
+metricRight = "=reh-ar";
+metricWidth = "=reh-ar";
 }

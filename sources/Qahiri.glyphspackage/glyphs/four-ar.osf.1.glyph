@@ -2,47 +2,47 @@
 glyphname = "four-ar.osf.1";
 layers = (
 {
-guideLines = (
+guides = (
 {
-position = "{0, 70}";
+pos = (0,70);
 },
 {
-position = "{0, 140}";
+pos = (0,140);
 },
 {
-position = "{0, 210}";
+pos = (0,210);
 },
 {
-position = "{0, 280}";
+pos = (0,280);
 },
 {
-position = "{0, 350}";
+pos = (0,350);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"70 -110 LINE",
-"70 140 LINE",
-"310 140 LINE",
-"310 210 LINE",
-"190 210 LINE",
-"190 280 LINE",
-"310 280 LINE",
-"310 350 LINE",
-"120 350 LINE",
-"120 210 LINE",
-"70 210 LINE",
-"70 350 LINE",
-"0 350 LINE",
-"0 -110 LINE"
+(70,-110,l),
+(70,140,l),
+(310,140,l),
+(310,210,l),
+(190,210,l),
+(190,280,l),
+(310,280,l),
+(310,350,l),
+(120,350,l),
+(120,210,l),
+(70,210,l),
+(70,350,l),
+(0,350,l),
+(0,-110,l)
 );
 }
 );
 width = 350;
 }
 );
-widthMetricsKey = "=three-ar";
+metricWidth = "=three-ar";
 }

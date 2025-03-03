@@ -2,18 +2,18 @@
 glyphname = guillemetright;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = guilsinglright;
+ref = guilsinglright;
 },
 {
-name = guilsinglright;
-transform = "{1, 0, 0, 1, 82, 0}";
+pos = (82,0);
+ref = guilsinglright;
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 204;
 }
 );
-unicode = 00BB;
+unicode = 187;
 }

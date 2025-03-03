@@ -3,46 +3,46 @@ glyphname = .notdef;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"290 0 LINE",
-"290 450 LINE",
-"40 450 LINE",
-"40 0 LINE"
+(290,0,l),
+(290,450,l),
+(40,450,l),
+(40,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"164 172 LINE",
-"221 40 LINE",
-"106 40 LINE"
+(164,172,l),
+(221,40,l),
+(106,40,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"80 364 LINE",
-"142 222 LINE",
-"80 81 LINE"
+(80,364,l),
+(142,222,l),
+(80,81,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"185 222 LINE",
-"250 371 LINE",
-"250 74 LINE"
+(185,222,l),
+(250,371,l),
+(250,74,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"104 410 LINE",
-"223 410 LINE",
-"164 273 LINE"
+(104,410,l),
+(223,410,l),
+(164,273,l)
 );
 }
 );

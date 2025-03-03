@@ -2,19 +2,19 @@
 glyphname = quotedblright;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = quoteright;
-transform = "{1, 0, 0, 1, 65, 0}";
+pos = (65,0);
+ref = quoteright;
 },
 {
-name = quoteright;
+ref = quoteright;
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 180;
 }
 );
-rightMetricsKey = "=quoteright";
-unicode = 201D;
+metricRight = "=quoteright";
+unicode = 8221;
 }

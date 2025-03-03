@@ -5,67 +5,67 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{432, -40}";
+pos = (432,-40);
 },
 {
 name = top;
-position = "{476, 163}";
+pos = (476,163);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"176 -110 LINE SMOOTH",
-"207 -110 OFFCURVE",
-"308 -63 OFFCURVE",
-"362 -40 CURVE",
-"159 -40 LINE SMOOTH",
-"127 -40 OFFCURVE",
-"103 -35 OFFCURVE",
-"82 -14 CURVE SMOOTH",
-"51 17 LINE SMOOTH",
-"34 34 OFFCURVE",
-"45 79 OFFCURVE",
-"57 67 CURVE SMOOTH",
-"109 15 LINE SMOOTH",
-"117 7 OFFCURVE",
-"128 0 OFFCURVE",
-"140 0 CURVE SMOOTH",
-"546 0 LINE",
-"587 70 LINE",
-"176 70 LINE SMOOTH",
-"167 70 OFFCURVE",
-"160 77 OFFCURVE",
-"158 79 CURVE SMOOTH",
-"94 143 LINE SMOOTH",
-"44 193 OFFCURVE",
-"0 44 OFFCURVE",
-"0 -5 CURVE SMOOTH",
-"0 -90 OFFCURVE",
-"56 -109 OFFCURVE",
-"131 -110 CURVE SMOOTH"
+(176,-110,ls),
+(207,-110,o),
+(308,-63,o),
+(362,-40,c),
+(159,-40,ls),
+(127,-40,o),
+(103,-35,o),
+(82,-14,cs),
+(51,17,ls),
+(34,34,o),
+(45,79,o),
+(57,67,cs),
+(109,15,ls),
+(117,7,o),
+(128,0,o),
+(140,0,cs),
+(546,0,l),
+(587,70,l),
+(176,70,ls),
+(167,70,o),
+(160,77,o),
+(158,79,cs),
+(94,143,ls),
+(44,193,o),
+(0,44,o),
+(0,-5,cs),
+(0,-90,o),
+(56,-109,o),
+(131,-110,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-"430 50 LINE",
-"430 70 LINE",
-"372 70 OFFCURVE",
-"311 135 OFFCURVE",
-"250 210 CURVE",
-"207 140 LINE",
-"226 112 OFFCURVE",
-"254 83 OFFCURVE",
-"269 70 CURVE",
-"269 50 LINE"
+(430,50,l),
+(430,70,l),
+(372,70,o),
+(311,135,o),
+(250,210,c),
+(207,140,l),
+(226,112,o),
+(254,83,o),
+(269,70,c),
+(269,50,l)
 );
 }
 );
 width = 627;
 }
 );
-rightMetricsKey = "=hah-ar.init";
+metricRight = "=hah-ar.init";
 }

@@ -5,23 +5,23 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{190, -35}";
+pos = (190,-35);
 },
 {
 name = entry;
-position = "{178, 110}";
+pos = (178,110);
 },
 {
 name = top;
-position = "{99, 233}";
-}
-);
-components = (
-{
-name = "hah-ar.3";
+pos = (99,233);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+ref = "hah-ar.3";
+}
+);
 width = 490;
 }
 );

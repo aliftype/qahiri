@@ -2,15 +2,16 @@
 glyphname = guillemetleft;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = guillemetright;
-transform = "{-1, 0, 0, -1, 164, 259}";
+angle = 180;
+pos = (164,259);
+ref = guillemetright;
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 204;
 }
 );
-unicode = 00AB;
+unicode = 171;
 }

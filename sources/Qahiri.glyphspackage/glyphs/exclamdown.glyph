@@ -2,17 +2,18 @@
 glyphname = exclamdown;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = exclam;
-transform = "{-1, 0, 0, -1, 104, 445}";
+angle = 180;
+pos = (104,445);
+ref = exclam;
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 144;
 }
 );
-widthMetricsKey = "=exclam";
-rightMetricsKey = "=exclam";
-unicode = 00A1;
+metricRight = "=exclam";
+metricWidth = "=exclam";
+unicode = 161;
 }

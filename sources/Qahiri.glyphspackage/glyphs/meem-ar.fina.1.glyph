@@ -1,57 +1,57 @@
 {
 glyphname = "meem-ar.fina.1";
+kernLeft = dal;
+kernRight = waw;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"140 0 LINE SMOOTH",
-"204 0 OFFCURVE",
-"240 30 OFFCURVE",
-"240 90 CURVE SMOOTH",
-"240 140 OFFCURVE",
-"195 180 OFFCURVE",
-"140 180 CURVE SMOOTH",
-"85 180 OFFCURVE",
-"40 140 OFFCURVE",
-"40 90 CURVE SMOOTH",
-"40 50 OFFCURVE",
-"35 20 OFFCURVE",
-"0 0 CURVE"
+(140,0,ls),
+(204,0,o),
+(240,30,o),
+(240,90,cs),
+(240,140,o),
+(195,180,o),
+(140,180,cs),
+(85,180,o),
+(40,140,o),
+(40,90,cs),
+(40,50,o),
+(35,20,o),
+(0,0,c)
 );
 },
 {
 closed = 1;
 nodes = (
-"129 70 OFFCURVE",
-"120 79 OFFCURVE",
-"120 90 CURVE SMOOTH",
-"120 101 OFFCURVE",
-"129 110 OFFCURVE",
-"140 110 CURVE SMOOTH",
-"151 110 OFFCURVE",
-"160 101 OFFCURVE",
-"160 90 CURVE SMOOTH",
-"160 79 OFFCURVE",
-"151 70 OFFCURVE",
-"140 70 CURVE SMOOTH"
+(129,70,o),
+(120,79,o),
+(120,90,cs),
+(120,101,o),
+(129,110,o),
+(140,110,cs),
+(151,110,o),
+(160,101,o),
+(160,90,cs),
+(160,79,o),
+(151,70,o),
+(140,70,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-"280 0 LINE",
-"280 70 LINE",
-"200 70 LINE",
-"140 0 LINE"
+(280,0,l),
+(280,70,l),
+(200,70,l),
+(140,0,l)
 );
 }
 );
 width = 280;
 }
 );
-leftKerningGroup = waw;
-rightKerningGroup = dal;
 }

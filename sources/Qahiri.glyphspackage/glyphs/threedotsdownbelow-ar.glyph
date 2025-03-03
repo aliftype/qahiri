@@ -5,17 +5,17 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{35, 89}";
-}
-);
-components = (
-{
-name = "threedotsupabove-ar";
+pos = (35,89);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+ref = "threedotsupabove-ar";
+}
+);
 width = 156;
 }
 );
-widthMetricsKey = "=threedotsupabove-ar";
+metricWidth = "=threedotsupabove-ar";
 }

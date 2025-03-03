@@ -1,40 +1,40 @@
 {
 glyphname = "behDotless-ar";
+kernLeft = dal;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{280, -35}";
+pos = (280,-35);
 },
 {
 name = top;
-position = "{280, 200}";
+pos = (280,200);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"539 0 LINE SMOOTH",
-"545 0 OFFCURVE",
-"560 0 OFFCURVE",
-"560 11 CURVE SMOOTH",
-"560 230 LINE",
-"480 210 LINE",
-"480 70 LINE",
-"100 70 LINE SMOOTH",
-"78 70 OFFCURVE",
-"62 77 OFFCURVE",
-"52 90 CURVE",
-"0 0 LINE"
+(539,0,ls),
+(545,0,o),
+(560,0,o),
+(560,11,cs),
+(560,230,l),
+(480,210,l),
+(480,70,l),
+(100,70,ls),
+(78,70,o),
+(62,77,o),
+(52,90,c),
+(0,0,l)
 );
 }
 );
 width = 600;
 }
 );
-rightKerningGroup = dal;
-unicode = 066E;
+unicode = 1646;
 }

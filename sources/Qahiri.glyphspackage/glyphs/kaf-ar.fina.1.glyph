@@ -1,50 +1,50 @@
 {
 glyphname = "kaf-ar.fina.1";
+kernLeft = dal;
+kernRight = waw;
 layers = (
 {
 anchors = (
 {
 name = top;
-position = "{320, 255}";
+pos = (320,255);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"640 0 LINE",
-"640 70 LINE",
-"597 70 LINE",
-"582 166 OFFCURVE",
-"524 180 OFFCURVE",
-"486 180 CURVE SMOOTH",
-"126 180 LINE",
-"167 254 OFFCURVE",
-"189 342 OFFCURVE",
-"189 443 CURVE SMOOTH",
-"189 480 OFFCURVE",
-"186 520 OFFCURVE",
-"180 560 CURVE",
-"100 480 LINE",
-"107 439 OFFCURVE",
-"111 398 OFFCURVE",
-"111 355 CURVE SMOOTH",
-"111 272 OFFCURVE",
-"96 187 OFFCURVE",
-"62 110 CURVE",
-"476 110 LINE SMOOTH",
-"498 110 OFFCURVE",
-"516 92 OFFCURVE",
-"516 70 CURVE",
-"41 70 LINE",
-"0 0 LINE"
+(640,0,l),
+(640,70,l),
+(597,70,l),
+(582,166,o),
+(524,180,o),
+(486,180,cs),
+(126,180,l),
+(167,254,o),
+(189,342,o),
+(189,443,cs),
+(189,480,o),
+(186,520,o),
+(180,560,c),
+(100,480,l),
+(107,439,o),
+(111,398,o),
+(111,355,cs),
+(111,272,o),
+(96,187,o),
+(62,110,c),
+(476,110,ls),
+(498,110,o),
+(516,92,o),
+(516,70,c),
+(41,70,l),
+(0,0,l)
 );
 }
 );
 width = 640;
 }
 );
-leftKerningGroup = waw;
-rightKerningGroup = dal;
 }

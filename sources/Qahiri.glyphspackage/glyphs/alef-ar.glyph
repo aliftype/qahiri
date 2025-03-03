@@ -5,38 +5,38 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{70, -20}";
+pos = (70,-20);
 },
 {
 name = top;
-position = "{173, 474}";
+pos = (173,474);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"218 0 OFFCURVE",
-"281 24 OFFCURVE",
-"320 70 CURVE",
-"292 58 OFFCURVE",
-"248 48 OFFCURVE",
-"205 48 CURVE SMOOTH",
-"141 48 OFFCURVE",
-"80 70 OFFCURVE",
-"80 140 CURVE SMOOTH",
-"80 560 LINE",
-"0 540 LINE",
-"0 140 LINE SMOOTH",
-"0 45 OFFCURVE",
-"76 0 OFFCURVE",
-"158 0 CURVE SMOOTH"
+(218,0,o),
+(281,24,o),
+(320,70,c),
+(292,58,o),
+(248,48,o),
+(205,48,cs),
+(141,48,o),
+(80,70,o),
+(80,140,cs),
+(80,560,l),
+(0,540,l),
+(0,140,ls),
+(0,45,o),
+(76,0,o),
+(158,0,cs)
 );
 }
 );
 width = 360;
 }
 );
-unicode = 0627;
+unicode = 1575;
 }

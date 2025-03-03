@@ -5,36 +5,35 @@ layers = (
 anchors = (
 {
 name = exit;
-position = "{0, 0}";
 },
 {
 name = top;
-position = "{49, 230}";
+pos = (49,230);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"249 0 LINE",
-"290 70 LINE",
-"151 70 LINE SMOOTH",
-"119 70 OFFCURVE",
-"66 117 OFFCURVE",
-"66 148 CURVE SMOOTH",
-"66 177 OFFCURVE",
-"131 215 OFFCURVE",
-"151 227 CURVE",
-"150 230 LINE",
-"97 204 OFFCURVE",
-"4 157 OFFCURVE",
-"4 109 CURVE SMOOTH",
-"4 96 OFFCURVE",
-"10 83 OFFCURVE",
-"26 70 CURVE",
-"-20 70 LINE",
-"-20 0 LINE"
+(249,0,l),
+(290,70,l),
+(151,70,ls),
+(119,70,o),
+(66,117,o),
+(66,148,cs),
+(66,177,o),
+(131,215,o),
+(151,227,c),
+(150,230,l),
+(97,204,o),
+(4,157,o),
+(4,109,cs),
+(4,96,o),
+(10,83,o),
+(26,70,c),
+(-20,70,l),
+(-20,0,l)
 );
 }
 );
@@ -44,34 +43,34 @@ width = 330;
 anchors = (
 {
 name = top;
-position = "{135, 305}";
+pos = (135,305);
 }
 );
 associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 layerId = "CF9F8CC6-D0D9-41C9-A8B8-9A53E322F711";
 name = "Mar 9 20, 16:04";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"249 0 LINE",
-"290 70 LINE",
-"130 70 LINE SMOOTH",
-"83 103 OFFCURVE",
-"66 128 OFFCURVE",
-"66 148 CURVE SMOOTH",
-"66 187 OFFCURVE",
-"131 218 OFFCURVE",
-"151 227 CURVE",
-"150 230 LINE",
-"97 204 OFFCURVE",
-"4 157 OFFCURVE",
-"4 109 CURVE SMOOTH",
-"4 96 OFFCURVE",
-"10 83 OFFCURVE",
-"26 70 CURVE",
-"-20 70 LINE",
-"-20 0 LINE"
+(249,0,l),
+(290,70,l),
+(130,70,ls),
+(83,103,o),
+(66,128,o),
+(66,148,cs),
+(66,187,o),
+(131,218,o),
+(151,227,c),
+(150,230,l),
+(97,204,o),
+(4,157,o),
+(4,109,cs),
+(4,96,o),
+(10,83,o),
+(26,70,c),
+(-20,70,l),
+(-20,0,l)
 );
 }
 );

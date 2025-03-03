@@ -3,17 +3,17 @@ glyphname = guilsinglright;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"97 46 OFFCURVE",
-"110 172 OFFCURVE",
-"28 259 CURVE",
-"0 203 LINE",
-"63 144 OFFCURVE",
-"57 54 OFFCURVE",
-"0 0 CURVE"
+(97,46,o),
+(110,172,o),
+(28,259,c),
+(0,203,l),
+(63,144,o),
+(57,54,o),
+(0,0,c)
 );
 }
 );
@@ -23,22 +23,22 @@ width = 122;
 associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 layerId = "2E3079AD-673B-4FE8-8AB4-C3BD487E2D9C";
 name = "Dec 12 20, 13:05";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"154 78 OFFCURVE",
-"154 334 OFFCURVE",
-"45 560 CURVE",
-"0 469 LINE",
-"93 295 OFFCURVE",
-"96 65 OFFCURVE",
-"0 -100 CURVE"
+(154,78,o),
+(154,334,o),
+(45,560,c),
+(0,469,l),
+(93,295,o),
+(96,65,o),
+(0,-100,c)
 );
 }
 );
 width = 162;
 }
 );
-unicode = 203A;
+unicode = 8250;
 }

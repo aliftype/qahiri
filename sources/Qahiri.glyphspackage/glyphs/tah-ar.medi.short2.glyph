@@ -1,56 +1,55 @@
 {
 glyphname = "tah-ar.medi.short2";
+kernRight = waw;
 layers = (
 {
 anchors = (
 {
 name = entry;
-position = "{670, 0}";
+pos = (670,0);
 },
 {
 name = exit;
-position = "{0, 0}";
 },
 {
 name = top;
-position = "{310, 255}";
+pos = (310,255);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"670 0 LINE",
-"670 70 LINE",
-"627 70 LINE",
-"612 166 OFFCURVE",
-"554 180 OFFCURVE",
-"516 180 CURVE SMOOTH",
-"13 180 LINE",
-"13 110 LINE",
-"506 110 LINE SMOOTH",
-"528 110 OFFCURVE",
-"546 92 OFFCURVE",
-"546 70 CURVE",
-"-20 70 LINE",
-"-20 0 LINE"
+(670,0,l),
+(670,70,l),
+(627,70,l),
+(612,166,o),
+(554,180,o),
+(516,180,cs),
+(13,180,l),
+(13,110,l),
+(506,110,ls),
+(528,110,o),
+(546,92,o),
+(546,70,c),
+(-20,70,l),
+(-20,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"80 40 LINE",
-"80 340 LINE",
-"0 320 LINE",
-"0 40 LINE"
+(80,40,l),
+(80,340,l),
+(0,320,l),
+(0,40,l)
 );
 }
 );
 width = 670;
 }
 );
-leftKerningGroup = waw;
-widthMetricsKey = "=tah-ar.medi";
-rightMetricsKey = "=tah-ar.medi";
+metricRight = "=tah-ar.medi";
+metricWidth = "=tah-ar.medi";
 }

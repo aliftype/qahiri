@@ -2,23 +2,23 @@
 glyphname = "seven-ar.2";
 layers = (
 {
-guideLines = (
+guides = (
 {
-position = "{14, 350}";
+pos = (14,350);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"326 350 LINE",
-"248 350 LINE",
-"149 135 LINE",
-"177 135 LINE",
-"77 350 LINE",
-"0 350 LINE",
-"163 0 LINE"
+(326,350,l),
+(248,350,l),
+(149,135,l),
+(177,135,l),
+(77,350,l),
+(0,350,l),
+(163,0,l)
 );
 }
 );

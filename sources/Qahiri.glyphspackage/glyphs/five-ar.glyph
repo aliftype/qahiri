@@ -2,59 +2,59 @@
 glyphname = "five-ar";
 layers = (
 {
-guideLines = (
+guides = (
 {
-position = "{0, 70}";
+pos = (0,70);
 },
 {
-position = "{0, 140}";
+pos = (0,140);
 },
 {
-position = "{0, 210}";
+pos = (0,210);
 },
 {
-position = "{0, 280}";
+pos = (0,280);
 },
 {
-position = "{0, 350}";
-},
-{
-angle = 90;
-position = "{140, 450}";
+pos = (0,350);
 },
 {
 angle = 90;
-position = "{70, 450}";
+pos = (140,450);
 },
 {
 angle = 90;
-position = "{210, 450}";
+pos = (70,450);
+},
+{
+angle = 90;
+pos = (210,450);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"210 0 LINE",
-"210 350 LINE",
-"0 350 LINE",
-"0 0 LINE"
+(210,0,l),
+(210,350,l),
+(0,350,l),
+(0,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"70 280 LINE",
-"140 280 LINE",
-"140 70 LINE",
-"70 70 LINE"
+(70,280,l),
+(140,280,l),
+(140,70,l),
+(70,70,l)
 );
 }
 );
 width = 250;
 }
 );
-widthMetricsKey = "=two-ar";
-unicode = "0665,06F5";
+metricWidth = "=two-ar";
+unicode = (1637,1781);
 }

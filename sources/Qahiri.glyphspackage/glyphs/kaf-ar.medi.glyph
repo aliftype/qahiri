@@ -1,49 +1,48 @@
 {
 glyphname = "kaf-ar.medi";
+kernRight = waw;
 layers = (
 {
 anchors = (
 {
 name = entry;
-position = "{580, 0}";
+pos = (580,0);
 },
 {
 name = exit;
-position = "{0, 0}";
 },
 {
 name = top;
-position = "{260, 255}";
+pos = (260,255);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"580 0 LINE",
-"580 70 LINE",
-"537 70 LINE",
-"522 166 OFFCURVE",
-"464 180 OFFCURVE",
-"426 180 CURVE SMOOTH",
-"56 180 LINE",
-"83 250 LINE",
-"80 250 LINE",
-"0 110 LINE",
-"416 110 LINE SMOOTH",
-"438 110 OFFCURVE",
-"456 92 OFFCURVE",
-"456 70 CURVE",
-"-20 70 LINE",
-"-20 0 LINE"
+(580,0,l),
+(580,70,l),
+(537,70,l),
+(522,166,o),
+(464,180,o),
+(426,180,cs),
+(56,180,l),
+(83,250,l),
+(80,250,l),
+(0,110,l),
+(416,110,ls),
+(438,110,o),
+(456,92,o),
+(456,70,c),
+(-20,70,l),
+(-20,0,l)
 );
 }
 );
 width = 580;
 }
 );
-leftKerningGroup = waw;
-leftMetricsKey = "=kaf-ar.init";
-widthMetricsKey = "=kaf-ar.init";
+metricLeft = "=kaf-ar.init";
+metricWidth = "=kaf-ar.init";
 }

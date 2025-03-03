@@ -1,56 +1,56 @@
 {
 glyphname = "sad-ar.1";
+kernLeft = bowel;
 layers = (
 {
 anchors = (
 {
 name = top;
-position = "{380, 255}";
+pos = (380,255);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"112 -250 LINE SMOOTH",
-"135 -250 OFFCURVE",
-"150 -235 OFFCURVE",
-"150 -210 CURVE SMOOTH",
-"150 250 LINE",
-"70 230 LINE",
-"70 -180 LINE",
-"-30 -180 LINE SMOOTH",
-"-50 -180 OFFCURVE",
-"-67 -175 OFFCURVE",
-"-78 -160 CURVE",
-"-130 -250 LINE"
+(112,-250,ls),
+(135,-250,o),
+(150,-235,o),
+(150,-210,cs),
+(150,250,l),
+(70,230,l),
+(70,-180,l),
+(-30,-180,ls),
+(-50,-180,o),
+(-67,-175,o),
+(-78,-160,c),
+(-130,-250,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"679 0 LINE SMOOTH",
-"685 0 OFFCURVE",
-"700 0 OFFCURVE",
-"700 21 CURVE SMOOTH",
-"700 160 OFFCURVE",
-"630 180 OFFCURVE",
-"586 180 CURVE SMOOTH",
-"113 180 LINE",
-"113 110 LINE",
-"576 110 LINE SMOOTH",
-"598 110 OFFCURVE",
-"616 92 OFFCURVE",
-"616 70 CURVE",
-"113 70 LINE",
-"113 0 LINE"
+(679,0,ls),
+(685,0,o),
+(700,0,o),
+(700,21,cs),
+(700,160,o),
+(630,180,o),
+(586,180,cs),
+(113,180,l),
+(113,110,l),
+(576,110,ls),
+(598,110,o),
+(616,92,o),
+(616,70,c),
+(113,70,l),
+(113,0,l)
 );
 }
 );
 width = 740;
 }
 );
-widthMetricsKey = "=sad-ar";
-rightKerningGroup = bowel;
+metricWidth = "=sad-ar";
 }

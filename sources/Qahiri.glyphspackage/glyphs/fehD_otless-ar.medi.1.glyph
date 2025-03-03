@@ -5,33 +5,33 @@ layers = (
 associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 layerId = "abf4b10a-26e5-432c-8593-bf37389dfdfd";
 name = Regular.1;
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"242 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE",
-"242 0 LINE"
+(242,70,l),
+(-20,70,l),
+(-20,0,l),
+(242,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"0 158.999 LINE",
-"128.991 30.007 LINE",
-"209.005 30.007 LINE",
-"225.567 46.569 LINE",
-"42.426 229.709 LINE"
+(0,158.999,l),
+(128.991,30.007,l),
+(209.005,30.007,l),
+(225.567,46.569,l),
+(42.426,229.709,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"122 250 LINE",
-"122 11 LINE",
-"202 11 LINE",
-"202 270 LINE"
+(122,250,l),
+(122,11,l),
+(202,11,l),
+(202,270,l)
 );
 }
 );
@@ -41,73 +41,72 @@ width = 242;
 anchors = (
 {
 name = bottom;
-position = "{127, -35}";
+pos = (127,-35);
 },
 {
 name = entry;
-position = "{240, 0}";
+pos = (240,0);
 },
 {
 name = exit;
-position = "{0, 0}";
 },
 {
 name = top;
-position = "{100, 335}";
+pos = (100,335);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"240 0 LINE",
-"240 70 LINE",
-"200 70 LINE",
-"200 200 LINE",
-"120 130 LINE",
-"120 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
+(240,0,l),
+(240,70,l),
+(200,70,l),
+(200,200,l),
+(120,130,l),
+(120,70,l),
+(-20,70,l),
+(-20,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"155 110 OFFCURVE",
-"200 150 OFFCURVE",
-"200 200 CURVE SMOOTH",
-"200 250 OFFCURVE",
-"155 290 OFFCURVE",
-"100 290 CURVE SMOOTH",
-"45 290 OFFCURVE",
-"0 250 OFFCURVE",
-"0 200 CURVE SMOOTH",
-"0 150 OFFCURVE",
-"45 110 OFFCURVE",
-"100 110 CURVE SMOOTH"
+(155,110,o),
+(200,150,o),
+(200,200,cs),
+(200,250,o),
+(155,290,o),
+(100,290,cs),
+(45,290,o),
+(0,250,o),
+(0,200,cs),
+(0,150,o),
+(45,110,o),
+(100,110,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-"89 180 OFFCURVE",
-"80 189 OFFCURVE",
-"80 200 CURVE SMOOTH",
-"80 211 OFFCURVE",
-"89 220 OFFCURVE",
-"100 220 CURVE SMOOTH",
-"111 220 OFFCURVE",
-"120 211 OFFCURVE",
-"120 200 CURVE SMOOTH",
-"120 189 OFFCURVE",
-"111 180 OFFCURVE",
-"100 180 CURVE SMOOTH"
+(89,180,o),
+(80,189,o),
+(80,200,cs),
+(80,211,o),
+(89,220,o),
+(100,220,cs),
+(111,220,o),
+(120,211,o),
+(120,200,cs),
+(120,189,o),
+(111,180,o),
+(100,180,cs)
 );
 }
 );
 width = 240;
 }
 );
-widthMetricsKey = "=fehDotless-ar.init.1";
+metricWidth = "=fehDotless-ar.init.1";
 }

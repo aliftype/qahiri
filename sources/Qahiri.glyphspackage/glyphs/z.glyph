@@ -3,26 +3,26 @@ glyphname = z;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"257 0 LINE",
-"205 90 LINE",
-"194 75 OFFCURVE",
-"177 70 OFFCURVE",
-"157 70 CURVE SMOOTH",
-"98 70 LINE",
-"271 230 LINE",
-"44 230 LINE",
-"22 160 LINE",
-"175 160 LINE",
-"0 0 LINE"
+(257,0,l),
+(205,90,l),
+(194,75,o),
+(177,70,o),
+(157,70,cs),
+(98,70,l),
+(271,230,l),
+(44,230,l),
+(22,160,l),
+(175,160,l),
+(0,0,l)
 );
 }
 );
 width = 311;
 }
 );
-unicode = "007A,005A";
+unicode = (122,90);
 }

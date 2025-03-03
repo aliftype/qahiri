@@ -2,17 +2,18 @@
 glyphname = question;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = "question-ar";
-transform = "{-1, 0, 0, 1, 230, 0}";
+pos = (230,0);
+ref = "question-ar";
+scale = (-1,1);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 270;
 }
 );
-widthMetricsKey = "=question-ar";
-rightMetricsKey = "=question-ar";
-unicode = 003F;
+metricRight = "=question-ar";
+metricWidth = "=question-ar";
+unicode = 63;
 }

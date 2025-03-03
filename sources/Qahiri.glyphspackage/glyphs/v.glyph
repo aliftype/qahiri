@@ -3,22 +3,22 @@ glyphname = v;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"73 135 LINE",
-"101 135 LINE",
-"57 230 LINE",
-"-20 230 LINE",
-"87 0 LINE",
-"194 230 LINE",
-"117 230 LINE"
+(73,135,l),
+(101,135,l),
+(57,230,l),
+(-20,230,l),
+(87,0,l),
+(194,230,l),
+(117,230,l)
 );
 }
 );
 width = 214;
 }
 );
-unicode = "0076,0056";
+unicode = (118,86);
 }

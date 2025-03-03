@@ -3,40 +3,40 @@ glyphname = "hamza-ar";
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"165 50 LINE",
-"150 50 OFFCURVE",
-"141 62 OFFCURVE",
-"141 76 CURVE SMOOTH",
-"141 91 OFFCURVE",
-"153 107 OFFCURVE",
-"179 107 CURVE SMOOTH",
-"189 107 OFFCURVE",
-"200 105 OFFCURVE",
-"213 100 CURVE",
-"203 132 OFFCURVE",
-"178 150 OFFCURVE",
-"153 150 CURVE SMOOTH",
-"81 150 OFFCURVE",
-"64 53 OFFCURVE",
-"112 14 CURVE"
+(165,50,l),
+(150,50,o),
+(141,62,o),
+(141,76,cs),
+(141,91,o),
+(153,107,o),
+(179,107,cs),
+(189,107,o),
+(200,105,o),
+(213,100,c),
+(203,132,o),
+(178,150,o),
+(153,150,cs),
+(81,150,o),
+(64,53,o),
+(112,14,c)
 );
 },
 {
 closed = 1;
 nodes = (
-"226 0 LINE",
-"256 50 LINE",
-"69 50 LINE",
-"40 0 LINE"
+(226,0,l),
+(256,50,l),
+(69,50,l),
+(40,0,l)
 );
 }
 );
 width = 296;
 }
 );
-unicode = 0621;
+unicode = 1569;
 }

@@ -3,28 +3,28 @@ glyphname = h.1;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"80 0 LINE",
-"80 90 LINE SMOOTH",
-"80 101 OFFCURVE",
-"89 110 OFFCURVE",
-"100 110 CURVE SMOOTH",
-"111 110 OFFCURVE",
-"120 101 OFFCURVE",
-"120 90 CURVE SMOOTH",
-"120 0 LINE",
-"200 0 LINE",
-"200 90 LINE SMOOTH",
-"200 140 OFFCURVE",
-"155 180 OFFCURVE",
-"100 180 CURVE SMOOTH",
-"80 180 LINE",
-"80 560 LINE",
-"0 540 LINE",
-"0 0 LINE"
+(80,0,l),
+(80,90,ls),
+(80,101,o),
+(89,110,o),
+(100,110,cs),
+(111,110,o),
+(120,101,o),
+(120,90,cs),
+(120,0,l),
+(200,0,l),
+(200,90,ls),
+(200,140,o),
+(155,180,o),
+(100,180,cs),
+(80,180,l),
+(80,560,l),
+(0,540,l),
+(0,0,l)
 );
 }
 );

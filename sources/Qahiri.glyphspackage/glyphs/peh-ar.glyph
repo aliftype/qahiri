@@ -1,21 +1,21 @@
 {
+category = Placeholder;
 color = 0;
 glyphname = "peh-ar";
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = "behDotless-ar";
+ref = "behDotless-ar";
 },
 {
-name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 245, -124}";
+pos = (245,-124);
+ref = "threedotsdownbelow-ar";
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 600;
 }
 );
-unicode = 067E;
-category = Placeholder;
+unicode = 1662;
 }

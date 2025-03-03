@@ -1,21 +1,21 @@
 {
+category = Placeholder;
 color = 0;
 glyphname = "alefHamzaabove-ar";
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = "alef-ar";
+ref = "alef-ar";
 },
 {
-name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 114, 474}";
+pos = (114,474);
+ref = "hamzaabove-ar";
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 360;
 }
 );
-unicode = 0623;
-category = Placeholder;
+unicode = 1571;
 }

@@ -3,50 +3,50 @@ glyphname = k.1;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"80 0 LINE",
-"80 90 LINE SMOOTH",
-"80 101 OFFCURVE",
-"89 110 OFFCURVE",
-"100 110 CURVE SMOOTH",
-"111 110 OFFCURVE",
-"120 101 OFFCURVE",
-"120 90 CURVE SMOOTH",
-"120 0 LINE",
-"200 0 LINE",
-"200 90 LINE SMOOTH",
-"200 140 OFFCURVE",
-"155 180 OFFCURVE",
-"100 180 CURVE SMOOTH",
-"80 180 LINE",
-"80 560 LINE",
-"0 540 LINE",
-"0 0 LINE"
+(80,0,l),
+(80,90,ls),
+(80,101,o),
+(89,110,o),
+(100,110,cs),
+(111,110,o),
+(120,101,o),
+(120,90,cs),
+(120,0,l),
+(200,0,l),
+(200,90,ls),
+(200,140,o),
+(155,180,o),
+(100,180,cs),
+(80,180,l),
+(80,560,l),
+(0,540,l),
+(0,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"256 136 OFFCURVE",
-"242 320 OFFCURVE",
-"124 320 CURVE SMOOTH",
-"89 320 OFFCURVE",
-"54 295 OFFCURVE",
-"40 250 CURVE",
-"58 257 OFFCURVE",
-"74 260 OFFCURVE",
-"87 260 CURVE SMOOTH",
-"124 260 OFFCURVE",
-"140 237 OFFCURVE",
-"140 216 CURVE SMOOTH",
-"140 197 OFFCURVE",
-"128 180 OFFCURVE",
-"107 180 CURVE SMOOTH",
-"71 180 LINE",
-"140 110 LINE"
+(256,136,o),
+(242,320,o),
+(124,320,cs),
+(89,320,o),
+(54,295,o),
+(40,250,c),
+(58,257,o),
+(74,260,o),
+(87,260,cs),
+(124,260,o),
+(140,237,o),
+(140,216,cs),
+(140,197,o),
+(128,180,o),
+(107,180,cs),
+(71,180,l),
+(140,110,l)
 );
 }
 );

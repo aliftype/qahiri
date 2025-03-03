@@ -5,64 +5,64 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{487, -35}";
+pos = (487,-35);
 },
 {
 name = top;
-position = "{460, 335}";
+pos = (460,335);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"539 0 LINE SMOOTH",
-"545 0 OFFCURVE",
-"560 0 OFFCURVE",
-"560 11 CURVE SMOOTH",
-"560 200 LINE",
-"480 140 LINE",
-"480 70 LINE",
-"100 70 LINE SMOOTH",
-"78 70 OFFCURVE",
-"62 77 OFFCURVE",
-"52 90 CURVE",
-"0 0 LINE"
+(539,0,ls),
+(545,0,o),
+(560,0,o),
+(560,11,cs),
+(560,200,l),
+(480,140,l),
+(480,70,l),
+(100,70,ls),
+(78,70,o),
+(62,77,o),
+(52,90,c),
+(0,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"515 110 OFFCURVE",
-"560 150 OFFCURVE",
-"560 200 CURVE SMOOTH",
-"560 250 OFFCURVE",
-"515 290 OFFCURVE",
-"460 290 CURVE SMOOTH",
-"405 290 OFFCURVE",
-"360 250 OFFCURVE",
-"360 200 CURVE SMOOTH",
-"360 150 OFFCURVE",
-"405 110 OFFCURVE",
-"460 110 CURVE SMOOTH"
+(515,110,o),
+(560,150,o),
+(560,200,cs),
+(560,250,o),
+(515,290,o),
+(460,290,cs),
+(405,290,o),
+(360,250,o),
+(360,200,cs),
+(360,150,o),
+(405,110,o),
+(460,110,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-"449 180 OFFCURVE",
-"440 189 OFFCURVE",
-"440 200 CURVE SMOOTH",
-"440 211 OFFCURVE",
-"449 220 OFFCURVE",
-"460 220 CURVE SMOOTH",
-"471 220 OFFCURVE",
-"480 211 OFFCURVE",
-"480 200 CURVE SMOOTH",
-"480 189 OFFCURVE",
-"471 180 OFFCURVE",
-"460 180 CURVE SMOOTH"
+(449,180,o),
+(440,189,o),
+(440,200,cs),
+(440,211,o),
+(449,220,o),
+(460,220,cs),
+(471,220,o),
+(480,211,o),
+(480,200,cs),
+(480,189,o),
+(471,180,o),
+(460,180,cs)
 );
 }
 );

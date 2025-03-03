@@ -5,29 +5,28 @@ layers = (
 anchors = (
 {
 name = exit;
-position = "{0, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"42 0 LINE",
-"65 0 OFFCURVE",
-"80 15 OFFCURVE",
-"80 40 CURVE SMOOTH",
-"80 450 LINE",
-"0 430 LINE",
-"0 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
+(42,0,l),
+(65,0,o),
+(80,15,o),
+(80,40,cs),
+(80,450,l),
+(0,430,l),
+(0,70,l),
+(-20,70,l),
+(-20,0,l)
 );
 }
 );
 width = 120;
 }
 );
-widthMetricsKey = "=lam-ar.init";
-rightMetricsKey = "=lam-ar.init";
+metricRight = "=lam-ar.init";
+metricWidth = "=lam-ar.init";
 }

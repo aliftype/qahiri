@@ -81,7 +81,7 @@ def makeKerning(font, source):
     for group, glyphs in groups.items():
         fea += f"{group} = [{' '.join(glyphs)}];\n"
 
-    kerning = font.kerning[source.id]
+    kerning = font.kerningRTL[source.id]
     pairs = ""
     classes = ""
     enums = ""
@@ -179,6 +179,9 @@ feature mark {{
     return fea
 
 
+LANG_IDS = {"ARA": "0x0C01", "ENG": "0x0409"}
+
+
 def makeFeatures(instance, source):
     font = instance.parent
 
@@ -224,8 +227,15 @@ def makeFeatures(instance, source):
         if feature.name == "mark":
             fea += makeMark(instance, source)
 
+        names = ""
+        for label in feature.labels:
+            names += f'name 3 1 {LANG_IDS[label["language"]]} "{label["value"]}";\n'
+        if names:
+            names = "featureNames { " + names + " };\n"
+
         fea += f"""
 feature {feature.name} {{
+{names}
 {feature.notes}
 {feature.code}
 }} {feature.name};
@@ -307,6 +317,14 @@ def calcBits(bits, start, end):
     return b
 
 
+def getProperty(font, name):
+    for prop in font.properties:
+        if prop.key == name:
+            if prop._localized_values:
+                return {k[:2].lower(): v for (k, v) in prop._localized_values.items()}
+            return prop.value
+
+
 def build(instance, isTTF, version):
     font = instance.parent
     source = font.masters[0]
@@ -384,7 +402,7 @@ def build(instance, isTTF, version):
             path.draw(pen)
             glyphs[name] = pen.getCharString()
 
-    vendor = font.customParameters["vendorID"]
+    vendor = getProperty(font, "vendorID")
     names = {
         "copyright": font.copyright,
         "familyName": instance.familyName,
@@ -395,12 +413,12 @@ def build(instance, isTTF, version):
         "psName": instance.fontName,
         "manufacturer": font.manufacturer,
         "designer": font.designer,
-        "description": font.customParameters["description"],
+        "description": getProperty(font, "descriptions"),
         "vendorURL": font.manufacturerURL,
         "designerURL": font.designerURL,
-        "licenseDescription": font.customParameters["license"],
-        "licenseInfoURL": font.customParameters["licenseURL"],
-        "sampleText": font.customParameters["sampleText"],
+        "licenseDescription": getProperty(font, "licenses"),
+        "licenseInfoURL": getProperty(font, "licenseURL"),
+        "sampleText": getProperty(font, "sampleTexts"),
     }
 
     date = int(font.date.timestamp()) - epoch_diff

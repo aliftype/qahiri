@@ -3,40 +3,40 @@ glyphname = q.1;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"200 -230 LINE",
-"200 90 LINE SMOOTH",
-"200 150 OFFCURVE",
-"165 180 OFFCURVE",
-"100 180 CURVE SMOOTH",
-"45 180 OFFCURVE",
-"0 150 OFFCURVE",
-"0 90 CURVE SMOOTH",
-"0 40 OFFCURVE",
-"45 0 OFFCURVE",
-"100 0 CURVE SMOOTH",
-"120 0 LINE",
-"120 -250 LINE"
+(200,-230,l),
+(200,90,ls),
+(200,150,o),
+(165,180,o),
+(100,180,cs),
+(45,180,o),
+(0,150,o),
+(0,90,cs),
+(0,40,o),
+(45,0,o),
+(100,0,cs),
+(120,0,l),
+(120,-250,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"89 70 OFFCURVE",
-"80 79 OFFCURVE",
-"80 90 CURVE SMOOTH",
-"80 101 OFFCURVE",
-"89 110 OFFCURVE",
-"100 110 CURVE SMOOTH",
-"111 110 OFFCURVE",
-"120 101 OFFCURVE",
-"120 90 CURVE SMOOTH",
-"120 79 OFFCURVE",
-"111 70 OFFCURVE",
-"100 70 CURVE SMOOTH"
+(89,70,o),
+(80,79,o),
+(80,90,cs),
+(80,101,o),
+(89,110,o),
+(100,110,cs),
+(111,110,o),
+(120,101,o),
+(120,90,cs),
+(120,79,o),
+(111,70,o),
+(100,70,cs)
 );
 }
 );

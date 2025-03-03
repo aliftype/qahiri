@@ -2,20 +2,20 @@
 glyphname = "semicolon-ar";
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = "dotbelow-ar.alt1";
-transform = "{1, 0, 0, 1, 10, -82}";
+pos = (10,-82);
+ref = "dotbelow-ar.alt1";
 },
 {
-name = "comma-ar";
+ref = "comma-ar";
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 120;
 }
 );
-widthMetricsKey = "=colon";
-rightMetricsKey = "=colon";
-unicode = 061B;
+metricRight = "=colon";
+metricWidth = "=colon";
+unicode = 1563;
 }

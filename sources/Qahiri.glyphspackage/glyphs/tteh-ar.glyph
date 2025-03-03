@@ -1,21 +1,21 @@
 {
+category = Placeholder;
 color = 0;
 glyphname = "tteh-ar";
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = "behDotless-ar";
+ref = "behDotless-ar";
 },
 {
-name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 206, 200}";
+pos = (206,200);
+ref = "tahabove-ar";
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 600;
 }
 );
-unicode = 0679;
-category = Placeholder;
+unicode = 1657;
 }

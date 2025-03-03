@@ -1,18 +1,19 @@
 {
 glyphname = "hah-ar.medi.1";
+kernLeft = "meem-ar.medi";
 layers = (
 {
 associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
 name = Background;
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"70 70 LINE",
-"0 140 LINE",
-"42.749 209.841 LINE",
-"182.958 70 LINE"
+(70,70,l),
+(0,140,l),
+(42.749,209.841,l),
+(182.958,70,l)
 );
 }
 );
@@ -22,29 +23,27 @@ width = 400;
 anchors = (
 {
 name = bottom;
-position = "{110, -35}";
+pos = (110,-35);
 },
 {
 name = entry;
-position = "{88, 110}";
+pos = (88,110);
 },
 {
 name = exit;
-position = "{0, 0}";
 },
 {
 name = top;
-position = "{9, 233}";
-}
-);
-components = (
-{
-name = "hah-ar.init.1";
+pos = (9,233);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+ref = "hah-ar.init.1";
+}
+);
 width = 420;
 }
 );
-rightKerningGroup = "meem-ar.medi";
 }

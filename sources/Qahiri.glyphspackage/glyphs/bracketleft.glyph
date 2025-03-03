@@ -2,15 +2,16 @@
 glyphname = bracketleft;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = bracketright;
-transform = "{-1, 0, 0, -1, 110, 460}";
+angle = 180;
+pos = (110,460);
+ref = bracketright;
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 150;
 }
 );
-unicode = 005B;
+unicode = 91;
 }

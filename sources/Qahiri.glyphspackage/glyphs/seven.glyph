@@ -2,14 +2,14 @@
 glyphname = seven;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = "six-ar.1";
+ref = "six-ar.1";
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 250;
 }
 );
-unicode = 0037;
+unicode = 55;
 }

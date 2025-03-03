@@ -1,79 +1,78 @@
 {
 glyphname = "heh-ar.init";
+kernLeft = heh.init;
 layers = (
 {
 anchors = (
 {
 name = exit;
-position = "{0, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"165 -110 OFFCURVE",
-"200 -80 OFFCURVE",
-"200 -20 CURVE SMOOTH",
-"200 215 LINE",
-"180 180 OFFCURVE",
-"140 180 OFFCURVE",
-"100 180 CURVE SMOOTH",
-"45 180 OFFCURVE",
-"0 140 OFFCURVE",
-"0 90 CURVE SMOOTH",
-"0 83 OFFCURVE",
-"1 75 OFFCURVE",
-"2 70 CURVE",
-"-50 70 LINE",
-"-50 0 LINE",
-"2 0 LINE",
-"1 -6 OFFCURVE",
-"0 -13 OFFCURVE",
-"0 -20 CURVE SMOOTH",
-"0 -80 OFFCURVE",
-"45 -110 OFFCURVE",
-"100 -110 CURVE SMOOTH"
+(165,-110,o),
+(200,-80,o),
+(200,-20,cs),
+(200,215,l),
+(180,180,o),
+(140,180,o),
+(100,180,cs),
+(45,180,o),
+(0,140,o),
+(0,90,cs),
+(0,83,o),
+(1,75,o),
+(2,70,c),
+(-50,70,l),
+(-50,0,l),
+(2,0,l),
+(1,-6,o),
+(0,-13,o),
+(0,-20,cs),
+(0,-80,o),
+(45,-110,o),
+(100,-110,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-"89 -40 OFFCURVE",
-"80 -31 OFFCURVE",
-"80 -20 CURVE SMOOTH",
-"80 -8 OFFCURVE",
-"89 0 OFFCURVE",
-"100 0 CURVE SMOOTH",
-"110 0 OFFCURVE",
-"120 -8 OFFCURVE",
-"120 -20 CURVE SMOOTH",
-"120 -31 OFFCURVE",
-"111 -40 OFFCURVE",
-"100 -40 CURVE SMOOTH"
+(89,-40,o),
+(80,-31,o),
+(80,-20,cs),
+(80,-8,o),
+(89,0,o),
+(100,0,cs),
+(110,0,o),
+(120,-8,o),
+(120,-20,cs),
+(120,-31,o),
+(111,-40,o),
+(100,-40,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-"89 70 OFFCURVE",
-"80 79 OFFCURVE",
-"80 90 CURVE SMOOTH",
-"80 101 OFFCURVE",
-"89 110 OFFCURVE",
-"100 110 CURVE SMOOTH",
-"111 110 OFFCURVE",
-"120 101 OFFCURVE",
-"120 90 CURVE SMOOTH",
-"120 79 OFFCURVE",
-"111 70 OFFCURVE",
-"100 70 CURVE SMOOTH"
+(89,70,o),
+(80,79,o),
+(80,90,cs),
+(80,101,o),
+(89,110,o),
+(100,110,cs),
+(111,110,o),
+(120,101,o),
+(120,90,cs),
+(120,79,o),
+(111,70,o),
+(100,70,cs)
 );
 }
 );
 width = 240;
 }
 );
-rightKerningGroup = heh.init;
 }

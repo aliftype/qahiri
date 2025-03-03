@@ -3,19 +3,19 @@ glyphname = quotesingle;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"40 560 LINE",
-"0 560 LINE",
-"0 325 LINE",
-"40 325 LINE"
+(40,560,l),
+(0,560,l),
+(0,325,l),
+(40,325,l)
 );
 }
 );
 width = 80;
 }
 );
-unicode = 0027;
+unicode = 39;
 }

@@ -5,39 +5,38 @@ layers = (
 anchors = (
 {
 name = exit;
-position = "{0, 0}";
 },
 {
 name = top;
-position = "{160, 280}";
+pos = (160,280);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"299 0 LINE SMOOTH",
-"305 0 OFFCURVE",
-"320 0 OFFCURVE",
-"320 11 CURVE SMOOTH",
-"320 230 LINE",
-"240 210 LINE",
-"240 70 LINE",
-"218 70 OFFCURVE",
-"200 88 OFFCURVE",
-"200 110 CURVE SMOOTH",
-"200 230 LINE",
-"120 210 LINE",
-"120 70 LINE",
-"98 70 OFFCURVE",
-"80 88 OFFCURVE",
-"80 110 CURVE SMOOTH",
-"80 230 LINE",
-"0 210 LINE",
-"0 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
+(299,0,ls),
+(305,0,o),
+(320,0,o),
+(320,11,cs),
+(320,230,l),
+(240,210,l),
+(240,70,l),
+(218,70,o),
+(200,88,o),
+(200,110,cs),
+(200,230,l),
+(120,210,l),
+(120,70,l),
+(98,70,o),
+(80,88,o),
+(80,110,cs),
+(80,230,l),
+(0,210,l),
+(0,70,l),
+(-20,70,l),
+(-20,0,l)
 );
 }
 );

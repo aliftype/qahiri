@@ -2,15 +2,16 @@
 glyphname = backslash;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = slash;
-transform = "{-1, 0, 0, 1, 236, 0}";
+pos = (236,0);
+ref = slash;
+scale = (-1,1);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 276;
 }
 );
-unicode = 005C;
+unicode = 92;
 }

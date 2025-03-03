@@ -1,5 +1,12 @@
 {
 .appVersion = "3343";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
 classes = (
 {
 code = "$[name LIKE \"*dot*-ar\"]
@@ -64,7 +71,6 @@ code = "hamza-ar alef-ar alef-ar.1 alef-ar.2 alef-ar.3 alef-ar.fina behDotless-a
 name = ArabicLetters;
 }
 );
-copyright = "Copyright 2021 The Qahiri Project Authors (github.com/aliftype/qahiri).";
 customParameters = (
 {
 name = fsType;
@@ -76,8 +82,8 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
-name = "Disable Last Change";
-value = 1;
+name = "Write lastChange";
+value = 0;
 },
 {
 name = "Write DisplayStrings";
@@ -107,31 +113,9 @@ value = (
 {
 name = "Propagate Anchors";
 value = 0;
-},
-{
-name = description;
-value = "Qahiri is a Kufic typeface based on the modernized and regularized old manuscript Kufic calligraphy style of the late master of Arabic calligraphy Mohammad Abdul Qadir.";
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-name = sampleText;
-value = "صف خلق خود كمثل الشمس إذ بزغت يحظى الضجيع بها نجلاء معطار";
-},
-{
-name = vendorID;
-value = ALIF;
 }
 );
 date = "2020-03-17 04:09:41 +0000";
-designer = "Khaled Hosny";
-designerURL = "https://aliftype.com";
 familyName = Qahiri;
 featurePrefixes = (
 {
@@ -217,16 +201,16 @@ code = "  sub alefHamzaabove-ar   by alef-ar hamzaabove-ar;
   sub yehbarree-ar        by alefMaksura-ar.2;
   sub yehbarreeHamzaabove-ar by alefMaksura-ar.2 hamzaabove-ar;
 ";
-name = ccmp;
+tag = ccmp;
 },
 {
 code = "script latn;
   sub space by space.latn;";
-name = locl;
+tag = locl;
 },
 {
 code = "";
-name = isol;
+tag = isol;
 },
 {
 code = "  sub ain-ar         by ain-ar.init;
@@ -250,7 +234,7 @@ code = "  sub ain-ar         by ain-ar.init;
   sub alefMaksura-ar.2 by behDotless-ar.init;
   sub yeh-farsi      by behDotless-ar.init twodotshorizontalbelow-ar;
 ";
-name = init;
+tag = init;
 },
 {
 code = "  sub ain-ar         by ain-ar.medi;
@@ -274,7 +258,7 @@ code = "  sub ain-ar         by ain-ar.medi;
   sub alefMaksura-ar.2 by behDotless-ar.medi;
   sub yeh-farsi      by behDotless-ar.medi twodotshorizontalbelow-ar;
 ";
-name = medi;
+tag = medi;
 },
 {
 code = "  sub ain-ar         by ain-ar.fina;
@@ -303,7 +287,7 @@ code = "  sub ain-ar         by ain-ar.fina;
   sub yeh-farsi      by alefMaksura-ar.fina;
   sub alefMaksura-ar.2   by alefMaksura-ar.fina.2;
 ";
-name = fina;
+tag = fina;
 },
 {
 code = "  sub yeh-farsi     by alefMaksura-ar;
@@ -320,7 +304,7 @@ lookup heh_isol {
     ignore sub @ArabicLetters heh-ar';
     sub heh-ar' by heh-ar.isol;
 } heh_isol;";
-name = rlig;
+tag = rlig;
 },
 {
 code = "lookupflag IgnoreMarks;
@@ -337,24 +321,51 @@ code = "lookupflag IgnoreMarks;
 lookupflag 0;
   sub space' space by space.alt;
 ";
-name = rclt;
+tag = rclt;
 },
 {
 code = "  sub [@Dots hamzaabove-ar hamzabelow-ar hamza-ar] by NULL;
 ";
-name = ss01;
-notes = "featureNames {\012	name 3 1 0x409 \"Dot-less Letter Forms\";\012	name 3 1 0xC01 \"حروف مهملة (بلا نقاط)\";\012};\012";
+labels = (
+{
+language = ENG;
+value = "Dot-less Letter Forms";
+},
+{
+language = ARA;
+value = "حروف مهملة (بلا نقاط)";
+}
+);
+tag = ss01;
 },
 {
 code = "  sub @Dots by @Dots.alt1;";
-name = ss02;
-notes = "featureNames {\012	name 3 1 0x409 \"Rounded Dots\";\012	name 3 1 0xC01 \"نقاط مستديرة\";\012};\012";
+labels = (
+{
+language = ENG;
+value = "Rounded Dots";
+},
+{
+language = ARA;
+value = "نقاط مستديرة";
+}
+);
+tag = ss02;
 },
 {
 code = "sub hah-ar.medi by hah-ar.medi.3;
 sub hah-ar.fina by hah-ar.fina.1;";
-name = ss03;
-notes = "featureNames {\012	name 3 1 0x409 \"Hah that connects on the line\";\012	name 3 1 0xC01 \"حاء باتصال سطري\";\012};\012";
+labels = (
+{
+language = ENG;
+value = "Hah that connects on the line";
+},
+{
+language = ARA;
+value = "حاء باتصال سطري";
+}
+);
+tag = ss03;
 },
 {
 automatic = 1;
@@ -379,7 +390,7 @@ sub seven by seven.numr;
 sub eight by eight.numr;
 sub nine by nine.numr;
 ";
-name = numr;
+tag = numr;
 },
 {
 automatic = 1;
@@ -404,7 +415,7 @@ sub seven by seven.dnom;
 sub eight by eight.dnom;
 sub nine by nine.dnom;
 ";
-name = dnom;
+tag = dnom;
 },
 {
 automatic = 1;
@@ -415,7 +426,7 @@ sub four-ar by four-ar.osf;
 sub six-ar by six-ar.osf;
 sub nine-ar by nine-ar.osf;
 ";
-name = onum;
+tag = onum;
 },
 {
 code = "  sub ain-ar                  from [ain-ar ain-ar.1 ain-ar.2];
@@ -486,7 +497,7 @@ script latn;
   sub u from [u u.1];
   sub y from [y y.1];
 ";
-name = salt;
+tag = salt;
 },
 {
 code = "@TwoDotsAbove = [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1];
@@ -523,7 +534,7 @@ lookup ShortLamTah {
 } ShortLamTah;
 
 ";
-name = clig;
+tag = clig;
 },
 {
 code = "@RehWaw = [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1 waw-ar waw-ar.1 waw-ar.fina waw-ar.fina.1];
@@ -562,7 +573,7 @@ lookupflag UseMarkFilteringSet @DotsBelow;
 		[hah-ar.medi hah-ar.fina]
 	;
 ";
-name = mark;
+tag = mark;
 },
 {
 code = "lookupflag IgnoreMarks;
@@ -577,20 +588,14 @@ code = "lookupflag IgnoreMarks;
  pos [waw-ar waw-ar.1 waw-ar.fina waw-ar.fina.1 reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1 hah-ar.fina hah-ar.fina.1 ain-ar.2 ain-ar.fina] behDotless-ar.init' <0 0 100 0> [behDotless-ar.medi.yeh lam-ar.medi.yeh] alefMaksura-ar.fina.tooth;
  pos [lam-ar lam-ar.fina noonghunna-ar noonghunna-ar.fina] behDotless-ar.init' <0 0 200 0> [behDotless-ar.medi.yeh lam-ar.medi.yeh] alefMaksura-ar.fina.tooth;
 ";
-name = kern;
+tag = kern;
 }
 );
 fontMaster = (
 {
-alignmentZones = (
-"{600, 15}",
-"{560, 15}",
-"{230, 15}",
-"{0, -15}",
-"{-250, -15}"
+axesValues = (
+100
 );
-ascender = 600;
-capHeight = 560;
 customParameters = (
 {
 name = typoLineGap;
@@ -605,50 +610,72 @@ name = underlinePosition;
 value = -350;
 }
 );
-descender = -250;
-guideLines = (
+guides = (
 {
-position = "{319, 220}";
+pos = (319,220);
 },
 {
-position = "{319, 180}";
+pos = (319,180);
 },
 {
-position = "{319, 259}";
+pos = (319,259);
 }
 );
-horizontalStems = (
-70
-);
 id = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-verticalStems = (
+metricValues = (
+{
+over = 15;
+pos = 600;
+},
+{
+over = 15;
+pos = 560;
+},
+{
+over = 15;
+pos = 230;
+},
+{
+over = -15;
+},
+{
+over = -15;
+pos = -250;
+},
+{
+}
+);
+name = Regular;
+stemValues = (
+70,
 80
 );
-xHeight = 230;
 }
 );
 instances = (
 {
+axesValues = (
+100
+);
 instanceInterpolations = {
 "67aa4fb0-543e-4232-8202-ade6a11e0795" = 1;
 };
 name = Regular;
 }
 );
-keepAlternatesTogether = 1;
-kerning = {
+kerningRTL = {
 "67aa4fb0-543e-4232-8202-ade6a11e0795" = {
-"@MMK_L_bowel" = {
-"@MMK_R_yeh.2" = -70;
+"@MMK_R_bowel" = {
+"@MMK_L_yeh.2" = -70;
 "alefMaksura-ar" = 100;
 "alefMaksura-ar.1" = 100;
 "lam-ar" = 100;
 "noonghunna-ar" = 100;
 "qafDotless-ar" = 100;
 };
-"@MMK_L_dal" = {
-"@MMK_R_hah-ar.init" = -40;
-"@MMK_R_yeh.2" = -30;
+"@MMK_R_dal" = {
+"@MMK_L_hah-ar.init" = -40;
+"@MMK_L_yeh.2" = -30;
 "ain-ar" = -40;
 "ain-ar.1" = -40;
 "ain-ar.2" = -40;
@@ -680,16 +707,16 @@ kerning = {
 "meem-ar.init" = -20;
 "qafDotless-ar" = -80;
 };
-"@MMK_L_heh.init" = {
-"@MMK_R_reh.fina" = 40;
+"@MMK_R_heh.init" = {
+"@MMK_L_reh.fina" = 40;
 "hah-ar.fina.1" = 60;
 "hah-ar.medi.3" = 60;
 };
-"@MMK_L_heh.medi" = {
+"@MMK_R_heh.medi" = {
 "hah-ar.fina.1" = 60;
 "hah-ar.medi.3" = 60;
 };
-"@MMK_L_lam_alef.1" = {
+"@MMK_R_lam_alef.1" = {
 "alef-ar.1" = 160;
 "alef-ar.2" = 80;
 "alef-ar.3" = 240;
@@ -731,20 +758,20 @@ kerning = {
 "waw-ar" = 30;
 "waw-ar.1" = 40;
 };
-"@MMK_L_meem-ar.medi" = {
-"@MMK_R_hah-ar.init" = -20;
-"@MMK_R_pyramid" = -20;
-"@MMK_R_waw" = -20;
-"@MMK_R_yeh" = -40;
+"@MMK_R_meem-ar.medi" = {
+"@MMK_L_hah-ar.init" = -20;
+"@MMK_L_pyramid" = -20;
+"@MMK_L_waw" = -20;
+"@MMK_L_yeh" = -40;
 "meem-ar.fina.2" = -40;
 "meem-ar.medi.1" = -40;
 "qafDotless-ar.fina" = -30;
 };
-"@MMK_L_pyramid" = {
-"@MMK_R_hah-ar.init" = -15;
-"@MMK_R_reh.fina" = -10;
-"@MMK_R_waw" = -15;
-"@MMK_R_yeh" = -10;
+"@MMK_R_pyramid" = {
+"@MMK_L_hah-ar.init" = -15;
+"@MMK_L_reh.fina" = -10;
+"@MMK_L_waw" = -15;
+"@MMK_L_yeh" = -10;
 "behDotless-ar.fina.1" = -10;
 "lam_alef-ar.fina" = -40;
 "lam_alef-ar.fina.2" = -50;
@@ -752,16 +779,16 @@ kerning = {
 "lam_alef-ar.fina.4" = -80;
 "lam_alef-ar.fina.5" = -80;
 };
-"@MMK_L_qaf" = {
+"@MMK_R_qaf" = {
 "qafDotless-ar" = 40;
 };
-"@MMK_L_reh" = {
+"@MMK_R_reh" = {
 "alefMaksura-ar" = 63;
 "alefMaksura-ar.1" = 63;
 "lam-ar" = 63;
 "noonghunna-ar" = 63;
 };
-"@MMK_L_waw" = {
+"@MMK_R_waw" = {
 "alefMaksura-ar" = 40;
 "alefMaksura-ar.1" = 40;
 "lam-ar" = 40;
@@ -773,13 +800,13 @@ kerning = {
 "noonghunna-ar" = 40;
 };
 "ain-ar.init" = {
-"@MMK_R_pyramid" = -20;
+"@MMK_L_pyramid" = -20;
 };
 "ain-ar.medi" = {
-"@MMK_R_hah-ar.init" = -20;
-"@MMK_R_reh.fina" = -40;
-"@MMK_R_waw" = -20;
-"@MMK_R_yeh" = -40;
+"@MMK_L_hah-ar.init" = -20;
+"@MMK_L_reh.fina" = -40;
+"@MMK_L_waw" = -20;
+"@MMK_L_yeh" = -40;
 "behDotless-ar.fina.1" = -30;
 "behDotless-ar.medi.1" = -40;
 "hah-ar.fina.1" = -80;
@@ -797,52 +824,154 @@ kerning = {
 "qafDotless-ar" = -50;
 };
 "fehDotless-ar.init" = {
-"@MMK_R_pyramid" = -30;
-"@MMK_R_yeh" = -50;
+"@MMK_L_pyramid" = -30;
+"@MMK_L_yeh" = -50;
 };
 "fehDotless-ar.init.1" = {
-"@MMK_R_pyramid" = -30;
-"@MMK_R_yeh" = -50;
+"@MMK_L_pyramid" = -30;
+"@MMK_L_yeh" = -50;
 };
 "fehDotless-ar.medi" = {
-"@MMK_R_pyramid" = -20;
-"@MMK_R_reh.fina" = -40;
-"@MMK_R_waw" = -40;
-"@MMK_R_yeh" = -50;
+"@MMK_L_pyramid" = -20;
+"@MMK_L_reh.fina" = -40;
+"@MMK_L_waw" = -40;
+"@MMK_L_yeh" = -50;
 "hah-ar.fina.1" = -100;
 "lam_alef-ar.fina" = -80;
 "lam_alef-ar.fina.1" = -20;
 "meem-ar.medi" = -40;
 };
 "fehDotless-ar.medi.1" = {
-"@MMK_R_pyramid" = -30;
-"@MMK_R_yeh" = -50;
+"@MMK_L_pyramid" = -30;
+"@MMK_L_yeh" = -50;
 };
 "hah-ar.init.1" = {
-"@MMK_R_pyramid" = -20;
-"@MMK_R_yeh" = -40;
+"@MMK_L_pyramid" = -20;
+"@MMK_L_yeh" = -40;
 };
 "hah-ar.init.2" = {
-"@MMK_R_pyramid" = -20;
-"@MMK_R_yeh" = -40;
+"@MMK_L_pyramid" = -20;
+"@MMK_L_yeh" = -40;
 };
 "hah-ar.medi.3" = {
-"@MMK_R_hah-ar.init" = -40;
-"@MMK_R_pyramid" = -30;
-"@MMK_R_waw" = -40;
-"@MMK_R_yeh" = -40;
+"@MMK_L_hah-ar.init" = -40;
+"@MMK_L_pyramid" = -30;
+"@MMK_L_waw" = -40;
+"@MMK_L_yeh" = -40;
 "meem-ar.fina.2" = -50;
 };
 "kaf-ar.init.2" = {
-"@MMK_R_yeh" = -30;
+"@MMK_L_yeh" = -30;
 };
 "kaf-ar.medi.2" = {
-"@MMK_R_yeh" = -30;
+"@MMK_L_yeh" = -30;
 };
 };
 };
-manufacturer = "Alif Type";
-manufacturerURL = "https://aliftype.com";
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = ENG;
+value = "Copyright 2021 The Qahiri Project Authors (github.com/aliftype/qahiri).";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = ENG;
+value = "Qahiri is a Kufic typeface based on the modernized and regularized old manuscript Kufic calligraphy style of the late master of Arabic calligraphy Mohammad Abdul Qadir.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = ENG;
+value = "Khaled Hosny";
+}
+);
+},
+{
+key = designerURL;
+value = "https://aliftype.com";
+},
+{
+key = licenses;
+values = (
+{
+language = ENG;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = ENG;
+value = "Alif Type";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://aliftype.com";
+},
+{
+key = sampleTexts;
+values = (
+{
+language = ENG;
+value = "صف خلق خود كمثل الشمس إذ بزغت يحظى الضجيع بها نجلاء معطار";
+}
+);
+},
+{
+key = vendorID;
+value = ALIF;
+}
+);
+settings = {
+keepAlternatesTogether = 1;
+};
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+name = vStem0;
+}
+);
 unitsPerEm = 750;
 userData = {
 GSDimensionPlugin.Dimensions = {

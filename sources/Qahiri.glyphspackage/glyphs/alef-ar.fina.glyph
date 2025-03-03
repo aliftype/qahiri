@@ -5,30 +5,30 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{44, -20}";
+pos = (44,-20);
 },
 {
 name = top;
-position = "{40, 569}";
+pos = (40,569);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"120 0 LINE",
-"120 70 LINE",
-"90 70 LINE SMOOTH",
-"83 70 OFFCURVE",
-"80 73 OFFCURVE",
-"80 80 CURVE SMOOTH",
-"80 560 LINE",
-"0 540 LINE",
-"0 40 LINE SMOOTH",
-"0 15 OFFCURVE",
-"15 0 OFFCURVE",
-"38 0 CURVE SMOOTH"
+(120,0,l),
+(120,70,l),
+(90,70,ls),
+(83,70,o),
+(80,73,o),
+(80,80,cs),
+(80,560,l),
+(0,540,l),
+(0,40,ls),
+(0,15,o),
+(15,0,o),
+(38,0,cs)
 );
 }
 );

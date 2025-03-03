@@ -2,15 +2,16 @@
 glyphname = parenleft;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = parenright;
-transform = "{-1, 0, 0, -1, 122, 460}";
+angle = 180;
+pos = (122,460);
+ref = parenright;
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 162;
 }
 );
-unicode = 0028;
+unicode = 40;
 }

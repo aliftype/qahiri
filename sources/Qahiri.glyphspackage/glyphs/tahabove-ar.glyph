@@ -5,43 +5,43 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{74, 0}";
+pos = (74,0);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"142 0 LINE SMOOTH",
-"146 0 OFFCURVE",
-"148 0 OFFCURVE",
-"148 6 CURVE SMOOTH",
-"148 50 OFFCURVE",
-"127 59 OFFCURVE",
-"113 59 CURVE SMOOTH",
-"50 59 LINE",
-"50 115 LINE",
-"25 109 LINE",
-"25 21 LINE",
-"12 21 LINE",
-"0 0 LINE"
+(142,0,ls),
+(146,0,o),
+(148,0,o),
+(148,6,cs),
+(148,50,o),
+(127,59,o),
+(113,59,cs),
+(50,59,l),
+(50,115,l),
+(25,109,l),
+(25,21,l),
+(12,21,l),
+(0,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"50 35 LINE",
-"109 35 LINE SMOOTH",
-"117 35 OFFCURVE",
-"123 29 OFFCURVE",
-"123 21 CURVE",
-"50 21 LINE"
+(50,35,l),
+(109,35,ls),
+(117,35,o),
+(123,29,o),
+(123,21,c),
+(50,21,l)
 );
 }
 );
 width = 148;
 }
 );
-unicode = 0615;
+unicode = 1557;
 }

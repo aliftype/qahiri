@@ -1,50 +1,49 @@
 {
 glyphname = "alefMaksura-ar.fina.tooth";
+kernRight = yeh;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{120, -250}";
+pos = (120,-250);
 },
 {
 name = entry;
-position = "{0, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"259 -220 LINE SMOOTH",
-"265 -220 OFFCURVE",
-"280 -220 OFFCURVE",
-"280 -199 CURVE SMOOTH",
-"280 -60 OFFCURVE",
-"210 -40 OFFCURVE",
-"166 -40 CURVE SMOOTH",
-"90 -40 LINE SMOOTH",
-"83 -40 OFFCURVE",
-"80 -37 OFFCURVE",
-"80 -30 CURVE SMOOTH",
-"80 50 LINE",
-"0 50 LINE",
-"0 -70 LINE SMOOTH",
-"0 -95 OFFCURVE",
-"15 -110 OFFCURVE",
-"38 -110 CURVE SMOOTH",
-"156 -110 LINE SMOOTH",
-"178 -110 OFFCURVE",
-"196 -128 OFFCURVE",
-"196 -150 CURVE",
-"0 -150 LINE",
-"-40 -220 LINE"
+(259,-220,ls),
+(265,-220,o),
+(280,-220,o),
+(280,-199,cs),
+(280,-60,o),
+(210,-40,o),
+(166,-40,cs),
+(90,-40,ls),
+(83,-40,o),
+(80,-37,o),
+(80,-30,cs),
+(80,50,l),
+(0,50,l),
+(0,-70,ls),
+(0,-95,o),
+(15,-110,o),
+(38,-110,cs),
+(156,-110,ls),
+(178,-110,o),
+(196,-128,o),
+(196,-150,c),
+(0,-150,l),
+(-40,-220,l)
 );
 }
 );
 width = 280;
 }
 );
-leftKerningGroup = yeh;
 }

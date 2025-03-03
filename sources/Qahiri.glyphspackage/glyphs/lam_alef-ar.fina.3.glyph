@@ -5,56 +5,56 @@ layers = (
 anchors = (
 {
 name = bottom_1;
-position = "{220, -20}";
+pos = (220,-20);
 },
 {
 name = bottom_2;
-position = "{64, -20}";
+pos = (64,-20);
 },
 {
 name = caret_1;
-position = "{140, 0}";
+pos = (140,0);
 },
 {
 name = exit;
-position = "{240, 0}";
+pos = (240,0);
 },
 {
 name = top_1;
-position = "{201, 570}";
+pos = (201,570);
 },
 {
 name = top_2;
-position = "{80, 540}";
+pos = (80,540);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"320 0 LINE",
-"320 70 LINE",
-"191 70 LINE",
-"249 41 LINE",
-"120 210 LINE",
-"120 530 LINE",
-"40 510 LINE",
-"40 210 LINE",
-"180 70 LINE",
-"163 57 OFFCURVE",
-"117 57 OFFCURVE",
-"100 70 CURVE",
-"240 210 LINE",
-"240 560 LINE",
-"160 540 LINE",
-"160 210 LINE",
-"0 0 LINE"
+(320,0,l),
+(320,70,l),
+(191,70,l),
+(249,41,l),
+(120,210,l),
+(120,530,l),
+(40,510,l),
+(40,210,l),
+(180,70,l),
+(163,57,o),
+(117,57,o),
+(100,70,c),
+(240,210,l),
+(240,560,l),
+(160,540,l),
+(160,210,l),
+(0,0,l)
 );
 }
 );
 width = 320;
 }
 );
-widthMetricsKey = "=lam_alef-ar.3";
+metricWidth = "=lam_alef-ar.3";
 }

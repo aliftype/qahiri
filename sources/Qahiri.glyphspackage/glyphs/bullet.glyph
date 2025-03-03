@@ -2,15 +2,16 @@
 glyphname = bullet;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = period;
-transform = "{1.4641, 0, 0, 1.4641, 0, 103}";
+pos = (0,103);
+ref = period;
+scale = (1.4641,1.4641);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 157;
 }
 );
-unicode = 2022;
+unicode = 8226;
 }

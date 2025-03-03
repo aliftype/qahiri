@@ -2,38 +2,38 @@
 glyphname = "one-ar";
 layers = (
 {
-guideLines = (
+guides = (
 {
-position = "{0, 70}";
+pos = (0,70);
 },
 {
-position = "{0, 140}";
+pos = (0,140);
 },
 {
-position = "{0, 210}";
+pos = (0,210);
 },
 {
-position = "{0, 280}";
+pos = (0,280);
 },
 {
-position = "{0, 350}";
+pos = (0,350);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"70 0 LINE",
-"70 350 LINE",
-"0 350 LINE",
-"0 0 LINE"
+(70,0,l),
+(70,350,l),
+(0,350,l),
+(0,0,l)
 );
 }
 );
 width = 110;
 }
 );
-widthMetricsKey = "=zero-ar";
-unicode = "0661,06F1,0031";
+metricWidth = "=zero-ar";
+unicode = (1633,1777,49);
 }

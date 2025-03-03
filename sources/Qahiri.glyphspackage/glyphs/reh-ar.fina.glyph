@@ -1,47 +1,47 @@
 {
 glyphname = "reh-ar.fina";
+kernLeft = reh;
+kernRight = reh.fina;
 layers = (
 {
 anchors = (
 {
 name = top;
-position = "{117, 215}";
+pos = (117,215);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"276 -110 LINE SMOOTH",
-"282 -110 OFFCURVE",
-"297 -110 OFFCURVE",
-"297 -89 CURVE SMOOTH",
-"297 50 OFFCURVE",
-"228 93 OFFCURVE",
-"81 140 CURVE",
-"1 0 LINE",
-"173 0 LINE SMOOTH",
-"195 0 OFFCURVE",
-"213 -18 OFFCURVE",
-"213 -40 CURVE",
-"-23 -40 LINE",
-"-63 -110 LINE"
+(276,-110,ls),
+(282,-110,o),
+(297,-110,o),
+(297,-89,cs),
+(297,50,o),
+(228,93,o),
+(81,140,c),
+(1,0,l),
+(173,0,ls),
+(195,0,o),
+(213,-18,o),
+(213,-40,c),
+(-23,-40,l),
+(-63,-110,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"283 0 LINE",
-"283 70 LINE",
-"183 70 LINE",
-"223 0 LINE"
+(283,0,l),
+(283,70,l),
+(183,70,l),
+(223,0,l)
 );
 }
 );
 width = 283;
 }
 );
-leftKerningGroup = reh.fina;
-rightKerningGroup = reh;
 }

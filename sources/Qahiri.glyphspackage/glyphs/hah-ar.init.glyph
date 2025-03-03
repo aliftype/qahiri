@@ -1,18 +1,20 @@
 {
 glyphname = "hah-ar.init";
+kernLeft = "meem-ar.medi";
+kernRight = "hah-ar.init";
 layers = (
 {
 associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 layerId = "6b2944f6-386a-4df7-bde1-fdc02766a452";
 name = Background;
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"70 70 LINE",
-"0 140 LINE",
-"42.749 209.841 LINE",
-"182.958 70 LINE"
+(70,70,l),
+(0,140,l),
+(42.749,209.841,l),
+(182.958,70,l)
 );
 }
 );
@@ -22,47 +24,44 @@ width = 400;
 anchors = (
 {
 name = bottom;
-position = "{170, -35}";
+pos = (170,-35);
 },
 {
 name = exit;
-position = "{0, 0}";
 },
 {
 name = top;
-position = "{269, 163}";
+pos = (269,163);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"223 50 LINE",
-"223 70 LINE",
-"165 70 OFFCURVE",
-"104 135 OFFCURVE",
-"43 210 CURVE",
-"0 140 LINE",
-"19 112 OFFCURVE",
-"47 83 OFFCURVE",
-"62 70 CURVE",
-"62 50 LINE"
+(223,50,l),
+(223,70,l),
+(165,70,o),
+(104,135,o),
+(43,210,c),
+(0,140,l),
+(19,112,o),
+(47,83,o),
+(62,70,c),
+(62,50,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"319 0 LINE",
-"360 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
+(319,0,l),
+(360,70,l),
+(-20,70,l),
+(-20,0,l)
 );
 }
 );
 width = 400;
 }
 );
-leftKerningGroup = "hah-ar.init";
-rightKerningGroup = "meem-ar.medi";
 }

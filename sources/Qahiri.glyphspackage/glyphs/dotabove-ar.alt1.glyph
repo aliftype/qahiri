@@ -5,26 +5,26 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{29, 0}";
+pos = (29,0);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"45 0 OFFCURVE",
-"58 13 OFFCURVE",
-"58 29 CURVE SMOOTH",
-"58 45 OFFCURVE",
-"45 58 OFFCURVE",
-"29 58 CURVE SMOOTH",
-"13 58 OFFCURVE",
-"0 45 OFFCURVE",
-"0 29 CURVE SMOOTH",
-"0 13 OFFCURVE",
-"13 0 OFFCURVE",
-"29 0 CURVE SMOOTH"
+(45,0,o),
+(58,13,o),
+(58,29,cs),
+(58,45,o),
+(45,58,o),
+(29,58,cs),
+(13,58,o),
+(0,45,o),
+(0,29,cs),
+(0,13,o),
+(13,0,o),
+(29,0,cs)
 );
 }
 );
@@ -34,20 +34,20 @@ width = 58;
 anchors = (
 {
 name = _top;
-position = "{40, -40}";
+pos = (40,-40);
 }
 );
 associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 layerId = "EE17D735-ABCF-480D-8CC3-543DD761DBD5";
 name = "Mar 9 20, 00:16";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"0 -25.213 LINE",
-"65.612 40.399 LINE",
-"79.754 26.257 LINE",
-"14.142 -39.355 LINE"
+(0,-25.213,l),
+(65.612,40.399,l),
+(79.754,26.257,l),
+(14.142,-39.355,l)
 );
 }
 );

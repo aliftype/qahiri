@@ -3,27 +3,27 @@ glyphname = period;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"62 0 OFFCURVE",
-"80 18 OFFCURVE",
-"80 40 CURVE SMOOTH",
-"80 62 OFFCURVE",
-"62 80 OFFCURVE",
-"40 80 CURVE SMOOTH",
-"18 80 OFFCURVE",
-"0 62 OFFCURVE",
-"0 40 CURVE SMOOTH",
-"0 18 OFFCURVE",
-"18 0 OFFCURVE",
-"40 0 CURVE SMOOTH"
+(62,0,o),
+(80,18,o),
+(80,40,cs),
+(80,62,o),
+(62,80,o),
+(40,80,cs),
+(18,80,o),
+(0,62,o),
+(0,40,cs),
+(0,18,o),
+(18,0,o),
+(40,0,cs)
 );
 }
 );
 width = 120;
 }
 );
-unicode = 002E;
+unicode = 46;
 }

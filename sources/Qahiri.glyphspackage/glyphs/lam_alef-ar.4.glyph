@@ -5,60 +5,60 @@ layers = (
 anchors = (
 {
 name = bottom_1;
-position = "{260, -20}";
+pos = (260,-20);
 },
 {
 name = bottom_2;
-position = "{104, -20}";
+pos = (104,-20);
 },
 {
 name = caret_1;
-position = "{180, 0}";
+pos = (180,0);
 },
 {
 name = top_1;
-position = "{241, 570}";
+pos = (241,570);
 },
 {
 name = top_2;
-position = "{120, 570}";
+pos = (120,570);
 }
 );
-guideLines = (
+guides = (
 {
-position = "{-102, 210}";
+pos = (-102,210);
 },
 {
-position = "{-102, 60}";
+pos = (-102,60);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"360 0 LINE",
-"282 57 OFFCURVE",
-"160 172 OFFCURVE",
-"160 235 CURVE SMOOTH",
-"160 560 LINE",
-"80 540 LINE",
-"80 235 LINE SMOOTH",
-"80 217 OFFCURVE",
-"96 194 OFFCURVE",
-"109 181 CURVE SMOOTH",
-"220 70 LINE",
-"140 70 LINE",
-"251 181 LINE SMOOTH",
-"264 194 OFFCURVE",
-"280 212 OFFCURVE",
-"280 235 CURVE SMOOTH",
-"280 560 LINE",
-"200 540 LINE",
-"200 235 LINE SMOOTH",
-"200 172 OFFCURVE",
-"78 57 OFFCURVE",
-"0 0 CURVE"
+(360,0,l),
+(282,57,o),
+(160,172,o),
+(160,235,cs),
+(160,560,l),
+(80,540,l),
+(80,235,ls),
+(80,217,o),
+(96,194,o),
+(109,181,cs),
+(220,70,l),
+(140,70,l),
+(251,181,ls),
+(264,194,o),
+(280,212,o),
+(280,235,cs),
+(280,560,l),
+(200,540,l),
+(200,235,ls),
+(200,172,o),
+(78,57,o),
+(0,0,c)
 );
 }
 );
@@ -68,54 +68,54 @@ width = 400;
 anchors = (
 {
 name = bottom_1;
-position = "{260, 0}";
+pos = (260,0);
 },
 {
 name = bottom_2;
-position = "{104, 0}";
+pos = (104,0);
 },
 {
 name = caret;
-position = "{180, 0}";
+pos = (180,0);
 },
 {
 name = top_1;
-position = "{241, 570}";
+pos = (241,570);
 },
 {
 name = top_2;
-position = "{120, 570}";
+pos = (120,570);
 }
 );
 associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-guideLines = (
+guides = (
 {
-position = "{-102, 210}";
+pos = (-102,210);
 },
 {
-position = "{-102, 60}";
+pos = (-102,60);
 }
 );
 layerId = "C46413DF-93AE-4F9A-9C2C-42A8FE2320D2";
 name = "Mar 10 20, 07:19";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"320 0 LINE",
-"160 210 LINE",
-"160 530 LINE",
-"80 510 LINE",
-"80 210 LINE",
-"220 70 LINE",
-"203 57 OFFCURVE",
-"157 57 OFFCURVE",
-"140 70 CURVE",
-"280 210 LINE",
-"280 560 LINE",
-"200 540 LINE",
-"200 210 LINE",
-"40 0 LINE"
+(320,0,l),
+(160,210,l),
+(160,530,l),
+(80,510,l),
+(80,210,l),
+(220,70,l),
+(203,57,o),
+(157,57,o),
+(140,70,c),
+(280,210,l),
+(280,560,l),
+(200,540,l),
+(200,210,l),
+(40,0,l)
 );
 }
 );

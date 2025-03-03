@@ -2,43 +2,43 @@
 glyphname = "four-ar.osf.2";
 layers = (
 {
-components = (
+guides = (
 {
-name = "four-ar.2";
-}
-);
-guideLines = (
-{
-position = "{0, 70}";
+pos = (0,70);
 },
 {
-position = "{0, 140}";
+pos = (0,140);
 },
 {
-position = "{0, 210}";
+pos = (0,210);
 },
 {
-position = "{0, 280}";
+pos = (0,280);
 },
 {
-position = "{0, 350}";
+pos = (0,350);
 },
 {
 angle = 90;
-position = "{140, 450}";
+pos = (140,450);
 },
 {
 angle = 90;
-position = "{70, 450}";
+pos = (70,450);
 },
 {
 angle = 90;
-position = "{210, 450}";
+pos = (210,450);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+ref = "four-ar.2";
+}
+);
 width = 250;
 }
 );
-widthMetricsKey = "=two-ar";
+metricWidth = "=two-ar";
 }

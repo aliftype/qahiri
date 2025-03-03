@@ -2,17 +2,18 @@
 glyphname = quotedblleft;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = quotedblright;
-transform = "{-1, 0, 0, -1, 140, 884}";
+angle = 180;
+pos = (140,884);
+ref = quotedblright;
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 180;
 }
 );
-widthMetricsKey = "=quotedblright";
-rightMetricsKey = "=quotedblright";
-unicode = 201C;
+metricRight = "=quotedblright";
+metricWidth = "=quotedblright";
+unicode = 8220;
 }

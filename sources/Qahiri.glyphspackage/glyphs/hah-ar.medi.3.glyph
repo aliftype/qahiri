@@ -1,48 +1,47 @@
 {
 glyphname = "hah-ar.medi.3";
+kernRight = waw;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{70, -35}";
+pos = (70,-35);
 },
 {
 name = entry;
-position = "{191, 0}";
+pos = (191,0);
 },
 {
 name = exit;
-position = "{0, 0}";
 },
 {
 name = top;
-position = "{36, 305}";
+pos = (36,305);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"251 0 LINE",
-"251 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
+(251,0,l),
+(251,70,l),
+(-20,70,l),
+(-20,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"251 -103 LINE",
-"59 230 LINE",
-"0 173 LINE",
-"192 -160 LINE"
+(251,-103,l),
+(59,230,l),
+(0,173,l),
+(192,-160,l)
 );
 }
 );
 width = 191;
 }
 );
-leftKerningGroup = waw;
 }

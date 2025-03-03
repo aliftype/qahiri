@@ -3,26 +3,26 @@ glyphname = r.2;
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"80 0 LINE",
-"80 90 LINE SMOOTH",
-"80 101 OFFCURVE",
-"89 110 OFFCURVE",
-"100 110 CURVE SMOOTH",
-"107 110 OFFCURVE",
-"114 106 OFFCURVE",
-"117 100 CURVE",
-"177 148 LINE",
-"158 167 OFFCURVE",
-"131 180 OFFCURVE",
-"100 180 CURVE SMOOTH",
-"60 180 OFFCURVE",
-"20 185 OFFCURVE",
-"0 220 CURVE",
-"0 0 LINE"
+(80,0,l),
+(80,90,ls),
+(80,101,o),
+(89,110,o),
+(100,110,cs),
+(107,110,o),
+(114,106,o),
+(117,100,c),
+(177,148,l),
+(158,167,o),
+(131,180,o),
+(100,180,cs),
+(60,180,o),
+(20,185,o),
+(0,220,c),
+(0,0,l)
 );
 }
 );

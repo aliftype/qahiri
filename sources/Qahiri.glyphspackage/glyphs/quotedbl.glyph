@@ -2,18 +2,18 @@
 glyphname = quotedbl;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = quotesingle;
+ref = quotesingle;
 },
 {
-name = quotesingle;
-transform = "{1, 0, 0, 1, 80, 0}";
+pos = (80,0);
+ref = quotesingle;
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 160;
 }
 );
-unicode = 0022;
+unicode = 34;
 }

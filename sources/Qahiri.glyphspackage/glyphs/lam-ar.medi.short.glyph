@@ -5,34 +5,33 @@ layers = (
 anchors = (
 {
 name = entry;
-position = "{120, 0}";
+pos = (120,0);
 },
 {
 name = exit;
-position = "{0, 0}";
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"120 0 LINE",
-"120 70 LINE",
-"98 70 OFFCURVE",
-"80 88 OFFCURVE",
-"80 110 CURVE SMOOTH",
-"80 450 LINE",
-"0 430 LINE",
-"0 70 LINE",
-"-20 70 LINE",
-"-20 0 LINE"
+(120,0,l),
+(120,70,l),
+(98,70,o),
+(80,88,o),
+(80,110,cs),
+(80,450,l),
+(0,430,l),
+(0,70,l),
+(-20,70,l),
+(-20,0,l)
 );
 }
 );
 width = 120;
 }
 );
-widthMetricsKey = "=lam-ar.init";
-rightMetricsKey = "=lam-ar.medi";
+metricRight = "=lam-ar.medi";
+metricWidth = "=lam-ar.init";
 }

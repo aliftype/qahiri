@@ -5,15 +5,15 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{47, 146}";
-}
-);
-components = (
-{
-name = "twodotsverticalabove-ar";
+pos = (47,146);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+ref = "twodotsverticalabove-ar";
+}
+);
 width = 76;
 }
 );

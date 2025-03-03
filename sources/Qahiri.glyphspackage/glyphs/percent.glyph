@@ -2,52 +2,50 @@
 glyphname = percent;
 layers = (
 {
-components = (
-{
-name = slash;
-}
-);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"119 422 LINE",
-"119 540 LINE",
-"0 540 LINE",
-"0 422 LINE"
+(119,422,l),
+(119,540,l),
+(0,540,l),
+(0,422,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"229 20 LINE",
-"229 138 LINE",
-"110 138 LINE",
-"110 20 LINE"
+(229,20,l),
+(229,138,l),
+(110,138,l),
+(110,20,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"150 98 LINE",
-"189 98 LINE",
-"189 60 LINE",
-"150 60 LINE"
+(150,98,l),
+(189,98,l),
+(189,60,l),
+(150,60,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"40 500 LINE",
-"79 500 LINE",
-"79 462 LINE",
-"40 462 LINE"
+(40,500,l),
+(79,500,l),
+(79,462,l),
+(40,462,l)
 );
+},
+{
+ref = slash;
 }
 );
 width = 276;
 }
 );
-unicode = 0025;
+unicode = 37;
 }

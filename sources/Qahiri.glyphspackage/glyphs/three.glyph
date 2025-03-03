@@ -2,16 +2,17 @@
 glyphname = three;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
 alignment = -1;
-name = "four-ar.2";
-transform = "{-1, 0, 0, -1, 210, 350}";
+angle = 180;
+pos = (210,350);
+ref = "four-ar.2";
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 250;
 }
 );
-unicode = 0033;
+unicode = 51;
 }

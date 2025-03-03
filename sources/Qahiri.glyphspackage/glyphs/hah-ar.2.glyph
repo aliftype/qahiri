@@ -5,51 +5,51 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{300, -145}";
+pos = (300,-145);
 },
 {
 name = top;
-position = "{509, 163}";
+pos = (509,163);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"535 -110 LINE",
-"576 -40 LINE",
-"100 -40 LINE SMOOTH",
-"89 -40 OFFCURVE",
-"80 -31 OFFCURVE",
-"80 -20 CURVE SMOOTH",
-"80 -9 OFFCURVE",
-"89 0 OFFCURVE",
-"100 0 CURVE SMOOTH",
-"599 0 LINE",
-"640 70 LINE",
-"90 70 LINE SMOOTH",
-"40 70 OFFCURVE",
-"0 30 OFFCURVE",
-"0 -20 CURVE SMOOTH",
-"0 -70 OFFCURVE",
-"40 -110 OFFCURVE",
-"90 -110 CURVE SMOOTH"
+(535,-110,l),
+(576,-40,l),
+(100,-40,ls),
+(89,-40,o),
+(80,-31,o),
+(80,-20,cs),
+(80,-9,o),
+(89,0,o),
+(100,0,cs),
+(599,0,l),
+(640,70,l),
+(90,70,ls),
+(40,70,o),
+(0,30,o),
+(0,-20,cs),
+(0,-70,o),
+(40,-110,o),
+(90,-110,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-"463 50 LINE",
-"463 70 LINE",
-"405 70 OFFCURVE",
-"344 135 OFFCURVE",
-"283 210 CURVE",
-"240 140 LINE",
-"259 112 OFFCURVE",
-"287 83 OFFCURVE",
-"302 70 CURVE",
-"302 50 LINE"
+(463,50,l),
+(463,70,l),
+(405,70,o),
+(344,135,o),
+(283,210,c),
+(240,140,l),
+(259,112,o),
+(287,83,o),
+(302,70,c),
+(302,50,l)
 );
 }
 );

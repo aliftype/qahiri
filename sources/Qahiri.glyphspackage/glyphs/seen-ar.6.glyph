@@ -1,50 +1,50 @@
 {
 glyphname = "seen-ar.6";
+kernLeft = bowel;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{213, -35}";
+pos = (213,-35);
 },
 {
 name = top;
-position = "{180, 202}";
+pos = (180,202);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"112 -250 LINE SMOOTH",
-"135 -250 OFFCURVE",
-"150 -235 OFFCURVE",
-"150 -210 CURVE SMOOTH",
-"150 0 LINE",
-"309 0 LINE SMOOTH",
-"315 0 OFFCURVE",
-"330 0 OFFCURVE",
-"330 11 CURVE SMOOTH",
-"330 177 LINE",
-"250 157 LINE",
-"250 70 LINE",
-"180 140 LINE",
-"140 70 LINE",
-"70 140 LINE",
-"30 70 LINE",
-"70 30 LINE",
-"70 -180 LINE",
-"-30 -180 LINE SMOOTH",
-"-50 -180 OFFCURVE",
-"-67 -175 OFFCURVE",
-"-78 -160 CURVE",
-"-130 -250 LINE"
+(112,-250,ls),
+(135,-250,o),
+(150,-235,o),
+(150,-210,cs),
+(150,0,l),
+(309,0,ls),
+(315,0,o),
+(330,0,o),
+(330,11,cs),
+(330,177,l),
+(250,157,l),
+(250,70,l),
+(180,140,l),
+(140,70,l),
+(70,140,l),
+(30,70,l),
+(70,30,l),
+(70,-180,l),
+(-30,-180,ls),
+(-50,-180,o),
+(-67,-175,o),
+(-78,-160,c),
+(-130,-250,l)
 );
 }
 );
 width = 370;
 }
 );
-rightKerningGroup = bowel;
 }

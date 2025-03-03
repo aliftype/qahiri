@@ -1,59 +1,59 @@
 {
 glyphname = "sad-ar";
+kernLeft = bowel;
 layers = (
 {
 anchors = (
 {
 name = top;
-position = "{380, 255}";
+pos = (380,255);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"125 -250 LINE SMOOTH",
-"148 -250 OFFCURVE",
-"163 -235 OFFCURVE",
-"163 -210 CURVE SMOOTH",
-"163 146 LINE",
-"150 180 LINE",
-"70 260 LINE",
-"30 190 LINE",
-"83 137 LINE",
-"83 -180 LINE",
-"-17 -180 LINE SMOOTH",
-"-37 -180 OFFCURVE",
-"-54 -175 OFFCURVE",
-"-65 -160 CURVE",
-"-117 -250 LINE"
+(125,-250,ls),
+(148,-250,o),
+(163,-235,o),
+(163,-210,cs),
+(163,146,l),
+(150,180,l),
+(70,260,l),
+(30,190,l),
+(83,137,l),
+(83,-180,l),
+(-17,-180,ls),
+(-37,-180,o),
+(-54,-175,o),
+(-65,-160,c),
+(-117,-250,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"679 0 LINE SMOOTH",
-"685 0 OFFCURVE",
-"700 0 OFFCURVE",
-"700 21 CURVE SMOOTH",
-"700 160 OFFCURVE",
-"630 180 OFFCURVE",
-"586 180 CURVE SMOOTH",
-"113 180 LINE",
-"113 110 LINE",
-"576 110 LINE SMOOTH",
-"598 110 OFFCURVE",
-"616 92 OFFCURVE",
-"616 70 CURVE",
-"113 70 LINE",
-"113 0 LINE"
+(679,0,ls),
+(685,0,o),
+(700,0,o),
+(700,21,cs),
+(700,160,o),
+(630,180,o),
+(586,180,cs),
+(113,180,l),
+(113,110,l),
+(576,110,ls),
+(598,110,o),
+(616,92,o),
+(616,70,c),
+(113,70,l),
+(113,0,l)
 );
 }
 );
 width = 740;
 }
 );
-rightKerningGroup = bowel;
-unicode = 0635;
+unicode = 1589;
 }

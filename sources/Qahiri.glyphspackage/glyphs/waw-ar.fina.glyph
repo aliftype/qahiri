@@ -1,66 +1,66 @@
 {
 glyphname = "waw-ar.fina";
+kernLeft = waw;
+kernRight = waw;
 layers = (
 {
 anchors = (
 {
 name = top;
-position = "{129, 230}";
+pos = (129,230);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"206 -110 LINE SMOOTH",
-"235 -110 OFFCURVE",
-"243 -61 OFFCURVE",
-"243 0 CURVE",
-"280 0 LINE",
-"280 70 LINE",
-"236 70 LINE",
-"224 128 OFFCURVE",
-"195 180 OFFCURVE",
-"131 180 CURVE SMOOTH",
-"75 180 OFFCURVE",
-"30 140 OFFCURVE",
-"30 90 CURVE SMOOTH",
-"30 40 OFFCURVE",
-"75 0 OFFCURVE",
-"130 0 CURVE SMOOTH",
-"161 0 LINE",
-"163 -12 OFFCURVE",
-"163 -27 OFFCURVE",
-"160 -40 CURVE",
-"50 -40 LINE SMOOTH",
-"28 -40 OFFCURVE",
-"12 -33 OFFCURVE",
-"2 -20 CURVE",
-"-50 -110 LINE"
+(206,-110,ls),
+(235,-110,o),
+(243,-61,o),
+(243,0,c),
+(280,0,l),
+(280,70,l),
+(236,70,l),
+(224,128,o),
+(195,180,o),
+(131,180,cs),
+(75,180,o),
+(30,140,o),
+(30,90,cs),
+(30,40,o),
+(75,0,o),
+(130,0,cs),
+(161,0,l),
+(163,-12,o),
+(163,-27,o),
+(160,-40,c),
+(50,-40,ls),
+(28,-40,o),
+(12,-33,o),
+(2,-20,c),
+(-50,-110,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"119 70 OFFCURVE",
-"110 79 OFFCURVE",
-"110 90 CURVE SMOOTH",
-"110 101 OFFCURVE",
-"119 110 OFFCURVE",
-"130 110 CURVE SMOOTH",
-"141 110 OFFCURVE",
-"150 101 OFFCURVE",
-"150 90 CURVE SMOOTH",
-"150 79 OFFCURVE",
-"141 70 OFFCURVE",
-"130 70 CURVE SMOOTH"
+(119,70,o),
+(110,79,o),
+(110,90,cs),
+(110,101,o),
+(119,110,o),
+(130,110,cs),
+(141,110,o),
+(150,101,o),
+(150,90,cs),
+(150,79,o),
+(141,70,o),
+(130,70,cs)
 );
 }
 );
 width = 280;
 }
 );
-leftKerningGroup = waw;
-rightKerningGroup = waw;
 }

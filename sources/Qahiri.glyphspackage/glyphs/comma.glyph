@@ -2,17 +2,18 @@
 glyphname = comma;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = "comma-ar";
-transform = "{-1, 0, 0, -1, 80, 70}";
+angle = 180;
+pos = (80,70);
+ref = "comma-ar";
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 120;
 }
 );
-widthMetricsKey = "=comma-ar";
-rightMetricsKey = "=comma-ar";
-unicode = 002C;
+metricRight = "=comma-ar";
+metricWidth = "=comma-ar";
+unicode = 44;
 }

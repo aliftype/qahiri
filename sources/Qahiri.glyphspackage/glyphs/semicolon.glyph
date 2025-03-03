@@ -2,20 +2,20 @@
 glyphname = semicolon;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = period;
-transform = "{1, 0, 0, 1, 0, 180}";
+pos = (0,180);
+ref = period;
 },
 {
-name = comma;
+ref = comma;
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 120;
 }
 );
-widthMetricsKey = "=colon";
-rightMetricsKey = "=colon";
-unicode = 003B;
+metricRight = "=colon";
+metricWidth = "=colon";
+unicode = 59;
 }

@@ -3,62 +3,62 @@ glyphname = "heh-ar.isol";
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"269 0 LINE SMOOTH",
-"275 0 OFFCURVE",
-"290 0 OFFCURVE",
-"290 11 CURVE SMOOTH",
-"290 291 LINE",
-"210 271 LINE",
-"210 70 LINE",
-"100 70 LINE SMOOTH",
-"78 70 OFFCURVE",
-"62 77 OFFCURVE",
-"52 90 CURVE",
-"0 0 LINE"
+(269,0,ls),
+(275,0,o),
+(290,0,o),
+(290,11,cs),
+(290,291,l),
+(210,271,l),
+(210,70,l),
+(100,70,ls),
+(78,70,o),
+(62,77,o),
+(52,90,c),
+(0,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"257 50 LINE",
-"210 220 LINE",
-"145 220 OFFCURVE",
-"88 188 OFFCURVE",
-"88 116 CURVE SMOOTH",
-"88 83 OFFCURVE",
-"100 59 OFFCURVE",
-"114 50 CURVE"
+(257,50,l),
+(210,220,l),
+(145,220,o),
+(88,188,o),
+(88,116,cs),
+(88,83,o),
+(100,59,o),
+(114,50,c)
 );
 },
 {
 closed = 1;
 nodes = (
-"189 70 OFFCURVE",
-"172 86 OFFCURVE",
-"170 106 CURVE",
-"191 106 OFFCURVE",
-"208 90 OFFCURVE",
-"210 70 CURVE"
+(189,70,o),
+(172,86,o),
+(170,106,c),
+(191,106,o),
+(208,90,o),
+(210,70,c)
 );
 },
 {
 closed = 1;
 nodes = (
-"172 134 OFFCURVE",
-"189 150 OFFCURVE",
-"210 150 CURVE",
-"208 130 OFFCURVE",
-"191 114 OFFCURVE",
-"170 114 CURVE"
+(172,134,o),
+(189,150,o),
+(210,150,c),
+(208,130,o),
+(191,114,o),
+(170,114,c)
 );
 }
 );
 width = 330;
 }
 );
-rightMetricsKey = "=heh-ar.init.5";
+metricRight = "=heh-ar.init.5";
 }

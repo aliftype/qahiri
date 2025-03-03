@@ -2,13 +2,14 @@
 glyphname = five.numr;
 layers = (
 {
-components = (
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
 {
-name = five;
-transform = "{0.7, 0, 0, 0.7, 0, 300}";
+pos = (0,300);
+ref = five;
+scale = (0.7,0.7);
 }
 );
-layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 175;
 }
 );

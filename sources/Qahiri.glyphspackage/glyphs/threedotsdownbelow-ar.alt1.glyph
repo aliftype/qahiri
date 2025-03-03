@@ -5,18 +5,19 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{70, 128}";
-}
-);
-components = (
-{
-name = "threedotsupabove-ar.alt1";
-transform = "{1, 0, 0, -1, 0, 128}";
+pos = (70,128);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+pos = (0,128);
+ref = "threedotsupabove-ar.alt1";
+scale = (1,-1);
+}
+);
 width = 140;
 }
 );
-widthMetricsKey = "=threedotsupabove-ar.alt1";
+metricWidth = "=threedotsupabove-ar.alt1";
 }
