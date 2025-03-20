@@ -476,17 +476,6 @@ def build(instance, isTTF, version):
 
     fb.addOpenTypeFeatures(fea)
 
-    if isTTF:
-        from fontTools.ttLib.tables import ttProgram
-
-        fb.font["gasp"] = gasp = newTable("gasp")
-        gasp.gaspRange = {0xFFFF: 15}
-
-        fb.font["prep"] = prep = newTable("prep")
-        prep.program = ttProgram.Program()
-        assembly = ["PUSHW[]", "511", "SCANCTRL[]", "PUSHB[]", "4", "SCANTYPE[]"]
-        prep.program.fromAssembly(assembly)
-
     return fb.font
 
 
