@@ -26,6 +26,7 @@ TESTDIR = tests
 BUILDDIR = build
 
 FONT = ${FONTDIR}/${NAME}-Regular.ttf
+SVG = FontSample.svg
 
 GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
 
@@ -38,14 +39,24 @@ DIST = ${NAME}-${VERSION}
 
 .SECONDARY:
 .ONESHELL:
-.PHONY: all clean dist ttf
+.PHONY: all clean dist ttf doc
 
-all: ttf
+all: ttf doc
 ttf: ${FONT}
+doc: ${SVG}
 
 ${FONT}: ${GLYPHSFILE}
 	$(info   BUILD  ${@F})
 	${PYTHON} ${SCRIPTDIR}/build.py $< ${VERSION} $@
+
+${SVG}: ${FONT}
+	$(info   SVG    ${@F})
+	${PYTHON} -m alifTools.sample $< \
+				      -t "أبجد هوز حطي كلمن٠١٢٣،؛:؟!" \
+				      -f "salt[11:12]=5" \
+				      --foreground=000000 \
+				      --dark-foreground=FFFFFF \
+				      -o $@
 
 dist: ${FONT}
 	$(info   DIST   ${DIST}.zip)
