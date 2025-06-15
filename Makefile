@@ -50,7 +50,7 @@ ${FONT}: ${GLYPHSFILE}
 dist: ${FONT}
 	$(info   DIST   ${DIST}.zip)
 	install -Dm644 -t ${DIST} ${FONT}
-	install -Dm644 -t ${DIST} {README,README-Arabic}.txt
+	install -Dm644 -t ${DIST} {README,README-Arabic}.md
 	install -Dm644 -t ${DIST} OFL.txt
 	zip -rq ${DIST}.zip ${DIST}
 
