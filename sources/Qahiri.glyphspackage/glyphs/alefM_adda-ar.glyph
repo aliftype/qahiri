@@ -8,6 +8,10 @@ layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 shapes = (
 {
 ref = "alef-ar";
+},
+{
+pos = (83,62);
+ref = "madda-ar";
 }
 );
 width = 360;

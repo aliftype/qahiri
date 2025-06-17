@@ -177,7 +177,7 @@ features = (
 {
 code = "  sub alefHamzaabove-ar   by alef-ar hamzaabove-ar;
   sub alefHamzabelow-ar   by alef-ar hamzabelow-ar;
-  sub alefMadda-ar        by alef-ar;
+  sub alefMadda-ar        by alef-ar madda-ar;
   sub alefWasla-ar        by alef-ar;
   sub yehHamzaabove-ar    by alefMaksura-ar hamzaabove-ar;
   sub wawHamzaabove-ar    by waw-ar hamzaabove-ar;
