@@ -115,6 +115,19 @@ value = (
 {
 name = "Propagate Anchors";
 value = 0;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Arab;
+tag = dlng;
+},
+{
+data = Arab;
+tag = slng;
+}
+);
 }
 );
 date = "2020-03-17 04:09:41 +0000";
@@ -543,6 +556,14 @@ lookup ShortLamTah {
 tag = clig;
 },
 {
+code = "# Automatic Code";
+tag = curs;
+},
+{
+code = "# Automatic Code";
+tag = mark;
+},
+{
 code = "@RehWaw = [reh-ar reh-ar.1 reh-ar.fina reh-ar.fina.1 waw-ar waw-ar.1 waw-ar.fina waw-ar.fina.1];
 lookupflag UseMarkFilteringSet @TwoDotsBelow;
   pos @RehWaw behDotless-ar.init @TwoDotsBelow' <0 -100 0 0> [reh-ar.fina reh-ar.fina.1 lam-ar.fina noonghunna-ar.fina heh-ar.medi heh-ar.medi.1 waw-ar.fina waw-ar.fina.1 alefMaksura-ar.fina.2 alefMaksura-ar.fina.3 alefMaksura-ar.fina.4];
@@ -595,6 +616,10 @@ code = "lookupflag IgnoreMarks;
  pos [lam-ar lam-ar.fina noonghunna-ar noonghunna-ar.fina] behDotless-ar.init' <0 0 200 0> [behDotless-ar.medi.yeh lam-ar.medi.yeh] alefMaksura-ar.fina.tooth;
 ";
 tag = kern;
+},
+{
+code = "# Automatic Code";
+tag = kern;
 }
 );
 fontMaster = (
@@ -613,7 +638,7 @@ value = 50;
 },
 {
 name = underlinePosition;
-value = -350;
+value = -325;
 }
 );
 guides = (

@@ -20,10 +20,8 @@ MAKEFLAGS := -sr
 PYTHON := venv/bin/python3
 
 SOURCEDIR = sources
-SCRIPTDIR = scripts
 FONTDIR = fonts
 TESTDIR = tests
-BUILDDIR = build
 
 FONT = ${FONTDIR}/${NAME}-Regular.ttf
 SVG = FontSample.svg
@@ -47,7 +45,15 @@ doc: ${SVG}
 
 ${FONT}: ${GLYPHSFILE}
 	$(info   BUILD  ${@F})
-	${PYTHON} ${SCRIPTDIR}/build.py $< ${VERSION} $@
+	${PYTHON} -m fontmake $< \
+			      --output-path=$@ \
+			      --output=ttf \
+			      --verbose=WARNING \
+			      --flatten-components \
+			      --filter ... \
+			      --filter DecomposeTransformedComponentsFilter \
+			      --filter "alifTools.filters::ClearPlaceholdersFilter()" \
+			      --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
 
 ${SVG}: ${FONT}
 	$(info   SVG    ${@F})
@@ -66,4 +72,4 @@ dist: ${FONT}
 	zip -rq ${DIST}.zip ${DIST}
 
 clean:
-	rm -rf ${BUILDDIR} ${FONT} ${SVG} ${DIST} ${DIST}.zip
+	rm -rf ${FONT} ${SVG} ${DIST} ${DIST}.zip
