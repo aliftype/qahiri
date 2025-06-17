@@ -484,7 +484,7 @@ def prepare(font, isTTF):
 
     font.glyphOrder = [".notdef"]
     for glyph in font.glyphs:
-        if glyph.category in ("Placeholder", "Temporary"):
+        if glyph.category == "Placeholder":
             end.append(glyph.name)
             for layer in glyph.layers:
                 layer.width = font.upm

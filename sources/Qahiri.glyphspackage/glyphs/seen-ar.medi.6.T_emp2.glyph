@@ -1,5 +1,5 @@
 {
-category = Temporary;
+category = Placeholder;
 color = 0;
 glyphname = "seen-ar.medi.6.Temp2";
 layers = (
@@ -8,5 +8,5 @@ layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 width = 750;
 }
 );
-subCategory = "2";
+subCategory = Temporary;
 }

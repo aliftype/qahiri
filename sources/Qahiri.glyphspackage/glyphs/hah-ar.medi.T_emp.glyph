@@ -1,5 +1,5 @@
 {
-category = Temporary;
+category = Placeholder;
 color = 0;
 glyphname = "hah-ar.medi.Temp";
 layers = (
@@ -10,5 +10,5 @@ width = 750;
 );
 sortName = ar0342.0.Temp;
 sortNameKeep = ar0342.Temp;
-subCategory = "1";
+subCategory = Temporary;
 }

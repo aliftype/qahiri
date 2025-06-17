@@ -53,7 +53,7 @@ hah-ar.medi.2.Temp
 name = HahAltTemp;
 },
 {
-code = "$[name LIKE \"*.medi*\" AND category != \"Temporary\"] kashida-ar
+code = "$[name LIKE \"*.medi*\" AND category != \"Placeholder\"] kashida-ar
 ";
 name = AllMedi;
 },
@@ -513,7 +513,7 @@ lookupflag UseMarkFilteringSet @TwoDotsAbove;
 lookupflag UseMarkFilteringSet @DotsBelow;
   ignore sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1]' @DotsBelow' [behDotless-ar.medi lam-ar.medi]' alefMaksura-ar.fina';
   sub [behDotless-ar.medi lam-ar.medi]' lookup ToothYeh alefMaksura-ar.fina' lookup ToothYeh;
-  sub [$[name LIKE \"behDotless-ar.medi*\" AND category != \"Temporary\"] hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
+  sub [$[name LIKE \"behDotless-ar.medi*\" AND category != \"Placeholder\"] hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
 
 lookupflag UseMarkFilteringSet @TwoDotsBelow;
   sub [behDotless-ar.init behDotless-ar.medi] @TwoDotsBelow' [reh-ar.fina reh-ar.fina.1] by @TwoDotsVerticalBelow;
