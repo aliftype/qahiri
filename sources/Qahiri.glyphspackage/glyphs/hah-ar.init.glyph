@@ -39,6 +39,44 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(319,0,l),
+(360,70,l),
+(223,70,ls),
+(165,70,o),
+(104,135,o),
+(43,210,c),
+(0,140,l),
+(19,112,o),
+(47,83,o),
+(62,70,c),
+(-20,70,l),
+(-20,0,l)
+);
+}
+);
+width = 400;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (170,-35);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (269,163);
+}
+);
+associatedMasterId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+layerId = "43B1EDBD-88F8-47A9-A06F-5977BE6D9977";
+name = "17 Jun 25 at 19:08";
+shapes = (
+{
+closed = 1;
+nodes = (
 (223,50,l),
 (223,70,l),
 (165,70,o),
