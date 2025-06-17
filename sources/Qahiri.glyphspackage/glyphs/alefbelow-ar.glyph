@@ -1,0 +1,31 @@
+{
+glyphname = "alefbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (99,0);
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+closed = 1;
+nodes = (
+(142,-135,o),
+(132,-92,o),
+(114,-50,c),
+(94,-58,l),
+(114,-99,o),
+(126,-139,o),
+(131,-180,c),
+(144,-177,l)
+);
+}
+);
+width = 200;
+}
+);
+unicode = 1622;
+}

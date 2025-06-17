@@ -1,0 +1,36 @@
+{
+glyphname = "kasratan-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (99,0);
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+closed = 1;
+nodes = (
+(165,-121,l),
+(161,-100,l),
+(35,-138,l),
+(38,-151,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(165,-71,l),
+(161,-50,l),
+(35,-97,l),
+(38,-110,l)
+);
+}
+);
+width = 200;
+}
+);
+unicode = 1613;
+}

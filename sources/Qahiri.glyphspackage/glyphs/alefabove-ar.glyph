@@ -1,0 +1,31 @@
+{
+glyphname = "alefabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (120,400);
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+closed = 1;
+nodes = (
+(123,496,o),
+(113,539,o),
+(95,581,c),
+(75,573,l),
+(95,532,o),
+(107,492,o),
+(112,451,c),
+(125,454,l)
+);
+}
+);
+width = 200;
+}
+);
+unicode = 1648;
+}

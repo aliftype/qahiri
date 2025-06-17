@@ -2,6 +2,16 @@
 glyphname = "lam-ar.medi.lellah";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (40,-35);
+},
+{
+name = top;
+pos = (40,509);
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 shapes = (
 {

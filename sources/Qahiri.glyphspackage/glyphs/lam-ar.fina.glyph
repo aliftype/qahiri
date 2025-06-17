@@ -3,6 +3,16 @@ glyphname = "lam-ar.fina";
 kernLeft = bowel;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (18,-285);
+},
+{
+name = top;
+pos = (110,569);
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 shapes = (
 {

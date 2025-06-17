@@ -4,6 +4,16 @@ kernLeft = dal;
 kernRight = waw;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (190,-35);
+},
+{
+name = top;
+pos = (300,255);
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 shapes = (
 {

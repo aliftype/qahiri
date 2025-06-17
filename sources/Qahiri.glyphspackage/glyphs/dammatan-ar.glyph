@@ -1,0 +1,27 @@
+{
+glyphname = "dammatan-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (100,400);
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+pos = (11,0);
+ref = "damma-ar";
+},
+{
+angle = 180;
+pos = (189,1014);
+ref = "damma-ar";
+}
+);
+width = 200;
+}
+);
+unicode = 1612;
+}

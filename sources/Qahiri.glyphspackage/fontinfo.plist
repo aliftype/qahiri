@@ -650,9 +650,6 @@ guides = (
 pos = (319,220);
 },
 {
-pos = (319,180);
-},
-{
 pos = (319,259);
 }
 );
@@ -685,6 +682,15 @@ stemValues = (
 70,
 80
 );
+userData = {
+GSCornerRadius = 15;
+GSOffsetHorizontal = 10;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 0.7;
+GSOffsetProportional = 1;
+GSOffsetVertical = 10;
+};
+visible = 1;
 }
 );
 instances = (

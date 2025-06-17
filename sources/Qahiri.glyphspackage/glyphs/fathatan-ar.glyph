@@ -1,0 +1,36 @@
+{
+glyphname = "fathatan-ar";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (100,400);
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+closed = 1;
+nodes = (
+(165,480,l),
+(161,501,l),
+(35,463,l),
+(38,450,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(165,530,l),
+(161,551,l),
+(35,504,l),
+(38,491,l)
+);
+}
+);
+width = 200;
+}
+);
+unicode = 1611;
+}

@@ -2,6 +2,16 @@
 glyphname = "heh-ar.isol";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (150,-35);
+},
+{
+name = top;
+pos = (150,336);
+}
+);
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 shapes = (
 {

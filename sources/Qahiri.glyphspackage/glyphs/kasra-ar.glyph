@@ -1,0 +1,27 @@
+{
+glyphname = "kasra-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (99,0);
+}
+);
+layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
+shapes = (
+{
+closed = 1;
+nodes = (
+(165,-71,l),
+(161,-50,l),
+(35,-88,l),
+(38,-101,l)
+);
+}
+);
+width = 200;
+}
+);
+unicode = 1616;
+}
