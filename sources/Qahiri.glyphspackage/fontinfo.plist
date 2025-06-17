@@ -519,19 +519,37 @@ tag = salt;
 {
 code = "@TwoDotsAbove = [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1];
 lookupflag UseMarkFilteringSet @TwoDotsAbove;
-  sub [heh-ar.fina.2 heh-ar.2] [twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1]' by [twodotsverticalabove-ar twodotsverticalabove-ar.alt1];
+	sub	[heh-ar.fina.2 heh-ar.2]
+		[twodotshorizontalabove-ar twodotshorizontalabove-ar.alt1]'
+	by	[twodotsverticalabove-ar twodotsverticalabove-ar.alt1]
+	;
 
 lookupflag UseMarkFilteringSet @DotsBelow;
-  ignore sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1]' @DotsBelow' [behDotless-ar.medi lam-ar.medi]' alefMaksura-ar.fina';
-  sub [behDotless-ar.medi lam-ar.medi]' lookup ToothYeh alefMaksura-ar.fina' lookup ToothYeh;
-  sub [$[name LIKE \"behDotless-ar.medi*\" AND category != \"Placeholder\"] hah-ar.medi]' lookup InsertKashida @DotsBelow [hah-ar.medi hah-ar.fina];
+	ignore
+	sub	[behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1]'
+		 @DotsBelow'
+		[behDotless-ar.medi lam-ar.medi]'
+		 alefMaksura-ar.fina'
+	;
+	sub	[behDotless-ar.medi lam-ar.medi]' lookup ToothYeh
+		 alefMaksura-ar.fina' lookup ToothYeh
+	;
+	sub	[$[name LIKE \"behDotless-ar.medi*\" AND category != \"Placeholder\"] hah-ar.medi]' lookup InsertKashida
+		 @DotsBelow
+		[hah-ar.medi hah-ar.fina]
+	;
 
 lookupflag UseMarkFilteringSet @TwoDotsBelow;
-  sub [behDotless-ar.init behDotless-ar.medi] @TwoDotsBelow' [reh-ar.fina reh-ar.fina.1] by @TwoDotsVerticalBelow;
+	sub	[behDotless-ar.init behDotless-ar.medi]
+		 @TwoDotsBelow'
+		[reh-ar.fina reh-ar.fina.1]
+	by	@TwoDotsVerticalBelow
+	;
 
 lookupflag IgnoreMarks;
-  sub [behDotless-ar.init.hah lam-ar.init.hah]' lookup AboveHahReverse
-      [hah-ar.medi.3 hah-ar.fina.1]'            lookup AboveHahReverse;
+	sub	[behDotless-ar.init.hah lam-ar.init.hah]' lookup AboveHahReverse
+		[hah-ar.medi.3 hah-ar.fina.1]'            lookup AboveHahReverse
+	;
 
 # Mark first level.
 lookup Temp1 { rsub @AllMedi'     [@HahAlt @AllMediTemp]      by @AllMediTemp;  } Temp1;
