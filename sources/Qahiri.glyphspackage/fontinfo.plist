@@ -46,7 +46,6 @@ hah-ar.fina
 name = HahAlt;
 },
 {
-automatic = 1;
 code = "hah-ar.medi.Temp
 hah-ar.medi.1.Temp
 hah-ar.medi.2.Temp
@@ -60,13 +59,11 @@ code = "$[name LIKE \"*.medi*\" AND category != \"Temporary\"] kashida-ar
 name = AllMedi;
 },
 {
-automatic = 1;
 code = "$[name LIKE \"*.medi*.Temp\"] kashida-ar.Temp
 ";
 name = AllMediTemp;
 },
 {
-automatic = 1;
 code = "$[name LIKE \"*.medi*.Temp2\"] kashida-ar.Temp2
 ";
 name = AllMediTemp2;
