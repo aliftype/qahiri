@@ -9,7 +9,11 @@ pos = (200,-34);
 },
 {
 name = top;
-pos = (359,163);
+pos = (133,246);
+},
+{
+name = top.alt;
+pos = (91,194);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";

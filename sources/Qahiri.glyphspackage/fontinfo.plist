@@ -599,6 +599,12 @@ lookupflag UseMarkFilteringSet @DotsBelow;
 		 @DotsBelow' <0 -110 0 0>
 		[hah-ar.medi hah-ar.fina]
 	;
+
+lookupflag UseMarkFilteringSet [dotabove-ar];
+ 	pos	[hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.init hah-ar.init.1 hah-ar.init.2]
+		 dotabove-ar' <7 0 0 0>
+		[alef-ar.fina lam-ar.medi lam-ar.medi.short lam-ar.medi.short2 lam-ar.medi.yeh lam-ar.fina]
+	;
 ";
 tag = mark;
 },

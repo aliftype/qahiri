@@ -7,6 +7,10 @@ anchors = (
 {
 name = top;
 pos = (180,290);
+},
+{
+name = top.alt;
+pos = (79,193);
 }
 );
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
