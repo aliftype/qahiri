@@ -163,11 +163,7 @@ lookup ToothYeh {
 } ToothYeh;
 
 lookup InsertKashida {
-  sub behDotless-ar.medi by behDotless-ar.medi kashida-ar;
-  sub behDotless-ar.medi.1 by behDotless-ar.medi.1 kashida-ar;
-  sub behDotless-ar.medi.high by behDotless-ar.medi.high kashida-ar;
-  sub behDotless-ar.medi.high.1 by behDotless-ar.medi.high.1 kashida-ar;
-  sub hah-ar.medi by hah-ar.medi kashida-ar;
+  sub [@DotsBelow kasra-ar kasratan-ar] by [@DotsBelow kasra-ar kasratan-ar] kashida-ar.half;
 } InsertKashida;
 ";
 name = Lookups;
@@ -524,19 +520,19 @@ lookupflag UseMarkFilteringSet @TwoDotsAbove;
 	by	[twodotsverticalabove-ar twodotsverticalabove-ar.alt1]
 	;
 
-lookupflag UseMarkFilteringSet @DotsBelow;
+lookupflag UseMarkFilteringSet [@DotsBelow kasra-ar kasratan-ar];
 	ignore
-	sub	[behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.1 behDotless-ar.medi.high behDotless-ar.medi.high.1]'
-		 @DotsBelow'
+	sub	[behDotless-ar.init $[name LIKE \"behDotless-ar.medi*\" AND category != \"Placeholder\"]]'
+		[@DotsBelow kasra-ar kasratan-ar]'
 		[behDotless-ar.medi lam-ar.medi]'
 		 alefMaksura-ar.fina'
 	;
 	sub	[behDotless-ar.medi lam-ar.medi]' lookup ToothYeh
 		 alefMaksura-ar.fina' lookup ToothYeh
 	;
-	sub	[$[name LIKE \"behDotless-ar.medi*\" AND category != \"Placeholder\"] hah-ar.medi]' lookup InsertKashida
-		 @DotsBelow
-		[hah-ar.medi hah-ar.fina]
+	sub	[$[name LIKE \"behDotless-ar.medi*\" AND category != \"Placeholder\"] $[name LIKE \"lam-ar.medi*\" AND category != \"Placeholder\"] hah-ar.medi]
+		[@DotsBelow kasra-ar kasratan-ar]' lookup InsertKashida
+		[hah-ar.medi hah-ar.fina alefMaksura-ar.fina]
 	;
 
 lookupflag UseMarkFilteringSet @TwoDotsBelow;
@@ -611,8 +607,8 @@ lookupflag UseMarkFilteringSet @DotsBelow;
 	;
 
 	pos	[behDotless-ar.medi hah-ar.init hah-ar.medi]
-		 kashida-ar
 		 @DotsBelow' <0 -110 0 0>
+		 kashida-ar.half
 		[hah-ar.medi hah-ar.fina]
 	;
 
