@@ -1,5 +1,5 @@
 {
-.appVersion = "3414";
+.appVersion = "3428";
 .formatVersion = 3;
 axes = (
 {
@@ -968,12 +968,16 @@ values = (
 {
 language = ENG;
 value = "Khaled Hosny";
+},
+{
+language = ARA;
+value = "خالد حسني";
 }
 );
 },
 {
 key = designerURL;
-value = "https://aliftype.com";
+value = "https://khaledhosny.com";
 },
 {
 key = licenses;
@@ -994,6 +998,10 @@ values = (
 {
 language = ENG;
 value = "Alif Type";
+},
+{
+language = ARA;
+value = "حروف ألف";
 }
 );
 },
