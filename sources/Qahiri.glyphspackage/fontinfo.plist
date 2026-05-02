@@ -122,6 +122,10 @@ data = Arab;
 tag = slng;
 }
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2020-03-17 04:09:41 +0000";
