@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "yeh-farsi";
 layers = (
 {
@@ -13,5 +12,6 @@ ref = "alefMaksura-ar";
 width = 247;
 }
 );
+subCategory = Base;
 unicode = 1740;
 }

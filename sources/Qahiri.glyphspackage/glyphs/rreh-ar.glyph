@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "rreh-ar";
 layers = (
 {
@@ -17,5 +16,6 @@ ref = "tahabove-ar";
 width = 400;
 }
 );
+subCategory = Base;
 unicode = 1681;
 }

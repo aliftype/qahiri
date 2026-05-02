@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "peh-ar";
 layers = (
 {
@@ -17,5 +16,6 @@ ref = "threedotsdownbelow-ar";
 width = 600;
 }
 );
+subCategory = Base;
 unicode = 1662;
 }

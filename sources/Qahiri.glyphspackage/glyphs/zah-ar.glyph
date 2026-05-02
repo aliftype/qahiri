@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "zah-ar";
 layers = (
 {
@@ -17,5 +16,6 @@ ref = "dotabove-ar";
 width = 750;
 }
 );
+subCategory = Base;
 unicode = 1592;
 }

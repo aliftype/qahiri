@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "tcheh-ar";
 layers = (
 {
@@ -17,5 +16,6 @@ ref = "threedotsdownbelow-ar";
 width = 640;
 }
 );
+subCategory = Base;
 unicode = 1670;
 }

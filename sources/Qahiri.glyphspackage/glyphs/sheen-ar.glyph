@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "sheen-ar";
 layers = (
 {
@@ -17,5 +16,6 @@ ref = "threedotsupabove-ar";
 width = 430;
 }
 );
+subCategory = Base;
 unicode = 1588;
 }

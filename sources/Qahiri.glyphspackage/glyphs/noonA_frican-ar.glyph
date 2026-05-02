@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "noonAfrican-ar";
 layers = (
 {
@@ -13,5 +12,6 @@ ref = "noonghunna-ar";
 width = 190;
 }
 );
+subCategory = Base;
 unicode = 2237;
 }

@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "feh-ar";
 layers = (
 {
@@ -17,5 +16,6 @@ ref = "dotabove-ar";
 width = 613;
 }
 );
+subCategory = Base;
 unicode = 1601;
 }

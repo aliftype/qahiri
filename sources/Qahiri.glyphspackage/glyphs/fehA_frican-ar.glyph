@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "fehAfrican-ar";
 layers = (
 {
@@ -13,5 +12,6 @@ ref = "fehDotless-ar";
 width = 613;
 }
 );
+subCategory = Base;
 unicode = 2235;
 }

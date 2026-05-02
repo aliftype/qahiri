@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "alefMadda-ar";
 layers = (
 {
@@ -17,5 +16,6 @@ ref = "madda-ar";
 width = 360;
 }
 );
+subCategory = Base;
 unicode = 1570;
 }

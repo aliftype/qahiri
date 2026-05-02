@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "alefWasla-ar";
 layers = (
 {
@@ -13,5 +12,6 @@ ref = "alef-ar";
 width = 360;
 }
 );
+subCategory = Base;
 unicode = 1649;
 }
