@@ -1,12 +1,6 @@
 {
 .appVersion = "3436";
 .formatVersion = 3;
-axes = (
-{
-name = Weight;
-tag = wght;
-}
-);
 classes = (
 {
 code = "$[name LIKE \"*dot*-ar\"]
@@ -642,9 +636,6 @@ tag = kern;
 );
 fontMaster = (
 {
-axesValues = (
-100
-);
 customParameters = (
 {
 name = typoLineGap;
@@ -709,9 +700,6 @@ visible = 1;
 );
 instances = (
 {
-axesValues = (
-100
-);
 instanceInterpolations = {
 "67aa4fb0-543e-4232-8202-ade6a11e0795" = 1;
 };
