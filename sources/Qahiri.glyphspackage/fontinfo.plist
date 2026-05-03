@@ -227,6 +227,7 @@ code = "  sub ain-ar         by ain-ar.init;
   sub hah-ar         by hah-ar.init;
   sub heh-ar         by heh-ar.init;
   sub hehgoal-ar     by heh-ar.init;
+  sub hehDoachashmee-ar	by heh-ar.init.2;
   sub kaf-ar         by kaf-ar.init;
   sub lam-ar         by lam-ar.init;
   sub meem-ar        by meem-ar.init;
@@ -251,6 +252,7 @@ code = "  sub ain-ar         by ain-ar.medi;
   sub hah-ar         by hah-ar.medi;
   sub heh-ar         by heh-ar.medi;
   sub hehgoal-ar     by heh-ar.medi;
+  sub hehDoachashmee-ar	by heh-ar.medi.2;
   sub kaf-ar         by kaf-ar.medi;
   sub lam-ar         by lam-ar.medi;
   sub meem-ar        by meem-ar.medi;
@@ -278,6 +280,7 @@ code = "  sub ain-ar         by ain-ar.fina;
   sub hah-ar         by hah-ar.fina;
   sub heh-ar         by heh-ar.fina;
   sub hehgoal-ar     by heh-ar.fina;
+  sub hehDoachashmee-ar	by heh-ar.medi.2;
   sub ae-ar          by heh-ar.fina;
   sub kaf-ar         by kaf-ar.fina;
   sub lam-ar         by lam-ar.fina;
@@ -310,7 +313,8 @@ lookup heh_isol {
   lookupflag UseMarkFilteringSet [space];
     ignore sub @ArabicLetters heh-ar';
     sub heh-ar' by heh-ar.isol;
-} heh_isol;";
+} heh_isol;
+";
 tag = rlig;
 },
 {

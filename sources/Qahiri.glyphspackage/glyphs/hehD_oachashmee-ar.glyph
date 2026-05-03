@@ -1,17 +1,15 @@
 {
-category = Placeholder;
 glyphname = "hehDoachashmee-ar";
 layers = (
 {
 layerId = "67aa4fb0-543e-4232-8202-ade6a11e0795";
 shapes = (
 {
-ref = "heh-ar.init";
+ref = "heh-ar.init.2";
 }
 );
 width = 240;
 }
 );
-subCategory = Base;
 unicode = 1726;
 }
