@@ -66,9 +66,9 @@ ${SVG}: ${FONT}
 
 dist: ${FONT}
 	$(info   DIST   ${DIST}.zip)
-	install -Dm644 -t ${DIST} ${FONT}
 	install -Dm644 -t ${DIST} {README,README-Arabic}.md
 	install -Dm644 -t ${DIST} OFL.txt
+	${PYTHON} -m alifTools.glyphNames --output ${DIST}/$(notdir ${FONT}) ${FONT}
 	zip -rq ${DIST}.zip ${DIST}
 
 clean:

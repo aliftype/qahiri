@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-aliftools[filters,sample]==0.1.8
+aliftools[filters,sample]==0.1.9
     # via -r requirements.in
 attrs==26.1.0
     # via ufolib2
